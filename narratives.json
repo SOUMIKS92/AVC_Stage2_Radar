@@ -21,7 +21,17 @@
     "Q4 2025 earnings (Jan 2026) — Catania ramp commentary",
     "Investor Day March 2026 — 2026 revenue guidance update",
     "Apple supplier disclosure cycle (May 2026)"
-   ]
+   ],
+   "statement": "STMicroelectronics is breaking out as European auto-semi pricing inflects and the company's silicon-carbide (SiC) MOSFET wafer ramp at Catania crosses commercial scale.",
+   "conviction": "High",
+   "target": {
+    "bear": 46.43,
+    "base": 85.21,
+    "bull": 155.79,
+    "base_upside_pct": 35.65,
+    "bull_upside_pct": 147.99
+   },
+   "falsifier": "SiC pricing pressure from TankeBlue/SICC compresses gross margins"
   }
  },
  "SNDK": {
@@ -46,7 +56,17 @@
     "Q1 2026 earnings — pricing trajectory commentary",
     "Samsung HBM3E qualification timing at NVIDIA",
     "Hyperscaler capex guidance updates Q4-Q1"
-   ]
+   ],
+   "statement": "Sandisk's post-spinoff identity as a pure-play NAND/SSD operator is paying off as enterprise SSD pricing rises sharply and HDD-to-SSD substitution accelerates in data centers.",
+   "conviction": "High",
+   "target": {
+    "bear": 894.75,
+    "base": 1691.61,
+    "bull": 3472.14,
+    "base_upside_pct": 8.48,
+    "bull_upside_pct": 122.67
+   },
+   "falsifier": "NAND is most cyclical memory segment — single hyperscaler pause hits hard"
   }
  },
  "DOCN": {
@@ -71,7 +91,17 @@
     "Q1 2026 earnings — net new ARR commentary",
     "Vector DB + managed inference adoption metrics",
     "NVIDIA H200 supply normalization timing"
-   ]
+   ],
+   "statement": "DigitalOcean is breaking out as small/mid-market AI adoption finally inflects — its GPU droplet product is fully booked and margin profile is recovering after 18 months of compressed gross margins from AI capex.",
+   "conviction": "High",
+   "target": {
+    "bear": 93.03,
+    "base": 148.16,
+    "bull": 232.17,
+    "base_upside_pct": -12.78,
+    "bull_upside_pct": 36.68
+   },
+   "falsifier": "Competing vs trillion-dollar hyperscalers on price"
   }
  },
  "NOD.OL": {
@@ -96,7 +126,17 @@
     "Q4 2025 earnings — wearables ASP trajectory",
     "Apple WWDC June 2026 — VR/AR product cycle confirmation",
     "Cellular IoT design-win disclosures"
-   ]
+   ],
+   "statement": "Nordic Semiconductor is breaking out on a clear inflection in Bluetooth Low Energy + Wi-Fi 6 chip demand for wearables, hearables, and smart-home, plus first revenue from cellular IoT (nRF91 series).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 117.17,
+    "base": 165.21,
+    "bull": 227.94,
+    "base_upside_pct": -14.49,
+    "bull_upside_pct": 17.98
+   },
+   "falsifier": "Wearables consumer-cyclical — weak holiday hits fast"
   }
  },
  "MU": {
@@ -121,7 +161,17 @@
     "Q2 FY26 earnings (March 2026) — pricing + HBM mix",
     "NVIDIA Blackwell Ultra launch timing",
     "Samsung HBM3E qualification announcement"
-   ]
+   ],
+   "statement": "Micron is breaking back to highs as HBM3E and HBM4 ramp ahead of plan, and DRAM contract prices for 2026 have already been locked higher than sell-side models assumed.",
+   "conviction": "High",
+   "target": {
+    "bear": 482.42,
+    "base": 1126.66,
+    "bull": 2480.67,
+    "base_upside_pct": 30.4,
+    "bull_upside_pct": 187.11
+   },
+   "falsifier": "Memory cycles deeply cyclical — hyperscaler pause hits 2H"
   }
  },
  "AMD": {
@@ -146,7 +196,17 @@
     "Q4 2025 earnings (early Feb 2026) — MI350 ramp + data-center segment",
     "Computex / GTC keynote calendar",
     "Hyperscaler capex guidance for 2026"
-   ]
+   ],
+   "statement": "AMD is breaking out as the MI350/MI400 GPU roadmap regains credibility — large hyperscaler wins (Oracle, Meta) are now flowing into the order book, and the gap to NVIDIA's CUDA ecosystem is narrowing as ROCm matures.",
+   "conviction": "High",
+   "target": {
+    "bear": 203.39,
+    "base": 358.67,
+    "bull": 573.39,
+    "base_upside_pct": -23.09,
+    "bull_upside_pct": 22.95
+   },
+   "falsifier": "NVIDIA Rubin/Blackwell Ultra raises bar relentlessly"
   }
  },
  "DELL": {
@@ -171,7 +231,17 @@
     "Q4 FY26 earnings (Feb 2026) — backlog + margin commentary",
     "NVIDIA GB200/B300 GA timing",
     "CES 2026 AI-PC product launches"
-   ]
+   ],
+   "statement": "Dell is breaking out as AI server backlog reaches record levels and ISG (Infrastructure Solutions) margin expansion finally arrives.",
+   "conviction": "High",
+   "target": {
+    "bear": 376.03,
+    "base": 687.34,
+    "bull": 1231.71,
+    "base_upside_pct": 74.28,
+    "bull_upside_pct": 212.31
+   },
+   "falsifier": "AI server gross margins structurally lower than legacy ISG"
   }
  },
  "BESI.AS": {
@@ -196,7 +266,17 @@
     "Q4 2025 earnings (Feb 2026) — 2026 capex guide",
     "TSMC capex announcements",
     "Samsung packaging tech strategy updates"
-   ]
+   ],
+   "statement": "BE Semiconductor (BESI) is breaking out as hybrid-bonding tool orders accelerate — this is the assembly tech that enables HBM4 stacking and advanced 3D packaging.",
+   "conviction": "Low",
+   "target": {
+    "bear": 107.68,
+    "base": 181.42,
+    "bull": 291.53,
+    "base_upside_pct": -33.15,
+    "bull_upside_pct": 7.42
+   },
+   "falsifier": "TSMC capex push-out moves stock 15%+ per single decision"
   }
  },
  "STX": {
@@ -221,7 +301,17 @@
     "Q3 FY26 earnings (Jan 2026) — HAMR exabyte mix",
     "Hyperscaler 2026 capex commentary",
     "WDC HAMR catch-up timing"
-   ]
+   ],
+   "statement": "Seagate is breaking out as nearline HDD pricing rises for the fifth consecutive quarter — exabytes shipped to hyperscalers are growing and HAMR (heat-assisted magnetic recording) drives are now in vol",
+   "conviction": "High",
+   "target": {
+    "bear": 483.79,
+    "base": 786.02,
+    "bull": 1305.88,
+    "base_upside_pct": -7.25,
+    "bull_upside_pct": 54.09
+   },
+   "falsifier": "QLC NAND pricing collapse re-opens HDD substitution"
   }
  },
  "PRY.MI": {
@@ -246,7 +336,17 @@
     "FY 2025 earnings (March 2026) — backlog + EBITDA guide",
     "Encore Wire synergy update",
     "Major HVDC tender awards H1 2026"
-   ]
+   ],
+   "statement": "Prysmian is breaking out as the global HV cable backlog reaches record levels — grid build-out, offshore wind interconnects, and US transmission upgrades are all hitting simultaneously.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 99.65,
+    "base": 144.5,
+    "bull": 208.3,
+    "base_upside_pct": -0.59,
+    "bull_upside_pct": 43.31
+   },
+   "falsifier": "Copper price spikes compress margins with lag"
   }
  },
  "FLEX": {
@@ -271,7 +371,17 @@
     "Q3 FY26 earnings (Jan 2026) — power/cooling mix",
     "Hyperscaler liquid cooling rollout disclosures",
     "Nextracker IPO performance"
-   ]
+   ],
+   "statement": "Flex (EMS) is breaking out as Nextracker spin/sell value crystallizes and the core EMS business pivots into higher-margin AI/data-center power and liquid-cooling sub-systems.",
+   "conviction": "High",
+   "target": {
+    "bear": 117.86,
+    "base": 208.05,
+    "bull": 358.19,
+    "base_upside_pct": 36.95,
+    "bull_upside_pct": 135.78
+   },
+   "falsifier": "EMS structurally low-margin"
   }
  },
  "COHR": {
@@ -296,7 +406,17 @@
     "Q2 FY26 earnings (Feb 2026) — networking segment commentary",
     "NVIDIA Spectrum-X adoption updates",
     "800G/1.6T adoption rate at hyperscalers"
-   ]
+   ],
+   "statement": "Coherent is breaking out as datacom transceiver demand (800G, 1.6T) accelerates with hyperscaler GPU cluster builds and the company's vertical integration (in-house InP fabs) becomes a moat as competitors run short on supply.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 180.42,
+    "base": 304.9,
+    "bull": 494.28,
+    "base_upside_pct": -19.12,
+    "bull_upside_pct": 31.11
+   },
+   "falsifier": "Chinese transceiver pricing pressure (Innolight, Eoptolink)"
   }
  },
  "WDC": {
@@ -321,7 +441,17 @@
     "Q2 FY26 earnings (Jan 2026) — HAMR ramp progress",
     "Hyperscaler 2026 storage capex guidance",
     "HAMR competitive positioning vs STX"
-   ]
+   ],
+   "statement": "Western Digital is breaking out post-NAND separation (which became Sandisk) — pure-play HDD operator with HAMR drives ramping and pricing rising.",
+   "conviction": "High",
+   "target": {
+    "bear": 329.82,
+    "base": 529.65,
+    "bull": 885.12,
+    "base_upside_pct": 3.5,
+    "bull_upside_pct": 72.97
+   },
+   "falsifier": "Trails STX on HAMR rollout — execution risk"
   }
  },
  "TTMI": {
@@ -346,7 +476,17 @@
     "Q4 2025 earnings (Feb 2026) — defense backlog + mix",
     "FY27 defense budget signals",
     "Major AI server platform PCB design wins"
-   ]
+   ],
+   "statement": "TTM Technologies is breaking out as defense PCB demand surges (multi-year backlog from F-35, Patriot, Aegis upgrade programs) plus commercial AI server PCB orders accelerating.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 133.47,
+    "base": 184.9,
+    "bull": 291.08,
+    "base_upside_pct": 10.31,
+    "bull_upside_pct": 73.66
+   },
+   "falsifier": "Commercial AI server volume slowdown hits margin mix"
   }
  },
  "CIEN": {
@@ -371,7 +511,17 @@
     "Q1 FY26 earnings (March 2026) — DCI bookings",
     "Cisco Acacia roadmap updates",
     "Major hyperscaler optical refresh wins"
-   ]
+   ],
+   "statement": "Ciena is breaking out as cloud DCI (data-center interconnect) orders accelerate with hyperscaler east-west bandwidth needs and the company's WaveLogic 6 optical engine wins the next-gen 800ZR+ socket",
+   "conviction": "High",
+   "target": {
+    "bear": 196.49,
+    "base": 359.98,
+    "bull": 561.73,
+    "base_upside_pct": -26.27,
+    "bull_upside_pct": 15.06
+   },
+   "falsifier": "Cisco + Acacia + Nokia create real price pressure"
   }
  },
  "SUBC.OL": {
@@ -396,7 +546,17 @@
     "Q4 2025 earnings (Feb 2026) — backlog quality + margin guide",
     "Major Brazilian/Guyanese FID announcements",
     "Petrobras 2026 capex plan"
-   ]
+   ],
+   "statement": "Subsea 7 is breaking out as offshore oilfield services pricing finally turns and the company's record backlog (≈$10B+) translates into visible margin expansion through 2027.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 266.75,
+    "base": 330.89,
+    "bull": 398.43,
+    "base_upside_pct": 0.7,
+    "bull_upside_pct": 21.25
+   },
+   "falsifier": "Brent below $60 sustained freezes FID approvals"
   }
  },
  "ON": {
@@ -421,7 +581,17 @@
     "Q4 2025 earnings (Feb 2026) — SiC backlog + auto inventory",
     "Tier-1 customer SiC announcements",
     "Tower fab consolidation milestones"
-   ]
+   ],
+   "statement": "ON Semiconductor is breaking out as the auto SiC inventory correction ends and the company's intelligent power and sensing portfolio sees strong design-win momentum from Chinese EV OEMs and European Tier-1s.",
+   "conviction": "High",
+   "target": {
+    "bear": 91.16,
+    "base": 157.89,
+    "bull": 287.31,
+    "base_upside_pct": 34.65,
+    "bull_upside_pct": 145.02
+   },
+   "falsifier": "Auto OEM build-rate volatility hits ON faster than peers"
   }
  },
  "STRL": {
@@ -446,7 +616,17 @@
     "Q4 2025 earnings (March 2026) — backlog disclosure",
     "Major hyperscaler campus groundbreaking announcements",
     "Texas data-center grid interconnect milestones"
-   ]
+   ],
+   "statement": "Sterling Infrastructure is breaking out as data-center site preparation backlog reaches record levels and the company's e-infrastructure segment becomes the dominant profit pool.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 647.75,
+    "base": 742.03,
+    "bull": 853.63,
+    "base_upside_pct": -15.91,
+    "bull_upside_pct": -3.26
+   },
+   "falsifier": "Fixed-price contracting — cost inflation erodes locked margins"
   }
  },
  "TGS.OL": {
@@ -496,7 +676,17 @@
     "Q2 FY26 earnings (Feb 2026) — Cloud Light + Apple commentary",
     "NVIDIA networking attach rate updates",
     "Apple iPhone 18 supply ramp"
-   ]
+   ],
+   "statement": "Lumentum is breaking out as datacom transceiver demand and the new EML laser business ramp at hyperscaler customers.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 494.76,
+    "base": 816.24,
+    "bull": 1116.67,
+    "base_upside_pct": -5.49,
+    "bull_upside_pct": 29.29
+   },
+   "falsifier": "Heavy NVIDIA concentration"
   }
  },
  "AJB.L": {
@@ -546,7 +736,17 @@
     "Q4 2025 earnings (Feb 2026) — Crinecerfont launch metrics",
     "Phase 3 muscarinic program data H1 2026",
     "CMS pricing decision cycle"
-   ]
+   ],
+   "statement": "Neurocrine Biosciences is breaking out as Crinecerfont (CAH program) and Ingrezza both meaningfully beat consensus on script volumes, and the pipeline credit (M1 muscarinic, schizophrenia program) is",
+   "conviction": "Medium",
+   "target": {
+    "bear": 116.33,
+    "base": 167.3,
+    "bull": 226.15,
+    "base_upside_pct": 2.09,
+    "bull_upside_pct": 38.0
+   },
+   "falsifier": "Ingrezza patent cliff mid-2030s — pipeline must deliver"
   }
  },
  "MTSI": {
@@ -571,7 +771,17 @@
     "Q1 FY26 earnings (Feb 2026) — Wolfspeed integration update",
     "FY27 defense budget",
     "Major hyperscaler optical RFP awards"
-   ]
+   ],
+   "statement": "MACOM is breaking out as defense radar and high-speed datacom orders both accelerate.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 179.72,
+    "base": 242.32,
+    "bull": 353.87,
+    "base_upside_pct": -29.84,
+    "bull_upside_pct": 2.45
+   },
+   "falsifier": "Wolfspeed RF integration cost early innings"
   }
  },
  "IGG.L": {
@@ -646,7 +856,17 @@
     "Q4 2025 earnings (Feb 2026) — revenue ramp signal",
     "NVIDIA Blackwell power architecture disclosures",
     "Major automotive design-win announcements"
-   ]
+   ],
+   "statement": "Vicor is breaking out as its second-generation factorized power architecture wins design slots in next-generation AI accelerator boards — power density per rack-unit is the binding constraint for NVID",
+   "conviction": "High",
+   "target": {
+    "bear": 186.79,
+    "base": 242.19,
+    "bull": 328.89,
+    "base_upside_pct": -10.64,
+    "bull_upside_pct": 21.34
+   },
+   "falsifier": "'Next year' story for half a decade — execution risk"
   }
  },
  "CAR": {
@@ -771,7 +991,17 @@
     "Q4 2025 earnings (Feb 2026) — advanced packaging revenue mix",
     "TSMC CoWoS expansion announcements",
     "Apple iPhone 17 production ramp"
-   ]
+   ],
+   "statement": "Amkor is breaking out as advanced packaging demand for AI accelerators ramps and the company's Vietnam facility comes online.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 57.2,
+    "base": 75.83,
+    "bull": 105.28,
+    "base_upside_pct": 16.75,
+    "bull_upside_pct": 62.09
+   },
+   "falsifier": "Customer concentration (Apple ~25%, hyperscalers)"
   }
  },
  "TWLO": {
@@ -796,7 +1026,17 @@
     "Q4 2025 earnings (Feb 2026) — net new ARR + margin commentary",
     "Voice AI product launch updates",
     "A2P pricing regulatory shifts"
-   ]
+   ],
+   "statement": "Twilio is breaking out as the AI-powered customer engagement platform thesis finally translates to revenue.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 109.58,
+    "base": 177.24,
+    "bull": 286.42,
+    "base_upside_pct": -21.57,
+    "bull_upside_pct": 26.74
+   },
+   "falsifier": "CPaaS faces real pricing pressure (Bandwidth, Sinch)"
   }
  },
  "VAR.OL": {
@@ -846,7 +1086,17 @@
     "Interim NAV updates monthly",
     "SpaceX/Stripe/Bytedance secondary pricing",
     "Major private holding IPO timing"
-   ]
+   ],
+   "statement": "Schiehallion Fund (the Baillie Gifford private-tech vehicle) is breaking out as portfolio mark-ups on private holdings catch up to public market re-rating.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 1.57,
+    "base": 1.75,
+    "bull": 1.92,
+    "base_upside_pct": -19.57,
+    "bull_upside_pct": -11.38
+   },
+   "falsifier": "NAV opaque — private mark subjectivity"
   }
  },
  "AKRBP.OL": {
@@ -896,7 +1146,17 @@
     "Q1 FY26 earnings (March 2026) — backlog + Juniper integration",
     "NVIDIA platform launches",
     "Major sovereign AI awards"
-   ]
+   ],
+   "statement": "Hewlett Packard Enterprise is breaking out as Cray-AI supercomputer orders accelerate from sovereign/hyperscale customers and the Juniper Networks acquisition closes (regulatory hurdle removed).",
+   "conviction": "High",
+   "target": {
+    "bear": 23.0,
+    "base": 60.77,
+    "bull": 80.0,
+    "base_upside_pct": 23.52,
+    "bull_upside_pct": 62.6
+   },
+   "falsifier": "Same hyperscaler-concentration risk as Dell"
   }
  },
  "LSCC": {
@@ -1046,7 +1306,17 @@
     "H1 trading update (Jan 2026) — gross profit growth",
     "UK macro inflection signals",
     "Microsoft/Cisco channel partner programs"
-   ]
+   ],
+   "statement": "Softcat is breaking out as UK IT-reseller demand normalizes post-2024 weakness and AI-related infrastructure refresh accelerates.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 1609.85,
+    "base": 2193.07,
+    "bull": 3116.79,
+    "base_upside_pct": 17.15,
+    "bull_upside_pct": 66.5
+   },
+   "falsifier": "UK SMB IT spending sensitive to UK macro"
   }
  },
  "MTZ": {
@@ -1171,7 +1441,17 @@
     "Q4 2025 earnings (Feb 2026) — segment normalization",
     "Semi book-to-bill ratios",
     "Major hyperscaler distribution agreements"
-   ]
+   ],
+   "statement": "Arrow Electronics is breaking out as electronic components distribution stabilizes after a brutal 2024 destocking cycle.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 165.0,
+    "base": 219.5,
+    "bull": 260.0,
+    "base_upside_pct": 0.19,
+    "bull_upside_pct": 18.67
+   },
+   "falsifier": "Distribution structurally low-margin"
   }
  },
  "HUM": {
@@ -1196,7 +1476,17 @@
     "Q4 2025 earnings (Feb 2026) — 2026 guidance + MLR commentary",
     "2027 CMS Advance Notice (April 2026)",
     "Star ratings September 2026"
-   ]
+   ],
+   "statement": "Humana is breaking out as the worst of the Medicare Advantage margin reset (driven by 2024 utilization spike) appears to be behind the company.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 219.0,
+    "base": 306.28,
+    "bull": 438.05,
+    "base_upside_pct": -12.51,
+    "bull_upside_pct": 25.13
+   },
+   "falsifier": "CMS reimbursement + risk adjustment political"
   }
  },
  "SNX": {
@@ -1221,7 +1511,17 @@
     "Q1 FY26 earnings (Jan 2026) — billings + AI server segment",
     "Major hyperscaler partnership announcements",
     "Tech Data integration milestones"
-   ]
+   ],
+   "statement": "TD Synnex is breaking out as the IT distribution cycle normalizes and AI-related infrastructure refresh accelerates.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 316.46,
+    "base": 425.7,
+    "bull": 621.71,
+    "base_upside_pct": 58.37,
+    "bull_upside_pct": 131.29
+   },
+   "falsifier": "Same distribution-margin risk as Arrow"
   }
  },
  "TCAP.L": {
@@ -1271,7 +1571,17 @@
     "Q2 2026 print (guide $1.24 EPS)",
     "NVIDIA Rubin launch detail (H2 2026)",
     "Hyperscaler capex commentary"
-   ]
+   ],
+   "statement": "SiTime is breaking out as its MEMS-based precision timing solutions become standard content on every NVIDIA Blackwell/Rubin AI server, pushing Q1 2026 revenue +88% YoY to $113.6M and prompting a guide",
+   "conviction": "Medium",
+   "target": {
+    "bear": 474.46,
+    "base": 560.26,
+    "bull": 692.54,
+    "base_upside_pct": -10.46,
+    "bull_upside_pct": 10.69
+   },
+   "falsifier": "Customer concentration risk - lead hyperscaler still ~50% of growth"
   }
  },
  "UMI.BR": {
@@ -1296,7 +1606,17 @@
     "H1 2026 results (July)",
     "Battery Materials strategic update",
     "PGM market moves"
-   ]
+   ],
+   "statement": "Umicore raised FY26 EBITDA guidance to ~EUR1.0B and lowered leverage outlook to <2x on stronger metal prices and Catalysis outperformance versus the global light-duty vehicle market.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 24.66,
+    "base": 33.71,
+    "bull": 44.24,
+    "base_upside_pct": 43.95,
+    "bull_upside_pct": 88.89
+   },
+   "falsifier": "Metal-price tailwind reversal"
   }
  },
  "MELE.BR": {
@@ -1321,7 +1641,17 @@
     "H1 print (late July)",
     "Tier-1 restock data",
     "China EV monthly volumes"
-   ]
+   ],
+   "statement": "Melexis Q1 sales of EUR202.1M came in soft with a 4ppt FX headwind, but mgmt held the FY26 EUR830-880M sales guide implying a stronger H2 ramp as Tier-1 inventories normalize and new EV/HEV design win",
+   "conviction": "Medium",
+   "target": {
+    "bear": 76.77,
+    "base": 130.48,
+    "bull": 237.61,
+    "base_upside_pct": 62.09,
+    "bull_upside_pct": 195.17
+   },
+   "falsifier": "H2 ramp is execution-risk; guide carries hair"
   }
  },
  "NTAP": {
@@ -1521,7 +1851,17 @@
     "H1 FY26 interim results (Sept 2026)",
     "Memory contract pricing trajectory into H2",
     "New compute module / silicon product launches"
-   ]
+   ],
+   "statement": "RPI pre-announced a strong H1 FY26 with adjusted EBITDA of at least $38m and flagged full-year EBITDA 'significantly ahead' of the ~$42m consensus, sending shares sharply higher.",
+   "conviction": "High",
+   "target": {
+    "bear": 409.36,
+    "base": 679.89,
+    "bull": 1233.52,
+    "base_upside_pct": -35.31,
+    "bull_upside_pct": 17.37
+   },
+   "falsifier": "Management flagged H2 unit economics will moderate as cheap memory depletes"
   }
  },
  "ARM": {
@@ -1546,7 +1886,17 @@
     "Q1 FY27 earnings",
     "AGI chip order-book updates",
     "Hyperscaler custom-silicon design-win announcements"
-   ]
+   ],
+   "statement": "Arm closed FY26 with record Q4 revenue of $1.49bn (+20% YoY) on surging Armv9/CSS royalty rates and data-center adoption, and disclosed its AGI-chip demand book has doubled to over $2bn across the nex",
+   "conviction": "High",
+   "target": {
+    "bear": 125.0,
+    "base": 247.41,
+    "bull": 500.0,
+    "base_upside_pct": -27.85,
+    "bull_upside_pct": 45.8
+   },
+   "falsifier": "Premium valuation leaves no room for royalty deceleration"
   }
  },
  "MRVL": {
@@ -1571,7 +1921,17 @@
     "Q2 FY27 earnings",
     "New custom-silicon program wins",
     "Optical/interconnect attach-rate updates"
-   ]
+   ],
+   "statement": "Marvell posted record Q1 FY27 revenue of $2.418bn (+28% YoY) and pulled forward its $3bn quarterly run-rate to Q3, guiding data center to grow ~50% in FY27 on custom silicon and an expanded NVIDIA par",
+   "conviction": "High",
+   "target": {
+    "bear": 103.75,
+    "base": 185.01,
+    "bull": 302.86,
+    "base_upside_pct": -29.78,
+    "bull_upside_pct": 14.95
+   },
+   "falsifier": "Hyperscaler customer/program concentration risk"
   }
  },
  "IFX.DE": {
@@ -1596,7 +1956,17 @@
     "Q3 FY26 earnings",
     "AI power revenue ramp updates",
     "Automotive order-intake trajectory"
-   ]
+   ],
+   "statement": "Infineon raised FY26 guidance to over EUR 16bn revenue and ~20% segment margin as AI-related power revenue nearly tripled YoY and automotive order intake began recovering.",
+   "conviction": "High",
+   "target": {
+    "bear": 56.45,
+    "base": 95.11,
+    "bull": 172.76,
+    "base_upside_pct": 23.04,
+    "bull_upside_pct": 123.49
+   },
+   "falsifier": "High-voltage e-mobility still weak"
   }
  },
  "ALAB": {
@@ -1621,7 +1991,17 @@
     "Q2 2026 earnings",
     "Scorpio switch ramp milestones",
     "New hyperscaler design wins"
-   ]
+   ],
+   "statement": "Astera delivered Q1 2026 revenue of $308.4m (+93% YoY) and guided Q2 to $355-365m (+15-18% QoQ), with growth broadening across signal conditioning and switch fabric as Scorpio and PCIe 6.0 ramp.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 122.16,
+    "base": 183.38,
+    "bull": 246.43,
+    "base_upside_pct": -42.16,
+    "bull_upside_pct": -22.28
+   },
+   "falsifier": "Very high valuation tied to AI-capex sentiment"
   }
  },
  "INTC": {
@@ -1646,7 +2026,17 @@
     "Q2 2026 earnings",
     "18A volume-ramp and yield updates",
     "External foundry customer announcements"
-   ]
+   ],
+   "statement": "Intel beat for a sixth straight quarter with Q1 2026 revenue of $13.6bn ($1.4bn above midpoint) and a narrowing foundry loss, but warned H2 gross margins face headwinds from the early 18A ramp and ris",
+   "conviction": "Medium",
+   "target": {
+    "bear": 37.75,
+    "base": 85.36,
+    "bull": 160.1,
+    "base_upside_pct": -13.93,
+    "bull_upside_pct": 61.44
+   },
+   "falsifier": "18A ramp dilutes near-term gross margin"
   }
  },
  "TEM.L": {
@@ -1671,7 +2061,17 @@
     "Monthly NAV/portfolio updates",
     "EM index direction and USD trajectory",
     "Discount-management/buyback actions"
-   ]
+   ],
+   "statement": "TEM.L is breaking out alongside a broad emerging-market equity recovery and a narrowing discount to NAV.",
+   "conviction": "Medium",
+   "target": {
+    "bear": null,
+    "base": null,
+    "bull": null,
+    "base_upside_pct": null,
+    "bull_upside_pct": null
+   },
+   "falsifier": "No business moat - pure market beta"
   }
  },
  "OGN": {
@@ -1696,7 +2096,17 @@
     "Merger proxy / shareholder vote",
     "Antitrust clearances",
     "Expected close timing"
-   ]
+   ],
+   "statement": "Organon agreed to be acquired by Sun Pharma for $14.00/share all-cash (~$11.75bn EV).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 12.66,
+    "base": 15.93,
+    "bull": 21.71,
+    "base_upside_pct": 19.27,
+    "bull_upside_pct": 62.47
+   },
+   "falsifier": "Upside capped at deal price"
   }
  },
  "AFRM": {
@@ -1721,7 +2131,17 @@
     "FQ4 2026 earnings",
     "Affirm Card GMV/cardholder updates",
     "Credit-performance and funding metrics"
-   ]
+   ],
+   "statement": "Affirm beat hard on FQ3 2026 (EPS $0.30 vs $0.17, revenue $1.04bn) on Affirm Card momentum and stable credit, but held RLTC guidance at the 4% upper bound rather than raising despite running above tar",
+   "conviction": "Medium",
+   "target": {
+    "bear": 54.38,
+    "base": 69.47,
+    "bull": 81.2,
+    "base_upside_pct": 9.22,
+    "bull_upside_pct": 27.66
+   },
+   "falsifier": "Consumer-credit cyclicality / unemployment risk"
   }
  },
  "IRDM": {
@@ -1746,7 +2166,17 @@
     "TriMode 9604 commercial availability",
     "PNT ASIC launch and design wins",
     "Government program awards"
-   ]
+   ],
+   "statement": "Iridium reaffirmed full-year guidance on modest 2% revenue growth ($218.8m), framing 2026 as a product-launch year (TriMode 9604 modem, PNT ASIC) that sets up the IoT/PNT growth story, even as a comp-",
+   "conviction": "Medium",
+   "target": {
+    "bear": 32.98,
+    "base": 44.52,
+    "bull": 56.12,
+    "base_upside_pct": -6.01,
+    "bull_upside_pct": 18.5
+   },
+   "falsifier": "Only ~2% revenue growth near term"
   }
  },
  "PCT.L": {
@@ -1771,7 +2201,17 @@
     "NAV / interim & final results",
     "Nasdaq/semis direction",
     "Discount-management actions"
-   ]
+   ],
+   "statement": "PCT.L is breaking out with the global tech/AI equity rally and a narrowing discount to NAV.",
+   "conviction": "Medium",
+   "target": {
+    "bear": null,
+    "base": null,
+    "bull": null,
+    "base_upside_pct": null,
+    "bull_upside_pct": null
+   },
+   "falsifier": "No moat - pure tech beta"
   }
  },
  "SYNA": {
@@ -1796,7 +2236,17 @@
     "FQ4 2026 earnings",
     "Core IoT / Edge AI design-win updates",
     "PC end-market demand signals"
-   ]
+   ],
+   "statement": "Synaptics beat across the board (revenue $294.2m +10%, non-GAAP EPS $1.09) on a 31% jump in Core IoT - its sixth straight double-digit growth quarter - while flagging a possible 2H26 PC end-market slo",
+   "conviction": "Medium",
+   "target": {
+    "bear": 84.86,
+    "base": 127.52,
+    "bull": 211.89,
+    "base_upside_pct": 3.86,
+    "bull_upside_pct": 72.58
+   },
+   "falsifier": "Management flagged possible 2H26 PC slowdown"
   }
  },
  "GFS": {
@@ -1821,7 +2271,17 @@
     "Q2 2026 earnings",
     "Design-win and prepayment updates",
     "Comms-infra / automotive demand trajectory"
-   ]
+   ],
+   "statement": "GlobalFoundries beat on a record 29% gross margin (+510bps YoY) and EPS $0.40, guiding Q2 revenue up sequentially to ~$1.76bn as design wins surged 50% and customers prepaid for capacity in comms-infr",
+   "conviction": "Medium",
+   "target": {
+    "bear": 65.5,
+    "base": 110.5,
+    "bull": 206.74,
+    "base_upside_pct": 46.29,
+    "bull_upside_pct": 173.71
+   },
+   "falsifier": "Q2 GM guided down to 28.5% - record may be peak"
   }
  },
  "RKLB": {
@@ -1846,7 +2306,17 @@
     "Neutron first launch / test milestones",
     "Q2 2026 earnings",
     "New launch + Space Systems contract awards"
-   ]
+   ],
+   "statement": "Rocket Lab posted record Q1 2026 revenue of $200.3m (+63.5% YoY, above guidance) on Launch and Space Systems strength, with Neutron on track for first launch later this year and a record-largest-ever",
+   "conviction": "Medium",
+   "target": {
+    "bear": 60.0,
+    "base": 105.28,
+    "bull": 150.0,
+    "base_upside_pct": -4.36,
+    "bull_upside_pct": 36.26
+   },
+   "falsifier": "Neutron schedule could slip to late 2026"
   }
  },
  "CORT": {
@@ -1871,7 +2341,17 @@
     "Lifyorli launch uptake / scripts",
     "Relacorilant Cushing's FDA decision",
     "Q2 2026 earnings"
-   ]
+   ],
+   "statement": "Corcept raised FY2026 revenue guidance to $950m-$1.05bn as Lifyorli won early FDA approval in platinum-resistant ovarian cancer (3.5 months ahead of PDUFA) and the Cushing's franchise marches toward a",
+   "conviction": "Medium",
+   "target": {
+    "bear": 37.3,
+    "base": 64.24,
+    "bull": 94.53,
+    "base_upside_pct": -11.54,
+    "bull_upside_pct": 30.18
+   },
+   "falsifier": "Ovarian TAM is a 35-40% patient subset"
   }
  },
  "ATT.L": {
@@ -1896,7 +2376,17 @@
     "NAV updates / interim results",
     "Nasdaq/semis direction",
     "Discount-management actions"
-   ]
+   ],
+   "statement": "ATT.L is breaking out with the AI/tech equity rally; FY2025 results (March 2026) showed a NAV total return of +24.7% vs benchmark +20.0%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": null,
+    "base": null,
+    "bull": null,
+    "base_upside_pct": null,
+    "bull_upside_pct": null
+   },
+   "falsifier": "No moat - pure tech beta"
   }
  },
  "CCC.L": {
@@ -1921,7 +2411,17 @@
     "H1 FY26 results",
     "Backlog conversion / NA hyperscale demand",
     "Services-mix and margin recovery"
-   ]
+   ],
+   "statement": "Computacenter broke 9bn pounds revenue (+32% to 9.2bn) on a near-doubling of North America profit and a record 7.1bn-pound product order backlog (+200% cc), even as pre-tax profit slipped 2.5% to 238.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 4112.38,
+    "base": 5352.39,
+    "bull": 7570.09,
+    "base_upside_pct": 23.33,
+    "bull_upside_pct": 74.43
+   },
+   "falsifier": "Hardware-heavy mix pressured margins (PBT -2.5%)"
   }
  }
 }
