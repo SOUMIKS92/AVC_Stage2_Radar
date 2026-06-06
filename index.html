@@ -398,6 +398,7 @@ tr.selected td{background:rgba(245,166,35,0.08);}
   <div class="tab" data-tab="projections">6M Projections</div>
   <div class="tab" data-tab="heatmap">Heatmap</div>
   <div class="tab" data-tab="themes">Themes</div>
+  <div class="tab" data-tab="thesis">Thesis</div>
   <div class="tab" data-tab="earnings">Earnings 7d</div>
   <div class="tab" data-tab="wow">WoW Diff</div>
   <div class="tab" data-tab="methodology">Methodology</div>
@@ -574,6 +575,7 @@ async function fetchWithProgress(url, onBytes){
   const fMacro = sideFetch('./macro.json',              'macro',      5, function(){ renderMacroStrip(); });
   const fOP    = sideFetch('./business_onepagers.json', 'onepagers',  5);
   const fVal   = sideFetch('./valuations.json',         'valuations', 5);
+  const fThesis= sideFetch('./thesis_tracker.json',     'thesis',     5);
   try {
     setLoadPct(10, 'Downloading');
     const bytes = await fetchWithProgress('./Stage2_Top50_Global_LATEST.xlsx', function(got, total){
@@ -584,7 +586,7 @@ async function fetchWithProgress(url, onBytes){
     const wb = XLSX.read(bytes, {type:'array'});
     parseWorkbook(wb);
     setLoadPct(90, 'Finalizing');
-    await Promise.allSettled([fNarr, fMacro, fOP, fVal]);
+    await Promise.allSettled([fNarr, fMacro, fOP, fVal, fThesis]);
     setLoadPct(100, 'Ready');
     await new Promise(r => setTimeout(r, 250));
     render();
@@ -894,6 +896,7 @@ function switchTab(name, el){
   else if(name==='projections') content.innerHTML = renderProjections();
   else if(name==='heatmap') content.innerHTML = renderHeatmap();
   else if(name==='themes') content.innerHTML = renderThemes();
+  else if(name==='thesis') content.innerHTML = renderThesisTracker();
   else if(name==='earnings') content.innerHTML = renderEarnings();
   else if(name==='wow') content.innerHTML = renderWow();
   else if(name==='methodology') content.innerHTML = renderMethodology();
@@ -2016,6 +2019,67 @@ function renderThemes(){
           ${renderThemeEventCards(t.theme)}
         </div>`;
       }).join('')}
+    </div>
+  `;
+}
+
+// ==========================================================================
+// THESIS TRACKER TAB  — reads thesis_tracker.json (STATE.thesis)
+// ==========================================================================
+function renderThesisTracker(){
+  const t = STATE.thesis;
+  const keys = t ? Object.keys(t).filter(k=>k!=='_meta') : [];
+  if(!keys.length)
+    return '<div class="empty"><h2>No thesis data</h2><p>thesis_tracker.json hasn\'t loaded. It is generated each Saturday by build_thesis_tracker.py and published with the run.</p></div>';
+  const meta = t._meta || {};
+  const rankOf = e => { const lg=e.log||[]; return lg.length && lg[lg.length-1].rank!=null ? lg[lg.length-1].rank : 999; };
+  const names = keys.map(k=>t[k]).filter(e=>e.status==='in_screen').sort((a,b)=>rankOf(a)-rankOf(b));
+  const dormant = keys.length - names.length;
+  const dist = {High:0,Medium:0,Low:0};
+  names.forEach(e=>{ if(dist[e.conviction]!=null) dist[e.conviction]++; });
+  const convBg = c => c==='High'?'var(--green)':c==='Low'?'var(--red)':'var(--gold)';
+  const trIcon = tr => tr==='Rising'?'▲':tr==='Falling'?'▼':tr==='New'?'★':'■';
+  const fmtT = (v,up)=> (v==null?'—':(Number(v).toFixed(0)+(up!=null?` (${up>=0?'+':''}${Number(up).toFixed(0)}%)`:'')));
+  return `
+    <div class="section-title">Thesis Tracker — conviction + scorecard over time</div>
+    <p style="font-size:11px;color:var(--text3);margin-bottom:14px;line-height:1.6;">
+      A persistent thesis per name: conviction (momentum-led, with a valuation haircut), the bull pillars, the single line that breaks it, blended price targets, and a dated log that grows each week. A name that drops out of the Top 50 goes <em>dormant</em> but keeps its history, so conviction trend only accrues for names with a real track record.
+      <br>As of <strong>${meta.as_of||'—'}</strong> · ${names.length} in-screen${dormant?` · ${dormant} dormant`:''} ·
+      <span style="color:var(--green);font-weight:700;">${dist.High} High</span> ·
+      <span style="color:var(--gold);font-weight:700;">${dist.Medium} Medium</span> ·
+      <span style="color:var(--red);font-weight:700;">${dist.Low} Low</span>
+    </p>
+    <div style="display:grid;grid-template-columns:1fr;gap:10px;">
+    ${names.map(e=>{
+      const last=(e.log||[]).slice(-1)[0]||{};
+      const tg=e.target||{};
+      const wk=e.weeks_tracked||1;
+      return `<div class="card" style="padding:13px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:8px;">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+            <span style="color:var(--text3);font-size:11px;">#${last.rank??'—'}</span>
+            <strong style="color:var(--gold);font-size:14px;cursor:pointer;" onclick="document.querySelector('.tab[data-tab=top50]').click();setTimeout(()=>showDetail('${e.ticker}','t50detail'),100);">${e.ticker}</strong>
+            <span style="font-size:11px;color:var(--text2);">${(e.name||'').slice(0,36)}</span>
+            <span style="background:${convBg(e.conviction)};color:#0a0a0a;padding:2px 9px;border-radius:10px;font-size:10px;font-weight:700;">${e.conviction||'—'} ${trIcon(e.conviction_trend)}</span>
+            <span style="font-size:10px;color:var(--text3);">${wk} wk${wk>1?'s':''} tracked</span>
+          </div>
+          <div style="font-size:11px;color:var(--text3);white-space:nowrap;">Base <strong style="color:var(--text2);">${fmtT(tg.base,tg.base_upside_pct)}</strong> &nbsp;·&nbsp; Bull <strong style="color:var(--green);">${fmtT(tg.bull,tg.bull_upside_pct)}</strong></div>
+        </div>
+        <div style="font-size:12px;color:var(--text2);margin-bottom:9px;line-height:1.5;">${e.statement||''}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div>
+            <div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--green);margin-bottom:3px;">Pillars (bull case)</div>
+            <ul style="margin:0;padding-left:16px;font-size:11px;color:var(--text2);line-height:1.5;">${(e.pillars||[]).map(p=>`<li>${p}</li>`).join('')||'<li style="color:var(--text3);">—</li>'}</ul>
+          </div>
+          <div>
+            <div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--red);margin-bottom:3px;">Wrong if…</div>
+            <div style="font-size:11px;color:var(--text2);line-height:1.5;">${(e.falsifiers&&e.falsifiers[0])||'—'}</div>
+            ${(e.catalysts&&e.catalysts.length)?`<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gold);margin:7px 0 3px;">Catalysts</div><div style="font-size:11px;color:var(--text2);line-height:1.5;">${e.catalysts.slice(0,3).join(' · ')}</div>`:''}
+          </div>
+        </div>
+        ${last.note?`<div style="margin-top:9px;font-size:11px;color:var(--text3);border-top:1px solid var(--border);padding-top:6px;line-height:1.5;"><span style="color:var(--gold);font-weight:600;">Latest${last.date?' ('+last.date+')':''}:</span> ${last.note}</div>`:''}
+      </div>`;
+    }).join('')}
     </div>
   `;
 }
