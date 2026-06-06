@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-05-30",
+    "as_of": "2026-06-06",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -582,24 +582,19 @@
   "DELL": {
     "ticker": "DELL",
     "company": "Dell Technologies Inc.",
-    "as_of": "2026-05-24",
+    "as_of": "2026-06-06",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Hardware-led enterprise IT vendor with two main businesses: Infrastructure Solutions Group (servers, storage, networking — including AI-server racks built on Nvidia HGX/GB200) and Client Solutions Group (PCs, workstations, displays). Direct sales model to enterprise + channel for SMB and consumer. FY2025 (ended Jan-Feb 2025) revenue ~$95.6B; ISG $43.6B (+29%) overtaking flat CSG $48.4B. #1 share in AI servers (~20%).",
+    "company_overview": "Dell sells servers, storage, networking, PCs, and related services to enterprises, governments, and consumers. It runs two segments: Infrastructure Solutions Group (ISG) — servers (now heavily AI-optimized), storage and networking — and Client Solutions Group (CSG) — commercial and consumer PCs. AI-optimized servers are the dominant growth driver: ISG hit $19.6bn in Q4 FY2026 (+73% YoY) with AI servers up 342%, and Dell guided to ~$50bn of full-year AI-server revenue. Margins are thin (especially AI servers), so Dell earns on volume, attach (storage/services), and supply-chain scale.",
     "revenue_mix": [
       {
-        "segment": "Client Solutions Group (Commercial + Consumer PCs)",
-        "share_pct": 51,
-        "trend": "stable"
-      },
-      {
-        "segment": "Infrastructure Solutions Group (Servers, Storage, Networking)",
-        "share_pct": 46,
+        "segment": "Infrastructure Solutions Group (servers, storage, networking)",
+        "share_pct": 56,
         "trend": "growing"
       },
       {
-        "segment": "Other (VMware resale, Secureworks legacy)",
-        "share_pct": 3,
-        "trend": "declining"
+        "segment": "Client Solutions Group (commercial + consumer PCs)",
+        "share_pct": 44,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
@@ -609,59 +604,57 @@
       },
       {
         "region": "EMEA",
-        "share_pct": 27
+        "share_pct": 28
       },
       {
-        "region": "APJ",
-        "share_pct": 21
+        "region": "Asia Pacific & Japan",
+        "share_pct": 20
       }
     ],
     "end_markets": [
-      "Hyperscaler AI infrastructure (GB200 NVL72 racks)",
-      "Enterprise data center (servers + PowerStore storage)",
-      "Tier-2 cloud (CoreWeave, xAI)",
-      "Commercial PC (Latitude, OptiPlex, Precision)",
-      "Consumer PC + gaming (XPS, Alienware)"
+      "AI infrastructure / hyperscale & neocloud server build-outs",
+      "Enterprise data center (storage, traditional servers)",
+      "Commercial PC fleets (corporate, government, education)",
+      "Consumer PCs"
     ],
     "top_competitors": [
-      "Hewlett Packard Enterprise (HPE) — servers, storage",
-      "Lenovo (servers + PCs)",
-      "Super Micro Computer (AI server)",
+      "HPE (servers, storage)",
+      "Supermicro (AI servers)",
+      "Lenovo (PCs + ISG)",
       "HP Inc. (PCs)",
-      "Apple (premium commercial PCs)",
-      "Pure Storage, NetApp (enterprise storage)"
+      "Pure Storage / NetApp (storage)",
+      "Cisco (networking)"
     ],
     "moat": {
-      "type": "AI-rack systems integration scale + direct enterprise channel",
-      "narrative": "Dell ships Nvidia GB200 NVL72 racks (~$3-4M each) with full liquid-cooling, networking and deployment services — Super Micro has the price but Dell wins enterprise + sovereign deals on serviceability. PC OEM scale (~50M units/yr) plus a global enterprise direct-sales force creates a distribution moat that's expensive to replicate in either business in isolation."
+      "type": "Supply-chain scale + enterprise sales/services footprint",
+      "narrative": "Dell's moat is operational, not structural: a best-in-class direct-and-channel supply chain, vendor financing, global services, and entrenched enterprise relationships let it win large AI-server deals and attach proprietary PowerStore/PowerScale storage and services. There is little technology lock-in (it assembles others' GPUs/CPUs), so AI-server margins are razor-thin; the durable advantage is procurement scale, configuration/integration capability, and trusted enterprise account access."
     },
     "key_customers": [
-      "xAI (multi-billion GB200 deals)",
-      "CoreWeave (AI cloud capacity build-out)",
-      "Meta, Microsoft, Oracle (selective hyperscaler AI racks)",
-      "US federal government & DoD (commercial PCs)",
-      "Fortune 500 enterprises across verticals"
+      "Hyperscalers & neoclouds (AI builders such as xAI/CoreWeave-type accounts)",
+      "Large enterprises and government agencies",
+      "Channel partners and resellers globally"
     ],
     "key_risks": [
-      "AI-server margin compression: ISG operating margin ~5-7% as Nvidia GPU cost is pass-through; backlog of ~$9B is mix-shifted to thin-margin hyperscaler builds rather than fat-margin enterprise",
-      "PC refresh cycle: CSG was flat in FY2025 — if Windows 10 EoL Oct-2025 catalysed Windows 11/AI-PC refresh fades in 2026 it removes the bull case for CSG",
-      "Hyperscaler in-sourcing: Microsoft, Google, Meta building their own white-box AI racks via ODMs (Foxconn, Quanta) compresses Dell's hyperscaler share over time"
+      "Thin and pressured AI-server gross margins; revenue mix shift toward AI servers dilutes overall profitability",
+      "Component cost inflation (memory/DRAM/HBM, GPUs) and supply allocation from Nvidia",
+      "PC demand cyclicality in CSG and dependence on a Windows refresh cycle",
+      "Customer concentration in a few large AI buyers whose capex is volatile"
     ],
     "sources": [
       {
-        "label": "Dell Q4 FY2025 press release",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199625000014/exhibit991earnings8kq4fy25.htm"
+        "label": "Dell Q4 FY2026 results coverage (Futurum)",
+        "url": "https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/"
       },
       {
-        "label": "Dell Q3 FY26 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199625000118/exhibit991earnings8kq3fy26.htm"
+        "label": "Dell FY2026 Annual Report (SEC ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000119312526226755/d341553dars.pdf"
       },
       {
-        "label": "Dell FY2025 full-year results",
-        "url": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~02~dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2025-financial-results.htm"
+        "label": "Wikipedia Dell Technologies",
+        "url": "https://en.wikipedia.org/wiki/Dell_Technologies"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-06-06"
   },
   "BESI.AS": {
     "ticker": "BESI.AS",
@@ -5048,5 +5041,1436 @@
         "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/25/09/47649273/nucor-and-reliance-seen-as-steels-strongest-defenders-against-market-challenges"
       }
     ]
+  },
+  "RPI.L": {
+    "ticker": "RPI.L",
+    "company": "Raspberry Pi Holdings plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Raspberry Pi designs and sells low-cost single-board computers, compute modules, and in-house RP2040/RP2350 microcontroller silicon used by hobbyists, educators, and increasingly by industrial OEMs embedding the boards into commercial products. It makes money on hardware unit sales (boards, modules, chips) plus a small but high-margin licensing/royalty stream from semiconductor IP. Revenue reached $323m in FY2025 (+25%), with industrial and OEM customers driving a shift toward higher-margin direct sales.",
+    "revenue_mix": [
+      {
+        "segment": "Boards & compute modules (incl. industrial/OEM)",
+        "share_pct": 80,
+        "trend": "growing"
+      },
+      {
+        "segment": "Silicon (RP2040 / RP2350 microcontrollers)",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Accessories, peripherals & other",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (USA primary)",
+        "share_pct": 38
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 32
+      },
+      {
+        "region": "Asia Pacific (China primary)",
+        "share_pct": 28
+      },
+      {
+        "region": "Other",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Industrial & embedded systems (factory automation, IoT gateways)",
+      "OEM product integration (commercial devices)",
+      "Education & STEM",
+      "Hobbyist / maker community"
+    ],
+    "top_competitors": [
+      "Arduino (microcontroller boards)",
+      "BeagleBoard",
+      "Espressif (ESP32 MCUs)",
+      "NXP / STMicroelectronics (industrial MCUs)",
+      "Intel/Asus NUC (mini-PC form factors)"
+    ],
+    "moat": {
+      "type": "Ecosystem lock-in + vertical integration into own silicon",
+      "narrative": "A vast software/community ecosystem (millions of deployed boards, broad OS and library support) creates high switching costs for OEMs who design Pi hardware into long-lifecycle industrial products. Moving in-house to RP2040/RP2350 silicon (8.4m MCU units shipped in 2025, now exceeding board shipments) lets Raspberry Pi capture chip-level margin and offer customers a scaling ladder from board to bare silicon that competitors can't replicate without the same software base."
+    },
+    "key_customers": [
+      "Long-tail of industrial/embedded OEMs (no single >10% disclosed)",
+      "Approved Reseller network (e.g. element14/Avnet, RS Components/DigiKey)",
+      "Education ministries and resellers"
+    ],
+    "key_risks": [
+      "Demand exposed to industrial capex cycles and consumer discretionary spend",
+      "Commoditisation pressure from cheaper Chinese SBCs and Espressif MCUs on the low end",
+      "Component cost and foundry capacity dependence (silicon fabbed externally); margin sensitive to memory/wafer pricing",
+      "Sony manufacturing relationship and supply concentration at the Pencoed, Wales facility"
+    ],
+    "sources": [
+      {
+        "label": "Raspberry Pi FY2025 Results (Investegate RNS)",
+        "url": "https://www.investegate.co.uk/announcement/rns/raspberry-pi-holdings-wi---rpi/fy-2025-results/9499135"
+      },
+      {
+        "label": "Raspberry Pi Holdings annual report",
+        "url": "https://investors.raspberrypi.com/reports/11/document"
+      },
+      {
+        "label": "Wikipedia Raspberry Pi Holdings",
+        "url": "https://en.wikipedia.org/wiki/Raspberry_Pi_Holdings"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "ARM": {
+    "ticker": "ARM",
+    "company": "Arm Holdings plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Arm designs the CPU instruction-set architecture and processor IP cores (Cortex-A/R/M, Neoverse) that power virtually all smartphones and a growing share of data-center, automotive, and IoT chips. It does not manufacture chips; it earns upfront license fees when a customer adopts its IP and recurring per-unit royalties on every chip shipped using Arm technology. Royalties are the larger and stickier revenue stream; licensing is lumpier and tied to new design wins, increasingly around its higher-value Armv9 architecture and compute subsystems (CSS).",
+    "revenue_mix": [
+      {
+        "segment": "Royalty revenue (per-chip, Armv9 mix rising)",
+        "share_pct": 56,
+        "trend": "growing"
+      },
+      {
+        "segment": "License & other revenue (upfront IP licensing, ATA)",
+        "share_pct": 44,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 25
+      },
+      {
+        "region": "China (incl. Arm China entity)",
+        "share_pct": 20
+      },
+      {
+        "region": "Taiwan / rest of Asia Pacific",
+        "share_pct": 35
+      },
+      {
+        "region": "Europe & other",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "Smartphones / mobile applications processors",
+      "Data center & cloud (Neoverse server CPUs)",
+      "Automotive (ADAS, IVI, zonal)",
+      "IoT / embedded / consumer electronics"
+    ],
+    "top_competitors": [
+      "RISC-V (open-source ISA, royalty-free)",
+      "x86 (Intel, AMD in servers/PCs)",
+      "MIPS / proprietary in-house cores",
+      "Imagination Technologies (GPU IP overlap)"
+    ],
+    "moat": {
+      "type": "Architecture standard + software ecosystem network effect",
+      "narrative": "Arm's ISA is the de-facto standard for power-efficient computing: a multi-decade software ecosystem (compilers, OSes, billions of apps) makes switching prohibitively expensive, and royalty rates step up structurally as customers migrate from Armv8 to Armv9 and adopt full compute subsystems. Near-universal presence in smartphones plus growing Neoverse traction at hyperscalers (AWS Graviton, Microsoft Cobalt, Nvidia Grace) entrenches it; RISC-V is the main long-term threat but lacks Arm's software maturity and per-design support."
+    },
+    "key_customers": [
+      "Apple (architecture licensee, A/M-series)",
+      "Qualcomm (Snapdragon)",
+      "Nvidia (Grace, Tegra; failed acquirer)",
+      "MediaTek",
+      "Samsung",
+      "AWS / Microsoft / Google (Neoverse server CPUs)"
+    ],
+    "key_risks": [
+      "RISC-V adoption eroding the low end and pressuring future royalty rates",
+      "China exposure (~20%) and the semi-independent Arm China JV governance/IP-control overhang",
+      "Customer concentration and the Qualcomm Nuvia licensing dispute setting precedent on architecture-license scope",
+      "SoftBank ~90% ownership limits free float and creates governance/related-party concerns"
+    ],
+    "sources": [
+      {
+        "label": "Arm Holdings Investor Relations",
+        "url": "https://investors.arm.com/"
+      },
+      {
+        "label": "Arm FY2025 Form 20-F (SEC EDGAR)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ARM"
+      },
+      {
+        "label": "Wikipedia Arm Holdings",
+        "url": "https://en.wikipedia.org/wiki/Arm_Holdings"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "company": "Marvell Technology, Inc.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Marvell is a fabless semiconductor company that designs data-infrastructure chips: custom AI accelerators (ASICs) for hyperscalers, electro-optical interconnect (DSPs, PAM4), Ethernet switching, and storage controllers. Its growth engine is the data-center segment, which reached ~76% of revenue in early FY2027, driven by custom silicon and optics for AI clusters. FY2026 revenue hit a record $8.2bn (+42% YoY). It outsources fabrication (primarily to TSMC) and competes on advanced-node design and serdes/optical IP.",
+    "revenue_mix": [
+      {
+        "segment": "Data center (custom AI ASICs, optics, switching)",
+        "share_pct": 76,
+        "trend": "growing"
+      },
+      {
+        "segment": "Communications & other (carrier, enterprise net, consumer, auto/industrial)",
+        "share_pct": 24,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China",
+        "share_pct": 43
+      },
+      {
+        "region": "United States",
+        "share_pct": 12
+      },
+      {
+        "region": "Taiwan / rest of Asia Pacific",
+        "share_pct": 38
+      },
+      {
+        "region": "Europe & other",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "AI / cloud data center compute & networking",
+      "Optical interconnect (800G/1.6T DSPs)",
+      "Carrier & telecom infrastructure",
+      "Enterprise networking & storage"
+    ],
+    "top_competitors": [
+      "Broadcom (custom ASICs + networking, primary rival)",
+      "Nvidia (NVLink/networking, accelerators)",
+      "Astera Labs (connectivity)",
+      "AMD/Xilinx",
+      "Cisco (switching silicon)",
+      "Credo / MaxLinear (interconnect)"
+    ],
+    "moat": {
+      "type": "Custom-silicon design partnerships + leading-edge serdes/optical IP",
+      "narrative": "Marvell co-designs bespoke AI accelerators with a small set of hyperscalers under multi-year programs, embedding it deep in customer roadmaps with high switching costs once a chip is qualified. Its industry-leading PAM4 serdes and electro-optics IP and early access to TSMC advanced nodes (3nm/2nm) create a technical lead in the interconnect bottleneck of AI clusters that is hard to replicate; the moat is execution + IP, not brand."
+    },
+    "key_customers": [
+      "Amazon AWS (custom Trainium/Inferentia-class silicon)",
+      "Microsoft",
+      "Google (TPU-related/networking)",
+      "Meta",
+      "Major optical-module and switch OEMs"
+    ],
+    "key_risks": [
+      "Extreme customer concentration in a handful of hyperscaler custom-silicon programs; loss or in-sourcing of one program is material",
+      "China exposure (~43% of revenue ship-to) and export-control / tariff risk",
+      "Broadcom's scale advantage in competing for the same custom-ASIC sockets",
+      "AI capex cyclicality; valuation highly sensitive to data-center growth durability"
+    ],
+    "sources": [
+      {
+        "label": "Marvell Q4 FY2026 earnings (SEC 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000006/q426_8kx1312026ex-991.htm"
+      },
+      {
+        "label": "Marvell Q1 FY2027 10-Q (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000019/mrvl-20260502.htm"
+      },
+      {
+        "label": "Wikipedia Marvell Technology",
+        "url": "https://en.wikipedia.org/wiki/Marvell_Technology"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "IFX.DE": {
+    "ticker": "IFX.DE",
+    "company": "Infineon Technologies AG",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Infineon is Germany's largest semiconductor maker, specializing in power semiconductors, automotive chips, sensors, and security ICs. It is the global #1 in power discretes and automotive semiconductors. FY2025 revenue was EUR 14.66bn (-2% YoY). Its four segments are Automotive (ATV), Power & Sensor Systems (PSS), Green Industrial Power (GIP), and Connected Secure Systems (CSS). It runs an IDM model (owns fabs, including a major 300mm power-chip ramp at Villach and the Dresden 'smart power' fab), differentiating on power-efficiency technology and wide-bandgap (SiC/GaN) materials.",
+    "revenue_mix": [
+      {
+        "segment": "Automotive (ATV)",
+        "share_pct": 50,
+        "trend": "stable"
+      },
+      {
+        "segment": "Power & Sensor Systems (PSS)",
+        "share_pct": 29,
+        "trend": "growing"
+      },
+      {
+        "segment": "Green Industrial Power (GIP)",
+        "share_pct": 11,
+        "trend": "stable"
+      },
+      {
+        "segment": "Connected Secure Systems (CSS)",
+        "share_pct": 10,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Greater China",
+        "share_pct": 30
+      },
+      {
+        "region": "EMEA (incl. Germany)",
+        "share_pct": 25
+      },
+      {
+        "region": "Americas",
+        "share_pct": 22
+      },
+      {
+        "region": "Asia Pacific (ex-China) & Japan",
+        "share_pct": 23
+      }
+    ],
+    "end_markets": [
+      "Automotive (EV powertrain, ADAS, microcontrollers)",
+      "Industrial & renewable power (solar inverters, drives, grid)",
+      "AI data-center power supply (PSUs, server power)",
+      "IoT security & embedded (payment, authentication)"
+    ],
+    "top_competitors": [
+      "STMicroelectronics",
+      "NXP Semiconductors",
+      "onsemi",
+      "Texas Instruments",
+      "Renesas",
+      "Wolfspeed / ROHM (SiC)"
+    ],
+    "moat": {
+      "type": "Power-tech process leadership + automotive design-in lock-in + IDM scale",
+      "narrative": "Infineon leads in power-semiconductor process technology (300mm thin-wafer power, trench MOSFET, SiC/GaN) and is the #1 automotive chip supplier — qualified into multi-year vehicle platforms where requalifying a competitor is slow and costly, creating sticky design-ins. Owning fabs (IDM) gives supply control and cost advantage in power devices specifically, and its acquisition of Marvell's automotive Ethernet business broadens content per car. Moat is strongest in power/auto, weaker in commoditized standard products."
+    },
+    "key_customers": [
+      "Bosch, Continental, ZF (Tier-1 automotive)",
+      "Major EV OEMs (incl. Chinese EV makers)",
+      "Solar/inverter makers (SMA, Sungrow)",
+      "Server power and PSU OEMs (AI data center)"
+    ],
+    "key_risks": [
+      "Automotive (50% of revenue) exposed to weak European/Chinese auto production and EV demand softness",
+      "China exposure (~30%) and rising Chinese power-semiconductor competition compressing pricing",
+      "SiC overcapacity and pricing pressure across the industry",
+      "High fixed-cost IDM model amplifies margin downside in a cyclical downturn"
+    ],
+    "sources": [
+      {
+        "label": "Infineon FY2025 Q4 investor presentation",
+        "url": "https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2025/2025-11-12-q4-fy25-investor-presentation-v01-00-en.pdf"
+      },
+      {
+        "label": "Infineon at a Glance FY2025",
+        "url": "https://www.infineon.com/assets/row/public/documents/corporate/2025-flyer-about-infineon-en.pdf"
+      },
+      {
+        "label": "Wikipedia Infineon Technologies",
+        "url": "https://en.wikipedia.org/wiki/Infineon_Technologies"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "ALAB": {
+    "ticker": "ALAB",
+    "company": "Astera Labs, Inc.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Astera Labs is a fabless semiconductor company making connectivity silicon for AI and cloud infrastructure: PCIe/CXL retimers (Aries), Ethernet smart cable modules (Taurus), CXL memory controllers (Leo), and PCIe fabric switches (Scorpio), unified by its COSMOS software suite. It sells into AI server racks where signal integrity and interconnect are bottlenecks. 2025 revenue more than doubled to $852m (+115%), with Scorpio fabric switches scaling from zero to $125m+ in their first full year. It is fabless (TSMC) and differentiates on connectivity IP plus software-driven diagnostics.",
+    "revenue_mix": [
+      {
+        "segment": "Aries (PCIe/CXL retimers)",
+        "share_pct": 60,
+        "trend": "growing"
+      },
+      {
+        "segment": "Scorpio (PCIe Gen6 fabric switches)",
+        "share_pct": 16,
+        "trend": "growing"
+      },
+      {
+        "segment": "Taurus (Ethernet smart cable modules)",
+        "share_pct": 14,
+        "trend": "growing"
+      },
+      {
+        "segment": "Leo (CXL memory controllers) & other",
+        "share_pct": 10,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Asia Pacific (Taiwan/China ship-to ODMs)",
+        "share_pct": 70
+      },
+      {
+        "region": "United States",
+        "share_pct": 22
+      },
+      {
+        "region": "Rest of world",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "AI accelerator server racks (hyperscaler & custom silicon)",
+      "Cloud data-center scale-up/scale-out networking",
+      "CXL memory expansion",
+      "General-purpose data-center compute"
+    ],
+    "top_competitors": [
+      "Broadcom (PCIe switching, retimers)",
+      "Marvell (interconnect)",
+      "Microchip (PCIe switches)",
+      "Credo (Ethernet/SerDes)",
+      "Montage Technology",
+      "Parade Technologies"
+    ],
+    "moat": {
+      "type": "Connectivity IP + COSMOS software/diagnostics lock-in + early PCIe-Gen6 lead",
+      "narrative": "Astera's COSMOS software layer gives customers fleet-wide link diagnostics and telemetry that competitors' merchant silicon lacks, creating designed-in stickiness across product generations. It is the only vendor shipping PCIe Gen6 switching (Scorpio) in volume and is embedded early in hyperscalers' custom-AI-accelerator roadmaps, giving a timing and ecosystem lead. Moat is IP + software + first-mover position, not scale; durability depends on staying ahead each PCIe generation."
+    },
+    "key_customers": [
+      "Single largest end customer >70% of 2025 revenue; top three ~86% (hyperscalers)",
+      "Amazon (warrant to buy stock vs up to $6.5bn of purchases)",
+      "Nvidia ecosystem (NVLink Fusion participation)",
+      "Leading AI-server ODMs"
+    ],
+    "key_risks": [
+      "Severe customer concentration: one customer >70%, top three ~86% of revenue — loss of one is existential",
+      "AI capex cyclicality and risk of hyperscalers insourcing connectivity",
+      "Broadcom and Marvell competing aggressively for the same sockets",
+      "Each PCIe-generation transition is a fresh competitive battle; technical lead is not permanent"
+    ],
+    "sources": [
+      {
+        "label": "Astera Labs Q4 & FY2025 results",
+        "url": "https://www.asteralabs.com/news/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-results/"
+      },
+      {
+        "label": "Astera Labs 10-K (StockTitan summary)",
+        "url": "https://www.stocktitan.net/sec-filings/ALAB/10-k-astera-labs-inc-files-annual-report-7e1d9c67b16b.html"
+      },
+      {
+        "label": "Astera Labs Products",
+        "url": "https://www.asteralabs.com/products/"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "INTC": {
+    "ticker": "INTC",
+    "company": "Intel Corporation",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Intel designs and manufactures CPUs and related chips for PCs and servers and is building a contract foundry (Intel Foundry) to make chips for itself and external customers. Core revenue comes from Client Computing Group (PC processors) and Data Center & AI (server CPUs, accelerators). It is mid-turnaround: pushing the '5 nodes in 4 years' roadmap (Intel 18A) to regain process leadership, having lost share to AMD in CPUs and missed the AI-GPU wave dominated by Nvidia. It is the only US-based leading-edge IDM, making it strategically central to US/EU chip-sovereignty policy (CHIPS Act funding, US government equity stake).",
+    "revenue_mix": [
+      {
+        "segment": "Client Computing Group (PC CPUs)",
+        "share_pct": 52,
+        "trend": "stable"
+      },
+      {
+        "segment": "Data Center & AI (server CPUs, accelerators)",
+        "share_pct": 30,
+        "trend": "stable"
+      },
+      {
+        "segment": "Intel Foundry (internal + external wafers)",
+        "share_pct": 10,
+        "trend": "growing"
+      },
+      {
+        "segment": "Altera, Mobileye & other",
+        "share_pct": 8,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China (incl. Hong Kong)",
+        "share_pct": 28
+      },
+      {
+        "region": "United States",
+        "share_pct": 25
+      },
+      {
+        "region": "Singapore / rest of Asia Pacific",
+        "share_pct": 27
+      },
+      {
+        "region": "Europe & other",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "Consumer & commercial PCs (incl. AI PCs)",
+      "Data center / cloud server compute",
+      "Edge & networking",
+      "Foundry services (external chip customers)"
+    ],
+    "top_competitors": [
+      "AMD (x86 CPUs, primary share-taker)",
+      "Nvidia (AI accelerators, data-center compute)",
+      "TSMC (foundry, the leadership target)",
+      "Arm-based CPU vendors (Qualcomm, Ampere)",
+      "Samsung Foundry"
+    ],
+    "moat": {
+      "type": "x86 installed base + US-based leading-edge manufacturing (eroded, in repair)",
+      "narrative": "Intel's historical moat — x86 software ecosystem plus integrated leading-edge manufacturing — has weakened: it ceded process leadership to TSMC and CPU share to AMD, and missed AI GPUs. The remaining structural advantages are the enormous x86 server/PC installed base and software compatibility, and being the only US-headquartered company attempting leading-edge logic (18A), which carries strategic/government backing. The thesis hinges on 18A yields and landing external foundry customers; today the moat is more policy and legacy than technology leadership."
+    },
+    "key_customers": [
+      "Dell, HP, Lenovo, Asus (PC OEMs)",
+      "Hyperscalers (AWS, Microsoft, Google for server CPUs)",
+      "Foundry: external customers being courted (e.g. Microsoft, US government work)"
+    ],
+    "key_risks": [
+      "Intel 18A yield/ramp execution risk — the entire turnaround depends on it",
+      "Continued CPU share loss to AMD and Arm-based server/PC chips",
+      "Absence of a competitive AI accelerator vs Nvidia in the largest data-center growth pool",
+      "Heavy capex/foundry losses straining the balance sheet; China exposure (~28%) and export-control risk; dilution from US government equity stake"
+    ],
+    "sources": [
+      {
+        "label": "Intel Investor Relations",
+        "url": "https://www.intc.com/"
+      },
+      {
+        "label": "Intel 10-K (SEC EDGAR)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTC&type=10-K"
+      },
+      {
+        "label": "Wikipedia Intel",
+        "url": "https://en.wikipedia.org/wiki/Intel"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "TEM.L": {
+    "ticker": "TEM.L",
+    "company": "Templeton Emerging Markets Investment Trust plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "TEM is a London-listed closed-end investment trust (not an operating company) that invests in listed equities of emerging-market companies, managed by Franklin Templeton. It makes money for shareholders via NAV growth and dividends from a diversified EM equity portfolio; the manager earns a management fee on net assets. Launched 1989, it is one of the longest-running dedicated EM trusts. Its 'revenue mix' below is portfolio sector allocation rather than business segments, and it typically trades at a discount to NAV.",
+    "revenue_mix": [
+      {
+        "segment": "Information Technology (TSMC, Samsung etc.) [portfolio weight]",
+        "share_pct": 30,
+        "trend": "growing"
+      },
+      {
+        "segment": "Financials (EM banks) [portfolio weight]",
+        "share_pct": 22,
+        "trend": "stable"
+      },
+      {
+        "segment": "Consumer Discretionary [portfolio weight]",
+        "share_pct": 16,
+        "trend": "stable"
+      },
+      {
+        "segment": "Communication Services & other sectors [portfolio weight]",
+        "share_pct": 32,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Greater China (China + Taiwan + HK)",
+        "share_pct": 45
+      },
+      {
+        "region": "India",
+        "share_pct": 18
+      },
+      {
+        "region": "South Korea",
+        "share_pct": 12
+      },
+      {
+        "region": "Brazil / LatAm / EMEA EM / other",
+        "share_pct": 25
+      }
+    ],
+    "end_markets": [
+      "Emerging-market listed equities (portfolio holdings)",
+      "EM semiconductors & technology",
+      "EM financials & consumer",
+      "Retail and institutional UK investors seeking EM exposure"
+    ],
+    "top_competitors": [
+      "JPMorgan Emerging Markets Investment Trust (JMG.L)",
+      "Fidelity Emerging Markets (FEML.L)",
+      "BlackRock Frontiers / Genesis EM trusts",
+      "Low-cost EM index ETFs (iShares/Vanguard EM)"
+    ],
+    "moat": {
+      "type": "Franklin Templeton EM research franchise + closed-end structure (no structural moat)",
+      "narrative": "As an investment trust this has no business moat — it competes on manager skill, fees, and discount/premium dynamics. Its edge, if any, is Franklin Templeton's long-tenured EM research team and on-the-ground analyst network, plus the closed-end structure that lets the manager hold less-liquid positions without forced redemptions. It is structurally challenged by cheap passive EM ETFs; the trust must justify active fees through alpha and discount-narrowing buybacks."
+    },
+    "key_customers": [
+      "UK retail and wealth-management investors",
+      "Discretionary fund managers / multi-asset allocators",
+      "Self-directed ISA/SIPP holders on UK platforms"
+    ],
+    "key_risks": [
+      "Persistent discount to NAV eroding shareholder returns regardless of portfolio performance",
+      "Heavy Greater-China weighting (~45%) exposes it to China policy, property and geopolitical risk",
+      "Active management underperforming cheap EM index ETFs (fee pressure / passive competition)",
+      "Currency risk (EM FX vs GBP) and EM equity-market volatility"
+    ],
+    "sources": [
+      {
+        "label": "Templeton Emerging Markets Investment Trust",
+        "url": "https://www.temit.co.uk/"
+      },
+      {
+        "label": "LSE TEM share information",
+        "url": "https://www.lse.co.uk/SharePrice.html?shareprice=TEM&share=Templeton-Emerging-Markets"
+      },
+      {
+        "label": "Stock Analysis LON:TEM",
+        "url": "https://stockanalysis.com/quote/lon/TEM/"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "OGN": {
+    "ticker": "OGN",
+    "company": "Organon & Co.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Organon is a global pharmaceutical company spun off from Merck in 2021, focused on women's health, biosimilars, and a large portfolio of 'established brands' (off-patent legacy medicines). It markets 70+ products across ~140 markets. Revenue comes from three franchises: Women's Health (contraceptives like Nexplanon, fertility), Biosimilars (e.g. Hadlima/adalimumab), and Established Brands (legacy cardiovascular, respiratory, etc., several past patent loss). It carries significant debt from the spin-off and is managing the trade-off between dividend, deleveraging, and reinvestment.",
+    "revenue_mix": [
+      {
+        "segment": "Established Brands (legacy off-patent medicines)",
+        "share_pct": 53,
+        "trend": "declining"
+      },
+      {
+        "segment": "Women's Health (Nexplanon, fertility)",
+        "share_pct": 32,
+        "trend": "stable"
+      },
+      {
+        "segment": "Biosimilars (Hadlima, Renflexis, Ontruzant)",
+        "share_pct": 15,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 28
+      },
+      {
+        "region": "Europe & Canada",
+        "share_pct": 24
+      },
+      {
+        "region": "China",
+        "share_pct": 16
+      },
+      {
+        "region": "Asia Pacific / Japan / LatAm / rest of world",
+        "share_pct": 32
+      }
+    ],
+    "end_markets": [
+      "Women's reproductive health (contraception, fertility)",
+      "Immunology & oncology biosimilars",
+      "Cardiovascular, respiratory & other established-brand therapeutics",
+      "Retail and hospital pharmacy across emerging + developed markets"
+    ],
+    "top_competitors": [
+      "Bayer, Pfizer (women's health / contraception)",
+      "Amgen, Sandoz/Novartis, Celltrion, Samsung Bioepis (biosimilars)",
+      "Viatris (off-patent / established brands)",
+      "Teva (generics overlap)"
+    ],
+    "moat": {
+      "type": "Established global distribution + Nexplanon franchise; weak structural moat",
+      "narrative": "Organon's durable asset is Nexplanon, a long-acting reversible contraceptive with device/implant complexity and physician familiarity that creates a real but time-limited barrier (a generic threat looms as patents wind down). Its broader moat is a wide international distribution and regulatory footprint across 140 markets that biosimilars can ride. Otherwise the established-brands portfolio is structurally declining off patent cliffs; the company competes on scale and channel, not innovation, making it more a cash-harvest/biosimilar-pivot story than a wide-moat franchise."
+    },
+    "key_customers": [
+      "Wholesalers/distributors (McKesson, Cencora, Cardinal in US)",
+      "National health systems and tenders (ex-US)",
+      "Hospital and retail pharmacy channels",
+      "Family-planning / public-health programs (contraceptives)"
+    ],
+    "key_risks": [
+      "Nexplanon generic/LOE risk — its single most important growth driver faces eventual competition",
+      "Established Brands in structural decline (Atozet, Singulair losses of exclusivity, esp. China/Japan/Europe)",
+      "High leverage from the Merck spin-off constrains flexibility; dividend was cut to prioritize deleveraging",
+      "China volume-based procurement (VBP) pricing pressure and US drug-pricing/IRA policy risk"
+    ],
+    "sources": [
+      {
+        "label": "Organon Q3 2025 results (SEC 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001821825/000110465925108821/tm2530711d1_ex99-1.htm"
+      },
+      {
+        "label": "Organon Investor Relations",
+        "url": "https://www.organon.com/investor-relations/"
+      },
+      {
+        "label": "Wikipedia Organon & Co.",
+        "url": "https://en.wikipedia.org/wiki/Organon_(company)"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "AFRM": {
+    "ticker": "AFRM",
+    "company": "Affirm Holdings, Inc.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Affirm is a US buy-now-pay-later (BNPL) lender. It lets shoppers split purchases into installments at checkout — both interest-bearing and 0% APR (merchant-subsidized) loans — and integrates with merchants and platforms. It earns money via merchant fees, consumer interest income, interchange on its Affirm Card, and gains on selling loans to capital partners. FY2025 GMV was ~$36bn (+35% YoY) across ~358,000 active merchants. Its capital-light model relies on funding partners and securitization to fund originations rather than holding all loans on balance sheet.",
+    "revenue_mix": [
+      {
+        "segment": "Interest income (consumer loans held)",
+        "share_pct": 40,
+        "trend": "growing"
+      },
+      {
+        "segment": "Merchant network revenue (merchant fees)",
+        "share_pct": 33,
+        "trend": "stable"
+      },
+      {
+        "segment": "Gain on sales of loans (to capital partners)",
+        "share_pct": 14,
+        "trend": "growing"
+      },
+      {
+        "segment": "Servicing income, card interchange & other",
+        "share_pct": 13,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 96
+      },
+      {
+        "region": "Canada & international (early expansion)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "E-commerce checkout (general merchandise, electronics)",
+      "Travel & ticketing",
+      "Marketplaces / platforms (Shopify Shop Pay Installments, Amazon)",
+      "Everyday spend via the Affirm Card"
+    ],
+    "top_competitors": [
+      "Klarna (won Walmart exclusivity from Affirm)",
+      "PayPal (Pay in 4 / Pay Later)",
+      "Afterpay/Block",
+      "Sezzle, Zip",
+      "Credit-card issuers (Synchrony, traditional revolving credit)"
+    ],
+    "moat": {
+      "type": "Underwriting data + enterprise platform integrations; contestable network effect",
+      "narrative": "Affirm's edge is item-level transaction underwriting (no late fees, priced per transaction) built on years of repayment data, plus deep platform integrations — it is the exclusive US Shop Pay Installments provider for Shopify and is integrated with Amazon — giving distribution that's hard for newcomers to replicate quickly. The moat is real but contestable: it lost Walmart exclusivity to Klarna, top-5 partners are ~46% of GMV, and BNPL has low switching costs for consumers, so the advantage rests on credit performance and merchant relationships rather than a structural lock."
+    },
+    "key_customers": [
+      "Shopify (exclusive US Shop Pay Installments partner)",
+      "Amazon (integrated checkout)",
+      "Top 5 merchants/platforms ~46% of GMV (concentration)",
+      "Travel (airlines/OTAs) and electronics retailers"
+    ],
+    "key_risks": [
+      "Credit/funding risk: rising delinquencies or capital-market stress raises funding cost and loan-sale gains volatility",
+      "Loss of key partners (lost Walmart to Klarna) and high top-5 GMV concentration (~46%)",
+      "Regulatory: CFPB BNPL rules, potential interest-rate/disclosure requirements",
+      "Interest-rate sensitivity (funding cost) and competition from Klarna, PayPal and card issuers compressing economics"
+    ],
+    "sources": [
+      {
+        "label": "Affirm FQ4 FY2025 shareholder letter (SEC 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001820953/000182095325000078/affirmfq425designedshare.htm"
+      },
+      {
+        "label": "Affirm Investor Relations",
+        "url": "https://investors.affirm.com/"
+      },
+      {
+        "label": "Wikipedia Affirm Holdings",
+        "url": "https://en.wikipedia.org/wiki/Affirm_Holdings"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "IRDM": {
+    "ticker": "IRDM",
+    "company": "Iridium Communications Inc.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Iridium owns and operates the only commercial satellite constellation (66 cross-linked LEO satellites) providing voice and data coverage over 100% of the Earth, including poles and oceans where terrestrial and geostationary networks cannot reach. It makes money mainly from recurring airtime/subscription service revenue sold wholesale through ~500 partners and a fixed long-term U.S. government EMSS contract, plus device/equipment sales and engineering work.",
+    "revenue_mix": [
+      {
+        "segment": "Commercial service (voice/data, IoT, broadband)",
+        "share_pct": 61,
+        "trend": "growing"
+      },
+      {
+        "segment": "U.S. government service (EMSS airtime contract)",
+        "share_pct": 18,
+        "trend": "stable"
+      },
+      {
+        "segment": "Equipment (devices) + engineering & support",
+        "share_pct": 21,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (incl. U.S. government)",
+        "share_pct": 55
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 25
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 15
+      },
+      {
+        "region": "Other / Rest of world",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "Maritime (vessel tracking, safety comms)",
+      "Aviation (cockpit/cabin connectivity)",
+      "Land mobile & personal (emergency SOS, satellite phones)",
+      "Commercial IoT (asset tracking, telematics)",
+      "U.S. Department of Defense (EMSS)"
+    ],
+    "top_competitors": [
+      "Globalstar",
+      "Inmarsat/Viasat",
+      "SpaceX Starlink (direct-to-cell threat)",
+      "Apple/Globalstar emergency SOS (NB-IoT NTN entrants)"
+    ],
+    "moat": {
+      "type": "Unique global LEO constellation + regulatory spectrum + DoD lock-in",
+      "narrative": "Iridium is the only network with truly pole-to-pole, cross-linked LEO coverage and holds globally harmonized L-band spectrum that is hard to replicate; the sole-source U.S. government EMSS contract (~$257M in 2025) and the engineered-in nature of its IoT/safety modules create high switching costs. The constellation is fully deployed and paid for, so incremental subscribers carry very high margins."
+    },
+    "key_customers": [
+      "U.S. Department of Defense (EMSS, ~29% of total revenue)",
+      "Garmin (inReach / SOS modules)",
+      "Caterpillar, John Deere (asset telematics)",
+      "Qualcomm (Snapdragon Satellite, since wound down)"
+    ],
+    "key_risks": [
+      "Direct-to-cell competition from SpaceX Starlink and Apple/Globalstar eroding the high-margin niche over the next decade",
+      "Single-constellation concentration — a launch or in-orbit failure of the aging fleet (deployed 2017-2019) would be catastrophic; next-gen replacement capex looms",
+      "U.S. government revenue concentration (~29%) tied to one contract subject to budget/political risk"
+    ],
+    "sources": [
+      {
+        "label": "Iridium 2025 results / 2026 outlook press release",
+        "url": "https://www.prnewswire.com/news-releases/iridium-announces-2025-results-issues-2026-outlook-302685852.html"
+      },
+      {
+        "label": "Iridium FY2025 10-K",
+        "url": "https://www.stocktitan.net/sec-filings/IRDM/10-k-iridium-communications-inc-files-annual-report-4e17154923b9.html"
+      },
+      {
+        "label": "Wikipedia Iridium Communications",
+        "url": "https://en.wikipedia.org/wiki/Iridium_Communications"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "PCT.L": {
+    "ticker": "PCT.L",
+    "company": "Polar Capital Technology Trust plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Polar Capital Technology Trust is a London-listed closed-end investment trust (not an operating company) that invests in a global portfolio of technology equities, aiming for long-term capital growth. It has no operating revenue in the conventional sense; shareholder returns come from NAV growth and the management team's stock selection. Investors are effectively buying a diversified, actively managed basket of global tech names, often at a discount to NAV.",
+    "revenue_mix": [
+      {
+        "segment": "Semiconductors & semiconductor equipment",
+        "share_pct": 29,
+        "trend": "growing"
+      },
+      {
+        "segment": "Software",
+        "share_pct": 16,
+        "trend": "stable"
+      },
+      {
+        "segment": "Interactive media & services",
+        "share_pct": 15,
+        "trend": "stable"
+      },
+      {
+        "segment": "Hardware, internet & other tech",
+        "share_pct": 40,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (US)",
+        "share_pct": 80
+      },
+      {
+        "region": "Asia (Taiwan, China, Japan, Korea)",
+        "share_pct": 14
+      },
+      {
+        "region": "Europe",
+        "share_pct": 4
+      },
+      {
+        "region": "Other",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "AI infrastructure / data centre compute",
+      "Cloud software (SaaS)",
+      "Consumer internet & digital advertising",
+      "Semiconductor foundry & equipment",
+      "Mobile & consumer hardware"
+    ],
+    "top_competitors": [
+      "Allianz Technology Trust (ATT.L)",
+      "Scottish Mortgage Investment Trust",
+      "Manchester & London Investment Trust",
+      "Direct tech ETFs (e.g. iShares S&P 500 IT, Nasdaq-100 trackers)"
+    ],
+    "moat": {
+      "type": "Active management track record + investment-trust structure",
+      "narrative": "No structural moat — this is a fund. Its only edge is the Polar Capital technology team's long-run stock-picking record and the closed-end structure (permanent capital, no forced redemptions, ability to use gearing). Differentiation vs a cheap passive tracker rests entirely on whether active selection plus a discount-to-NAV entry can beat the index after fees — historically inconsistent."
+    },
+    "key_customers": [
+      "NVIDIA (~7.5% of portfolio)",
+      "Meta Platforms (~7.3%)",
+      "Microsoft (~6.8%)",
+      "Apple, Alphabet, TSMC (top-15 positions)"
+    ],
+    "key_risks": [
+      "Concentration in mega-cap AI/semiconductor names (top 15 ~57% of long positions) — a tech/AI drawdown hits NAV hard",
+      "Persistent discount to NAV can widen, compounding share-price losses beyond the underlying portfolio",
+      "Fee drag and active-vs-passive risk: must outperform low-cost Nasdaq/IT trackers to justify the wrapper"
+    ],
+    "sources": [
+      {
+        "label": "Polar Capital Technology Trust top holdings update",
+        "url": "https://www.investing.com/news/company-news/polar-capital-technology-trust-updates-top-equity-holdings-93CH-3854354"
+      },
+      {
+        "label": "PCT factsheet (Fidelity)",
+        "url": "https://www.fidelity.co.uk/factsheet-data/factsheet/GB00BR3YV268-polar-capital-technology-trust-plc/key-statistics"
+      },
+      {
+        "label": "LSE PCT company page",
+        "url": "https://www.londonstockexchange.com/stock/PCT/polar-capital-technology-trust-plc/company-page"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "SYNA": {
+    "ticker": "SYNA",
+    "company": "Synaptics Incorporated",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Synaptics designs mixed-signal and embedded semiconductors plus software for human-machine interface and connectivity. It started in touchpads/fingerprint sensors for laptops and phones and has pivoted toward Edge AI, IoT connectivity (Wi-Fi/Bluetooth/Thread combos), and wireless processors. Revenue comes from selling chips into PC OEMs, consumer/IoT device makers, automotive infotainment, and enterprise/networking equipment.",
+    "revenue_mix": [
+      {
+        "segment": "Enterprise & Automotive (docking, video interface, auto displays)",
+        "share_pct": 57,
+        "trend": "stable"
+      },
+      {
+        "segment": "Core IoT (Wi-Fi/BT connectivity, Edge AI processors)",
+        "share_pct": 23,
+        "trend": "growing"
+      },
+      {
+        "segment": "Mobile (touch, display drivers, fingerprint)",
+        "share_pct": 20,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China",
+        "share_pct": 38
+      },
+      {
+        "region": "Asia Pacific (ex-China: Taiwan, Korea, Japan)",
+        "share_pct": 40
+      },
+      {
+        "region": "Americas",
+        "share_pct": 12
+      },
+      {
+        "region": "Europe & other",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "PC & peripherals (docking, displays)",
+      "Consumer IoT (wearables, smart home, hearables)",
+      "Automotive infotainment displays",
+      "Enterprise video & conferencing",
+      "Smartphones (legacy)"
+    ],
+    "top_competitors": [
+      "Qualcomm (connectivity)",
+      "Goodix (touch/fingerprint)",
+      "Cypress/Infineon (IoT MCUs & connectivity)",
+      "Realtek, Espressif (Wi-Fi/IoT SoCs)"
+    ],
+    "moat": {
+      "type": "Embedded design wins + IP in low-power Edge AI/connectivity",
+      "narrative": "Switching costs come from being designed into customer hardware reference designs with long product cycles, plus a large patent portfolio in touch/connectivity. The newer Astra Edge AI and Veros/SiW connectivity lines aim to combine low-power Wi-Fi with on-device AI — a genuinely differentiated niche — but the legacy mobile/PC franchises are commoditizing and the moat is narrowing to specific design-win pockets, not structural."
+    },
+    "key_customers": [
+      "Major PC OEMs (Dell, HP, Lenovo via docking/display)",
+      "Consumer/IoT device makers",
+      "Google (Edge AI / connectivity partnerships)",
+      "Automotive Tier-1 display suppliers"
+    ],
+    "key_risks": [
+      "Heavy China exposure (~38% ship-to) amid U.S.-China semiconductor trade/export-control risk",
+      "Structural decline of legacy Mobile segment (~20%, falling) and PC cyclicality",
+      "Execution risk on the Core IoT/Edge AI pivot — must scale design wins fast enough to offset legacy erosion against well-capitalized rivals (Qualcomm, Infineon)"
+    ],
+    "sources": [
+      {
+        "label": "Synaptics Q4 FY2025 results (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000817720/000081772025000066/syna-q4258kexx991.htm"
+      },
+      {
+        "label": "Synaptics Q2 FY2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000817720/000081772026000017/syna-20251227.htm"
+      },
+      {
+        "label": "Wikipedia Synaptics",
+        "url": "https://en.wikipedia.org/wiki/Synaptics"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "GFS": {
+    "ticker": "GFS",
+    "company": "GlobalFoundries Inc.",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "GlobalFoundries is a pure-play semiconductor contract manufacturer (foundry) — it makes chips designed by others. Unlike TSMC, it deliberately does not chase the leading-edge race; instead it specializes in differentiated, feature-rich process technologies (RF-SOI, FinFET, FDX/22FDX, silicon photonics, power, BCD) for mature and specialty nodes. Revenue comes from wafer fabrication contracts with ~250+ customers, many under long-term agreements with capacity reservations and prepayments.",
+    "revenue_mix": [
+      {
+        "segment": "Smart Mobile Devices",
+        "share_pct": 41,
+        "trend": "stable"
+      },
+      {
+        "segment": "Communications Infrastructure & Datacenter",
+        "share_pct": 19,
+        "trend": "growing"
+      },
+      {
+        "segment": "Automotive",
+        "share_pct": 19,
+        "trend": "growing"
+      },
+      {
+        "segment": "Home & Industrial IoT",
+        "share_pct": 18,
+        "trend": "stable"
+      },
+      {
+        "segment": "Other (non-wafer / personal computing)",
+        "share_pct": 3,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 33
+      },
+      {
+        "region": "Taiwan / Greater China",
+        "share_pct": 17
+      },
+      {
+        "region": "Singapore & rest of Asia",
+        "share_pct": 20
+      },
+      {
+        "region": "Europe (Germany etc.)",
+        "share_pct": 15
+      },
+      {
+        "region": "Other",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Smartphone RF front-end & connectivity",
+      "5G/6G wireless & wireline infrastructure, optical, satcom",
+      "Automotive (radar, power, MCUs, ADAS)",
+      "Industrial & home IoT",
+      "Datacenter interconnect & silicon photonics"
+    ],
+    "top_competitors": [
+      "TSMC",
+      "UMC",
+      "SMIC",
+      "Tower Semiconductor",
+      "Samsung Foundry"
+    ],
+    "moat": {
+      "type": "Differentiated specialty processes + sticky design wins + reshoring/trusted-foundry status",
+      "narrative": "GF's moat is owning leadership in specialty nodes (e.g. RF-SOI for nearly every premium smartphone's RF front-end, 22FDX for ultra-low-power IoT, photonics) where re-qualifying a chip at another foundry costs years and millions, so design wins are extremely sticky. Its U.S./EU/Singapore fab footprint makes it a 'trusted', geopolitically de-risked source for U.S. DoD and automotive customers wanting supply outside Taiwan — a structural tailwind from reshoring and the CHIPS Act."
+    },
+    "key_customers": [
+      "Qualcomm (RF front-end, largest customer, long-term agreement)",
+      "AMD (legacy WSA wafer supply agreement)",
+      "Apple supply chain (RF/connectivity)",
+      "NXP, Infineon, Bosch (automotive)",
+      "U.S. Department of Defense (trusted foundry)"
+    ],
+    "key_risks": [
+      "Smartphone cyclicality and concentration (Smart Mobile ~41%, Qualcomm largest customer ~ top-10 are 63% of wafers)",
+      "Trailing-edge price pressure and aggressive capacity additions from Chinese foundries (SMIC, Hua Hong)",
+      "Capital intensity and underutilization risk — fabs are fixed-cost heavy, so demand troughs crush margins"
+    ],
+    "sources": [
+      {
+        "label": "GlobalFoundries Q4 & FY2025 results (6-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001709048/000170904826000012/globalfoundries4q2025earni.htm"
+      },
+      {
+        "label": "GlobalFoundries FY2025 20-F",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001709048/000170904826000022/gfs-20251231.htm"
+      },
+      {
+        "label": "Wikipedia GlobalFoundries",
+        "url": "https://en.wikipedia.org/wiki/GlobalFoundries"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "RKLB": {
+    "ticker": "RKLB",
+    "company": "Rocket Lab Corporation",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Rocket Lab is a vertically integrated space company. It earns revenue two ways: (1) Launch Services — flying small satellites to orbit on its Electron rocket (and the suborbital HASTE variant), with the larger medium-lift Neutron rocket in development; and (2) Space Systems — building and selling satellites, spacecraft components (reaction wheels, solar arrays, star trackers, separation systems, radios) and operating satellites/constellations for customers. Space Systems is now the larger, faster-growing part.",
+    "revenue_mix": [
+      {
+        "segment": "Space Systems (satellites, components, MDA)",
+        "share_pct": 67,
+        "trend": "growing"
+      },
+      {
+        "segment": "Launch Services (Electron, HASTE)",
+        "share_pct": 33,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 70
+      },
+      {
+        "region": "Rest of world (Japan, Europe, etc.)",
+        "share_pct": 30
+      }
+    ],
+    "end_markets": [
+      "U.S. government & defense (Space Force, SDA, NRO, DARPA)",
+      "Commercial satellite constellation operators",
+      "Civil space / NASA & science missions",
+      "Hypersonic & missile-defense test (HASTE)",
+      "International government space agencies"
+    ],
+    "top_competitors": [
+      "SpaceX (Falcon 9 rideshare, dominant)",
+      "Firefly Aerospace",
+      "Relativity Space, ABL (small launch)",
+      "Northrop Grumman, L3Harris, Airbus, Terran Orbital (space systems/components)"
+    ],
+    "moat": {
+      "type": "Only proven small-launch operator + vertical integration into a components flywheel",
+      "narrative": "Rocket Lab is the only Western company with a reliably operational dedicated small-launch vehicle (Electron, 21 missions in 2025 at 100% success), giving it a near-monopoly on responsive dedicated small launch while rivals struggle to reach orbit. Its vertical integration — owning the component lines (via acquisitions like Sinclair, SolAero, Planetary Systems) used inside its own and rivals' satellites — creates a flywheel and switching costs; the in-development Neutron aims to break into the much larger medium-lift/constellation deployment market against SpaceX."
+    },
+    "key_customers": [
+      "U.S. Space Force / Space Development Agency",
+      "NRO and other U.S. national-security agencies",
+      "NASA (civil missions)",
+      "Commercial constellation operators (e.g. Synspective, BlackSky, Kineis)"
+    ],
+    "key_risks": [
+      "Neutron execution risk — schedule slips and cost overruns on the unproven medium-lift rocket that the growth thesis depends on",
+      "Not yet consistently profitable; heavy R&D/capex burn and reliance on capital markets",
+      "SpaceX's dominance and aggressive pricing (Transporter rideshare) caps Electron pricing power and Neutron's addressable share"
+    ],
+    "sources": [
+      {
+        "label": "Rocket Lab Q4 & FY2025 results press release",
+        "url": "https://finance.yahoo.com/news/rocket-lab-announces-fourth-quarter-210500345.html"
+      },
+      {
+        "label": "Rocket Lab Q4 FY2025 8-K",
+        "url": "https://www.stocktitan.net/sec-filings/RKLB/8-k-rocket-lab-corp-reports-material-event-96d4fff7e5dd.html"
+      },
+      {
+        "label": "Wikipedia Rocket Lab",
+        "url": "https://en.wikipedia.org/wiki/Rocket_Lab"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "CORT": {
+    "ticker": "CORT",
+    "company": "Corcept Therapeutics Incorporated",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Corcept is a commercial-stage pharma company built around modulating the hormone cortisol via selective glucocorticoid receptor antagonists. Essentially all current revenue comes from one drug, Korlym (mifepristone), used to treat Cushing's syndrome (endogenous hypercortisolism). Its growth and future value hinge on next-generation cortisol modulators — chiefly relacorilant (recently FDA-approved as Lifyorli for platinum-resistant ovarian cancer and filed for Cushing's) — to extend the franchise beyond Korlym's patents.",
+    "revenue_mix": [
+      {
+        "segment": "Korlym (mifepristone) for Cushing's syndrome",
+        "share_pct": 100,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Endocrinology (Cushing's syndrome / hypercortisolism)",
+      "Oncology (platinum-resistant ovarian cancer — relacorilant/Lifyorli)",
+      "Future: metabolic, NASH, neurology (cortisol-modulation pipeline)"
+    ],
+    "top_competitors": [
+      "Recordati (Isturisa, Signifor for Cushing's)",
+      "Xeris/Strongbridge (Recorlev/levoketoconazole)",
+      "Generic mifepristone makers (post-litigation patent threat)",
+      "Oncology: standard chemo regimens, AstraZeneca/GSK PARP & ADC franchises"
+    ],
+    "moat": {
+      "type": "First-mover IP in selective cortisol modulation + specialty commercial infrastructure",
+      "narrative": "Corcept's moat is a deep patent estate and decade-plus head start in selective glucocorticoid receptor antagonism — a mechanism few others pursue — plus a specialized salesforce and patient-identification engine that has expanded the diagnosed Cushing's market. The key is transitioning patients from soon-to-be-genericized Korlym to patent-protected relacorilant; the ovarian-cancer approval (Lifyorli) opens a large new oncology TAM where its GR-antagonist mechanism is differentiated."
+    },
+    "key_customers": [
+      "Specialty/endocrinology pharmacies and prescribing endocrinologists (Korlym distributed via specialty pharmacy)",
+      "Oncologists (relacorilant/Lifyorli launch)",
+      "U.S. commercial & Medicare payers"
+    ],
+    "key_risks": [
+      "Single-product dependence — ~100% of revenue from Korlym, whose mifepristone patents face generic challenges; a generic entry would gut the cash engine before relacorilant fully ramps",
+      "Pipeline/launch execution risk on relacorilant in both Cushing's (regulatory) and oncology (commercial uptake of Lifyorli)",
+      "Litigation and pricing scrutiny on a high-priced single-source drug; FTC/payer pressure on specialty-pharma economics"
+    ],
+    "sources": [
+      {
+        "label": "Corcept Q4 & FY2025 results press release",
+        "url": "https://ir.corcept.com/news-releases/news-release-details/corcept-therapeutics-announces-fourth-quarter-and-full-year-2025"
+      },
+      {
+        "label": "FDA approval of relacorilant (Lifyorli) for ovarian cancer",
+        "url": "https://www.fiercepharma.com/pharma/corcepts-lead-drug-bounces-back-fda-snub-1st-approval-lifyorli-ovarian-cancer"
+      },
+      {
+        "label": "Wikipedia Corcept Therapeutics",
+        "url": "https://en.wikipedia.org/wiki/Corcept_Therapeutics"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "ATT.L": {
+    "ticker": "ATT.L",
+    "company": "Allianz Technology Trust plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Allianz Technology Trust is a London-listed closed-end investment trust (not an operating company) that invests in a concentrated global portfolio of technology equities, run by AllianzGI's San Francisco-based technology team. It generates no operating revenue; shareholder returns come from NAV growth driven by stock selection, plus any narrowing of the share-price discount to NAV. Investors are buying an actively managed, US-tech-heavy basket aiming to find the 'next Apple, Google or Microsoft.'",
+    "revenue_mix": [
+      {
+        "segment": "Semiconductors & semiconductor equipment",
+        "share_pct": 35,
+        "trend": "growing"
+      },
+      {
+        "segment": "Software & interactive media",
+        "share_pct": 35,
+        "trend": "stable"
+      },
+      {
+        "segment": "Hardware, internet & other tech",
+        "share_pct": 30,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (US)",
+        "share_pct": 92
+      },
+      {
+        "region": "Taiwan",
+        "share_pct": 6
+      },
+      {
+        "region": "Israel / other",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "AI infrastructure / GPU & accelerator compute",
+      "Semiconductor capital equipment",
+      "Cloud & enterprise software",
+      "Digital advertising & consumer internet",
+      "Consumer hardware"
+    ],
+    "top_competitors": [
+      "Polar Capital Technology Trust (PCT.L)",
+      "Scottish Mortgage Investment Trust",
+      "Manchester & London Investment Trust",
+      "Passive tech ETFs (Nasdaq-100 / S&P 500 IT trackers)"
+    ],
+    "moat": {
+      "type": "Active management track record + closed-end structure",
+      "narrative": "No structural moat — it is a fund. Its edge is the AllianzGI San Francisco team's high-conviction, benchmark-beating stock-picking record (it outperformed its index in 2025) and the closed-end structure's permanent capital and gearing. The investment case rests entirely on active selection plus a discount entry beating low-cost passive tech trackers after fees, with very high concentration in mega-cap AI/semis."
+    },
+    "key_customers": [
+      "NVIDIA (~10.3% of portfolio, top holding)",
+      "Alphabet (~9.4%)",
+      "Microsoft (~8.0%)",
+      "Apple (~7.2%), Broadcom (~7.2%), TSMC, Micron, Lam Research, Meta, KLA (top 10)"
+    ],
+    "key_risks": [
+      "Extreme concentration — ~92% US, top holdings dominated by AI/semiconductor mega-caps; an AI/tech drawdown hits NAV severely",
+      "Discount-to-NAV volatility can amplify share-price losses beyond the portfolio",
+      "Active-vs-passive risk and fee drag: must consistently beat cheap Nasdaq/IT trackers to justify the wrapper"
+    ],
+    "sources": [
+      {
+        "label": "Allianz Technology Trust 2025 portfolio / performance",
+        "url": "https://www.allianztechnologytrust.com/en-gb/performance-and-updates/performance-commentary-and-portfolio"
+      },
+      {
+        "label": "ATT year-end top holdings (Nvidia ~10.3%)",
+        "url": "https://www.investing.com/news/company-news/nvidia-leads-allianz-technology-trusts-top-holdings-at-yearend-93CH-4476653"
+      },
+      {
+        "label": "ATT outperforms benchmark in 2025",
+        "url": "https://www.sharecast.com/news/news-and-announcements/allianz-technology-trust-outperforms-benchmark-index-in-2025--22052572.html"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
+  },
+  "CCC.L": {
+    "ticker": "CCC.L",
+    "company": "Computacenter plc",
+    "as_of": "2026-06-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Computacenter is a European IT reseller and services provider. The bulk of its money flows through Technology Sourcing — procuring and reselling hardware, software and cloud licences from vendors (HPE, Cisco, Microsoft, Dell, NVIDIA, etc.) to large corporate and public-sector clients, a high-volume, thin-margin distribution business. The higher-margin, stickier part is Services — managing, integrating and supporting customers' IT estates (data centre, networking, workplace, professional and managed services).",
+    "revenue_mix": [
+      {
+        "segment": "Technology Sourcing (hardware/software/cloud resale)",
+        "share_pct": 82,
+        "trend": "growing"
+      },
+      {
+        "segment": "Services (managed, professional, support)",
+        "share_pct": 18,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 40
+      },
+      {
+        "region": "UK",
+        "share_pct": 28
+      },
+      {
+        "region": "Germany",
+        "share_pct": 22
+      },
+      {
+        "region": "France & rest of Europe",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "Large enterprise corporates (financial services, industrials)",
+      "Hyperscalers & cloud/data-centre buildout (NVIDIA/networking volumes)",
+      "UK & German public sector / government",
+      "Telecoms & utilities"
+    ],
+    "top_competitors": [
+      "CDW",
+      "SHI International",
+      "Insight Enterprises",
+      "Bechtle, Cancom (Germany)",
+      "SoftwareOne / cloud marketplaces & vendor-direct"
+    ],
+    "moat": {
+      "type": "Scale procurement + vendor relationships + embedded managed-services stickiness",
+      "narrative": "The reseller business is structurally low-margin and not deeply moated, but Computacenter's scale earns it top-tier rebate/partner status with vendors (HPE, Cisco, Microsoft, NVIDIA) and access to constrained AI/data-centre supply that smaller resellers can't get. The real stickiness is in long-term managed-services and workplace contracts embedded in clients' operations, where it holds the customer relationship and switching is painful — the North America hyperscale ramp is the current growth engine."
+    },
+    "key_customers": [
+      "Large UK/European enterprises and FTSE/DAX corporates",
+      "UK and German government/public sector",
+      "US enterprise and hyperscale (cloud) customers driving North America growth",
+      "Financial-services and industrial blue-chips"
+    ],
+    "key_risks": [
+      "Wafer-thin gross margins on Technology Sourcing (~82% of revenue) — small volume or rebate shifts swing profit; revenue is partly low-quality pass-through GII",
+      "Customer/segment concentration in hyperscale networking & data-centre spend that can be lumpy and cyclical",
+      "German public-sector softness and FX translation (large euro/dollar revenue vs sterling reporting); AI-driven hardware demand could normalize quickly"
+    ],
+    "sources": [
+      {
+        "label": "Computacenter Final Results 2025",
+        "url": "https://investors.computacenter.com/news-releases/news-release-details/computacenter-final-results-2025"
+      },
+      {
+        "label": "Computacenter breaks GBP 9bn revenue (FY25)",
+        "url": "https://www.channelweb.co.uk/news/2026/computacenter-fy25-results"
+      },
+      {
+        "label": "Wikipedia Computacenter",
+        "url": "https://en.wikipedia.org/wiki/Computacenter"
+      }
+    ],
+    "last_refreshed": "2026-06-06"
   }
 }
