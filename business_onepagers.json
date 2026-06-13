@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-06-06",
+    "as_of": "2026-06-13",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -654,7 +654,7 @@
         "url": "https://en.wikipedia.org/wiki/Dell_Technologies"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "BESI.AS": {
     "ticker": "BESI.AS",
@@ -1305,86 +1305,90 @@
   "CIEN": {
     "ticker": "CIEN",
     "company": "Ciena Corporation",
-    "as_of": "2026-05-24",
+    "as_of": "2026-06-13",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Ciena is the leading pure-play optical networking equipment vendor. It sells coherent optical transport systems (long-haul, metro, submarine, DCI), routing/switching gear, and Blue Planet automation software to telecom carriers and, increasingly, hyperscale cloud and 'neocloud' AI providers. Revenue is hardware-led with growing software/services attach.",
+    "company_overview": "Ciena builds the optical and routing systems that move data across long-haul, metro and data-center-interconnect networks - the physical 'backbone' that carries internet and AI traffic between facilities. Revenue comes mostly from selling coherent optical transport hardware (WaveLogic-powered platforms), plus a higher-margin layer of network-automation software (Blue Planet, MCP) and global installation/maintenance services. Once a telco or hyperscaler standardizes on Ciena's gear, they keep buying capacity upgrades from it for years.",
     "revenue_mix": [
       {
-        "segment": "Networking Platforms (Optical + Routing/Switching)",
-        "share_pct": 78,
+        "segment": "Networking Platforms (optical & routing hardware)",
+        "share_pct": 83,
         "trend": "growing"
       },
       {
-        "segment": "Global Services (install, maintenance, training)",
-        "share_pct": 13,
+        "segment": "Global Services (install, maintenance, consulting)",
+        "share_pct": 11,
         "trend": "stable"
       },
       {
-        "segment": "Platform Software & Services (MCP/Navigator)",
-        "share_pct": 7,
+        "segment": "Platform Software & Services (MCP, Navigator)",
+        "share_pct": 4,
         "trend": "growing"
       },
       {
-        "segment": "Blue Planet Automation Software",
+        "segment": "Blue Planet automation software",
         "share_pct": 2,
         "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas (US-heavy)",
-        "share_pct": 65
+        "region": "Americas",
+        "share_pct": 74
       },
       {
         "region": "EMEA",
-        "share_pct": 18
+        "share_pct": 17
       },
       {
-        "region": "Asia Pacific & Japan",
-        "share_pct": 17
+        "region": "Asia Pacific",
+        "share_pct": 9
       }
     ],
     "end_markets": [
-      "Hyperscaler & neocloud DCI / Metro Optical Fiber Networks (MOFN)",
-      "Tier-1 telco backbone (AT&T, Verizon, BT, Deutsche Telekom)",
-      "Submarine cable systems",
-      "Enterprise & government"
+      "Hyperscaler data-center interconnect (AI/cloud buildout)",
+      "Tier-1 telco long-haul & metro transport",
+      "Submarine / subsea cable systems",
+      "Government & enterprise private networks"
     ],
     "top_competitors": [
-      "Nokia (incl. Infinera, acquired 2024)",
-      "Cisco Systems (Acacia / NCS)",
-      "Huawei (blocked from US/EU but dominant in APAC/EMEA)",
-      "Marvell + Coherent (component-level encroachment via CPO)"
+      "Nokia (post-Infinera acquisition)",
+      "Cisco Systems",
+      "Huawei (ex-North America)",
+      "Broadcom & Marvell (merchant DSP/optics, indirect)",
+      "Fujitsu (North American optical)"
     ],
     "moat": {
-      "type": "Coherent DSP technology lead + carrier-class qualification",
-      "narrative": "WaveLogic 6 Extreme is the only shipping 1.6 Tb/s coherent solution in 2025 (160,000+ WL5 modems already deployed). Submarine and Tier-1 telco qualification cycles span years — Ciena has 30+ MOFN wins and 12+ neocloud wins in FY25, locking in multi-year deployments hyperscalers will not lightly displace. Acquired Nubis (Sept 2025) extends moat into inside-the-data-center optical."
+      "type": "Coherent optical DSP leadership (WaveLogic) + entrenched carrier installed base",
+      "narrative": "Ciena's vertically-integrated WaveLogic coherent DSP/optics keeps it at or near the technology frontier on bits-per-wavelength and power-per-bit, the metric hyperscalers optimize for; combined with ~51% North American optical share it forces rivals to out-engineer a moving target. Multi-year carrier and webscale capacity contracts plus embedded MCP/Blue Planet management software raise switching costs, since ripping out the transport layer mid-lifecycle is operationally painful."
     },
     "key_customers": [
-      "AT&T, Verizon, Lumen, BT (carrier base)",
-      "Microsoft, Google, Meta (direct cloud-provider revenue +94% YoY, 40% of rev in Q3 FY25)",
-      "AI 'neoclouds' (CoreWeave, Lambda-class)"
+      "AT&T (long-standing Tier-1, ~top-3 customer)",
+      "Hyperscalers - Amazon/AWS, Google, Meta, Microsoft (now >54% of revenue)",
+      "Verizon",
+      "Large global telcos & subsea consortia"
     ],
     "key_risks": [
-      "Telco capex cycle remains weak in NA — non-telco must continue offsetting (currently 53% of rev)",
-      "CPO (co-packaged optics) and direct-attach pluggables risk disintermediating Ciena's transponder revenue late-decade",
-      "Nokia+Infinera combo (2024 close) creates a stronger Western pluggable/transport competitor with deeper pockets"
+      "Severe customer concentration - top 3 customers ~44% of Q4 revenue; one hyperscaler alone ~18%; any capex pause hits hard",
+      "Dependence on the hyperscaler AI/cloud capex cycle, which could decelerate sharply if AI build-out moderates",
+      "Nokia-Infinera combination intensifies optical competition and pricing pressure",
+      "Merchant silicon (Broadcom, Marvell) commoditizing parts of the optical stack and pulling some DCI in-house at hyperscalers",
+      "Lumpy, order-driven revenue with long sales cycles; gross-margin mix shifts as low-margin webscale hardware grows"
     ],
     "sources": [
       {
-        "label": "Ciena Q4 FY25 earnings 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828025056425/ex9922025q4earningsprese.htm"
+        "label": "Ciena FY2025 Q4 earnings press release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828025056425/ex9912025q4earningspressre.htm"
       },
       {
-        "label": "Ciena Q3 FY25 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000093639525000037/ex9922025q3earningsprese.htm"
+        "label": "Ciena FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828025056698/cien-20251101.htm"
       },
       {
-        "label": "Ciena Q2 FY25 10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000093639525000025/cien-20250503.htm"
+        "label": "SDxCentral - Ciena AI wave & customer concentration",
+        "url": "https://www.sdxcentral.com/news/cienas-ai-wave-crests-on-big-deals-record-revenue-though-customer-dependency-risk-looms/"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-06-13"
   },
   "SUBC.OL": {
     "ticker": "SUBC.OL",
@@ -2941,93 +2945,91 @@
   "HPE": {
     "ticker": "HPE",
     "company": "Hewlett Packard Enterprise Company",
-    "as_of": "2026-05-24",
+    "as_of": "2026-06-13",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "HPE is an enterprise IT infrastructure vendor selling servers (ProLiant, Cray supercomputers, Nvidia-based AI systems), storage (Alletra, Nimble), networking (Aruba + newly acquired Juniper as of July 2025), and a hybrid-cloud consumption platform called GreenLake. Post-Juniper, FY25 ARR run-rate hit $3.1bn (up 77%) with Q3 revenue $9.14bn. Spun out of HP Inc. in 2015.",
+    "company_overview": "Hewlett Packard Enterprise sells enterprise data-center infrastructure: servers (including AI/GPU systems and Cray supercomputers), networking gear, hybrid-cloud storage and software, and a captive financing arm. It makes money from hardware sales plus a growing as-a-service model (HPE GreenLake) that bills compute, storage and networking on consumption. The November-2024 ~$14B Juniper Networks acquisition roughly doubled its networking business, repositioning HPE as a full-stack rival to Cisco and Arista in AI-era enterprise and data-center networking.",
     "revenue_mix": [
       {
-        "segment": "Server (general-purpose + AI servers, ProLiant, Cray)",
-        "share_pct": 54,
+        "segment": "Server (incl. AI systems, Cray)",
+        "share_pct": 56,
         "trend": "growing"
       },
       {
-        "segment": "Networking (Aruba + Juniper)",
-        "share_pct": 19,
+        "segment": "Networking (incl. Juniper, Aruba)",
+        "share_pct": 20,
         "trend": "growing"
       },
       {
-        "segment": "Hybrid Cloud (storage, GreenLake compute)",
+        "segment": "Hybrid Cloud (storage, private cloud)",
         "share_pct": 16,
-        "trend": "stable"
+        "trend": "declining"
       },
       {
-        "segment": "Financial Services (HPE Capital leasing)",
-        "share_pct": 10,
-        "trend": "stable"
-      },
-      {
-        "segment": "Corporate / Other",
-        "share_pct": 1,
+        "segment": "Financial Services",
+        "share_pct": 8,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
         "region": "Americas",
-        "share_pct": 45
+        "share_pct": 41
       },
       {
         "region": "EMEA",
-        "share_pct": 35
+        "share_pct": 38
       },
       {
         "region": "Asia Pacific & Japan",
-        "share_pct": 20
+        "share_pct": 21
       }
     ],
     "end_markets": [
-      "Large enterprise data centers (Fortune 1000 IT refresh)",
-      "AI model builders + sovereign AI clouds (national clouds in EU/Middle East)",
-      "Hyperscaler 'tier-2' (HPC supercomputing — Frontier, Aurora, El Capitan)",
-      "Service providers and telcos (Juniper installed base)"
+      "AI/ML training & inference infrastructure (hyperscalers, sovereign AI)",
+      "Enterprise data centers (Fortune 500 / Global 2000)",
+      "Financial services & healthcare IT",
+      "Telco/service-provider networking (via Juniper)",
+      "HPC / supercomputing (national labs, research)"
     ],
     "top_competitors": [
-      "Dell Technologies (servers — closest peer)",
-      "Cisco Systems (networking, now expanded competition post-Juniper)",
-      "Lenovo (servers, esp. China + emerging markets)",
+      "Dell Technologies (servers/storage)",
+      "Cisco Systems (networking)",
       "Arista Networks (data-center switching)",
-      "Pure Storage / NetApp (storage)"
+      "Lenovo & Supermicro (AI servers)",
+      "NetApp / Pure Storage (storage)"
     ],
     "moat": {
-      "type": "Installed base + GreenLake consumption lock-in + supercomputing IP",
-      "narrative": "HPE owns the dominant share of exascale supercomputing wins (Frontier, El Capitan, Aurora via Cray) and is the only credible non-Cisco/non-Arista enterprise networking alternative post-Juniper deal. GreenLake's $3.1bn ARR creates multi-year subscription stickiness, but core x86 server business remains a commoditised price war with Dell/Lenovo."
+      "type": "Full-stack integration + as-a-service installed base + supercomputing IP",
+      "narrative": "Juniper bolted networking (Mist AIOps) onto HPE's server/storage/Aruba stack, letting HPE sell an integrated Cisco-alternative that few rivals can match end-to-end; GreenLake's consumption model and large recurring ARR create switching costs once a customer runs their estate on it. Cray EX exascale IP and the deep NVIDIA partnership (Private Cloud AI, Spectrum-X) give a defensible position in sovereign-AI and HPC bids where turnkey integrated systems matter."
     },
     "key_customers": [
-      "US DOE national labs (Oak Ridge, Lawrence Livermore, Argonne — supercomputing)",
-      "X.ai / xAI (multibillion AI server order disclosed in 2024)",
-      "Large telcos (AT&T, Deutsche Telekom — Juniper installed base)",
-      "Major enterprises across Fortune 500"
+      "Hyperscalers & sovereign-AI buyers (AI server orders)",
+      "National labs / governments (Cray supercomputers)",
+      "Fortune 500 / Global 2000 enterprises (>60% of revenue)",
+      "Large telcos & service providers (Juniper routing)"
     ],
     "key_risks": [
-      "Juniper integration execution — $14bn deal closed July 2025, $1.4bn impairment already taken in Q3, antitrust concessions still constrain pricing",
-      "Margin compression in AI servers — Dell aggressively undercut HPE in 2025, AI gross margins are dilutive to corporate average",
-      "Customer concentration in AI bookings — a few hyperscaler/sovereign deals drive the backlog and can slip or cancel"
+      "AI-server revenue is lumpy and low-margin (large hyperscaler deals dilute gross margin even as they boost top-line)",
+      "Juniper integration execution and the associated debt load; networking synergies must offset rising interest expense",
+      "Hybrid Cloud / traditional storage in structural decline (-13% YoY in FY25 quarters) as workloads shift to public cloud",
+      "Heavy dependence on cyclical enterprise IT capex; tariff/geopolitical exposure across a global supply chain",
+      "Intense networking competition from Cisco and Arista, who are also racing for AI data-center Ethernet share"
     ],
     "sources": [
       {
-        "label": "HPE Q3 2025 8-K earnings release",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001645590/000164559025000096/ex-991x932025x8k.htm"
+        "label": "HPE fiscal 2025 fourth quarter results press release",
+        "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/12/hpe-reports-fiscal-2025-fourth-quarter-results.html"
       },
       {
-        "label": "Futurum: HPE Q3 FY2025 results",
-        "url": "https://futurumgroup.com/insights/hpe-q3-fy-2025-results-mark-record-sales-arr-growth-and-server-momentum/"
+        "label": "HPE Q4 FY2025 earnings call transcript",
+        "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q4-2025/q4-earnings-transcript-final.pdf"
       },
       {
-        "label": "Stocktitan: HPE Q3 2025 10-Q Juniper merger",
-        "url": "https://www.stocktitan.net/sec-filings/HPE/10-q-hewlett-packard-enterprise-company-quarterly-earnings-report-b18979e2cc51.html"
+        "label": "HPE revenue by geography (Stock Analysis)",
+        "url": "https://stockanalysis.com/stocks/hpe/metrics/revenue-by-geography/"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-06-13"
   },
   "LSCC": {
     "ticker": "LSCC",
@@ -5125,7 +5127,7 @@
         "url": "https://en.wikipedia.org/wiki/Raspberry_Pi_Holdings"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "ARM": {
     "ticker": "ARM",
@@ -5207,7 +5209,7 @@
         "url": "https://en.wikipedia.org/wiki/Arm_Holdings"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "MRVL": {
     "ticker": "MRVL",
@@ -5290,7 +5292,7 @@
         "url": "https://en.wikipedia.org/wiki/Marvell_Technology"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "IFX.DE": {
     "ticker": "IFX.DE",
@@ -5382,7 +5384,7 @@
         "url": "https://en.wikipedia.org/wiki/Infineon_Technologies"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "ALAB": {
     "ticker": "ALAB",
@@ -5470,7 +5472,7 @@
         "url": "https://www.asteralabs.com/products/"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "INTC": {
     "ticker": "INTC",
@@ -5560,7 +5562,7 @@
         "url": "https://en.wikipedia.org/wiki/Intel"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "TEM.L": {
     "ticker": "TEM.L",
@@ -5649,7 +5651,7 @@
         "url": "https://stockanalysis.com/quote/lon/TEM/"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "OGN": {
     "ticker": "OGN",
@@ -5734,7 +5736,7 @@
         "url": "https://en.wikipedia.org/wiki/Organon_(company)"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "AFRM": {
     "ticker": "AFRM",
@@ -5817,7 +5819,7 @@
         "url": "https://en.wikipedia.org/wiki/Affirm_Holdings"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-06-13"
   },
   "IRDM": {
     "ticker": "IRDM",
@@ -6472,5 +6474,357 @@
       }
     ],
     "last_refreshed": "2026-06-06"
+  },
+  "QCOM": {
+    "ticker": "QCOM",
+    "company": "QUALCOMM Incorporated",
+    "as_of": "2026-06-13",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Qualcomm makes money two ways: (1) QCT, its chip business, designs Snapdragon system-on-chips and modems that power most premium Android phones and increasingly cars, PCs and IoT devices; and (2) QTL, a high-margin licensing business that collects royalties on essentially every 3G/4G/5G handset sold worldwide because Qualcomm owns foundational cellular-standard patents. QTL is small in revenue but throws off outsized profit; QCT is the volume engine now diversifying away from smartphones into automotive and IoT.",
+    "revenue_mix": [
+      {
+        "segment": "QCT - Handsets",
+        "share_pct": 53,
+        "trend": "stable"
+      },
+      {
+        "segment": "QCT - IoT (PC, XR, industrial, edge AI)",
+        "share_pct": 14,
+        "trend": "growing"
+      },
+      {
+        "segment": "QCT - Automotive",
+        "share_pct": 9,
+        "trend": "growing"
+      },
+      {
+        "segment": "QTL - Licensing (royalties)",
+        "share_pct": 13,
+        "trend": "stable"
+      },
+      {
+        "segment": "Other (QSI, services)",
+        "share_pct": 11,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China & Hong Kong",
+        "share_pct": 46
+      },
+      {
+        "region": "United States",
+        "share_pct": 24
+      },
+      {
+        "region": "South Korea",
+        "share_pct": 22
+      },
+      {
+        "region": "Other",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Premium Android smartphones (flagship SoCs/modems)",
+      "Automotive (Snapdragon Digital Chassis - cockpit & ADAS)",
+      "PCs (Snapdragon X / Windows on Arm)",
+      "IoT, XR/AR headsets, industrial edge AI",
+      "Cellular IP licensing (all handset OEMs)"
+    ],
+    "top_competitors": [
+      "MediaTek (mid-range & rising premium Android SoCs)",
+      "Apple (in-house C-series modems & A-series SoCs)",
+      "Samsung LSI / Exynos",
+      "NVIDIA & Intel (PC and automotive compute)",
+      "Huawei HiSilicon (China, Kirin)"
+    ],
+    "moat": {
+      "type": "Foundational cellular SEP patent portfolio + integrated modem-to-antenna RF leadership",
+      "narrative": "QTL's standard-essential 3G/4G/5G patents force virtually every handset maker to pay Qualcomm a royalty regardless of whose chip is inside - a near-tollbooth on the entire industry that funds R&D. In chips, Qualcomm's lead in integrated premium modems and the full RF front-end (modem-to-antenna) plus Snapdragon's flagship Android dominance gives pricing power; Apple's own modem-study rebuttal and analysts' 5G-Advanced R&D-edge view underscore the technology gap rivals must close."
+    },
+    "key_customers": [
+      "Samsung (largest single SoC customer, deepening partnership)",
+      "Xiaomi, Oppo, Vivo, Honor and other Chinese OEMs",
+      "Apple (modems only, declining - ~20% of iPhones by 2026, zero by 2027)",
+      "Auto OEMs (BMW, Mercedes, GM and others via Digital Chassis)"
+    ],
+    "key_risks": [
+      "Apple in-housing modems (C-series) eliminates a major QCT customer - none of iPhone by FY2027",
+      "Extreme China concentration (~46% of revenue) exposes Qualcomm to US-China trade/export and demand cyclicality",
+      "QTL royalty stream pressured by license expirations - Huawei royalties already dropped out in FY25; renewal timing drives lumpiness",
+      "MediaTek share gains in mid-range and pushing into premium Android; Samsung in-house Exynos competition",
+      "Smartphone is a mature, ~flat market - growth thesis hinges on auto + IoT + PC ramps hitting 2029 targets"
+    ],
+    "sources": [
+      {
+        "label": "Qualcomm fourth quarter & fiscal 2025 results",
+        "url": "https://www.qualcomm.com/news/releases/2025/11/qualcomm-announces-fourth-quarter-and-fiscal-2025-results"
+      },
+      {
+        "label": "Qualcomm FY2025 Q4 earnings presentation",
+        "url": "https://s204.q4cdn.com/645488518/files/doc_financials/2025/q4/FY2025-4th-Quarter-Earnings-Presentation_11-5-25_final.pdf"
+      },
+      {
+        "label": "Qualcomm FY2025 Form 10-K (MarketScreener)",
+        "url": "https://www.marketscreener.com/news/qualcomm-annual-report-for-fiscal-year-ending-09-28-2025-form-10-k-ce7d5cdddb8ff722"
+      }
+    ],
+    "last_refreshed": "2026-06-13"
+  },
+  "BMPS.MI": {
+    "ticker": "BMPS.MI",
+    "company": "Banca Monte dei Paschi di Siena S.p.A.",
+    "as_of": "2026-06-13",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Monte dei Paschi di Siena is Italy's oldest bank and now its third-largest banking group following the September-2025 acquisition of 86.3% of investment bank Mediobanca. The core business is traditional retail and commercial banking - taking deposits and lending to ~3.4 million Italian households and SMEs, concentrated in Tuscany and central Italy - earning net interest income plus fees from wealth management, payments and bancassurance. The Mediobanca deal bolts on investment banking, consumer finance and private banking, transforming MPS from a turnaround retail bank into a diversified national champion.",
+    "revenue_mix": [
+      {
+        "segment": "Net interest income (retail/SME lending)",
+        "share_pct": 55,
+        "trend": "stable"
+      },
+      {
+        "segment": "Net fees & commissions (wealth mgmt, payments, bancassurance)",
+        "share_pct": 40,
+        "trend": "growing"
+      },
+      {
+        "segment": "Trading & other income",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Italy (domestic - Tuscany & central Italy core)",
+        "share_pct": 95
+      },
+      {
+        "region": "Rest of Europe / international",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "Italian retail households (current accounts, mortgages)",
+      "Small & medium enterprises (SME lending)",
+      "Wealth management & private banking (incl. online bank Widiba)",
+      "Bancassurance & consumer credit",
+      "Investment banking & advisory (via Mediobanca)"
+    ],
+    "top_competitors": [
+      "Intesa Sanpaolo (largest Italian bank; launched a counter-bid for MPS in June 2026)",
+      "UniCredit",
+      "Banco BPM",
+      "BPER Banca",
+      "Credem / regional Italian banks"
+    ],
+    "moat": {
+      "type": "Entrenched regional deposit franchise + restored capital strength + DTA tax shield",
+      "narrative": "MPS's ~1,300-branch network with deep roots in Tuscany (287 branches, ~22% local share) gives a sticky low-cost retail deposit base that is expensive for rivals to replicate. Years of restructuring left it with a large stock of deferred tax assets (the Mediobanca merger alone is projected to unlock ~EUR500m of DTA accretion over six years) that shields future profits, and a cost-income ratio improved to ~45% makes it a structurally cheaper operator post-turnaround."
+    },
+    "key_customers": [
+      "~3.4 million Italian retail customers (mass-market & affluent)",
+      "Italian SMEs and mid-corporates",
+      "Widiba online-bank clients (~0.3m managed exclusively)",
+      "Private-banking & wealth clients (expanded via Mediobanca/Banca Generali)"
+    ],
+    "key_risks": [
+      "Live takeover battle - Intesa Sanpaolo launched a ~EUR30.6B unsolicited bid for MPS in June 2026, creating strategic and ownership uncertainty",
+      "Mediobanca integration complexity (86.3% stake, merger by incorporation, minority squeeze-out) plus Generali/Banca Generali entanglements",
+      "Italian sovereign / rate sensitivity - heavy domestic BTP holdings and NII exposure to ECB rate cuts",
+      "Italian Treasury still a large legacy shareholder (was 26.7%, mandated to fall below 20%) - political overhang on strategy",
+      "Concentration in a low-growth Italian economy; asset-quality risk if Italian SME credit deteriorates"
+    ],
+    "sources": [
+      {
+        "label": "MPS FY2024 4Q/12M results press release (MarketScreener)",
+        "url": "https://www.marketscreener.com/quote/stock/BANCA-MONTE-DEI-PASCHI-DI-32053194/news/Banca-Monte-dei-Paschi-di-Siena-S-p-A-Press-Release-4Q-12M-Financial-year-2024-48976892/"
+      },
+      {
+        "label": "Bloomberg - Monte Paschi ends bid with 86.3% of Mediobanca",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/monte-paschi-s-mediobanca-takeover-offer-ends-with-86-3-stake"
+      },
+      {
+        "label": "Reuters/Investing - Intesa launches EUR30.6B bid for MPS",
+        "url": "https://www.investing.com/news/stock-market-news/italys-top-bank-intesa-launches-unsolicited-35-billion-bid-for-monte-dei-paschi-4729804"
+      }
+    ],
+    "last_refreshed": "2026-06-13"
+  },
+  "MB.MI": {
+    "ticker": "MB.MI",
+    "company": "Mediobanca - Banca di Credito Finanziario S.p.A.",
+    "as_of": "2026-06-13",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Mediobanca is Italy's leading investment bank, now operating as a diversified financial group across four engines: Wealth Management (private banking, asset management, premier clients), Consumer Finance (Compass - personal loans, BNPL via Pagolight), Corporate & Investment Banking (M&A advisory, lending, capital markets - increasingly cross-border), and Insurance/Principal Investing centered on a ~13% strategic stake in insurer Assicurazioni Generali. It earns net interest income, advisory and management fees, and equity-accounted Generali profits. In September 2025 it was acquired (86.3%) by Monte dei Paschi and is being merged into MPS.",
+    "revenue_mix": [
+      {
+        "segment": "Wealth Management (private banking, asset mgmt)",
+        "share_pct": 33,
+        "trend": "growing"
+      },
+      {
+        "segment": "Consumer Finance (Compass)",
+        "share_pct": 30,
+        "trend": "growing"
+      },
+      {
+        "segment": "Corporate & Investment Banking",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Insurance & Principal Investing (Generali stake)",
+        "share_pct": 13,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Italy (domestic)",
+        "share_pct": 75
+      },
+      {
+        "region": "Rest of Europe (CIB cross-border, Paris/Frankfurt/Madrid)",
+        "share_pct": 22
+      },
+      {
+        "region": "Rest of world",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "High-net-worth & affluent wealth clients (Italy)",
+      "Italian consumer-credit borrowers (personal loans, BNPL)",
+      "Large corporates & PE (M&A advisory, lending, ECM/DCM)",
+      "Insurance income via Generali equity stake",
+      "Institutional capital-markets clients"
+    ],
+    "top_competitors": [
+      "UniCredit & Intesa Sanpaolo (CIB and wealth)",
+      "Banca Generali / Fineco / Azimut (wealth management)",
+      "Findomestic & Agos (consumer finance)",
+      "Goldman Sachs, JPMorgan, Lazard, Rothschild (M&A advisory)",
+      "BNP Paribas (Italian CIB)"
+    ],
+    "moat": {
+      "type": "Premier Italian M&A franchise + high-ROA Compass consumer-credit engine + Generali optionality",
+      "narrative": "Mediobanca owns the deepest blue-chip advisory relationships in Italy - the go-to adviser on domestic M&A and capital markets - a reputational franchise built over decades that newcomers cannot replicate. Compass's consumer-finance book runs at a ~9.6% ROA, an unusually profitable scaled BNPL/personal-loan platform, while the ~13% Generali stake provides a stable, bank-cycle-decoupled earnings stream and strategic optionality (it underpinned both the Banca Generali bid and resistance to the MPS takeover)."
+    },
+    "key_customers": [
+      "Italian corporates & private-equity sponsors (CIB advisory)",
+      "HNW / affluent private-banking clients",
+      "Mass-market consumer borrowers (Compass)",
+      "Institutional investors (capital markets)",
+      "Assicurazioni Generali (associate / strategic holding)"
+    ],
+    "key_risks": [
+      "Acquired and being merged into Monte dei Paschi - loss of independence; integration and minority squeeze-out execution risk",
+      "Generali stake entanglement and the contested Banca Generali exchange offer; governance/share-swap disputes under investigation",
+      "CIB advisory & trading revenues are cyclical and tied to volatile deal/market activity",
+      "Consumer Finance (Compass) credit-cost sensitivity if Italian unemployment or rates rise",
+      "Concentration in the mature, low-growth Italian economy; ECB rate cuts compress net interest income"
+    ],
+    "sources": [
+      {
+        "label": "Mediobanca press release 12M FY 2024-25 (31 July 2025)",
+        "url": "https://www.mediobanca.com/static/upload_new/pre/press-release-12m-fy-2024-25--31-july-2025.pdf"
+      },
+      {
+        "label": "Mediobanca Group Profile & Investment Case (Oct 2025)",
+        "url": "https://www.mediobanca.com/static/upload_new/med/0001/mediobanca-group-profile---investment-case_oct25.pdf"
+      },
+      {
+        "label": "Mediobanca business model and divisions",
+        "url": "https://www.mediobanca.com/en/our-group/business-model-and-divisions.html"
+      }
+    ],
+    "last_refreshed": "2026-06-13"
+  },
+  "PANW": {
+    "ticker": "PANW",
+    "company": "Palo Alto Networks, Inc.",
+    "as_of": "2026-06-13",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Palo Alto Networks is the largest pure-play cybersecurity vendor, selling protection across three platforms: Strata (network security - next-gen firewalls, hardware and software/SASE), Prisma (cloud security - securing cloud-native apps and remote access), and Cortex (AI-driven security operations, including the XSIAM SOC platform). Revenue is increasingly subscription and support (~80% of total) rather than appliance hardware, and the company is pushing 'platformization' - getting customers to consolidate multiple security tools onto its integrated stack, tracked via Next-Generation Security ARR.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription (Prisma, Cortex, cloud-delivered services)",
+        "share_pct": 54,
+        "trend": "growing"
+      },
+      {
+        "segment": "Support & maintenance",
+        "share_pct": 27,
+        "trend": "stable"
+      },
+      {
+        "segment": "Product (firewall appliances/hardware)",
+        "share_pct": 19,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 67
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 21
+      },
+      {
+        "region": "Asia Pacific & Japan",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Large enterprise & Global 2000 security teams",
+      "Cloud-native application security (Prisma Cloud)",
+      "Security operations centers / MDR (Cortex XSIAM)",
+      "Government & public sector",
+      "Service providers & SASE / remote-access deployments"
+    ],
+    "top_competitors": [
+      "CrowdStrike (endpoint, SecOps, platform consolidation)",
+      "Fortinet (firewalls, SASE)",
+      "Cisco Systems (network & SecOps post-Splunk)",
+      "Zscaler (SASE/SSE)",
+      "Microsoft Security (cross-suite bundling)"
+    ],
+    "moat": {
+      "type": "Platform consolidation + high switching costs + AI-led SOC data gravity",
+      "narrative": "Palo Alto's 'platformization' strategy (~1,250+ platformizations) locks customers into a multi-product security suite, so ripping out one module means re-architecting their whole defense - driving 32% NGS ARR growth to $5.6B and strong net retention. Cortex XSIAM's AI-driven SOC accumulates telemetry data gravity that improves detection the more it ingests, and consolidating fragmented point tools onto one vendor is a structural tailwind PANW is best-positioned to capture given the breadth of its Strata/Prisma/Cortex footprint."
+    },
+    "key_customers": [
+      "Large enterprises & Fortune/Global 2000 across all verticals",
+      "Government & defense agencies",
+      "Financial-services and healthcare security teams",
+      "Managed security service providers (MSSPs/MDR partners)"
+    ],
+    "key_risks": [
+      "Intense, well-capitalized competition - CrowdStrike, Microsoft, Fortinet and Zscaler all chasing platform consolidation",
+      "Legacy firewall/product hardware revenue declining as the mix shifts to software/SaaS - the transition must keep pace",
+      "Aggressive M&A-driven expansion raises integration and execution risk across an ever-broader portfolio",
+      "Rich valuation leaves little room for ARR/billings disappointment; demand sensitive to enterprise security-budget cycles",
+      "Customer concentration on large deals and 'free product' platformization incentives can pressure near-term margins/billings linearity"
+    ],
+    "sources": [
+      {
+        "label": "Palo Alto Networks Q4 FY2025 earnings (Futurum analysis)",
+        "url": "https://futurumgroup.com/insights/palo-alto-networks-q4-fy-2025-earnings-show-16-growth-strong-arr-momentum/"
+      },
+      {
+        "label": "Palo Alto Networks Q3 FY2025 earnings release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756725000015/ex991q325earningsrelease.htm"
+      },
+      {
+        "label": "Palo Alto Networks Q2 FY2025 earnings release",
+        "url": "https://www.paloaltonetworks.com/company/press/2025/palo-alto-networks-reports-fiscal-second-quarter-2025-financial-results"
+      }
+    ],
+    "last_refreshed": "2026-06-13"
   }
 }
