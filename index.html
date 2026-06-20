@@ -356,6 +356,7 @@ tr.selected td{background:rgba(245,166,35,0.08);}
       <div>
         <div class="brand-text">Stage 2 Global Momentum Screen</div>
         <div class="brand-sub">TOP 50 · WEEKLY REFRESH · QUANTITATIVE SCREENING</div>
+        <div class="brand-updated" id="lastUpdated" style="font-size:10px;color:var(--text3);margin-top:3px;font-family:'JetBrains Mono',monospace;letter-spacing:0.3px;">Last updated: —</div>
       </div>
     </div>
     <div class="header-meta">
@@ -524,6 +525,31 @@ function renderMacroStrip(){
   el.style.display = 'block';
 }
 
+// Renders the "Last updated" stamp under the title. Prefers the build timestamp
+// (preformatted IST string from build_meta.json), then falls back to the data
+// as-of date so it never goes blank even if build_meta.json isn't present.
+function renderLastUpdated(){
+  const el = document.getElementById('lastUpdated');
+  if(!el) return;
+  const bm = (typeof STATE !== 'undefined' && STATE.buildMeta) || {};
+  let txt = '';
+  if(bm.built_at_label){
+    txt = bm.built_at_label;
+  } else if(bm.built_at){
+    try {
+      const d = new Date(bm.built_at);
+      txt = d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) +
+            ', ' + d.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'}) + ' IST';
+    } catch(e){ txt = ''; }
+  }
+  if(!txt){
+    const asof = (typeof STATE !== 'undefined' && STATE.macro && STATE.macro._meta && STATE.macro._meta.as_of) ||
+                 (typeof STATE !== 'undefined' && STATE.summary && STATE.summary.asOf) || '';
+    if(asof) txt = asof;
+  }
+  el.textContent = 'Last updated: ' + (txt || '—');
+}
+
 // ==========================================================================
 // LOADING DONUT — drives the circular progress indicator from real load events
 // ==========================================================================
@@ -572,10 +598,11 @@ async function fetchWithProgress(url, onBytes){
     .then(j => { if(j){ STATE[key] = j; if(finalize) finalize(j); } setLoadPct(LOAD.pct + bump, 'Loading data'); })
     .catch(()=>{ setLoadPct(LOAD.pct + bump, 'Loading data'); });
   const fNarr  = sideFetch('./narratives.json',         'allNarr',    5);
-  const fMacro = sideFetch('./macro.json',              'macro',      5, function(){ renderMacroStrip(); });
+  const fMacro = sideFetch('./macro.json',              'macro',      5, function(){ renderMacroStrip(); renderLastUpdated(); });
   const fOP    = sideFetch('./business_onepagers.json', 'onepagers',  5);
   const fVal   = sideFetch('./valuations.json',         'valuations', 5);
   const fThesis= sideFetch('./thesis_tracker.json',     'thesis',     5);
+  const fBuild = sideFetch('./build_meta.json',         'buildMeta',  0, function(){ renderLastUpdated(); });
   try {
     setLoadPct(10, 'Downloading');
     const bytes = await fetchWithProgress('./Stage2_Top50_Global_LATEST.xlsx', function(got, total){
@@ -586,7 +613,7 @@ async function fetchWithProgress(url, onBytes){
     const wb = XLSX.read(bytes, {type:'array'});
     parseWorkbook(wb);
     setLoadPct(90, 'Finalizing');
-    await Promise.allSettled([fNarr, fMacro, fOP, fVal, fThesis]);
+    await Promise.allSettled([fNarr, fMacro, fOP, fVal, fThesis, fBuild]);
     setLoadPct(100, 'Ready');
     await new Promise(r => setTimeout(r, 250));
     render();
@@ -866,6 +893,7 @@ function render(){
   // KPIs
   const s = STATE.summary;
   document.getElementById('asOfDate').textContent = s.asOf || '—';
+  renderLastUpdated();
   // Prominent as-of badge in header
   const aob = document.getElementById('asOfBadge');
   if(aob && s.asOf){
