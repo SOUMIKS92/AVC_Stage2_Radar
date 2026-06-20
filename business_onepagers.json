@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-06-13",
+    "as_of": "2026-06-20",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -6826,5 +6826,265 @@
       }
     ],
     "last_refreshed": "2026-06-13"
+  },
+  "DDOG": {
+    "ticker": "DDOG",
+    "company": "Datadog, Inc.",
+    "as_of": "2026-06-20",
+    "last_refreshed_reason": "Quarterly refresh — FY2025 10-K filed Feb 18, 2026; Q4 FY2025 earnings press release Feb 10, 2026",
+    "company_overview": "Datadog is a cloud-native observability and security SaaS platform that ingests infrastructure metrics, application traces, logs, and security signals into a unified data store, then surfaces them through 800+ integrations. It generates all revenue from subscription and usage-based contracts. Customers pay to instrument their cloud workloads with Datadog agents and APIs; revenue expands automatically as workloads scale. FY2025 revenue was $3.43 billion (+28% YoY) at an 80% gross margin.",
+    "revenue_mix": [
+      {
+        "segment": "Platform subscription & usage (single reportable segment — no sub-segment split disclosed)",
+        "share_pct": 100,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 71
+      },
+      {
+        "region": "International (EMEA + APAC, not further split in disclosures)",
+        "share_pct": 29
+      }
+    ],
+    "end_markets": [
+      "Cloud infrastructure monitoring (DevOps / SRE teams at cloud-first enterprises)",
+      "Application performance monitoring / distributed tracing",
+      "Log management and SIEM / cloud security",
+      "AI/ML workload observability (LLM Observability, GPU Monitoring — launched 2025)",
+      "Digital experience / real user monitoring (RUM)"
+    ],
+    "top_competitors": [
+      "Dynatrace (APM / full-stack observability)",
+      "New Relic (APM — acquired by Francisco Partners 2023, going private)",
+      "Cisco (AppDynamics + Splunk — log management, SIEM)",
+      "Elastic N.V. (log management, search observability)",
+      "AWS CloudWatch / Azure Monitor / GCP Cloud Observability (native hyperscaler tools, free or bundled)",
+      "OpenTelemetry ecosystem (open-source standard that reduces proprietary agent lock-in)"
+    ],
+    "moat": {
+      "type": "Multi-product platform lock-in + usage-based expansion + proprietary AI layer",
+      "narrative": "84% of Datadog's ~32,700 customers use two or more products; every additional module embedded in CI/CD pipelines, on-call workflows, and runbooks raises switching costs because operators would need to re-tune alerts, retrain muscle memory, and re-implement in a new query language. The Bits AI suite (Bits SRE Agent, TOTO time-series foundation model, Watchdog anomaly detection) adds a proprietary AI flywheel: telemetry data from thousands of customers trains detection models that no single-tenant tool can replicate. The usage-based pricing model means revenue expands passively as customer cloud footprints grow."
+    },
+    "key_customers": [
+      "No single customer >10% of revenue (10-K disclosed)",
+      "603 customers with $1M+ ARR (as of Dec 31, 2025, up 31% YoY)",
+      "4,310 customers with $100K+ ARR — this cohort represents ~90% of total ARR (approx)",
+      "Named users (third-party sources, not 10-K disclosed): Samsung, PayPal, JPMorgan Chase, Accenture"
+    ],
+    "key_risks": [
+      "Hyperscaler bundling: AWS CloudWatch, Azure Monitor, and GCP tools are free or deeply discounted for customers already spending on those clouds — a budget consolidation cycle could divert spend away from Datadog",
+      "OpenTelemetry adoption: the CNCF-backed open standard standardizes telemetry data formats and agent instrumentation, making it easier to swap Datadog for a cheaper backend without re-instrumenting code — named explicitly as a switching enabler in the FY2025 10-K",
+      "AI-native customer concentration: a handful of large AI-native hyperscalers drove outsized growth; if that cohort reduces GPU spend or builds in-house observability, Datadog's growth rate is disproportionately impacted",
+      "Macro / trade policy: enterprise IT budget freezes and tariff-driven capex uncertainty (named in FY2025 10-K as live risks as of Feb 2026) pressure renewal and upsell cycles",
+      "Dual-class share structure: co-founders hold Class B shares with 10x voting rights, concentrating governance control and limiting minority shareholder influence"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 10-K (SEC EDGAR)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550&type=10-K"
+      },
+      {
+        "label": "Q4 & FY2025 Earnings Press Release",
+        "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-fourth-quarter-and-fiscal-year-2025-financial"
+      },
+      {
+        "label": "Datadog Investor Relations",
+        "url": "https://investors.datadoghq.com/"
+      }
+    ]
+  },
+  "ALGM": {
+    "ticker": "ALGM",
+    "company": "Allegro MicroSystems, Inc.",
+    "as_of": "2026-06-20",
+    "last_refreshed_reason": "Quarterly refresh — FY2026 10-K filed May 2026 (fiscal year ended March 27, 2026)",
+    "company_overview": "Allegro MicroSystems is a fabless designer of magnetic sensor ICs and power ICs, focused almost entirely on automotive and industrial applications. Its Hall-effect and TMR (Tunneling Magnetoresistance) current sensors are embedded in EV traction motor drives, battery management systems, and ADAS radar/lidar support electronics. It sells through distributors (~55% of revenue) and direct to Tier-1 automotive OEMs. FY2025 revenue (year ended March 2025) was $725 million, down 31% from FY2024's $1.05 billion due to EV inventory destocking.",
+    "revenue_mix": [
+      {
+        "segment": "Automotive",
+        "share_pct": 75,
+        "trend": "declining (destocking cycle; EV ramp expected to resume 2026-2027)"
+      },
+      {
+        "segment": "Industrial and Other",
+        "share_pct": 25,
+        "trend": "declining (AI data center and robotics cited as emerging recovery vectors)"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Greater China (approx — largest single geography, flagged as concentration risk)",
+        "share_pct": 32
+      },
+      {
+        "region": "Japan (approx — Sanken Electric distribution agreement)",
+        "share_pct": 18
+      },
+      {
+        "region": "South Korea (approx)",
+        "share_pct": 15
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 15
+      },
+      {
+        "region": "Americas + Other (approx)",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "xEV powertrains: traction motor current sensing, battery pack current sensing (800V architectures)",
+      "ADAS: wheel speed sensing, steering torque sensing, radar/lidar support electronics",
+      "x-by-wire: steer-by-wire, brake-by-wire (emerging; high-reliability ASIL-D requirement)",
+      "AI data centers: power delivery current sensing (named as growth vector in FY2026 10-K)",
+      "Robotics: joint motor control current sensing (named as strategic focus FY2026)",
+      "Factory automation / HVAC / e-bikes (Industrial segment)"
+    ],
+    "top_competitors": [
+      "Infineon Technologies (automotive sensor and power ICs — direct competitor in current sensing and motor drivers)",
+      "Melexis (specialist automotive Hall-effect sensor IC company — most direct overlap)",
+      "onsemi (power ICs and sensor ICs for automotive)",
+      "Analog Devices / Texas Instruments (broad analog portfolios competing in power management and sensing)",
+      "STMicroelectronics (automotive sensor and power ICs)"
+    ],
+    "moat": {
+      "type": "Proprietary magnetic sensing IP (XtremeSense TMR) + ASIL-D qualification lock-in + design-win model",
+      "narrative": "Allegro holds ~28% global share in magnetic sensor ICs (approx, analyst estimate) built on 30+ years of Hall-effect expertise and ~1,860 active patents. Its XtremeSense TMR platform (from the ~$400M Crocus Technology acquisition in 2023) enables 800V EV battery current sensing precision that Hall-effect cannot match. Once an ALGM chip is designed into an automotive platform — a process requiring AEC-Q100 Grade 0 and ASIL-D certification — OEMs face multi-year re-qualification to switch suppliers, anchoring revenue for the 5-7 year production life of the vehicle platform."
+    },
+    "key_customers": [
+      "No individual OEM customer named in public filings; sold through 10,000+ global customers",
+      "Sanken Electric Co. Ltd. (Japan) — former majority parent, now a distributor; a distribution agreement transition is underway",
+      "Largest non-affiliated distributor: ~9.4% of FY2026 net sales (disclosed; entity not named)",
+      "Distributors as a channel: ~55% of FY2026 net sales"
+    ],
+    "key_risks": [
+      "EV demand cyclicality: the entire 31% revenue decline in FY2025 was driven by EV inventory destocking across Greater China and Europe; a second destocking wave or slower-than-expected EV adoption would extend the loss cycle",
+      "China revenue concentration and export-control escalation: Greater China is estimated ~30-35% of revenue (approx); US-China tariff escalation and export restrictions on critical semiconductor materials are a named 10-K risk",
+      "Philippines manufacturing concentration: significant final assembly and test operations in the Philippines create single-point-of-failure risk for natural disasters or geopolitical disruption",
+      "XtremeSense TMR commercialization risk: the ~$400M Crocus acquisition bet requires OEM adoption of TMR over Hall-effect; slower-than-expected design-win conversion delays ROI",
+      "Sanken relationship transition: the distribution agreement with Sanken Electric is in renegotiation following Sanken's stake wind-down; disruption would impact Japan/Asia revenue materially"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Earnings Press Release (May 8, 2025)",
+        "url": "https://investors.allegromicro.com/news-releases/news-release-details/allegro-microsystems-reports-fourth-quarter-and-fiscal-year-2025/"
+      },
+      {
+        "label": "Allegro MicroSystems SEC filings (EDGAR)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866291&type=10-K"
+      },
+      {
+        "label": "Allegro MicroSystems Investor Relations",
+        "url": "https://investors.allegromicro.com/"
+      }
+    ]
+  },
+  "ASML.AS": {
+    "ticker": "ASML.AS",
+    "company": "ASML Holding N.V.",
+    "as_of": "2026-06-20",
+    "last_refreshed_reason": "Quarterly refresh — FY2025 results released Jan 2026; Q1 2026 results released Apr 2026",
+    "company_overview": "ASML is the world's sole manufacturer of EUV (Extreme Ultraviolet) lithography systems — the machines that print circuit patterns onto silicon wafers at sub-7nm nodes — and holds ~90% share in DUV (Deep Ultraviolet) lithography. Every leading-edge chip at TSMC, Samsung, and Intel is made on an ASML machine. Revenue splits roughly 77% systems and 23% Installed Base Management (service, field upgrades, spare parts). FY2024 revenue was €28.3 billion; FY2025 was €32.7 billion; the ~€39 billion order backlog at year-end FY2025 provides multi-year visibility.",
+    "revenue_mix": [
+      {
+        "segment": "EUV Systems (0.33 NA, TWINSCAN NXE series)",
+        "share_pct": 29,
+        "trend": "growing — EUV unit demand driven by AI chip capacity additions at TSMC and Samsung"
+      },
+      {
+        "segment": "DUV Immersion Systems (ArFi, NXT series — workhorse for 7nm-28nm)",
+        "share_pct": 32,
+        "trend": "stable to declining — China restrictions and node maturity headwinds"
+      },
+      {
+        "segment": "DUV Dry + KrF + I-line (legacy nodes, mature geometries)",
+        "share_pct": 12,
+        "trend": "declining"
+      },
+      {
+        "segment": "Metrology and Inspection (YieldStar, HMI e-beam tools)",
+        "share_pct": 4,
+        "trend": "growing"
+      },
+      {
+        "segment": "Installed Base Management (service, field upgrades, spare parts)",
+        "share_pct": 23,
+        "trend": "growing — structurally grows with installed base"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China (net system sales basis; elevated FY2024 due to pre-restriction front-loading; ~20% by FY2026)",
+        "share_pct": 36
+      },
+      {
+        "region": "South Korea (Samsung, SK Hynix)",
+        "share_pct": 23
+      },
+      {
+        "region": "United States (Intel, Micron, Globalfoundries)",
+        "share_pct": 16
+      },
+      {
+        "region": "Taiwan (TSMC — historically largest customer)",
+        "share_pct": 15
+      },
+      {
+        "region": "Japan (approx)",
+        "share_pct": 4
+      },
+      {
+        "region": "EMEA and Other (approx)",
+        "share_pct": 6
+      }
+    ],
+    "end_markets": [
+      "Logic / advanced foundry (most EUV demand): TSMC N3/N2 and Samsung SF3/SF2 nodes for AI accelerators, smartphone SoCs (Apple, Qualcomm), HPC",
+      "DRAM / HBM memory: SK Hynix HBM3e/HBM4 (for NVIDIA), Samsung, Micron — became majority of Q4 2025 bookings driven by AI memory demand",
+      "Mature/legacy nodes (DUV KrF, I-line): automotive semiconductors, RF, power management, industrial ICs"
+    ],
+    "top_competitors": [
+      "Nikon (Japan) — DUV only, low-single-digit market share; no EUV capability; niche player",
+      "Canon (Japan) — DUV + nanoimprint lithography (NIL) for legacy nodes; throughput and defect density limitations prevent NIL from competing at advanced nodes",
+      "SMEE / domestic China (state-backed) — most advanced domestic tool is ~28nm-capable; many years behind ASML EUV; negligible threat at advanced nodes",
+      "xLight (US startup) — developing free-electron-laser alternative light source; CHIPS-funded; pre-revenue"
+    ],
+    "moat": {
+      "type": "Physics-constrained monopoly + single-source supply chain + installed-base lock-in",
+      "narrative": "ASML has 100% market share in EUV: no competitor has delivered a single commercial EUV system. The monopoly rests on three reinforcing barriers: (1) the EUV light source requires firing ~50,000 tin droplets/second hit by dual CO2 lasers (TRUMPF) to generate 13.5nm plasma — a mechanism 30 years in development that ASML/Cymer is the only production supplier of; (2) the optical mirrors must be polished to sub-0.1nm roughness, achievable only by Carl Zeiss SMT (ASML owns ~25%); the 20-F states that if Zeiss terminated supply ASML 'would effectively cease to be able to conduct our business'; (3) the Installed Base Management stream locks in fabs because only ASML field engineers can service these machines, and fab downtime is catastrophic."
+    },
+    "key_customers": [
+      "Largest customer: ~16.6% of FY2024 net sales — universally identified as TSMC",
+      "Top 2 customers combined: ~30.5% of FY2024 net sales — second identified as Samsung by consensus",
+      "Intel: primary adopter of High-NA EUV (EXE:5200 platform, targeting 14A node ~2027)",
+      "SK Hynix: major DUV and EUV customer for HBM3e/HBM4 production",
+      "Micron: US-based DRAM customer; EUV adoption accelerating for leading-edge DRAM"
+    ],
+    "key_risks": [
+      "China export-control escalation (most material): EUV banned since 2019; advanced DUV immersion banned since Sept 2023, expanded Sept 2024; US MATCH Act under consideration would ban remaining DUV immersion sales AND servicing of Chinese installed base — sell-side models 10-15% EPS/top-line risk; China was ~41% of FY2024 net system sales, targeting ~20% by FY2026",
+      "TSMC High-NA EUV deferral: TSMC has delayed adoption of the EXE:5200 High-NA platform (~€360-400M/unit vs ~€200M for standard EUV) to a later node, cutting the near-term ramp of ASML's highest-ASP product",
+      "Demand cyclicality: a prior quarter's bookings missed consensus by ~50%, triggering a 15-20% single-day stock drop; FY2025 guidance carried a wide range reflecting cycle uncertainty",
+      "Zeiss SMT single-source dependency: 20-F explicitly states ASML would 'effectively cease to conduct business' if Carl Zeiss SMT terminated the optics supply relationship",
+      "US-origin component extraterritoriality: Cymer (San Diego) manufactures EUV light sources; US-origin content triggers FDPR applicability, allowing BIS to restrict shipments independent of Dutch decisions"
+    ],
+    "sources": [
+      {
+        "label": "ASML Q4/FY2024 Earnings Press Release",
+        "url": "https://www.asml.com/en/news/press-releases"
+      },
+      {
+        "label": "ASML SEC filings (EDGAR, 20-F)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000937966&type=20-F"
+      },
+      {
+        "label": "ASML Investor Relations",
+        "url": "https://www.asml.com/en/investors"
+      }
+    ]
   }
 }
