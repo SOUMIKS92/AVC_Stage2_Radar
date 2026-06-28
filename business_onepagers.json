@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-06-20",
+    "as_of": "2026-06-28",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -6830,159 +6830,176 @@
   "DDOG": {
     "ticker": "DDOG",
     "company": "Datadog, Inc.",
-    "as_of": "2026-06-20",
-    "last_refreshed_reason": "Quarterly refresh — FY2025 10-K filed Feb 18, 2026; Q4 FY2025 earnings press release Feb 10, 2026",
-    "company_overview": "Datadog is a cloud-native observability and security SaaS platform that ingests infrastructure metrics, application traces, logs, and security signals into a unified data store, then surfaces them through 800+ integrations. It generates all revenue from subscription and usage-based contracts. Customers pay to instrument their cloud workloads with Datadog agents and APIs; revenue expands automatically as workloads scale. FY2025 revenue was $3.43 billion (+28% YoY) at an 80% gross margin.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "Quarterly refresh (Q1 FY27 cycle)",
+    "company_overview": "Datadog runs a cloud-based observability and security platform that lets engineering and operations teams monitor the health, performance, and security of their software and infrastructure in one place. It sells via usage-based subscriptions (per host, per GB of logs, per million events), so revenue scales with each customer's cloud footprint. FY2025 revenue was $3.43B, up 28% year-over-year, from ~32,700 customers across 160+ countries.",
     "revenue_mix": [
       {
-        "segment": "Platform subscription & usage (single reportable segment — no sub-segment split disclosed)",
-        "share_pct": 100,
+        "segment": "Infrastructure Monitoring (approx)",
+        "share_pct": 33,
+        "trend": "stable"
+      },
+      {
+        "segment": "Log Management (approx)",
+        "share_pct": 26,
+        "trend": "growing"
+      },
+      {
+        "segment": "APM & Continuous Profiling suite (approx)",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Security, Cloud Cost, Digital Experience & other newer products (approx)",
+        "share_pct": 17,
         "trend": "growing"
       }
     ],
     "geo_mix": [
       {
         "region": "North America",
-        "share_pct": 71
+        "share_pct": 73
       },
       {
-        "region": "International (EMEA + APAC, not further split in disclosures)",
-        "share_pct": 29
+        "region": "EMEA",
+        "share_pct": 17
+      },
+      {
+        "region": "APAC & Other",
+        "share_pct": 10
       }
     ],
     "end_markets": [
-      "Cloud infrastructure monitoring (DevOps / SRE teams at cloud-first enterprises)",
-      "Application performance monitoring / distributed tracing",
-      "Log management and SIEM / cloud security",
-      "AI/ML workload observability (LLM Observability, GPU Monitoring — launched 2025)",
-      "Digital experience / real user monitoring (RUM)"
+      "Cloud-native software companies",
+      "Financial services & fintech",
+      "Retail & e-commerce",
+      "Media/streaming",
+      "Healthcare & enterprise IT"
     ],
     "top_competitors": [
-      "Dynatrace (APM / full-stack observability)",
-      "New Relic (APM — acquired by Francisco Partners 2023, going private)",
-      "Cisco (AppDynamics + Splunk — log management, SIEM)",
-      "Elastic N.V. (log management, search observability)",
-      "AWS CloudWatch / Azure Monitor / GCP Cloud Observability (native hyperscaler tools, free or bundled)",
-      "OpenTelemetry ecosystem (open-source standard that reduces proprietary agent lock-in)"
+      "Dynatrace",
+      "New Relic",
+      "Splunk (Cisco)",
+      "Grafana Labs",
+      "Elastic",
+      "Microsoft (Azure Monitor) / AWS CloudWatch (native hyperscaler tools)"
     ],
     "moat": {
-      "type": "Multi-product platform lock-in + usage-based expansion + proprietary AI layer",
-      "narrative": "84% of Datadog's ~32,700 customers use two or more products; every additional module embedded in CI/CD pipelines, on-call workflows, and runbooks raises switching costs because operators would need to re-tune alerts, retrain muscle memory, and re-implement in a new query language. The Bits AI suite (Bits SRE Agent, TOTO time-series foundation model, Watchdog anomaly detection) adds a proprietary AI flywheel: telemetry data from thousands of customers trains detection models that no single-tenant tool can replicate. The usage-based pricing model means revenue expands passively as customer cloud footprints grow."
+      "type": "Platform breadth + data gravity + land-and-expand",
+      "narrative": "Once a team instruments its stack with Datadog agents, the unified data across 900+ integrations creates switching costs and cross-sell pull: 83% of customers use 2+ products and ~51% use 4+, so each new module (security, LLM observability) rides existing telemetry pipelines rather than a fresh sales motion. Consumption pricing means revenue compounds with customers' own cloud growth."
     },
     "key_customers": [
-      "No single customer >10% of revenue (10-K disclosed)",
-      "603 customers with $1M+ ARR (as of Dec 31, 2025, up 31% YoY)",
-      "4,310 customers with $100K+ ARR — this cohort represents ~90% of total ARR (approx)",
-      "Named users (third-party sources, not 10-K disclosed): Samsung, PayPal, JPMorgan Chase, Accenture"
+      "Large cloud-native and enterprise accounts; 603 customers at $1M+ ARR and ~4,310 at $100K+ ARR as of Dec 2025",
+      "Disclosed/referenced users include Comcast, Shell, Maersk, Samsung, and major banks",
+      "No single customer is >10% of revenue (diversified base)"
     ],
     "key_risks": [
-      "Hyperscaler bundling: AWS CloudWatch, Azure Monitor, and GCP tools are free or deeply discounted for customers already spending on those clouds — a budget consolidation cycle could divert spend away from Datadog",
-      "OpenTelemetry adoption: the CNCF-backed open standard standardizes telemetry data formats and agent instrumentation, making it easier to swap Datadog for a cheaper backend without re-instrumenting code — named explicitly as a switching enabler in the FY2025 10-K",
-      "AI-native customer concentration: a handful of large AI-native hyperscalers drove outsized growth; if that cohort reduces GPU spend or builds in-house observability, Datadog's growth rate is disproportionately impacted",
-      "Macro / trade policy: enterprise IT budget freezes and tariff-driven capex uncertainty (named in FY2025 10-K as live risks as of Feb 2026) pressure renewal and upsell cycles",
-      "Dual-class share structure: co-founders hold Class B shares with 10x voting rights, concentrating governance control and limiting minority shareholder influence"
+      "Usage-based model is exposed to customer cloud-cost optimization — a slowdown in client cloud spend directly compresses consumption revenue",
+      "Hyperscalers (AWS CloudWatch, Azure Monitor, Google Cloud Operations) bundle 'good-enough' native monitoring that can cap seat expansion at cost-conscious accounts",
+      "AI-era pricing disruption from cheaper observability entrants (Grafana, Last9, open-source OpenTelemetry) pressuring log/APM unit economics",
+      "Premium valuation leaves little room for any deceleration below ~25% growth"
     ],
     "sources": [
       {
-        "label": "FY2025 10-K (SEC EDGAR)",
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550&type=10-K"
+        "label": "Datadog Q4 & FY2025 results (8-K press release)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001561550/000162828026006645/ex-991x20251231x8k.htm"
       },
       {
-        "label": "Q4 & FY2025 Earnings Press Release",
-        "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-fourth-quarter-and-fiscal-year-2025-financial"
+        "label": "Datadog Q4/FY2025 release (IR)",
+        "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-third-quarter-2025-financial-results"
       },
       {
-        "label": "Datadog Investor Relations",
-        "url": "https://investors.datadoghq.com/"
+        "label": "Datadog FY2025 10-K coverage",
+        "url": "https://www.stocktitan.net/sec-filings/DDOG/10-k-datadog-inc-files-annual-report-3ecaa5579056.html"
       }
-    ]
+    ],
+    "last_refreshed": "2026-06-28"
   },
   "ALGM": {
     "ticker": "ALGM",
     "company": "Allegro MicroSystems, Inc.",
-    "as_of": "2026-06-20",
-    "last_refreshed_reason": "Quarterly refresh — FY2026 10-K filed May 2026 (fiscal year ended March 27, 2026)",
-    "company_overview": "Allegro MicroSystems is a fabless designer of magnetic sensor ICs and power ICs, focused almost entirely on automotive and industrial applications. Its Hall-effect and TMR (Tunneling Magnetoresistance) current sensors are embedded in EV traction motor drives, battery management systems, and ADAS radar/lidar support electronics. It sells through distributors (~55% of revenue) and direct to Tier-1 automotive OEMs. FY2025 revenue (year ended March 2025) was $725 million, down 31% from FY2024's $1.05 billion due to EV inventory destocking.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Allegro MicroSystems designs analog and mixed-signal semiconductors — chiefly magnetic-position/current sensor ICs and power ICs (motor drivers, regulators) — used to sense motion and manage power in cars and factory equipment. It is a sensing leader for electric-vehicle and ADAS systems, where its chips control traction inverters, steering, and 800V battery architectures. FY2025 (ended March 2025) sales were $725M in an inventory-correction trough; FY2026 rebounded ~23% to ~$890M as the cycle recovered.",
     "revenue_mix": [
       {
-        "segment": "Automotive",
-        "share_pct": 75,
-        "trend": "declining (destocking cycle; EV ramp expected to resume 2026-2027)"
+        "segment": "Magnetic Sensor ICs (position, speed, current)",
+        "share_pct": 66,
+        "trend": "growing"
       },
       {
-        "segment": "Industrial and Other",
-        "share_pct": 25,
-        "trend": "declining (AI data center and robotics cited as emerging recovery vectors)"
+        "segment": "Power ICs (motor drivers, regulators, LED/gate drivers)",
+        "share_pct": 34,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Greater China (approx — largest single geography, flagged as concentration risk)",
-        "share_pct": 32
+        "region": "Greater China",
+        "share_pct": 30
       },
       {
-        "region": "Japan (approx — Sanken Electric distribution agreement)",
+        "region": "Japan",
         "share_pct": 18
       },
       {
-        "region": "South Korea (approx)",
-        "share_pct": 15
+        "region": "Americas",
+        "share_pct": 17
       },
       {
-        "region": "Europe (approx)",
-        "share_pct": 15
+        "region": "South Korea",
+        "share_pct": 12
       },
       {
-        "region": "Americas + Other (approx)",
-        "share_pct": 20
+        "region": "Europe & Other Asia",
+        "share_pct": 23
       }
     ],
     "end_markets": [
-      "xEV powertrains: traction motor current sensing, battery pack current sensing (800V architectures)",
-      "ADAS: wheel speed sensing, steering torque sensing, radar/lidar support electronics",
-      "x-by-wire: steer-by-wire, brake-by-wire (emerging; high-reliability ASIL-D requirement)",
-      "AI data centers: power delivery current sensing (named as growth vector in FY2026 10-K)",
-      "Robotics: joint motor control current sensing (named as strategic focus FY2026)",
-      "Factory automation / HVAC / e-bikes (Industrial segment)"
+      "Automotive — xEV/e-Mobility (traction inverters, 800V battery)",
+      "Automotive — ADAS, safety & comfort",
+      "Industrial automation & robotics",
+      "Clean energy (solar/data-center power)",
+      "Personal/consumer & medical"
     ],
     "top_competitors": [
-      "Infineon Technologies (automotive sensor and power ICs — direct competitor in current sensing and motor drivers)",
-      "Melexis (specialist automotive Hall-effect sensor IC company — most direct overlap)",
-      "onsemi (power ICs and sensor ICs for automotive)",
-      "Analog Devices / Texas Instruments (broad analog portfolios competing in power management and sensing)",
-      "STMicroelectronics (automotive sensor and power ICs)"
+      "Infineon Technologies",
+      "Texas Instruments",
+      "NXP Semiconductors",
+      "Melexis (sensors)",
+      "onsemi",
+      "STMicroelectronics"
     ],
     "moat": {
-      "type": "Proprietary magnetic sensing IP (XtremeSense TMR) + ASIL-D qualification lock-in + design-win model",
-      "narrative": "Allegro holds ~28% global share in magnetic sensor ICs (approx, analyst estimate) built on 30+ years of Hall-effect expertise and ~1,860 active patents. Its XtremeSense TMR platform (from the ~$400M Crocus Technology acquisition in 2023) enables 800V EV battery current sensing precision that Hall-effect cannot match. Once an ALGM chip is designed into an automotive platform — a process requiring AEC-Q100 Grade 0 and ASIL-D certification — OEMs face multi-year re-qualification to switch suppliers, anchoring revenue for the 5-7 year production life of the vehicle platform."
+      "type": "Sensing IP + designed-in automotive sockets",
+      "narrative": "Allegro holds deep Hall-effect, TMR/GMR magnetic-sensing and isolated current-sensing IP and is designed into safety-critical automotive platforms where qualification cycles run years and switching mid-program is impractical — creating multi-year revenue visibility per socket. E-Mobility now drives nearly 50% of automotive revenue (up from ~30% in 2022), giving content growth as each EV uses far more sensors/power ICs than an ICE vehicle."
     },
     "key_customers": [
-      "No individual OEM customer named in public filings; sold through 10,000+ global customers",
-      "Sanken Electric Co. Ltd. (Japan) — former majority parent, now a distributor; a distribution agreement transition is underway",
-      "Largest non-affiliated distributor: ~9.4% of FY2026 net sales (disclosed; entity not named)",
-      "Distributors as a channel: ~55% of FY2026 net sales"
+      "Tier-1 automotive suppliers (e.g., Bosch, ZF, Continental) and global automakers/EV makers via distribution and direct design wins",
+      "Industrial automation OEMs",
+      "Largest distributor is the primary go-to-market channel; concentration spread across many auto programs"
     ],
     "key_risks": [
-      "EV demand cyclicality: the entire 31% revenue decline in FY2025 was driven by EV inventory destocking across Greater China and Europe; a second destocking wave or slower-than-expected EV adoption would extend the loss cycle",
-      "China revenue concentration and export-control escalation: Greater China is estimated ~30-35% of revenue (approx); US-China tariff escalation and export restrictions on critical semiconductor materials are a named 10-K risk",
-      "Philippines manufacturing concentration: significant final assembly and test operations in the Philippines create single-point-of-failure risk for natural disasters or geopolitical disruption",
-      "XtremeSense TMR commercialization risk: the ~$400M Crocus acquisition bet requires OEM adoption of TMR over Hall-effect; slower-than-expected design-win conversion delays ROI",
-      "Sanken relationship transition: the distribution agreement with Sanken Electric is in renegotiation following Sanken's stake wind-down; disruption would impact Japan/Asia revenue materially"
+      "Automotive/industrial inventory and demand cyclicality — FY2025 sales fell on customer destocking before recovering",
+      "EV adoption pace: a slowdown in xEV builds directly hits the ~50%-of-auto e-Mobility growth engine",
+      "China exposure (~30%) to local competition and trade/tariff friction; Chinese analog entrants pressuring price",
+      "Competition from much larger Infineon, TI and NXP in both sensing and power; majority ownership legacy (Sanken/onsemi history) and capital-allocation overhang"
     ],
     "sources": [
       {
-        "label": "FY2025 Earnings Press Release (May 8, 2025)",
+        "label": "Allegro Q4 & FY2025 results (IR)",
         "url": "https://investors.allegromicro.com/news-releases/news-release-details/allegro-microsystems-reports-fourth-quarter-and-fiscal-year-2025/"
       },
       {
-        "label": "Allegro MicroSystems SEC filings (EDGAR)",
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866291&type=10-K"
+        "label": "Allegro FY2025 Form 10-K (8-K exhibit)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000866291/000095017025066360/algm-ex99_1.htm"
       },
       {
-        "label": "Allegro MicroSystems Investor Relations",
-        "url": "https://investors.allegromicro.com/"
+        "label": "Allegro Q3 FY2026 results",
+        "url": "https://investors.allegromicro.com/node/10551/pdf"
       }
-    ]
+    ],
+    "last_refreshed": "2026-06-28"
   },
   "ASML.AS": {
     "ticker": "ASML.AS",
@@ -7086,5 +7103,661 @@
         "url": "https://www.asml.com/en/investors"
       }
     ]
+  },
+  "RVMD": {
+    "ticker": "RVMD",
+    "company": "Revolution Medicines, Inc.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 2026, RASolute 302 readout)",
+    "company_overview": "Revolution Medicines is a clinical-stage oncology company developing RAS(ON) inhibitors — drugs that target the active form of mutant RAS, one of the most common cancer-causing proteins, especially in pancreatic, colorectal, and lung cancers. It has essentially no product revenue today; it is funded by cash, equity, and a Royalty Pharma funding agreement, and its value rests on its lead asset daraxonrasib (RMC-6236) reaching the market. Pivotal Phase 3 data in pancreatic cancer is the defining 2026 catalyst.",
+    "revenue_mix": [
+      {
+        "segment": "No commercial product revenue — clinical-stage; income is collaboration/grant and interest only (approx)",
+        "share_pct": 100,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (operations/clinical base; no product sales yet)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Pancreatic ductal adenocarcinoma (PDAC)",
+      "Non-small cell lung cancer (KRAS-mutant)",
+      "Colorectal cancer",
+      "Other RAS-addicted solid tumors"
+    ],
+    "top_competitors": [
+      "Amgen (Lumakras/sotorasib, KRAS G12C)",
+      "Bristol Myers Squibb (Krazati/adagrasib, via Mirati)",
+      "Boehringer Ingelheim (RAS programs)",
+      "Eli Lilly (KRAS/pan-RAS pipeline)",
+      "Roche/Genentech (divarasib)"
+    ],
+    "moat": {
+      "type": "Differentiated RAS(ON) science + first-mover breadth",
+      "narrative": "Most rivals inhibit only the inactive RAS(OFF) state or a single mutation (G12C); Revolution's tri-complex RAS(ON) inhibitors hit the active oncogenic state and span a multi-selective drug (daraxonrasib) plus mutation-selective assets (elironrasib G12C, zoldonrasib G12D, RMC-5127 G12V). That portfolio plus FDA Breakthrough Therapy, Orphan Drug, and a Commissioner's National Priority Voucher for accelerated review builds a regulatory and IP lead in a validated target class."
+    },
+    "key_customers": [
+      "None — pre-commercial. Future 'customers' are oncologists/payers treating PDAC and KRAS-mutant cancers",
+      "Royalty Pharma is a key financing counterparty via a royalty/funding agreement"
+    ],
+    "key_risks": [
+      "Binary clinical risk: RASolute 302 Phase 3 readout in previously treated metastatic PDAC (expected 2026) is make-or-break for the equity",
+      "Cash burn — sustained R&D spend with no product revenue means reliance on capital markets / partnerships and dilution risk",
+      "Competitive timing from Amgen, BMS, and Roche advancing their own RAS programs",
+      "Safety/tolerability of pan-RAS inhibition (on-target wild-type RAS effects) could limit dosing or label breadth"
+    ],
+    "sources": [
+      {
+        "label": "RASolute 302 ASCO 2026 plenary presentation announcement",
+        "url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-pivotal-phase-3-rasolute-302"
+      },
+      {
+        "label": "FDA Breakthrough Therapy designation for daraxonrasib",
+        "url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-announces-fda-breakthrough-therapy"
+      },
+      {
+        "label": "Revolution Medicines FY2025 8-K (results)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001628171/000095017025065618/rvmd-ex99_1.htm"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "AMAT": {
+    "ticker": "AMAT",
+    "company": "Applied Materials, Inc.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q2 FY2026)",
+    "company_overview": "Applied Materials is the world's largest supplier of equipment, services, and software used to manufacture semiconductor chips, as well as tools for displays. Chipmakers buy its deposition, etch, ion implantation, CMP, and inspection systems to build transistors and wiring; a large installed-base services arm (spares, upgrades, subscriptions) generates recurring revenue. FY2025 (ended Oct 2025) revenue was a record $28.4B, up 4%, with China at ~29% of sales.",
+    "revenue_mix": [
+      {
+        "segment": "Semiconductor Systems",
+        "share_pct": 73,
+        "trend": "growing"
+      },
+      {
+        "segment": "Applied Global Services (AGS)",
+        "share_pct": 23,
+        "trend": "growing"
+      },
+      {
+        "segment": "Display & Adjacent Markets",
+        "share_pct": 4,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China",
+        "share_pct": 29
+      },
+      {
+        "region": "Korea",
+        "share_pct": 18
+      },
+      {
+        "region": "Taiwan",
+        "share_pct": 17
+      },
+      {
+        "region": "United States",
+        "share_pct": 11
+      },
+      {
+        "region": "Japan",
+        "share_pct": 8
+      },
+      {
+        "region": "Southeast Asia & Other",
+        "share_pct": 17
+      }
+    ],
+    "end_markets": [
+      "Foundry/logic (leading-edge chips)",
+      "DRAM & NAND memory",
+      "AI/datacenter accelerator supply chain",
+      "Advanced packaging & heterogeneous integration",
+      "Display (OLED)"
+    ],
+    "top_competitors": [
+      "Lam Research (etch, deposition)",
+      "Tokyo Electron (deposition, coat/develop)",
+      "ASML (lithography — adjacent, not direct)",
+      "KLA (process control/inspection)",
+      "ASM International (ALD/epi)"
+    ],
+    "moat": {
+      "type": "Breadth of materials-engineering portfolio + installed-base services",
+      "narrative": "Applied is the only vendor spanning nearly every materials-engineering step (deposition, etch, implant, CMP, metrology), so it co-develops integrated process modules with leading-edge customers at gate-all-around and advanced-packaging nodes — relationships that lock in for years. Its ~$6.4B AGS arm with subscription service agreements turns each shipped tool into a multi-year recurring annuity, smoothing the WFE cycle."
+    },
+    "key_customers": [
+      "TSMC",
+      "Samsung",
+      "Intel",
+      "SK Hynix",
+      "Micron"
+    ],
+    "key_risks": [
+      "China revenue (~29%) exposed to U.S. export controls on advanced equipment and to a maturing China WFE digestion phase after the 2023-24 spending surge",
+      "Cyclicality of memory (DRAM/NAND) capex swings revenue and margins",
+      "Leading-edge concentration: capex decisions by a handful of customers (TSMC, Samsung, Intel) drive Semiconductor Systems orders",
+      "Lithography-driven node economics favor ASML; share contests with Lam/TEL in etch and deposition"
+    ],
+    "sources": [
+      {
+        "label": "Applied Materials Q4 & FY2025 results (IR)",
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2025"
+      },
+      {
+        "label": "Applied Materials FY2025 Form 10-K",
+        "url": "https://ir.appliedmaterials.com/static-files/af687923-06c7-4b43-a7a5-45750717f3ca"
+      },
+      {
+        "label": "Q4 FY2025 earnings prepared remarks",
+        "url": "https://ir.appliedmaterials.com/static-files/4d5a62a2-1796-4d11-ae7c-848c1ed7ea27"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "PST.MI": {
+    "ticker": "PST.MI",
+    "company": "Poste Italiane S.p.A.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 2026)",
+    "company_overview": "Poste Italiane is Italy's national postal operator turned diversified financial-services group. Despite the 'post office' name, most profit comes from financial and insurance products — savings, postal bonds, life insurance, and PostePay payments/cards — distributed through ~12,800 post offices, while the legacy mail business has shifted toward fast-growing parcel logistics. FY2025 revenue was a record €13.1B (+4%) with operating profit of €3.2B (+10%); the Italian state (MEF + CDP) is the controlling shareholder.",
+    "revenue_mix": [
+      {
+        "segment": "Financial Services (interest income, postal savings, distribution)",
+        "share_pct": 43,
+        "trend": "growing"
+      },
+      {
+        "segment": "Mail, Parcels & Distribution",
+        "share_pct": 30,
+        "trend": "stable"
+      },
+      {
+        "segment": "Insurance Services (Poste Vita)",
+        "share_pct": 14,
+        "trend": "growing"
+      },
+      {
+        "segment": "Payments & Mobile (PostePay, telecom)",
+        "share_pct": 13,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Italy (domestic — essentially all revenue)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Italian retail savers & households",
+      "Italian SMEs (payments, logistics)",
+      "E-commerce parcel delivery",
+      "Life insurance & pensions",
+      "Mobile/telecom (PostePay/Vodafone-Poste assets)"
+    ],
+    "top_competitors": [
+      "Intesa Sanpaolo & UniCredit (banking/savings)",
+      "Generali & other Italian insurers (life insurance)",
+      "Nexi (payments)",
+      "BRT, GLS, DHL, Amazon Logistics (parcels)",
+      "Other EU postal operators (cross-border mail)"
+    ],
+    "moat": {
+      "type": "Unmatched physical-distribution network + sovereign trust",
+      "narrative": "The ~12,800-office footprint reaching every Italian municipality is impossible to replicate and serves as a low-cost gathering channel for savings, insurance, and payments — Poste manages over €580B of total financial assets and distributes Italian Treasury postal savings products (Buoni/Libretti) under a unique state mandate. The household trust in a state-linked institution and captive postal-savings franchise underpin sticky, high-margin financial flows."
+    },
+    "key_customers": [
+      "~35 million Italian retail customers/savers",
+      "Italian government (Cassa Depositi e Prestiti) for postal savings distribution mandate",
+      "PostePay holds tens of millions of payment cards; SMEs and e-commerce shippers for logistics"
+    ],
+    "key_risks": [
+      "Interest-rate sensitivity: financial-services profit leans on net interest income, so ECB rate cuts compress the ~€2.7B NII engine",
+      "Structural decline of letter mail volumes requires continual parcel/financial offset",
+      "Italian sovereign exposure — large BTP/government-bond holdings tie balance sheet to Italy's credit spreads",
+      "State control (MEF/CDP) and universal-service obligations constrain pricing and strategic flexibility; regulatory/political interference risk"
+    ],
+    "sources": [
+      {
+        "label": "Poste Italiane FY2025 record results coverage (Il Sole 24 Ore)",
+        "url": "https://en.ilsole24ore.com/art/poste-2025-record-revenues-131-billion-net-profit-10-per-cent-AIUfUkdB"
+      },
+      {
+        "label": "Poste Italiane Q3 & 9M 2025 results (IR)",
+        "url": "https://www.posteitaliane.it/en/press-releases/posteitalianeq3-1476643664112.html"
+      },
+      {
+        "label": "Poste Italiane 9M 2025 results & guidance (FIRSTonline)",
+        "url": "https://www.firstonline.info/en/poste-italiane-ricavi-e-redditivita-da-record-nei-primi-nove-mesi-2025-acconto-sul-dividendo-e-guidance-confermata/"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "company": "CrowdStrike Holdings, Inc.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 FY2027)",
+    "company_overview": "CrowdStrike sells cloud-delivered cybersecurity through its Falcon platform — a single lightweight agent that protects laptops, servers, and cloud workloads and streams telemetry to a central AI/graph engine for threat detection. Customers subscribe to 33 modules spanning endpoint, cloud security, identity protection, SIEM/log management, threat intelligence, and generative-AI security (Charlotte AI). It crossed $5.3B in ARR (+24% YoY) in FY2026, sold almost entirely as recurring subscriptions.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription (Falcon modules)",
+        "share_pct": 95,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services (incident response, advisory)",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 68
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 16
+      },
+      {
+        "region": "APAC",
+        "share_pct": 11
+      },
+      {
+        "region": "Other (incl. LATAM)",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "Large enterprise IT security",
+      "Financial services & insurance",
+      "Government & public sector",
+      "Healthcare",
+      "Retail, technology & MSP/managed security partners"
+    ],
+    "top_competitors": [
+      "Microsoft (Defender for Endpoint)",
+      "SentinelOne",
+      "Palo Alto Networks (Cortex XDR)",
+      "Zscaler (in cloud/identity adjacencies)",
+      "Wiz/Palo Alto (cloud security)",
+      "Splunk/Cisco (SIEM)"
+    ],
+    "moat": {
+      "type": "Single-agent architecture + data network effects + module land-and-expand",
+      "narrative": "One Falcon agent and a unified threat graph mean each new customer's telemetry improves detection for all (Threat Graph network effect), while the same agent lights up new modules with zero additional deployment — driving high attach rates (51% of customers run 6+ modules, 25% run 8+). That consolidation pitch ('replace a dozen point tools with one platform') plus switching costs of an installed agent base creates durable lock-in even after the July 2024 outage."
+    },
+    "key_customers": [
+      "Over 65% of the Fortune 100 and a majority of the Fortune 500 (per company)",
+      "AWS, NVIDIA, and OpenAI as Charlotte AI AgentWorks ecosystem partners",
+      "Large public-sector and financial-services accounts; no single customer is a material concentration"
+    ],
+    "key_risks": [
+      "Reputation/contractual fallout and customer-retention sensitivity following the July 2024 global outage (Channel File 291) — pricing concessions and 'customer commitment packages' weigh on near-term net new ARR",
+      "Microsoft bundling Defender into E5 licenses pressures endpoint pricing at cost-focused accounts",
+      "Identity/cloud-security expansion brings direct competition with Okta, Zscaler, Wiz and Palo Alto",
+      "Premium valuation demands sustained 20%+ ARR growth and successful upsell of newer modules"
+    ],
+    "sources": [
+      {
+        "label": "CrowdStrike Q4 & FY2026 results (IR)",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026"
+      },
+      {
+        "label": "CrowdStrike FY2026 Q1 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000022/crwd-20260603xex991.htm"
+      },
+      {
+        "label": "Futurum: CrowdStrike Q4 FY2026 analysis",
+        "url": "https://futurumgroup.com/insights/crowdstrike-q4-fy-2026-earnings-extend-arr-scale-and-ai-security-focus/"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "SNOW": {
+    "ticker": "SNOW",
+    "company": "Snowflake Inc.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 FY2027)",
+    "company_overview": "Snowflake operates the AI Data Cloud — a cloud platform where companies store, query, share, and run analytics and AI on their data without managing infrastructure. It separates storage from compute and bills on a consumption basis (credits per second of compute), so revenue rises as customers run more queries and AI workloads. FY2026 (ended Jan 2026) revenue was $4.44B, up 29%, with product revenue the vast majority and a $9.77B remaining-performance-obligation backlog.",
+    "revenue_mix": [
+      {
+        "segment": "Product revenue (platform consumption — compute, storage, data services)",
+        "share_pct": 96,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services & other",
+        "share_pct": 4,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 78
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 14
+      },
+      {
+        "region": "Asia Pacific & Other",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Financial services",
+      "Technology & software",
+      "Retail/CPG",
+      "Healthcare & life sciences",
+      "Media, advertising & telecom"
+    ],
+    "top_competitors": [
+      "Databricks",
+      "Google BigQuery",
+      "Amazon Redshift",
+      "Microsoft Fabric/Azure Synapse",
+      "Oracle",
+      "ClickHouse/Confluent (in niches)"
+    ],
+    "moat": {
+      "type": "Multi-cloud data gravity + data-sharing network + consumption stickiness",
+      "narrative": "Snowflake's cross-cloud, cross-region architecture plus its data-sharing/Marketplace lets customers and partners exchange live datasets without copying — a network effect that deepens as more enterprises join, while massive stored data creates gravity that is costly to migrate. Cortex AI (430+ new capabilities in FY2026, including Cortex Code) keeps AI workloads on-platform, and consumption pricing compounds revenue with usage; 733 customers now spend $1M+ trailing-12-month product revenue."
+    },
+    "key_customers": [
+      "790 of the Forbes Global 2000 as customers",
+      "733 customers with >$1M trailing-12-month product revenue",
+      "Referenced large users include AT&T, Capital One, Adobe, NBCUniversal and major banks/retailers; revenue is diversified with no single dominant customer"
+    ],
+    "key_risks": [
+      "Consumption model means revenue is sensitive to customer cost-optimization and to how efficiently new compute generations (and AI) consume credits",
+      "Intense competition from Databricks (lakehouse) and hyperscalers (BigQuery, Redshift, Microsoft Fabric) bundling data + AI at aggressive prices",
+      "Hyperscaler dependency — Snowflake runs on AWS/Azure/GCP, paying them while competing with their native warehouses",
+      "Rich valuation requires durable ~25-30% growth and proof that Cortex AI converts into incremental consumption"
+    ],
+    "sources": [
+      {
+        "label": "Snowflake Q4 & FY2026 results (IR)",
+        "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026/"
+      },
+      {
+        "label": "Snowflake FY2026 Q4 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000162828026011631/fy2026q4earnings.htm"
+      },
+      {
+        "label": "Snowflake Q3 FY2026 results",
+        "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-third-quarter-of-fiscal-2026/"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "LRCX": {
+    "ticker": "LRCX",
+    "company": "Lam Research Corporation",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q3 FY2026)",
+    "company_overview": "Lam Research builds wafer-fabrication equipment used to make semiconductors, specializing in etch (selectively removing material) and deposition (laying down thin films) — the steps that create a chip's vertical 3D structures. Memory makers and foundries buy its systems, and a large installed base generates recurring spares, service, and upgrade revenue via its Reliant line and Customer Support Business Group. FY2025 (ended June 2025) revenue was $18.4B, up ~24%, with China at ~34% of sales.",
+    "revenue_mix": [
+      {
+        "segment": "Systems (etch, deposition, clean — new leading-edge equipment)",
+        "share_pct": 62,
+        "trend": "growing"
+      },
+      {
+        "segment": "Customer Support-related (spares, service, upgrades, Reliant non-leading-edge)",
+        "share_pct": 38,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China",
+        "share_pct": 34
+      },
+      {
+        "region": "Korea",
+        "share_pct": 22
+      },
+      {
+        "region": "Taiwan",
+        "share_pct": 19
+      },
+      {
+        "region": "Japan",
+        "share_pct": 10
+      },
+      {
+        "region": "United States",
+        "share_pct": 7
+      },
+      {
+        "region": "Southeast Asia & Europe",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "DRAM & NAND memory (3D NAND, HBM/DRAM)",
+      "Foundry (leading-edge logic)",
+      "Logic / integrated device manufacturers (IDM)",
+      "Advanced packaging",
+      "AI/HBM-driven memory capacity"
+    ],
+    "top_competitors": [
+      "Applied Materials (etch, deposition)",
+      "Tokyo Electron (etch, deposition, coat/develop)",
+      "ASM International (ALD)",
+      "Hitachi High-Tech (etch)",
+      "KLA (process control — adjacent)"
+    ],
+    "moat": {
+      "type": "Etch/deposition technology leadership + 3D NAND incumbency + service annuity",
+      "narrative": "Lam is the dominant supplier of high-aspect-ratio etch and deposition essential to stacking 3D NAND and building advanced DRAM/gate-all-around structures — capabilities co-developed with memory leaders over many node generations, making it deeply designed-in. Its growing Customer Support Business Group (Reliant, spares, upgrades) converts ~38% of revenue into a recurring annuity that cushions the memory capex cycle, and AI-driven HBM/DRAM demand lifts its core served markets."
+    },
+    "key_customers": [
+      "Samsung",
+      "SK Hynix",
+      "Micron",
+      "TSMC",
+      "Intel"
+    ],
+    "key_risks": [
+      "Highest China exposure among major WFE peers (~34%) — directly in the path of U.S. export controls on advanced equipment and China WFE digestion after the spending surge",
+      "Memory cyclicality: outsized NAND/DRAM mix makes revenue swing hard with memory capex",
+      "Customer concentration among a few memory/foundry buyers (Samsung, SK Hynix, Micron, TSMC)",
+      "Share competition with Applied Materials and Tokyo Electron in etch/deposition at leading-edge nodes"
+    ],
+    "sources": [
+      {
+        "label": "Lam Research FY2025 10-K coverage",
+        "url": "https://www.tradingview.com/news/tradingview:3eb97361a9c80:0-applied-materials-inc-de-sec-10-k-report/"
+      },
+      {
+        "label": "Lam Research 2025 Annual Report on Form 10-K",
+        "url": "https://www.webull.com/news/13319427509216256"
+      },
+      {
+        "label": "Lam Research Q3 FY2025 results (8-K exhibit)",
+        "url": "https://filecache.investorroom.com/mr5ir_lamresearch2/1439/LRCX_Exhibit_99.1_Q3_2025.pdf"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "MKSI": {
+    "ticker": "MKSI",
+    "company": "MKS Inc. (MKS Instruments)",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 2026)",
+    "company_overview": "MKS Inc. supplies the 'subsystems and process chemistry' that enable advanced manufacturing — vacuum, gas/pressure control, lasers, optics, power, and motion components for semiconductor toolmakers, plus, via its Atotech acquisition, plating chemistry and equipment for printed-circuit-boards and advanced packaging. It sells into chip fabs, electronics/PCB makers, and specialty industrial markets. FY2025 revenue was ~$3.93B (+~10%), with China about 24% of sales and ~81% of revenue from outside the U.S.",
+    "revenue_mix": [
+      {
+        "segment": "Semiconductor (subsystems for WFE: vacuum, gas, power, optics)",
+        "share_pct": 44,
+        "trend": "growing"
+      },
+      {
+        "segment": "Electronics & Packaging (Atotech plating chemistry/equipment, PCB)",
+        "share_pct": 28,
+        "trend": "growing"
+      },
+      {
+        "segment": "Specialty Industrial (lasers, photonics, life sciences, defense)",
+        "share_pct": 28,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China",
+        "share_pct": 24
+      },
+      {
+        "region": "United States",
+        "share_pct": 19
+      },
+      {
+        "region": "Other Asia (Taiwan, Korea, SE Asia)",
+        "share_pct": 36
+      },
+      {
+        "region": "Europe",
+        "share_pct": 14
+      },
+      {
+        "region": "Japan & Other",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Semiconductor wafer-fab equipment (subsystems)",
+      "Advanced packaging & PCB fabrication",
+      "Consumer electronics supply chain",
+      "Industrial lasers & photonics",
+      "Life sciences, research & defense/aerospace"
+    ],
+    "top_competitors": [
+      "Advanced Energy Industries (power/plasma)",
+      "Ichor Holdings & Ultra Clean Holdings (gas/fluid subsystems)",
+      "Coherent / II-VI (lasers, optics)",
+      "Element Solutions / DuPont (electronics chemistry vs. Atotech)",
+      "Pfeiffer/Edwards (Atlas Copco) in vacuum"
+    ],
+    "moat": {
+      "type": "Critical-subsystem breadth + 'optimize the interconnect' chemistry-to-equipment span",
+      "narrative": "MKS components are designed into nearly every major WFE tool, so it benefits from semiconductor capex broadly rather than betting on one toolmaker, and switching a qualified subsystem mid-platform is rare. The Atotech deal uniquely combines plating chemistry, equipment, and metrology to address advanced packaging and high-density PCBs — letting MKS sell an integrated interconnect solution that pure-play peers can't match — though it carries heavy acquisition debt."
+    },
+    "key_customers": [
+      "Major WFE OEMs (Applied Materials, Lam Research, ASML, Tokyo Electron) as subsystem customers",
+      "Global PCB and advanced-packaging manufacturers (Atotech chemistry/equipment)",
+      "Diversified industrial, electronics and research customers; no single dominant account"
+    ],
+    "key_risks": [
+      "High leverage from the ~$5B+ Atotech acquisition — interest burden and deleveraging pace constrain flexibility, especially if rates stay elevated",
+      "Semiconductor and consumer-electronics capex cyclicality drives the largest segments",
+      "China exposure (~24%) to export controls, tariffs and local-substitution risk in both semis and PCB chemistry",
+      "Integration/execution risk across the combined MKS-Atotech portfolio and FX translation given ~81% international revenue"
+    ],
+    "sources": [
+      {
+        "label": "MKS Q3 2025 results (8-K exhibit)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001049502/000119312525267070/mksi-ex99_1.htm"
+      },
+      {
+        "label": "MKS Q3 2025 results coverage (Globe and Mail)",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/MKSI/pressreleases/35998977/mks-inc-reports-strong-q3-2025-financial-results/"
+      },
+      {
+        "label": "MKS FY2025 8-K (results)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001049502/000095017025104141/mksi-ex99_1.htm"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
+  },
+  "OKTA": {
+    "ticker": "OKTA",
+    "company": "Okta, Inc.",
+    "as_of": "2026-06-28",
+    "last_refreshed_reason": "New concall (Q1 FY2027)",
+    "company_overview": "Okta is the leading independent identity provider: its cloud platform manages who can log into which applications and systems, handling single sign-on, multi-factor authentication, and identity governance for a company's employees (Workforce Identity) and, via Auth0, for the logins inside companies' own apps (Customer Identity). It sells multi-year SaaS subscriptions. FY2026 (ended Jan 2026) revenue grew ~12% with Q4 revenue of $761M, subscription RPO (backlog) of $4.83B, and free cash flow strength.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription (Workforce Identity + Customer Identity/Auth0)",
+        "share_pct": 98,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services & other",
+        "share_pct": 2,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 78
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 13
+      },
+      {
+        "region": "APAC & Other (incl. Americas ex-US)",
+        "share_pct": 9
+      }
+    ],
+    "end_markets": [
+      "Enterprise IT / workforce access management",
+      "Software & technology companies (developer Auth0/CIAM)",
+      "Financial services",
+      "Public sector & government (FedRAMP)",
+      "Healthcare, retail & education"
+    ],
+    "top_competitors": [
+      "Microsoft (Entra ID / Azure AD)",
+      "Ping Identity (Thoma Bravo)",
+      "CyberArk (privileged/identity security)",
+      "SailPoint (governance)",
+      "ForgeRock (now part of Ping)",
+      "AWS Cognito (in CIAM)"
+    ],
+    "moat": {
+      "type": "Vendor-neutral integration network + identity-as-control-plane stickiness",
+      "narrative": "Okta's value is being independent of any single cloud — its Integration Network of 7,000+ pre-built app connectors makes it the neutral identity layer that Microsoft-skeptical enterprises prefer, and once identity is wired into every app and workflow, ripping it out is highly disruptive (high switching costs, multi-year contracts). New products like Okta Identity Governance, Privileged Access, and Auth0 for AI Agents expand wallet share on the same control plane."
+    },
+    "key_customers": [
+      "~20,000 customers including large enterprises across FedRAMP-authorized public sector",
+      "Referenced users include FedEx, T-Mobile, JetBlue, and major banks/SaaS firms (Auth0 powering app logins)",
+      "Broad base; growth skewing to large $100K+/$1M+ accounts and Auth0 expansion"
+    ],
+    "key_risks": [
+      "Microsoft Entra ID bundled into E5/M365 licensing is a powerful 'free-with-suite' competitor that pressures Workforce pricing and net retention",
+      "Security-trust sensitivity after the late-2023 support-system breach raised scrutiny of an identity vendor's own security posture",
+      "Decelerating growth (~11-12%) and seat-based exposure to customer headcount and IT-budget softness",
+      "CIAM/Auth0 competition from hyperscaler-native identity (AWS Cognito, Azure AD B2C) and execution risk integrating new governance/PAM products"
+    ],
+    "sources": [
+      {
+        "label": "Okta Q4 & FY2026 results (IR)",
+        "url": "https://www.okta.com/newsroom/press-releases/okta-announces-fourth-quarter-fiscal-year-2026-financial-results/"
+      },
+      {
+        "label": "Okta FY2026 Q4 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001660134/000166013426000016/okta-1312026_ex991.htm"
+      },
+      {
+        "label": "Okta Q3 FY2026 results",
+        "url": "https://www.okta.com/newsroom/press-releases/okta-announces-third-quarter-fiscal-year-2026-financial-results/"
+      }
+    ],
+    "last_refreshed": "2026-06-28"
   }
 }
