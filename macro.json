@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "as_of": "2026-07-21",
+    "as_of": "2026-07-22",
     "source": "yfinance (daily, GitHub Action)"
   },
   "US10Y": {
     "ticker": "^TNX",
-    "level": 4.63,
-    "wow_chg": 0.04,
-    "wow_pct": 0.94,
-    "ytd_pct": 0.92
+    "level": 4.66,
+    "wow_chg": 0.11,
+    "wow_pct": 2.46,
+    "ytd_pct": 2.17
   },
   "DXY": {
     "ticker": "DX-Y.NYB",
-    "level": 101.19,
-    "wow_chg": 0.25,
-    "wow_pct": 0.25,
-    "ytd_pct": 2.02
+    "level": 101.14,
+    "wow_chg": 0.64,
+    "wow_pct": 0.64,
+    "ytd_pct": 1.83
   },
   "VIX": {
     "ticker": "^VIX",
-    "level": 17.05,
-    "wow_chg": 0.55,
-    "wow_pct": 3.33,
-    "ytd_pct": 1.73
+    "level": 16.64,
+    "wow_chg": 0.97,
+    "wow_pct": 6.19,
+    "ytd_pct": -0.36
   },
   "Brent": {
     "ticker": "BZ=F",
-    "level": 91.64,
-    "wow_chg": 6.91,
-    "wow_pct": 8.16,
-    "ytd_pct": -10.66
+    "level": 95.58,
+    "wow_chg": 10.63,
+    "wow_pct": 12.51,
+    "ytd_pct": -7.69
   },
   "SPX": {
     "ticker": "^GSPC",
-    "level": 7509.2,
-    "wow_chg": -34.39,
-    "wow_pct": -0.46,
-    "ytd_pct": 0.48
+    "level": 7498.96,
+    "wow_chg": -73.44,
+    "wow_pct": -0.97,
+    "ytd_pct": -0.27
   },
   "Gold": {
     "ticker": "GC=F",
-    "level": 4088.3,
-    "wow_chg": 27.2,
-    "wow_pct": 0.67,
-    "ytd_pct": -9.95
+    "level": 4125.5,
+    "wow_chg": 81.5,
+    "wow_pct": 2.02,
+    "ytd_pct": -8.75
   }
 }
