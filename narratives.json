@@ -163,13 +163,13 @@
     "Samsung HBM3E qualification announcement"
    ],
    "statement": "Micron is breaking back to highs as HBM3E and HBM4 ramp ahead of plan, and DRAM contract prices for 2026 have already been locked higher than sell-side models assumed.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 361.0,
-    "base": 1410.45,
-    "bull": 2200.0,
-    "base_upside_pct": 24.56,
-    "bull_upside_pct": 94.29
+    "bear": 755.93,
+    "base": 1473.13,
+    "bull": 5587.13,
+    "base_upside_pct": 64.93,
+    "bull_upside_pct": 525.53
    },
    "falsifier": "Memory cycles deeply cyclical — hyperscaler pause hits 2H"
   }
@@ -233,13 +233,13 @@
     "CES 2026 AI-PC product launches"
    ],
    "statement": "Dell is breaking out as AI server backlog reaches record levels and ISG (Infrastructure Solutions) margin expansion finally arrives.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 422.52,
-    "base": 672.01,
-    "bull": 979.5,
-    "base_upside_pct": 68.22,
-    "bull_upside_pct": 145.19
+    "bear": 383.34,
+    "base": 503.14,
+    "bull": 1834.6,
+    "base_upside_pct": 8.74,
+    "bull_upside_pct": 296.5
    },
    "falsifier": "AI server gross margins structurally lower than legacy ISG"
   }
@@ -1168,13 +1168,13 @@
     "Major sovereign AI awards"
    ],
    "statement": "Hewlett Packard Enterprise is breaking out as Cray-AI supercomputer orders accelerate from sovereign/hyperscale customers and the Juniper Networks acquisition closes (regulatory hurdle removed).",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 28.0,
-    "base": 64.13,
-    "bull": 80.0,
-    "base_upside_pct": 46.72,
-    "bull_upside_pct": 83.02
+    "bear": 56.99,
+    "base": 81.78,
+    "bull": 308.05,
+    "base_upside_pct": 53.67,
+    "bull_upside_pct": 478.82
    },
    "falsifier": "Same hyperscaler-concentration risk as Dell"
   }
@@ -1340,11 +1340,11 @@
    "statement": "Softcat is breaking out as UK IT-reseller demand normalizes post-2024 weakness and AI-related infrastructure refresh accelerates.",
    "conviction": "Medium",
    "target": {
-    "bear": 1872.24,
-    "base": 2565.95,
-    "bull": 3514.52,
-    "base_upside_pct": 41.53,
-    "bull_upside_pct": 93.85
+    "bear": 1671.48,
+    "base": 2135.92,
+    "bull": 8211.86,
+    "base_upside_pct": 8.15,
+    "bull_upside_pct": 315.79
    },
    "falsifier": "UK SMB IT spending sensitive to UK macro"
   }
@@ -1400,11 +1400,11 @@
    "statement": "Fortinet is breaking out as the unified SASE platform (combining firewall, SD-WAN, and cloud security) wins enterprise consolidation deals.",
    "conviction": "Medium",
    "target": {
-    "bear": 86.08,
-    "base": 142.69,
-    "bull": 245.87,
-    "base_upside_pct": -5.72,
-    "bull_upside_pct": 62.45
+    "bear": 74.01,
+    "base": 109.57,
+    "bull": 352.27,
+    "base_upside_pct": -33.24,
+    "bull_upside_pct": 114.63
    },
    "falsifier": "Cybersecurity competition fierce (PANW, ZS)"
   }
@@ -1716,7 +1716,17 @@
     "Q1 FY27 print (Aug)",
     "NVIDIA SuperPOD attach data",
     "DRAM/NAND spot pricing"
-   ]
+   ],
+   "statement": "NetApp closed FY26 with record Q4 revenue of $1.95B (+12% YoY) on all-flash strength and 500 Q4 AI design wins, but FY27 guide of $7.325-7.575B (~8% growth) underwhelmed on memory cost inflation press",
+   "conviction": "Medium",
+   "target": {
+    "bear": 167.63,
+    "base": 215.3,
+    "bull": 817.36,
+    "base_upside_pct": 15.38,
+    "bull_upside_pct": 338.03
+   },
+   "falsifier": "Memory cost inflation compresses gross margin"
   }
  },
  "TATE.L": {
@@ -1743,12 +1753,12 @@
     "Volume inflection data"
    ],
    "statement": "Tate & Lyle's first full year with CP Kelco delivered statutory revenue +16% but like-for-like revenue -3% as muted end-market demand offset cost synergy capture.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
     "bear": 442.13,
-    "base": 548.28,
+    "base": 552.64,
     "bull": 630.47,
-    "base_upside_pct": -1.03,
+    "base_upside_pct": -0.25,
     "bull_upside_pct": 13.8
    },
    "falsifier": "H1 FY27 still flat-to-down"
@@ -2055,11 +2065,11 @@
    "statement": "Astera delivered Q1 2026 revenue of $308.4m (+93% YoY) and guided Q2 to $355-365m (+15-18% QoQ), with growth broadening across signal conditioning and switch fabric as Scorpio and PCIe 6.0 ramp.",
    "conviction": "Medium",
    "target": {
-    "bear": 135.88,
-    "base": 210.59,
-    "bull": 342.58,
-    "base_upside_pct": -46.24,
-    "bull_upside_pct": -12.55
+    "bear": 177.29,
+    "base": 317.92,
+    "bull": 475.0,
+    "base_upside_pct": -0.16,
+    "bull_upside_pct": 49.17
    },
    "falsifier": "Very high valuation tied to AI-capex sentiment"
   }
@@ -2195,11 +2205,11 @@
    "statement": "Affirm beat hard on FQ3 2026 (EPS $0.30 vs $0.17, revenue $1.04bn) on Affirm Card momentum and stable credit, but held RLTC guidance at the 4% upper bound rather than raising despite running above tar",
    "conviction": "Medium",
    "target": {
-    "bear": 63.83,
-    "base": 80.81,
-    "bull": 95.49,
-    "base_upside_pct": 1.66,
-    "bull_upside_pct": 20.12
+    "bear": 51.4,
+    "base": 68.76,
+    "bull": 85.98,
+    "base_upside_pct": -12.37,
+    "bull_upside_pct": 9.58
    },
    "falsifier": "Consumer-credit cyclicality / unemployment risk"
   }
@@ -2403,13 +2413,13 @@
     "Q2 2026 earnings"
    ],
    "statement": "Corcept raised FY2026 revenue guidance to $950m-$1.05bn as Lifyorli won early FDA approval in platinum-resistant ovarian cancer (3.5 months ahead of PDUFA) and the Cushing's franchise marches toward a",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 37.72,
-    "base": 65.93,
-    "bull": 98.64,
-    "base_upside_pct": -24.49,
-    "bull_upside_pct": 12.97
+    "bear": 61.45,
+    "base": 110.4,
+    "bull": 140.26,
+    "base_upside_pct": -0.26,
+    "bull_upside_pct": 26.72
    },
    "falsifier": "Ovarian TAM is a 35-40% patient subset"
   }
@@ -2544,13 +2554,13 @@
     "Agentic-AI security product traction"
    ],
    "statement": "PANW is in Stage 2 after a record fiscal Q3 (Jun 2): revenue +31% y/y to $3.0B, Next-Gen Security ARR +60% to $8.13B, and FY26 revenue guidance raised to $11.42-11.43B.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 137.29,
-    "base": 228.96,
-    "bull": 299.34,
-    "base_upside_pct": -24.74,
-    "bull_upside_pct": -1.6
+    "bear": 162.34,
+    "base": 336.7,
+    "bull": 433.0,
+    "base_upside_pct": -7.16,
+    "bull_upside_pct": 19.4
    },
    "falsifier": "Priced for perfection — beat-and-raise still sent shares lower"
   },
@@ -2582,11 +2592,11 @@
    "statement": "BMPS is breaking out after a strong Q1 2026 (May 12): net profit EUR521M, pre-tax profit EUR911M up 15.6% q/q, with FY26 PBT guidance reaffirmed above EUR3.5B.",
    "conviction": "Medium",
    "target": {
-    "bear": 10.68,
-    "base": 11.9,
-    "bull": 13.67,
-    "base_upside_pct": 8.59,
-    "bull_upside_pct": 24.77
+    "bear": 10.91,
+    "base": 11.56,
+    "bull": 13.13,
+    "base_upside_pct": -2.62,
+    "bull_upside_pct": 10.56
    },
    "falsifier": "Intesa Sanpaolo ~EUR30.6B counter-bid injects deal uncertainty"
   },
@@ -2618,18 +2628,18 @@
    "statement": "MB is in a terminal corporate-action phase: its H1 FY26 results (Feb 9) were its final standalone print — recurring net profit EUR623M, FY26 revenue guidance lifted to ~EUR4.0B — before the MPS takeover.",
    "conviction": "Medium",
    "target": {
-    "bear": 19.62,
-    "base": 24.01,
-    "bull": 29.4,
-    "base_upside_pct": -7.4,
-    "bull_upside_pct": 13.36
+    "bear": 20.59,
+    "base": 24.63,
+    "bull": 28.93,
+    "base_upside_pct": -13.66,
+    "bull_upside_pct": 1.42
    },
    "falsifier": "Delisting situation — upside capped by MPS exchange ratio"
   },
   "last_updated": "2026-06-13"
  },
  "_meta": {
-  "as_of": "2026-06-28"
+  "as_of": "2026-08-06"
  },
  "DDOG": {
   "business": "Datadog is a cloud-native observability and security SaaS platform that unifies infrastructure metrics, application traces, logs and security signals through 800+ integrations. All revenue is subscription and usage-based, expanding automatically as customer cloud workloads scale.",
@@ -2655,13 +2665,13 @@
     "Federal pipeline conversion post-FedRAMP High"
    ],
    "statement": "Datadog crossed $1bn in quarterly revenue for the first time in Q1 2026 (+32% YoY, accelerating from 29%), set a record for new-logo bookings, and landed eight-figure annualized GPU-monitoring deals with two AI hyperscaler research labs.",
-   "conviction": "Low",
+   "conviction": "Medium",
    "target": {
-    "bear": 107.43,
-    "base": 171.56,
-    "bull": 235.31,
-    "base_upside_pct": -28.45,
-    "bull_upside_pct": -1.86
+    "bear": 139.0,
+    "base": 276.07,
+    "bull": 330.0,
+    "base_upside_pct": -2.51,
+    "bull_upside_pct": 16.54
    },
    "falsifier": "Hyperscaler bundling (CloudWatch/Azure Monitor) pressures budgets"
   }
@@ -2763,10 +2773,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 151.0,
-    "base": 188.57,
-    "bull": 263.0,
-    "base_upside_pct": 3.56,
-    "bull_upside_pct": 44.44
+    "base": 212.19,
+    "bull": 291.0,
+    "base_upside_pct": 7.55,
+    "bull_upside_pct": 47.49
    },
    "falsifier": "Single-asset binary risk — an FDA or tolerability setback re-rates the equity hard"
   }
@@ -2867,11 +2877,11 @@
    "statement": "CrowdStrike is breaking back out after net new ARR re-accelerated to a record $256M (+32%) in fiscal Q1 2027 and management raised FY27 net-new-ARR guidance by $52M to ~$1.291B — signaling the post-Ju",
    "conviction": "Medium",
    "target": {
-    "bear": 413.0,
-    "base": 713.32,
-    "bull": 850.0,
-    "base_upside_pct": 1.74,
-    "bull_upside_pct": 21.24
+    "bear": 103.25,
+    "base": 193.13,
+    "bull": 250.0,
+    "base_upside_pct": -7.97,
+    "bull_upside_pct": 19.13
    },
    "falsifier": "Microsoft Defender bundling pressures endpoint pricing"
   }
@@ -2900,13 +2910,13 @@
     "Large-customer (>$1M / >$10M) cohort expansion"
    ],
    "statement": "Snowflake is breaking out after product-revenue growth re-accelerated to 34% (from 30%) in fiscal Q1 2027 — its strongest sequential dollar growth ever — and the company raised full-year product-reven",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 91.47,
-    "base": 191.27,
-    "bull": 313.17,
-    "base_upside_pct": -23.17,
-    "bull_upside_pct": 25.79
+    "bear": 110.0,
+    "base": 302.29,
+    "bull": 500.0,
+    "base_upside_pct": -5.33,
+    "bull_upside_pct": 56.58
    },
    "falsifier": "Consumption model exposed to customer cost-optimization"
   }
@@ -3005,15 +3015,1107 @@
     "New-product (governance/PAM) bookings mix"
    ],
    "statement": "Okta is breaking out after a Q1 FY2027 beat (revenue $765M, EPS $0.91 vs $0.85 est) with net retention inflecting back up to 107% and a raised FY27 revenue guide.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 80.84,
-    "base": 126.4,
-    "bull": 194.2,
-    "base_upside_pct": 1.7,
-    "bull_upside_pct": 56.26
+    "bear": 79.46,
+    "base": 115.42,
+    "bull": 274.7,
+    "base_upside_pct": -21.5,
+    "bull_upside_pct": 86.82
    },
    "falsifier": "Microsoft Entra ID bundled into E5/M365 pressures Workforce pricing"
+  }
+ },
+ "EZJ.L": {
+  "business": "UK low-cost, short-haul airline flying point-to-point across Europe, North Africa and the Middle East from congested primary airports (Gatwick, Milan, Geneva, Amsterdam, Paris). It earns on base fares, high-margin ancillaries (seats, bags, boarding) and a fast-growing package-holidays arm, easyJet holidays. Its edge is a scarce, hard-to-replicate primary-airport slot portfolio layered on a structurally low cost base.",
+  "happening": "EZJ is in a takeover-driven breakout: the board agreed in principle to a 7.15 GBP/share cash bid from Apollo (valuing equity ~5.7bn GBP), trumping an earlier 6.90 GBP Castlelake approach, with Apollo's firm-offer deadline set for 7 August 2026. Shares rose ~5.6% on the Q3 update despite a 70% PBT collapse to 85m GBP, as the M&A premium overwhelmed a Middle East fuel/demand shock. The stock is trading on deal math, not earnings.",
+  "why": "Three tailwinds: (1) a live competitive bid situation with a hard 7 Aug deadline caps downside near the 7.15 GBP offer and leaves room for a counter from Castlelake or a new suitor; (2) easyJet holidays keeps compounding (+7% PBT ex-FX, customers +8%, new Expedia city-hotel deal) as a higher-margin attach on the same flight inventory, targeting low-double-digit FY26 customer growth; (3) self-help cost levers (~250m GBP annual efficiencies from A319 retirement/upgauging into FY27-28) support a >1bn GBP medium-term PBT bridge. Valuation is essentially the bid: entry above 7.15 GBP is a bet on a topping offer.",
+  "risk": "Watch: (1) deal risk — if Apollo walks at the 7 Aug deadline with no counter, shares likely retrace toward the depressed standalone fundamentals (consensus PBT fell ~81% to ~129m GBP); (2) the underlying business is under real pressure — fuel CASK +13%, RASK -3%, airline 68% sold (-2ppts YoY) with yields needing 'price stimulation' into peak summer; (3) recurring French ATC strikes and further Middle East fuel spikes. This is an event-driven, not a momentum, setup — size accordingly and treat the offer price as the anchor. Suggested stop just below the prevailing bid floor (roughly the 6.90 GBP prior bid level), ~2x ATR below.",
+  "thesis": {
+   "bull": [
+    "Live 7.15 GBP Apollo cash bid caps downside; counter-bid optionality from Castlelake/new suitor",
+    "easyJet holidays compounding double-digit as high-margin, capital-light attach",
+    "~250m GBP self-help cost efficiencies from fleet upgauging into FY27-28",
+    "Q4 fuel 79% hedged at $786/MT vs ~$1,275/MT spot cushions the shock"
+   ],
+   "bear": [
+    "Deal breaks at 7 Aug deadline and shares retrace to weak standalone PBT",
+    "Fuel/demand shock real: RASK -3%, yields need stimulation into summer peak",
+    "Recurrent French ATC strikes and Middle East fuel volatility"
+   ],
+   "catalysts": [
+    "Apollo firm-offer / walk-away deadline (7 Aug 2026)",
+    "Possible Castlelake or new counter-bid (Aug 2026)",
+    "FY26 full-year results (~Nov 2026)"
+   ],
+   "statement": "EZJ is in a takeover-driven breakout: the board agreed in principle to a 7.15 GBP/share cash bid from Apollo (valuing equity ~5.7bn GBP), trumping an earlier 6.90 GBP Castlelake approach, with Apollo's firm-offer deadline set for 7 August 2026.",
+   "conviction": "High",
+   "target": {
+    "bear": 400.56,
+    "base": 640.29,
+    "bull": 875.33,
+    "base_upside_pct": -1.77,
+    "bull_upside_pct": 34.29
+   },
+   "falsifier": "Deal breaks at 7 Aug deadline and shares retrace to weak standalone PBT"
+  }
+ },
+ "MAN": {
+  "business": "Global workforce-solutions firm placing temporary and permanent staff and running outsourced hiring programs through three brands: Manpower (light-industrial/commercial), Experis (IT/professional) and Talent Solutions (RPO, TAPFIN MSP, Right Management). Revenue is dominated by temp-staffing billings with France its single largest market. The moat is structurally thin — scale, France leadership and sticky MSP/RPO contracts in a commoditized, cyclical trade.",
+  "happening": "MAN is breaking out on an early-cycle staffing recovery: Q2 revenue rose 6% cc to $4.9B with EPS of $0.99, and management explicitly declared a shift 'from stabilization into recovery' as the Manpower brand logged its 5th straight quarter of growth (US +16% days-adjusted). Experis losses narrowed sharply (-2% cc from -9% in Q1). As a high-operating-leverage cyclical, even modest top-line reacceleration drops through hard to EPS.",
+  "why": "Three tailwinds: (1) US Manpower strength (8th consecutive quarter of growth) plus Germany back to +4% on automotive/defense signal a genuine demand inflection in the most cyclical staffing line; (2) a $200M-by-2028 permanent cost-out program, part-funded by the Jefferson Wells US divestiture ($88M net cash, $30M gain), structurally lifts margin as volume returns; (3) AI is now a margin multiplier — 67% lower time-to-fill and a SoundHound/IBM watsonx sales engine scaling to 70% of revenue. Trades at a depressed cyclical multiple; Perm gross margin (15.3% of GP vs 20% 2022 peak) is the swing factor with room to recover.",
+  "risk": "Watch: (1) the recovery is early and Europe remains soft — French/German temp demand has been contracting and a stall would hit thin margins hard; (2) buybacks are paused ('no changes in the very short term') as management prioritizes balance-sheet rebuild, removing a support; (3) secular AI/direct-sourcing disruption (Indeed, LinkedIn) is a persistent overhang on the whole model. Deep operating leverage cuts both ways. Suggested stop ~2x ATR below entry; trim if European PMIs or Q3 EPS guide ($0.96-$1.06) disappoint.",
+  "thesis": {
+   "bull": [
+    "'Stabilization into recovery' call; Manpower brand 5 straight up quarters, US +16%",
+    "$200M cost-out by 2028 drops through as volume returns",
+    "AI cutting time-to-fill 67%; sales engine scaling to 70% of revenue",
+    "Perm GP margin recovery (15.3% -> 15.5-16.5%) as key upside lever"
+   ],
+   "bear": [
+    "European labor markets still contracting; recovery could stall",
+    "Buybacks paused for balance-sheet rebuild — support removed",
+    "Secular AI/direct-sourcing platform disruption to staffing model"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Oct 2026) — EPS guide $0.96-$1.06",
+    "European/US labor-market PMI prints (monthly)",
+    "Cost-out program milestones toward $200M/2028"
+   ],
+   "statement": "MAN is breaking out on an early-cycle staffing recovery: Q2 revenue rose 6% cc to $4.9B with EPS of $0.99, and management explicitly declared a shift 'from stabilization into recovery' as the Manpower brand logged its 5th straight quarter of growth (US +16% days-adjusted).",
+   "conviction": "High",
+   "target": {
+    "bear": 51.64,
+    "base": 76.26,
+    "bull": 168.38,
+    "base_upside_pct": 40.22,
+    "bull_upside_pct": 209.57
+   },
+   "falsifier": "European labor markets still contracting; recovery could stall"
+  }
+ },
+ "QLYS": {
+  "business": "Cloud-native cybersecurity vendor selling subscription software to find, prioritize and fix security risk across IT, cloud and endpoints. Its Enterprise TruRisk Platform, anchored by VMDR, uses a single lightweight agent and layers on asset management, cloud security, patching and compliance modules. Effectively all revenue is recurring; a single-agent architecture, huge historical scan dataset and FedRAMP certifications create switching costs and industry-leading ~47% adjusted EBITDA margins.",
+  "happening": "QLYS just beat and raised (Q2 on 4 Aug): revenue +11% to $182.2M, non-GAAP EPS $1.98 vs $1.78 est, and 16% billings growth prompted the CFO to lift full-year guidance and talk of 're-accelerating long-term growth.' The breakout is driven by AI-native demand — surging AI-generated vulnerability volumes are pulling adoption of its Risk Operations Center (ROC) and Enterprise TruRisk Management, reversing a maturing-VM growth-deceleration narrative.",
+  "why": "Three tailwinds: (1) AI is a demand tailwind, not just a threat — exploding AI-generated vulnerability volume feeds the three-agent detect-validate-fix model (ROC/ETM), and 16% billings growth signals the platform-expansion motion is re-accelerating; (2) federal optionality — TotalCloud hit FedRAMP High with Anthropic/OpenAI collaborations, an under-monetized runway given Qualys can both detect and remediate; (3) QFlex flexible-consumption GA plus the Converge cyber-insurance tie-up drive larger, stickier deals. Raised FY26 to $732-738M revenue and $7.74-7.88 non-GAAP EPS; a high-margin (~47% EBITDA), cash-generative platform re-rating off a mature-VM discount.",
+  "risk": "Watch: (1) management deliberately kept a cautious 2H billings assumption — the raise reflects a small ETM cohort far along in adoption while the broad base hasn't accelerated, so the re-acceleration is not yet broad-based; (2) CrowdStrike and Microsoft are bundling exposure management (sometimes free) into wider suites, and platform consolidation favors end-to-end vendors; (3) rising channel reliance (~49% of mix) and soft IT-security budgets. Suggested stop ~2x ATR below; reduce if Q3 billings growth decelerates or competitive bundling shows up in net retention.",
+  "thesis": {
+   "bull": [
+    "Beat-and-raise; 16% billings growth, mgmt talks 're-accelerating' growth",
+    "AI-generated vulnerability surge drives ROC/ETM adoption",
+    "Federal runway: FedRAMP High + Anthropic/OpenAI collaborations",
+    "QFlex consumption model + ~47% EBITDA margin, strong FCF"
+   ],
+   "bear": [
+    "Re-acceleration confined to a small ETM cohort; broad base not yet moving",
+    "CrowdStrike/Microsoft free bundling of exposure management",
+    "Growth matured to ~10% vs 20%+ historically; rising channel dependence"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~early Nov 2026) — billings-growth durability",
+    "Federal/FedRAMP High deal traction updates",
+    "QFlex consumption-model adoption ramp"
+   ],
+   "statement": "QLYS just beat and raised (Q2 on 4 Aug): revenue +11% to $182.2M, non-GAAP EPS $1.98 vs $1.78 est, and 16% billings growth prompted the CFO to lift full-year guidance and talk of 're-accelerating long",
+   "conviction": "High",
+   "target": {
+    "bear": 132.58,
+    "base": 175.11,
+    "bull": 680.56,
+    "base_upside_pct": -4.44,
+    "bull_upside_pct": 271.39
+   },
+   "falsifier": "Re-acceleration confined to a small ETM cohort; broad base not yet moving"
+  }
+ },
+ "SN": {
+  "business": "SharkNinja designs and sells household appliances under two mass-market brands — Shark (floorcare, beauty, home environment) and Ninja (kitchen/outdoor cooking). It runs a rapid-innovation engine that ships category-redefining products (Ninja Luxe Cafe, Ninja Crispi, SLUSHi, CryoGlow) faster than incumbents, winning share via feature-led design at accessible prices. FY2025 net sales were $6.4B (+15.7%). The moat is execution and brand momentum, backed by strong big-box and Amazon shelf presence.",
+  "happening": "SN posted its 13th straight quarter of double-digit growth — Q2 net sales +22.2% to $1.77B, adjusted EPS +29.9% to $1.26 — and sharply raised full-year guidance on Ninja Luxe Cafe, skincare and international momentum, plus $247M of accepted US tariff-refund claims. Cooking & Beverage grew +36.5% and Beauty & Home Environment +65.3%. The market is rewarding a rare consumer-discretionary name still compounding 20%+ with an expanding new-category engine.",
+  "why": "Three tailwinds: (1) the innovation flywheel keeps opening white space — skincare, espresso and fans are new categories layering onto floorcare, with R&D +22.3% funding the next launches; (2) international (+~37%, led by UK/Europe/LatAm) is a multi-year runway stepping up alongside >15% domestic growth; (3) a $247.1M accepted US Customs tariff-refund claim adds a near-term earnings tailwind on top of operating strength. Guidance raised to 16-17% net-sales growth and $6.45-6.55 adjusted EPS. Valuation isn't cheap, but a durable double-digit compounder with category optionality supports a premium multiple.",
+  "risk": "Watch: (1) the model depends on a continuous hit-product pipeline — any innovation slowdown compresses the growth premium fast; (2) GAAP net income actually fell 7% (EPS $0.92 vs $0.98) on a $22.6M jump in stock-comp within +40.8% G&A, and part of the guidance raise is a one-time tariff recovery, not organic margin; (3) China-centric manufacturing keeps tariff/supply-chain risk live, and Dyson/De'Longhi plus low-cost entrants compete hard. Suggested stop ~2x ATR below; trim if a product cycle stalls or stock-comp dilution keeps widening the GAAP-vs-adjusted gap.",
+  "thesis": {
+   "bull": [
+    "13th straight double-digit quarter; guidance raised to 16-17% sales growth",
+    "Innovation engine opening new categories (skincare, espresso, fans)",
+    "International +~37% as a multi-year runway",
+    "$247M tariff-refund claim a near-term earnings tailwind"
+   ],
+   "bear": [
+    "Growth hinges on continuous hit products; a cold cycle re-rates it down",
+    "GAAP EPS fell 7%; part of raise is one-time tariff recovery, not organic",
+    "China manufacturing tariff/supply risk; Dyson/De'Longhi competition"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026) — new-category traction",
+    "Q3 tariff-refund benefit realization (2H 2026)",
+    "Holiday-season new-product launches (Q4 2026)"
+   ],
+   "statement": "SN posted its 13th straight quarter of double-digit growth — Q2 net sales +22.2% to $1.77B, adjusted EPS +29.9% to $1.26 — and sharply raised full-year guidance on Ninja Luxe Cafe, skincare and international momentum, plus $247M of accepted US tariff-refund claims.",
+   "conviction": "High",
+   "target": {
+    "bear": 105.12,
+    "base": 150.02,
+    "bull": 209.23,
+    "base_upside_pct": -18.94,
+    "bull_upside_pct": 13.05
+   },
+   "falsifier": "Growth hinges on continuous hit products; a cold cycle re-rates it down"
+  }
+ },
+ "PBF": {
+  "business": "One of the largest independent US petroleum refiners, running six refineries (~1.0m bbl/day, ~12.8 Nelson complexity) across the East Coast, West Coast, Gulf and Mid-Continent, plus logistics assets and a 50% renewable-diesel JV with Eni. It buys crude and sells gasoline, diesel and jet fuel wholesale. There's no structural moat — it's a crack-spread price-taker whose only edges are high refinery complexity (cheap heavy/sour crude capture) and scarce, hard-to-replicate coastal positioning where refining capacity is shrinking.",
+  "happening": "PBF is breaking out on a refining-margin windfall: Q2 adjusted EPS of $6.22 crushed the $3.49 estimate as geopolitically-tightened product markets lifted cracks, and management slashed net debt by over $1.4B (net-debt/capital 36% -> 15%) while signaling elevated margins could persist into 2027. Martinez is back to full operation post-fire. This is a high-beta cyclical re-rating as a structurally higher refining floor takes hold.",
+  "why": "Three tailwinds: (1) a structurally higher refining floor from Russia/Ukraine refinery damage and ~10% lower global utilization, with tight West Coast supply (California imports ~1/3 of gasoline) favoring PBF's coastal complex; (2) aggressive de-leveraging ($1.6B operating cash flow, net debt cut >62% in-quarter, $894M cash) rebuilds the balance sheet to navigate the cycle and sets up eventual buyback resumption; (3) the Refining Business Improvement program (~$60M annual procurement savings, 20% lower purchased gas) plus deferral of Toledo/Chalmette turnarounds to 2027 protect near-term throughput and cash. Refiners trade on mid-cycle EV/EBITDA; with cracks running hot and largely unhedged ('deliver the crack to our investors'), earnings leverage is high but valuation is a bet on the cycle staying elevated.",
+  "risk": "Watch: (1) this is deeply cyclical — crack spreads can reverse fast and PBF stays largely unhedged, so a normalization in distillate margins hits earnings hard; (2) buybacks remain deferred until the balance sheet is 'to a place it has never been,' so near-term shareholder-return support is limited; (3) California regulatory pressure (LCFS, cap-and-trade, refinery-specific rules) and RIN/RVO compliance costs plus heavy turnaround/capex burden. Suggested stop ~2x ATR below; refining is a trade, not a hold — tighten stops if forward crack curves roll over.",
+  "thesis": {
+   "bull": [
+    "Structurally higher refining floor; global utilization down ~10%",
+    "Massive de-leveraging: net-debt/capital 36% -> 15%, $894M cash",
+    "West Coast tightness (CA imports ~1/3 gasoline) suits coastal complex",
+    "Largely unhedged — full earnings leverage to elevated distillate cracks"
+   ],
+   "bear": [
+    "Deeply cyclical; unhedged cracks can normalize sharply",
+    "Buybacks deferred until balance sheet fully repaired",
+    "California LCFS/cap-and-trade and RIN/RVO cost pressure"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026) — mgmt flagged Q3 'even stronger'",
+    "Distillate/gasoline crack-spread trajectory (ongoing)",
+    "Balance-sheet target hit -> potential buyback resumption"
+   ],
+   "statement": "PBF is breaking out on a refining-margin windfall: Q2 adjusted EPS of $6.22 crushed the $3.49 estimate as geopolitically-tightened product markets lifted cracks, and management slashed net debt by over $1.4B (net-debt/capital 36% -> 15%) while signaling elevated margins could persist into 2027.",
+   "conviction": "High",
+   "target": {
+    "bear": 47.79,
+    "base": 61.58,
+    "bull": 74.14,
+    "base_upside_pct": 0.67,
+    "bull_upside_pct": 21.21
+   },
+   "falsifier": "Deeply cyclical; unhedged cracks can normalize sharply"
+  }
+ },
+ "RAND.AS": {
+  "business": "The world's largest staffing and workforce-solutions company, placing temporary and permanent workers across ~39 markets through four specializations: Operational (light industrial/logistics), Professional (accounting/office), Digital (Randstad Digital) and Enterprise (large MSP/RPO). FY2025 revenue was ~EUR 23.1B, led by the Netherlands, France, Germany and the US. Like all staffing, the moat is thin and cyclical — scale, local branch density, home-market brand and sticky MSP/RPO relationships.",
+  "happening": "RAND is turning up with the early-cycle staffing recovery: Q2 revenue returned to organic growth (+1.9% to EUR 5.9B) with EBITA +8% to EUR 182M (3.1% margin), as a strong US upturn (+13%) and Germany/UK recoveries offset gross-margin mix pressure. June was the strongest month with early-July volumes continuing. As a high-operating-leverage cyclical off a two-year downturn, the return to organic growth is the inflection momentum investors buy.",
+  "why": "Three tailwinds: (1) the US operational segment (+13%) plus Germany back to +4% (automotive/defense) and the UK 'building back better' signal a genuine multi-geography demand inflection; (2) the '10 by 10 by 10' commercial engine secured $1.3B in new client wins in H1, expanding the base into the recovery; (3) a new operating model targeting EUR 10-15M additional quarterly profitability improvement means incremental growth should convert to EBITA rather than trigger reinvestment (5% more output per FTE, held indirect costs). Trades at a depressed cyclical multiple with a supportive dividend; the recovery is mix-dilutive to gross margin but converts well to profit.",
+  "risk": "Watch: (1) Q3 gross margins guided 'modestly down' because large clients are leading growth in lower-margin geographies (UK, Germany) — the recovery is mix-dilutive; (2) European labor markets remain fragile (2025 revenue fell ~7% NL, ~10% Germany, ~6% France), so a stall would hit thin margins hard; (3) AI-matching and direct-sourcing platforms (Indeed, owned by rival Recruit) plus FX translation across many currencies. Deep operating leverage cuts both ways. Suggested stop ~2x ATR below; trim on weak European PMIs or a gross-margin miss.",
+  "thesis": {
+   "bull": [
+    "Returned to organic growth (+1.9%); US +13% leading recovery",
+    "$1.3B H1 new client wins from '10 by 10 by 10' engine",
+    "New operating model: EUR 10-15M/quarter profitability improvement",
+    "Depressed cyclical multiple with supportive dividend"
+   ],
+   "bear": [
+    "Q3 gross margins guided down on lower-margin large-client mix",
+    "European labor markets still fragile; recovery could stall",
+    "AI/direct-sourcing disruption; multi-currency FX drag"
+   ],
+   "catalysts": [
+    "Q3 2026 results (~Oct 2026) — gross-margin vs volume trade-off",
+    "European/US labor-market PMI prints (monthly)",
+    "Profitability-improvement run-rate updates"
+   ],
+   "statement": "RAND is turning up with the early-cycle staffing recovery: Q2 revenue returned to organic growth (+1.9% to EUR 5.9B) with EBITA +8% to EUR 182M (3.1% margin), as a strong US upturn (+13%) and Germany/UK recoveries offset gross-margin mix pressure.",
+   "conviction": "High",
+   "target": {
+    "bear": 27.14,
+    "base": 42.79,
+    "bull": 94.39,
+    "base_upside_pct": 11.46,
+    "bull_upside_pct": 145.87
+   },
+   "falsifier": "Q3 gross margins guided down on lower-margin large-client mix"
+  }
+ },
+ "EDEN.PA": {
+  "business": "Global B2B payments and prepaid-voucher company: employers pay it to issue tax-advantaged meal/food vouchers, employee-benefit cards, corporate mobility/fleet fuel cards and B2B corporate-payment solutions, redeemed at ~2 million affiliated merchants. It earns client commissions, merchant fees and float income on prepaid balances. A three-sided network with high switching costs, tax-favored product status, and a meal-voucher duopoly with Pluxee make this a genuinely strong moat.",
+  "happening": "EDEN is recovering off a regulatory-reset trough: in H1 results (23 Jul) management upgraded full-year EBITDA guidance despite a declared 'reset year,' as 8% intrinsic operating-revenue growth held up beneath Italy/Brazil meal-voucher regulation that dragged like-for-like growth to just 1.5%. Brazil client renegotiations went 'better than expected.' The stock is breaking out as the market looks through the regulatory optics to a re-accelerating FY27-28 (+8% to +12% EBITDA growth reaffirmed).",
+  "why": "Three tailwinds: (1) the regulatory drag is transitory — Italy/Brazil reset cut LFL by 6.5ppts in H1 but Brazil renegotiations landing better than feared de-risks the reset, and management guides to durable ~8% ex-regulation growth split evenly between new users and revenue-per-user; (2) Mobility is outperforming (revenue EUR 373M, +11.2% LFL) with the Mobility House (Germany) acquisition strengthening EV-transition positioning; (3) the Amplify plan (SME expansion, Edenred+ cross-sell, redesigned Sesu) compounds 'more users + more revenue per user.' Guidance upgraded to EUR 1,230-1,270M EBITDA with >=35% FCF conversion; management is sandbagging ('aligned with consensus,' aiming for the upper end), so a settled regulatory backdrop implies upside to a de-rated network compounder.",
+  "risk": "Watch: (1) regulatory risk is the core bear case and not fully behind it — Italy's Sept-2025 merchant-fee cap and Brazil PLR/profit-sharing rule changes directly hit revenue, and new caps elsewhere would reset again; (2) float income is rate-sensitive, so ECB/Brazil rate cuts reduce a high-margin revenue line; (3) Brazilian-real FX exposure and competition from Pluxee and challenger Swile. Suggested stop ~2x ATR below; reduce if fresh regulatory caps emerge or float income guidance weakens.",
+  "thesis": {
+   "bull": [
+    "8% intrinsic growth beneath a transitory regulatory reset; EBITDA guide raised",
+    "Brazil renegotiations 'better than expected' — reset de-risked",
+    "Mobility +11.2% LFL plus Mobility House EV positioning",
+    "Sandbagged guide; FY27-28 +8-12% EBITDA growth reaffirmed"
+   ],
+   "bear": [
+    "Regulatory caps (Italy fees, Brazil PLR) are structural revenue risk",
+    "Float income rate-sensitive — rate cuts cut high-margin revenue",
+    "Brazilian-real FX; Pluxee and Swile competition"
+   ],
+   "catalysts": [
+    "Q3 2026 revenue update (~Oct 2026) — regulatory-reset progress",
+    "Italy/Brazil regulatory developments (ongoing)",
+    "FY26 results and FY27 guidance (~Feb 2027)"
+   ],
+   "statement": "EDEN is recovering off a regulatory-reset trough: in H1 results (23 Jul) management upgraded full-year EBITDA guidance despite a declared 'reset year,' as 8% intrinsic operating-revenue growth held up beneath Italy/Brazil meal-voucher regulation that dragged like-for-like growth to just 1.5%.",
+   "conviction": "High",
+   "target": {
+    "bear": 27.12,
+    "base": 30.71,
+    "bull": 63.9,
+    "base_upside_pct": 4.84,
+    "bull_upside_pct": 118.18
+   },
+   "falsifier": "Regulatory caps (Italy fees, Brazil PLR) are structural revenue risk"
+  }
+ },
+ "TECH": {
+  "business": "Bio-Techne supplies high-quality reagents, proteins, antibodies, immunoassays and bioanalytical instruments to life-science, biopharma and diagnostics labs. Its Protein Sciences segment sells recombinant proteins, antibodies and Simple Western/Ella instruments; its Diagnostics & Spatial Biology segment owns patent-protected RNAscope in-situ hybridization and Lunaphore spatial imaging. It's a razor-and-blade consumables model with powerful citation lock-in (reagents cited in tens of thousands of papers) and a patented spatial-biology franchise.",
+  "happening": "TECH is in a takeover-driven breakout: in June 2026 Merck KGaA agreed to acquire the company for $73/share in cash (~$11.3B EV), board-approved and targeted to close late-2026/early-2027. The stock is now trading as a merger-arb name pinned near the deal price, with the just-reported Q4 FY26 print (5 Aug) a secondary event. Fundamentals were stabilizing — large pharma delivered its 6th straight double-digit quarter and GMP proteins grew ~50% — but the price driver is the acquisition, not the P&L.",
+  "why": "Three tailwinds: (1) a firm $73/share cash offer from a strategic buyer with board approval sets a hard valuation floor and removes fundamental downside — the move into the Top 50 is the deal re-rating; (2) the underlying business was inflecting positively into the bid (core research reagents likely returning to growth on normalizing academic/biotech funding, GMP proteins +~50%, Lunaphore/spatial +>60%), supporting deal certainty; (3) China posted positive organic growth for a 4th straight quarter. As pure merger-arb, the 'valuation angle' is the spread between the current price and $73 versus the probability and timing of close (late-2026/early-2027) — return is the arb spread plus time value, not multiple expansion.",
+  "risk": "Watch: (1) deal risk dominates — antitrust/regulatory review (a major strategic combining life-science tools) or a financing/MAC issue could delay or break the transaction, in which case shares fall back toward pre-bid fundamentals; (2) those fundamentals remain soft absent the deal (Q4 guided roughly flat with a ~150bps cell-therapy headwind, US NIH funding pressure, China demand risk); (3) the arb spread caps upside — this is a low-volatility, event-bound position, not a momentum runner. Suggested stop just below the arb floor; size as an event trade and monitor regulatory-approval milestones toward an expected late-2026/early-2027 close.",
+  "thesis": {
+   "bull": [
+    "Firm $73/share Merck KGaA cash bid ($11.3B EV) sets a hard floor",
+    "Board-approved; targeted close late-2026/early-2027",
+    "Fundamentals inflecting into the deal: GMP proteins +~50%, pharma strong",
+    "China positive organic growth 4 straight quarters supports deal certainty"
+   ],
+   "bear": [
+    "Antitrust/regulatory review could delay or break the merger",
+    "Standalone fundamentals soft (Q4 ~flat, NIH/China pressure) if deal fails",
+    "Arb spread caps upside; low-volatility event-bound position"
+   ],
+   "catalysts": [
+    "Regulatory/antitrust clearances (2H 2026-early 2027)",
+    "Expected deal close (late 2026 / early 2027)",
+    "Shareholder-vote and closing-condition milestones"
+   ],
+   "statement": "TECH is in a takeover-driven breakout: in June 2026 Merck KGaA agreed to acquire the company for $73/share in cash (~$11.3B EV), board-approved and targeted to close late-2026/early-2027.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 36.19,
+    "base": 47.59,
+    "bull": 63.19,
+    "base_upside_pct": -33.92,
+    "bull_upside_pct": -12.26
+   },
+   "falsifier": "Antitrust/regulatory review could delay or break the merger"
+  }
+ },
+ "ZBRA": {
+  "business": "Zebra makes the hardware and software frontline workers use to track and move goods: rugged mobile computers, barcode scanners, RFID readers/tags, industrial label printers and supplies, plus machine vision and workflow software. It digitizes warehouses, stores, factories and hospitals through combined device-plus-software 'asset intelligence' solutions. FY2025 revenue was $5.396B (+8.3%). A large rugged-device installed base, Android enterprise platform, multi-year refresh cycles and a deep VAR channel create a solid, sticky (though cyclical) moat.",
+  "happening": "ZBRA is breaking out on a record Q2 (4 Aug): sales topped $1.5B (+9% organic) with EPS +76%, and full-year guidance was raised across sales, margin and EPS as the memory-cost headwind was fully mitigated via pricing. The story is a post-2023/24 enterprise-capex trough turning into an up-cycle, now amplified by AI-powered frontline demand and the Elo Touch acquisition. Cyclical operating leverage is driving the earnings surge.",
+  "why": "Three tailwinds: (1) a broad frontline-capex recovery — the Zebra Frontline AI suite and AI-optimized mobile computers are driving double-digit growth across retail, manufacturing and healthcare after a multi-year refresh trough; (2) M&A expands the platform — Elo Touch adds self-service/POS exposure (Connected Frontline +26% reported) and Photoneo deepens machine vision/RFID; (3) pricing power is proven — the $60M -> $90M memory pricing-benefit fully offsets a $120M memory headwind, protecting margins. FY26 raised to 14-16% sales growth, 23.5-24% adj. EBITDA margin and $20.75-21.25 EPS. A cyclical recovery re-rating with AI as an incremental demand kicker.",
+  "risk": "Watch: (1) this remains cyclical enterprise capex — warehouse/retail device-refresh demand caused a 2023-24 trough and can roll over again in a downturn; (2) memory tightness and 2027 component costs lack visibility ('modest increase' in H2, no 2027 cost read yet), keeping the pricing-offset story at risk; (3) buyback pace decelerates sharply in H2 (~$150M planned vs $560M+ in H1), removing a support, plus tariff exposure on China manufacturing and Honeywell/low-cost competition. Suggested stop ~2x ATR below; trim if enterprise-deployment delays or 2027 memory-cost inflation surface.",
+  "thesis": {
+   "bull": [
+    "Record Q2, EPS +76%; FY26 guide raised across sales/margin/EPS",
+    "AI frontline suite driving double-digit growth in retail/mfg/healthcare",
+    "Memory headwind fully offset via pricing ($90M benefit vs $120M cost)",
+    "Elo Touch + Photoneo M&A broadening the platform"
+   ],
+   "bear": [
+    "Cyclical enterprise capex; refresh demand can roll over in a downturn",
+    "No 2027 memory-cost visibility; pricing-offset durability uncertain",
+    "H2 buyback pace decelerates (~$150M vs $560M+ H1); China tariff risk"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~early Nov 2026)",
+    "2027 component/memory-cost visibility updates",
+    "Elo Touch / Photoneo integration and RFID ramp"
+   ],
+   "statement": "ZBRA is breaking out on a record Q2 (4 Aug): sales topped $1.5B (+9% organic) with EPS +76%, and full-year guidance was raised across sales, margin and EPS as the memory-cost headwind was fully mitigated via pricing.",
+   "conviction": "High",
+   "target": {
+    "bear": 370.59,
+    "base": 462.17,
+    "bull": 1806.43,
+    "base_upside_pct": 24.62,
+    "bull_upside_pct": 387.08
+   },
+   "falsifier": "Cyclical enterprise capex; refresh demand can roll over in a downturn"
+  }
+ },
+ "NWL": {
+  "business": "Consumer-products conglomerate selling everyday household brands — Rubbermaid, Sharpie, Paper Mate, Graco, NUK, Yankee Candle, Coleman, Crock-Pot, Oster, Mr. Coffee — mainly through mass retailers (Walmart, Amazon, Target). It's high-volume, low-ticket replenishment goods. FY2025 net sales were $7.2B (down 5.0%), with CEO Chris Peterson running a 'fewer, bigger brands' turnaround focused on margin recovery. The moat is weak/eroding — shelf-space scale and brand recognition against rising private-label and import substitution.",
+  "happening": "NWL is breaking out on a turnaround inflection: Q2 delivered its first year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%), and the full-year outlook was raised across every key metric. After years of decline, a return to top-line growth validating the innovation-led new-product engine is exactly the kind of inflection that re-rates a depressed, leveraged turnaround name.",
+  "why": "Three tailwinds: (1) the return to growth is real and self-help-driven — the 'Corporate New Product Development' engine plus A&P spend +$9M (to 5.7% of sales) is delivering an expanded pipeline after four years of shrinkage; (2) margin resilience — management absorbed a raised FY26 inflation forecast (~$200M vs ~$100M at year-start) through supply-chain productivity and booked ~$100M of pretax IEEPA tariff recovery in Q2; (3) tariff mitigation via productivity and targeted (not broad) pricing protects volume. FY26 raised to 1-2% net-sales growth, 10.0-10.4% operating margin and $0.73-0.77 EPS. This is a low-expectations, high-leverage turnaround where even modest reacceleration drives outsized equity moves; valuation is a deep-value/margin-recovery bet.",
+  "risk": "Watch: (1) the reacceleration is still modest and back-half-weighted (Q3 guided only +2-3% sales, EPS $0.18-0.20), so the growth call is fragile; (2) a $127M net P&L tariff headwind for 2026 and heavy China sourcing keep cost risk live while management leans on productivity over price to protect a weak low-income consumer; (3) the ~$4.9B debt load with sub-investment-grade ratings and structural volume decline in Yankee Candle/Baby leave little room for error. Suggested stop ~2x ATR below; this is a leveraged turnaround — size conservatively and trim if core-sales growth stalls.",
+  "thesis": {
+   "bull": [
+    "First YoY net- and core-sales growth in 4+ years; full-year guide raised",
+    "New-product engine delivering after years of decline; A&P reinvested",
+    "~$100M IEEPA tariff recovery booked; margin held despite +$200M inflation",
+    "Deep-value, high-operating-leverage turnaround"
+   ],
+   "bear": [
+    "Reacceleration modest and back-half-weighted (Q3 only +2-3%)",
+    "$127M net tariff headwind; heavy China sourcing; weak low-end consumer",
+    "~$4.9B sub-IG debt load; structural decline in Yankee Candle/Baby"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026) — growth durability",
+    "Holiday-season sell-through (Q4 2026)",
+    "Tariff-mitigation and de-leveraging progress"
+   ],
+   "statement": "NWL is breaking out on a turnaround inflection: Q2 delivered its first year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%), and the full-year outlook was raised across every key metric.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 4.72,
+    "base": 6.23,
+    "bull": 8.27,
+    "base_upside_pct": 1.02,
+    "bull_upside_pct": 34.04
+   },
+   "falsifier": "Reacceleration modest and back-half-weighted (Q3 only +2-3%)"
+  }
+ },
+ "AVTR": {
+  "business": "Avantor supplies the picks-and-shovels of life-science labs and biologics manufacturing: lab chemicals and consumables (J.T.Baker, VWR), single-use bioprocessing assemblies, excipients and medical-grade silicones (NuSil), plus one of the world's largest lab-distribution networks from the 2017 VWR deal. FY2025 revenue was $6.55B. The moat is spec-in switching costs — proprietary materials written into customers' regulatory drug/device filings — plus distribution scale, though the distribution half is lower-margin and losing share to Fisher Scientific.",
+  "happening": "AVTR is breaking out on a turnaround beat: Q2 topped estimates (EPS $0.21 vs $0.19, rev $1.69B) with the VWR distribution business back to organic growth ahead of plan, FY26 guidance raised, and shares up ~15% on the print. After two years of organic declines, new CEO Emmanuel Ligner's 'Revival' program is showing traction and the market is rewarding the self-help inflection.",
+  "why": "Three tailwinds: (1) the 'Revival' turnaround (commercial excellence, operational performance, simplification) is driving the outperformance and is self-help-controllable rather than dependent on an end-market recovery; (2) Lab Solutions/VWR distribution swung to +1.7% organic (from -4.8% in Q1) on stronger large-customer relationships and e-commerce; (3) Bioscience Production printed double-digit order intake and positive book-to-bill, teed up to return to organic growth in H2 2026. FY26 raised to -0.5% to +0.5% organic growth and $0.80-0.83 EPS with $500-550M FCF reaffirmed. A depressed multiple on a recovering picks-and-shovels franchise; the spec-in moat supports durability if the turnaround holds.",
+  "risk": "Watch: (1) the rebound is self-help-driven, not demand-led — management attributes it to customer/e-commerce actions rather than end-market recovery, so it's controllable but not yet backed by rising underlying demand; (2) the H2 Bioscience growth call rests on backlog conversion (order intake, not shipped revenue) that analysts flag as the key risk (price targets span $7-$19); (3) Lab Solutions is still losing distribution share to Fisher Scientific, NIH/academic funding is pressured, and leverage sits ~3x while a CEO transition, resegmentation and cost-out run simultaneously. Suggested stop ~2x ATR below; trim if BMP book-to-bill weakens or distribution share loss re-accelerates.",
+  "thesis": {
+   "bull": [
+    "Q2 beat and FY26 raise; VWR distribution back to +1.7% organic ahead of plan",
+    "'Revival' self-help turnaround driving controllable outperformance",
+    "Bioscience Production double-digit order intake, positive book-to-bill",
+    "Depressed multiple; spec-in switching-cost moat"
+   ],
+   "bear": [
+    "Rebound self-help-driven, not yet demand-led",
+    "H2 growth rests on backlog conversion analysts flag as the risk",
+    "Fisher Scientific share loss; ~3x leverage amid CEO/resegmentation churn"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026) — BMP growth inflection",
+    "Bioscience Production H2 return-to-growth confirmation",
+    "NIH/academic funding and biopharma order trends"
+   ],
+   "statement": "AVTR is breaking out on a turnaround beat: Q2 topped estimates (EPS $0.21 vs $0.19, rev $1.69B) with the VWR distribution business back to organic growth ahead of plan, FY26 guidance raised, and shares up ~15% on the print.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 12.93,
+    "base": 16.12,
+    "bull": 23.92,
+    "base_upside_pct": 20.67,
+    "bull_upside_pct": 79.02
+   },
+   "falsifier": "Rebound self-help-driven, not yet demand-led"
+  }
+ },
+ "W": {
+  "business": "Pure-play online retailer of furniture and home goods (Wayfair.com, AllModern, Birch Lane, Joss & Main, Perigold, Wayfair Professional). It carries little inventory — ~20,000 third-party suppliers list and ship bulky items through Wayfair's CastleGate warehouses and last-mile network, with Wayfair taking a retail margin. FY2025 net revenue was $12.45B (+5.1%) with its first full-year operating profit since 2020. The moat is vertical logistics scale in damage-prone bulky home delivery; customer switching costs are near zero.",
+  "happening": "W is breaking out on its best US revenue growth of the post-COVID era: Q2 (4 Aug) net revenue +7.5% with orders +6% and a 6.9% adjusted EBITDA margin (highest since 2021), sending shares up ~19%. After a category recession since 2022, re-accelerating growth with genuine margin expansion is a powerful combination for a high-beta name — the market is pricing an operating-leverage inflection and share gains.",
+  "why": "Three tailwinds: (1) Perigold, the luxury banner, is growing double-digits and now >$400M annual sales, unlocking a higher-AOV, higher-gross-margin customer channel; (2) physical retail is expanding and accretive — stores sell at parity pricing with similar gross margins but lower ad/service costs, and >50% of store customers are new to the file; (3) loyalty investments and active customers +3% are structurally lowering customer-acquisition cost. Q3 guided to high-single-digit growth with a 6.9% EBITDA margin already the best since 2021. Management optimizes for total profit dollars via fixed-cost leverage, so the setup is a multi-year margin-and-share expansion story; valuation is a bet that operating leverage finally sticks through the cycle.",
+  "risk": "Watch: (1) the macro is hostile — existing-home sales near multi-decade lows suppress furniture demand, the category has been in recession since 2022, and active customers still fell 0.5% in 2025, so the recovery is early and rate-dependent; (2) tariffs on Chinese/Asian imports squeeze supplier economics and force price increases against Temu/Amazon competition; (3) the balance sheet carries ~$3bn of convertible/senior debt against thin operating income, leaving little margin for error if growth stalls, and management explicitly won't manage for headline margin near-term. Suggested stop ~2x ATR below; W is high-beta and macro-levered — size accordingly and trim on weak housing data.",
+  "thesis": {
+   "bull": [
+    "Best post-COVID US revenue growth (+7.5%); EBITDA margin best since 2021",
+    "Perigold >$400M and growing double-digit — higher AOV/margin channel",
+    "Physical retail accretive; >50% of store customers new to file",
+    "Loyalty lowering CAC; operating-leverage inflection"
+   ],
+   "bear": [
+    "Housing freeze suppresses furniture demand; category in recession since 2022",
+    "Tariffs squeeze suppliers vs Temu/Amazon price competition",
+    "~$3bn debt vs thin operating income; no near-term margin-rate focus"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026) — high-single-digit growth guide",
+    "US existing-home-sales / housing data (monthly)",
+    "Perigold and physical-store expansion updates"
+   ],
+   "statement": "W is breaking out on its best US revenue growth of the post-COVID era: Q2 (4 Aug) net revenue +7.5% with orders +6% and a 6.9% adjusted EBITDA margin (highest since 2021), sending shares up ~19%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 57.92,
+    "base": 81.74,
+    "bull": 109.78,
+    "base_upside_pct": -24.27,
+    "bull_upside_pct": 1.71
+   },
+   "falsifier": "Housing freeze suppresses furniture demand; category in recession since 2022"
+  }
+ },
+ "DSFIR.AS": {
+  "business": "Swiss-Dutch ingredients house from the 2023 DSM-Firmenich merger, combining nutrition/health ingredients and the world's largest privately-held perfume & taste house. It creates fine fragrances, food flavors/texturants and nutritional ingredients (vitamins, lipids, probiotics). FY2025 sales were ~EUR 12.2B at a 19.7% adjusted EBITDA margin. It's pivoting to a consumer-facing pure-play via the ~EUR 2.2B sale of Animal Nutrition & Health to CVC. The moat is a top-4 F&F oligopoly built on captive perfumer talent and patented capture molecules.",
+  "happening": "DSFIR is breaking out on a strong, volume-led H1 (30 Jul): 5% organic sales growth (6% in Q2, all volume) with margin expansion to 19.3%, and FY26 guidance reaffirmed with like-for-like now expected at the high end of the 2-4% range. Perfumery & Beauty led (+7% Q2 volume, second straight quarter of double-digit fine-fragrance growth). Broad-based volume recovery plus a portfolio-simplification story (ANH divestment, SIX Swiss dual-listing) is re-rating the merged entity.",
+  "why": "Three tailwinds: (1) fine fragrance is running hot — a second consecutive double-digit quarter with all-volume growth signals genuine demand, not price, in the highest-margin franchise; (2) broad-based recovery across Taste, Texture & Health (+6% Q2) and Health, Nutrition & Care (+4% Q2) with merger synergies still ramping (~EUR 100m realized in 2025); (3) portfolio reshaping toward a cleaner, higher-margin fragrance-and-health pure-play via the ANH sale to CVC (~EUR 2.2B EV plus up-to-EUR 0.5B earn-out) and the Swiss dual-listing. FY26 reaffirmed at high-end 2-4% LFL, ~20% EBITDA margin and 11-12% cash conversion. A defensive oligopoly compounder re-rating as merger execution and simplification deliver.",
+  "risk": "Watch: (1) fine-fragrance strength may include order pull-forward — management was pressed on whether consumer prebuying flattered LFL, tempering the read-through on underlying momentum; (2) ANH separation execution risk remains (EUR 1.9bn pre-tax impairment booked, stranded-cost removal and earn-out still to deliver); (3) FX drag (~7% currency headwind to 2025 EBITDA from weak USD vs EUR/CHF), residual vitamin-price cyclicality and Givaudan/IFF/Symrise competition on large briefs. Suggested stop ~2x ATR below; trim if fragrance volumes normalize sharply or ANH separation slips.",
+  "thesis": {
+   "bull": [
+    "Volume-led 5% H1 organic growth; LFL guided to high end of 2-4%",
+    "Fine fragrance double-digit two quarters running, all volume",
+    "ANH divestment to CVC (~EUR 2.2B) sharpens higher-margin pure-play",
+    "Top-4 F&F oligopoly; merger synergies still ramping"
+   ],
+   "bear": [
+    "Possible fragrance order pull-forward flattering LFL",
+    "ANH separation risk: stranded costs and earn-out still to deliver",
+    "~7% FX drag; vitamin-price cyclicality; Givaudan/IFF/Symrise competition"
+   ],
+   "catalysts": [
+    "Q3 2026 trading update (~Oct/Nov 2026)",
+    "Animal Nutrition & Health divestment completion",
+    "SIX Swiss dual-listing progress"
+   ],
+   "statement": "DSFIR is breaking out on a strong, volume-led H1 (30 Jul): 5% organic sales growth (6% in Q2, all volume) with margin expansion to 19.3%, and FY26 guidance reaffirmed with like-for-like now expected at the high end of the 2-4% range.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 75.55,
+    "base": 92.04,
+    "bull": 106.23,
+    "base_upside_pct": -1.24,
+    "bull_upside_pct": 13.98
+   },
+   "falsifier": "Possible fragrance order pull-forward flattering LFL"
+  }
+ },
+ "CRL": {
+  "business": "The world's largest contract provider of preclinical drug-development services and lab animals. It breeds purpose-bred research models (mice, rats, non-human primates) and runs outsourced discovery and regulated safety-assessment (toxicology) studies, plus manufacturing-support testing (Endosafe endotoxin, sterility, cell & gene therapy QC). FY2025 revenue was ~$4.0B, with ~80% of the top 20 pharma as clients. The moat is regulatory-data trust (GLP-compliant, FDA-defensible), scarce NHP supply and razor-and-blade Endosafe lock-in.",
+  "happening": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint. After a biotech-funding-driven downturn, a DSA booking inflection plus a manufacturing-segment beat is exactly the leading-indicator turn that re-rates a cyclical CRO.",
+  "why": "Three tailwinds: (1) the DSA demand inflection is the key leading indicator — the highest net book-to-bill in ~4 years with more IND-enabling studies as clients replenish pipelines earlier signals a genuine bottoming of the biotech downturn; (2) NHP supply is a deepening moat — the KF Cambodia acquisition (on top of Mauritius) secures scarce non-human-primate supply, controlling timing/quality and lowering DSA costs; (3) manufacturing-segment outperformance plus improving biotech/large-pharma demand drove the guidance raise. FY26 raised to $11.15-11.45 EPS on ~$3.9B revenue (above ~$3.8B consensus). A cyclical CRO re-rating off a trough, with pricing stable and enough capacity to service near-term growth without heavy capex.",
+  "risk": "Watch: (1) the recovery is bookings-led, not yet revenue-led — organic revenue is still only flat to +1% for FY26, so the book-to-bill inflection must convert; (2) biotech funding and big-pharma R&D budgets remain cyclical and drove DSA organic revenue down 2.6% in 2025, so a funding relapse would stall the turn; (3) NHP supply carries US import scrutiny and DOJ-investigation history (legal/ESG/margin risk), and the structural shift toward non-animal (NAMs) testing plus FDA signals to reduce animal testing pressure the long-run franchise. Suggested stop ~2x ATR below; trim if DSA book-to-bill rolls back over or NHP headlines resurface.",
+  "thesis": {
+   "bull": [
+    "DSA highest net book-to-bill in ~4 years; FY26 EPS guide raised ~$0.25",
+    "IND-enabling study uptick signals biotech-downturn bottoming",
+    "KF Cambodia + Mauritius NHP supply as a deepening cost/moat advantage",
+    "Manufacturing beat; pricing stable with capacity for growth"
+   ],
+   "bear": [
+    "Recovery bookings-led; FY26 organic revenue still only flat to +1%",
+    "Biotech-funding/pharma-budget cyclicality could stall the turn",
+    "NHP import scrutiny/DOJ history; long-run NAMs/animal-testing shift"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~early Nov 2026) — book-to-bill follow-through",
+    "Biotech funding and IND-enabling study trends",
+    "NHP supply-chain and regulatory developments"
+   ],
+   "statement": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 169.47,
+    "base": 230.89,
+    "bull": 330.74,
+    "base_upside_pct": -11.44,
+    "bull_upside_pct": 26.86
+   },
+   "falsifier": "Recovery bookings-led; FY26 organic revenue still only flat to +1%"
+  }
+ },
+ "KLR.L": {
+  "business": "The world's largest geotechnical specialist contractor — it prepares and stabilizes the ground beneath construction projects (ground improvement, piling, grouting, earth retention) so buildings, bridges, data centres, ports and industrial plants can be built on difficult soils. Revenue is project-based across ~40 countries. FY2025 was a record year (revenue GBP 3.09B, +5.9%; 7.1% underlying operating margin) and Keller reached its first net-cash position in 25 years. The edge is the largest specialist rig fleet, proprietary techniques and balance-sheet strength to bond mega-projects in a fragmented trade.",
+  "happening": "KLR is breaking out on a record H1 (4 Aug): revenue +10.3% to GBP 1.6B, operating margin expanding to 7.3%, EPS +22.4% to 120.1p, and a record GBP 1.9B order book — with the interim dividend hiked 57%. North America is leading, and data-centre/advanced-manufacturing demand is a fast-growing driver. Record backlog plus expanding margins and a big capital-return step-up mark a fourth consecutive record year in the making.",
+  "why": "Three tailwinds: (1) structural demand from data-centre and industrial/advanced-manufacturing ground works is driving North America (the highest-margin division) and the record GBP 1.9B order book gives strong forward revenue visibility; (2) margin expansion to 7.3% is structural — tied to North American mix and project selectivity rather than one-offs — supporting continued progression toward higher through-cycle targets; (3) fortress balance sheet (net debt just GBP 15.9m, leverage 0.1x vs a 0.5-1.5x target) funds both the 57% dividend increase and a GBP 100m buyback (~GBP 35m done) with headroom for bolt-on M&A. On course for a fourth straight record year. A cyclical specialist trading on modest earnings with self-funded shareholder returns and a data-centre growth kicker.",
+  "risk": "Watch: (1) demand is cyclical and project-driven — a downturn in US non-residential or data-centre build-out would hit the highest-margin division hardest; (2) Suncoast pricing adjustments already cut North America operating profit GBP 25.8m in 2025 amid a softer US residential market (commodity steel/PT-cable exposure); (3) thin fixed-price contracting margins (~7%) leave limited buffer for cost inflation, weather or project execution slippage on large jobs. Suggested stop ~2x ATR below; trim on signs of a data-centre/non-residential capex slowdown or Suncoast pricing pressure.",
+  "thesis": {
+   "bull": [
+    "Record H1; EPS +22.4%, record GBP 1.9B order book, interim dividend +57%",
+    "Data-centre/advanced-manufacturing driving high-margin North America",
+    "Structural margin expansion to 7.3% on mix and project selectivity",
+    "Net cash (0.1x leverage) funds dividend + GBP 100m buyback + M&A"
+   ],
+   "bear": [
+    "Cyclical, project-driven; US non-residential/data-centre downturn risk",
+    "Suncoast pricing cut NA profit GBP 25.8m in 2025; commodity exposure",
+    "Thin ~7% fixed-price margins leave little execution buffer"
+   ],
+   "catalysts": [
+    "FY26 full-year results (~Mar 2027) — fourth record year",
+    "GBP 100m buyback completion progress",
+    "Data-centre / North America order intake updates"
+   ],
+   "statement": "KLR is breaking out on a record H1 (4 Aug): revenue +10.3% to GBP 1.6B, operating margin expanding to 7.3%, EPS +22.4% to 120.1p, and a record GBP 1.9B order book — with the interim dividend hiked 57%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 3190.48,
+    "base": 4679.27,
+    "bull": 10690.97,
+    "base_upside_pct": 51.92,
+    "bull_upside_pct": 247.11
+   },
+   "falsifier": "Cyclical, project-driven; US non-residential/data-centre downturn risk"
+  }
+ },
+ "UNI.MI": {
+  "business": "Italy's leading non-life insurer (especially motor and health) and a major life insurer, following the 2024 merger that absorbed UnipolSai into the holding. It sells through the largest tied-agent network in Italy plus bancassurance via its ~20% stake in bank BPER. FY2025 total premiums rose 11.1% to EUR 17.4B, net profit rose ~40% to EUR 1.2B, the non-life combined ratio was 91.0% and solvency 218%. The moat is distribution scale plus the country's biggest motor-telematics book, giving a proprietary pricing/claims-data edge, though it's concentrated in Italy.",
+  "happening": "UNI is grinding higher on a steady beat-and-deliver story: Q1 (15 May) was in line (EPS EUR 0.51, net profit ~EUR 329m +15%) with the combined ratio hitting the 90% industrial-plan KPI level, and management raised the cumulative 2025-27 dividend target to >=EUR 2.4bn and set 'more than EUR 800m' as an annual distribution floor. Insurance-group solvency ~300% underpins the capital-return story. This is a defensive, high-yield compounder re-rating on plan delivery and rising cash distributions.",
+  "why": "Three tailwinds: (1) best-in-class underwriting — the combined ratio reached the 90% plan-level KPI with deliberately extra-prudent reserving (attritional loss ratio nudged to ~69% with 'no adverse claims trend'), seeding future prior-year releases; motor is growing (retail MTPL pricing ~+3% plus the Stellantis distribution deal); (2) bancassurance momentum — premiums grew >30% with the Banca Popolare di Sondrio integration and agents channel +20%; (3) fortress capital — a EUR 1bn Restricted Tier 1 plus organic generation put insurance-group solvency ~300%, funding a raised >=EUR 2.4bn cumulative dividend and a >EUR 800m annual floor. Trades at a low P/E with a high, cash-only dividend yield; the valuation angle is durable capital return from a market-leading Italian franchise.",
+  "risk": "Watch: (1) single-market concentration — results are tied to Italian GDP, motor frequency/severity and BTP sovereign-spread moves on the investment portfolio (investment income was ~EUR 50m below Q1'25 on soft markets); (2) motor-pricing cyclicality and claims inflation (repair costs, bodily injury) could erode the strong combined ratio if premium hardening reverses; (3) the bancassurance strategy depends on the BPER relationship and BPER's own M&A (Banca Popolare di Sondrio offer), and management is buyback-averse (cash-dividend-only), capping return flexibility. Suggested stop ~2x ATR below; this is a low-beta income name — trim on a combined-ratio deterioration or a sharp BTP-spread widening.",
+  "thesis": {
+   "bull": [
+    "Combined ratio at 90% plan KPI with extra-prudent reserving",
+    "Cumulative dividend target raised to >=EUR 2.4bn; >EUR 800m annual floor",
+    "Bancassurance premiums +30% with Banca Popolare di Sondrio integration",
+    "~300% insurance-group solvency; low P/E, high cash dividend yield"
+   ],
+   "bear": [
+    "Italy-concentrated; exposed to BTP spreads and domestic GDP",
+    "Motor-pricing cyclicality/claims inflation could erode combined ratio",
+    "Cash-dividend-only doctrine caps return flexibility; BPER M&A complexity"
+   ],
+   "catalysts": [
+    "H1 2026 results (~Aug 2026)",
+    "Year-end distribution-upgrade decision (early 2027)",
+    "BPER / Banca Popolare di Sondrio bancassurance developments"
+   ],
+   "statement": "UNI is grinding higher on a steady beat-and-deliver story: Q1 (15 May) was in line (EPS EUR 0.51, net profit ~EUR 329m +15%) with the combined ratio hitting the 90% industrial-plan KPI level, and management raised the cumulative 2025-27 dividend target to >=EUR 2.4bn and set 'more than EUR 800m' as an annual distribution floor.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 27.69,
+    "base": 29.43,
+    "bull": 61.41,
+    "base_upside_pct": 1.78,
+    "bull_upside_pct": 112.36
+   },
+   "falsifier": "Italy-concentrated; exposed to BTP spreads and domestic GDP"
+  }
+ },
+ "RNG": {
+  "business": "Cloud communications provider — the #1 UCaaS vendor worldwide (~19% share) selling business phone (RingEX), AI contact centre (RingCX) and conversation-intelligence (RingSense) software on per-seat subscriptions to 400,000+ businesses. ~95% of its ~$2.6bn revenue is recurring, with distribution locked in through exclusive channel deals (Avaya Cloud Office, NICE, AT&T).",
+  "happening": "The July 23 Q2 print was a broad beat-and-raise that flipped the 'AI kills UCaaS' bear case: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort retention, and FY26 FCF was raised to $615-625m alongside a dividend increase. The expanded NICE partnership hands RingEX an enterprise channel it never had, and the 20% GAAP operating margin target was pulled forward a year.",
+  "why": "Three tailwinds align: (1) AI is proving accretive, not disruptive — AIR/AVA/ACE products crossed ~$300m of revenue with paid-AI customers doubling y/y at >100% cohort NRR, turning the 'melting ice cube' narrative into a re-rating story; (2) the compounding-FCF model is kicking in — 23.4% non-GAAP op margin (+90bps), FCF +25%, net leverage down to 1.5x, buybacks shrinking the share count back to 2019 levels plus a new dividend; (3) valuation remains the hook — at roughly $5 of guided non-GAAP EPS the stock trades near a low-teens forward P/E for a ~24% FCF-margin business, a deep discount to software peers if mid-single-digit growth proves durable.",
+  "risk": "Watch Microsoft Teams Phone bundling — it structurally caps seat pricing and is the reason base growth is only ~5%; any slippage in AI ARR disclosures next quarter would re-open the melting-ice-cube debate. Convertible-debt refinancing and heavy US concentration add balance-sheet and macro sensitivity. Suggested stop ≈ 2× ATR below entry; trim if the AI-revenue mix stalls at ~13% of revenue in Q3.",
+  "thesis": {
+   "bull": [
+    "Paid-AI products (~$300m, 13% of revenue) doubling y/y with >100% cohort NRR",
+    "NICE partnership opens an enterprise channel; Avaya base still migrating",
+    "FCF $615-625m guided, 1.5x net leverage, buybacks plus a new dividend",
+    "Low-teens forward P/E leaves re-rating room if growth holds"
+   ],
+   "bear": [
+    "Teams Phone bundling caps seat growth and pricing — core UCaaS is ex-growth",
+    "AI up-sell must keep scaling to offset ~5% base growth",
+    "Convert-heavy balance sheet limits flexibility if growth slips"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026) — AI ARR mix update",
+    "Gross-debt $1bn target milestone (YE 2026)",
+    "NICE/Avaya enterprise channel win announcements (H2 2026)"
+   ],
+   "statement": "The July 23 Q2 print was a broad beat-and-raise that flipped the 'AI kills UCaaS' bear case: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort retention, and FY26 FCF was raised to $615-625m alongside a dividend increase.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 73.15,
+    "base": 92.68,
+    "bull": 370.22,
+    "base_upside_pct": 50.74,
+    "bull_upside_pct": 502.18
+   },
+   "falsifier": "Teams Phone bundling caps seat growth and pricing — core UCaaS is ex-growth"
+  }
+ },
+ "SGRO.L": {
+  "business": "UK-listed REIT owning GBP 19bn of big-box and urban last-mile logistics warehouses across the UK and Continental Europe, plus a fast-scaling data-centre arm. Its edge is irreplaceable, planning-constrained urban land (Slough Trading Estate, London, Paris) and a 3 GVA grid-connected power bank — a genuine bottleneck asset as data-centre demand outstrips available power.",
+  "happening": "SEGRO is in a formal offer period after a Prologis approach, putting an M&A floor under a stock that traded well below its 902p EPRA NTA. The July 30 H1 print added fundamental fuel: adjusted EPS +6.6%, pre-lets jumped to GBP 24m (vs GBP 3m a year ago), the power bank grew to 3 GVA, and the first VIRTUS powered-shell pre-let at Slough converted the data-centre story from land bank into signed income.",
+  "why": "Three tailwinds align: (1) bid dynamics — Prologis interest forces the market to price the portfolio at private-market value rather than a listed discount, with the >GBP 1bn of embedded income opportunity now in play; (2) the data-centre pivot is monetizing — 3 GVA of secured power, planning approval for the first fully-fitted DC in West London, and Ofgem's proposed grid-fee reforms act as a moat-widener for incumbents with energized capacity; (3) occupier demand is inflecting (GBP 53m of new headline rent, 44% average UK rent-review uplift) just as rate-cut expectations ease pressure on a 31% LTV balance sheet — and the shares still trade at a discount to NTA even after the bid pop.",
+  "risk": "Watch the offer-period clock: if Prologis walks or a formal bid lapses, the premium unwinds fast and the stock re-anchors to NAV math. Values are still drifting (-1.2% in H1, UK ~-2%), customer retention dipped to 77%, and the Paris Le Bourget DC permit was withdrawn — data-centre execution is not riskless. A rate back-up is the macro kill-switch. Suggested stop ≈ 2× ATR below; size down for the binary bid risk.",
+  "thesis": {
+   "bull": [
+    "Prologis approach puts a private-market floor under 902p EPRA NTA",
+    "3 GVA power bank + VIRTUS pre-let converts DC optionality into income",
+    "Pre-lets GBP 24m vs GBP 3m y/y — occupier demand inflecting",
+    "GBP 1.5bn liquidity funds the pipeline while weaker landlords are stuck"
+   ],
+   "bear": [
+    "A bid lapse would unwind the takeover premium overnight",
+    "Portfolio values still falling on higher incoming yields; NTA -2.5% in H1",
+    "London vacancy and 77% retention hint at occupier affordability strain"
+   ],
+   "catalysts": [
+    "Prologis bid resolution / UK Takeover Code deadline (H2 2026)",
+    "Q3 trading update (~Oct 2026)",
+    "West London fully-fitted data-centre construction start (FY26/27)",
+    "FY26 results (~Feb 2027)"
+   ],
+   "statement": "SEGRO is in a formal offer period after a Prologis approach, putting an M&A floor under a stock that traded well below its 902p EPRA NTA.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 759.29,
+    "base": 963.12,
+    "bull": 1163.61,
+    "base_upside_pct": 0.22,
+    "bull_upside_pct": 21.08
+   },
+   "falsifier": "A bid lapse would unwind the takeover premium overnight"
+  }
+ },
+ "MKS.L": {
+  "business": "UK retailer of premium own-brand food (~65% of revenue) plus clothing, home and beauty, sold through ~1,000 stores, online and a 50% Ocado Retail JV. M&S Food is nearly 100% own-brand with a quality/trust premium discounters cannot copy (~4.1% grocery share and gaining); the Machin turnaround had rebuilt Clothing & Home before the April 2025 cyberattack.",
+  "happening": "The stock is in recovery-trade mode: FY26 results (May 20) quantified the cyber damage — adjusted PBT -23.8% to GBP 671m with Fashion/Home/Beauty margin halved to 5.5% — but confirmed Q4 FHB returned to growth, online availability is back to high-80s, and Food grew 7% straight through the crisis. With the ~GBP 300m one-off scarring now in the base and GBP 100m of insurance banked, FY27 sets up as a clean rebuild year against washed-out comps.",
+  "why": "Three tailwinds align: (1) cyber-recovery math — management committed to rebuilding FHB margin from 5.5% to above 10%, and every point recovered drops straight to group profit against a depressed base; (2) Food momentum is structural — +7% value and +3.3% volume growth, 18 new Food stores planned for FY27, and Ocado Retail +15% with M&S product sales through Ocado topping GBP 1bn for the first time, with the automated Lichfield DC adding online capacity from FY28; (3) the valuation never re-rated for the recovery — shares trade on a low-double-digit P/E on cyber-depressed earnings, cheap versus Next, with insurance proceeds cushioning the rebuild.",
+  "risk": "Watch systems fragility — a second cyber incident would devastate the equity story, and the online FHB recovery (-18.4% in FY26) must show up in H1 FY27 numbers. UK budget/NI labour-cost inflation and government price-cap noise (publicly rebuffed by Chairman Norman) squeeze both divisions, and the Ocado JV has already been impaired once. Suggested stop ≈ 2× ATR below; reassess if H1 FHB margin recovery undershoots the glide path to >10%.",
+  "thesis": {
+   "bull": [
+    "FHB margin rebuild from 5.5% toward >10% is a multi-year profit bridge",
+    "Food compounding: +7% sales, share gains, 18 new stores in FY27",
+    "Ocado JV inflecting — M&S products >GBP 1bn, Lichfield DC from FY28",
+    "Low-double-digit P/E on cyber-depressed earnings"
+   ],
+   "bear": [
+    "Repeat cyber/systems-failure risk is live and reputationally uninsurable",
+    "UK consumer and labour-cost pressure caps Food margin (4.6% and falling)",
+    "Clothing remains execution-dependent in a structurally competitive market"
+   ],
+   "catalysts": [
+    "H1 FY27 results (~Nov 2026) — first clean post-cyber comp",
+    "Christmas trading statement (Jan 2027)",
+    "FY27 results (May 2027) — FHB margin vs the >10% ambition"
+   ],
+   "statement": "The stock is in recovery-trade mode: FY26 results (May 20) quantified the cyber damage — adjusted PBT -23.8% to GBP 671m with Fashion/Home/Beauty margin halved to 5.5% — but confirmed Q4 FHB returned to growth, online availability is back to high-80s, and Food grew 7% straight through the crisis.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 378.46,
+    "base": 550.87,
+    "bull": 778.72,
+    "base_upside_pct": 34.56,
+    "bull_upside_pct": 90.21
+   },
+   "falsifier": "Repeat cyber/systems-failure risk is live and reputationally uninsurable"
+  }
+ },
+ "RHI": {
+  "business": "Specialized staffing and consulting firm: places contract and permanent professionals in finance, accounting, technology and legal roles, and owns Protiviti, a global risk-consulting and internal-audit practice (~36% of revenue). A 70+ year finance-recruiting brand plus Protiviti's independence from Big Four audit conflicts are the franchise assets.",
+  "happening": "This is a counter-cyclical breakout: on the July 23 call CEO Waddell effectively called the staffing-cycle trough, citing three straight quarters of sequential Talent Solutions growth extending into July and 'no reason' prior peak revenues cannot be reclaimed. The Q3 guide (EPS $0.43-0.53 vs the $0.26 just printed) implies a sharp sequential earnings inflection, and the market is front-running the white-collar hiring recovery as rate cuts approach — the post-print 12% selloff has been absorbed.",
+  "why": "Three tailwinds align: (1) the cycle is turning — perm placement +2.5% y/y, sequential growth in three straight quarters, and every prior downturn has resolved in new peak revenues, with huge operating leverage off a 4-6% trough margin; (2) self-help kickers — Protiviti's restructuring lifts annualized savings to $45m while its technology-consulting practice just posted the best revenue quarter in its history; (3) valuation and carry — earnings are cyclically depressed so the P/E looks optically full at the exact buy point, the dividend pays you to wait, and mid-cycle EPS power is a multiple of the current run-rate: a classic early-cycle staffing setup.",
+  "risk": "Watch bill-rate growth (~2%, the lowest in years) — the recovery case rests on volume, so if sequential Talent Solutions growth stalls the bottom call fails. Protiviti's FSI risk/compliance work is shrinking on lighter US regulatory enforcement, Q4 carries an extra lost billing day (~$20m headwind), and AI displacement of entry-level accounting roles is the secular bear case that never goes away. Suggested stop ≈ 2× ATR below; cut if monthly US white-collar hiring data rolls back over.",
+  "thesis": {
+   "bull": [
+    "CEO's explicit cycle-bottom call; three straight quarters of sequential growth",
+    "Q3 guide implies ~2x sequential EPS inflection ($0.43-0.53 vs $0.26)",
+    "Protiviti restructuring: $45m annualized savings; tech consulting at a record",
+    "Every prior downturn resolved in new peak revenue and margins"
+   ],
+   "bear": [
+    "Bill-rate growth at ~2% — pricing power fading, recovery is volume-only",
+    "AI automation structurally shrinks entry-level finance/accounting temp demand",
+    "A macro relapse hits staffing and Protiviti simultaneously"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026) — is sequential growth intact?",
+    "Fed rate decisions (Sep/Dec 2026) — hiring-cycle sensitivity",
+    "Monthly US jobs/JOLTS prints through H2 2026"
+   ],
+   "statement": "This is a counter-cyclical breakout: on the July 23 call CEO Waddell effectively called the staffing-cycle trough, citing three straight quarters of sequential Talent Solutions growth extending into July and 'no reason' prior peak revenues cannot be reclaimed.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 21.86,
+    "base": 35.07,
+    "bull": 52.47,
+    "base_upside_pct": -13.51,
+    "bull_upside_pct": 29.39
+   },
+   "falsifier": "Bill-rate growth at ~2% — pricing power fading, recovery is volume-only"
+  }
+ },
+ "NET": {
+  "business": "Operator of a global 'connectivity cloud' — servers in 330+ cities selling CDN, DDoS/application security, zero-trust SASE and the Workers serverless/edge-AI developer platform, overwhelmingly as recurring subscriptions. Once traffic routes through Cloudflare, adding products is a config change — hence 118% net retention and $2.54bn of RPO growing 36%.",
+  "happening": "The stock is riding two stories into tonight's Q2 print (due after the close today, Aug 6): 30%+ growth with record $5m+ customer additions, and the shock 'agentic AI-first' restructuring — a ~20% workforce cut Prince framed as scaling revenue faster than headcount, with Rule of 40 guided 'north of 46%' now and above 50% next year. Cloudflare is also emerging as the tollbooth for AI content licensing via pay-per-crawl, a narrative kicker no peer owns.",
+  "why": "Three tailwinds align: (1) the AI workload land-grab — 1 million new developers joined Workers in a single quarter (5.5m total), GPU utilization runs 70-80% vs hyperscalers' single digits, and AI-native customers are picking Cloudflare over AWS; (2) the enterprise flywheel is compounding — as many $5m+ customer adds in Q1 as in all of 2025, $1m+ deals +73%, SASE displacement wins consolidating 16-vendor security stacks; (3) the restructuring converts a growth story into growth-plus-margin — FY26 operating income guided to $418-421m with FCF intact. The valuation angle cuts the other way: this remains one of software's richest multiples, so momentum here is expectation-driven, not value-driven.",
+  "risk": "Watch tonight's Q2 print and restructuring execution — cutting ~1,100 people while accelerating AE hiring is operationally delicate, and any DBNR slip or Q3 guide wobble gets amplified by the premium multiple. Gross margin already gave up 210bps q/q funding the AI land-grab, and hyperscalers can bundle and undercut. Suggested stop ≈ 2× ATR below; expect outsized post-earnings gaps — size for a double-digit move.",
+  "thesis": {
+   "bull": [
+    "Rule of 40 above 46% now, >50% guided next year post-restructuring",
+    "1m new Workers developers in one quarter; AI-native workloads landing",
+    "Record $5m+ customer adds, 118% DBNR, RPO +36%",
+    "Pay-per-crawl positions NET as the AI content-licensing tollbooth"
+   ],
+   "bear": [
+    "Premium multiple leaves zero room for a growth stumble",
+    "~20% headcount cut risks sales and engineering disruption in H2",
+    "Gross margin eroding (-210bps q/q) to fund the AI push"
+   ],
+   "catalysts": [
+    "Q2 2026 earnings (tonight, Aug 6 2026)",
+    "Birthday Week product launches (Sep 2026)",
+    "Q3 2026 earnings (~Nov 2026) — restructuring proof point"
+   ],
+   "statement": "The stock is riding two stories into tonight's Q2 print (due after the close today, Aug 6): 30%+ growth with record $5m+ customer additions, and the shock 'agentic AI-first' restructuring — a ~20% workforce cut Prince framed as scaling revenue faster than headcount, with Rule of 40 guided 'north of 46%' now and above 50% next year.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 136.0,
+    "base": 265.0,
+    "bull": 330.0,
+    "base_upside_pct": -9.54,
+    "bull_upside_pct": 12.64
+   },
+   "falsifier": "Premium multiple leaves zero room for a growth stumble"
+  }
+ },
+ "UHAL": {
+  "business": "North America's dominant DIY moving company — ~186,000 trucks across 24,000+ locations give one-way rental coverage no rival can match — plus a fast-growing, largely owned self-storage estate and captive insurance arms. The orange brand is synonymous with moving, and network density is the moat: you can drop a U-Haul in another city, which Penske and Budget cannot replicate at that scale.",
+  "happening": "The stock broke out after FY26 results (May 28), when management paired a $350m share-repurchase authorization — a capital-allocation signal shift for the Shoen-controlled company — with guidance that fleet depreciation declines in FY2027, removing the expense wave that crushed reported earnings (FY26 net income $83m vs $367m). The stock rallied 20%+ on that reset, and the Q1 FY27 print (Aug 5) kept the top line on script: revenue +3.2% to $1.68bn with self-storage revenue up another $15.9m.",
+  "why": "Three tailwinds align: (1) the depreciation wave is cresting — fleet depreciation (+$187m in FY26) plus $118m of losses on retired-truck sales masked healthy operations, and guided FY27 depreciation relief mechanically lifts reported EPS even on modest revenue growth; (2) self-storage keeps compounding (FY26 revenue +8.3%, revenue-per-foot +6.5%) — a REIT-quality asset buried inside a rental company; (3) the $350m buyback marks a shareholder-return turn, and on a sum-of-parts basis (owned storage NAV + fleet + insurance) the stock has long screened cheap versus pure-play storage REIT multiples — with any housing-turnover thaw as rates ease a free call option on one-way truck demand.",
+  "risk": "Watch used-truck resale values and fleet-disposal losses — if the secondary market stays weak, the depreciation-relief thesis slips a year. Q1 FY27 net earnings still fell 13.6% y/y on operating and interest expense creep, moving demand remains hostage to frozen housing turnover, and the dual-class Shoen structure means minority holders ride shotgun. Suggested stop ≈ 2× ATR below; treat this as a slow-burn re-rating, not an earnings-momentum name.",
+  "thesis": {
+   "bull": [
+    "FY27 depreciation decline mechanically lifts reported EPS off the $83m trough",
+    "$350m buyback — capital-return inflection at a family-controlled company",
+    "Self-storage compounding: +8.3% revenue, +6.5% revenue-per-foot",
+    "Housing-turnover recovery is a free option on one-way truck demand"
+   ],
+   "bear": [
+    "Used-truck resale losses could persist and delay the earnings reset",
+    "Opex and interest growing faster than revenue (Q1 net earnings -13.6%)",
+    "Dual-class Shoen control; capital intensity swallows cash flow"
+   ],
+   "catalysts": [
+    "Q2 FY27 results (~Nov 2026) — peak moving season plus depreciation trend",
+    "Buyback execution updates through FY27",
+    "US existing-home-sales and mortgage-rate data (H2 2026)"
+   ],
+   "statement": "The stock broke out after FY26 results (May 28), when management paired a $350m share-repurchase authorization — a capital-allocation signal shift for the Shoen-controlled company — with guidance that fleet depreciation declines in FY2027, removing the expense wave that crushed reported earnings (FY26 net income $83m vs $367m).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 38.55,
+    "base": 52.27,
+    "bull": 94.1,
+    "base_upside_pct": -30.29,
+    "bull_upside_pct": 25.51
+   },
+   "falsifier": "Used-truck resale losses could persist and delay the earnings reset"
+  }
+ },
+ "ILMN": {
+  "business": "The dominant maker of DNA sequencers and — the real business — the proprietary reagent consumables (~74% of revenue) that every installed machine must consume: a classic razor-and-blade model serving research, hospital and diagnostic labs. Tens of thousands of installed sequencers and lab protocols validated on Illumina chemistry make switching costly.",
+  "happening": "Q2 (July 30) delivered the fastest revenue growth of the Thaysen era — $1.16bn, +9.5%, on >95 NovaSeq X placements and 15% ex-China clinical consumables growth — and FY26 guidance was raised across the board. The feared 'clinical cliff' was recast by the CEO as 'a wave we are surfing', and after two flat years the market is re-rating Illumina as a clinical-genomics compounder again.",
+  "why": "Three tailwinds align: (1) the clinical engine is compounding — US/Canada clinical consumables +20%, NovaSeq X now 83% of sequencing volumes with clinical conversion guided to 80-85% by year-end, and consumable pull-through follows placements with a lag, underwriting 2027; (2) multiomics optionality is stacking — StrataMap spatial, SomaLogic proteomics, whole-genome MRD in early access, and a Billion Cell Atlas data business that is 'making money from day one'; (3) management is banking beats rather than raising the 2027 high-single-digit bar, leaving consensus room, while the stock still trades at a fraction of its historical premium multiple (~mid-20s forward P/E on $5.30-5.40 guided EPS vs a 40x+ history).",
+  "risk": "Watch research/academic demand (consumables -7%, 'too early to call a recovery') and Greater China, where the unreliable-entity listing has structurally impaired ~6% of legacy revenue. Long-read and low-cost rivals (PacBio, Nanopore, Element, Ultima) keep chipping at the short-read moat, and DRAM cost inflation is a live margin nuisance management is absorbing with inventory pre-buys. Suggested stop ≈ 2× ATR below; add only if clinical consumable growth holds mid-teens through Q3.",
+  "thesis": {
+   "bull": [
+    "Clinical consumables +20% with NovaSeq X conversion to 80-85% by YE26",
+    "FY26 guidance raised across the board; 2027 bar deliberately left low",
+    "Multiomics and data businesses add growth layers (profitable from day one)",
+    "Multiple well below its historical premium for a razor-and-blade franchise"
+   ],
+   "bear": [
+    "Academic/research funding slump has no visible bottom",
+    "Greater China effectively lost (unreliable-entity listing); MGI gaining share",
+    "Element/Ultima price competition erodes long-run consumable pricing"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Oct/Nov 2026)",
+    "NovaSeq X clinical-conversion milestone, 80-85% (end-2026)",
+    "FY27 guidance / JPMorgan Healthcare Conference (Jan 2027)"
+   ],
+   "statement": "Q2 (July 30) delivered the fastest revenue growth of the Thaysen era — $1.16bn, +9.5%, on >95 NovaSeq X placements and 15% ex-China clinical consumables growth — and FY26 guidance was raised across the board.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 100.66,
+    "base": 142.58,
+    "bull": 199.09,
+    "base_upside_pct": -28.66,
+    "bull_upside_pct": -0.39
+   },
+   "falsifier": "Academic/research funding slump has no visible bottom"
+  }
+ },
+ "AXON": {
+  "business": "The default technology platform for US public safety: TASER energy weapons, body cameras and drones (Connected Devices) tied into Evidence.com digital-evidence cloud, real-time operations and AI report-writing software ($1.6bn ARR). Once an agency stores years of evidence and standardizes on TASER, migrating is enormously disruptive — hence 126% net revenue retention.",
+  "happening": "Q2 (Aug 5) was the tenth consecutive quarter of 30%+ growth — revenue $904m, +35% — with the FY26 growth guide raised to 32-34%. The new legs all broke out at once: Dedrone counter-drone crossed $100m in a single quarter after securing airspace over all 11 US World Cup host cities and a slot on DHS's $1.5bn counter-UAS program, AI Era Plan revenue grew ~700%, and international bookings roughly tripled with Middle East/Europe deals at US-agency scale.",
+  "why": "Three tailwinds align: (1) counter-drone is becoming a structural franchise — data centers and corporate campuses are now buyers, not just event security — layered on $15.1bn of future contracted bookings; (2) the software flywheel keeps compounding — ARR +39% at 126% NRR, Draft One and real-time translation driving ~700% AI-plan growth, and TASER 10 booked more units in one quarter than TASER 7's lifetime; (3) international has finally inflected, tripling bookings and opening a second S-curve. The check: none of this is cheap — the stock carries a premium multiple (60x+ forward earnings) that only survives while 30%+ growth persists, so this is a momentum-quality name, not a value entry.",
+  "risk": "Watch Q3 margin commentary — memory-cost and tariff headwinds press EBITDA into H2, Q2 FCF was ~break-even on a deliberate inventory build, and the new five-year normalized bookings metric was introduced precisely to defuse skepticism about shorter-duration deals inflating the $15.1bn headline. Government budget cycles and legal challenges to AI-written police reports are ever-present. Suggested stop ≈ 2× ATR below; respect any break of the post-earnings gap given the multiple.",
+  "thesis": {
+   "bull": [
+    "Tenth straight 30%+ quarter; FY26 guide raised to 32-34%",
+    "Dedrone $100m+/quarter with DHS $1.5bn program and non-government buyers",
+    "$15.1bn contracted future bookings; ARR $1.6bn +39% at 126% NRR",
+    "International bookings ~tripled — a second S-curve outside the US"
+   ],
+   "bear": [
+    "Premium multiple (60x+ forward earnings) prices in flawless execution",
+    "Memory/tariff costs pressure H2 margins; Q2 FCF ~breakeven",
+    "Counter-drone surge could prove partly event-driven post-World Cup"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026)",
+    "DHS counter-UAS task-order awards (H2 2026)",
+    "World Cup deployments converting to permanent contracts (H2 2026-2027)"
+   ],
+   "statement": "Q2 (Aug 5) was the tenth consecutive quarter of 30%+ growth — revenue $904m, +35% — with the FY26 growth guide raised to 32-34%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 409.68,
+    "base": 660.88,
+    "bull": 825.0,
+    "base_upside_pct": 8.43,
+    "bull_upside_pct": 35.36
+   },
+   "falsifier": "Premium multiple (60x+ forward earnings) prices in flawless execution"
+  }
+ },
+ "BAX": {
+  "business": "Diversified hospital-supplies maker: sterile IV solutions and infusion pumps, surgical hemostats, injectable/anesthesia pharmaceuticals and (via Hillrom) smart beds and patient monitoring. It is one of only a few FDA-cleared suppliers able to make IV bags at national scale — critical-supply status that keeps it embedded in every US hospital — now mid-turnaround under new CEO Andrew Hider after selling the kidney-care unit to cut debt.",
+  "happening": "Q2 (July 30) beat with 5% organic growth — every segment growing, Advanced Surgery +12% — and FY26 EPS guidance moved up to $1.95-2.15. The market is paying for the Hider reset: his 'Baxter GPS' operating system (400+ continuous-improvement events YTD), portfolio pruning and a string of launches (PeerView, Vest APX, Dynamo) form a credible margin-recovery playbook on a stock that had been left for dead.",
+  "why": "Three tailwinds align: (1) self-help under a proven operator — Hider is applying a lean operating system to a company with years of accumulated inefficiency, and the margin gap versus medtech peers is the size of the prize; (2) the portfolio is finally clean post-Vantive sale, with debt paid down and MPT growing 5% organic on steady hospital utilization; (3) valuation is the core case — roughly 10-11x guided EPS with a dividend, where simply executing the FY26 framework and resolving the Novum IQ pump hold would justify re-rating toward the medtech pack. Note the raise quality: the +$0.10 was essentially a one-time $0.11 tariff refund, so the underlying story is stabilization, not yet acceleration.",
+  "risk": "Watch the Novum IQ LVP pump hold — there is no resolution timeline, and it caps the infusion-franchise narrative; adjusted EPS still fell 5% y/y and gross margin dropped 210bps, so the turnaround is promise-heavy. Hospital capital-spending caution (management already pre-positioned the excuse) and GPO pricing pressure are the structural drags. Suggested stop ≈ 2× ATR below; treat a Novum IQ resolution as the add signal rather than chasing ahead of it.",
+  "thesis": {
+   "bull": [
+    "New-CEO self-help: Baxter GPS lean reset against a wide peer margin gap",
+    "5% organic growth with all segments positive; Advanced Surgery +12%",
+    "~10-11x forward EPS plus a dividend — discounted vs medtech peers",
+    "Post-Vantive balance-sheet clean-up removes the leverage overhang"
+   ],
+   "bear": [
+    "EPS raise was a one-time tariff refund — underlying H2 unchanged",
+    "Novum IQ pump hold is open-ended; gross margin -210bps",
+    "GPO pricing and hospital capex caution cap organic upside"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026)",
+    "Novum IQ LVP shipment-hold resolution updates (H2 2026 onward)",
+    "FY27 guidance (~Feb 2027) — first full Hider-framework year"
+   ],
+   "statement": "Q2 (July 30) beat with 5% organic growth — every segment growing, Advanced Surgery +12% — and FY26 EPS guidance moved up to $1.95-2.15.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 27.11,
+    "base": 35.22,
+    "bull": 53.82,
+    "base_upside_pct": 28.87,
+    "bull_upside_pct": 96.92
+   },
+   "falsifier": "EPS raise was a one-time tariff refund — underlying H2 unchanged"
+  }
+ },
+ "NTRA": {
+  "business": "Cell-free DNA testing company with three franchises: women's health (Panorama prenatal screening), oncology (Signatera — a personalized, tumor-informed blood test that detects cancer recurrence months before imaging) and organ health (Prospera transplant monitoring). Signatera's 350+ peer-reviewed papers and broad Medicare coverage are the moat; it is the runaway leader of the emerging MRD category.",
+  "happening": "Q1 (May 7) was the first-ever $697m / 1-million-test quarter (+39% y/y), forcing a $120m guidance reset and a 65% gross-margin guide — and Q2 prints after the close today (Aug 6). Momentum rests on Signatera's unit engine (+55% y/y, +24k sequential) plus the imminent Japan PMDA approval, which management says could roughly double global addressable Signatera volume.",
+  "why": "Three tailwinds align: (1) Signatera is compounding with price — ASP marched from $1,250 toward a $1,275 exit target (long-term $2,000) while last year's rep-cohort additions are only now reaching productivity, making volume growth supply-side durable; (2) Japan is a step-change catalyst with a broad CRC launch to follow PMDA approval, and prior-auth reform is un-modeled ASP upside on top; (3) the margin structure is inflecting — 65% gross margin on 39% growth, with the FIND CRC screening study accelerating toward a 2027 FDA submission as the next leg. The caveat is valuation: at a premium EV/sales multiple the stock discounts flawless execution, so this is momentum-with-catalysts, not value.",
+  "risk": "Watch tonight's Q2 print (Aug 6 after close) — any Signatera deceleration below ~+20k sequential unit adds would crack the thesis. Natera is still GAAP-unprofitable, reimbursement policy is the perennial swing factor, and Guardant/Exact are attacking MRD with deep pockets amid ongoing cfDNA IP litigation. Suggested stop ≈ 2× ATR below; expect double-digit post-earnings moves and size the position for them.",
+  "thesis": {
+   "bull": [
+    "Signatera units +55% with ASP rising toward $1,275 (long-term $2,000)",
+    "Japan PMDA approval could roughly double addressable Signatera volume",
+    "Gross margin guided to 65%; $120m guidance reset after one quarter",
+    "FIND CRC study toward a 2027 FDA filing opens the screening TAM"
+   ],
+   "bear": [
+    "Premium multiple plus unprofitability means brutal drawdowns on any unit miss",
+    "Payer/CMS policy shifts can reprice the entire book of business",
+    "Guardant/Exact MRD competition and IP litigation overhang"
+   ],
+   "catalysts": [
+    "Q2 2026 earnings (tonight, Aug 6 2026)",
+    "Signatera Japan launch ramp (H2 2026)",
+    "Foresight heme/lymphoma clinical launch (2026)",
+    "FIND CRC FDA submission progress (2027)"
+   ],
+   "statement": "Q1 (May 7) was the first-ever $697m / 1-million-test quarter (+39% y/y), forcing a $120m guidance reset and a 65% gross-margin guide — and Q2 prints after the close today (Aug 6).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 193.0,
+    "base": 282.86,
+    "bull": 330.0,
+    "base_upside_pct": 3.0,
+    "bull_upside_pct": 20.17
+   },
+   "falsifier": "Premium multiple plus unprofitability means brutal drawdowns on any unit miss"
+  }
+ },
+ "HIW": {
+  "business": "Sun Belt office REIT: ~27m sq ft of trophy, amenitized buildings in the best business districts of Raleigh, Nashville, Atlanta, Tampa, Charlotte, Dallas and Richmond. The edge is flight-to-quality — prime-space vacancy runs ~640bps below commodity office — plus a laddered balance sheet that lets it develop while weaker landlords are capital-starved.",
+  "happening": "Q2 (July 29) was a blowout — FFO $0.90 vs $0.44 consensus EPS optics, with the FY26 FFO guide raised to $3.46-3.70 — built on a scarcity argument the market is starting to believe: the national office construction pipeline is the smallest since 1996 (6.4m sq ft per CBRE) while Sun Belt in-migration keeps filling prime space. GAAP rent spreads of +20.9% and occupancy guided to 86.5-88.5% signal landlord pricing power returning years before new supply can respond.",
+  "why": "Three tailwinds align: (1) scarcity plus the occupancy ramp — with near-zero new construction, every point of occupancy converts into multi-year NOI growth, and 23Springs (93% leased, stabilization pulled forward to Q2 2027) de-risks the pipeline; (2) the balance sheet is self-funding — $375m of YTD dispositions recycled, debt/EBITDA cut to 6.2x from 6.7x, $145m cash and an undrawn $750m revolver, with $100-400m of new build-to-suits promised; (3) valuation is still bombed-out office-sector pricing — a high-single-digit multiple of FFO with a dividend yield in the 6-7% area, and Fed cuts act as a direct multiplier on both the multiple and transaction comps.",
+  "risk": "Watch the dividend math — the AFFO payout ratio is over 100% and coverage depends on the 2027 occupancy ramp landing as leasing capex normalizes; a cut would break the trade even if FFO holds. Structural hybrid-work headwinds have not vanished, large tenants (federal government, Bank of America) can shrink footprints, and a rate back-up hits the multiple directly. Suggested stop ≈ 2× ATR below; treat any Q3 deterioration in dividend coverage as an exit trigger.",
+  "thesis": {
+   "bull": [
+    "Smallest office construction pipeline since 1996 vs Sun Belt in-migration",
+    "FFO guide raised; GAAP rent spreads +20.9%; occupancy ramping into 2027",
+    "23Springs 93% leased with stabilization pulled forward nine months",
+    "High-single-digit FFO multiple and ~6-7% yield with rate cuts as kicker"
+   ],
+   "bear": [
+    "AFFO payout above 100% — the dividend rests on the 2027 occupancy ramp",
+    "Hybrid work still caps structural office demand",
+    "A rate back-up re-widens cap rates and compresses the multiple"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026)",
+    "Build-to-suit announcements, $100-400m (by YE 2026)",
+    "Fed rate decisions (Sep/Dec 2026)",
+    "23Springs stabilization (Q2 2027)"
+   ],
+   "statement": "Q2 (July 29) was a blowout — FFO $0.90 vs $0.44 consensus EPS optics, with the FY26 FFO guide raised to $3.46-3.70 — built on a scarcity argument the market is starting to believe: the national office construction pipeline is the smallest since 1996 (6.4m sq ft per CBRE) while Sun Belt in-migration keeps filling prime space.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 27.09,
+    "base": 31.89,
+    "bull": 36.6,
+    "base_upside_pct": -1.62,
+    "bull_upside_pct": 12.88
+   },
+   "falsifier": "AFFO payout above 100% — the dividend rests on the 2027 occupancy ramp"
+  }
+ },
+ "HAE": {
+  "business": "Blood-and-plasma technology company: automated plasma-collection systems and software sold razor-and-blade style to plasma fractionators (proprietary disposables consumed with every donation), plus a higher-margin hospital business in surgical blood management and interventional devices — including VASCADE vascular closure, embedded in cath-lab and electrophysiology workflows.",
+  "happening": "This morning's Q1 FY27 print (Aug 6) beat — adjusted EPS $1.14 on revenue +4.8%, ~2.6% above the Street — and management raised FY27 adjusted EPS growth guidance to +5-8% (~$4.90 midpoint). A simplified two-segment structure (Apheresis / MedSurg) plus fresh clinical evidence for VASCADE MVP XL in electrophysiology (study published Aug 3) hand the market a cleaner, de-risked story to re-rate.",
+  "why": "Three tailwinds align: (1) the plasma engine is steady — fractionator collections demand plus the Persona PLUS rollout underpin Apheresis, with the big customer-loss fear now largely in the base; (2) MedSurg mix shift — VASCADE's push into large-bore EP procedures rides the structural ablation boom, the fastest-growing procedure pool in cardiology; (3) valuation is undemanding for a beat-and-raise medtech — roughly mid-teens times the ~$4.90 EPS midpoint, below the medtech growth cohort, with the new segmentation making the sum-of-parts easier for generalists to underwrite.",
+  "risk": "Watch plasma customer concentration — a handful of fractionators dominate Apheresis, and contract renegotiations (the CSL playbook) can erase years of growth in one press release. The legacy blood-center line is in structural decline, MedSurg growth leans on acquisition integration, and full call detail is still thin (transcript pending), so verify guidance nuance. Suggested stop ≈ 2× ATR below; reassess if VASCADE growth or plasma orders decelerate in Q2.",
+  "thesis": {
+   "bull": [
+    "Q1 FY27 beat with the EPS growth guide raised to +5-8% out of the gate",
+    "VASCADE MVP XL's new EP evidence rides the ablation procedure boom",
+    "Cleaner two-segment story (Apheresis/MedSurg) aids the re-rating",
+    "Mid-teens P/E — cheap vs medtech peers for accelerating EPS"
+   ],
+   "bear": [
+    "Plasma revenue concentrated among a few fractionators — renewal risk",
+    "Blood-center decline dilutes the growth mix",
+    "M&A-dependent MedSurg growth carries integration risk"
+   ],
+   "catalysts": [
+    "Q2 FY27 earnings (~Nov 2026)",
+    "Persona PLUS plasma rollout progress (FY27)",
+    "VASCADE EP adoption data at cardiology conferences (H2 2026)"
+   ],
+   "statement": "This morning's Q1 FY27 print (Aug 6) beat — adjusted EPS $1.14 on revenue +4.8%, ~2.6% above the Street — and management raised FY27 adjusted EPS growth guidance to +5-8% (~$4.90 midpoint).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 74.82,
+    "base": 97.13,
+    "bull": 140.81,
+    "base_upside_pct": 16.19,
+    "bull_upside_pct": 68.43
+   },
+   "falsifier": "Plasma revenue concentrated among a few fractionators — renewal risk"
+  }
+ },
+ "TIGO": {
+  "business": "Leading Latin American telecom operating as Tigo across nine markets — mobile, fixed broadband/cable, pay-TV and B2B — with #1 or #2 positions in most and near-dominant, cash-gushing share in Guatemala. Owning both mobile and cable networks lets it bundle converged plans rivals cannot match, and it has been rolling up Telefónica's exiting LatAm assets (Ecuador, Uruguay, Colombia).",
+  "happening": "Today's Q2 print (Aug 6) delivered Millicom's first-ever $1bn+ adjusted EBITDA quarter and a record $327m of equity free cash flow (+50%), letting management raise FY26 EFCF guidance ~22% to ~$1.1bn and stack a $1.50/share special interim dividend on top of the $3.00 ordinary. The Telefónica-asset integrations are running ahead of plan — Ecuador and Uruguay margins already 'broadly in line with the Millicom average' — validating the consolidation playbook the stock has re-rated on all year.",
+  "why": "Three tailwinds align: (1) the cash-flow machine — ~$1.1bn of guided EFCF implies a double-digit free-cash-flow yield on the equity, now actually being paid out ($4.50/share declared across ordinary plus special this year); (2) the LatAm consolidation flywheel — buying Telefónica's exits at distressed multiples and lifting them to Tigo margins — has years of runway, with the Colombia (Coltel) and Chile turnarounds next in the queue; (3) balance-sheet discipline holds even through acquisitions: leverage at 2.73x and guided below 2.5x by year-end, protecting both the dividend and further M&A capacity.",
+  "risk": "Watch FX — revenue is earned in quetzales, pesos and bolivianos while dividends are paid in dollars, so EM currency shocks flow straight through EFCF; political and regulatory risk across nine developing markets (spectrum renewals, price regulation) never sleeps, and net-profit optics are messy (net income -84% y/y against a one-off-inflated base). América Móvil price wars are the perennial margin threat. Suggested stop ≈ 2× ATR below; this is a carry-plus-execution trade — cut if EFCF guidance slips or leverage re-inflects.",
+  "thesis": {
+   "bull": [
+    "First $1bn+ EBITDA quarter; FY26 EFCF guide raised ~22% to ~$1.1bn",
+    "$4.50/share of dividends declared in 2026 — double-digit cash yield",
+    "Telefónica-asset integrations accreting ahead of plan, more targets left",
+    "Leverage heading below 2.5x by YE26 despite three acquisitions"
+   ],
+   "bear": [
+    "EM FX devaluation directly erodes USD EFCF and dividend cover",
+    "Nine-country political and regulatory risk stack",
+    "Claro/América Móvil price competition in every market"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026)",
+    "Special dividend installments, $0.75 each (Jan and Apr 2027)",
+    "Year-end 2026 leverage milestone (below 2.5x)"
+   ],
+   "statement": "Today's Q2 print (Aug 6) delivered Millicom's first-ever $1bn+ adjusted EBITDA quarter and a record $327m of equity free cash flow (+50%), letting management raise FY26 EFCF guidance ~22% to ~$1.1bn and stack a $1.50/share special interim dividend on top of the $3.00 ordinary.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 78.17,
+    "base": 100.0,
+    "bull": 116.0,
+    "base_upside_pct": -4.73,
+    "bull_upside_pct": 10.51
+   },
+   "falsifier": "EM FX devaluation directly erodes USD EFCF and dividend cover"
+  }
+ },
+ "ACHC": {
+  "business": "The largest standalone US behavioral-health operator: 277 facilities across 40 states spanning acute psychiatric hospitals, addiction and specialty clinics, the country's biggest outpatient opioid-treatment network and youth residential centers. Certificate-of-need laws cap new bed supply and ~20 health-system JVs (Henry Ford, Geisinger, Ascension Seton) hand it captive referral flow — but Medicaid/Medicare set the rates (72% of revenue).",
+  "happening": "The stock is entering Stage 2 as a deep-value cash-flow reset: Q2 (July 29) beat with $124m of free cash flow and $113m of debt paydown, FY26 EBITDA and EPS guides were nudged up, and new CEO Debbie Osteen's operational overhaul (flattened structure, faster approvals, same-facility revenue +3.2%) is stabilizing a business that printed a $1.1bn impairment-driven loss in 2025. The print-day 10% selloff on flat reported revenue was absorbed quickly — the tape is choosing the improving cash story over the growth-quality quibble.",
+  "why": "Three tailwinds align: (1) the cash-flow inflection — capex cut to $235-255m with operating cash flow guided up to $350-400m, as the 2023-26 bed-building cohort turns from cash drag into ~$200m of incremental EBITDA once startup losses peak in Q3 and roll off; (2) Osteen's reset is showing where it matters — residential treatment +12%, 300+ beds added in H1 toward 500-600 for 2026, net leverage down to ~4.1x; (3) valuation is at crisis levels — a mid-single-digit EV/EBITDA and single-digit P/E on $1.45-1.60 guided EPS price in permanent Medicaid impairment, so any policy calm or clean quarter re-rates it.",
+  "risk": "Watch the DOJ investigations (SDNY, W.D. Missouri) into admissions and billing — headline risk can gap the stock regardless of fundamentals — and the $28.6m prior-year liability true-up shows reserve risk is still live. Medicaid is ~56% of revenue: OBBBA spending cuts, eligibility redeterminations and state supplemental-payment wobbles are existential swing factors, and startup losses peak at $12-14m in Q3. Suggested stop ≈ 2× ATR below; keep size modest — this is a show-me turnaround with legal tail risk.",
+  "thesis": {
+   "bull": [
+    "FCF inflection: $124m in Q2, capex cut, OCF guided to $350-400m",
+    "~$200m incremental EBITDA as the 2023-26 bed cohort matures",
+    "Osteen reset: same-facility +3.2%, RTC +12%, leverage down to ~4.1x",
+    "Crisis valuation — mid-single-digit EV/EBITDA prices permanent impairment"
+   ],
+   "bear": [
+    "DOJ investigations and reserve true-ups keep legal risk open-ended",
+    "Medicaid (~56% of revenue) exposed to OBBBA cuts and redeterminations",
+    "Flat reported revenue — growth quality still unproven"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~late Oct 2026) — startup-loss peak ($12-14m)",
+    "500-600 bed-addition progress for 2026 (through YE 2026)",
+    "DOJ investigation developments (ongoing)",
+    "State Medicaid supplemental-payment decisions (H2 2026)"
+   ],
+   "statement": "The stock is entering Stage 2 as a deep-value cash-flow reset: Q2 (July 29) beat with $124m of free cash flow and $113m of debt paydown, FY26 EBITDA and EPS guides were nudged up, and new CEO Debbie Osteen's operational overhaul (flattened structure, faster approvals, same-facility revenue +3.2%) is stabilizing a business that printed a $1.1bn impairment-driven loss in 2025.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 27.82,
+    "base": 39.6,
+    "bull": 59.28,
+    "base_upside_pct": 22.84,
+    "bull_upside_pct": 83.87
+   },
+   "falsifier": "DOJ investigations and reserve true-ups keep legal risk open-ended"
+  }
+ },
+ "BBY": {
+  "business": "The last national US consumer-electronics big-box chain (~1,100 stores, $41.7bn revenue) — the physical showroom Apple, Samsung and HP need now that Circuit City and hhgregg are gone. Thin-margin product retail is increasingly subsidized by the high-margin attach layer: Geek Squad services, paid memberships, the Best Buy Ads retail-media arm and a third-party marketplace.",
+  "happening": "Momentum stems from a Q1 FY27 beat (May 28: comps +2%, adjusted EPS +11%) that management deliberately did not flow through to guidance — the implied Q2 deceleration is Switch 2 and Windows-10 lap math, not demand rollover, with May comps running high-single-digit. Add a well-received CEO succession (27-year veteran Jason Bonfig from Nov 1) pitching Best Buy as a 'retailer, media, advertising and technology company', plus an AI-PC refresh cycle powering the ninth straight positive computing comp, and the set-up into the late-August print is a beat against a sandbagged bar.",
+  "why": "Three tailwinds align: (1) a structural margin-mix shift — Marketplace GMV scaling toward a >=$1.2bn FY27 target and Best Buy Ads toward ~$1bn of collections are both gross-margin accretive (+20bps already), slowly de-commoditizing the P&L; (2) the computing cycle has legs — AI PCs and the Windows 10 end-of-life refresh, with inventory deliberately pre-bought ahead of memory-driven cost increases and a ~1-year RGB TV exclusive layering on; (3) valuation and carry — roughly 11-12x guided EPS ($6.30-6.60) with a ~4% dividend yield, and guidance held flat despite the Q1 beat leaves room for raises through the year.",
+  "risk": "Watch tariffs and DRAM-driven hardware cost inflation — Best Buy holds pricing power only while vendors fund it, and demand destruction from price hikes is the FY27 wildcard; comps guidance of -1% to +1% means the bull case leans heavily on the AI-PC cycle materializing. Vendor concentration (five suppliers = ~55% of purchases) and the structural Amazon/Walmart price war cap product margins. Suggested stop ≈ 2× ATR below; the Q2 print in late August is the near-term make-or-break.",
+  "thesis": {
+   "bull": [
+    "Sandbagged guide: Q2 deceleration is Switch 2 lap math, May comps ran HSD",
+    "Ads (~$1bn) and Marketplace (>=$1.2bn GMV) build a high-margin layer",
+    "AI-PC / Windows 10 refresh drives a ninth straight computing comp",
+    "11-12x EPS with a ~4% yield and guidance-raise optionality"
+   ],
+   "bear": [
+    "Tariffs plus memory-cost inflation risk demand destruction from price hikes",
+    "TVs and appliances still shrinking; enterprise comps hovering near flat",
+    "Vendor direct-to-consumer disintermediation (Apple, Samsung)"
+   ],
+   "catalysts": [
+    "Q2 FY27 earnings (~late Aug 2026)",
+    "CEO transition to Jason Bonfig (Nov 1, 2026)",
+    "Holiday trading updates (Nov-Dec 2026)"
+   ],
+   "statement": "Momentum stems from a Q1 FY27 beat (May 28: comps +2%, adjusted EPS +11%) that management deliberately did not flow through to guidance — the implied Q2 deceleration is Switch 2 and Windows-10 lap math, not demand rollover, with May comps running high-single-digit.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 95.33,
+    "base": 142.39,
+    "bull": 207.5,
+    "base_upside_pct": 68.51,
+    "bull_upside_pct": 145.56
+   },
+   "falsifier": "Tariffs plus memory-cost inflation risk demand destruction from price hikes"
+  }
+ },
+ "TOST": {
+  "business": "The cloud operating system for restaurants: POS hardware sold near cost, SaaS modules (online ordering, payroll, kitchen display, AI) and embedded payments across ~180,000 locations — about 16% of US restaurant payment volume. Ripping Toast out means retraining staff and rewiring money flows, and its data density feeds AI products (Toast IQ) that no single-vertical rival can match.",
+  "happening": "Q2 (Aug 4) was a beat-and-raise with a narrative upgrade: record 9,500 net location adds (1,000 above the prior high watermark), recurring gross profit +28%, adjusted EBITDA of $221m at a 37% margin smashing the guide, and a second straight FY26 guidance hike. Management simultaneously repositioned Toast as an agentic-AI company — Toast IQ Grow is the fastest product in company history to $10m ARR — giving the stock a fundamentals beat and an AI story in the same print.",
+  "why": "Three tailwinds align: (1) the land engine keeps accelerating into new TAMs — enterprise (Best Western endorsement, Kung Fu Tea), international (TGI Fridays UK) and food retail/gas stations, with new-market ARR on track to nearly double to $200m in 2026; (2) AI is a genuine ARPU lever, not vapor — IQ Grow case studies show 70% marketing-cost cuts and $100k+ of attributed sales, with voice, payroll, inventory and bookkeeping agents queued behind it en route to a $10bn ARR ambition; (3) profitability is inflecting fast — recurring gross profit guided to 23-25% growth, EBITDA guide raised again, 40%+ long-term margin target reiterated. The valuation angle: a rich growth multiple, so estimate momentum, not cheapness, is doing the lifting.",
+  "risk": "Watch the 2027 DRAM/memory hardware-cost headwind — the CFO confirmed it hits the 2027 P&L harder than 2026 via inventory accounting, making the FY27 guide (Feb 2027) the key risk event. GPV per location has been soft (~-1% y/y in Q1), so a consumer dining pullback flows straight through the fintech take rate, and Toast Capital credit losses would spike in a restaurant-closure wave. Suggested stop ≈ 2× ATR below; tighten into the Q3 print if the stock runs further ahead of estimates.",
+  "thesis": {
+   "bull": [
+    "Record 9,500 net adds; ~180k locations (+22% y/y) with enterprise opening up",
+    "Toast IQ Grow fastest-ever product to $10m ARR — agentic-AI ARPU lever",
+    "Second straight FY26 raise; Q2 adjusted EBITDA margin hit 37%",
+    "New TAMs (retail, hotels, gas stations) doubling new-market ARR to $200m"
+   ],
+   "bear": [
+    "2027 memory-cost headwind is locked in — the FY27 guide is the landmine",
+    "GPV per location soft; take-rate revenue hostage to dining demand",
+    "Clover/Square price pressure in SMB; enterprise deals carry thinner take rates"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings (~Nov 2026)",
+    "FY27 guidance with quantified memory-cost impact (Feb 2027)",
+    "Holiday-season dining GPV data (Q4 2026)"
+   ],
+   "statement": "Q2 (Aug 4) was a beat-and-raise with a narrative upgrade: record 9,500 net location adds (1,000 above the prior high watermark), recurring gross profit +28%, adjusted EBITDA of $221m at a 37% margin smashing the guide, and a second straight FY26 guidance hike.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 24.61,
+    "base": 32.59,
+    "bull": 108.57,
+    "base_upside_pct": -6.92,
+    "bull_upside_pct": 210.1
+   },
+   "falsifier": "2027 memory-cost headwind is locked in — the FY27 guide is the landmine"
   }
  }
 }

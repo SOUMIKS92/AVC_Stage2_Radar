@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-06-28",
+    "as_of": "2026-08-06",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -403,89 +403,96 @@
   "MU": {
     "ticker": "MU",
     "company": "Micron Technology, Inc.",
-    "as_of": "2026-05-24",
+    "as_of": "2026-08-06",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "One of three global DRAM IDMs (with Samsung, SK Hynix) and a top-5 NAND maker. Fabricates DRAM (commodity DDR4/5, LPDDR for mobile/server, HBM for AI) and NAND in Taiwan, Japan, Singapore, US (Idaho, NY-planned). FY2025 (ended Aug 2025) revenue a record $28.6B (+62% YoY). HBM3E shipping in volume to Nvidia (Blackwell) and AMD (MI350), with HBM4 ramping calendar 2026.",
+    "company_overview": "Micron is one of only three global memory-chip makers, manufacturing its own DRAM (~70% of revenue) and NAND flash (~30%) as an integrated device manufacturer. It sells into data center (its biggest and fastest-growing market, driven by AI demand for high-bandwidth memory (HBM), high-capacity server DIMMs and data-center SSDs), smartphones, client PCs, and embedded automotive/industrial. FY2025 (ended Aug 2025) revenue was a record $28.6 billion, up 62%, powered by the AI-driven HBM and data-center ramp; data center reached ~56% of total revenue.",
     "revenue_mix": [
       {
-        "segment": "DRAM (DDR5, LPDDR, HBM)",
-        "share_pct": 76,
+        "segment": "Compute & Networking (data-center DRAM + HBM) approx",
+        "share_pct": 51,
         "trend": "growing"
       },
       {
-        "segment": "NAND (client + datacenter SSDs, mobile)",
-        "share_pct": 23,
+        "segment": "Storage (NAND SSDs incl. data-center SSD) approx",
+        "share_pct": 20,
         "trend": "growing"
       },
       {
-        "segment": "Other (NOR, technology licensing)",
-        "share_pct": 1,
+        "segment": "Mobile (phone DRAM/NAND) approx",
+        "share_pct": 16,
+        "trend": "declining"
+      },
+      {
+        "segment": "Embedded (automotive, industrial, consumer) approx",
+        "share_pct": 13,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Asia ex-China (Taiwan large)",
-        "share_pct": 45
+        "region": "United States approx",
+        "share_pct": 33
       },
       {
-        "region": "Americas",
-        "share_pct": 28
+        "region": "Taiwan approx",
+        "share_pct": 22
       },
       {
-        "region": "China",
-        "share_pct": 15
+        "region": "Asia Pacific ex-China/Taiwan approx",
+        "share_pct": 25
       },
       {
-        "region": "EMEA + Other",
+        "region": "China & Hong Kong approx",
         "share_pct": 12
+      },
+      {
+        "region": "Europe / other approx",
+        "share_pct": 8
       }
     ],
     "end_markets": [
-      "AI data center (HBM for GPU/ASIC, server DDR5, LP server DRAM, datacenter SSD)",
-      "Smartphones (LPDDR5X to Apple, Samsung)",
-      "Automotive (DDR4/LPDDR for ADAS/IVI)",
-      "Industrial & embedded",
-      "PC & gaming"
+      "AI data center / cloud (HBM, server DRAM, data-center SSD)",
+      "Smartphones (mobile DRAM/NAND)",
+      "Client PCs",
+      "Automotive (ADAS, infotainment)",
+      "Industrial / IoT / consumer"
     ],
     "top_competitors": [
-      "Samsung Electronics (DRAM #1, NAND #1)",
-      "SK Hynix (DRAM #2, NAND #2 incl Solidigm)",
-      "Kioxia (NAND)",
-      "Sandisk (NAND)",
-      "ChangXin/CXMT (China DRAM rising threat)",
-      "YMTC (China NAND)"
+      "Samsung Electronics",
+      "SK Hynix (incl. Solidigm)",
+      "Kioxia",
+      "Western Digital / SanDisk (NAND)",
+      "CXMT (emerging Chinese DRAM)"
     ],
     "moat": {
-      "type": "Process technology leadership in HBM + capital scale",
-      "narrative": "Micron HBM3E shipped first-to-market at 8-high and 12-high with the lowest power per bit, winning Nvidia Blackwell qualification ahead of Samsung. Only 3 firms globally can build HBM at scale; replicating a leading-edge DRAM fab costs ~$20-25B and 4 years. Sole-source for low-power server DRAM in volume (LP-DDR5X for ARM/Nvidia GB200)."
+      "type": "DRAM oligopoly + process-tech leadership + HBM design-wins qualified into Nvidia",
+      "narrative": "Memory is a cyclical commodity, but DRAM is a structural three-player oligopoly (Samsung, SK Hynix, Micron) protected by enormous capital intensity and leading-edge process technology (Micron's 1-gamma node). The real recent edge is HBM: Micron's HBM3E is qualified into Nvidia's Blackwell B200/GB200 platforms, and such multi-quarter qualifications plus priced, capacity-constrained supply create genuine customer lock-in. It is not a pricing-power moat in commodity DRAM, but oligopoly discipline and HBM technology leadership are meaningful advantages."
     },
     "key_customers": [
-      "Nvidia (HBM3E for B200/B300, LPDDR for GB200 Grace)",
-      "AMD (HBM3E for MI350/MI355X)",
-      "Apple (LPDDR for iPhone)",
-      "Samsung mobile, hyperscalers (Microsoft, Meta, Google for server DDR5/SSD)"
+      "Nvidia (HBM for Blackwell) and AMD; cloud hyperscalers (data-center DRAM/SSD); smartphone OEMs (Apple, Samsung, Android); automotive tier-1s. HBM customer base expanded to six clients"
     ],
     "key_risks": [
-      "China DRAM (CXMT) ramping at trailing nodes — risk of DDR4/LPDDR4 oversupply pressuring commodity segment; US export-control reciprocity also restricts Micron's China shipments after May 2023 cybersecurity review",
-      "HBM4 yields and HBM4E timing — any slip vs Samsung (catching up) or SK Hynix would forfeit AI memory premium pricing in 2026-27",
-      "Memory cycle peaks historically lasted 4-6 quarters; consensus assumes through-cycle margins persist into FY2027 — single supply glut quarter could reset earnings by 30-50%"
+      "Memory pricing cyclicality (severe boom-bust swings in DRAM/NAND)",
+      "HBM competition — SK Hynix leads and Samsung is ramping",
+      "Very high capex and fab-investment risk",
+      "China export controls and geopolitics; Chinese memory entrants (CXMT) in commodity DRAM",
+      "Inventory corrections in mobile and consumer end-markets"
     ],
     "sources": [
       {
-        "label": "Micron Q4 FY2025 transcript",
+        "label": "Micron fiscal Q4 2025 earnings prepared remarks",
         "url": "https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63"
       },
       {
-        "label": "Micron Q3 FY2025 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312525000019/a2025q3ex991-pressrelease.htm"
+        "label": "Micron Q4 FY2025 earnings analysis (Futurum)",
+        "url": "https://futurumgroup.com/insights/micron-q4-fy-2025-earnings-top-estimates-on-dram-and-hbm-strength/"
       },
       {
-        "label": "TrendForce HBM market share",
-        "url": "https://www.trendforce.com/news/2025/06/26/news-micron-scales-up-hbm-to-four-major-gpuasic-clients-targets-24-market-share-by-year-end/"
+        "label": "Wikipedia Micron Technology",
+        "url": "https://en.wikipedia.org/wiki/Micron_Technology"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-08-06"
   },
   "AMD": {
     "ticker": "AMD",
@@ -7759,5 +7766,2589 @@
       }
     ],
     "last_refreshed": "2026-06-28"
+  },
+  "EZJ.L": {
+    "ticker": "EZJ.L",
+    "company": "easyJet plc",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "easyJet is a UK-based low-cost airline flying a short-haul, point-to-point network across Europe, North Africa and the Middle East from primary airports such as London Gatwick, Milan, Geneva, Amsterdam and Paris. It earns money three ways: base fares, high-margin ancillary sales (allocated seating, hold luggage, Speedy Boarding, onboard sales), and its fast-growing package-holidays arm, easyJet holidays, which bundles flights with hotels.",
+    "revenue_mix": [
+      {
+        "segment": "Airline passenger/ticket revenue",
+        "share_pct": 60,
+        "trend": "stable"
+      },
+      {
+        "segment": "Airline ancillary revenue (seats, bags, boarding)",
+        "share_pct": 26,
+        "trend": "growing"
+      },
+      {
+        "segment": "easyJet holidays (packages)",
+        "share_pct": 14,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "UK",
+        "share_pct": 30
+      },
+      {
+        "region": "Southern Europe (Italy, Portugal, Spain) approx",
+        "share_pct": 30
+      },
+      {
+        "region": "Northern/Western Europe (France, Switzerland, Germany, Netherlands) approx",
+        "share_pct": 40
+      }
+    ],
+    "end_markets": [
+      "Leisure travel (majority of demand)",
+      "Visiting friends & relatives (VFR)",
+      "Business travel (minority)",
+      "Package holidays (easyJet holidays)"
+    ],
+    "top_competitors": [
+      "Ryanair",
+      "Wizz Air",
+      "IAG (Vueling / British Airways)",
+      "Jet2 (holidays)",
+      "TUI (holidays)",
+      "Lufthansa Group (Eurowings)",
+      "Air France-KLM (Transavia)"
+    ],
+    "moat": {
+      "type": "Primary-airport slot portfolio + low-cost base + brand",
+      "narrative": "Unlike Ryanair's secondary-airport model, easyJet holds scarce, hard-to-replicate take-off/landing slots at congested primary hubs (Gatwick, Milan Linate/Malpensa, Geneva, Amsterdam, Paris Orly/CDG) that appeal to both leisure and business flyers and cannot be added at the margin. This slot scarcity plus a structurally low cost per seat and a top-tier UK/European consumer brand is the durable advantage; easyJet holidays adds a fast-scaling, higher-margin attach on the same flight inventory."
+    },
+    "key_customers": [
+      "Direct-to-consumer leisure travellers; no single customer concentration (B2C model, ~90m+ passengers/year)"
+    ],
+    "key_risks": [
+      "Jet fuel price and USD/GBP FX exposure (fuel priced in dollars)",
+      "European air-traffic-control strikes (recurrent French ATC action) driving cancellations and compensation costs",
+      "Gatwick and other airport charge inflation squeezing unit economics",
+      "Capacity flooding from Ryanair and Wizz Air pressuring fares",
+      "UK/European consumer discretionary spending weakness (cost-of-living)",
+      "Airbus A320neo/A321neo delivery delays constraining fleet growth"
+    ],
+    "sources": [
+      {
+        "label": "easyJet FY2025 results RNS (12 months to 30 Sep 2025)",
+        "url": "https://s203.q4cdn.com/522538739/files/doc_financials/2025/q4/FY25-RNS.pdf"
+      },
+      {
+        "label": "Hargreaves Lansdown easyJet FY results research",
+        "url": "https://www.hl.co.uk/shares/share-research/easyjet-fy-results-soft-profit-outlook"
+      },
+      {
+        "label": "Wikipedia easyJet",
+        "url": "https://en.wikipedia.org/wiki/EasyJet"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "MAN": {
+    "ticker": "MAN",
+    "company": "ManpowerGroup Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "ManpowerGroup is a global workforce-solutions company that places temporary and permanent workers with employers and runs outsourced hiring programs. It operates through three brands: Manpower (light-industrial and commercial staffing), Experis (IT and professional staffing), and Talent Solutions (recruitment process outsourcing, TAPFIN managed service programs for contingent labor, and Right Management career/talent consulting). Revenue is dominated by temporary staffing billings, with France its single largest country market.",
+    "revenue_mix": [
+      {
+        "segment": "Manpower (commercial / light-industrial staffing)",
+        "share_pct": 59,
+        "trend": "declining"
+      },
+      {
+        "segment": "Experis (IT & professional staffing)",
+        "share_pct": 22,
+        "trend": "declining"
+      },
+      {
+        "segment": "Talent Solutions (RPO, TAPFIN MSP, Right Management)",
+        "share_pct": 19,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Southern Europe (France ~25% of group, Italy, Iberia)",
+        "share_pct": 47
+      },
+      {
+        "region": "Americas",
+        "share_pct": 24
+      },
+      {
+        "region": "Northern Europe",
+        "share_pct": 18
+      },
+      {
+        "region": "Asia Pacific & Middle East (APME)",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "Manufacturing & automotive",
+      "Logistics & warehousing",
+      "Administrative / clerical",
+      "IT & engineering (Experis)",
+      "Finance & accounting",
+      "Public sector"
+    ],
+    "top_competitors": [
+      "Randstad",
+      "Adecco Group",
+      "Allegis Group",
+      "Robert Half",
+      "Hays",
+      "Kelly Services",
+      "Recruit Holdings (Indeed)"
+    ],
+    "moat": {
+      "type": "Scale, France market leadership, and MSP/RPO client embedding — structurally thin",
+      "narrative": "Staffing is a low-margin, cyclical, largely commoditized business with little structural moat; ManpowerGroup's edge is scale across 70+ countries, entrenched leadership in France (its largest market, where regulation and long client relationships favor incumbents), and stickier outsourcing contracts (TAPFIN MSP, RPO) that embed it in clients' contingent-workforce operations. The secular threat from AI screening and direct-sourcing platforms (Indeed, LinkedIn) keeps the moat weak."
+    },
+    "key_customers": [
+      "Large enterprise and government clients across manufacturing, logistics and IT; diversified with no single dominant customer"
+    ],
+    "key_risks": [
+      "European labor-market weakness — French and German temporary-staffing demand contracting",
+      "Deep cyclicality tied to manufacturing/industrial hiring",
+      "Secular disruption from AI recruiting and direct-sourcing platforms",
+      "Structurally thin operating margins amplify small revenue swings",
+      "French regulatory and payroll-tax changes affecting temp economics"
+    ],
+    "sources": [
+      {
+        "label": "ManpowerGroup FY2025 Q4 results (Form 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/871763/000095017025096439/man-ex99_1.htm"
+      },
+      {
+        "label": "ManpowerGroup 2025 Annual Report (Form ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/871763/000119312526119963/2025_ars.pdf"
+      },
+      {
+        "label": "Wikipedia ManpowerGroup",
+        "url": "https://en.wikipedia.org/wiki/ManpowerGroup"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "QLYS": {
+    "ticker": "QLYS",
+    "company": "Qualys, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Qualys is a cloud-native cybersecurity company that sells subscription software for finding, prioritizing and fixing security risk across IT, cloud and endpoint environments. Its Enterprise TruRisk Platform, anchored by the VMDR (Vulnerability Management, Detection and Response) product, uses a single lightweight agent to scan assets and layers on modules for asset management, cloud security, patching, web-app scanning and compliance. Effectively all revenue is recurring subscription, sold to enterprise CISOs and regulated industries.",
+    "revenue_mix": [
+      {
+        "segment": "VMDR & core vulnerability management (approx)",
+        "share_pct": 60,
+        "trend": "stable"
+      },
+      {
+        "segment": "Policy compliance & regulatory (approx)",
+        "share_pct": 15,
+        "trend": "stable"
+      },
+      {
+        "segment": "Cloud & web-app security (TotalCloud, WAS) (approx)",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Emerging modules (CSAM, ETM, Patch Management) (approx)",
+        "share_pct": 10,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 56
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 22
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 15
+      },
+      {
+        "region": "Other / Latin America (approx)",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Enterprise IT security (CISO buyers)",
+      "Financial services",
+      "Government & public sector (FedRAMP)",
+      "Healthcare",
+      "Retail / PCI-DSS regulated"
+    ],
+    "top_competitors": [
+      "Tenable",
+      "Rapid7",
+      "CrowdStrike (Falcon Exposure Management)",
+      "Wiz (cloud security)",
+      "Microsoft Defender",
+      "Palo Alto Networks (Cortex)"
+    ],
+    "moat": {
+      "type": "Cloud-native single-agent architecture + platform stickiness + compliance certifications",
+      "narrative": "Qualys built one of the first fully cloud-delivered vulnerability platforms; its single-agent, single-console architecture and a very large historical scanning dataset create switching costs, and land-and-expand adoption lets customers grow spend roughly 3x by adding CSAM, patching and Enterprise TruRisk Management on the same platform. FedRAMP authorization and embedded compliance workflows (PCI, policy) further lock in regulated and government accounts, supporting low churn and industry-leading ~47% adjusted EBITDA margins."
+    },
+    "key_customers": [
+      "Roughly 10,000+ subscription customers, including a majority of the Forbes Global 100; large enterprises and government agencies with no single-customer concentration"
+    ],
+    "key_risks": [
+      "CrowdStrike and Microsoft bundling exposure management, sometimes free, into broader security suites",
+      "Growth decelerating to ~10% versus 20%+ historically as the core VM market matures",
+      "Platform-consolidation trend favoring end-to-end vendors (CrowdStrike, Palo Alto)",
+      "Enterprise IT-security budget tightening in a soft macro",
+      "Rising reliance on channel/partner-driven revenue (now ~49% of the mix)"
+    ],
+    "sources": [
+      {
+        "label": "Qualys Q4 & FY2025 financial results",
+        "url": "https://www.qualys.com/company/newsroom/news-releases/usa/2026-02-05-qualys-announces-fourth-quarter-and-full-year-2025-financial-results"
+      },
+      {
+        "label": "Qualys FY2025 10-K (annual report)",
+        "url": "https://www.stocktitan.net/sec-filings/QLYS/10-k-qualys-inc-files-annual-report-ccf33cfb14b6.html"
+      },
+      {
+        "label": "Qualys Q4 2025 investor presentation",
+        "url": "https://investor.qualys.com/static-files/b9b6d209-a160-4c6d-b339-006d4a45afc2"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "SN": {
+    "ticker": "SN",
+    "company": "SharkNinja, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "SharkNinja designs and sells household appliances under two brands: Shark (floorcare, beauty, home environment) and Ninja (kitchen and outdoor cooking). It runs a rapid-innovation model, launching a steady stream of differentiated products (Ninja Luxe Cafe espresso, Ninja Crispi, SLUSHi frozen drinks, FlexBreeze fans, CryoGlow beauty masks) that win share from incumbents through feature-led design at accessible price points. FY2025 net sales were $6.4 billion, up 15.7%.",
+    "revenue_mix": [
+      {
+        "segment": "Cleaning Appliances (vacuums, carpet extraction)",
+        "share_pct": 34,
+        "trend": "growing"
+      },
+      {
+        "segment": "Cooking & Beverage Appliances",
+        "share_pct": 28,
+        "trend": "growing"
+      },
+      {
+        "segment": "Food Preparation Appliances (blenders, SLUSHi)",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Beauty & Home Environment (fans, air purifiers, beauty)",
+        "share_pct": 13,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Domestic (United States & Canada)",
+        "share_pct": 62
+      },
+      {
+        "region": "International (rest of world) approx",
+        "share_pct": 38
+      }
+    ],
+    "end_markets": [
+      "Home floorcare / cleaning",
+      "Kitchen & small cooking appliances",
+      "Outdoor cooking & beverages",
+      "Home environment (fans, air purifiers)",
+      "Personal beauty & haircare devices"
+    ],
+    "top_competitors": [
+      "Dyson",
+      "iRobot (Roomba)",
+      "De'Longhi",
+      "Breville / Sage",
+      "Vitamix",
+      "Instant Brands",
+      "Newell Brands (Crock-Pot, Mr. Coffee)",
+      "Keurig Dr Pepper"
+    ],
+    "moat": {
+      "type": "Rapid product-development engine + dual brand equity + retail shelf presence",
+      "narrative": "SharkNinja's advantage is speed and cadence of consumer-led innovation: a large in-house engineering organization that ships category-redefining products (SLUSHi, Ninja Crispi, CryoGlow) faster than incumbents, backed by two trusted mass-market brands (Shark, Ninja) and strong big-box and Amazon shelf placement. The moat is execution and brand momentum rather than patents; it must keep out-innovating to defend it, but the launch machine and international runway make share gains durable."
+    },
+    "key_customers": [
+      "Big-box and e-commerce retail channels (Walmart, Target, Amazon, Costco) plus direct-to-consumer; sells to end consumers, retailer concentration typical of the category"
+    ],
+    "key_risks": [
+      "Reliance on a continuous hit-product pipeline — any innovation slowdown compresses growth",
+      "China-centric manufacturing base exposed to US tariffs and supply-chain shifts",
+      "Intense competition from Dyson, De'Longhi and low-cost entrants",
+      "Retailer inventory and promotional dynamics (Walmart/Amazon) pressuring margins",
+      "Consumer discretionary demand sensitivity in a weaker macro"
+    ],
+    "sources": [
+      {
+        "label": "SharkNinja Q4 & FY2025 results",
+        "url": "https://newsroom.sharkninja.com/sharkninja-reports-fourth-quarter-and-full-year-2025-results/"
+      },
+      {
+        "label": "SharkNinja FY2025 Annual Report (Form ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001957132/000195713226000025/sn-2025arsfinal.pdf"
+      },
+      {
+        "label": "Wikipedia SharkNinja",
+        "url": "https://en.wikipedia.org/wiki/SharkNinja"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "PBF": {
+    "ticker": "PBF",
+    "company": "PBF Energy Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "PBF Energy is one of the largest independent US petroleum refiners, running six refineries (Delaware City DE, Paulsboro NJ, Toledo OH, Chalmette LA, Torrance CA and Martinez CA) with about 1.0 million barrels/day of capacity and a high weighted-average Nelson Complexity of ~12.8. It buys crude oil, refines it into gasoline, diesel, jet fuel and other products, and sells them wholesale; it also owns supporting logistics assets and a 50% stake in St. Bernard Renewables, a renewable-diesel joint venture with Eni.",
+    "revenue_mix": [
+      {
+        "segment": "Refining (gasoline, distillates, jet fuel, feedstocks)",
+        "share_pct": 98,
+        "trend": "stable"
+      },
+      {
+        "segment": "Logistics (terminals, pipelines, storage)",
+        "share_pct": 1,
+        "trend": "stable"
+      },
+      {
+        "segment": "Renewable diesel (St. Bernard Renewables 50% JV, equity-accounted)",
+        "share_pct": 1,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "US only — East Coast refining (Delaware City, Paulsboro), throughput share",
+        "share_pct": 34
+      },
+      {
+        "region": "US West Coast (Torrance, Martinez)",
+        "share_pct": 32
+      },
+      {
+        "region": "US Gulf Coast (Chalmette)",
+        "share_pct": 19
+      },
+      {
+        "region": "US Mid-Continent (Toledo)",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Transportation fuels (gasoline, diesel, jet fuel)",
+      "Asphalt & residual products",
+      "Petrochemical feedstocks",
+      "Renewable diesel (low-carbon fuel standard markets, esp. California)"
+    ],
+    "top_competitors": [
+      "Valero Energy",
+      "Marathon Petroleum",
+      "Phillips 66",
+      "HF Sinclair",
+      "Par Pacific",
+      "CVR Energy"
+    ],
+    "moat": {
+      "type": "None structural — commodity price-taker; edge is refinery complexity and coastal location",
+      "narrative": "Refining is a commodity business where PBF is a price-taker on crack spreads with no pricing power. Its only durable advantages are asset-based: high-complexity refineries that can process cheaper heavy/sour crudes for better margins, and hard-to-replicate coastal positioning on the supply-constrained US East and West Coasts (notably California CARB-spec gasoline) where refining capacity is shrinking. The 'moat' is execution, complexity capture and location, not a defensible franchise."
+    },
+    "key_customers": [
+      "Wholesale and commercial buyers of refined products via spot and term contracts (marketers, distributors, airlines, other refiners); no single dominant customer"
+    ],
+    "key_risks": [
+      "Refining margin / crack-spread volatility drives boom-bust earnings",
+      "Martinez refinery rebuild after the February 2025 fire — full planned rates only expected around March 2026",
+      "California regulatory pressure (LCFS, cap-and-trade, refinery-specific rules) raising West Coast costs",
+      "Renewable-fuel (RIN/RVO) compliance costs and policy uncertainty",
+      "Crude oil price and light-heavy differential swings; heavy turnaround/capex burden"
+    ],
+    "sources": [
+      {
+        "label": "PBF Energy Martinez update & 2026 guidance",
+        "url": "https://www.prnewswire.com/news-releases/pbf-energy-provides-update-on-martinez-refinery-operations-and-issues-2026-annual-guidance-information-302651926.html"
+      },
+      {
+        "label": "PBF Energy FY2025 10-K",
+        "url": "https://www.stocktitan.net/sec-filings/PBF/10-k-pbf-energy-inc-files-annual-report-3910af04e94c.html"
+      },
+      {
+        "label": "Wikipedia PBF Energy",
+        "url": "https://en.wikipedia.org/wiki/PBF_Energy"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "RAND.AS": {
+    "ticker": "RAND.AS",
+    "company": "Randstad N.V.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Randstad is the world's largest staffing and workforce-solutions company, placing temporary and permanent workers and running outsourced hiring programs across roughly 39 markets. Following a 2024-25 reorganization it sells through four specializations: Operational (light industrial, logistics, skilled trades, commercial), Professional (accounting, office, management), Digital (Randstad Digital: cloud, data, engineering) and Enterprise (large MSP/RPO accounts). FY2025 revenue was about EUR 23.1 billion; the Netherlands, France, Germany and the US are its key markets.",
+    "revenue_mix": [
+      {
+        "segment": "Operational (light industrial, logistics, trades) approx",
+        "share_pct": 66,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional (accounting, office, management) approx",
+        "share_pct": 20,
+        "trend": "declining"
+      },
+      {
+        "segment": "Digital (Randstad Digital) approx",
+        "share_pct": 9,
+        "trend": "declining"
+      },
+      {
+        "segment": "Enterprise (large MSP/RPO accounts) approx",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Europe (France, Netherlands, Germany, Iberia, Italy, Belgium) approx",
+        "share_pct": 58
+      },
+      {
+        "region": "North America approx",
+        "share_pct": 18
+      },
+      {
+        "region": "Rest of world (Japan, Asia-Pacific, Latin America) approx",
+        "share_pct": 24
+      }
+    ],
+    "end_markets": [
+      "Light industrial & logistics",
+      "Engineering & skilled trades",
+      "Office & administrative",
+      "Accounting & finance",
+      "IT / digital (cloud, data, engineering)",
+      "Healthcare & life sciences",
+      "E-commerce"
+    ],
+    "top_competitors": [
+      "Adecco Group",
+      "ManpowerGroup",
+      "Hays",
+      "Robert Half",
+      "Recruit Holdings (Indeed)",
+      "Allegis Group",
+      "SThree"
+    ],
+    "moat": {
+      "type": "Scale and local density in home markets — structurally thin, cyclical",
+      "narrative": "Like all staffing, Randstad's business is cyclical and largely commoditized with weak structural moat. Its advantages are being the global scale leader, deep local branch density and brand strength in home markets (Netherlands, France, Belgium), technology investment (Randstad Digital, AI matching) and embedded MSP/RPO relationships that raise switching costs for large enterprise clients. These are real but modest defenses; AI matching and direct-sourcing platforms (Indeed, owned by rival Recruit) threaten the model."
+    },
+    "key_customers": [
+      "Enterprise and SME clients across manufacturing, logistics, finance, IT and healthcare; large managed-service (MSP/RPO) accounts; diversified with no single dominant customer"
+    ],
+    "key_risks": [
+      "European labor-market softness — 2025 revenue fell ~7% in the Netherlands, ~10% in Germany, ~6% in France",
+      "Deep cyclicality tied to industrial and permanent-hiring demand",
+      "AI-matching and direct-sourcing platform disruption (Indeed/LinkedIn)",
+      "Structurally thin margins amplifying revenue declines",
+      "FX translation across many currencies"
+    ],
+    "sources": [
+      {
+        "label": "Randstad FY2025 results press release",
+        "url": "https://www.randstad.com/press/2026/fy-2025-perform-transform/"
+      },
+      {
+        "label": "Randstad Q4 2025 investor slides",
+        "url": "https://www.investing.com/news/company-news/randstad-q4-2025-slides-mixed-regional-performance-amid-digital-transformation-push-93CH-4498924"
+      },
+      {
+        "label": "Wikipedia Randstad NV",
+        "url": "https://en.wikipedia.org/wiki/Randstad_NV"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "EDEN.PA": {
+    "ticker": "EDEN.PA",
+    "company": "Edenred SE",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Edenred is a global B2B payments and prepaid-voucher company. Employers pay it to issue tax-advantaged meal and food vouchers, employee-benefit cards, corporate mobility/fleet fuel cards and B2B corporate-payment solutions; employees and drivers redeem these at a network of affiliated merchants. Edenred makes money on commissions charged to clients, fees from merchants, and float income earned on prepaid balances held between issuance and redemption. FY2025 operating revenue was EUR 2,732 million, up 6.2% like-for-like.",
+    "revenue_mix": [
+      {
+        "segment": "Benefits & Engagement (meal/food vouchers, employee benefits)",
+        "share_pct": 64,
+        "trend": "stable"
+      },
+      {
+        "segment": "Mobility (fuel cards, fleet & EV solutions)",
+        "share_pct": 26,
+        "trend": "growing"
+      },
+      {
+        "segment": "Corporate Payment & other (B2B payments, Beyond)",
+        "share_pct": 10,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Europe (France ~12% of group, Italy, Iberia, Germany)",
+        "share_pct": 60
+      },
+      {
+        "region": "Latin America (Brazil the largest single country)",
+        "share_pct": 30
+      },
+      {
+        "region": "Rest of world (North America, Asia, MEA)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "Employee benefits (meal & food vouchers)",
+      "Corporate mobility & fleet fuel",
+      "Corporate B2B payments",
+      "Employee incentive & reward programs"
+    ],
+    "top_competitors": [
+      "Pluxee (Sodexo spin-off)",
+      "Up Group (Cheque Dejeuner)",
+      "Swile",
+      "Corpay / FLEETCOR (mobility)",
+      "WEX (mobility & payments)"
+    ],
+    "moat": {
+      "type": "Two-sided network + tax-advantaged product status + float income",
+      "narrative": "Edenred sits at the center of a hard-to-replicate three-sided network (employers, employees, ~2 million affiliated merchants) with high switching costs, and its core meal-voucher product enjoys favorable tax/regulatory treatment in key markets (France, Brazil, Italy) that entrenches demand. As essentially a global duopoly with Pluxee in meal vouchers, it also earns interest 'float' on prepaid balances and is deepening lock-in via the shift from paper vouchers to cards and apps — a genuinely strong moat."
+    },
+    "key_customers": [
+      "~1 million corporate clients and roughly 60 million users across ~45 countries; highly diversified with no single dominant customer"
+    ],
+    "key_risks": [
+      "Regulatory caps on merchant fees — Italy imposed a fee cap on meal vouchers from Sept 1, 2025, directly hitting revenue",
+      "Brazil regulatory and profit-sharing (PLR) rule changes (Brazil ~largest single market)",
+      "Interest-rate sensitivity of float income — rate cuts reduce float revenue",
+      "FX exposure to the Brazilian real",
+      "Competition from Pluxee and fast-growing digital challenger Swile"
+    ],
+    "sources": [
+      {
+        "label": "Edenred FY2025 results press release (24 Feb 2026)",
+        "url": "https://www.edenred.com/system/files/documents/2026-02-24-edenred-fy-2025-pr.pdf"
+      },
+      {
+        "label": "Edenred FY2025 results presentation",
+        "url": "https://www.edenred.com/system/files/documents/2026-02-24-fy-2025-results-presentation-vdef.pdf"
+      },
+      {
+        "label": "Wikipedia Edenred",
+        "url": "https://en.wikipedia.org/wiki/Edenred"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "TECH": {
+    "ticker": "TECH",
+    "company": "Bio-Techne Corporation",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Bio-Techne supplies high-quality reagents, proteins, antibodies, immunoassays and bioanalytical instruments to life-science researchers, biopharma and diagnostics labs. Its Protein Sciences segment sells recombinant proteins, antibodies and ELISA kits plus Simple Western/Simple Plex instruments (ProteinSimple); its Diagnostics & Spatial Biology segment includes patent-protected RNAscope in-situ hybridization (ACD), spatial imaging (Lunaphore) and OEM diagnostic reagents. It is a razor-and-blade consumables business with high recurring revenue; FY2025 (ended June 2025) revenue was ~$1.2 billion, up 5% organically.",
+    "revenue_mix": [
+      {
+        "segment": "Protein Sciences (proteins, antibodies, assays, ProteinSimple instruments)",
+        "share_pct": 72,
+        "trend": "growing"
+      },
+      {
+        "segment": "Diagnostics & Spatial Biology (RNAscope/ACD, Lunaphore, OEM diagnostics)",
+        "share_pct": 28,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America approx",
+        "share_pct": 55
+      },
+      {
+        "region": "EMEA approx",
+        "share_pct": 25
+      },
+      {
+        "region": "Asia Pacific (China a key market) approx",
+        "share_pct": 17
+      },
+      {
+        "region": "Rest of world approx",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "Academic & government research (NIH-funded labs)",
+      "Biopharma / pharma R&D",
+      "Cell & gene therapy manufacturing",
+      "Clinical diagnostics",
+      "Spatial biology research"
+    ],
+    "top_competitors": [
+      "Thermo Fisher Scientific",
+      "Danaher (Cytiva, Abcam, Beckman)",
+      "Merck KGaA (MilliporeSigma)",
+      "Bruker",
+      "10x Genomics (spatial)",
+      "Standard BioTools"
+    ],
+    "moat": {
+      "type": "Citation lock-in on validated reagents + patented RNAscope + razor-and-blade consumables",
+      "narrative": "Bio-Techne's reagents (proteins, antibodies) are cited in tens of thousands of peer-reviewed papers, and researchers deliberately reuse the exact validated reagents to keep results reproducible — a powerful citation lock-in that is very hard to displace. Its RNAscope in-situ hybridization technology (ACD) is patent-protected and the standard in spatial gene detection, and consumables tied to an installed base of instruments generate sticky recurring revenue. This is a genuinely strong, quality- and IP-based moat."
+    },
+    "key_customers": [
+      "Academic and government research labs, biopharma companies, diagnostic labs and cell/gene-therapy developers; diversified with no single large customer"
+    ],
+    "key_risks": [
+      "US academic/NIH research-funding pressure and government budget cuts hitting reagent demand",
+      "China life-science demand weakness and stimulus timing",
+      "Biopharma R&D budget cyclicality",
+      "Integration and returns from acquisitions (Lunaphore, Wilson Wolf)",
+      "FX translation on ~45% non-US revenue"
+    ],
+    "sources": [
+      {
+        "label": "Bio-Techne Q4 FY2025 results (Form 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/842023/000155837025006594/tech-20250507xex99d1.htm"
+      },
+      {
+        "label": "Bio-Techne Q4 FY2025 results (IR)",
+        "url": "https://investors.bio-techne.com/news/detail/500/bio-techne-releases-fourth-quarter-fiscal-2025-results"
+      },
+      {
+        "label": "Wikipedia Bio-Techne",
+        "url": "https://en.wikipedia.org/wiki/Bio-Techne"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "ZBRA": {
+    "ticker": "ZBRA",
+    "company": "Zebra Technologies Corporation",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Zebra makes the hardware and software frontline workers use to track and move goods: rugged mobile computers, barcode scanners, RFID readers and tags, industrial/label printers and supplies, plus machine vision and workflow software. It digitizes warehouses, stores, factories and hospitals through combined devices-plus-software 'asset intelligence' solutions. FY2025 revenue was $5.396 billion, up 8.3%. In 2025 Zebra reorganized from its legacy EVM and AIT segments into Connected Frontline (CF) and Asset Visibility & Automation (AVA).",
+    "revenue_mix": [
+      {
+        "segment": "Connected Frontline / CF (mobile computing, data capture/scanners, RFID)",
+        "share_pct": 58,
+        "trend": "growing"
+      },
+      {
+        "segment": "Asset Visibility & Automation / AVA (printing, supplies, machine vision, robotics)",
+        "share_pct": 42,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America approx",
+        "share_pct": 48
+      },
+      {
+        "region": "EMEA approx",
+        "share_pct": 30
+      },
+      {
+        "region": "Asia Pacific approx",
+        "share_pct": 14
+      },
+      {
+        "region": "Latin America approx",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Retail & e-commerce",
+      "Transportation & logistics / warehousing",
+      "Manufacturing",
+      "Healthcare",
+      "Government"
+    ],
+    "top_competitors": [
+      "Honeywell (Productivity Solutions)",
+      "Datalogic",
+      "SATO",
+      "Toshiba Tec",
+      "Cognex (machine vision)",
+      "Impinj (RFID chips)",
+      "SOTI / Ivanti (device software)"
+    ],
+    "moat": {
+      "type": "Large rugged-device installed base + enterprise switching costs + channel network",
+      "narrative": "Zebra is the share leader in enterprise barcode scanning and rugged mobile computing, with a vast installed base whose Android enterprise platform, device-management software and multi-year refresh cycles create high switching costs. A deep global channel/VAR network, expanding RFID and machine-vision capabilities (Matrox, Photoneo, Fetch robotics) and recurring supplies/services revenue reinforce its position as the de facto enterprise standard — a solid, sticky moat, though cyclical."
+    },
+    "key_customers": [
+      "Large retailers, third-party logistics and parcel carriers, manufacturers and hospitals; sold largely through channel partners/VARs; diversified with no single dominant customer"
+    ],
+    "key_risks": [
+      "Cyclical enterprise capex — warehouse/retail device-refresh cycles caused a demand trough in 2023-24",
+      "Tariff exposure on China-based manufacturing / US import tariffs",
+      "Competition from Honeywell and lower-cost Android device makers",
+      "Macro-driven delays in large enterprise deployments",
+      "Integration of acquisitions (Elo Touch, Photoneo/Matrox machine vision)"
+    ],
+    "sources": [
+      {
+        "label": "Zebra Q4 & FY2025 results",
+        "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/zebra-technologies-announces-fourth-quarter-and-full-year-2025-results.html"
+      },
+      {
+        "label": "Zebra Q4 FY2025 results (Form 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/877212/000087721225000025/zbraex991123124.htm"
+      },
+      {
+        "label": "Wikipedia Zebra Technologies",
+        "url": "https://en.wikipedia.org/wiki/Zebra_Technologies"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "NWL": {
+    "ticker": "NWL",
+    "company": "Newell Brands Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Consumer products conglomerate selling everyday household brands - Rubbermaid (food storage/commercial), Sharpie and Paper Mate (writing), Graco and NUK (baby gear), Yankee Candle, Coleman (camping), Crock-Pot, Oster and Mr. Coffee (small appliances) - primarily through mass retailers like Walmart, Amazon and Target. Makes money on high-volume, low-ticket replenishment goods; FY2025 net sales were $7.2bn (down 5.0%), with CEO Chris Peterson running a 'fewer, bigger brands' turnaround focused on margin recovery over top-line growth.",
+    "revenue_mix": [
+      {
+        "segment": "Home & Commercial Solutions (Rubbermaid, Yankee Candle, appliances)",
+        "share_pct": 54,
+        "trend": "declining"
+      },
+      {
+        "segment": "Learning & Development (Writing: Sharpie/Paper Mate; Baby: Graco/NUK)",
+        "share_pct": 36,
+        "trend": "stable"
+      },
+      {
+        "segment": "Outdoor & Recreation (Coleman, Marmot, Contigo)",
+        "share_pct": 10,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 70
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 12
+      },
+      {
+        "region": "Latin America (approx)",
+        "share_pct": 10
+      },
+      {
+        "region": "Asia Pacific & other (approx)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Mass-retail consumer staples (kitchen, food storage, home fragrance)",
+      "Back-to-school / office writing instruments",
+      "Baby gear (car seats, strollers, feeding)",
+      "Camping & outdoor recreation",
+      "Commercial/institutional cleaning and waste (Rubbermaid Commercial)"
+    ],
+    "top_competitors": [
+      "Helen of Troy (OXO, Hydro Flask)",
+      "SharkNinja and Hamilton Beach (small appliances)",
+      "BIC and Pilot (writing)",
+      "Dorel and Artsana/Chicco (baby)",
+      "YETI and Igloo (coolers/outdoor)",
+      "Bath & Body Works (home fragrance)",
+      "Private label at Walmart/Target/Amazon"
+    ],
+    "moat": {
+      "type": "Shelf-space scale + brand recognition (weak/eroding)",
+      "narrative": "Sharpie, Graco and Rubbermaid hold #1 US shelf positions and Newell's mass-retail distribution scale is hard to replicate, but most categories are commodity-like with rising private-label and Chinese-import substitution - the moat is execution and retailer relationships, not structural pricing power."
+    },
+    "key_customers": [
+      "Walmart (largest customer, low-to-mid teens % of sales)",
+      "Amazon",
+      "Target",
+      "Costco",
+      "Lowe's / Home Depot (commercial)"
+    ],
+    "key_risks": [
+      "US tariffs on Chinese imports - ~$180m incremental cash tariff cost flagged for 2025 given heavy China sourcing; mitigation requires supply-chain moves and pricing that risks volume",
+      "~$4.9bn debt load with sub-investment-grade ratings leaves little room for error while core sales fell 4.6% in 2025",
+      "Structural volume decline in Home Fragrance (Yankee Candle) and Baby (falling US birth rates), plus persistent low-income consumer weakness at core mass-retail price points"
+    ],
+    "sources": [
+      {
+        "label": "Newell Brands Q4/FY2025 results press release",
+        "url": "https://ir.newellbrands.com/news-releases/news-release-details/newell-brands-announces-fourth-quarter-and-full-year-2025"
+      },
+      {
+        "label": "Newell Brands FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/814453/000081445326000008/nwl-20251231.htm"
+      },
+      {
+        "label": "StockTitan summary of NWL FY2025 10-K risks",
+        "url": "https://www.stocktitan.net/sec-filings/NWL/10-k-newell-brands-inc-files-annual-report-825978ffe74c.html"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "AVTR": {
+    "ticker": "AVTR",
+    "company": "Avantor, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Supplies the picks-and-shovels of life-science labs and biologics manufacturing: lab chemicals and consumables (J.T.Baker, VWR brands), single-use bioprocessing assemblies, excipients, and medical-grade silicones (NuSil), plus one of the world's largest lab distribution networks inherited from the 2017 VWR acquisition. FY2025 revenue was $6.55bn - Laboratory Solutions $4.40bn and Bioscience Production $2.15bn - with new CEO Emmanuel Ligner (ex-Cytiva) resegmenting the business for 2026 after two years of organic declines.",
+    "revenue_mix": [
+      {
+        "segment": "Laboratory Solutions (distribution, lab chemicals & consumables)",
+        "share_pct": 67,
+        "trend": "declining"
+      },
+      {
+        "segment": "Bioscience Production (single-use systems, process ingredients, NuSil silicones)",
+        "share_pct": 33,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 60
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 33
+      },
+      {
+        "region": "AMEA (approx)",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Biopharma (largest end market, ~half of revenue: bioprocessing consumables and cGMP materials)",
+      "Healthcare and medical devices (NuSil implant-grade silicones)",
+      "Education & government research labs",
+      "Advanced technologies & applied materials (semiconductors, aerospace)"
+    ],
+    "top_competitors": [
+      "Thermo Fisher (Fisher Scientific channel - main distribution rival)",
+      "Merck KGaA / MilliporeSigma",
+      "Danaher (Cytiva, Pall)",
+      "Sartorius (single-use systems)"
+    ],
+    "moat": {
+      "type": "Spec-in switching costs + distribution scale",
+      "narrative": "Proprietary materials (J.T.Baker chemicals, NuSil silicones, single-use fluid-handling components) are written into customers' regulatory drug and device filings, making substitution a costly change-control event; the VWR network adds one of only two global full-line lab distribution platforms. The distribution half, however, is lower-margin and losing share to Fisher Scientific."
+    },
+    "key_customers": [
+      "Most top global biopharma companies via long-term supply agreements",
+      "Medical device makers using NuSil implant silicones",
+      "Universities and government labs (NIH-funded)",
+      "Semiconductor and aerospace materials customers"
+    ],
+    "key_risks": [
+      "Lab Solutions organic sales fell 3.2% in 2025 amid US academic/government funding cuts (NIH) and share loss to Thermo Fisher's Fisher Scientific in distribution",
+      "Bioprocessing recovery slower than peers (Bioscience Production organic -1.8% in 2025); Danaher and Sartorius are better-positioned in single-use",
+      "Execution risk from simultaneous CEO transition (Ligner from Aug 2025), 2026 resegmentation, and cost-out program while leverage remains ~3x net debt/EBITDA"
+    ],
+    "sources": [
+      {
+        "label": "Avantor Q4/FY2025 results (Feb 11, 2026)",
+        "url": "https://news.avantorsciences.com/2026-02-11-Avantor-R-Reports-Fourth-Quarter-and-Full-Year-2025-Results"
+      },
+      {
+        "label": "Avantor FY2025 annual report PDF",
+        "url": "https://s202.q4cdn.com/498171784/files/doc_financials/2025/ar/AVTR_AR_2026-WO5_ARS-FINAL-002.pdf"
+      },
+      {
+        "label": "Avantor CEO announcement - Emmanuel Ligner",
+        "url": "https://news.avantorsciences.com/2025-07-21-Avantor-Announces-Emmanuel-Ligner-as-Next-President-and-CEO"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "W": {
+    "ticker": "W",
+    "company": "Wayfair Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Pure-play online retailer of furniture and home goods (Wayfair.com plus AllModern, Birch Lane, Joss & Main, Perigold, and B2B arm Wayfair Professional). It carries little inventory: ~20,000 third-party suppliers list on its platform and ship bulky items through Wayfair's CastleGate warehouses and last-mile delivery network, with Wayfair taking a retail margin. FY2025 net revenue was $12.45bn (+5.1%) with the first full-year operating profit ($17m) since 2020, on 21.3m active customers spending $586/yr each.",
+    "revenue_mix": [
+      {
+        "segment": "US segment",
+        "share_pct": 88,
+        "trend": "growing"
+      },
+      {
+        "segment": "International (Canada, UK/Ireland; exited Germany 2025)",
+        "share_pct": 12,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 88
+      },
+      {
+        "region": "Canada, UK & Ireland",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Residential furniture & decor (mass-to-premium; Perigold at luxury end)",
+      "Housewares and home improvement goods",
+      "B2B via Wayfair Professional (contractors, hospitality, offices)",
+      "Nascent physical retail (large-format Wayfair store in Wilmette IL, more planned)"
+    ],
+    "top_competitors": [
+      "Amazon (largest online home player)",
+      "IKEA",
+      "Walmart and Target (home categories)",
+      "HomeGoods/TJX and At Home (off-price)",
+      "Williams-Sonoma (premium)",
+      "Temu/Shein (low-end share pressure)"
+    ],
+    "moat": {
+      "type": "Vertical logistics scale in bulky home delivery",
+      "narrative": "CastleGate forwarding, middle-mile and big-parcel home-delivery network is purpose-built for damage-prone bulky freight that generalist parcel logistics handle poorly, and 20k suppliers' catalog data (imagery, 3D models) is costly to replicate. But customer switching costs are near zero and the moat has not yet produced through-cycle profitability - it is scale economics in a niche, not lock-in."
+    },
+    "key_customers": [
+      "21.3m active retail customers (no concentration)",
+      "Wayfair Professional B2B accounts (interior designers, contractors, hotels)"
+    ],
+    "key_risks": [
+      "US housing freeze: existing-home sales near multi-decade lows suppress furniture demand - the category has been in recession since 2022 and active customers still fell 0.5% in 2025",
+      "Tariffs on Chinese and Asian imports (bulk of marketplace goods) squeeze supplier economics and force price increases against Temu/Amazon price competition",
+      "Balance sheet: ~$3bn of convertible/senior debt against only $17m operating income leaves thin margin for error if revenue growth stalls"
+    ],
+    "sources": [
+      {
+        "label": "Wayfair Q4/FY2025 results press release",
+        "url": "https://investor.wayfair.com/news/news-details/2026/Wayfair-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Reports-Further-Share-Capture-and-Strong-Profitability/default.aspx"
+      },
+      {
+        "label": "Wayfair FY2025 results PDF",
+        "url": "https://s24.q4cdn.com/589059658/files/doc_news/Wayfair-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Reports-Further-Share-Capture-and-Strong-Profitability-2026.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "DSFIR.AS": {
+    "ticker": "DSFIR.AS",
+    "company": "DSM-Firmenich AG",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Swiss-Dutch ingredients house formed by the 2023 merger of DSM (nutrition/health ingredients, vitamins) and Firmenich (the world's largest privately-held perfume & taste house). It creates fragrances for fine perfume and consumer brands, flavors and texturants for food & beverage, and nutritional ingredients (vitamins, lipids, probiotics) for supplements, early-life nutrition and pharma. FY2025 sales were ~EUR 12.2bn at a 19.7% adjusted EBITDA margin; in Feb 2026 it agreed to sell Animal Nutrition & Health (~EUR 3.5bn sales) to CVC at EUR 2.2bn EV, completing its pivot to a consumer-facing ingredients pure-play.",
+    "revenue_mix": [
+      {
+        "segment": "Perfumery & Beauty (approx)",
+        "share_pct": 28,
+        "trend": "growing"
+      },
+      {
+        "segment": "Taste, Texture & Health (approx)",
+        "share_pct": 25,
+        "trend": "growing"
+      },
+      {
+        "segment": "Health, Nutrition & Care (approx)",
+        "share_pct": 21,
+        "trend": "growing"
+      },
+      {
+        "segment": "Animal Nutrition & Health (being divested to CVC, 20% stake retained) (approx)",
+        "share_pct": 26,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Europe (approx)",
+        "share_pct": 32
+      },
+      {
+        "region": "North America (approx)",
+        "share_pct": 24
+      },
+      {
+        "region": "Asia-Pacific (approx)",
+        "share_pct": 28
+      },
+      {
+        "region": "Latin America & rest of world (approx)",
+        "share_pct": 16
+      }
+    ],
+    "end_markets": [
+      "Fine fragrance and consumer perfumery (detergents, personal care)",
+      "Beauty ingredients (Parsol UV filters, actives)",
+      "Food & beverage flavors, sweetness and texture systems",
+      "Dietary supplements and early-life nutrition (vitamins, HMOs, lipids)",
+      "Pharma excipients; animal feed until ANH divestment closes"
+    ],
+    "top_competitors": [
+      "Givaudan (fragrance #1 rival)",
+      "IFF",
+      "Symrise",
+      "Kerry Group (taste)",
+      "BASF (vitamins, UV filters)"
+    ],
+    "moat": {
+      "type": "Oligopoly + proprietary molecule libraries and perfumer talent",
+      "narrative": "Top-4 houses control the bulk of the global flavors & fragrance market; briefs are won via decades-built captive perfumer teams, patented capture molecules and co-creation relationships with Unilever/P&G/L'Oreal-class customers, with formulas locked into launched products for years. Backward integration into aroma ingredients and vitamins adds cost control competitors lack."
+    },
+    "key_customers": [
+      "Global FMCG and luxury houses: Unilever, P&G, L'Oreal, Estee Lauder-class perfumery briefs",
+      "Nestle, Danone, Coca-Cola/PepsiCo-class food & beverage accounts",
+      "Supplement and infant-formula manufacturers",
+      "No single customer concentration disclosed"
+    ],
+    "key_risks": [
+      "ANH separation execution: EUR 1.9bn pre-tax impairment booked in 2025, stranded-cost removal and earn-out (up to EUR 0.5bn) still to be delivered",
+      "FX drag - ~7% currency headwind to 2025 EBITDA from weak USD vs EUR/CHF cost base",
+      "Residual vitamin price cyclicality in Health, Nutrition & Care and cautious North American consumer demand that slowed all three units in H2 2025",
+      "Givaudan/IFF/Symrise competition on large briefs while merger revenue synergies (~EUR 100m realized in 2025) must keep ramping"
+    ],
+    "sources": [
+      {
+        "label": "dsm-firmenich FY2025 results press release",
+        "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/2026/dsm-firmenich-reports-full-year-2025-results.html"
+      },
+      {
+        "label": "dsm-firmenich Integrated Annual Report 2025 - segment information",
+        "url": "https://annualreport.dsm-firmenich.com/2025/financial-statements/consolidated-financial-statements/notes/segment-information.html"
+      },
+      {
+        "label": "ANH divestment to CVC (EUR 2.2bn EV)",
+        "url": "https://www.foodingredientsfirst.com/news/dsm-firmenich-divests-animal-nutrition-cvc.html"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "CRL": {
+    "ticker": "CRL",
+    "company": "Charles River Laboratories International, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "The world's largest contract provider of preclinical drug-development services and lab animals. It breeds and sells purpose-bred research models (mice, rats, non-human primates) and runs outsourced discovery and regulated safety-assessment (toxicology) studies for pharma and biotech, plus manufacturing-support testing (endotoxin/Endosafe, sterility, cell & gene therapy). FY2025 revenue was ~$4.0bn - DSA $2.40bn, RMS $846m, Manufacturing $766m - with roughly 80% of the top 20 pharma companies as clients.",
+    "revenue_mix": [
+      {
+        "segment": "Discovery & Safety Assessment (DSA - toxicology, discovery services)",
+        "share_pct": 60,
+        "trend": "declining"
+      },
+      {
+        "segment": "Research Models & Services (RMS - lab animals, GEMS)",
+        "share_pct": 21,
+        "trend": "stable"
+      },
+      {
+        "segment": "Manufacturing Solutions (Endosafe endotoxin testing, biologics/CGT QC)",
+        "share_pct": 19,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 63
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 27
+      },
+      {
+        "region": "Asia Pacific & other (approx)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "Large-cap pharma (outsourced preclinical toxicology and discovery)",
+      "Biotech (early-stage drug developers, funding-sensitive)",
+      "Cell & gene therapy manufacturers (QC/lot-release testing)",
+      "Academic and government research (research models)",
+      "Medical device and agrochemical safety testing"
+    ],
+    "top_competitors": [
+      "Inotiv and Labcorp Early Development (preclinical CRO)",
+      "Envigo (research models, now part of Inotiv)",
+      "WuXi AppTec and WuXi Biologics (China CRO/CDMO)",
+      "Lonza and Catalent (in manufacturing testing/CGT)",
+      "Merck/MilliporeSigma (endotoxin testing)"
+    ],
+    "moat": {
+      "type": "Regulatory data trust + scarce NHP supply + switching costs",
+      "narrative": "Safety-assessment data must be GLP-compliant and defensible to the FDA, so sponsors stick with an accredited provider across a drug's multi-year program rather than re-validate a new lab. Charles River also controls one of the largest ethically-sourced non-human-primate supply chains - a genuine bottleneck for toxicology - and its Endosafe cartridge system is embedded in customers' QC workflows as a razor-and-blade franchise."
+    },
+    "key_customers": [
+      "~80% of the top 20 global pharma companies",
+      "Large biotech and mid-cap drug developers",
+      "Cell & gene therapy sponsors using QC testing",
+      "Academic/government labs (research models)"
+    ],
+    "key_risks": [
+      "Biotech funding downturn and big-pharma R&D budget cuts drove DSA organic revenue down 2.6% in 2025; demand is highly cyclical with drug-development spending",
+      "NHP (non-human primate) supply disruptions, US import scrutiny (Cambodia sourcing) and DOJ investigation history create legal/ESG and margin risk - lower NHP revenue hit margins in early 2025",
+      "Structural shift toward NAMs (non-animal / in-silico testing methods) and FDA signals to reduce animal testing pressure the long-run RMS and toxicology franchises"
+    ],
+    "sources": [
+      {
+        "label": "Charles River Q4/FY2025 results & 2026 guidance",
+        "url": "https://ir.criver.com/news-releases/news-release-details/charles-river-laboratories-announces-fourth-quarter-and-full-14"
+      },
+      {
+        "label": "Charles River FY2025 earnings release (SEC 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000020/crl4q25earningsrelease.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "KLR.L": {
+    "ticker": "KLR.L",
+    "company": "Keller Group plc",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "The world's largest geotechnical specialist contractor - it prepares and stabilises the ground beneath construction projects using ground improvement, piling, grouting and earth-retention techniques so buildings, bridges, data centres, ports and industrial plants can be built on difficult soils. Revenue is project-based across ~40 countries. FY2025 was a record year with revenue of GBP 3.09bn (+5.9%) and underlying operating profit of GBP 218m (7.1% margin), and Keller reached its first net cash position in 25 years.",
+    "revenue_mix": [
+      {
+        "segment": "North America (Keller, Suncoast, Bencor, Moretrench)",
+        "share_pct": 59,
+        "trend": "growing"
+      },
+      {
+        "segment": "Europe & Middle East (EME)",
+        "share_pct": 28,
+        "trend": "growing"
+      },
+      {
+        "segment": "Asia-Pacific (APAC)",
+        "share_pct": 13,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 59
+      },
+      {
+        "region": "Europe & Middle East",
+        "share_pct": 28
+      },
+      {
+        "region": "Asia-Pacific",
+        "share_pct": 13
+      }
+    ],
+    "end_markets": [
+      "Data centres and industrial/advanced-manufacturing (fast-growing driver)",
+      "Infrastructure (ports, bridges, transport, energy)",
+      "Commercial and residential construction foundations",
+      "US residential slab post-tension (Suncoast product line)",
+      "Power, LNG and renewables civil works"
+    ],
+    "top_competitors": [
+      "Bauer AG (Germany)",
+      "Trevi Group (Italy)",
+      "Menard / Soletanche Freyssinet (VINCI)",
+      "Balfour Beatty ground engineering",
+      "Numerous regional/local specialist contractors (fragmented market)"
+    ],
+    "moat": {
+      "type": "Scale, fleet and technical know-how in a fragmented trade",
+      "narrative": "Ground engineering is highly local and fragmented; Keller's advantage is the industry's largest specialist rig fleet, proprietary techniques and the balance-sheet strength to bond and self-perform mega-projects (data centres, LNG) that small regional players cannot. There is little customer lock-in - competitiveness is bid discipline, execution and geographic density rather than recurring revenue."
+    },
+    "key_customers": [
+      "Hyperscale data-centre developers and their general contractors",
+      "Tier-1 construction and civil-engineering firms (main contractors)",
+      "US homebuilders (via Suncoast post-tension products)",
+      "Government infrastructure and energy project owners"
+    ],
+    "key_risks": [
+      "Suncoast pricing adjustments cut North America operating profit GBP 25.8m in 2025 amid a softer US residential market - commodity steel/PT-cable exposure",
+      "Cyclical, project-driven demand tied to construction capex; a downturn in US non-residential or data-centre build-out would hit the highest-margin division",
+      "Thin fixed-price contracting margins (~7%) leave limited buffer for cost inflation, weather or project execution slippage on large jobs"
+    ],
+    "sources": [
+      {
+        "label": "Keller Group FY2025 preliminary results",
+        "url": "https://www.keller.com/news/preliminary-results-year-ended-31-december-2025"
+      },
+      {
+        "label": "Keller Group 2025 FY results presentation",
+        "url": "https://investors.keller.com/~/media/Files/K/Keller-IR/presentations/2026pres/2025-fy-results-presentation.pdf"
+      },
+      {
+        "label": "Construction News coverage of KLR FY2025",
+        "url": "https://www.constructionnews.co.uk/financial/north-america-drives-growth-in-kellers-bottom-line-05-03-2025/"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "UNI.MI": {
+    "ticker": "UNI.MI",
+    "company": "Unipol Assicurazioni S.p.A.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Italy's leading non-life insurer (especially motor and health) and a major life insurer, following the 2024 merger that absorbed listed subsidiary UnipolSai into the holding. It sells through the largest agency network in Italy plus a bancassurance channel via its ~20% stake in bank BPER. FY2025 total premiums rose 11.1% to EUR 17.4bn (EUR 9.6bn non-life, EUR 7.8bn life), net profit rose ~40% to EUR 1.2bn, the non-life combined ratio was 91.0% and the solvency ratio 218%.",
+    "revenue_mix": [
+      {
+        "segment": "Non-Life insurance (motor, health via UniSalute, property & casualty)",
+        "share_pct": 55,
+        "trend": "growing"
+      },
+      {
+        "segment": "Life insurance (savings, protection, pensions)",
+        "share_pct": 45,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Italy (overwhelmingly domestic)",
+        "share_pct": 98
+      },
+      {
+        "region": "Other (Ireland/telematics, minor international)",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Retail motor insurance (market leader, ~EUR 4.5bn premiums, telematics-led)",
+      "Health insurance (UniSalute, #1 in Italy, ~EUR 1.2bn premiums)",
+      "Non-motor P&C for households and SMEs",
+      "Life savings & protection (agency and bancassurance)",
+      "Vehicle long-term rental / mobility (UnipolRental) and assistance services"
+    ],
+    "top_competitors": [
+      "Generali (Italian market leader overall)",
+      "Allianz Italia",
+      "AXA Italia",
+      "Poste Vita (life)",
+      "Reale Mutua and Cattolica/Generali"
+    ],
+    "moat": {
+      "type": "Distribution scale + telematics data + bancassurance access",
+      "narrative": "Unipol runs Italy's largest tied-agent network and the country's biggest motor-telematics book (millions of connected 'black box' policies), giving a proprietary pricing/claims data advantage that supports a market-beating ~91% combined ratio. Its ~20% BPER stake secures multi-thousand-branch bancassurance distribution rivals must pay to access. Moat is real but geographically concentrated in Italy."
+    },
+    "key_customers": [
+      "Millions of Italian retail motor and household policyholders",
+      "Corporate and SME health/employee-benefit schemes (UniSalute)",
+      "BPER and partner-bank customers (bancassurance life & P&C)",
+      "Highly diversified - no customer concentration"
+    ],
+    "key_risks": [
+      "Concentration in a single mature market (Italy) ties results to Italian GDP, motor frequency/severity and BTP sovereign-spread moves on the investment portfolio",
+      "Motor pricing cyclicality and claims inflation (repair costs, bodily injury) could erode the strong combined ratio if premium hardening reverses",
+      "Bancassurance strategy depends on the BPER relationship and BPER's own M&A (e.g. Banca Popolare di Sondrio exchange offer), adding financial-holding and regulatory complexity"
+    ],
+    "sources": [
+      {
+        "label": "Unipol Assicurazioni 2025 draft financial statements",
+        "url": "https://www.unipol.com/sites/default/files/documents/2026-03/pre_unipol_risultati-2025_2026_03_27_en.pdf"
+      },
+      {
+        "label": "Unipol Group Fact Sheet March 2026",
+        "url": "https://www.unipol.com/sites/default/files/documents/2026-03/unipol_fact-sheet_march-2026_en_def.pdf"
+      },
+      {
+        "label": "Unipol 2025 results coverage (MarketScreener)",
+        "url": "https://www.marketscreener.com/news/unipol-2025-results-and-dividend-surpass-expectations-group-on-track-to-exceed-business-plan-targe-ce7e5dddd18bf42c"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "RNG": {
+    "ticker": "RNG",
+    "company": "RingCentral, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "A cloud communications provider selling business phone, messaging, video and contact-centre software on a per-seat subscription (SaaS) basis. Its flagship RingEX (formerly MVP) replaces on-premise PBX systems; it also sells RingCX (AI contact centre) and RingSense (conversation-intelligence AI). FY2025 revenue was ~$2.5bn (+5%) with ARR of ~$2.63bn, free cash flow of $530m, and new AI-led products crossing $100m ARR. RingCentral is the #1 UCaaS vendor worldwide by revenue (~19% share).",
+    "revenue_mix": [
+      {
+        "segment": "Subscriptions (RingEX, RingCX, RingSense - recurring SaaS)",
+        "share_pct": 95,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other (phone hardware, professional services)",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 85
+      },
+      {
+        "region": "International (UK, EMEA, APAC, Canada) (approx)",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Mid-market and enterprise business telephony (UCaaS replacement of legacy PBX)",
+      "Contact centre / customer experience (RingCX, plus reseller CCaaS)",
+      "SMB cloud phone",
+      "Verticals: healthcare, financial services, retail, professional services",
+      "Channel/carrier distribution (via partners)"
+    ],
+    "top_competitors": [
+      "Microsoft Teams Phone (bundled with M365 - biggest threat)",
+      "Zoom Phone",
+      "8x8",
+      "Cisco Webex Calling",
+      "Dialpad and Nextiva (SMB/mid-market)"
+    ],
+    "moat": {
+      "type": "Carrier-grade reliability, channel partnerships and switching costs",
+      "narrative": "RingCentral's 99.999% uptime, global PSTN interconnects and deep telephony feature set are hard to match, and it locks in distribution through exclusive deals - Avaya Cloud Office is Avaya's exclusive UCaaS offer to its tens-of-millions on-prem base, and NICE resells RingEX alongside CXone. Switching a company's phone system is disruptive. But Microsoft Teams' bundling economics steadily compress standalone UCaaS pricing power."
+    },
+    "key_customers": [
+      "AT&T (via strategic/carrier partnership)",
+      "Toyota",
+      "HubSpot",
+      "400,000+ business customers worldwide",
+      "Avaya installed-base customers migrating to Avaya Cloud Office"
+    ],
+    "key_risks": [
+      "Microsoft Teams Phone bundling undercuts standalone UCaaS pricing and caps seat growth - the dominant structural threat to the category",
+      "Slowing growth (revenue +5% in 2025) in a maturing UCaaS market means the story now rests on AI up-sell (RingCX/RingSense/AIR) actually scaling",
+      "Elevated leverage from convertible debt taken on during the high-growth era must be serviced as growth normalises; heavy US revenue concentration"
+    ],
+    "sources": [
+      {
+        "label": "RingCentral Q4/FY2025 results",
+        "url": "https://ir.ringcentral.com/news/press-release-details/2026/RingCentral-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "Synergy Research - RingCentral #1 in worldwide UCaaS",
+        "url": "https://www.ringcentral.com/us/en/blog/synergy-research-reports-ringcentral-1-in-worldwide-ucaas-growing-2x-faster-than-market/"
+      },
+      {
+        "label": "Avaya & RingCentral expanded partnership",
+        "url": "https://www.ringcentral.com/whyringcentral/company/pressreleases/avaya-and-ringcentral-expand-strategic-partnership-with-ai-powered-communications-and-collaboration-experiences.html"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "SGRO.L": {
+    "ticker": "SGRO.L",
+    "company": "SEGRO plc",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "A UK-listed REIT that owns, develops and manages industrial and logistics real estate - big-box warehouses, urban 'last-mile' logistics near cities, and increasingly data centres - across the UK and Continental Europe. It earns rental income from long leases and creates value by developing land it holds. At 31 Dec 2025 the portfolio was valued at GBP 19.0bn (GBP 22.0bn assets under management), it served ~1,400 customers across 8 countries at 94.9% occupancy, and signed a record GBP 99m of new headline rent in the year.",
+    "revenue_mix": [
+      {
+        "segment": "Urban / last-mile logistics warehouses",
+        "share_pct": 55,
+        "trend": "growing"
+      },
+      {
+        "segment": "Big Box logistics (large regional distribution)",
+        "share_pct": 35,
+        "trend": "stable"
+      },
+      {
+        "segment": "Data centres (0.5GW operational, 2.5GW+ powered land bank)",
+        "share_pct": 8,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other uses",
+        "share_pct": 2,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United Kingdom",
+        "share_pct": 62
+      },
+      {
+        "region": "Germany",
+        "share_pct": 13
+      },
+      {
+        "region": "France",
+        "share_pct": 11
+      },
+      {
+        "region": "Italy, Poland & other Continental Europe",
+        "share_pct": 14
+      }
+    ],
+    "end_markets": [
+      "E-commerce and retail distribution / fulfilment",
+      "Third-party logistics and parcel carriers",
+      "Data centre operators (hyperscale and colocation)",
+      "Urban last-mile delivery (grocery, courier)",
+      "Manufacturing and light-industrial occupiers"
+    ],
+    "top_competitors": [
+      "Prologis (global logistics REIT leader)",
+      "Tritax Big Box REIT",
+      "Panattoni and GLP (developers)",
+      "Blackstone / Mileway (urban logistics)",
+      "VGP and CTP (Continental European logistics)"
+    ],
+    "moat": {
+      "type": "Irreplaceable urban land bank + power-secured data-centre sites",
+      "narrative": "SEGRO owns scarce, planning-constrained land inside and around major European cities (Slough Trading Estate, Paris, London) that competitors cannot readily replicate for last-mile logistics, giving pricing power on rent reversion. Its 2.5GW+ of grid-connected powered land is a genuine bottleneck asset as data-centre demand outstrips available power - a structural, land-and-power moat rather than a commodity landlord."
+    },
+    "key_customers": [
+      "Amazon (incl. an 86,400 sqm pre-let at SEGRO Park Dortmund)",
+      "Deutsche Post DHL",
+      "Ocado",
+      "Royal Mail and FedEx",
+      "CEVA and Netflix"
+    ],
+    "key_risks": [
+      "Interest-rate / bond-yield sensitivity: property valuations and NAV move inversely to long rates; a re-rating higher pressures the GBP 19bn book value",
+      "Development and lease-up risk on the large data-centre and speculative logistics pipeline if occupier demand or power delivery slips",
+      "Tenant concentration in e-commerce/logistics leaves rent exposed to a slowdown in online retail and 3PL capacity; supply of new logistics space could soften rental growth"
+    ],
+    "sources": [
+      {
+        "label": "SEGRO results for the year ended 31 December 2025 (press release)",
+        "url": "https://www.segro.com/media/xm5nnedv/fy25-press-release-full-version-final.pdf"
+      },
+      {
+        "label": "SEGRO 2025 Full Year Property Analysis Report",
+        "url": "https://www.segro.com/media/d2dodzbo/property-analysis-report-2025-fy-final.pdf"
+      },
+      {
+        "label": "SEGRO Amazon Dortmund pre-let announcement",
+        "url": "https://www.segro.com/media/news/2026/20326-segro-signs-pre-lease-agreement-with-amazon-for-an-86-400-square-metre-logistics-centre-in-germany"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "MKS.L": {
+    "ticker": "MKS.L",
+    "company": "Marks and Spencer Group plc",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "A UK retailer of premium own-brand food and of clothing, home and beauty products, sold through ~1,000 UK stores and online, plus international franchise/JV markets and a 50% stake in online grocer Ocado Retail. Food is the larger, faster-growing engine; the multi-year turnaround under Stuart Machin has revitalised Clothing & Home. For FY2025/26 (52 weeks to 28 March 2026), Food sales rose ~7% to over GBP 9bn while Fashion, Home & Beauty fell 7.7% to GBP 3.9bn after an April 2025 cyberattack, leaving adjusted profit before tax at GBP 671.4m (incl. GBP 100m cyber insurance).",
+    "revenue_mix": [
+      {
+        "segment": "Food (premium own-brand groceries)",
+        "share_pct": 65,
+        "trend": "growing"
+      },
+      {
+        "segment": "Fashion, Home & Beauty (Clothing & Home)",
+        "share_pct": 28,
+        "trend": "declining"
+      },
+      {
+        "segment": "International (franchise, JV) & other",
+        "share_pct": 7,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United Kingdom",
+        "share_pct": 90
+      },
+      {
+        "region": "International (franchise & JV markets)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "UK grocery (premium/quality-led food shopping)",
+      "Clothing (womenswear, menswear, kidswear, lingerie)",
+      "Home and beauty products",
+      "Online grocery via 50% Ocado Retail JV",
+      "International franchise retail (Middle East, India, Europe)"
+    ],
+    "top_competitors": [
+      "Tesco and Sainsbury's (food)",
+      "Waitrose (premium food)",
+      "Next (clothing - key benchmark)",
+      "Primark and online fast-fashion (value clothing)",
+      "Aldi/Lidl (grocery value pressure)"
+    ],
+    "moat": {
+      "type": "Trusted own-brand food quality + brand heritage",
+      "narrative": "M&S Food is nearly 100% own-brand and commands a quality/trust premium (~4.1% grocery share, gaining) that discounters and mainstream grocers cannot easily copy, giving durable pricing power in food. The 140-year clothing brand and store estate add reach, but Clothing & Home operates in a competitive, fashion-risk market where the advantage is execution and product, not structural lock-in."
+    },
+    "key_customers": [
+      "UK consumers (millions of weekly Food shoppers; Sparks loyalty members)",
+      "No customer concentration - mass retail",
+      "Ocado Retail online grocery customers (via 50% JV)",
+      "International franchise partners"
+    ],
+    "key_risks": [
+      "Cybersecurity: the April 2025 ransomware attack (Scattered Spider) knocked out online clothing sales for weeks and cost ~GBP 300m of operating profit - a repeat or systems fragility remains a live risk",
+      "UK consumer/cost pressure: rising labour costs (NI, wages) and cautious spending squeeze margins; Food operating margin fell to 4.6%",
+      "Clothing & Home fashion-execution and online-recovery risk, plus the underperforming/impaired Ocado Retail JV (GBP 248.5m impairment) and international reset"
+    ],
+    "sources": [
+      {
+        "label": "M&S full-year results, 52 weeks ended 28 March 2026",
+        "url": "https://corporate.marksandspencer.com/newsroom/press-releases/full-year-results-52-weeks-ended-28-march-2026"
+      },
+      {
+        "label": "M&S FY26 results RNS (PDF)",
+        "url": "https://corporate.marksandspencer.com/sites/marksandspencer/files/2026-05/fy26-rns.pdf"
+      },
+      {
+        "label": "M&S cyberattack ~GBP 300m operating-profit impact",
+        "url": "https://www.reinsurancene.ws/ms-estimates-300m-hit-to-operating-profit-from-recent-cyberattack/"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "RHI": {
+    "ticker": "RHI",
+    "company": "Robert Half Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Robert Half is a specialized talent solutions and consulting firm. It places contract and permanent professionals in finance, accounting, technology, legal, marketing and administrative roles, and separately owns Protiviti, a global business and technology risk-consulting and internal-audit practice. Roughly two-thirds of revenue is staffing (billed hourly for contract workers or as a placement fee), and one-third is Protiviti project-based consulting fees.",
+    "revenue_mix": [
+      {
+        "segment": "Contract talent solutions",
+        "share_pct": 51,
+        "trend": "declining"
+      },
+      {
+        "segment": "Permanent placement talent solutions",
+        "share_pct": 13,
+        "trend": "declining"
+      },
+      {
+        "segment": "Protiviti (consulting)",
+        "share_pct": 36,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 76
+      },
+      {
+        "region": "International (Canada, Europe, APAC, South America)",
+        "share_pct": 24
+      }
+    ],
+    "end_markets": [
+      "Corporate finance & accounting departments",
+      "Enterprise IT / technology teams",
+      "Legal departments",
+      "Marketing & creative functions",
+      "Internal audit / risk & compliance (Protiviti)"
+    ],
+    "top_competitors": [
+      "ManpowerGroup",
+      "Adecco",
+      "Randstad",
+      "ASGN / On Assignment",
+      "Kforce",
+      "Big Four advisory arms (Protiviti competes with Deloitte/EY/KPMG/PwC)"
+    ],
+    "moat": {
+      "type": "Brand + specialization + candidate database",
+      "narrative": "70+ year brand built specifically in finance & accounting recruiting gives Robert Half premium pricing and repeat corporate clients versus generalist staffers. Protiviti's independence from the Big Four audit firms lets it serve those firms' audit clients on internal-audit and SOX work without conflict, a structural niche."
+    },
+    "key_customers": [
+      "Highly fragmented client base of tens of thousands of businesses; no single client is material",
+      "Skews toward mid-market and enterprise finance/accounting departments",
+      "Protiviti serves large enterprises on risk, internal audit and technology consulting"
+    ],
+    "key_risks": [
+      "Deep cyclicality — 2025 contract and permanent placement revenues fell ~11% and ~10% as hiring froze; staffing demand tracks white-collar employment and business confidence",
+      "Secular pressure on finance/accounting temp roles from automation and AI reducing entry-level bookkeeping/clerical demand",
+      "Protiviti concentration in a handful of large consulting engagements makes that segment lumpier than staffing"
+    ],
+    "sources": [
+      {
+        "label": "Robert Half FY2025 10-K",
+        "url": "https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/form-10-k/RHI%2010K%2012_31_25-2026-02-13-12-15%201.pdf"
+      },
+      {
+        "label": "Robert Half 2025 Annual Report",
+        "url": "https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/2025-robert-half-annual-report-0426.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "NET": {
+    "ticker": "NET",
+    "company": "Cloudflare, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Cloudflare operates a global connectivity cloud — a network of servers in hundreds of cities that sits between the internet and its customers' applications. It sells subscriptions for content delivery (CDN), DDoS/web-application security, zero-trust network access (SASE), DNS, and increasingly a serverless developer platform (Workers) and AI inference at the edge. Revenue is overwhelmingly recurring SaaS billed per seat, per domain, or by usage.",
+    "revenue_mix": [
+      {
+        "segment": "Application services (CDN, security, performance, DNS)",
+        "share_pct": 80,
+        "trend": "growing"
+      },
+      {
+        "segment": "Zero Trust / network services & developer platform (Workers, R2, AI)",
+        "share_pct": 20,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 50
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 26
+      },
+      {
+        "region": "APAC",
+        "share_pct": 15
+      },
+      {
+        "region": "Other (LatAm, Canada)",
+        "share_pct": 9
+      }
+    ],
+    "end_markets": [
+      "Enterprise IT & security (SASE / zero-trust)",
+      "SaaS and internet platforms needing CDN/DDoS protection",
+      "E-commerce and media websites",
+      "AI developers deploying inference at the edge",
+      "SMB / self-serve website owners"
+    ],
+    "top_competitors": [
+      "Akamai",
+      "Fastly",
+      "Amazon (CloudFront, AWS WAF)",
+      "Zscaler & Palo Alto (in zero-trust/SASE)",
+      "Cloudflare vs. Vercel/Netlify in developer/edge compute"
+    ],
+    "moat": {
+      "type": "Network scale + single integrated platform + low switching cost to add products",
+      "narrative": "Cloudflare's anycast network is deployed in 330+ cities, giving DDoS-absorption capacity and latency few rivals match, and its serverless Workers runtime runs code at that same edge. Once a customer routes traffic through Cloudflare, adding security, zero-trust and compute products is a config change, driving 110%+ net retention and rising spend."
+    },
+    "key_customers": [
+      "4,298 customers paying >$100k annually (73% of revenue) as of Q4 2025",
+      "Large-customer cohort (>$1M/yr) growing fastest",
+      "Broad base of millions of free/self-serve users that funnel into paid tiers"
+    ],
+    "key_risks": [
+      "Rich valuation demands sustained ~30% growth; FY2025 revenue was ~$2.17B up 30%, and any deceleration is punished hard",
+      "Hyperscaler competition — AWS, Google and Microsoft bundle CDN/security/edge compute and can undercut on price",
+      "Free-tier and usage-based DDoS mitigation cost can compress gross margin if traffic (especially AI scraping/bot) surges faster than monetization"
+    ],
+    "sources": [
+      {
+        "label": "Cloudflare Q4 & FY2025 results press release",
+        "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-fourth-quarter-and-fiscal-year-2025-financial-results/"
+      },
+      {
+        "label": "Cloudflare FY2024 10-K (business & segments)",
+        "url": "https://last10k.com/sec-filings/net/0001477333-25-000043.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "UHAL": {
+    "ticker": "UHAL",
+    "company": "U-Haul Holding Company",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "U-Haul Holding is the parent of U-Haul, North America's largest do-it-yourself moving and self-storage business. It rents trucks, trailers and towing equipment to consumers, operates self-storage facilities, sells moving supplies (boxes, tape, U-Box portable containers), and runs captive property-casualty and life insurance units. The bulk of revenue is self-moving equipment rental, with self-storage a fast-growing second leg.",
+    "revenue_mix": [
+      {
+        "segment": "Self-moving equipment rental (trucks/trailers)",
+        "share_pct": 64,
+        "trend": "growing"
+      },
+      {
+        "segment": "Self-storage",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Self-moving & self-storage products/service sales",
+        "share_pct": 6,
+        "trend": "stable"
+      },
+      {
+        "segment": "Insurance premiums (life + P&C)",
+        "share_pct": 3,
+        "trend": "stable"
+      },
+      {
+        "segment": "Property management, investment income & other",
+        "share_pct": 12,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 90
+      },
+      {
+        "region": "Canada",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "DIY residential movers",
+      "Self-storage renters (households in transition, small businesses)",
+      "Small commercial haulers",
+      "Contractors needing trailers/towing",
+      "Households buying moving supplies"
+    ],
+    "top_competitors": [
+      "Penske Truck Rental & Budget Truck (Avis) in truck rental",
+      "Public Storage, Extra Space Storage, CubeSmart, Life Storage in self-storage",
+      "Home Depot / Lowe's truck rental for local moves"
+    ],
+    "moat": {
+      "type": "Dominant network density + owned real estate + brand",
+      "narrative": "~24,000+ company and independent-dealer locations and ~186,000 trucks create one-way rental coverage no rival can replicate — you can drop a U-Haul in a different city, which Penske and Budget largely cannot match at that density. U-Haul owns much of its self-storage real estate outright, and the orange brand is synonymous with DIY moving."
+    },
+    "key_customers": [
+      "Fully fragmented — millions of individual consumers; no customer concentration",
+      "Repeat demand tied to housing turnover and household relocation"
+    ],
+    "key_risks": [
+      "Housing-market sensitivity — moving volumes track home sales and relocation, which slow when mortgage rates are high",
+      "Rising truck depreciation and weak resale values for retired trucks pressured FY2025 earnings even as revenue grew",
+      "Capital-intensive fleet and self-storage development consume large cash flows; dual-class control by the Shoen family limits outside shareholder influence"
+    ],
+    "sources": [
+      {
+        "label": "U-Haul Holding FY2025 10-K (year ended 3/31/2025)",
+        "url": "https://www.sec.gov/Archives/edgar/data/4457/000095017025078451/uhal-20250331.htm"
+      },
+      {
+        "label": "U-Haul Holding FY2025 results release",
+        "url": "https://www.businesswire.com/news/home/20250528750071/en/U-Haul-Holding-Company-Reports-Fiscal-2025-Financial-Results"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "ILMN": {
+    "ticker": "ILMN",
+    "company": "Illumina, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Illumina is the dominant maker of DNA sequencing systems. It sells sequencing instruments (e.g., NovaSeq X) and, more importantly, the proprietary reagent consumables that customers must buy every time they run a sample — a razor-and-blade model. Customers are research labs, hospitals, and clinical/diagnostic providers. Consumables are ~74% of revenue and instruments ~11%, with the rest services. Following the June 2024 spin-off of cancer-screening unit GRAIL, Illumina now reports a single 'Core Illumina' segment.",
+    "revenue_mix": [
+      {
+        "segment": "Consumables (sequencing reagents)",
+        "share_pct": 74,
+        "trend": "growing"
+      },
+      {
+        "segment": "Instruments (sequencers)",
+        "share_pct": 11,
+        "trend": "stable"
+      },
+      {
+        "segment": "Services & other",
+        "share_pct": 15,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 55
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 25
+      },
+      {
+        "region": "Asia-Pacific (ex-China)",
+        "share_pct": 14
+      },
+      {
+        "region": "Greater China",
+        "share_pct": 6
+      }
+    ],
+    "end_markets": [
+      "Academic & government research labs",
+      "Clinical & hospital genomics",
+      "Pharma/biotech drug discovery",
+      "Oncology testing / liquid biopsy",
+      "Reproductive & genetic health (NIPT)"
+    ],
+    "top_competitors": [
+      "Thermo Fisher (Ion Torrest)",
+      "Pacific Biosciences (long-read)",
+      "Oxford Nanopore",
+      "Element Biosciences",
+      "MGI/BGI Genomics (especially in China)",
+      "Ultima Genomics"
+    ],
+    "moat": {
+      "type": "Installed base + consumables lock-in + accuracy leadership",
+      "narrative": "Tens of thousands of installed Illumina sequencers each require Illumina-proprietary reagents, generating high-margin recurring consumables that competitors cannot supply. Short-read accuracy at scale (NovaSeq X) and a deep software/informatics ecosystem raise switching costs for labs whose validated protocols are built on Illumina chemistry."
+    },
+    "key_customers": [
+      "Broad — large academic centers (Broad Institute-type genome centers), reference labs, hospital systems, and pharma",
+      "No single customer material; demand concentrated among high-throughput research and clinical labs"
+    ],
+    "key_risks": [
+      "China headwinds — Illumina was placed on China's 'unreliable entity list,' cutting Greater China revenue and requiring case-by-case export approvals; MGI/BGI gaining domestic share",
+      "Flat top line — FY2025 revenue was ~$4.34B, flat YoY, as instrument capital spending stayed soft amid NIH/academic budget pressure",
+      "Rising long-read and low-cost competition (PacBio, Nanopore, Element, Ultima) chipping at the short-read moat over time"
+    ],
+    "sources": [
+      {
+        "label": "Illumina FY2025 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000024/ilmn-20251228.htm"
+      },
+      {
+        "label": "Illumina Q4 & FY2025 results release",
+        "url": "https://www.prnewswire.com/news-releases/illumina-reports-financial-results-for-fourth-quarter-and-fiscal-year-2025-302680728.html"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "AXON": {
+    "ticker": "AXON",
+    "company": "Axon Enterprise, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Axon builds the technology stack for law enforcement and public safety. It sells TASER energy weapons and body cameras (hardware) plus a fast-growing cloud software suite — Axon Evidence (Evidence.com) digital-evidence management, real-time operations, dispatch, and AI report-writing — bundled into multi-year agency contracts. In 2025 Axon regrouped into two segments: Connected Devices (TASER, sensors, drones) and Software & Services, which carries $1.3B of annual recurring revenue.",
+    "revenue_mix": [
+      {
+        "segment": "Connected Devices (TASER, body cameras, drones/robotics)",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Software & Services (Evidence.com, real-time ops, AI)",
+        "share_pct": 47,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 82
+      },
+      {
+        "region": "International (Europe, APAC, others)",
+        "share_pct": 18
+      }
+    ],
+    "end_markets": [
+      "US state & local police departments",
+      "Federal law enforcement & corrections",
+      "International police agencies",
+      "Enterprise & retail security",
+      "Fire/EMS and other first responders"
+    ],
+    "top_competitors": [
+      "Motorola Solutions (WatchGuard body cameras, CAD/RMS software) — primary rival",
+      "Digital Ally",
+      "Utility Inc.",
+      "Getac video",
+      "Various point drone/robotics vendors"
+    ],
+    "moat": {
+      "type": "Ecosystem lock-in + switching cost + de facto standard",
+      "narrative": "Once an agency stores years of body-camera footage and case evidence in Evidence.com and trains on TASER, migrating is enormously disruptive, producing ~120%+ net revenue retention. Axon's tightly integrated hardware-plus-cloud bundle and subscription 'Officer Safety Plan' contracts make it the default US public-safety platform; Motorola is the only competitor with comparable scale."
+    },
+    "key_customers": [
+      "Thousands of US police agencies (majority of large US cities on Evidence.com)",
+      "US federal agencies and corrections",
+      "Growing roster of national/European police forces — international bookings passed $1.0B in 2025"
+    ],
+    "key_risks": [
+      "High valuation prices in sustained 30%+ growth (FY2025 revenue ~$2.8B, up 33%); any slowdown or budget cycle in police funding hits the multiple",
+      "Concentration in government budgets — public-safety spending is politically and fiscally sensitive",
+      "Product/legal risk around use-of-force devices and AI-generated police reports (bias, evidentiary challenges) inviting scrutiny and litigation"
+    ],
+    "sources": [
+      {
+        "label": "Axon FY2025 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/axon-20251231.htm"
+      },
+      {
+        "label": "Axon Q4 & FY2025 results release",
+        "url": "https://investor.axon.com/2026-02-24-Axon-reports-Q4-2025-revenue-of-797-million,-up-39-year-over-year"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "BAX": {
+    "ticker": "BAX",
+    "company": "Baxter International Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Baxter is a diversified medical-products company. It makes sterile IV solutions and infusion pumps, surgical hemostats and sealants, specialty injectable and inhaled-anesthetic pharmaceuticals, and — via its 2023 Hillrom acquisition — connected hospital hardware such as smart beds and patient-monitoring systems. In January 2025 Baxter closed the $3.8B sale of its kidney-care (dialysis) business, now 'Vantive,' to Carlyle, using proceeds to cut debt. It reports three segments: Medical Products & Therapies, Healthcare Systems & Technologies, and Pharmaceuticals.",
+    "revenue_mix": [
+      {
+        "segment": "Medical Products & Therapies (IV solutions, infusion, surgical)",
+        "share_pct": 46,
+        "trend": "stable"
+      },
+      {
+        "segment": "Healthcare Systems & Technologies (smart beds, monitoring)",
+        "share_pct": 27,
+        "trend": "growing"
+      },
+      {
+        "segment": "Pharmaceuticals (injectables, anesthesia)",
+        "share_pct": 22,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 63
+      },
+      {
+        "region": "International (EMEA, APAC, LatAm)",
+        "share_pct": 37
+      }
+    ],
+    "end_markets": [
+      "Hospitals (IV therapy, infusion systems)",
+      "Surgical / operating rooms (hemostats, sealants)",
+      "Pharmacies & hospital pharmacies (injectables, anesthesia)",
+      "Hospital capital equipment (beds, monitors)",
+      "Ambulatory & alternate-site care"
+    ],
+    "top_competitors": [
+      "B. Braun and Fresenius Kabi (IV solutions & infusion)",
+      "Becton Dickinson (infusion, med devices)",
+      "ICU Medical",
+      "Stryker & Hillrom-legacy rivals in hospital beds",
+      "Pfizer Hospira / generic injectable makers"
+    ],
+    "moat": {
+      "type": "Sterile-manufacturing scale + hospital installed base + regulatory barriers",
+      "narrative": "Baxter is one of only a few suppliers with the FDA-cleared sterile-fill capacity to make IV bags at national scale, giving it critical-supply status with US hospitals (shortages during 2024 Hurricane Helene damage to its North Cove plant showed how few substitutes exist). Infusion pumps and smart beds create sticky, service-contracted installed bases."
+    },
+    "key_customers": [
+      "US hospital systems and integrated delivery networks",
+      "Group purchasing organizations (GPOs) that aggregate hospital demand",
+      "Government and international health systems"
+    ],
+    "key_risks": [
+      "Turnaround execution — new CEO launched an improvement effort in 2025 after years of underperformance and margin pressure post-Hillrom",
+      "IV-solution supply concentration risk (North Cove, NC plant) exposed by 2024 hurricane disruption",
+      "Debt load and dependence on Vantive-sale proceeds; pricing pressure from GPOs and generic injectable competition"
+    ],
+    "sources": [
+      {
+        "label": "Baxter FY2025 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026007733/bax-20251231.htm"
+      },
+      {
+        "label": "Baxter completes Vantive kidney-care sale to Carlyle",
+        "url": "https://www.medtechdive.com/news/baxter-vantive-kidney-care-sale-carlyle-38b/724102/"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "NTRA": {
+    "ticker": "NTRA",
+    "company": "Natera, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Natera is a cell-free DNA (cfDNA) genetic-testing company. It runs high-volume lab tests across three areas: women's health (Panorama non-invasive prenatal testing and carrier screening), oncology (Signatera, a personalized molecular-residual-disease test that detects cancer recurrence from a blood draw), and organ health (Prospera transplant-rejection monitoring). Revenue is mostly per-test billing to insurers and patients; Signatera is the primary growth engine.",
+    "revenue_mix": [
+      {
+        "segment": "Women's health (Panorama NIPT, carrier screening)",
+        "share_pct": 45,
+        "trend": "stable"
+      },
+      {
+        "segment": "Oncology (Signatera MRD)",
+        "share_pct": 45,
+        "trend": "growing"
+      },
+      {
+        "segment": "Organ health (Prospera) & other/licensing",
+        "share_pct": 10,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 92
+      },
+      {
+        "region": "International",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "OB/GYNs & maternal-fetal medicine (prenatal screening)",
+      "Oncologists & cancer centers (recurrence monitoring)",
+      "Transplant centers (organ-rejection monitoring)",
+      "Pharma/biotech (MRD as clinical-trial endpoint)"
+    ],
+    "top_competitors": [
+      "Guardant Health (Reveal MRD) & Exact Sciences in oncology MRD",
+      "Myriad Genetics, Labcorp, Quest in women's health/NIPT",
+      "CareDx in transplant/organ health",
+      "Foundation Medicine (Roche)"
+    ],
+    "moat": {
+      "type": "Proprietary tumor-informed method + clinical evidence + payer coverage",
+      "narrative": "Signatera is a bespoke, tumor-informed assay built from each patient's own tumor mutations, giving high sensitivity that generic panels struggle to match, and it is backed by 350+ peer-reviewed papers plus Medicare coverage across multiple cancers — the evidence base and reimbursement are the moat. Panorama's long-established NIPT accuracy secures physician trust in women's health."
+    },
+    "key_customers": [
+      "Fragmented — thousands of ordering physicians (OB/GYNs, oncologists) rather than concentrated clients",
+      "Commercial insurers and Medicare are the payers",
+      "Pharma partners use Signatera in trials"
+    ],
+    "key_risks": [
+      "Still unprofitable — FY2025 net loss ~$208M despite ~$2.3B revenue (up ~36%); path to profit depends on continued Signatera reimbursement expansion",
+      "Reimbursement risk — coverage decisions and pricing by Medicare/commercial payers can swing revenue and are subject to policy change",
+      "Intensifying MRD competition from Guardant and Exact Sciences, and litigation/IP disputes over cfDNA methods"
+    ],
+    "sources": [
+      {
+        "label": "Natera FY2025 10-K",
+        "url": "https://www.stocktitan.net/sec-filings/NTRA/10-k-natera-inc-files-annual-report-9c689b4cdac7.html"
+      },
+      {
+        "label": "Natera preliminary Q4 & FY2025 results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465926002861/tm262952d1_ex99-1.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "HIW": {
+    "ticker": "HIW",
+    "company": "Highwoods Properties, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Highwoods Properties is an office REIT focused on high-quality office buildings in the best business districts (BBDs) of fast-growing Sun Belt cities. It owns, develops and leases roughly 27 million square feet across eight markets and earns rental income under multi-year leases, plus development and property-management fees. Nearly all revenue is contractual office rent, concentrated in Raleigh, Nashville and Atlanta.",
+    "revenue_mix": [
+      {
+        "segment": "Office rental & other revenues",
+        "share_pct": 97,
+        "trend": "stable"
+      },
+      {
+        "segment": "Development, management fees & land",
+        "share_pct": 3,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Raleigh, NC",
+        "share_pct": 24
+      },
+      {
+        "region": "Nashville, TN",
+        "share_pct": 21
+      },
+      {
+        "region": "Atlanta, GA",
+        "share_pct": 18
+      },
+      {
+        "region": "Tampa / Orlando / Charlotte / Richmond / Dallas (other BBDs)",
+        "share_pct": 37
+      }
+    ],
+    "end_markets": [
+      "Corporate office tenants (financial services, tech, professional services)",
+      "Government / federal agencies",
+      "Insurance and healthcare firms",
+      "Legal and consulting firms"
+    ],
+    "top_competitors": [
+      "Cousins Properties (Sun Belt office peer)",
+      "Piedmont Office Realty Trust",
+      "Brandywine Realty Trust",
+      "Local/private office landlords in each BBD",
+      "Broadly, the flight-to-quality trend within the office sector"
+    ],
+    "moat": {
+      "type": "Location quality + Sun Belt demographics + balance-sheet strength",
+      "narrative": "Highwoods concentrates in trophy, amenitized buildings within the top submarkets of in-migration Sun Belt cities, so it captures the 'flight to quality' as tenants consolidate into the best space — a locational advantage a commodity office owner lacks. A well-laddered balance sheet (no near-term maturities, ample liquidity) lets it fund a leased development pipeline while weaker landlords are capital-constrained."
+    },
+    "key_customers": [
+      "US Federal Government, Bank of America and MetLife are the top three tenants",
+      "Also Asurion and Bridgestone Americas among largest",
+      "Top 10 tenants ~22% of annualized revenue; top 20 ~29% — diversified base"
+    ],
+    "key_risks": [
+      "Structural office headwind — hybrid/remote work depresses net absorption; office remains the least-favored REIT property type",
+      "Interest-rate sensitivity — higher rates raise refinancing cost and pressure REIT valuations and cap rates",
+      "Tenant concentration/credit and lease-rollover risk if large tenants (e.g., federal government) downsize footprints"
+    ],
+    "sources": [
+      {
+        "label": "Highwoods Properties FY2025 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/921082/000092108226000005/hiw-20251231.htm"
+      },
+      {
+        "label": "Highwoods Q1 2025 investor slides",
+        "url": "https://www.investing.com/news/company-news/highwoods-properties-q1-2025-slides-sunbelt-focus-drives-outperformance-in-challenging-office-market-93CH-4102969"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "HAE": {
+    "ticker": "HAE",
+    "company": "Haemonetics Corporation",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Haemonetics is a blood-and-plasma technology company. It sells automated plasma-collection systems and donor-management software to plasma collectors (Plasma segment), blood-collection and processing devices to blood banks (Blood Center segment), and hospital products for surgical blood management and interventional cardiology/electrophysiology (Hospital segment). Revenue is a mix of disposable consumables, devices, and software, with the higher-margin Hospital business driving growth.",
+    "revenue_mix": [
+      {
+        "segment": "Hospital (Interventional + Blood Management Tech)",
+        "share_pct": 42,
+        "trend": "growing"
+      },
+      {
+        "segment": "Plasma",
+        "share_pct": 39,
+        "trend": "stable"
+      },
+      {
+        "segment": "Blood Center",
+        "share_pct": 19,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 72
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 16
+      },
+      {
+        "region": "Asia-Pacific",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Commercial plasma-collection centers (source plasma for biopharma)",
+      "Blood banks & national blood services",
+      "Hospital surgery / cardiac ORs (cell salvage, hemostasis testing)",
+      "Interventional cardiology & electrophysiology labs (vascular closure, sensors)"
+    ],
+    "top_competitors": [
+      "Terumo BCT (plasma & blood-center apheresis) — main rival",
+      "Fresenius Kabi (apheresis)",
+      "Abbott / Teleflex in vascular closure and interventional",
+      "Werfen (hemostasis testing)"
+    ],
+    "moat": {
+      "type": "Installed base + consumables razor-and-blade + switching cost",
+      "narrative": "Plasma collectors standardize on Haemonetics' NexSys collection platform and Nexus software, then buy proprietary disposables for every donation — a recurring razor-and-blade stream tied to a validated installed base. In Hospital, single-use products embedded in surgical and cath-lab workflows carry high switching costs once clinicians adopt them."
+    },
+    "key_customers": [
+      "Large commercial plasma fractionators (e.g., CSL, Grifols, Takeda-type collectors) concentrate the Plasma segment",
+      "National blood services and hospital systems",
+      "Some customer concentration in Plasma among a handful of large collectors"
+    ],
+    "key_risks": [
+      "Plasma customer concentration — a few large fractionators drive Plasma revenue; loss or renegotiation (e.g., a major CSL contract) is a known overhang",
+      "Blood Center in structural decline as blood-transfusion volumes fall and that segment is deprioritized",
+      "Reliance on M&A (Interventional acquisitions) to sustain Hospital growth and integration/margin risk"
+    ],
+    "sources": [
+      {
+        "label": "Haemonetics FY2025 10-K",
+        "url": "https://www.stocktitan.net/sec-filings/HAE/10-k-haemonetics-corp-files-annual-report-3354c61c20b6.html"
+      },
+      {
+        "label": "Haemonetics FY2025 Annual Report",
+        "url": "https://haemonetics.gcs-web.com/static-files/c3810e5b-ce8f-46e3-8e76-c66ff4145609"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "TIGO": {
+    "ticker": "TIGO",
+    "company": "Millicom International Cellular S.A. (Tigo)",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Millicom, operating under the Tigo brand, is a leading telecom and cable operator across nine Latin American markets. It sells mobile voice/data, prepaid airtime, fixed broadband and pay-TV over its cable/fiber networks, and B2B connectivity and digital services. Revenue skews to mobile service plus a large and growing fixed 'cable' business; Guatemala and Colombia are its biggest profit engines. It served ~52 million customers and passed 14M+ homes as of end-2025.",
+    "revenue_mix": [
+      {
+        "segment": "Mobile services",
+        "share_pct": 55,
+        "trend": "stable"
+      },
+      {
+        "segment": "Fixed / cable (broadband, pay-TV, B2B)",
+        "share_pct": 35,
+        "trend": "growing"
+      },
+      {
+        "segment": "Telephone & equipment sales / other",
+        "share_pct": 10,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Guatemala",
+        "share_pct": 30
+      },
+      {
+        "region": "Colombia",
+        "share_pct": 20
+      },
+      {
+        "region": "Panama",
+        "share_pct": 12
+      },
+      {
+        "region": "Bolivia / Paraguay / Honduras / El Salvador / Nicaragua / others",
+        "share_pct": 38
+      }
+    ],
+    "end_markets": [
+      "Consumer mobile (prepaid & postpaid) subscribers",
+      "Residential broadband & pay-TV households",
+      "Enterprise & government B2B connectivity",
+      "Financial-inclusion / mobile-money (Tigo Money) users"
+    ],
+    "top_competitors": [
+      "América Móvil (Claro) — primary regional rival",
+      "Telefónica (Movistar) where present",
+      "Liberty Latin America",
+      "Local incumbents/state operators per country"
+    ],
+    "moat": {
+      "type": "Network scale + market leadership + integrated fixed-mobile bundles",
+      "narrative": "Tigo holds #1 or #2 mobile position in most of its markets and, in Guatemala especially, near-dominant share that produces very high margins and cash flow (Guatemala alone generated ~$791M operating cash flow in 2025). Owning both cable/fiber and mobile lets it bundle fixed-mobile convergence in markets where rivals lack a full network, and spectrum licenses are a regulatory barrier."
+    },
+    "key_customers": [
+      "Mass-market — ~52 million retail mobile and broadband subscribers; no customer concentration",
+      "B2B and government contracts add an enterprise layer"
+    ],
+    "key_risks": [
+      "Emerging-market FX & macro — revenue in Guatemalan quetzal, Colombian peso, Bolivian boliviano etc. exposes reported USD results to devaluation and inflation",
+      "Political/regulatory and country risk across nine developing markets (spectrum renewals, price regulation, expropriation)",
+      "Heavy capex and leverage from network buildout and Colombia/Chile/Ecuador expansion; intense price competition with América Móvil"
+    ],
+    "sources": [
+      {
+        "label": "Millicom FY2025 20-F annual report",
+        "url": "https://www.stocktitan.net/sec-filings/TIGO/20-f-millicom-international-cellular-sa-files-annual-report-foreign-i-26bb1134cc6b.html"
+      },
+      {
+        "label": "Millicom Q4 2025 earnings release",
+        "url": "https://www.globenewswire.com/news-release/2026/02/26/3245346/0/en/millicom-tigo-q4-2025-earnings-release.html"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "ACHC": {
+    "ticker": "ACHC",
+    "company": "Acadia Healthcare Company, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "The largest standalone behavioral-health operator in the US: 277 facilities across 40 states and Puerto Rico spanning acute psychiatric hospitals (55% of revenue), specialty addiction and eating-disorder clinics, the country's biggest network of outpatient opioid-treatment centers (CTCs), and youth residential facilities. It gets paid per patient day, mostly by government — Medicaid and Medicare fund 72% of its $3.3B FY2025 revenue. Growth is a bed-building machine: 1,089 beds added in 2025, increasingly via joint ventures with health systems like Henry Ford and Geisinger.",
+    "revenue_mix": [
+      {
+        "segment": "Acute inpatient psychiatric facilities",
+        "share_pct": 55,
+        "trend": "stable"
+      },
+      {
+        "segment": "Specialty treatment facilities (addiction, eating disorders)",
+        "share_pct": 17,
+        "trend": "stable"
+      },
+      {
+        "segment": "Comprehensive treatment centers (outpatient opioid treatment)",
+        "share_pct": 17,
+        "trend": "growing"
+      },
+      {
+        "segment": "Residential treatment centers (children/adolescents)",
+        "share_pct": 11,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (40 states + Puerto Rico; UK sold 2021)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Adult acute psychiatric inpatient care (crisis stabilization, involuntary/voluntary admits)",
+      "Opioid use disorder treatment (medication-assisted outpatient clinics — 15 new CTCs opened in 2025)",
+      "Substance use and eating disorder specialty treatment",
+      "Children/adolescent residential behavioral care (shrinking; 5 facilities closed in 2025)"
+    ],
+    "top_competitors": [
+      "Universal Health Services (larger behavioral division, ~400 facilities)",
+      "Lifepoint Behavioral Health (Springstone)",
+      "Oceans Healthcare and Summit BHC (private, acute psych)",
+      "BayMark Health Services (in opioid-treatment CTCs specifically)",
+      "Not-for-profit health system psych units"
+    ],
+    "moat": {
+      "type": "Regulatory scarcity + health-system JV lock-in",
+      "narrative": "Certificate-of-need laws in many states cap new psychiatric bed supply, and Acadia's ~20 joint ventures with flagship systems (Henry Ford, Geisinger, Ascension Seton, Fairview, ECU Health) hand it captive referral flow rivals can't access. But there is no pricing power — rates are set by Medicaid/Medicare, so the moat is licensed capacity and referral relationships, not economics."
+    },
+    "key_customers": [
+      "State Medicaid programs incl. managed Medicaid (~56% of revenue — largest payor by far)",
+      "Medicare (~16% of revenue)",
+      "Commercial insurers (~26% — UnitedHealth, Elevance et al.)",
+      "JV health-system partners as referral channels (Henry Ford, Geisinger, Ascension Seton, ECU Health)"
+    ],
+    "key_risks": [
+      "DOJ investigations (SDNY and W.D. Missouri) into admissions, length-of-stay and billing practices after the 2024 NYT expose alleging patients held against their will; prior $19.85M False Claims Act settlement — rising legal settlement expense contributed to FY2025's $1.1B net loss",
+      "Medicaid dependence (~56% of revenue): OBBBA federal Medicaid spending cuts and eligibility redeterminations threaten volumes, rates, and state supplemental payment programs (e.g., Tennessee)",
+      "FY2025 goodwill impairment (~$1.1B net loss) signals capital misallocation — 1,089 new beds ramping into soft demand with startup-loss drag",
+      "Refinanced 2025 debt at 7.375% ($550M notes due 2033) plus $650M term loan; wage inflation for psychiatric nurses/techs keeps pressuring margins"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Form 10-K (filed Feb 26, 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526078266/achc-20251231.htm"
+      },
+      {
+        "label": "Q4 & FY2025 results press release",
+        "url": "https://acadiahealthcare.gcs-web.com/news-releases/news-release-details/acadia-healthcare-announces-fourth-quarter-and-2025-results"
+      },
+      {
+        "label": "DOJ $19.85M False Claims Act settlement",
+        "url": "https://www.justice.gov/archives/opa/pr/acadia-healthcare-company-inc-pay-1985m-settle-allegations-relating-medically-unnecessary"
+      },
+      {
+        "label": "TradingView 10-K summary (segment mix, JV detail)",
+        "url": "https://www.tradingview.com/news/tradingview:a65b68912a8f0:0-acadia-healthcare-company-inc-sec-10-k-report/"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "BBY": {
+    "ticker": "BBY",
+    "company": "Best Buy Co., Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "The last national consumer-electronics big-box chain in the US: roughly 1,100 stores across the US and Canada plus bestbuy.com, selling laptops, phones, TVs, and appliances (FY2026 revenue $41.7B, 92% domestic). Product retail is structurally thin-margin, so profit increasingly comes from the attach: Geek Squad installation and repair, paid My Best Buy memberships, the Best Buy Ads retail-media arm, and a third-party marketplace launched mid-2025 that monetizes site traffic without inventory risk.",
+    "revenue_mix": [
+      {
+        "segment": "Computing & Mobile Phones (approx)",
+        "share_pct": 43,
+        "trend": "growing"
+      },
+      {
+        "segment": "Consumer Electronics — TVs, audio, cameras (approx)",
+        "share_pct": 25,
+        "trend": "declining"
+      },
+      {
+        "segment": "Appliances (approx)",
+        "share_pct": 10,
+        "trend": "declining"
+      },
+      {
+        "segment": "Entertainment — gaming, drones (approx)",
+        "share_pct": 7,
+        "trend": "growing"
+      },
+      {
+        "segment": "Services — Geek Squad, membership (approx)",
+        "share_pct": 6,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other incl. international category mix (approx)",
+        "share_pct": 9,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Domestic (United States)",
+        "share_pct": 92
+      },
+      {
+        "region": "International (Canada)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "US consumer discretionary tech spend — currently an AI-PC / Windows 10 end-of-life laptop refresh cycle",
+      "Home theater and consumer electronics replacement demand",
+      "Major appliances (tied to housing turnover, currently weak)",
+      "Gaming hardware (Nintendo Switch 2 cycle)",
+      "Retail media buyers and third-party marketplace sellers (high-margin growth layer)"
+    ],
+    "top_competitors": [
+      "Amazon (primary online price competitor)",
+      "Walmart and Target (mass merchants)",
+      "Costco (appliances/TVs for members)",
+      "Vendor direct channels (Apple and Samsung own stores/sites)",
+      "Home Depot / Lowe's (in appliances specifically)"
+    ],
+    "moat": {
+      "type": "Service layer + vendor symbiosis; no price moat",
+      "narrative": "Geek Squad's in-home install/repair force and vendor-funded store-within-stores (Apple, Samsung, LG, Sony pay for premium floor space) exist because CE brands need a national physical showroom now that Circuit City and hhgregg are gone — Amazon can't replicate either. On pure price there is no moat: Best Buy survives on service attach, membership stickiness, and vendor funding, not structural pricing power."
+    },
+    "key_customers": [
+      "Mass-market US/Canadian consumers (no customer concentration)",
+      "My Best Buy paid members (Plus/Total tiers — subscription profit pool)",
+      "Best Buy Ads advertisers (CE brands and CPGs buying retail media)",
+      "Supplier-side concentration is the real exposure: Apple, Samsung, HP, LG, Sony = ~55% of all merchandise purchased; top 20 = ~80%"
+    ],
+    "key_risks": [
+      "Tariffs: 30-35% of product cost still sourced from China (down from ~55%) at 20-30% tariff rates; mitigation via Vietnam/India shifts and price hikes risks demand destruction — FY2026 guidance was cut on this",
+      "Demand stagnation: FY2026 enterprise comps just +0.5%; the bull case leans heavily on the AI-PC refresh cycle materializing while TVs/appliances shrink",
+      "Vendor leverage and disintermediation: five suppliers control ~55% of purchases and are expanding direct-to-consumer sales",
+      "Product margin erosion: Q4 FY26 gross margin gains from Ads/Marketplace were 'largely offset by lower product margin rates' — the Amazon/Walmart price war is structural"
+    ],
+    "sources": [
+      {
+        "label": "FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm"
+      },
+      {
+        "label": "Q4 FY2026 earnings press release (Mar 3, 2026)",
+        "url": "https://investors.bestbuy.com/News--Events/news/news-details/2026/Best-Buy-Reports-Fourth-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "Forbes — tariff impact and China sourcing reduction",
+        "url": "https://www.forbes.com/sites/markfaithfull/2025/05/29/tariffs-hit-best-buy-revenues-as-retailer-reduces-chinese-imports/"
+      },
+      {
+        "label": "Tickergate — FY2026 revenue breakdown by category",
+        "url": "https://www.tickergate.com/stocks/bby/revenue"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
+  },
+  "TOST": {
+    "ticker": "TOST",
+    "company": "Toast, Inc.",
+    "as_of": "2026-08-06",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "A cloud operating system for restaurants: Toast bundles point-of-sale hardware, SaaS modules (online ordering, payroll, kitchen displays, ToastIQ AI), and embedded payment processing for ~171,000 live locations. It monetizes three ways — a take rate on the $195B of gross payment volume processed in 2025 (fintech, 82% of revenue, presented gross of interchange), subscriptions (15% of revenue, +33% YoY), and hardware sold near cost to win installs. Roughly 16% of US restaurant payment volume runs on Toast; the expansion fronts are enterprise chains, food retail, and four international markets.",
+    "revenue_mix": [
+      {
+        "segment": "Financial technology solutions (payments take-rate + Toast Capital)",
+        "share_pct": 82,
+        "trend": "growing"
+      },
+      {
+        "segment": "Subscription services (SaaS)",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Hardware & professional services (sold near/below cost)",
+        "share_pct": 3,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 96
+      },
+      {
+        "region": "International — Canada, UK, Ireland, Australia (approx)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "US SMB restaurants — independents and small groups (core base, vast majority of 171k locations)",
+      "Enterprise casual-dining and food-entertainment chains (new vertical; Applebee's, Topgolf, Firehouse Subs)",
+      "Food & beverage retail — grocery and convenience stores (new vertical since 2024)",
+      "International restaurants in Canada, UK, Ireland, Australia (new-markets ARR crossed $100M in 2025, doubling YoY)"
+    ],
+    "top_competitors": [
+      "Fiserv's Clover (~8% of US restaurant payment volume vs Toast's ~16%; aggressive in small eateries)",
+      "Block's Square (cheaper, simpler — wins micro-merchants)",
+      "SpotOn and Lightspeed (SMB/full-service POS)",
+      "Oracle Micros, NCR Aloha, PAR Technology (legacy enterprise incumbents Toast is displacing)",
+      "Olo (digital ordering layer)"
+    ],
+    "moat": {
+      "type": "Vertical-software switching costs + local density flywheel",
+      "narrative": "Once a restaurant runs POS, payroll, online ordering, and payments on one Toast stack, ripping it out means retraining staff and rewiring money flows — which keeps churn low even as Clover and Square undercut on price. Density compounds: 171k locations and 16% of US restaurant payment volume feed ToastIQ's AI benchmarking (40k weekly active locations; pilot users of ToastIQ Grow report ~8% sales lift), data no single-vertical rival can match."
+    },
+    "key_customers": [
+      "~171,000 locations, overwhelmingly fragmented SMBs — no customer concentration",
+      "Applebee's (~1,500 restaurants; one of the two largest signings in company history)",
+      "Firehouse Subs (the other largest-ever signing)",
+      "Topgolf (Toast Enterprise across US venues: POS, payments, KDS, handhelds)"
+    ],
+    "key_risks": [
+      "Same-store softness: GPV per location fell ~1% YoY in Q1 2026 — consumer pullback on dining passes directly into fintech revenue via the take rate",
+      "Price/take-rate pressure from Fiserv's Clover and Square in the SMB base, and thin-margin enterprise deals (Applebee's-scale wins carry lower take rates)",
+      "Toast Capital credit risk: working-capital loans to SMB restaurants (originated via WebBank) would see losses spike in a restaurant-closure wave",
+      "Revenue optics: 82% of revenue is gross-presented payments including interchange pass-through, so headline revenue overstates unit economics and amplifies any GPV deceleration"
+    ],
+    "sources": [
+      {
+        "label": "Q4 & FY2025 results (Feb 12, 2026)",
+        "url": "https://www.businesswire.com/news/home/20260212058106/en/Toast-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results"
+      },
+      {
+        "label": "Q1 2026 results (SEC exhibit, May 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000113/tost-20260331xexhibit991.htm"
+      },
+      {
+        "label": "Applebee's selects Toast (Apr 2025)",
+        "url": "https://www.businesswire.com/news/home/20250413445141/en/Applebees-Selects-Toast-Technology-as-New-Point-of-Sale-and-Kitchen-Display-Systems-Partner"
+      },
+      {
+        "label": "Payments Dive — Toast vs Clover share battle",
+        "url": "https://www.paymentsdive.com/news/toast-clover-battle-for-small-eateries/809108/"
+      }
+    ],
+    "last_refreshed": "2026-08-06"
   }
 }
