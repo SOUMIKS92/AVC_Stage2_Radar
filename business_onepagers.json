@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-08-06",
+    "as_of": "2026-08-08",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -3619,77 +3619,88 @@
   "FTNT": {
     "ticker": "FTNT",
     "company": "Fortinet, Inc.",
-    "as_of": "2026-05-24",
+    "as_of": "2026-08-08",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Fortinet is a US cybersecurity vendor best known for FortiGate next-gen firewalls (~6 million units deployed, >50% global unit share). It monetises hardware product sales plus attached high-margin security subscriptions (FortiGuard threat intelligence) and technical support, and is expanding into Unified SASE and Security Operations as adjacent ARR engines. FY25 revenue $6.80bn, net income $1.85bn — among the most profitable pure-play security vendors.",
+    "company_overview": "Fortinet sells network security. The core product is the FortiGate firewall — an appliance (or virtual instance) running Fortinet's own FortiOS on custom-designed security silicon — sold at modest hardware margin and then loaded with high-margin recurring attachments: FortiGuard threat-intelligence subscriptions, technical support, and increasingly SASE and security-operations SaaS. FY2025 revenue was $6.80bn, up 14%, with services (subscriptions plus support) about two-thirds of the total. Sales run almost entirely two-tier through distributors and ~13,000 channel partners.",
     "revenue_mix": [
       {
-        "segment": "Service revenue — security subscriptions + technical support",
-        "share_pct": 70,
+        "segment": "Security subscriptions (FortiGuard, unified SASE, SecOps SaaS)",
+        "share_pct": 39,
         "trend": "growing"
       },
       {
-        "segment": "Product revenue — FortiGate appliances + term licences",
-        "share_pct": 30,
+        "segment": "Product (FortiGate appliances, virtual and term licences)",
+        "share_pct": 33,
+        "trend": "growing"
+      },
+      {
+        "segment": "Technical support and other services",
+        "share_pct": 29,
         "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas",
-        "share_pct": 41
+        "region": "EMEA",
+        "share_pct": 42
       },
       {
-        "region": "EMEA",
-        "share_pct": 37
+        "region": "Americas",
+        "share_pct": 40
       },
       {
         "region": "APAC",
-        "share_pct": 22
+        "share_pct": 18
       }
     ],
     "end_markets": [
-      "Enterprise IT (Fortune 500 SOCs)",
-      "Mid-market and SMB (price-performance sweet spot)",
-      "Service providers / MSSPs",
-      "Government & critical infrastructure (OT/SCADA via FortiGuard ICS)",
-      "Telco SD-WAN deployments"
+      "Distributed-branch enterprise (retail chains, restaurant groups, bank branch networks) — the classic SD-WAN + FortiGate use case",
+      "Mid-market and upper-mid-market enterprise campus and edge",
+      "Government, defence and public sector",
+      "Service providers, telcos and MSSPs",
+      "OT and industrial (manufacturing, energy, utilities) via FortiGate Rugged and OT security",
+      "Healthcare and education"
     ],
     "top_competitors": [
-      "Palo Alto Networks",
-      "Cisco (Secure)",
-      "Check Point Software",
-      "Zscaler & Netskope (in SASE specifically)"
+      "Palo Alto Networks (premium NGFW plus Prisma SASE; leads Gartner on completeness of vision)",
+      "Cisco (Secure Firewall plus Splunk-based SecOps; strongest on ecosystem lock-in)",
+      "Check Point Software (Quantum Force appliances)",
+      "Zscaler and Netskope (cloud-only SSE/SASE — attack the appliance model directly)",
+      "HPE Juniper Networking and Cato Networks",
+      "Huawei and Hillstone in APAC price-led deals"
     ],
     "moat": {
-      "type": "Custom ASIC silicon + installed-base lock-in",
-      "narrative": "Fortinet designs its own Security Processing Unit (SPU) ASICs that deliver materially better throughput-per-dollar than software-only firewalls — Palo Alto and Check Point cannot match the price/performance at the SMB tier. The 6M+ FortiGate installed base creates a refresh-cycle annuity and a captive upsell pool for SASE/SecOps ARR."
+      "type": "Custom security silicon cost advantage plus installed-base subscription attach",
+      "narrative": "Fortinet designs its own security ASICs (the NP and CP series security processors), so a FortiGate inspects encrypted traffic at several times the throughput-per-dollar of x86-based rivals — a representative 5-year TCO at the 10Gbps inspected tier runs 40-60% below Palo Alto. That price/performance wins the appliance socket, and every socket then pulls FortiGuard subscriptions and support at 85%+ gross margin for five to seven years. The boundary is clear: the advantage is a hardware advantage. It is strongest in mid-market and distributed-branch deployments and weakest wherever security is bought as pure cloud SaaS, where Zscaler and Prisma already hold the incumbency."
     },
     "key_customers": [
-      "Globally diversified — no single customer >10% of revenue",
-      "Carrier-grade SD-WAN deployments at Tier-1 telcos",
-      "Distribution via Ingram Micro, Exclusive Networks, Westcon-Comstor"
+      "No end-customer concentration — in 2025 seven countries made up ~50% of billings and the remaining ~50% came from 100+ countries each contributing under 3%",
+      "Exclusive Networks — largest distributor of record (has represented roughly a third of net revenue in recent 10-K disclosures)",
+      "Ingram Micro — second-largest distributor",
+      "Demand is intermediated by ~13,000 resellers and MSSPs rather than a direct enterprise salesforce"
     ],
     "key_risks": [
-      "Firewall refresh cycle is ~40–50% through and likely peaks 2026 — product revenue could roll over hard in 2027",
-      "DRAM/NAND prices forecast to rise 60–70% in 2026, compressing product gross margin if not fully passed through",
-      "SASE competition from cloud-native Zscaler/Netskope risks capping ARR growth in the segment Fortinet most needs to grow"
+      "The 2026 numbers are being flattered by a finite hardware event: roughly 650,000 firewall units hit end-of-service by late 2026 and another 350,000 low-end units in 2027, and only ~40-50% of that refresh has been completed. Q2 2026 product revenue grew 52% YoY — when the cycle closes (management points to four to six more quarters) the comparison base becomes brutal",
+      "Structural mix shift: if security consolidates into cloud-delivered SSE/SASE, the ASIC cost advantage stops mattering and Zscaler, Netskope and Palo Alto's Prisma own that incumbency",
+      "Palo Alto's platformisation strategy — discounting product to lock in multi-year, multi-module enterprise commitments — targets exactly the consolidation budget Fortinet wants at the top end, where Fortinet's channel-led, price-led motion is weakest",
+      "Recurring exploited vulnerabilities in FortiOS and FortiManager (multiple CISA KEV-listed zero-days, including the FortiGate configuration leak and the FortiManager 'FortiJump' flaw) are a live displacement risk in government and regulated accounts",
+      "EMEA is 42% of revenue — European public-sector and enterprise budget cycles plus EUR/USD are a larger swing factor here than for US-centric security peers"
     ],
     "sources": [
       {
-        "label": "Fortinet Q4 2025 8-K (SEC)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203925000036/ftntq3-2025ex991.htm"
+        "label": "Fortinet FY2025 Form 10-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000007/ftnt-20251231.htm"
       },
       {
-        "label": "Fortinet FY2025 10-K coverage",
-        "url": "https://www.stocktitan.net/sec-filings/FTNT/10-k-fortinet-inc-files-annual-report-8f9f11a1d662.html"
+        "label": "Fortinet Q4 2025 earnings presentation (IR)",
+        "url": "https://investor.fortinet.com/static-files/38d0dd08-09e6-4426-ae20-6e4c0e1ad992"
       },
       {
-        "label": "SDxCentral: SASE trajectory and firewall fears",
-        "url": "https://www.sdxcentral.com/news/fortinet-financials-float-sase-trajectory-and-firewall-fears/"
+        "label": "Fortinet Q3 2025 financial results",
+        "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2025/fortinet-reports-third-quarter-2025-financial-results"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-08-08"
   },
   "EQNR.OL": {
     "ticker": "EQNR.OL",
@@ -5396,90 +5407,100 @@
   "ALAB": {
     "ticker": "ALAB",
     "company": "Astera Labs, Inc.",
-    "as_of": "2026-06-06",
+    "as_of": "2026-08-08",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Astera Labs is a fabless semiconductor company making connectivity silicon for AI and cloud infrastructure: PCIe/CXL retimers (Aries), Ethernet smart cable modules (Taurus), CXL memory controllers (Leo), and PCIe fabric switches (Scorpio), unified by its COSMOS software suite. It sells into AI server racks where signal integrity and interconnect are bottlenecks. 2025 revenue more than doubled to $852m (+115%), with Scorpio fabric switches scaling from zero to $125m+ in their first full year. It is fabless (TSMC) and differentiates on connectivity IP plus software-driven diagnostics.",
+    "company_overview": "Astera Labs makes the connectivity silicon that stitches an AI rack together — retimers, smart cable modules, memory controllers and fabric switches that move data between GPUs, CPUs, memory and NICs over PCIe, CXL and Ethernet. It sells chips and modules to hyperscalers, AI accelerator vendors and their ODM/OEM builders, and bundles them with COSMOS, its fleet-management and diagnostics software that runs inside customers' infrastructure stacks. FY2025 revenue was $852.5m, up 115%, at a 75.7% gross margin.",
     "revenue_mix": [
       {
-        "segment": "Aries (PCIe/CXL retimers)",
-        "share_pct": 60,
+        "segment": "Aries — PCIe/CXL Smart DSP Retimers and Smart Cable Modules (approx; not separately disclosed)",
+        "share_pct": 62,
         "trend": "growing"
       },
       {
-        "segment": "Scorpio (PCIe Gen6 fabric switches)",
-        "share_pct": 16,
-        "trend": "growing"
+        "segment": "Scorpio — Smart Fabric Switches, P-Series (scale-out) and X-Series (scale-up) (approx)",
+        "share_pct": 25,
+        "trend": "growing fast"
       },
       {
-        "segment": "Taurus (Ethernet smart cable modules)",
-        "share_pct": 14,
-        "trend": "growing"
-      },
-      {
-        "segment": "Leo (CXL memory controllers) & other",
+        "segment": "Taurus — Ethernet Smart Cable Modules (approx)",
         "share_pct": 10,
-        "trend": "growing"
+        "trend": "stable"
+      },
+      {
+        "segment": "Leo — CXL Memory Connectivity Controllers (approx)",
+        "share_pct": 3,
+        "trend": "early / pre-inflection"
       }
     ],
     "geo_mix": [
       {
-        "region": "Asia Pacific (Taiwan/China ship-to ODMs)",
-        "share_pct": 70
+        "region": "Singapore (ODM/contract-manufacturer ship-to)",
+        "share_pct": 32
       },
       {
-        "region": "United States",
-        "share_pct": 22
+        "region": "China (ship-to; assembly, not end demand)",
+        "share_pct": 30
       },
       {
-        "region": "Rest of world",
-        "share_pct": 8
+        "region": "Taiwan (ODM ship-to)",
+        "share_pct": 29
+      },
+      {
+        "region": "Other",
+        "share_pct": 5
+      },
+      {
+        "region": "United States (billed direct)",
+        "share_pct": 3
       }
     ],
     "end_markets": [
-      "AI accelerator server racks (hyperscaler & custom silicon)",
-      "Cloud data-center scale-up/scale-out networking",
-      "CXL memory expansion",
-      "General-purpose data-center compute"
+      "Hyperscale AI training clusters (GPU scale-out and scale-up fabrics)",
+      "AI inference infrastructure and memory expansion (CXL-attached memory, live in Microsoft Azure M-series VMs)",
+      "General-purpose cloud servers moving from 400G to 800G NICs",
+      "Merchant scale-up switching — a market Astera sizes at ~$20bn annually by 2030"
     ],
     "top_competitors": [
-      "Broadcom (PCIe switching, retimers)",
-      "Marvell (interconnect)",
-      "Microchip (PCIe switches)",
-      "Credo (Ethernet/SerDes)",
-      "Montage Technology",
-      "Parade Technologies"
+      "Broadcom — the incumbent in PCIe switching and the single biggest structural threat",
+      "Marvell — retimers, DSPs and custom silicon",
+      "Credo Technology — direct rival in AECs and Ethernet/PCIe retimers",
+      "Montage Technology and Parade Technologies — retimer/CXL competition, price-aggressive",
+      "Rambus and Microchip — CXL controllers and PCIe switching",
+      "In-house silicon from NVIDIA (NVLink/NVSwitch) and from hyperscalers themselves"
     ],
     "moat": {
-      "type": "Connectivity IP + COSMOS software/diagnostics lock-in + early PCIe-Gen6 lead",
-      "narrative": "Astera's COSMOS software layer gives customers fleet-wide link diagnostics and telemetry that competitors' merchant silicon lacks, creating designed-in stickiness across product generations. It is the only vendor shipping PCIe Gen6 switching (Scorpio) in volume and is embedded early in hyperscalers' custom-AI-accelerator roadmaps, giving a timing and ecosystem lead. Moat is IP + software + first-mover position, not scale; durability depends on staying ahead each PCIe generation."
+      "type": "Design-win incumbency at each PCIe generation, hardened by embedded software",
+      "narrative": "Connectivity silicon is chosen at platform-design time and effectively cannot be swapped for the life of that platform, so being first to production at PCIe Gen5 and Gen6 compounds across accelerator generations. What makes it stickier than a normal socket win is COSMOS: hyperscalers wire Astera's telemetry, link-diagnostics and fleet-management APIs into their own datacentre management stacks, so replacing the chip also means rewriting operational tooling. The counterweight is that Broadcom and NVIDIA can bundle switching into silicon the customer is already buying, which is why Astera is racing to broaden Scorpio X-Series and to build custom NVLink Fusion connectivity rather than defend a single product line."
     },
     "key_customers": [
-      "Single largest end customer >70% of 2025 revenue; top three ~86% (hyperscalers)",
-      "Amazon (warrant to buy stock vs up to $6.5bn of purchases)",
-      "Nvidia ecosystem (NVLink Fusion participation)",
-      "Leading AI-server ODMs"
+      "Customer names are not disclosed in the 10-K — one direct customer was over 70% of FY2025 revenue and the top three end customers were ~86%",
+      "Microsoft — named in company releases for the first announced CXL-attached memory deployment (Leo controllers in Azure M-series VMs)",
+      "NVIDIA — custom connectivity products for NVLink Fusion",
+      "Amazon AWS, Google and Meta are widely reported hyperscale end customers but are not confirmed by name in filings",
+      "ODMs/OEMs in Taiwan, Singapore and China who physically take delivery and build the racks"
     ],
     "key_risks": [
-      "Severe customer concentration: one customer >70%, top three ~86% of revenue — loss of one is existential",
-      "AI capex cyclicality and risk of hyperscalers insourcing connectivity",
-      "Broadcom and Marvell competing aggressively for the same sockets",
-      "Each PCIe-generation transition is a fresh competitive battle; technical lead is not permanent"
+      "Extreme customer concentration — a single direct customer was >70% of FY2025 revenue; one platform decision can reset the growth rate",
+      "Gross margin is structurally drifting down as Scorpio switches and cable modules mix up: 75.7% in FY2025, guided to ~74% in Q1-2026",
+      "NVIDIA and Broadcom can integrate retiming and switching into silicon customers already buy, collapsing the merchant socket",
+      "Opex is being pushed hard ahead of revenue — GAAP opex guided to $155-161m per quarter in 2026 versus $173m of GAAP operating income for all of FY2025 — plus a new Israel design centre",
+      "Nearly all shipments route through Taiwan, Singapore and mainland China ODMs, exposing the model to tariffs and export-control changes even though end demand is U.S."
     ],
     "sources": [
       {
-        "label": "Astera Labs Q4 & FY2025 results",
-        "url": "https://www.asteralabs.com/news/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-results/"
+        "label": "Q4 and FY2025 results (8-K Ex-99.1, 10-Feb-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000005/q425exhibit991.htm"
       },
       {
-        "label": "Astera Labs 10-K (StockTitan summary)",
-        "url": "https://www.stocktitan.net/sec-filings/ALAB/10-k-astera-labs-inc-files-annual-report-7e1d9c67b16b.html"
+        "label": "FY2025 Form 10-K (filed 20-Feb-2026)",
+        "url": "https://ir.asteralabs.com/static-files/b90a6b29-9d69-43a6-9f57-790ff76eb34c"
       },
       {
-        "label": "Astera Labs Products",
-        "url": "https://www.asteralabs.com/products/"
+        "label": "Astera Labs Investor Relations",
+        "url": "https://ir.asteralabs.com/"
       }
     ],
-    "last_refreshed": "2026-06-13"
+    "last_refreshed": "2026-08-08"
   },
   "INTC": {
     "ticker": "INTC",
@@ -6264,62 +6285,77 @@
   "CORT": {
     "ticker": "CORT",
     "company": "Corcept Therapeutics Incorporated",
-    "as_of": "2026-06-06",
+    "as_of": "2026-08-08",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Corcept is a commercial-stage pharma company built around modulating the hormone cortisol via selective glucocorticoid receptor antagonists. Essentially all current revenue comes from one drug, Korlym (mifepristone), used to treat Cushing's syndrome (endogenous hypercortisolism). Its growth and future value hinge on next-generation cortisol modulators — chiefly relacorilant (recently FDA-approved as Lifyorli for platinum-resistant ovarian cancer and filed for Cushing's) — to extend the franchise beyond Korlym's patents.",
+    "company_overview": "Corcept sells prescription drugs that block the cortisol (glucocorticoid) receptor. Its cash engine is Korlym (mifepristone 300mg) plus its own authorized generic, prescribed in the U.S. for endogenous Cushing's syndrome/hypercortisolism and dispensed through a controlled specialty-pharmacy network. In March 2026 the FDA approved Lifyorli (relacorilant) with nab-paclitaxel for platinum-resistant ovarian cancer, giving Corcept a second, oncology revenue stream. Every asset in the pipeline is a variation on the same idea: selectively antagonise cortisol signalling. 2026 revenue guidance was raised to $1.1-$1.2bn.",
     "revenue_mix": [
       {
-        "segment": "Korlym (mifepristone) for Cushing's syndrome",
-        "share_pct": 100,
+        "segment": "Korlym + authorized generic (Cushing's syndrome / hypercortisolism)",
+        "share_pct": 81,
+        "trend": "growing"
+      },
+      {
+        "segment": "Lifyorli (relacorilant) — platinum-resistant ovarian cancer, launched Mar-2026",
+        "share_pct": 19,
         "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States",
+        "region": "United States (both products are U.S.-only today)",
         "share_pct": 100
+      },
+      {
+        "region": "Europe (MAA for relacorilant in PROC under EMA review; approval guided by YE-2026)",
+        "share_pct": 0
       }
     ],
     "end_markets": [
-      "Endocrinology (Cushing's syndrome / hypercortisolism)",
-      "Oncology (platinum-resistant ovarian cancer — relacorilant/Lifyorli)",
-      "Future: metabolic, NASH, neurology (cortisol-modulation pipeline)"
+      "Endocrinology — endogenous Cushing's syndrome and the much larger undiagnosed hypercortisolism pool (CATALYST/MOMENTUM screening data in difficult-to-control diabetes and hypertension)",
+      "Gynecologic oncology — platinum-resistant ovarian cancer (Lifyorli + nab-paclitaxel is an NCCN preferred regimen since Apr-2026)",
+      "Solid-tumour oncology pipeline — endometrial, cervical, pancreatic, prostate (BELLA/STELLA/TRIDENT/SYNERGY)",
+      "Hepatology — MASH (miricorilant, Phase 2b MONARCH reads out YE-2026)",
+      "Neurology — ALS (dazucorilant, Phase 3 planned early 2027)"
     ],
     "top_competitors": [
-      "Recordati (Isturisa, Signifor for Cushing's)",
-      "Xeris/Strongbridge (Recorlev/levoketoconazole)",
-      "Generic mifepristone makers (post-litigation patent threat)",
-      "Oncology: standard chemo regimens, AstraZeneca/GSK PARP & ADC franchises"
+      "Recordati (Isturisa/osilodrostat, Signifor) — the main branded rival in Cushing's",
+      "Xeris Biopharma (Recorlev/levoketoconazole)",
+      "Teva and other ANDA filers on mifepristone 300mg — Corcept pre-empted with its own authorized generic",
+      "AbbVie (Elahere/mirvetuximab) — the incumbent in platinum-resistant ovarian cancer, but requires FRalpha biomarker selection, which Lifyorli does not",
+      "Surgery/pituitary-directed therapy and generic ketoconazole as off-label alternatives in Cushing's"
     ],
     "moat": {
-      "type": "First-mover IP in selective cortisol modulation + specialty commercial infrastructure",
-      "narrative": "Corcept's moat is a deep patent estate and decade-plus head start in selective glucocorticoid receptor antagonism — a mechanism few others pursue — plus a specialized salesforce and patient-identification engine that has expanded the diagnosed Cushing's market. The key is transitioning patients from soon-to-be-genericized Korlym to patent-protected relacorilant; the ovarian-cancer approval (Lifyorli) opens a large new oncology TAM where its GR-antagonist mechanism is differentiated."
+      "type": "Category creation plus a controlled distribution and diagnosis funnel",
+      "narrative": "Corcept spent a decade building the only U.S. commercial infrastructure aimed at finding hypercortisolic patients — specialty pharmacy, cortisol testing support, and an endocrinology sales force — so it captures demand it itself creates rather than competing for existing scripts. Relacorilant/Lifyorli extends that by being a selective GR antagonist without mifepristone's progesterone-receptor liability, and in ovarian cancer it is the rare targeted agent that needs no biomarker test, which lowers the friction of adding it to nab-paclitaxel. The fragility is that the entire franchise rests on one mechanism and one molecule class; there is no platform diversification to fall back on."
     },
     "key_customers": [
-      "Specialty/endocrinology pharmacies and prescribing endocrinologists (Korlym distributed via specialty pharmacy)",
-      "Oncologists (relacorilant/Lifyorli launch)",
-      "U.S. commercial & Medicare payers"
+      "U.S. specialty pharmacy network (Corcept transitioned to a new pharmacy vendor in Feb-2026; Korlym is not sold at retail)",
+      "Academic and community endocrinology practices treating Cushing's syndrome",
+      "Gynecologic-oncology practices — over 1,300 patients started Lifyorli in its first full quarter",
+      "Commercial payers and Medicare Part D — no single named end customer is disclosed"
     ],
     "key_risks": [
-      "Single-product dependence — ~100% of revenue from Korlym, whose mifepristone patents face generic challenges; a generic entry would gut the cash engine before relacorilant fully ramps",
-      "Pipeline/launch execution risk on relacorilant in both Cushing's (regulatory) and oncology (commercial uptake of Lifyorli)",
-      "Litigation and pricing scrutiny on a high-priced single-source drug; FTC/payer pressure on specialty-pharma economics"
+      "Korlym + authorized generic is still ~81% of revenue and faces generic mifepristone entry; any share loss hits the profit base directly",
+      "Relacorilant for Cushing's already drew a Complete Response Letter once; the resubmitted NDA has a PDUFA date of 17-Dec-2026 and a second CRL would strand the largest label expansion",
+      "Launch spend is compressing margins — Q2-26 SG&A was $156.9m vs $103.9m a year earlier, and H1-26 GAAP operating result was a $8.3m loss despite 20% revenue growth",
+      "Single-mechanism concentration: Korlym, Lifyorli, nenocorilant, miricorilant and dazucorilant are all cortisol modulators, so a class-level safety finding would hit everything at once",
+      "Lifyorli's PROC opportunity is a narrow, heavily-contested niche where AbbVie's Elahere is entrenched in FRalpha-positive patients"
     ],
     "sources": [
       {
-        "label": "Corcept Q4 & FY2025 results press release",
-        "url": "https://ir.corcept.com/news-releases/news-release-details/corcept-therapeutics-announces-fourth-quarter-and-full-year-2025"
+        "label": "Q2 2026 results and corporate update (8-K Ex-99.1, 29-Jul-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm"
       },
       {
-        "label": "FDA approval of relacorilant (Lifyorli) for ovarian cancer",
-        "url": "https://www.fiercepharma.com/pharma/corcepts-lead-drug-bounces-back-fda-snub-1st-approval-lifyorli-ovarian-cancer"
+        "label": "Q1 2026 results (8-K Ex-99.1, 30-Apr-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm"
       },
       {
-        "label": "Wikipedia Corcept Therapeutics",
-        "url": "https://en.wikipedia.org/wiki/Corcept_Therapeutics"
+        "label": "Corcept Investor Relations — news releases",
+        "url": "https://ir.corcept.com/news-releases"
       }
     ],
-    "last_refreshed": "2026-06-06"
+    "last_refreshed": "2026-08-08"
   },
   "ATT.L": {
     "ticker": "ATT.L",
@@ -7114,64 +7150,81 @@
   "RVMD": {
     "ticker": "RVMD",
     "company": "Revolution Medicines, Inc.",
-    "as_of": "2026-06-28",
-    "last_refreshed_reason": "New concall (Q1 2026, RASolute 302 readout)",
-    "company_overview": "Revolution Medicines is a clinical-stage oncology company developing RAS(ON) inhibitors — drugs that target the active form of mutant RAS, one of the most common cancer-causing proteins, especially in pancreatic, colorectal, and lung cancers. It has essentially no product revenue today; it is funded by cash, equity, and a Royalty Pharma funding agreement, and its value rests on its lead asset daraxonrasib (RMC-6236) reaching the market. Pivotal Phase 3 data in pancreatic cancer is the defining 2026 catalyst.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Revolution Medicines is a pre-revenue oncology company built around one chemical idea: tri-complex 'RAS(ON)' inhibitors that recruit cyclophilin A to clamp RAS in its active, GTP-bound state — the form earlier KRAS drugs could not touch. Its lead asset daraxonrasib is a once-daily oral multi-selective RAS(ON) inhibitor; the FDA accepted its NDA in previously treated metastatic pancreatic cancer on 22-Jul-2026 after Phase 3 RASolute 302 showed 13.2 vs 6.7 months median overall survival against chemotherapy. There is no product revenue yet; the company funds itself with equity, convertibles and a Royalty Pharma synthetic-royalty facility.",
     "revenue_mix": [
       {
-        "segment": "No commercial product revenue — clinical-stage; income is collaboration/grant and interest only (approx)",
+        "segment": "Product revenue — none; daraxonrasib NDA under FDA review, decision expected in 2026",
+        "share_pct": 0,
+        "trend": "pre-revenue"
+      },
+      {
+        "segment": "Non-dilutive funding received in lieu of revenue — Royalty Pharma synthetic royalty on daraxonrasib ($250m tranches; two received)",
         "share_pct": 100,
-        "trend": "stable"
+        "trend": "n/a — financing, not revenue"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States (operations/clinical base; no product sales yet)",
+        "region": "United States (Expanded Access Program live across nearly all 50 states and Puerto Rico; commercial launch infrastructure built)",
         "share_pct": 100
+      },
+      {
+        "region": "Europe (EMA phased review under the Cancer Medicines Pathfinder project, ahead of full MAA)",
+        "share_pct": 0
+      },
+      {
+        "region": "Switzerland / rest of world (Swissmedic orphan drug status granted)",
+        "share_pct": 0
       }
     ],
     "end_markets": [
-      "Pancreatic ductal adenocarcinoma (PDAC)",
-      "Non-small cell lung cancer (KRAS-mutant)",
-      "Colorectal cancer",
-      "Other RAS-addicted solid tumors"
+      "Metastatic pancreatic ductal adenocarcinoma — 2L (NDA filed), 1L (RASolute 303) and adjuvant (RASolute 304)",
+      "RAS-mutant non-small cell lung cancer — daraxonrasib (RASolve 301, Breakthrough Therapy for non-G12C), elironrasib and zoldonrasib in 1L combinations with pembrolizumab + platinum doublet",
+      "Colorectal cancer — RAS(ON) doublets and combination strategies, update guided for Q4-2026",
+      "Broader RAS-addicted solid tumours via mutant-selective assets: elironrasib (G12C), zoldonrasib (G12D), RMC-5127 (G12V), RMC-0708 (Q61H), RMC-8839 (G13C)"
     ],
     "top_competitors": [
-      "Amgen (Lumakras/sotorasib, KRAS G12C)",
-      "Bristol Myers Squibb (Krazati/adagrasib, via Mirati)",
-      "Boehringer Ingelheim (RAS programs)",
-      "Eli Lilly (KRAS/pan-RAS pipeline)",
-      "Roche/Genentech (divarasib)"
+      "Amgen (Lumakras/sotorasib) and Bristol Myers Squibb/Mirati (Krazati/adagrasib) — first-generation RAS(OFF) G12C inhibitors whose uptake has plateaued",
+      "Roche/Genentech (divarasib) — the strongest second-generation G12C competitor",
+      "Eli Lilly (olomorasib) — G12C",
+      "Boehringer Ingelheim, Erasca, Quanta Therapeutics, Frontier Medicines and Chinese entrants (Jacobio, InventisBio) pursuing pan-RAS and RAS(ON) chemistry",
+      "In pancreatic cancer specifically, the practical competitor is still chemotherapy (FOLFIRINOX, gemcitabine/nab-paclitaxel) plus emerging modalities such as BioNTech's autogene cevumeran"
     ],
     "moat": {
-      "type": "Differentiated RAS(ON) science + first-mover breadth",
-      "narrative": "Most rivals inhibit only the inactive RAS(OFF) state or a single mutation (G12C); Revolution's tri-complex RAS(ON) inhibitors hit the active oncogenic state and span a multi-selective drug (daraxonrasib) plus mutation-selective assets (elironrasib G12C, zoldonrasib G12D, RMC-5127 G12V). That portfolio plus FDA Breakthrough Therapy, Orphan Drug, and a Commissioner's National Priority Voucher for accelerated review builds a regulatory and IP lead in a validated target class."
+      "type": "Proprietary tri-complex chemistry plus a first-mover position in a tumour type with no standard of care",
+      "narrative": "The tri-complex approach — using cyclophilin A as a molecular glue to create a novel binding surface on active RAS — is chemistry Revolution owns end to end, and it produced the first Phase 3 win in second-line metastatic pancreatic cancer, a setting where median survival has been stuck near six months for two decades. That combination of a defensible platform and a genuinely empty competitive field is the moat: physicians have nothing to switch back to. It is also a single-asset moat. Approval risk, launch execution and the fact that daraxonrasib's clock is a patent clock, not a franchise, mean the durability of the advantage depends entirely on converting the mutant-selective pipeline (elironrasib, zoldonrasib, RMC-5127) into a lung and colorectal franchise before G12C rivals broaden."
     },
     "key_customers": [
-      "None — pre-commercial. Future 'customers' are oncologists/payers treating PDAC and KRAS-mutant cancers",
-      "Royalty Pharma is a key financing counterparty via a royalty/funding agreement"
+      "No commercial customers yet — daraxonrasib is distributed free through an FDA-cleared Expanded Access Program (>2,000 patients supplied since May-2026)",
+      "Academic cancer centres and community oncology practices participating in the EAP form the pre-launch prescriber base",
+      "Royalty Pharma — the largest financial counterparty, funding up to $2bn against daraxonrasib royalties",
+      "Clinical collaborators: Summit Therapeutics (PD-1/VEGF bispecific), Tango Therapeutics (MTA-cooperative PRMT5), Bristol Myers Squibb"
     ],
     "key_risks": [
-      "Binary clinical risk: RASolute 302 Phase 3 readout in previously treated metastatic PDAC (expected 2026) is make-or-break for the equity",
-      "Cash burn — sustained R&D spend with no product revenue means reliance on capital markets / partnerships and dilution risk",
-      "Competitive timing from Amgen, BMS, and Roche advancing their own RAS programs",
-      "Safety/tolerability of pan-RAS inhibition (on-target wild-type RAS effects) could limit dosing or label breadth"
+      "Zero revenue against FY2026 GAAP opex guidance of $2.1-2.2bn; Q2-26 alone burned $505m of operating expense and posted a $644m net loss",
+      "Binary FDA outcome — the entire equity story rests on a single NDA decision expected later in 2026",
+      "Second-line metastatic PDAC is a small commercial base; the investment case requires the much harder 1L PDAC and NSCLC readouts (RASolve 301 initial data not until 2027)",
+      "Financing overhang and dilution — $1.725bn of stock plus $500m of 0.50% converts issued in April 2026, on top of Royalty Pharma royalty obligations that permanently reduce daraxonrasib economics",
+      "GAAP earnings are distorted by EQRx warrant fair-value swings (a $151.0m non-cash charge in Q2-26 alone), which makes reported losses noisy",
+      "Roche's divarasib and Lilly's olomorasib could define the G12C standard before Revolution's mutant-selective assets reach Phase 3 readout"
     ],
     "sources": [
       {
-        "label": "RASolute 302 ASCO 2026 plenary presentation announcement",
-        "url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-pivotal-phase-3-rasolute-302"
+        "label": "Q2 2026 results and corporate progress (8-K Ex-99.1, 5-Aug-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001628171/000119312526335039/rvmd-ex99_1.htm"
       },
       {
-        "label": "FDA Breakthrough Therapy designation for daraxonrasib",
-        "url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-announces-fda-breakthrough-therapy"
+        "label": "FDA acceptance of daraxonrasib NDA (Revolution Medicines IR)",
+        "url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-new-drug-application-daraxonrasib-accepted"
       },
       {
-        "label": "Revolution Medicines FY2025 8-K (results)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001628171/000095017025065618/rvmd-ex99_1.htm"
+        "label": "Royalty Pharma / Revolution Medicines up to $2bn funding agreements",
+        "url": "https://www.royaltypharma.com/news/royalty-pharma-and-revolution-medicines-enter-into-funding-agreements-for-up-to-2-billion/"
       }
     ],
-    "last_refreshed": "2026-06-28"
+    "last_refreshed": "2026-08-08"
   },
   "AMAT": {
     "ticker": "AMAT",
@@ -10350,5 +10403,811 @@
       }
     ],
     "last_refreshed": "2026-08-06"
+  },
+  "VLO": {
+    "ticker": "VLO",
+    "company": "Valero Energy Corporation",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Valero buys crude oil and other feedstocks, runs them through 15 refineries in the U.S., Canada and the U.K. with ~3.2m bpd of combined capacity, and sells gasoline, diesel, jet fuel and petrochemicals into the U.S., Canada, U.K., Ireland and Latin America. Two smaller businesses sit alongside: a 50/50 renewable diesel and SAF joint venture with Darling Ingredients (Diamond Green Diesel, ~1.2bn gal/yr on the Gulf Coast) and 12 Mid-Continent ethanol plants (~1.7bn gal/yr). It earns a spread, not a price — the whole model is crack margin times throughput.",
+    "revenue_mix": [
+      {
+        "segment": "Refining (FY25 segment revenue $116.2bn; operating income $4,040m)",
+        "share_pct": 92,
+        "trend": "cyclical — margins recovered sharply in 2H25"
+      },
+      {
+        "segment": "Ethanol (FY25 segment revenue $5.0bn; operating income $374m)",
+        "share_pct": 4,
+        "trend": "improving on strong crush margins"
+      },
+      {
+        "segment": "Renewable Diesel / Diamond Green Diesel JV (FY25 segment revenue $4.6bn; operating LOSS of $156m)",
+        "share_pct": 4,
+        "trend": "deteriorating — feedstock tariffs and credit transition"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "U.S. Gulf Coast (FY25 throughput 1,806 mbpd)",
+        "share_pct": 60
+      },
+      {
+        "region": "North Atlantic — Quebec City, Canada and Pembroke, Wales (482 mbpd)",
+        "share_pct": 16
+      },
+      {
+        "region": "U.S. Mid-Continent (451 mbpd)",
+        "share_pct": 15
+      },
+      {
+        "region": "U.S. West Coast (249 mbpd) — shrinking as Benicia ceases refining by end-Apr-2026",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Transportation fuels — gasoline, diesel and jet fuel sold wholesale and through ~7,000 branded outlets (Valero, Beacon, Diamond Shamrock, Shamrock, Texaco)",
+      "Refined product exports from Gulf Coast deep-water docks into Latin America and Europe",
+      "Renewable diesel and sustainable aviation fuel via DGD, sold into California LCFS and EU mandate markets",
+      "Fuel ethanol for U.S. gasoline blending, plus distillers grains and corn oil co-products",
+      "Petrochemical feedstocks and asphalt"
+    ],
+    "top_competitors": [
+      "Marathon Petroleum — the largest U.S. refining system and the direct scale comparator",
+      "Phillips 66 — similar Gulf Coast/Mid-Con footprint plus the Rodeo renewable diesel conversion",
+      "ExxonMobil and Chevron — integrated majors with Gulf Coast refining and their own renewables",
+      "PBF Energy, HF Sinclair, Delek US and Par Pacific in domestic refining",
+      "Neste — the global cost leader in renewable diesel and SAF, and DGD's main competitor",
+      "ADM, POET and Green Plains in ethanol"
+    ],
+    "moat": {
+      "type": "Asset location and complexity, not pricing power",
+      "narrative": "There is no product differentiation in refining — the durable edge is where the plants sit and what crude they can eat. Sixty percent of Valero's throughput is on the U.S. Gulf Coast, on deep-water docks that let it buy discounted waterborne sour and heavy crudes (57% sour in the Gulf Coast system) and ship finished product to Latin America and Europe when domestic cracks are weak. That optionality is why Valero's per-barrel capture holds up through cycles that squeeze inland refiners. It is a cost-curve position, not a franchise: no customer is locked in, and the moat erodes whenever light-heavy differentials compress. The renewable diesel JV was supposed to be the diversifier and instead lost $156m at the operating line in 2025."
+    },
+    "key_customers": [
+      "Wholesale rack customers, jobbers and distributors — Valero does not own most of the ~7,000 outlets carrying its brands",
+      "Export buyers in Latin America (notably Mexico) and Europe, taking Gulf Coast gasoline and diesel cargoes",
+      "Obligated blenders and California LCFS-market participants buying DGD renewable diesel and SAF",
+      "Gasoline blenders taking Mid-Continent ethanol",
+      "No customer is individually material — this is a commodity, spot-priced book"
+    ],
+    "key_risks": [
+      "Benicia, California is being shut by end-April 2026, triggering a $1,131m asset impairment in 2025 and removing West Coast capacity; California's regulatory regime (CARB, LCFS, refining-margin penalty legislation) makes the remaining West Coast asset structurally exposed",
+      "Renewable Diesel is loss-making — tariffs on imported feedstocks (used cooking oil) and the shift from the blender's tax credit to 45Z gutted DGD's margin, which fell from $1,122m in 2024 to $419m in 2025",
+      "Crack spreads and light-heavy crude differentials are the entire earnings driver and neither is controllable; FY25 adjusted EPS of $10.61 sits well above mid-cycle",
+      "RIN/RVO compliance costs and small-refinery-exemption policy swings can move hundreds of millions of dollars per year",
+      "Long-term demand risk in gasoline as U.S. light-vehicle electrification advances, against a refining asset base with 20+ year lives"
+    ],
+    "sources": [
+      {
+        "label": "Valero 4Q25 and full-year 2025 earnings release",
+        "url": "https://s23.q4cdn.com/587626645/files/doc_earnings/2025/q4/earnings-result/VLO-4Q25-Earnings-Release.pdf"
+      },
+      {
+        "label": "Valero FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026011499/vlo-20251231.htm"
+      },
+      {
+        "label": "Valero Investor Relations",
+        "url": "https://investorvalero.com/"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "CRDO": {
+    "ticker": "CRDO",
+    "company": "Credo Technology Group Holding Ltd",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Credo sells the high-speed interconnect that links servers and GPUs inside AI datacentres. Its signature product is the ZeroFlap Active Electrical Cable — a copper cable with Credo's own SerDes silicon in the connector — which replaces short-reach optics at lower power, lower cost and far better link reliability. It also sells optical DSPs and ZF optical transceivers, OmniConnect memory connectivity, PCIe/Ethernet retimers and SerDes chiplets, and licenses its SerDes IP. Fiscal 2026 (ended 2-May-2026) revenue tripled to $1,335m at a 68.0% gross margin and $472m of GAAP net income.",
+    "revenue_mix": [
+      {
+        "segment": "ZeroFlap Active Electrical Cables and copper connectivity (approx — Credo does not disclose product-level splits)",
+        "share_pct": 72,
+        "trend": "growing fast"
+      },
+      {
+        "segment": "Optical — ZF optical transceivers and optical DSPs/retimers (approx)",
+        "share_pct": 18,
+        "trend": "growing fastest; management targeted a doubling in FY26"
+      },
+      {
+        "segment": "SerDes IP licensing, chiplets and product engineering services (approx)",
+        "share_pct": 10,
+        "trend": "stable, high margin"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (9M FY26 revenue $453.9m; ship-to destination)",
+        "share_pct": 51
+      },
+      {
+        "region": "Hong Kong ($292.6m — contract manufacturers, not end demand)",
+        "share_pct": 33
+      },
+      {
+        "region": "Mainland China ($79.1m)",
+        "share_pct": 9
+      },
+      {
+        "region": "Rest of world ($72.4m)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Hyperscale AI back-end scale-out and scale-up networks (400G/800G moving to 1.6T)",
+      "NeoClouds and AI-specialist datacentre operators",
+      "Front-end general-compute networking as NIC speeds double every 2-3 years",
+      "Optical module manufacturers buying Credo DSPs",
+      "PCIe/CXL server connectivity and emerging 'scale-in' memory fabrics (OmniConnect)"
+    ],
+    "top_competitors": [
+      "Broadcom — named principal competitor; dominant in SerDes, PCIe switching and optical DSP",
+      "Marvell — named principal competitor across retimers, DSPs and custom silicon",
+      "Astera Labs — named principal competitor in AECs and PCIe/Ethernet retiming",
+      "Cable and optical transceiver suppliers (Amphenol, Molex, Innolight, Eoptolink) competing on the module rather than the silicon",
+      "Passive DAC and commodity optics vendors, which Credo displaces on reliability rather than price"
+    ],
+    "moat": {
+      "type": "SerDes IP advantage that lets Credo win on mature process nodes, plus a systems-level reliability story",
+      "narrative": "Credo's mixed-signal SerDes architecture hits competitive performance at an older, cheaper, more available process node — the 'n-1 advantage' — so it can price under Broadcom and Marvell while still earning 68% gross margins and without queuing for leading-edge TSMC capacity. The second and more durable layer is reliability: Credo co-developed ZeroFlap with Oracle specifically to kill 'link flap', the intermittent failures that stall AI cluster bring-up, and it wraps everything in the PILOT diagnostics platform. Once an operator has tuned its cluster turn-up process around Credo telemetry, swapping the cable vendor means re-qualifying the whole link budget. The vulnerability is that this is a cable and DSP business, not a socket — Broadcom can bundle, and copper reach shrinks every time lane rates double."
+    },
+    "key_customers": [
+      "Customer A — 53% of 9M FY26 revenue (down from 66%); not named in filings, widely reported to be Amazon/AWS",
+      "Customer B — 31% of 9M FY26 revenue; not named",
+      "Oracle — named in the 10-K as the co-development partner for ZeroFlap Optics",
+      "Top 10 customers were ~90% of FY2026 revenue; over 20 blue-chip clients including hyperscalers, NeoClouds, OEMs, ODMs and optical module makers",
+      "Microsoft and xAI have been publicly identified as hyperscale customers in company commentary"
+    ],
+    "key_risks": [
+      "Two customers were each over 10% of FY26 revenue and the top 10 were ~90% — a single hyperscaler capex pause resets the model",
+      "No long-term purchase commitments from customers; the order book is effectively at-will",
+      "Sole-sourced wafers from TSMC and a small set of Asian OSATs and cable manufacturers — no second foundry",
+      "Copper AECs have a physics ceiling: as lane rates go to 200G and 400G per lane, reach shortens and the addressable copper socket can migrate to optics faster than Credo's optical business scales",
+      "Broadcom and Marvell are far larger and can price or bundle aggressively; Astera Labs competes directly for the same rack sockets",
+      "Rapid acquisition pace (Hyperlume Sep-2025, CoMira Feb-2026, DustPhotonics May-2026) adds integration risk and pushed FY27 Q1 GAAP opex guidance to $167.6-171.6m"
+    ],
+    "sources": [
+      {
+        "label": "Q4 and FY2026 results (ended 2-May-2026)",
+        "url": "https://s205.q4cdn.com/511065572/files/doc_news/Credo-Technology-Group-Holding-Ltd-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results-2026.pdf"
+      },
+      {
+        "label": "Q3 FY2026 Form 10-Q (geographic and customer concentration detail)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026014017/crdo-20260131.htm"
+      },
+      {
+        "label": "Credo Investor Relations",
+        "url": "https://investors.credosemi.com/"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "HALO": {
+    "ticker": "HALO",
+    "company": "Halozyme Therapeutics, Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Halozyme is a royalty machine, not a drug company. Its enzyme rHuPH20 temporarily breaks down hyaluronan under the skin, letting large-volume biologics be injected subcutaneously in minutes instead of infused for hours. It licenses that technology — branded ENHANZE — to big pharma, which reformulates blockbusters as subcutaneous versions and pays Halozyme royalties on the resulting sales. Ten ENHANZE products are commercial in 100+ markets. Halozyme also sells two proprietary products (Hylenex, XYOSTED), supplies bulk rHuPH20, and has bought two hyperconcentration platforms (Hypercon from Elektrofi, and Surf Bio). FY2025 revenue was $1,396.6m; 2026 guidance was raised to $1.835-1.910bn.",
+    "revenue_mix": [
+      {
+        "segment": "Royalties on ENHANZE-enabled partner products (FY25 $867.8m, +52%)",
+        "share_pct": 62,
+        "trend": "growing — guided to $1.22-1.245bn in 2026"
+      },
+      {
+        "segment": "Product sales, net — bulk rHuPH20 API, Hylenex, XYOSTED and partnered auto-injectors (FY25 $376.4m)",
+        "share_pct": 27,
+        "trend": "growing on API demand"
+      },
+      {
+        "segment": "Revenues under collaborative agreements — upfronts, milestones, target nominations (FY25 $152.3m)",
+        "share_pct": 11,
+        "trend": "lumpy but rising with new deal flow"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States — est.; not disclosed by region (VYVGART Hytrulo, Hylenex, XYOSTED and most API supply)",
+        "share_pct": 55
+      },
+      {
+        "region": "Ex-U.S. — est.; DARZALEX SC and Phesgo skew international via Janssen and Roche, plus China/Japan Rybrevant approvals",
+        "share_pct": 45
+      }
+    ],
+    "end_markets": [
+      "Oncology — multiple myeloma (DARZALEX SC), HER2 breast cancer (Phesgo), NSCLC (Rybrevant Faspro), immuno-oncology (Opdivo Qvantig, Tecentriq Hybreza)",
+      "Autoimmune/neurology — VYVGART Hytrulo (argenx), OCREVUS ZUNOVO (Roche)",
+      "Immunology and IBD — Takeda's ENTYVIO/vedolizumab programme signed Dec-2025",
+      "Endocrinology and self-administration devices — XYOSTED auto-injector, Viatris selatogrel supply agreement",
+      "Emerging: obesity (Skye Bioscience nimacimab) and hyperconcentrated biologics via Hypercon (Janssen, Eli Lilly, argenx, Vertex)"
+    ],
+    "top_competitors": [
+      "Alteogen (ALT-B4 / berahyaluronidase alfa) — the only credible rival hyaluronidase, licensed to Merck for subcutaneous Keytruda and the reason Halozyme is in litigation",
+      "Merck & Co. — as the defendant in Halozyme's MDASE patent suits and as the sponsor of a non-ENHANZE subcutaneous Keytruda",
+      "Internal pharma formulation groups pursuing high-concentration antibody formulations without any enzyme",
+      "On the device/hyperconcentration side: Ypsomed, SHL Medical, Enable Injections and Xeris' XeriJect platform",
+      "Halozyme has no direct competitor in ENHANZE's installed base — the 10 approved products are contractually locked"
+    ],
+    "moat": {
+      "type": "Contractual royalty annuities on other people's blockbusters, protected by a layered patent estate",
+      "narrative": "Once a partner reformulates a $10bn drug with rHuPH20, runs the bridging trials and gets it approved, that molecule is co-formulated with Halozyme's enzyme for the rest of its commercial life — switching would require a new BLA and new clinical data, which no sponsor will do for a marketed product. That is why royalties compound at 40-50% with essentially no incremental cost to Halozyme. The real question is patent runway rather than switching cost: core rHuPH20 composition claims run to roughly 2027, so durability depends on later-filed coformulation and manufacturing patents (the MDASE family Halozyme is asserting against Merck) and on contractual royalty terms. Management is buying its way past that cliff with Hypercon and Surf Bio, which extend the royalty opportunity toward the mid-2040s but do not produce revenue until the first projected launches in 2030-31."
+    },
+    "key_customers": [
+      "Janssen/J&J — DARZALEX FASPRO and RYBREVANT FASPRO; the single largest royalty stream",
+      "Roche/Genentech and Chugai — Phesgo, OCREVUS ZUNOVO, Tecentriq Hybreza, Herceptin SC, plus a new undisclosed target nominated Dec-2025",
+      "argenx — VYVGART Hytrulo, the fastest-growing royalty contributor, plus ARGX-121 and a Hypercon licence",
+      "Bristol Myers Squibb (Opdivo Qvantig), Takeda (ENTYVIO), Pfizer, AbbVie, Eli Lilly, ViiV Healthcare",
+      "Newer signings: Merus (petosemtamab), Skye Bioscience (nimacimab), Vertex (Hypercon, up to 3 targets, $15m upfront, Apr-2026)",
+      "Teva and Viatris/McDermott Laboratories for partnered auto-injector products"
+    ],
+    "key_risks": [
+      "Patent cliff on the core rHuPH20 estate around 2027 — the entire valuation rests on whether coformulation/MDASE claims and contract terms carry royalties into the 2030s",
+      "Merck's subcutaneous Keytruda uses Alteogen's ALT-B4 rather than ENHANZE, proving a workaround exists; Halozyme's German preliminary injunction (Dec-2025) is a partial and jurisdiction-limited defence, and the litigation is expensive ($16.7m of IP litigation costs in 2025)",
+      "Balance sheet is stretched — cash fell to $145.4m at year-end 2025 against $2.14bn of long-term debt after the Elektrofi and Surf Bio deals and buybacks",
+      "Hypercon and Surf Bio are pre-revenue: first launches are projected for 2030-31 and the ~$1bn mid-2030s royalty target assumes 5-7 launches that have not started",
+      "Royalty concentration in DARZALEX SC — any biosimilar or standard-of-care shift in multiple myeloma flows straight through",
+      "Halozyme has no control over partner launch timing, pricing or promotion; the 2025 Surf Bio deal alone caused a $284.9m acquired-IPR&D charge and a Q4 GAAP loss"
+    ],
+    "sources": [
+      {
+        "label": "Halozyme 4Q and FY2025 earnings release (17-Feb-2026)",
+        "url": "https://s28.q4cdn.com/284259014/files/doc_financials/2025/q4/Halozyme-4Q-and-FY-2025-Earnings-Release-FINAL.pdf"
+      },
+      {
+        "label": "Q2 2026 results and raised FY2026 guidance",
+        "url": "https://www.prnewswire.com/news-releases/halozyme-reports-record-second-quarter-2026-results-beats-estimates-and-raises-full-year-2026-financial-guidance-302845332.html"
+      },
+      {
+        "label": "ENHANZE royalty summary (investor deck)",
+        "url": "https://s28.q4cdn.com/284259014/files/doc_presentation/2025/03/Halozyme-ENHANZE-Royalty-Summary-March-2025.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "MPC": {
+    "ticker": "MPC",
+    "company": "Marathon Petroleum Corporation",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Marathon Petroleum runs the largest refining system in the United States — 2,986 mbpcd of crude capacity across 13 refineries in the Gulf Coast, Mid-Continent and West Coast — and sells the output through a wholesale and branded-retail network. Bolted onto it is MPLX, a publicly traded midstream partnership MPC controls (general partner plus ~64% of the units) that gathers, processes and transports crude, natural gas, NGLs and refined products. A third, much smaller segment converts renewable feedstocks into renewable diesel. FY2025 revenue was $135.2bn with $12.0bn of adjusted EBITDA.",
+    "revenue_mix": [
+      {
+        "segment": "Refining & Marketing — ~96% of consolidated revenue; 48% of FY25 segment adj. EBITDA ($6,138m)",
+        "share_pct": 48,
+        "trend": "cyclical; FY25 capture 105%, utilisation 94%"
+      },
+      {
+        "segment": "Midstream (MPLX) — mostly intersegment revenue but 53% of FY25 segment adj. EBITDA ($6,750m)",
+        "share_pct": 52,
+        "trend": "growing ~8% p.a. on natural gas and NGL projects"
+      },
+      {
+        "segment": "Renewable Diesel — Dickinson ND and the Martinez CA JV with Neste; FY25 segment adj. EBITDA of NEGATIVE $110m",
+        "share_pct": 0,
+        "trend": "loss-making"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "U.S. Gulf Coast (FY25 gross throughput 1,314 mbpd; includes Galveston Bay and Garyville, two of the largest U.S. refineries)",
+        "share_pct": 43
+      },
+      {
+        "region": "U.S. Mid-Continent (1,199 mbpd) — highest FY25 R&M margin at $17.27/bbl",
+        "share_pct": 39
+      },
+      {
+        "region": "U.S. West Coast (540 mbpd) — highest margin at $20.57/bbl but also the highest opex at $8.20/bbl",
+        "share_pct": 18
+      },
+      {
+        "region": "International",
+        "share_pct": 0
+      }
+    ],
+    "end_markets": [
+      "U.S. transportation fuels — gasoline, distillates and jet fuel; FY25 refined product sales of 3,718 mbpd",
+      "Branded retail through ~7,000 Marathon-branded outlets and the ARCO brand on the West Coast (MPC supplies; it does not own most sites)",
+      "Convenience-store fuel supply — a 15-year agreement with 7-Eleven from the 2021 Speedway divestiture covering roughly 7.7bn gallons a year",
+      "Natural gas and NGL producers in the Marcellus, Utica and Permian served by MPLX gathering, processing and fractionation",
+      "Renewable diesel into California LCFS and federal RFS markets",
+      "Asphalt, propane, petrochemical feedstocks and heavy fuel oil"
+    ],
+    "top_competitors": [
+      "Valero Energy — the closest scale comparator, more Gulf Coast/export weighted",
+      "Phillips 66 — refining plus its own midstream (PSXP rolled up) and Rodeo renewables",
+      "ExxonMobil and Chevron — integrated refiners with West Coast and Gulf Coast overlap",
+      "PBF Energy, HF Sinclair, Delek US and Par Pacific in regional refining",
+      "In midstream, MPLX competes with Energy Transfer, Williams, Enterprise Products, ONEOK and Targa",
+      "Neste and Diamond Green Diesel (Valero/Darling) in renewable diesel"
+    ],
+    "moat": {
+      "type": "Scale plus a captive midstream that converts cyclical refining into a semi-contracted cash annuity",
+      "narrative": "Refining itself has no moat — MPC takes the same crack spread everyone else does. What differentiates it is owning the general partner and ~64% of MPLX, which threw off $6,750m of segment adjusted EBITDA in 2025 on fee-based, largely volume-committed contracts. Management is explicit that MPLX's growing distribution alone more than funds MPC's dividend and standalone capital, so the parent can keep buying back stock through a refining trough — something Valero and Phillips 66 cannot do to the same degree. The second edge is logistics integration: MPLX moves MPC's own barrels ($3.69/bbl of intercompany fees in FY25), so the refining system's distribution costs are partly recycled back into consolidated earnings rather than paid away to third parties."
+    },
+    "key_customers": [
+      "7-Eleven — the largest single named offtaker, under a 15-year, ~7.7bn gallon/year fuel supply agreement signed with the 2021 Speedway sale",
+      "Independent jobbers, dealers and distributors operating ~7,000 Marathon-branded and ARCO-branded outlets",
+      "Third-party natural gas and NGL producers contracting MPLX gathering and processing capacity",
+      "MPC's own Refining & Marketing segment is MPLX's single largest customer — the relationship is substantially intercompany",
+      "Wholesale rack and export buyers; no third-party customer is individually material to consolidated revenue"
+    ],
+    "key_risks": [
+      "Refining margins drove the entire 2025 earnings swing (R&M segment EBITDA went from $559m in Q4-24 to $1,997m in Q4-25) — the base is inherently unstable and FY25 adjusted EPS of $10.70 is not a mid-cycle number",
+      "Renewable Diesel lost $110m of segment adjusted EBITDA in 2025 despite 94% utilisation; the 45Z credit transition and feedstock tariffs have not been resolved",
+      "California regulatory risk on West Coast assets — windfall-profit taxes, maximum-refining-margin penalties and minimum inventory requirements are named explicitly in MPC's own risk language",
+      "Turnaround intensity is rising — $1,553m of refining planned turnaround costs in FY25 versus $1,404m in FY24, and West Coast turnaround cost hit $3.09/bbl",
+      "MPC does not consolidate MPLX's distribution decisions in its own right beyond its GP control; a slowdown in MPLX distribution growth would directly undercut the capital-return story",
+      "Structural gasoline demand decline in the U.S. against a refining base with decades of remaining asset life"
+    ],
+    "sources": [
+      {
+        "label": "MPC Q4 and full-year 2025 earnings release (8-K, Jan-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000003/mpcq42025earningsrelease.htm"
+      },
+      {
+        "label": "MPC FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm"
+      },
+      {
+        "label": "Marathon Petroleum Investor Relations",
+        "url": "https://ir.marathonpetroleum.com/"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "PAYC": {
+    "ticker": "PAYC",
+    "company": "Paycom Software, Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Paycom sells one cloud HCM system to US mid-market employers: payroll, tax filing, time and attendance, hiring, benefits and expense management all writing to a single database with one employee record. It charges recurring per-employee-per-month fees and also keeps the interest on payroll funds it holds between the employer debit and payday. FY2025 revenue was $2.05bn, up 9%, of which 94.5% was recurring; roughly 39,200 clients and 7.4m employee records sit on the system.",
+    "revenue_mix": [
+      {
+        "segment": "Recurring — HCM SaaS subscriptions, per-employee-per-month (approx, ex-float)",
+        "share_pct": 90,
+        "trend": "growing"
+      },
+      {
+        "segment": "Recurring — interest earned on funds held for clients / payroll float (approx; ~$105m guided for 2026)",
+        "share_pct": 5,
+        "trend": "declining"
+      },
+      {
+        "segment": "Implementation and other one-time fees",
+        "share_pct": 5,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 99
+      },
+      {
+        "region": "International (Global HCM payroll in 20+ countries; not separately disclosed, immaterial)",
+        "share_pct": 1
+      }
+    ],
+    "end_markets": [
+      "US employers with roughly 50-10,000 employees (core sweet spot 100-2,500)",
+      "Healthcare and senior care",
+      "Restaurants, hospitality and retail (high-turnover hourly workforces)",
+      "Manufacturing, transportation and logistics",
+      "Professional services, financial services and education"
+    ],
+    "top_competitors": [
+      "ADP (Workforce Now and Run — the incumbent Paycom displaces most often)",
+      "Paylocity (closest head-to-head in the 50-5,000 employee band)",
+      "Paychex (acquired Paycor in April 2025, putting a far better-funded rival directly in the mid-market)",
+      "Dayforce (formerly Ceridian) — upmarket, enterprise workforce management",
+      "Workday (above 3,000 employees)",
+      "UKG, Gusto and Rippling (down-market and SMB encroachment)"
+    ],
+    "moat": {
+      "type": "Single-database architecture plus payroll switching costs",
+      "narrative": "Every Paycom module writes to one database with one employee record, so there is no HRIS-to-payroll integration layer to break — a genuinely hard thing for ADP and Paychex to copy because their stacks were assembled from decades of acquisitions and still stitch modules together. That plus the fact that switching payroll mid-year means rebuilding year-to-date tax records keeps annual revenue retention at 91%. The moat has a ceiling though: the same monolithic design slows how fast Paycom can bolt on new capability, and the automation products (Beti, GONE, IWant) were deliberately built to delete billable service work."
+    },
+    "key_customers": [
+      "No customer concentration disclosed — ~39,200 clients on a taxpayer-ID basis as of 31-Dec-2025, no single client material",
+      "7.4m employee records stored on system (+5% YoY), which is the actual billing base",
+      "Client base is direct-sold through ~55 US sales offices; no channel or reseller dependency"
+    ],
+    "key_risks": [
+      "Float income (~$105m guided for 2026, near-100% incremental margin) falls with Fed cuts — a rate-cut cycle hits EPS harder than it hits revenue",
+      "Deliberate self-cannibalisation: Beti and GONE removed billable client-service and unscheduled-payroll-run revenue; management traded growth for retention, and 2026 guidance of ~7-8% growth is a fraction of the 20-30% Paycom printed in 2019-2022",
+      "Paychex's April 2025 acquisition of Paycor put a much larger balance sheet directly into Paycom's mid-market lane, alongside continued head-to-head share loss to Paylocity",
+      "Revenue is priced per-employee-per-month, so a US white-collar hiring freeze or layoff cycle shrinks revenue per client with no offsetting lever",
+      "Founder-CEO Chad Richison retains outsized voting control and a track record of abrupt pivots — the 2023-24 sales reorganisation cost roughly a year of growth"
+    ],
+    "sources": [
+      {
+        "label": "Paycom Q4 and Year-End 2025 results",
+        "url": "https://investors.paycom.com/news/news-details/2026/Paycom-Software-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Results/default.aspx"
+      },
+      {
+        "label": "Paycom FY2025 Form 10-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526059372/payc-20251231.htm"
+      },
+      {
+        "label": "Paycom quarterly results and guidance (IR)",
+        "url": "https://investors.paycom.com/financials/quarterly-results/"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "ATI": {
+    "ticker": "ATI",
+    "company": "ATI Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "ATI melts, forges, rolls and machines specialty metals — titanium, nickel-based superalloys, zirconium and specialty stainless — into the mill products and precision components that go into jet engines and airframes. It is one of only a handful of Western producers qualified to supply rotating-grade material for commercial jet engines, and sells largely under multi-year long-term agreements rather than on spot. FY2025 revenue was $4.59bn with aerospace and defence at 68% of sales; backlog reached $4.4bn (+18% YoY) by Q2 2026.",
+    "revenue_mix": [
+      {
+        "segment": "High Performance Materials & Components (HPMC) — titanium/nickel forgings, castings, powders for jet engines and airframe structures",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Advanced Alloys & Solutions (AA&S) — titanium, nickel and specialty stainless mill products: plate, sheet, strip, precision rolled",
+        "share_pct": 47,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 58
+      },
+      {
+        "region": "Europe (approx — 10-K discloses ~42% total international)",
+        "share_pct": 20
+      },
+      {
+        "region": "Asia (approx)",
+        "share_pct": 13
+      },
+      {
+        "region": "Rest of world — Canada, Latin America, other (approx)",
+        "share_pct": 9
+      }
+    ],
+    "end_markets": [
+      "Commercial jet engines (39% of FY2025 sales, $1,763m — LEAP, GTF, GE9X discs and rotating parts)",
+      "Commercial airframes (17%, $791m — titanium plate, sheet and billet)",
+      "Defence (12%, $558m — naval nuclear, armour, missiles, hypersonics)",
+      "Conventional energy — oil and gas, power generation (7%)",
+      "Specialty energy — nuclear and chemical process industries (6%)",
+      "Automotive (5%)",
+      "Medical implants and devices (4%)",
+      "Electronics (3%) and construction/mining (3%)"
+    ],
+    "top_competitors": [
+      "Precision Castparts (Berkshire Hathaway) — superalloy mill product and precision forgings",
+      "Howmet Aerospace — engine components and structures (also an ATI customer)",
+      "Carpenter Technology — closest listed US peer in premium specialty alloys",
+      "VSMPO-AVISMA (Russia) — the largest low-cost titanium source, sanctions-impaired, which underpins the ATI bull case",
+      "Aubert & Duval (France) — European aerospace forgings",
+      "Kobe Steel, Toho Titanium and Osaka Titanium (Japan); Baoji Titanium (China, largely not Western-aero qualified)"
+    ],
+    "moat": {
+      "type": "Regulatory/OEM qualification plus capital intensity and 20-month lead times",
+      "narrative": "Every alloy, melt path and forging press ATI uses for a rotating jet-engine part is individually qualified by the OEM and the airworthiness authority. Requalifying a source takes years, so GE Aerospace or Safran cannot switch suppliers to chase price mid-programme. That barrier is reinforced by physical scarcity — premium-quality triple-melt titanium and nickel re-melt capacity is capital-heavy and slow to add, and ATI's premium titanium lead times have stretched to 20 months. Sanctions on VSMPO-AVISMA removed the largest low-cost qualified alternative. The honest caveat: this protects volume and position, not pricing forever — it is still a metals business, and the AA&S half carries genuine commodity cyclicality."
+    },
+    "key_customers": [
+      "GE Aerospace — LTA for superalloy and titanium engine material",
+      "Safran — LTA; part of the ~$4bn of aerospace commitments running to 2040",
+      "Rolls-Royce — LTA for nickel superalloy disc-quality product plus precision forgings and castings",
+      "Boeing — titanium supply LTA extended and expanded in August 2025, covering the full narrowbody and widebody suite",
+      "Airbus — multi-year titanium plate, sheet and billet agreement signed June 2025",
+      "Pratt & Whitney (RTX), Howmet and Honeywell; US Navy nuclear programme on the defence side"
+    ],
+    "key_risks": [
+      "Programme concentration: commercial jet engines alone are 39% of sales, so the model is levered directly to Boeing 737 MAX and Airbus A320neo build rates and the LEAP/GTF spares cycle — an OEM rate cut flows straight through",
+      "The constraint is capacity, not demand. Premium titanium lead times of 20 months mean upside is gated by the Chihuahua (Mexico) engine testing and inspection facility and the titanium/nickel re-melt expansions, which only begin contributing in 2H 2026 — any slippage caps the guidance raise",
+      "Raw material and energy pass-through lags: nickel, titanium sponge, cobalt and scrap reprice faster than LTA price resets",
+      "Sanctions relief on Russian titanium (VSMPO-AVISMA) would reintroduce meaningful low-cost Western-qualified supply and compress the scarcity premium",
+      "The AA&S segment is 47% of revenue at 16.3% EBITDA margin versus HPMC's 23.6%, and still carries commodity-stainless, automotive and conventional-energy exposure that is genuinely cyclical"
+    ],
+    "sources": [
+      {
+        "label": "ATI Q4 and FY2025 results (IR)",
+        "url": "https://ir.atimaterials.com/news-events/news-details/2026/ATI-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "ATI FY2025 Annual Report (SEC ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018963/000119312526121346/d933268dars.pdf"
+      },
+      {
+        "label": "ATI Q2 2026 results",
+        "url": "https://www.prnewswire.com/news-releases/ati-announces-second-quarter-2026-results-302844440.html"
+      },
+      {
+        "label": "ATI and Boeing titanium LTA extension (Aug 2025)",
+        "url": "https://ir.atimaterials.com/news-events/news-details/2025/ATI-and-Boeing-extend-and-expand-titanium-supply-long-term-agreement/default.aspx"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "PATH": {
+    "ticker": "PATH",
+    "company": "UiPath, Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "UiPath sells enterprise automation software. Its original product is RPA — software robots that drive existing applications through their user interfaces to run rules-based back-office work (invoice matching, claims intake, ERP data entry) without any integration project. It now sells the same platform as agentic automation: deterministic robots plus LLM-based agents, governed centrally through Orchestrator. Fiscal 2026 (ended 31-Jan-2026) revenue was $1.611bn, up 13%, on ARR of $1.853bn, up 11%, of which over $1.2bn is cloud.",
+    "revenue_mix": [
+      {
+        "segment": "Licenses — term licences, revenue recognised largely upfront (approx)",
+        "share_pct": 53,
+        "trend": "stable"
+      },
+      {
+        "segment": "Subscription services — Automation Cloud, maintenance and support (approx)",
+        "share_pct": 44,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services and other (approx)",
+        "share_pct": 3,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 50
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 32
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 18
+      }
+    ],
+    "end_markets": [
+      "Banking and financial services — reconciliation, KYC/AML, loan operations (largest vertical)",
+      "Insurance — claims intake and adjudication",
+      "Healthcare and life sciences — revenue cycle management, prior authorisation",
+      "Public sector, including US federal (FedRAMP-authorised Automation Cloud)",
+      "Manufacturing, CPG and telecom shared-service centres",
+      "BPO and outsourcing providers who embed UiPath in their own delivery"
+    ],
+    "top_competitors": [
+      "Microsoft Power Automate — bundled into M365 E5, the single biggest pricing threat",
+      "Automation Anywhere — closest pure-play rival",
+      "SS&C Blue Prism",
+      "ServiceNow — encroaching from ITSM workflow into AI agents",
+      "Pegasystems, Appian and Nintex in process orchestration",
+      "Salesforce Agentforce and the LLM labs' own computer-use agent frameworks",
+      "Celonis in process mining (competes with UiPath Process Mining)"
+    ],
+    "moat": {
+      "type": "Deployed automation install base plus the governance/orchestration control plane — real switching costs, weak pricing power",
+      "narrative": "The defensible asset is not the robot, it is Orchestrator: the control plane that schedules, versions, audits and credential-manages thousands of unattended robots inside regulated enterprises, plus the sunk cost of a bank that has 5,000 production automations built in UiPath Studio and cannot cheaply port them. That is why dollar-based net retention is still ~109% and $1m+ ARR customers grew 18% YoY. But it is genuinely contested rather than structural — Microsoft gives Power Automate away inside E5, and if general-purpose LLM agents learn to operate enterprise applications reliably, the install base becomes legacy rather than moat."
+    },
+    "key_customers": [
+      "No single customer above 10% of revenue; concentration is not disclosed",
+      "374 customers at $1m+ ARR as of Q1 FY2027, up 18% YoY — the enterprise base is where growth is coming from",
+      "A Fortune 500 energy company put UiPath at the centre of a $70m cost-reduction programme (cited on the Q1 FY2027 call)",
+      "Published enterprise references include Uber, Deloitte, EY, Generali, Heineken, Chipotle, Omron and Postbank",
+      "Global systems integrators and BPOs (Accenture, Deloitte, EY, PwC, Cognizant, Infosys, TCS) act as both customers and the primary deployment channel"
+    ],
+    "key_risks": [
+      "Microsoft Power Automate is bundled into M365 E5, which removes the budget line for entry-level RPA entirely — UiPath's dollar-based net retention has slid from 118% (Q1 FY2025) to 109% (Q1 FY2027)",
+      "ARR growth (11-12%) is running below revenue growth, and net new ARR in Q1 FY2027 was only $49m — the installed base is expanding slowly and the agentic products have not yet re-accelerated the underlying subscription base",
+      "US federal is a meaningful vertical, so procurement pauses and budget scrutiny hit new bookings directly with little warning",
+      "Category risk is existential rather than competitive: if LLM agents operate enterprise applications reliably, UI-scripting RPA becomes a commodity feature inside someone else's platform",
+      "Dual-class structure — co-founder Daniel Dines, who returned as CEO in 2024, holds super-voting Class B shares, so public holders cannot force a sale or a strategy change"
+    ],
+    "sources": [
+      {
+        "label": "UiPath Q4 and full year fiscal 2026 results (IR)",
+        "url": "https://ir.uipath.com/news/detail/431/uipath-reports-fourth-quarter-and-full-year-fiscal-2026-financial-results"
+      },
+      {
+        "label": "UiPath Q1 fiscal 2027 results (IR)",
+        "url": "https://ir.uipath.com/news/detail/452/uipath-reports-first-quarter-fiscal-2027-financial-results"
+      },
+      {
+        "label": "UiPath Q1 FY2027 Form 8-K exhibit (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001734722/000173472226000037/path-2026430xex991.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "U": {
+    "ticker": "U",
+    "company": "Unity Software Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Unity runs two businesses. Create Solutions licenses the Unity game engine — the development environment behind roughly 70% of the top mobile games — on per-seat Pro and Enterprise subscriptions plus cloud and hosting. Grow Solutions is the larger half: a mobile ad network (Unity Ads and ironSource) with LevelPlay mediation, monetised as a share of advertiser spend and now powered by the Unity Vector AI ranking engine. FY2025 revenue was $1.85bn, Grow ~66% and Create ~34%; Vector crossed a $1bn annualised run rate in Q2 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Grow Solutions — Unity Ads Network (Unity Vector), ironSource ad network, LevelPlay mediation, Supersonic publishing",
+        "share_pct": 66,
+        "trend": "growing"
+      },
+      {
+        "segment": "Create Solutions — Unity Pro/Enterprise engine subscriptions, cloud and hosting, professional services, Unity Industry",
+        "share_pct": 34,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "EMEA",
+        "share_pct": 32
+      },
+      {
+        "region": "United States",
+        "share_pct": 28
+      },
+      {
+        "region": "Asia Pacific (ex-Greater China)",
+        "share_pct": 19
+      },
+      {
+        "region": "Greater China",
+        "share_pct": 18
+      },
+      {
+        "region": "Other Americas",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "Mobile gaming — hypercasual, casual and mid-core publishers, who are simultaneously the engine's users, the ad network's supply and its demand",
+      "PC and console indie/AA game development",
+      "Non-game mobile app user acquisition",
+      "Unity Industry — automotive HMI and configurators, AEC/architecture visualisation, aerospace and defence simulation, retail and AR"
+    ],
+    "top_competitors": [
+      "AppLovin (AXON) — the dominant mobile UA platform, running roughly 80% EBITDA margins; the direct threat to Grow",
+      "Epic Games' Unreal Engine — out-earned Unity on Steam in 2024 (31% of revenue vs 26%) and leads developer mindshare 42% to 30%",
+      "Godot — free and open-source, gained share after Unity's 2023 Runtime Fee episode",
+      "Google (AdMob / Google Ads) and Meta Audience Network",
+      "Moloco, Liftoff, Mintegral (Mobvista), Digital Turbine",
+      "In-house engines at the largest publishers (Tencent, NetEase, Activision)"
+    ],
+    "moat": {
+      "type": "Two-sided data asset — the engine is the moat, the ad network is the profit pool",
+      "narrative": "Unity's real structural asset is that its engine sits inside roughly 70% of the top 1,000 mobile games, giving it first-party install, session and in-game event data no ad network can buy — precisely the fuel Vector needs to bid better. The catch is that Unity spent years not using it and AppLovin built the identical flywheel from the demand side first. So read it honestly: the engine's developer lock-in is durable, because a shipped game is expensive to port, but the ad network competes on model quality alone with no structural barrier — it comes down to whether Vector's ROAS beats AXON's. The 2023 Runtime Fee reversal also proved Unity cannot monetise the engine aggressively without pushing developers to Godot and Unreal."
+    },
+    "key_customers": [
+      "No single customer above 10% of revenue",
+      "Supply side: the mobile studios running the engine — published Unity-built titles include Pokemon GO (Niantic), Genshin Impact (HoYoverse), Among Us, Call of Duty: Mobile, Beat Saber and Hearthstone",
+      "Demand side (where the revenue actually is): mobile game publishers buying user acquisition, plus non-gaming app advertisers",
+      "Unity Industry references include Volvo Cars and Mercedes-Benz for in-vehicle HMI and visualisation"
+    ],
+    "key_risks": [
+      "AppLovin. The entire re-acceleration case rests on Vector holding ROAS parity or better against AXON, which has a multi-year data and scale head start and ~80% EBITDA margins to reinvest",
+      "Engine share erosion: Unreal out-earned Unity on Steam in 2024 and leads developer mindshare; Godot absorbed the low end. Create grew only 2% YoY in Q2 2026 and cloud/hosting is shrinking after the 2025 portfolio reset",
+      "Revenue is tied to mobile game advertising spend and in-app purchase monetisation — cyclical, and directly exposed to further Apple ATT or Google Play privacy and store-policy changes",
+      "Greater China is 18% of revenue, where game-licence approvals and cross-border ad-spend policy sit entirely outside Unity's control",
+      "Still GAAP-lossmaking ($401m net loss in FY2025, narrowed to a $23m quarterly loss in Q2 2026) with heavy stock-based compensation — the equity story requires the Vector ramp to keep compounding"
+    ],
+    "sources": [
+      {
+        "label": "Unity FY2025 Form 10-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080626000011/unity-20251231.htm"
+      },
+      {
+        "label": "Unity Q4 and FY2025 results (IR)",
+        "url": "https://investors.unity.com/news/news-details/2026/Unity-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Unity Q2 2026 Form 8-K exhibit 99.1 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001810806/000181080626000041/a2026q2ex-991.htm"
+      },
+      {
+        "label": "Unity Q2 2026 Form 10-Q (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001810806/000181080626000043/unity-20260630.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
+  },
+  "SWK": {
+    "ticker": "SWK",
+    "company": "Stanley Black & Decker, Inc.",
+    "as_of": "2026-08-08",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Stanley Black & Decker makes and sells hand tools, power tools and outdoor equipment under DEWALT, CRAFTSMAN, STANLEY, BLACK+DECKER and CUB CADET, sold overwhelmingly through big-box home improvement retail. A smaller Engineered Fastening business supplies rivets, threaded fasteners and assembly systems to automotive OEMs and general industry. FY2025 net sales were $15.1bn, down 2%, with Tools & Outdoor at roughly 87%. The company sold its Consolidated Aerospace Manufacturing arm for $1.8bn in cash, closing in Q2 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Tools & Outdoor — Power Tools (DEWALT, BLACK+DECKER, CRAFTSMAN) (approx)",
+        "share_pct": 47,
+        "trend": "declining"
+      },
+      {
+        "segment": "Tools & Outdoor — Hand Tools, Accessories & Storage (STANLEY, CRAFTSMAN, LENOX, IRWIN) (approx)",
+        "share_pct": 23,
+        "trend": "stable"
+      },
+      {
+        "segment": "Tools & Outdoor — Outdoor Power Equipment (CUB CADET, HUSTLER, DEWALT/BLACK+DECKER OPE) (approx)",
+        "share_pct": 17,
+        "trend": "growing"
+      },
+      {
+        "segment": "Engineered Fastening — automotive and industrial fasteners and assembly systems (post-CAM divestiture)",
+        "share_pct": 13,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 62
+      },
+      {
+        "region": "Europe",
+        "share_pct": 16
+      },
+      {
+        "region": "Emerging markets (Latin America, Asia, EEMEA)",
+        "share_pct": 13
+      },
+      {
+        "region": "Canada",
+        "share_pct": 5
+      },
+      {
+        "region": "Other developed (Japan, Australia, Korea)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "Professional trades and construction — residential and commercial contractors (the DEWALT customer)",
+      "DIY and consumer home improvement via big-box retail",
+      "Lawn, garden and outdoor power equipment (residential and commercial turf)",
+      "Industrial MRO and general industry",
+      "Automotive OEM and Tier 1 assembly (Engineered Fastening — grew 2% organically in Q2 2026)",
+      "Industrial fastening into data centres and solar installations (fastest-growing line, +7% in Q2 2026)"
+    ],
+    "top_competitors": [
+      "Techtronic Industries (Milwaukee, RYOBI) — the principal share taker in professional trades for a decade, at better margins",
+      "Makita and Bosch Power Tools",
+      "Chervon (EGO, SKIL) and Toro/Deere in cordless outdoor",
+      "Snap-on and Emerson (RIDGID) in hand tools and professional mechanics tools",
+      "Harbor Freight (private-label value end)",
+      "Illinois Tool Works, Bollhoff and Atlas Copco in engineered fastening"
+    ],
+    "moat": {
+      "type": "Brand plus battery-platform lock-in plus big-box shelf space — narrower than it looks",
+      "narrative": "DEWALT is one of the few tool brands a contractor will pay a premium for, and once a crew owns ten 20V MAX or FLEXVOLT batteries, switching platforms is genuinely expensive. But Stanley does not own the customer relationship — Home Depot and Lowe's do, and they set price and shelf space. Techtronic's Milwaukee has taken professional-trade share for a decade while earning better margins, which is the clearest evidence the brand moat is not doing heavy lifting. The 2024-26 story is a supply chain restructuring, not a moat story: gross margin recovery came from cost-out and the China exit, not pricing power."
+    },
+    "key_customers": [
+      "The Home Depot — largest customer, roughly 17% of consolidated net sales (10-K disclosed concentration)",
+      "Lowe's — roughly 10% of net sales; the two together set economics for the majority of consumer and pro tools",
+      "Walmart, Amazon, Ace Hardware, Tractor Supply and Menards across mass and hardware channels",
+      "Engineered Fastening: automotive OEMs and Tier 1s including Ford, GM, Stellantis, Toyota, Volkswagen, Bosch and Magna"
+    ],
+    "key_risks": [
+      "Tariffs are the dominant variable. SWK guided to roughly $800m of gross unmitigated 2025 tariff cost; China was ~15% of US supply in 2024, targeted below 10% by mid-2026 and below 5% by end-2026. That mitigation is a multi-year re-sourcing programme that can slip, and management has said it will reassess pricing",
+      "Customer concentration: two buyers (Home Depot ~17%, Lowe's ~10%) control shelf placement and promotional pricing for the core business",
+      "Price is doing the work, volume is falling — FY2025 Tools & Outdoor was +5% price, +2% FX, -9% volume. Price-led revenue in a discretionary category is fragile if US existing-home turnover and DIY remodel demand stay depressed",
+      "Leverage: the $1.8bn CAM sale funded $1.7bn of debt paydown in Q2 2026, but deleveraging is not finished and the dividend absorbs a large share of free cash flow",
+      "Continued share loss to Techtronic's Milwaukee in professional trades and to Chervon/EGO in cordless outdoor — the volume decline is not purely macro"
+    ],
+    "sources": [
+      {
+        "label": "SWK 4Q and full year 2025 results (IR)",
+        "url": "https://ir.stanleyblackanddecker.com/news-events/press-releases/news-details/2026/Stanley-Black--Decker-Reports-4Q-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "SWK FY2025 Form 10-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000009/swk-20260103.htm"
+      },
+      {
+        "label": "SWK 2Q 2026 results (IR)",
+        "url": "https://ir.stanleyblackanddecker.com/news-events/press-releases/news-details/2026/Stanley-Black--Decker-Reports-Solid-2Q-2026-Results/default.aspx"
+      }
+    ],
+    "last_refreshed": "2026-08-08"
   }
 }
