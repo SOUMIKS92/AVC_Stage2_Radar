@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-08-08",
+    "as_of": "2026-08-15",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -67,7 +67,25 @@
         "TCAP.L"
       ]
     },
-    "tickers_n": 50
+    "tickers_n": 145,
+    "last_saturday_refresh": {
+      "date": "2026-08-15",
+      "tickers_refreshed": [
+        "ROKU",
+        "DDOG",
+        "TEAM",
+        "ELF",
+        "GTLB",
+        "DINO",
+        "WDAY",
+        "RBRK",
+        "ESTC",
+        "THC",
+        "EXPE",
+        "CCC",
+        "JHX"
+      ]
+    }
   },
   "STMPA.PA": {
     "ticker": "STMPA.PA",
@@ -6873,27 +6891,27 @@
   "DDOG": {
     "ticker": "DDOG",
     "company": "Datadog, Inc.",
-    "as_of": "2026-06-28",
-    "last_refreshed_reason": "Quarterly refresh (Q1 FY27 cycle)",
-    "company_overview": "Datadog runs a cloud-based observability and security platform that lets engineering and operations teams monitor the health, performance, and security of their software and infrastructure in one place. It sells via usage-based subscriptions (per host, per GB of logs, per million events), so revenue scales with each customer's cloud footprint. FY2025 revenue was $3.43B, up 28% year-over-year, from ~32,700 customers across 160+ countries.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Datadog sells a single SaaS observability and security platform that ingests metrics, traces and logs from a customer's cloud infrastructure and applications, then bills on consumption — per host, per million log events, per span indexed. Roughly 32,700 customers pay it, and 84% of them buy two or more of its ~25 products, which is the entire business model: land on infrastructure monitoring, expand into APM, logs, RUM and now cloud security. FY2025 revenue was $3.43bn, up 28%.",
     "revenue_mix": [
       {
-        "segment": "Infrastructure Monitoring (approx)",
-        "share_pct": 33,
+        "segment": "Infrastructure Monitoring (approx — product revenue not separately disclosed)",
+        "share_pct": 34,
         "trend": "stable"
       },
       {
+        "segment": "APM & Developer Tools suite (approx)",
+        "share_pct": 27,
+        "trend": "growing"
+      },
+      {
         "segment": "Log Management (approx)",
-        "share_pct": 26,
+        "share_pct": 22,
         "trend": "growing"
       },
       {
-        "segment": "APM & Continuous Profiling suite (approx)",
-        "share_pct": 24,
-        "trend": "growing"
-      },
-      {
-        "segment": "Security, Cloud Cost, Digital Experience & other newer products (approx)",
+        "segment": "Security, Digital Experience/RUM, AI observability and other newer products (approx)",
         "share_pct": 17,
         "trend": "growing"
       }
@@ -6901,62 +6919,64 @@
     "geo_mix": [
       {
         "region": "North America",
-        "share_pct": 73
+        "share_pct": 71
       },
       {
-        "region": "EMEA",
-        "share_pct": 17
-      },
-      {
-        "region": "APAC & Other",
-        "share_pct": 10
+        "region": "International (EMEA + APAC + LatAm, not further split in FY2025 10-K)",
+        "share_pct": 29
       }
     ],
     "end_markets": [
-      "Cloud-native software companies",
-      "Financial services & fintech",
-      "Retail & e-commerce",
-      "Media/streaming",
-      "Healthcare & enterprise IT"
+      "Cloud-native software and internet companies",
+      "AI labs and model-serving infrastructure (~11% of Q2 2026 revenue)",
+      "Financial services and fintech",
+      "Retail/e-commerce and media",
+      "Public sector (FedRAMP-authorised offering)"
     ],
     "top_competitors": [
-      "Dynatrace",
-      "New Relic",
       "Splunk (Cisco)",
+      "Dynatrace",
+      "New Relic (Francisco Partners)",
       "Grafana Labs",
       "Elastic",
-      "Microsoft (Azure Monitor) / AWS CloudWatch (native hyperscaler tools)"
+      "AWS CloudWatch / Azure Monitor / Google Cloud Operations (free-tier native tooling)",
+      "Chronosphere and Cribl (cost-control challengers)"
     ],
     "moat": {
-      "type": "Platform breadth + data gravity + land-and-expand",
-      "narrative": "Once a team instruments its stack with Datadog agents, the unified data across 900+ integrations creates switching costs and cross-sell pull: 83% of customers use 2+ products and ~51% use 4+, so each new module (security, LLM observability) rides existing telemetry pipelines rather than a fresh sales motion. Consumption pricing means revenue compounds with customers' own cloud growth."
+      "type": "Data gravity plus multi-product consumption lock-in",
+      "narrative": "Once a customer's agents are deployed across every host and their dashboards, monitors and on-call runbooks are built in Datadog, ripping it out means re-instrumenting the fleet and rewriting alerting — which is why 84% of customers now run two or more products and dollar-based retention stays in the mid-110s. The counterweight is real: OpenTelemetry is standardising the agent layer, so the durable moat is the correlated backend and the breadth of ~900 integrations, not the collector."
     },
     "key_customers": [
-      "Large cloud-native and enterprise accounts; 603 customers at $1M+ ARR and ~4,310 at $100K+ ARR as of Dec 2025",
-      "Disclosed/referenced users include Comcast, Shell, Maersk, Samsung, and major banks",
-      "No single customer is >10% of revenue (diversified base)"
+      "A leading AI company, widely reported to be OpenAI — Datadog's largest customer, estimated at up to ~$300m of revenue, which signed a nine-figure 17-product renewal but is cutting usage from Q3 2026",
+      "Samsung",
+      "Comcast",
+      "Deloitte",
+      "Maersk",
+      "Peloton",
+      "Whoop"
     ],
     "key_risks": [
-      "Usage-based model is exposed to customer cloud-cost optimization — a slowdown in client cloud spend directly compresses consumption revenue",
-      "Hyperscalers (AWS CloudWatch, Azure Monitor, Google Cloud Operations) bundle 'good-enough' native monitoring that can cap seat expansion at cost-conscious accounts",
-      "AI-era pricing disruption from cheaper observability entrants (Grafana, Last9, open-source OpenTelemetry) pressuring log/APM unit economics",
-      "Premium valuation leaves little room for any deceleration below ~25% growth"
+      "Single-customer concentration: the largest AI-lab customer's usage pullback was severe enough that management stripped it out of guidance entirely, and the stock fell up to 19% on 6 Aug 2026",
+      "Guggenheim flagged OpenAI building in-house monitoring that could remove ~$150m of revenue — the same insource risk applies to Anthropic, Meta and the hyperscalers",
+      "AWS, Azure and GCP bundle native monitoring for free or near-free, capping Datadog's share of smaller workloads",
+      "Observability spend is now a named FinOps line item; log ingest volumes are the first thing CFOs cut, and Cribl/Chronosphere sell explicitly on reducing Datadog bills",
+      "OpenTelemetry commoditising instrumentation lowers the switching cost that underpins net retention"
     ],
     "sources": [
       {
-        "label": "Datadog Q4 & FY2025 results (8-K press release)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001561550/000162828026006645/ex-991x20251231x8k.htm"
-      },
-      {
-        "label": "Datadog Q4/FY2025 release (IR)",
-        "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-third-quarter-2025-financial-results"
-      },
-      {
-        "label": "Datadog FY2025 10-K coverage",
+        "label": "Datadog FY2025 Form 10-K",
         "url": "https://www.stocktitan.net/sec-filings/DDOG/10-k-datadog-inc-files-annual-report-3ecaa5579056.html"
+      },
+      {
+        "label": "Datadog Q4 and FY2025 results press release",
+        "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-fourth-quarter-and-fiscal-year-2025-financial"
+      },
+      {
+        "label": "Datadog Q2 2026 earnings call transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/datadog-ddog-q2-2026-earnings-call-transcript/"
       }
     ],
-    "last_refreshed": "2026-06-28"
+    "last_refreshed": "2026-08-15"
   },
   "ALGM": {
     "ticker": "ALGM",
@@ -11209,5 +11229,1081 @@
       }
     ],
     "last_refreshed": "2026-08-08"
+  },
+  "ROKU": {
+    "ticker": "ROKU",
+    "company": "Roku, Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Roku licenses and operates the Roku OS, the software layer that runs on its own streaming players and on TVs built by TCL, Hisense, Sharp and others, and now reaches over 100 million global streaming households. It sells hardware at a deliberate loss to grow that installed base, then monetises it through advertising on the home screen and inside The Roku Channel, plus revenue shares and subscription billing on behalf of streaming services. Fox Corporation agreed in June 2026 to acquire Roku for roughly $22bn enterprise value.",
+    "revenue_mix": [
+      {
+        "segment": "Advertising (video ads, home-screen ads, ad services) — approx, new segment from Q1 2026",
+        "share_pct": 51,
+        "trend": "growing"
+      },
+      {
+        "segment": "Subscriptions (streaming distribution rev-share, premium subs, branded remote buttons) — approx",
+        "share_pct": 37,
+        "trend": "growing"
+      },
+      {
+        "segment": "Devices (players, Roku-branded TVs, smart home, audio)",
+        "share_pct": 12,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — bulk of platform monetisation)",
+        "share_pct": 88
+      },
+      {
+        "region": "Canada / Latin America",
+        "share_pct": 7
+      },
+      {
+        "region": "EMEA / Other international",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "US connected-TV advertising (brand and performance)",
+      "Streaming service distribution and subscription billing",
+      "Consumer streaming hardware retail",
+      "Smart home / audio accessories"
+    ],
+    "top_competitors": [
+      "Amazon Fire TV",
+      "Samsung Tizen (~23% of US broadband household OS usage vs Roku ~28%)",
+      "Google TV / Android TV",
+      "LG webOS",
+      "Vizio SmartCast (owned by Walmart)",
+      "Comcast/Sky Glass"
+    ],
+    "moat": {
+      "type": "Operating-system installed base + control of the home screen",
+      "narrative": "Roku owns the first screen a viewer sees in ~100m households and takes ~44% of all US CTV viewing hours, which makes its home-screen inventory and logged-in identity graph impossible for a streaming service to route around. It defends that position by shipping hardware at negative gross margin (roughly -12% average 2023-2025) as a customer-acquisition cost, and in 2025 made its authenticated CTV supply exclusively addressable through Amazon DSP — turning its biggest platform rival into a distribution partner."
+    },
+    "key_customers": [
+      "Amazon (exclusive DSP access to Roku authenticated CTV inventory; also a Devices retailer)",
+      "Amazon, Best Buy, Walmart and Target together = 81% of Devices revenue",
+      "Netflix, Disney+, Max, Paramount+ (branded remote buttons and billing rev-share)",
+      "TCL and Hisense (Roku TV OS licensees)"
+    ],
+    "key_risks": [
+      "Fox acquisition at $160/share ($96 cash + 0.9693 FOX Class A) is not closed — expected 1H 2027 and subject to antitrust and shareholder approval; the stock now trades on deal arithmetic, not fundamentals",
+      "Devices segment has run at negative gross margin every year since 2021 and is a structural drag if platform growth slows",
+      "Amazon DSP exclusivity concentrates programmatic demand in a single counterparty that also owns Fire TV, Roku's largest direct OS competitor",
+      "Samsung, LG and Walmart-owned Vizio are subsidising their own ad-funded TV operating systems to reclaim home-screen share",
+      "CTV ad pricing pressure as Amazon Prime Video and Netflix flood the market with cheap ad-supported inventory"
+    ],
+    "sources": [
+      {
+        "label": "Roku Q4 and Full Year 2025 Shareholder Letter (8-K Ex-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026007670/a04exhibit991-q425form8xker.htm"
+      },
+      {
+        "label": "Roku 8-K — segment recast into Advertising / Subscriptions / Devices (June 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001428439/000162828026044373/roku-20260618.htm"
+      },
+      {
+        "label": "Fox Corporation to Acquire Roku, Inc. (press release)",
+        "url": "https://www.foxcorporation.com/news/corp-press-releases/2026/fox-corporation-to-acquire-roku-inc/"
+      },
+      {
+        "label": "Roku Q2 2026 Form 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001428439/000162828026054335/roku-20260630.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "TEAM": {
+    "ticker": "TEAM",
+    "company": "Atlassian Corporation",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Atlassian sells subscription software that engineering, IT and now general business teams use to plan and track work — Jira for issue tracking, Confluence for documentation, Jira Service Management for IT service desks, plus Loom, Bitbucket, Trello and the Rovo AI layer. Over 300,000 customers buy it, historically through self-serve credit-card signup rather than a field sales force. FY2026 (ended 30 June 2026) revenue was roughly $6.6bn, up 28%, with subscription ARR of $6.61bn.",
+    "revenue_mix": [
+      {
+        "segment": "Cloud subscription",
+        "share_pct": 69,
+        "trend": "growing"
+      },
+      {
+        "segment": "Data Center (self-hosted subscription)",
+        "share_pct": 25,
+        "trend": "declining"
+      },
+      {
+        "segment": "Marketplace, apps and other",
+        "share_pct": 6,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 48
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 41
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "Software engineering teams (Jira, Bitbucket, Compass)",
+      "IT service management (Jira Service Management, Service Collection >$1bn ARR)",
+      "Non-technical business teams (Teamwork Collection, Confluence, Loom)",
+      "Regulated enterprise and government (Atlassian Government Cloud, isolated cloud)"
+    ],
+    "top_competitors": [
+      "Microsoft (GitHub, Azure DevOps, Planner, Teams)",
+      "ServiceNow (in ITSM)",
+      "monday.com",
+      "Asana",
+      "Smartsheet",
+      "Notion and Linear (encroaching from the developer/startup end)",
+      "Zendesk and Freshworks (service desk)"
+    ],
+    "moat": {
+      "type": "System of record for engineering work + Marketplace ecosystem",
+      "narrative": "Jira holds a decade of an organisation's tickets, sprints, workflows and permission schemes, and those workflows are wired into CI/CD, incident management and compliance evidence — migrating means rebuilding all of it, which is why Data Center customers took years to move even to Atlassian's own cloud. The Marketplace with tens of thousands of third-party apps deepens that, and the cross-sell data is stark: Teamwork Collection customers carry four to five times the paid seats of standalone Jira or Confluence accounts."
+    },
+    "key_customers": [
+      "NASA",
+      "Verizon",
+      "Deloitte",
+      "Toyota",
+      "Nielsen",
+      "Over 500 customers spending more than $1m annually; 300,000+ customers in total"
+    ],
+    "key_risks": [
+      "The Data Center-to-cloud migration tailwind contributed only mid-to-high single digits to cloud growth in FY2026 and is now largely spent — cloud has to grow on net-new seats and cross-sell",
+      "Seat-based pricing is levered to software engineering headcount, which AI coding agents are explicitly designed to reduce",
+      "Microsoft bundles GitHub, Planner and Teams into E5 agreements that CIOs already own, making Atlassian a discretionary add-on",
+      "Rovo was given away inside existing paid tiers, so AI adoption shows up as cost of goods before it shows up as price",
+      "ServiceNow is moving down-market into JSM's mid-market ITSM base with its own agentic platform"
+    ],
+    "sources": [
+      {
+        "label": "Atlassian Q4 FY2026 shareholder letter (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/teamq42026shareholderlet.htm"
+      },
+      {
+        "label": "Atlassian Q4 and FY2026 earnings release",
+        "url": "https://www.businesswire.com/news/home/20260806396002/en/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results"
+      },
+      {
+        "label": "Atlassian FY2025 Annual Report (10-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000060/team2025annualreport.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "ELF": {
+    "ticker": "ELF",
+    "company": "e.l.f. Beauty, Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "e.l.f. Beauty designs mass-market colour cosmetics and skincare, outsources nearly all manufacturing to third-party factories in China, and sells through Target, Walmart, Ulta and its own e-commerce site at price points that undercut prestige equivalents by 60-80%. The portfolio is e.l.f. Cosmetics, e.l.f. SKIN, Naturium, Well People, Keys Soulcare and rhode, the Hailey Bieber brand acquired in 2025. FY2026 (ended 31 March 2026) net sales were $1.64bn, up ~25%.",
+    "revenue_mix": [
+      {
+        "segment": "e.l.f. Cosmetics and e.l.f. SKIN (core brand)",
+        "share_pct": 76,
+        "trend": "growing"
+      },
+      {
+        "segment": "rhode (acquired 2025; $293.5m in FY2026)",
+        "share_pct": 18,
+        "trend": "growing"
+      },
+      {
+        "segment": "Naturium, Well People, Keys Soulcare (approx)",
+        "share_pct": 6,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 79
+      },
+      {
+        "region": "International (UK, Canada, Germany and 14 newly added markets; +38% in FY2026)",
+        "share_pct": 21
+      }
+    ],
+    "end_markets": [
+      "US mass colour cosmetics (drug, mass and specialty retail)",
+      "Mass and masstige skincare",
+      "Direct-to-consumer e-commerce and TikTok/Amazon social commerce",
+      "International beauty retail expansion (UK, Germany, Canada, Italy, Mexico)"
+    ],
+    "top_competitors": [
+      "L'Oreal (Maybelline, NYX, CeraVe)",
+      "Coty (CoverGirl, Rimmel)",
+      "Markwins (Wet n Wild)",
+      "Rare Beauty (Selena Gomez)",
+      "ColourPop",
+      "Glossier and Bubble (in Gen Z skincare)",
+      "Beauty Pie / private-label dupes"
+    ],
+    "moat": {
+      "type": "Cost structure plus speed-to-shelf on the 'dupe' model",
+      "narrative": "e.l.f.'s asset-light China supply chain and a marketing budget spent almost entirely on organic social rather than TV or print let it land a prestige-quality formula at roughly a fifth of the price and still hold ~70% gross margin. Its real edge is cycle time — concept to shelf in months, not the two-plus years a Coty or L'Oreal line takes — so it can reverse-engineer a viral prestige product before the trend decays. That is a process advantage, not a structural one; it depends on continuing to win Gen Z attention and on Chinese sourcing staying cheap."
+    },
+    "key_customers": [
+      "Target (~25% of net sales)",
+      "Walmart (~17%)",
+      "Ulta Beauty (~16%)",
+      "Amazon",
+      "Boots and Superdrug (UK)",
+      "Top three retailers combined represent roughly 58% of net sales"
+    ],
+    "key_risks": [
+      "Roughly three-quarters of product is sourced from China — Section 301 and reciprocal tariffs directly hit gross margin; the company booked a ~$50m tariff refund windfall in Q1 FY2027, which cuts both ways as a signal of exposure",
+      "Retailer concentration: Target, Walmart and Ulta are ~58% of sales, so a single shelf-space reset or planogram loss is a material revenue event",
+      "rhode is a celebrity-dependent asset — Hailey Bieber is a key-person risk on an $800m acquisition, and creator-led brands have short half-lives",
+      "US mass colour cosmetics category growth has decelerated sharply from the 2023-24 spike, and e.l.f.'s US consumption growth has converged toward category rates",
+      "FY2026 net income fell ~77% on rhode deal costs and tariff drag despite 25% top-line growth — the model is currently trading margin for scale"
+    ],
+    "sources": [
+      {
+        "label": "e.l.f. Beauty Q4 and FY2026 results",
+        "url": "https://investor.elfbeauty.com/stock-and-financial/press-releases/landing-news/2026/05-20-2026-210538723"
+      },
+      {
+        "label": "e.l.f. Beauty Q1 FY2027 results (Aug 2026)",
+        "url": "https://investor.elfbeauty.com/stock-and-financial/press-releases/landing-news/2026/08-05-2026-210618204"
+      },
+      {
+        "label": "e.l.f. Beauty FY2026 Form 10-K summary",
+        "url": "https://www.tradingview.com/news/tradingview:6d3ebebad8fee:0-e-l-f-beauty-fy-2026-revenue-1-64b-eps-0-44-10-k-summary/"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "GTLB": {
+    "ticker": "GTLB",
+    "company": "GitLab Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "GitLab sells a single application that covers the whole software lifecycle — source control, code review, CI/CD pipelines, security scanning, package registry and the GitLab Duo AI assistant — priced per seat on Free, Premium ($29) and Ultimate ($99) tiers. Unlike GitHub it ships a fully-featured self-managed edition, which is why regulated and air-gapped customers buy it. FY2026 (ended 31 January 2026) revenue was $955.2m, up 26%, with subscription revenue of $864.7m and ARR crossing $1bn.",
+    "revenue_mix": [
+      {
+        "segment": "Self-managed subscription (customer-hosted; approx, GitLab reports self-managed and SaaS combined)",
+        "share_pct": 58,
+        "trend": "stable"
+      },
+      {
+        "segment": "SaaS — GitLab.com and GitLab Dedicated (approx)",
+        "share_pct": 33,
+        "trend": "growing"
+      },
+      {
+        "segment": "License, professional services and other",
+        "share_pct": 9,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — GitLab's largest single market)",
+        "share_pct": 52
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 26
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 14
+      },
+      {
+        "region": "Other / rest of world (approx)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Enterprise software engineering and platform teams",
+      "Regulated industries needing self-managed/air-gapped DevSecOps (banks, defence, healthcare)",
+      "US federal and public sector (FedRAMP-authorised GitLab Dedicated for Government)",
+      "Embedded/automotive and hardware software teams"
+    ],
+    "top_competitors": [
+      "GitHub (Microsoft) — incumbent with Copilot and Actions",
+      "Atlassian (Bitbucket, Jira, Compass)",
+      "JFrog and CircleCI (artifact and CI point tools)",
+      "Harness",
+      "Snyk and Checkmarx (in application security)",
+      "Cursor, Anthropic's Claude Code and OpenAI Codex (agentic tools capturing the developer workflow above the repo)"
+    ],
+    "moat": {
+      "type": "Single-application consolidation and self-managed deployment — narrowing",
+      "narrative": "GitLab's defensible slice is the regulated, self-hosted enterprise that cannot put source code in Microsoft's cloud, plus the cost case for replacing five point tools with one Ultimate licence. Beyond that the moat is thin and getting thinner: git itself is portable, and the value is migrating up the stack to AI agents that sit above the repository, where GitHub Copilot, Cursor and Claude Code already own the developer's attention. Reported takeover interest in 2026 reflects exactly this — GitLab is a strong asset with a shrinking independent runway."
+    },
+    "key_customers": [
+      "1,456 customers with $100k+ ARR (up 18% YoY)",
+      "Goldman Sachs",
+      "Siemens",
+      "NVIDIA",
+      "US Department of Defense and other federal agencies (via GitLab Dedicated for Government)",
+      "T-Mobile",
+      "Airbus"
+    ],
+    "key_risks": [
+      "Reports that OpenAI is building an internal AI-native code-hosting platform sent GTLB down ~7% in March 2026 and reopened the question of whether repo hosting is a durable business",
+      "GitHub Copilot's bundling into Microsoft enterprise agreements makes GitLab Duo a paid add-on competing against something the CIO already owns",
+      "Seat-based pricing is directly exposed to slowing software engineering headcount growth as AI agents absorb junior work",
+      "FY2026 net loss widened to $58.6m despite 26% growth, and stock-based compensation remains a large share of revenue",
+      "Persistent takeover speculation (Datadog and Google have both been named historically) means the equity trades on deal chatter rather than execution"
+    ],
+    "sources": [
+      {
+        "label": "GitLab Q4 and FY2026 results (IR)",
+        "url": "https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-Fourth-Quarter-and-Full-Year-Fiscal-Year-2026-Financial-Results-Board-of-Directors-Authorizes-400-million-for-Share-Repurchase-Program/default.aspx"
+      },
+      {
+        "label": "GitLab FY2026 Form 10-K summary",
+        "url": "https://www.stocktitan.net/sec-filings/GTLB/10-k-gitlab-inc-files-annual-report-1c11f3df5f7c.html"
+      },
+      {
+        "label": "GitLab Q4 FY2026 earnings call highlights",
+        "url": "https://finance.yahoo.com/news/gitlab-inc-gtlb-q4-2026-050129335.html"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "DINO": {
+    "ticker": "DINO",
+    "company": "HF Sinclair Corporation",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "HF Sinclair is an inland US refiner running roughly 678,000 barrels per day across seven plants — El Dorado KS (135k), Puget Sound/Anacortes WA (149k), Tulsa OK (125k), Navajo/Artesia NM (100k), Parco/Sinclair WY (94k), Woods Cross UT (45k) and Casper WY (30k). It also owns the Sinclair retail brand, the former Holly Energy Partners pipeline and terminal network, a renewable diesel business, and a lubricants arm (Petro-Canada Lubricants, Sonneborn, Red Giant) that it announced in July 2026 it will spin off as a separate public company.",
+    "revenue_mix": [
+      {
+        "segment": "Refining (approx share of external sales; dominates revenue but is the most cyclical earner)",
+        "share_pct": 68,
+        "trend": "stable"
+      },
+      {
+        "segment": "Marketing (Sinclair-branded fuel distribution; record 2025 earnings)",
+        "share_pct": 14,
+        "trend": "growing"
+      },
+      {
+        "segment": "Lubricants & Specialties (~$2.3bn 2025 revenue; being spun off)",
+        "share_pct": 9,
+        "trend": "stable"
+      },
+      {
+        "segment": "Renewables (renewable diesel, Cheyenne/Artesia/Sinclair units)",
+        "share_pct": 5,
+        "trend": "declining"
+      },
+      {
+        "segment": "Midstream (third-party pipeline and terminal revenue; record 2025 earnings)",
+        "share_pct": 4,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States — Mid-Continent, Southwest, Rockies and Pacific Northwest",
+        "share_pct": 90
+      },
+      {
+        "region": "Canada (Petro-Canada Lubricants, Mississauga base oil plant being retired)",
+        "share_pct": 7
+      },
+      {
+        "region": "International lubricants and specialties (Sonneborn Europe/Asia)",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "Transportation fuels — gasoline, diesel, jet (Mid-Continent, Rockies, PNW)",
+      "Renewable diesel for California LCFS and federal RFS markets",
+      "Finished lubricants and process oils (automotive, industrial, personal care via Sonneborn white oils)",
+      "Asphalt and specialty products",
+      "Branded retail fuel through ~1,600 Sinclair stations"
+    ],
+    "top_competitors": [
+      "Marathon Petroleum",
+      "Valero Energy",
+      "Phillips 66",
+      "PBF Energy",
+      "Delek US",
+      "Par Pacific (direct Rockies/PNW overlap)",
+      "CVR Energy (Mid-Continent)"
+    ],
+    "moat": {
+      "type": "Geographic isolation of inland refineries — location, not technology",
+      "narrative": "Refining is a commodity business and HF Sinclair has no product differentiation; its edge is that the Rockies and Mid-Continent plants sit in supply-short, pipeline-constrained markets where imports cannot easily land, so realised crack spreads run above Gulf Coast benchmarks, and they can run discounted Uinta waxy and Canadian heavy barrels that coastal refiners cannot access. The Sinclair brand and owned midstream add a modest integrated margin. Once the crude differential narrows, the advantage narrows with it."
+    },
+    "key_customers": [
+      "~1,600 Sinclair-branded retail fuel stations (dealer/jobber network)",
+      "Wholesale rack and jobber buyers across the Rockies and Mid-Continent",
+      "Petro-Canada Lubricants OEM and industrial accounts in Canada",
+      "Sonneborn white-oil customers in pharmaceutical and personal care",
+      "Third-party shippers on the legacy Holly Energy Partners pipeline system"
+    ],
+    "key_risks": [
+      "Refining margins are the whole earnings story and are outside management control — Q4 2025 alone carried a $313m lower-of-cost-or-market inventory charge",
+      "Lubricants spin-off is a 12-18 month execution risk, includes retiring the Mississauga base oil refinery through 2027, and leaves the remaining company more, not less, exposed to the refining cycle",
+      "Renewables has been a persistent loss-maker on feedstock cost volatility and shifting 45Z/RFS/LCFS credit rules",
+      "RIN cost and small refinery exemption policy under the EPA can swing segment economics by hundreds of millions with no operational change",
+      "Turnaround and unplanned downtime risk concentrated in a small number of inland plants; Puget Sound alone is 22% of system capacity"
+    ],
+    "sources": [
+      {
+        "label": "HF Sinclair Q4 and FY2025 results (8-K Ex-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1915657/000191565726000012/dinoex99112-31x2025.htm"
+      },
+      {
+        "label": "HF Sinclair 8-K — Lubricants & Specialties separation and Mississauga closure (July 2026)",
+        "url": "https://www.stocktitan.net/sec-filings/DINO/8-k-hf-sinclair-corp-reports-material-event-907627fb559b.html"
+      },
+      {
+        "label": "HF Sinclair facilities and refinery capacities (company site)",
+        "url": "https://www.hfsinclair.com/operations/facilities/default.aspx"
+      },
+      {
+        "label": "HF Sinclair Q1 2026 earnings transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/05/01/hf-sinclair-dino-q1-2026-earnings-transcript/"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "WDAY": {
+    "ticker": "WDAY",
+    "company": "Workday, Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Workday runs the HR and finance system of record for large enterprises — payroll, benefits, recruiting, workforce planning in HCM, and general ledger, procurement and planning in Financial Management — delivered as a single multi-tenant cloud with two mandatory upgrades a year. It bills a subscription per worker under multi-year contracts. FY2026 (ended 31 January 2026) revenue was $9.55bn, up 13.1%, of which $8.83bn was subscription, with non-GAAP operating margin of 29.6%.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription services — HCM (approx two-thirds of subscription base)",
+        "share_pct": 61,
+        "trend": "stable"
+      },
+      {
+        "segment": "Subscription services — Financial Management, Planning, Analytics",
+        "share_pct": 31,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services (deployment and training)",
+        "share_pct": 8,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 75
+      },
+      {
+        "region": "International (EMEA, APAC, Canada — not further split in headline disclosure)",
+        "share_pct": 25
+      }
+    ],
+    "end_markets": [
+      "Large enterprise HR and payroll (Fortune 500 core market)",
+      "Enterprise financial management and accounting",
+      "Healthcare systems and universities",
+      "US federal, state and local government",
+      "Professional services and technology firms"
+    ],
+    "top_competitors": [
+      "Oracle Fusion HCM/ERP Cloud (~15% HR software share vs Workday ~13%)",
+      "SAP SuccessFactors and S/4HANA via RISE bundling",
+      "ADP",
+      "Dayforce (formerly Ceridian)",
+      "UKG",
+      "Microsoft Dynamics 365",
+      "Rippling (attacking from mid-market upward)"
+    ],
+    "moat": {
+      "type": "System of record with punitive replacement economics",
+      "narrative": "Workday holds the authoritative employee and financial record for over 11,500 organisations, including more than 7,000 running both HCM and Financials, and a replacement means an 18-24 month reimplementation, re-integrating payroll, benefits carriers and the GL, and retraining the whole HR and finance function. That is reinforced by an entrenched systems-integrator bench — Deloitte, Accenture, PwC, Kainos — whose consultants are certified on Workday and who steer new deals toward it. The genuine vulnerability is pricing, not architecture."
+    },
+    "key_customers": [
+      "More than 11,500 customers globally, including 7,000+ running both Workday HCM and Financial Management",
+      "Netflix",
+      "Salesforce",
+      "Target",
+      "Bank of America",
+      "Sanofi",
+      "US Department of Education and other federal agencies"
+    ],
+    "key_risks": [
+      "Per-worker subscription pricing is directly levered to white-collar headcount growth at customers — a hiring freeze is a revenue freeze, and AI agents are being sold explicitly on reducing seat counts",
+      "Growth has decelerated to 13% with subscription at 14.5%, so the story has shifted from growth to margin expansion (non-GAAP margin up ~370bps YoY)",
+      "SAP's RISE program bundles SuccessFactors with full ERP at migration discounts, and Oracle already leads HR software share",
+      "Financial Management attach into the HCM base has been slower than management targeted; Oracle and SAP defend the GL far harder than they defend HR",
+      "US federal, higher-education and healthcare deal cycles have elongated on budget uncertainty"
+    ],
+    "sources": [
+      {
+        "label": "Workday FY2026 Q4 and full year results (8-K Ex-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-01312026x991.htm"
+      },
+      {
+        "label": "Workday FY2026 Q4 earnings release PDF",
+        "url": "https://s21.q4cdn.com/950027458/files/doc_earnings/2026/q4/Earnings-Release-Q4FY26-022426_FOR-UPLOAD.pdf"
+      },
+      {
+        "label": "Workday Q2 FY2026 prepared remarks",
+        "url": "https://s21.q4cdn.com/950027458/files/doc_financials/2026/q2/workday-fiscal-2026-second-quarter-prepared-remarks.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "RBRK": {
+    "ticker": "RBRK",
+    "company": "Rubrik, Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Rubrik sells cyber-resilience software — it backs up enterprise data from on-premises servers, cloud workloads and SaaS applications into an immutable, append-only store, monitors that data for sensitive content and ransomware indicators, and restores it fast after an attack. It is deliberately sold to the CISO as a security product rather than to IT as backup. FY2026 (ended 31 January 2026) revenue was $1.32bn, up ~48%, with subscription ARR of $1.46bn, up 34%, and net retention above 120%.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription — Rubrik Security Cloud SaaS",
+        "share_pct": 62,
+        "trend": "growing"
+      },
+      {
+        "segment": "Subscription — term-based software (self-managed appliances/software)",
+        "share_pct": 29,
+        "trend": "stable"
+      },
+      {
+        "segment": "Maintenance and other (legacy perpetual support, declining by design)",
+        "share_pct": 6,
+        "trend": "declining"
+      },
+      {
+        "segment": "Professional services",
+        "share_pct": 3,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — majority of ARR)",
+        "share_pct": 70
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 21
+      },
+      {
+        "region": "Asia Pacific and other (approx)",
+        "share_pct": 9
+      }
+    ],
+    "end_markets": [
+      "Large-enterprise data protection and ransomware recovery",
+      "US federal and state government (RSC-G, FedRAMP; Salesforce Government Cloud support added 2026)",
+      "Financial services and healthcare (regulatory retention and recovery mandates)",
+      "SaaS application backup (Microsoft 365, Salesforce, Workday)",
+      "Cloud and AI data security posture management"
+    ],
+    "top_competitors": [
+      "Veeam (largest incumbent by ARR)",
+      "Cohesity (merged with Veritas NetBackup)",
+      "Commvault",
+      "Dell PowerProtect / Data Domain",
+      "Druva",
+      "Zerto (HPE)",
+      "Native cloud backup from AWS Backup and Azure Backup"
+    ],
+    "moat": {
+      "type": "Immutable architecture plus CISO budget positioning",
+      "narrative": "Rubrik's file system is append-only with metadata held in Rubrik's own cloud and logically air-gapped from the customer's Active Directory, so an attacker who owns the domain still cannot delete the backups — a design point competitors retrofitted rather than started with. The commercial moat is where the money comes from: by selling recovery as a security control it is funded out of the security budget, which is growing, rather than the infrastructure budget, which is not. Expansion into DSPM (Laminar) and Identity Resilience deepens the account but is not yet a proven independent business."
+    },
+    "key_customers": [
+      "2,805 customers with $100k+ subscription ARR (up from 2,246 a year earlier)",
+      "US federal agencies via Rubrik Security Cloud Government",
+      "Large financial institutions and healthcare systems (Rubrik's stated core verticals)",
+      "Goes to market almost entirely through channel partners and GSIs rather than direct"
+    ],
+    "key_risks": [
+      "Cohesity's merger with Veritas NetBackup created a competitor with a far larger installed base to defend and cross-sell into",
+      "Veeam remains the volume incumbent with a much bigger ARR base and is preparing its own public listing, which will fund competitive spend",
+      "Still deeply GAAP-loss-making with very high stock-based compensation relative to revenue — the equity depends on continued 30%+ ARR growth to justify the multiple",
+      "Growth is heavily land-and-expand dependent; net retention above 120% has to hold as the $100k+ cohort matures",
+      "Backup is being commoditised at the low end by AWS Backup, Azure Backup and hypervisor-native tools, compressing the entry price point"
+    ],
+    "sources": [
+      {
+        "label": "Rubrik FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm"
+      },
+      {
+        "label": "Rubrik Q4 and FY2026 results (IR)",
+        "url": "https://ir.rubrik.com/news-events/press-releases/news-details/2026/Rubrik-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Rubrik Q1 FY2027 Form 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001943896/000194389626000047/rbrk-20260430.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "ESTC": {
+    "ticker": "ESTC",
+    "company": "Elastic N.V.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Elastic commercialises Elasticsearch, the open-source distributed search and analytics engine that also functions as a vector database, and packages it into three paid solutions: Search AI (application search and RAG retrieval), Observability (logs, metrics, APM) and Security (SIEM and endpoint). Customers either self-manage the software under a paid licence or buy consumption-based Elastic Cloud. FY2026 (ended 30 April 2026) revenue was $1.74bn, up 17%, with subscriptions at 94% of revenue and Elastic Cloud at 48% of total.",
+    "revenue_mix": [
+      {
+        "segment": "Elastic Cloud (consumption-based managed service)",
+        "share_pct": 48,
+        "trend": "growing"
+      },
+      {
+        "segment": "Self-managed and other subscriptions",
+        "share_pct": 46,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional services",
+        "share_pct": 6,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 55
+      },
+      {
+        "region": "EMEA (approx — Elastic is Dutch-domiciled with a large European base)",
+        "share_pct": 30
+      },
+      {
+        "region": "Asia Pacific and other (approx)",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Application and site search / enterprise retrieval for RAG and AI agents",
+      "Log analytics and observability",
+      "SIEM and security analytics",
+      "Public sector and defence (FedRAMP-authorised Elastic Cloud for Government)",
+      "E-commerce and marketplace search relevance"
+    ],
+    "top_competitors": [
+      "Splunk (Cisco) in SIEM and log analytics",
+      "Datadog and Dynatrace in observability",
+      "AWS OpenSearch — a direct fork of Elasticsearch, the sharpest competitive threat",
+      "Grafana Labs (Loki/Mimir)",
+      "Microsoft Sentinel and CrowdStrike Falcon LogScale in SIEM",
+      "Pinecone, Weaviate and MongoDB Atlas Vector Search in retrieval"
+    ],
+    "moat": {
+      "type": "Developer install base and default status — weakened by the OpenSearch fork",
+      "narrative": "Elasticsearch is the default answer for full-text search in most engineering organisations, with tens of millions of downloads and a decade of accumulated tooling, Logstash/Beats pipelines and index mappings that make migration painful — and the vector search capability let it stay relevant for RAG without customers adopting a separate vector DB. But the moat has a visible hole: AWS forked the codebase into OpenSearch in 2021 and offers a free managed equivalent, which is precisely why Elastic relicensed under AGPL in 2024 to reclaim the open-source label. The moat is habit and ecosystem, not exclusivity."
+    },
+    "key_customers": [
+      "~24,000 total customers; 1,720+ spending over $100k annually; 240+ spending over $1m",
+      "Uber",
+      "Cisco",
+      "Booking.com",
+      "Adobe",
+      "Verizon",
+      "T-Mobile",
+      "Audi"
+    ],
+    "key_risks": [
+      "AWS OpenSearch offers a free, managed fork of Elastic's own engine and directly caps pricing power in the cloud",
+      "Net expansion rate at 112% is below software peers and indicates modest expansion within the installed base",
+      "Consumption-based Elastic Cloud revenue is volatile quarter to quarter as customers tune log retention and ingest to cut cost",
+      "Observability is a two-front war against Datadog and Splunk/Cisco, both of which outspend Elastic on go-to-market",
+      "Vector-native databases and hyperscaler retrieval services threaten the Search AI positioning that underpins the reacceleration thesis"
+    ],
+    "sources": [
+      {
+        "label": "Elastic FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000018/estc-20260430.htm"
+      },
+      {
+        "label": "Elastic Q4 and FY2026 results (IR)",
+        "url": "https://ir.elastic.co/News--Events/news/news-details/2026/Elastic-Reports-Fourth-Quarter-and-Fiscal-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Elastic Q4 FY2026 earnings call transcript",
+        "url": "https://www.roic.ai/quote/ESTC/transcripts/2026-year/4-quarter"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "THC": {
+    "ticker": "THC",
+    "company": "Tenet Healthcare Corporation",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Tenet runs two very different businesses under one roof. Hospital Operations owns 49 acute-care and specialty hospitals plus roughly 135 outpatient sites and the Conifer revenue-cycle joint venture. Ambulatory Care is USPI, the largest US ambulatory surgery centre operator, with interests in 533 ASCs (401 consolidated) and 26 surgical hospitals across 37 states, mostly structured as joint ventures with the operating surgeons. FY2025 net operating revenues were $21.31bn with consolidated adjusted EBITDA of $4.57bn, up 14% at a 21.4% margin.",
+    "revenue_mix": [
+      {
+        "segment": "Hospital Operations & Services (49 hospitals, outpatient sites, Conifer)",
+        "share_pct": 77,
+        "trend": "stable"
+      },
+      {
+        "segment": "Ambulatory Care — USPI (533 ASCs, 26 surgical hospitals)",
+        "share_pct": 23,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Texas (largest hospital market — Dallas/Fort Worth, El Paso, San Antonio)",
+        "share_pct": 30
+      },
+      {
+        "region": "Florida (South Florida, Palm Beach)",
+        "share_pct": 20
+      },
+      {
+        "region": "California and Arizona",
+        "share_pct": 18
+      },
+      {
+        "region": "Tennessee, Michigan, Alabama, South Carolina and 30 other USPI states",
+        "share_pct": 32
+      }
+    ],
+    "end_markets": [
+      "Commercial managed-care insured inpatient and outpatient care",
+      "Medicare and Medicare Advantage acute care",
+      "Medicaid and state directed/supplemental payment programs",
+      "Outpatient surgery — orthopaedics, spine, ophthalmology, urology, GI",
+      "Revenue cycle management outsourcing (Conifer)"
+    ],
+    "top_competitors": [
+      "HCA Healthcare",
+      "Universal Health Services",
+      "Community Health Systems",
+      "Ardent Health Partners",
+      "Surgery Partners (direct ASC competitor)",
+      "SCA Health / Optum (UnitedHealth-owned ASC platform)",
+      "Regional non-profit systems in each market"
+    ],
+    "moat": {
+      "type": "ASC joint-venture economics plus local market concentration",
+      "narrative": "USPI's structure is the real asset: surgeons co-own their centres, so their income depends on directing cases there, which locks in volume in a way an employed-physician model never does — and ASC procedures cost payers materially less than the hospital outpatient department, so commercial insurers actively steer toward them. On the hospital side the moat is local rather than national: in markets like El Paso, Palm Beach and Detroit, Tenet holds enough share to negotiate commercial rates from strength, and certificate-of-need rules plus the capital cost of a new hospital keep entrants out. Where it lacks that density, hospital economics are ordinary."
+    },
+    "key_customers": [
+      "UnitedHealthcare, Aetna/CVS, Cigna and Elevance (commercial managed care — the majority of net patient revenue)",
+      "Medicare and Medicare Advantage plans",
+      "State Medicaid programs including Texas and Florida directed-payment pools",
+      "Approximately 6,000 physicians holding ownership stakes in USPI facilities"
+    ],
+    "key_risks": [
+      "Expiration of ACA enhanced premium subsidies costs an estimated $250m of 2026 adjusted EBITDA, concentrated in the hospital segment; management assumes a 20% drop in exchange enrolment and is seeing roughly one-for-one conversion of exchange patients into uninsured",
+      "State Medicaid supplemental and directed-payment programs are a large, non-recurring-feeling earnings contributor subject to CMS approval and reauthorisation",
+      "Hospital segment is the low-margin half of the company and carries the fixed-cost and bad-debt exposure while USPI carries the growth",
+      "Anesthesia and nursing labour cost inflation hits ASC margins directly, and anesthesia staffing shortages can idle otherwise profitable operating rooms",
+      "UnitedHealth's Optum/SCA is buying ASC capacity as a vertically integrated payer-provider, creating a competitor that also sets Tenet's reimbursement"
+    ],
+    "sources": [
+      {
+        "label": "Tenet Q4 and FY2025 results; 2026 outlook (IR)",
+        "url": "https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Reports-Strong-Fourth-Quarter-and-FY-2025-Results-Provides-2026-Financial-Outlook/default.aspx"
+      },
+      {
+        "label": "Tenet Q2 2026 results; raised 2026 outlook (IR)",
+        "url": "https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Reports-Strong-Second-Quarter-2026-Results-Raises-2026-Financial-Outlook/default.aspx"
+      },
+      {
+        "label": "Tenet FY2024 Form 10-K (segment structure and facility detail)",
+        "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000009/thc-20241231.htm"
+      },
+      {
+        "label": "Healthcare Dive — Tenet expects $250M hit from loss of ACA subsidies",
+        "url": "https://www.healthcaredive.com/news/tenet-expects-250m-hit-loss-aca-subsidies/812014/"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "EXPE": {
+    "ticker": "EXPE",
+    "company": "Expedia Group, Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Expedia Group runs the world's second-largest online travel marketplace. It takes a cut of hotel, home-rental, flight and car bookings made on its own consumer brands (Expedia, Hotels.com, Vrbo, Orbitz, Travelocity, Hotwire) and, increasingly, sells that same supply and booking technology wholesale to other companies through APIs and white-label sites, so Chase, Delta or a corporate travel agency can sell travel without owning any inventory. It also sells advertising against its traffic and through trivago's hotel metasearch. FY2025 revenue was $14.73bn on $119.6bn of gross bookings.",
+    "revenue_mix": [
+      {
+        "segment": "B2C (Expedia, Hotels.com, Vrbo, Orbitz, Travelocity, Hotwire)",
+        "share_pct": 64,
+        "trend": "stable"
+      },
+      {
+        "segment": "B2B (Expedia Partner Solutions / Rapid API, white-label, TAAP)",
+        "share_pct": 33,
+        "trend": "growing"
+      },
+      {
+        "segment": "trivago (third-party hotel metasearch advertising)",
+        "share_pct": 3,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "U.S. points of sale",
+        "share_pct": 59
+      },
+      {
+        "region": "Non-U.S. points of sale (all trivago revenue classified here)",
+        "share_pct": 41
+      }
+    ],
+    "end_markets": [
+      "Leisure hotel/lodging booking ($87.3bn of FY25 lodging gross bookings, 73% of total)",
+      "Alternative accommodation / vacation rentals (Vrbo)",
+      "Air, car rental, cruise, insurance and destination services (non-lodging, $32.3bn bookings)",
+      "Travel advertising and retail media (EG Advertising $758m FY25, +19%)",
+      "Embedded travel for financial institutions, airlines and retailers (B2B white-label)"
+    ],
+    "top_competitors": [
+      "Booking Holdings (Booking.com, Agoda, Priceline) — larger in international lodging and also pushing B2B",
+      "Airbnb — direct share threat to Vrbo in alternative accommodations",
+      "Google (Hotels/Flights, AI Mode) — both largest traffic source and disintermediation risk",
+      "Hotelbeds/HBX and Sabre — direct rivals in B2B wholesale supply and travel tech",
+      "Trip.com Group — APAC supply and outbound Chinese demand",
+      "Hotel and airline direct channels (Marriott, Hilton, Delta) reclaiming bookings"
+    ],
+    "moat": {
+      "type": "Two-sided supply network plus embedded B2B distribution (switching costs)",
+      "narrative": "The defensible piece is not the consumer brands — those are re-bought every quarter with paid marketing — it is the B2B layer: 75,000 partners and 200,000 travel advisors are wired into Expedia's Rapid API (about 21 billion API calls a day), so Chase's Ultimate Rewards portal and Delta Stays would have to re-platform to leave. That supply aggregation (roughly 3m properties incl. 700k+ hotels, plus air/car/cruise) is expensive for any single bank or airline to replicate, which is why B2B gross bookings grew 24% in Q4 2025 versus 5% for B2C. The May 2026 CarTrawler acquisition deepens the ground-transport leg of that same API."
+    },
+    "key_customers": [
+      "Chase — Ultimate Rewards travel portal powered by Expedia Partner Solutions",
+      "Delta Air Lines — Delta Stays and Delta Car Rentals fulfilled through Expedia",
+      "American Express Travel and other financial-institution loyalty portals",
+      "~75,000 B2B partners and ~200,000 travel advisors (TAAP)",
+      "Hotel supply partners are also advertising customers (EG Advertising, $758m FY25)"
+    ],
+    "key_risks": [
+      "Google AI Mode and agentic booking assistants intermediating trip discovery — Expedia's model is built on buying that traffic, and selling & marketing is its single largest cost line",
+      "Vrbo continues to lose alternative-accommodation share to Airbnb and Booking.com; B2C gross bookings grew only 5% in Q4 2025 against B2B's 24%",
+      "U.S. point of sale is 59% of revenue (only +4% in 2025 vs +13% non-U.S.) — soft inbound and Canada-to-U.S. travel hits the highest-margin book",
+      "Mix shift toward B2B is structurally dilutive to segment profitability (B2B adj. EBITDA margin ~26% vs B2C ~30% in FY2025)",
+      "trivago's two largest advertisers are Expedia and Booking, making its 33% FY25 revenue growth partly a circular intercompany spend decision",
+      "$185m of legal reserves/occupancy tax and $100m restructuring charges hit 2025 GAAP operating income"
+    ],
+    "sources": [
+      {
+        "label": "Q4 and Full Year 2025 results press release (Feb 12, 2026)",
+        "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm"
+      },
+      {
+        "label": "Expedia Group B2B AI toolkit and platform announcement (May 2026)",
+        "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-B2B-Introduces-AI-Toolkit-and-Platform-for-the-Future-of-Travel-Distribution/default.aspx"
+      },
+      {
+        "label": "Chase partners with Expedia Group (Ultimate Rewards travel)",
+        "url": "https://media.chase.com/news/chase-partners-with-expedia-group"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "CCC": {
+    "ticker": "CCC",
+    "company": "CCC Intelligent Solutions Holdings Inc.",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "CCC sells the software that a U.S. auto insurance claim actually runs on. When a car is damaged, the adjuster, the body shop, the parts supplier and the OEM all work off a CCC estimate and exchange documents, photos, parts orders and payments over CCC's cloud network. Customers pay mostly fixed subscriptions per seat/per carrier rather than per claim, plus transaction fees on parts and repair workflow. FY2025 revenue was $1.057bn, up 12%, at a 41% adjusted EBITDA margin, with subscriptions about 85% of revenue.",
+    "revenue_mix": [
+      {
+        "segment": "Insurance — auto physical damage and claims workflow",
+        "share_pct": 45,
+        "trend": "stable"
+      },
+      {
+        "segment": "Repair facilities (CCC ONE shop management and estimating)",
+        "share_pct": 43,
+        "trend": "growing"
+      },
+      {
+        "segment": "Parts suppliers, OEMs and other",
+        "share_pct": 7,
+        "trend": "growing"
+      },
+      {
+        "segment": "EvolutionIQ (disability and workers' comp claims AI, acquired 2025)",
+        "share_pct": 4,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — not separately disclosed; U.S. auto claims is essentially the whole business)",
+        "share_pct": 97
+      },
+      {
+        "region": "International — China R&D/operations and limited non-U.S. carriers (approx)",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "U.S. personal and commercial auto physical damage claims",
+      "Collision repair shop management (30,500+ facilities on the network)",
+      "Aftermarket and OEM parts procurement (6,000+ parts suppliers)",
+      "OEM certified-repair and connected-vehicle programs (CCC OEM Link Network)",
+      "Casualty / bodily injury claims (MedHub medical record synthesis)",
+      "Disability and workers' compensation claims (EvolutionIQ)"
+    ],
+    "top_competitors": [
+      "Mitchell International / Enlyte — the number two U.S. estimating and casualty platform",
+      "Solera (Audatex, Qapter) — the only rival with comparable global scale, aggressive on large carrier RFPs",
+      "Tractable — pure-play computer-vision damage estimating sold to carriers wanting automation without the network",
+      "Verisk — adjacent claims analytics and property estimating",
+      "Guidewire and Duck Creek — core claims systems that could push down into physical damage workflow",
+      "Large carriers' in-house AI estimating teams (the real substitute for CCC's AI upsell)"
+    ],
+    "moat": {
+      "type": "Two-sided network effect fused to the system of record",
+      "narrative": "The estimate written in CCC ONE is the document the insurer pays against and the shop bills against, so neither side can leave unilaterally — an insurer switching to Solera would have to move its DRP shops with it, and a shop switching loses direct assignments from 300+ carriers. Two decades of parts pricing, labor times and repair outcomes on that network is the training data behind Estimate-STP and MedHub, which competitors cannot buy. The evidence is retention: software gross dollar retention runs at roughly 99% and CCC has been the DRP administration standard since 1992. The vulnerability is not displacement, it is the shrinking pool of repairable claims underneath the network."
+    },
+    "key_customers": [
+      "300+ insurance carriers, including 18 of the 20 largest U.S. auto insurers (company disclosure)",
+      "30,500+ collision repair facilities, spanning national MSOs and independents",
+      "All major OEMs; Nissan joined the CCC OEM Link Network (2026)",
+      "6,000+ parts suppliers",
+      "EvolutionIQ serves 9 of the top 15 U.S. disability carriers",
+      "Revenue is concentrated in the handful of largest P&C carriers who process most U.S. auto claims"
+    ],
+    "key_risks": [
+      "Structural decline in repairable claim volume — ADAS lowers accident frequency and higher vehicle values push more accidents to total loss, shrinking the transaction base under a network priced on claims and shop seats",
+      "Solera and Enlyte/Mitchell undercutting on multi-year carrier renewals; a single top-5 carrier loss would be material given revenue concentration in the largest P&C insurers",
+      "Largest carriers building in-house AI estimating, capping the ~$100m (roughly 10% of revenue) AI upsell that is the main growth narrative",
+      "EvolutionIQ integration and goodwill — a large 2025 acquisition into disability/workers' comp, an adjacent market where CCC has no incumbent network advantage",
+      "Auto insurers now in a soft pricing cycle after 2023-24 rate hikes, which compresses carrier IT budgets and slows new module adoption",
+      "Growth decelerating toward high single digits from 12% in 2025, against a valuation that has priced in mid-teens durability"
+    ],
+    "sources": [
+      {
+        "label": "Q4 and FY2025 results press release",
+        "url": "https://ir.cccis.com/news-releases/news-release-details/ccc-intelligent-solutions-holdings-inc-announces-fourth-4"
+      },
+      {
+        "label": "FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1818201/000119312526067448/ccc-20251231.htm"
+      },
+      {
+        "label": "May 2026 investor presentation (AI-enabled insurance and automotive SaaS platform)",
+        "url": "https://ir.cccis.com/static-files/e7372fe8-42ea-4fb7-8b1a-41fc713586d3"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
+  },
+  "JHX": {
+    "ticker": "JHX",
+    "company": "James Hardie Industries plc",
+    "as_of": "2026-08-15",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "James Hardie makes the exterior of a house: fiber cement siding and trim under the Hardie brand, composite and PVC decking and railing under TimberTech, AZEK and Versatex, and fiber gypsum boards under fermacell in Europe. It sells through building-products distributors, lumber dealers and big-box retail to contractors and homebuilders, and makes money by converting customers off wood and vinyl to higher-priced engineered materials. Irish-incorporated, Chicago-headquartered, dual-listed on the NYSE and ASX. FY2026 (year to March 2026) net sales were $4.84bn, up 25%, but organic net sales fell 2% — the growth came from the $8bn+ AZEK acquisition closed July 2025.",
+    "revenue_mix": [
+      {
+        "segment": "Siding & Trim (North America fiber cement + AZEK Exteriors)",
+        "share_pct": 61,
+        "trend": "declining organically"
+      },
+      {
+        "segment": "Deck, Rail & Accessories (TimberTech / AZEK composite and PVC)",
+        "share_pct": 16,
+        "trend": "growing"
+      },
+      {
+        "segment": "Europe (fermacell fiber gypsum)",
+        "share_pct": 12,
+        "trend": "growing"
+      },
+      {
+        "segment": "Australia & New Zealand",
+        "share_pct": 11,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 77
+      },
+      {
+        "region": "Europe (Germany is the largest market)",
+        "share_pct": 12
+      },
+      {
+        "region": "Australia & New Zealand",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "U.S. single-family new construction — the swing factor; exteriors volumes fell low-double digits in Q4 FY26 with single-family down mid-double digits",
+      "U.S. repair & remodel (siding replacement and outdoor living) — the stated FY27 organic growth engine",
+      "U.S. multi-family (the one growing sub-market, up mid-single digits in FY26)",
+      "Outdoor living / decking, where the pitch is material conversion from pressure-treated wood",
+      "ANZ residential construction (fiber cement, moving toward whole-home solutions)",
+      "European fiber gypsum: flooring systems, underfloor heating, fire protection and prefabricated construction"
+    ],
+    "top_competitors": [
+      "LP Building Solutions (LP SmartSide engineered wood siding) — taking share at the value end of the siding market",
+      "Westlake Royal Building Products and Cornerstone Building Brands/Ply Gem — vinyl siding, the cheap substitute",
+      "Nichiha and Allura — the other fiber cement suppliers in North America",
+      "Trex — the market leader in composite decking against TimberTech/AZEK",
+      "Fortune Brands (Fiberon) and UFP Industries (Deckorators) in decking",
+      "Pressure-treated wood and traditional gypsum board — the incumbent materials Hardie is trying to convert"
+    ],
+    "moat": {
+      "type": "Category ownership plus capital intensity in fiber cement, with a distribution reset layered on top",
+      "narrative": "Hardie created and still dominates North American fiber cement siding; a competing plant costs hundreds of millions and years to commission, and installer familiarity plus homeowner-facing brand (ColorPlus) means the contractor specifying siding defaults to Hardie. Post-AZEK the company is converting that into shelf-space leverage: Boise Cascade became the sole U.S. nationwide distributor from 31 July 2026 and six regional distributors — Capital Lumber, Dixie Plywood & Lumber, Lumbermen's, Parksite, Woodgrain and Woolf — now carry the full combined Hardie + AZEK portfolio for the first time, which is what the $125m commercial synergy target rests on. Honest caveat: the moat is real but not price-inelastic — FY26 organic net sales fell 2% even with mid-single-digit price increases, which means volume is walking to LP SmartSide and vinyl when affordability bites."
+    },
+    "key_customers": [
+      "One customer exceeded 10% of net sales in each of the last three fiscal years, at approximately 11% of FY26 net sales",
+      "Boise Cascade — sole U.S. nationwide distributor effective 31 July 2026",
+      "Regional distributors: Capital Lumber, Dixie Plywood & Lumber, Lumbermen's, Parksite, Woodgrain, Woolf Distributing",
+      "Large national homebuilders (unnamed by the company) concentrated in the Southeast and West — the source of the FY26 single-family volume decline",
+      "Big-box retail and pro dealers for TimberTech/AZEK decking",
+      "Distribution contracts often carry exclusivity but allow termination for convenience on a few months' notice"
+    ],
+    "key_risks": [
+      "U.S. single-family starts and affordability: FY26 organic net sales -2% into markets down mid-to-high single digits, and Texas — the largest region by volume — fell low-double digits for the year",
+      "Leverage from AZEK: long-term debt jumped to $4.49bn against $269m cash, FY26 interest expense was $231m, and management only targets ~2.0x net leverage by Q2 FY2028",
+      "Purchase-accounting drag and impairment exposure: $4.78bn goodwill plus $3.34bn intangibles against $6.43bn equity; FY26 net income fell 75% to $104m and Deck, Rail & Accessories posted a $17.7m segment operating loss",
+      "Asbestos legacy: ~$1.01bn of asbestos liability with $125.4m paid to the AICF in FY26 and $51.8m of adjustments hitting FY26 operating income; funding is linked to operating cash flow",
+      "Channel inventory in Deck, Rail & Accessories is elevated after strong early-buy orders and weather-hit February/March sell-through — management flagged a Q1 FY27 P&L hit as it destocks",
+      "FY27 guidance of $1.45-1.50bn adjusted EBITDA depends on $125m cost and $125m run-rate commercial synergies landing with no assumed market recovery; slippage leaves leverage stranded",
+      "Governance overhang from issuing shares for AZEK without an ASX shareholder vote, which alienated part of the Australian register"
+    ],
+    "sources": [
+      {
+        "label": "Q4 FY26 and Full-Year FY26 results, FY27 outlook (19 May 2026)",
+        "url": "https://ir.jameshardie.com/news/news-details/2026/James-Hardie-Reports-Fourth-Quarter-FY26-and-Full-Year-FY26-Results-Provides-FY27-Outlook/default.aspx"
+      },
+      {
+        "label": "FY2026 Form 10-K (year ended 31 March 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001159152/000115915226000045/jhx-20260331.htm"
+      },
+      {
+        "label": "James Hardie to Expand Regional Distribution Partnerships (Aug 2026)",
+        "url": "https://www.businesswire.com/news/home/20260802138124/en/James-Hardie-to-Expand-Regional-Distribution-Partnerships"
+      }
+    ],
+    "last_refreshed": "2026-08-15"
   }
 }
