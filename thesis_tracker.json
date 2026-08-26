@@ -789,7 +789,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "Dell is breaking out as AI server backlog reaches record levels and ISG (Infrastructure Solutions) margin expansion finally arrives.",
     "pillars": [
@@ -1915,30 +1915,40 @@
         "bull_upside_pct": 409.79,
         "conviction": "High",
         "note": "HPE beat with Q2 revenue of $10.7bn above the high end of guidance and raised FY26 EPS to $3.40 at the midpoint, as AI systems orders hit $1.8bn and the Juniper integration tracked ahead of synergy milestones."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 48,
+        "composite": 0.416,
+        "price": 53.439998626708984,
+        "base_upside_pct": 26.61,
+        "bull_upside_pct": 95.94,
+        "conviction": "Medium",
+        "note": "A blowout quarter — revenue +40% to $10.7bn, non-GAAP EPS +108% to $0.79, orders more than doubling into a record backlog — let HPE pull its FY28 free-cash-flow commitment two years forward and pre-guide FY27 to head off the AI 'demand clif"
       }
     ],
     "scorecard": [
       {
         "pillar": "Cray-AI supercomputer orders accelerating (sovereign + hyperscale)",
         "expectation": "Cray-AI supercomputer orders accelerating (sovereign + hyperscale)",
-        "current_status": "Momentum holding (composite +1.34, rank 11)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.42, rank 48)",
+        "trend": "Falling"
       },
       {
         "pillar": "Juniper acquisition closes — networking attach expansion",
         "expectation": "Juniper acquisition closes — networking attach expansion",
-        "current_status": "Momentum holding (composite +1.34, rank 11)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.42, rank 48)",
+        "trend": "Falling"
       },
       {
         "pillar": "AI server backlog at record levels",
         "expectation": "AI server backlog at record levels",
-        "current_status": "Momentum holding (composite +1.34, rank 11)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.42, rank 48)",
+        "trend": "Falling"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Hewlett Packard Enterprise is breaking out as Cray-AI supercomputer orders accelerate from sovereign/hyperscale customers and the Juniper Networks acquisition closes (regulatory hurdle removed).",
     "pillars": [
       "Cray-AI supercomputer orders accelerating (sovereign + hyperscale)",
@@ -1956,21 +1966,20 @@
       "Major sovereign AI awards"
     ],
     "target": {
-      "bear": 53.88,
-      "base": 82.89,
-      "bull": 299.3,
-      "base_upside_pct": 41.19,
-      "bull_upside_pct": 409.79
+      "bear": 46.85,
+      "base": 67.66,
+      "bull": 104.71,
+      "base_upside_pct": 26.61,
+      "bull_upside_pct": 95.94
     },
-    "conviction": "High",
-    "conviction_points": 3,
+    "conviction": "Medium",
+    "conviction_points": 2,
     "conviction_reasons": [
-      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Stable",
-    "weeks_tracked": 7
+    "conviction_trend": "Falling",
+    "weeks_tracked": 8
   },
   "TEM.L": {
     "ticker": "TEM.L",
@@ -3717,30 +3726,40 @@
         "bull_upside_pct": 18.64,
         "conviction": "High",
         "note": "Record Q2 revenue of $256.1M (+32% YoY) with LIFYORLI's ovarian-cancer debut adding $47.6M drove a full-year guidance raise, while the relacorilant Cushing's NDA got a December 17 PDUFA date."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 5,
+        "composite": 1.742,
+        "price": 123.56999969482422,
+        "base_upside_pct": -6.73,
+        "bull_upside_pct": 20.01,
+        "conviction": "High",
+        "note": "Record Q2 revenue of $256.1M (+32% YoY) with LIFYORLI's ovarian-cancer debut adding $47.6M drove a full-year guidance raise, while the relacorilant Cushing's NDA got a December 17 PDUFA date."
       }
     ],
     "scorecard": [
       {
         "pillar": "FY26 revenue guidance raised to $950m-$1.05bn",
         "expectation": "FY26 revenue guidance raised to $950m-$1.05bn",
-        "current_status": "Momentum strengthening (composite +2.06, rank 4)",
+        "current_status": "Momentum strengthening (composite +1.74, rank 5)",
         "trend": "Stable"
       },
       {
         "pillar": "Lifyorli approved early in platinum-resistant ovarian cancer",
         "expectation": "Lifyorli approved early in platinum-resistant ovarian cancer",
-        "current_status": "Momentum strengthening (composite +2.06, rank 4)",
+        "current_status": "Momentum strengthening (composite +1.74, rank 5)",
         "trend": "Stable"
       },
       {
         "pillar": "ROSELLA met PFS and overall-survival endpoints",
         "expectation": "ROSELLA met PFS and overall-survival endpoints",
-        "current_status": "Momentum strengthening (composite +2.06, rank 4)",
+        "current_status": "Momentum strengthening (composite +1.74, rank 5)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Corcept raised FY2026 revenue guidance to $950m-$1.05bn as Lifyorli won early FDA approval in platinum-resistant ovarian cancer (3.5 months ahead of PDUFA) and the Cushing's franchise marches toward a",
     "pillars": [
       "FY26 revenue guidance raised to $950m-$1.05bn",
@@ -3758,21 +3777,21 @@
       "Q2 2026 earnings"
     ],
     "target": {
-      "bear": 60.95,
-      "base": 108.5,
-      "bull": 135.8,
-      "base_upside_pct": -5.21,
-      "bull_upside_pct": 18.64
+      "bear": 62.91,
+      "base": 115.26,
+      "bull": 148.29,
+      "base_upside_pct": -6.73,
+      "bull_upside_pct": 20.01
     },
     "conviction": "High",
-    "conviction_points": 4,
+    "conviction_points": 3,
     "conviction_reasons": [
-      "composite >= 2.0",
+      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 7
+    "weeks_tracked": 8
   },
   "HUM": {
     "ticker": "HUM",
@@ -4625,7 +4644,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "Softcat is breaking out as UK IT-reseller demand normalizes post-2024 weakness and AI-related infrastructure refresh accelerates.",
     "pillars": [
@@ -4842,10 +4861,10 @@
     "weeks_tracked": 4
   },
   "_meta": {
-    "as_of": "2026-08-15",
+    "as_of": "2026-08-26",
     "schema": "v1",
     "in_screen": 50,
-    "total_tracked": 125,
+    "total_tracked": 138,
     "conviction_method": "momentum-led: +2 composite>=2 / +1 >=1, +1 fresh breakout, +1 bull-upside>10%, -1 base-upside<-30%; >=3 High, 1-2 Medium, <=0 Low",
     "notes": "Persistent per-ticker thesis tracker. Names not in current Top 50 are status=dormant (history retained)."
   },
@@ -5599,7 +5618,7 @@
         "trend": "Falling"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "PANW is in Stage 2 after a record fiscal Q3 (Jun 2): revenue +31% y/y to $3.0B, Next-Gen Security ARR +60% to $8.13B, and FY26 revenue guidance raised to $11.42-11.43B.",
     "pillars": [
@@ -5700,7 +5719,7 @@
         "trend": "Rising"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "Datadog crossed $1bn in quarterly revenue for the first time in Q1 2026 (+32% YoY, accelerating from 29%), set a record for new-logo bookings, and landed eight-figure annualized GPU-monitoring deals with two AI hyperscaler research labs.",
     "pillars": [
@@ -6033,30 +6052,40 @@
         "bull_upside_pct": 42.85,
         "conviction": "Medium",
         "note": "FDA accepted the daraxonrasib NDA in previously-treated metastatic pancreatic cancer (on positive RASolute 302 OS data); a $151M non-cash warrant charge drove the headline EPS miss."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 40,
+        "composite": 0.492,
+        "price": 211.3800048828125,
+        "base_upside_pct": 6.68,
+        "bull_upside_pct": 37.67,
+        "conviction": "Medium",
+        "note": "FDA accepted the daraxonrasib NDA in previously-treated metastatic pancreatic cancer (on positive RASolute 302 OS data); a $151M non-cash warrant charge drove the headline EPS miss."
       }
     ],
     "scorecard": [
       {
         "pillar": "RASolute 302 win (OS 13.2 vs 6.7mo, HR 0.40) validates the RAS(ON) platform in 2L pancreatic cancer",
         "expectation": "RASolute 302 win (OS 13.2 vs 6.7mo, HR 0.40) validates the RAS(ON) platform in 2L pancreatic cancer",
-        "current_status": "Momentum holding (composite +0.54, rank 41)",
+        "current_status": "Momentum weakening (composite +0.49, rank 40)",
         "trend": "Stable"
       },
       {
         "pillar": "~$4.0B cash funds full commercial launch build-out with no near-term dilution",
         "expectation": "~$4.0B cash funds full commercial launch build-out with no near-term dilution",
-        "current_status": "Momentum holding (composite +0.54, rank 41)",
+        "current_status": "Momentum weakening (composite +0.49, rank 40)",
         "trend": "Stable"
       },
       {
         "pillar": "Pipeline breadth (daraxonrasib + elironrasib/zoldonrasib/RMC-5127) attacks multiple RAS mutations",
         "expectation": "Pipeline breadth (daraxonrasib + elironrasib/zoldonrasib/RMC-5127) attacks multiple RAS mutations",
-        "current_status": "Momentum holding (composite +0.54, rank 41)",
+        "current_status": "Momentum weakening (composite +0.49, rank 40)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Revolution Medicines crossed from clinical-platform story to a funded commercial build-out after the pivotal RASolute 302 readout: daraxonrasib delivered median overall survival of 13.2 vs 6.7 months (HR 0.40, ~60% reduction in risk of death) in previously-treated metastatic pancreatic cancer.",
     "pillars": [
       "RASolute 302 win (OS 13.2 vs 6.7mo, HR 0.40) validates the RAS(ON) platform in 2L pancreatic cancer",
@@ -6074,11 +6103,11 @@
       "First commercial launch / payer coverage milestones"
     ],
     "target": {
-      "bear": 151.0,
-      "base": 221.9,
+      "bear": 179.0,
+      "base": 225.49,
       "bull": 291.0,
-      "base_upside_pct": 8.93,
-      "bull_upside_pct": 42.85
+      "base_upside_pct": 6.68,
+      "bull_upside_pct": 37.67
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -6087,7 +6116,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 4
+    "weeks_tracked": 5
   },
   "AMAT": {
     "ticker": "AMAT",
@@ -6298,7 +6327,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "CrowdStrike is breaking back out after net new ARR re-accelerated to a record $256M (+32%) in fiscal Q1 2027 and management raised FY27 net-new-ARR guidance by $52M to ~$1.291B — signaling the post-Ju",
     "pillars": [
@@ -6448,30 +6477,40 @@
         "bull_upside_pct": 52.01,
         "conviction": "High",
         "note": "Cortex Code (CoCo) went from February GA to being the single largest driver of Snowflake's forecast raise in one quarter, pushing product revenue growth to 34% and forcing an unusual Q1 full-year guide-up."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 49,
+        "composite": 0.392,
+        "price": 317.0199890136719,
+        "base_upside_pct": 1.37,
+        "bull_upside_pct": 57.72,
+        "conviction": "Medium",
+        "note": "Product revenue growth accelerated ~400bps to 34% on the largest sequential dollar add in company history, and Snowflake raised the FY27 product revenue guide to $5.84bn — with Cortex Code (Coco) named as the single largest driver of the ra"
       }
     ],
     "scorecard": [
       {
         "pillar": "Product revenue re-accelerated to 34% and FY27 guide raised to ~$5.84B",
         "expectation": "Product revenue re-accelerated to 34% and FY27 guide raised to ~$5.84B",
-        "current_status": "Momentum strengthening (composite +1.83, rank 6)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.39, rank 49)",
+        "trend": "Falling"
       },
       {
         "pillar": "Cortex Code (>7,100 accounts) and Snowflake Intelligence drive core consumption",
         "expectation": "Cortex Code (>7,100 accounts) and Snowflake Intelligence drive core consumption",
-        "current_status": "Momentum strengthening (composite +1.83, rank 6)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.39, rank 49)",
+        "trend": "Falling"
       },
       {
         "pillar": "126% NRR, 616 net-new customers (+38%), 64 customers >$10M revenue",
         "expectation": "126% NRR, 616 net-new customers (+38%), 64 customers >$10M revenue",
-        "current_status": "Momentum strengthening (composite +1.83, rank 6)",
-        "trend": "Stable"
+        "current_status": "Momentum weakening (composite +0.39, rank 49)",
+        "trend": "Falling"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Snowflake is breaking out after product-revenue growth re-accelerated to 34% (from 30%) in fiscal Q1 2027 — its strongest sequential dollar growth ever — and the company raised full-year product-reven",
     "pillars": [
       "Product revenue re-accelerated to 34% and FY27 guide raised to ~$5.84B",
@@ -6490,20 +6529,19 @@
     ],
     "target": {
       "bear": 110.0,
-      "base": 303.95,
+      "base": 321.35,
       "bull": 500.0,
-      "base_upside_pct": -7.59,
-      "bull_upside_pct": 52.01
+      "base_upside_pct": 1.37,
+      "bull_upside_pct": 57.72
     },
-    "conviction": "High",
-    "conviction_points": 3,
+    "conviction": "Medium",
+    "conviction_points": 2,
     "conviction_reasons": [
-      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Stable",
-    "weeks_tracked": 4
+    "conviction_trend": "Falling",
+    "weeks_tracked": 5
   },
   "LRCX": {
     "ticker": "LRCX",
@@ -6714,7 +6752,7 @@
         "trend": "Falling"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "Okta is breaking out after a Q1 FY2027 beat (revenue $765M, EPS $0.91 vs $0.85 est) with net retention inflecting back up to 107% and a raised FY27 revenue guide.",
     "pillars": [
@@ -6783,30 +6821,40 @@
         "bull_upside_pct": 126.34,
         "conviction": "High",
         "note": "Q3 headline PBT collapsed 70% to £85M as the Middle East conflict spiked fuel costs (+£105M YoY) and dented demand, though strong late bookings and a resilient holidays arm (£84M PBT) cushioned the blow amid a live £7.15/share Apollo bid."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 3,
+        "composite": 2.145,
+        "price": 676.0,
+        "base_upside_pct": 42.76,
+        "bull_upside_pct": 378.11,
+        "conviction": "High",
+        "note": "Q3 headline PBT collapsed 70% to £85M as the Middle East conflict spiked fuel costs (+£105M YoY) and dented demand, though strong late bookings and a resilient holidays arm (£84M PBT) cushioned the blow amid a live £7.15/share Apollo bid."
       }
     ],
     "scorecard": [
       {
         "pillar": "Live 7.15 GBP Apollo cash bid caps downside; counter-bid optionality from Castlelake/new suitor",
         "expectation": "Live 7.15 GBP Apollo cash bid caps downside; counter-bid optionality from Castlelake/new suitor",
-        "current_status": "Momentum strengthening (composite +2.48, rank 2)",
+        "current_status": "Momentum strengthening (composite +2.15, rank 3)",
         "trend": "Stable"
       },
       {
         "pillar": "easyJet holidays compounding double-digit as high-margin, capital-light attach",
         "expectation": "easyJet holidays compounding double-digit as high-margin, capital-light attach",
-        "current_status": "Momentum strengthening (composite +2.48, rank 2)",
+        "current_status": "Momentum strengthening (composite +2.15, rank 3)",
         "trend": "Stable"
       },
       {
         "pillar": "~250m GBP self-help cost efficiencies from fleet upgauging into FY27-28",
         "expectation": "~250m GBP self-help cost efficiencies from fleet upgauging into FY27-28",
-        "current_status": "Momentum strengthening (composite +2.48, rank 2)",
+        "current_status": "Momentum strengthening (composite +2.15, rank 3)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "EZJ is in a takeover-driven breakout: the board agreed in principle to a 7.15 GBP/share cash bid from Apollo (valuing equity ~5.7bn GBP), trumping an earlier 6.90 GBP Castlelake approach, with Apollo's firm-offer deadline set for 7 August 2026.",
     "pillars": [
       "Live 7.15 GBP Apollo cash bid caps downside; counter-bid optionality from Castlelake/new suitor",
@@ -6824,20 +6872,21 @@
       "FY26 full-year results (~Nov 2026)"
     ],
     "target": {
-      "bear": 630.1,
-      "base": 889.89,
-      "bull": 1518.77,
-      "base_upside_pct": 32.62,
-      "bull_upside_pct": 126.34
+      "bear": 724.53,
+      "base": 965.06,
+      "bull": 3232.04,
+      "base_upside_pct": 42.76,
+      "bull_upside_pct": 378.11
     },
     "conviction": "High",
-    "conviction_points": 3,
+    "conviction_points": 4,
     "conviction_reasons": [
       "composite >= 2.0",
+      "fresh breakout",
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "MAN": {
     "ticker": "MAN",
@@ -6874,30 +6923,40 @@
         "bull_upside_pct": 86.82,
         "conviction": "High",
         "note": "ManpowerGroup beat with revenue of $4.9B (+6% cc) and EPS of $0.99 as the Manpower brand hit its 5th straight quarter of growth, marking management's declared shift 'from stabilization into recovery,' aided by AI scaling and cost-out."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 2,
+        "composite": 2.272,
+        "price": 62.09000015258789,
+        "base_upside_pct": 14.05,
+        "bull_upside_pct": 214.9,
+        "conviction": "High",
+        "note": "ManpowerGroup beat with revenue of $4.9B (+6% cc) and EPS of $0.99 as the Manpower brand hit its 5th straight quarter of growth, marking management's declared shift 'from stabilization into recovery,' aided by AI scaling and cost-out."
       }
     ],
     "scorecard": [
       {
         "pillar": "'Stabilization into recovery' call; Manpower brand 5 straight up quarters, US +16%",
         "expectation": "'Stabilization into recovery' call; Manpower brand 5 straight up quarters, US +16%",
-        "current_status": "Momentum strengthening (composite +2.76, rank 1)",
+        "current_status": "Momentum strengthening (composite +2.27, rank 2)",
         "trend": "Stable"
       },
       {
         "pillar": "$200M cost-out by 2028 drops through as volume returns",
         "expectation": "$200M cost-out by 2028 drops through as volume returns",
-        "current_status": "Momentum strengthening (composite +2.76, rank 1)",
+        "current_status": "Momentum strengthening (composite +2.27, rank 2)",
         "trend": "Stable"
       },
       {
         "pillar": "AI cutting time-to-fill 67%; sales engine scaling to 70% of revenue",
         "expectation": "AI cutting time-to-fill 67%; sales engine scaling to 70% of revenue",
-        "current_status": "Momentum strengthening (composite +2.76, rank 1)",
+        "current_status": "Momentum strengthening (composite +2.27, rank 2)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "MAN is breaking out on an early-cycle staffing recovery: Q2 revenue rose 6% cc to $4.9B with EPS of $0.99, and management explicitly declared a shift 'from stabilization into recovery' as the Manpower brand logged its 5th straight quarter of growth (US +16% days-adjusted).",
     "pillars": [
       "'Stabilization into recovery' call; Manpower brand 5 straight up quarters, US +16%",
@@ -6915,11 +6974,11 @@
       "Cost-out program milestones toward $200M/2028"
     ],
     "target": {
-      "bear": 51.84,
-      "base": 68.55,
-      "bull": 108.92,
-      "base_upside_pct": 17.58,
-      "bull_upside_pct": 86.82
+      "bear": 57.56,
+      "base": 70.81,
+      "bull": 195.52,
+      "base_upside_pct": 14.05,
+      "bull_upside_pct": 214.9
     },
     "conviction": "High",
     "conviction_points": 4,
@@ -6929,7 +6988,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "QLYS": {
     "ticker": "QLYS",
@@ -6966,30 +7025,40 @@
         "bull_upside_pct": 248.28,
         "conviction": "High",
         "note": "Qualys beat and raised, with revenue +11% to $182.2M and non-GAAP EPS of $1.98 (vs $1.78 est), as 16% billings growth and AI-driven vulnerability demand prompted CFO Joo Mi Kim to lift full-year guidance and talk of 're-accelerating long-te"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 13,
+        "composite": 1.138,
+        "price": 175.94000244140625,
+        "base_upside_pct": -11.52,
+        "bull_upside_pct": 37.68,
+        "conviction": "High",
+        "note": "Qualys beat and raised, with revenue +11% to $182.2M and non-GAAP EPS of $1.98 (vs $1.78 est), as 16% billings growth and AI-driven vulnerability demand prompted CFO Joo Mi Kim to lift full-year guidance and talk of 're-accelerating long-te"
       }
     ],
     "scorecard": [
       {
         "pillar": "Beat-and-raise; 16% billings growth, mgmt talks 're-accelerating' growth",
         "expectation": "Beat-and-raise; 16% billings growth, mgmt talks 're-accelerating' growth",
-        "current_status": "Momentum strengthening (composite +2.00, rank 5)",
+        "current_status": "Momentum holding (composite +1.14, rank 13)",
         "trend": "Stable"
       },
       {
         "pillar": "AI-generated vulnerability surge drives ROC/ETM adoption",
         "expectation": "AI-generated vulnerability surge drives ROC/ETM adoption",
-        "current_status": "Momentum strengthening (composite +2.00, rank 5)",
+        "current_status": "Momentum holding (composite +1.14, rank 13)",
         "trend": "Stable"
       },
       {
         "pillar": "Federal runway: FedRAMP High + Anthropic/OpenAI collaborations",
         "expectation": "Federal runway: FedRAMP High + Anthropic/OpenAI collaborations",
-        "current_status": "Momentum strengthening (composite +2.00, rank 5)",
+        "current_status": "Momentum holding (composite +1.14, rank 13)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "QLYS just beat and raised (Q2 on 4 Aug): revenue +11% to $182.2M, non-GAAP EPS $1.98 vs $1.78 est, and 16% billings growth prompted the CFO to lift full-year guidance and talk of 're-accelerating long",
     "pillars": [
       "Beat-and-raise; 16% billings growth, mgmt talks 're-accelerating' growth",
@@ -7007,21 +7076,21 @@
       "QFlex consumption-model adoption ramp"
     ],
     "target": {
-      "bear": 124.44,
-      "base": 184.97,
-      "bull": 647.98,
-      "base_upside_pct": -0.58,
-      "bull_upside_pct": 248.28
+      "bear": 111.78,
+      "base": 155.68,
+      "bull": 242.23,
+      "base_upside_pct": -11.52,
+      "bull_upside_pct": 37.68
     },
     "conviction": "High",
-    "conviction_points": 4,
+    "conviction_points": 3,
     "conviction_reasons": [
-      "composite >= 2.0",
+      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "SN": {
     "ticker": "SN",
@@ -7058,30 +7127,40 @@
         "bull_upside_pct": 26.21,
         "conviction": "Medium",
         "note": "SharkNinja posted its 13th straight quarter of double-digit growth with net sales +22.2% to $1.77B and adjusted EPS +29.9% to $1.26, and sharply raised full-year guidance on Ninja Luxe Café, skincare and international momentum plus $247M of"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 38,
+        "composite": 0.525,
+        "price": 183.8000030517578,
+        "base_upside_pct": -24.55,
+        "bull_upside_pct": -5.2,
+        "conviction": "Medium",
+        "note": "SharkNinja posted its 13th straight quarter of double-digit growth with net sales +22.2% to $1.77B and adjusted EPS +29.9% to $1.26, and sharply raised full-year guidance on Ninja Luxe Café, skincare and international momentum plus $247M of"
       }
     ],
     "scorecard": [
       {
         "pillar": "13th straight double-digit quarter; guidance raised to 16-17% sales growth",
         "expectation": "13th straight double-digit quarter; guidance raised to 16-17% sales growth",
-        "current_status": "Momentum holding (composite +0.98, rank 20)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.52, rank 38)",
+        "trend": "Stable"
       },
       {
         "pillar": "Innovation engine opening new categories (skincare, espresso, fans)",
         "expectation": "Innovation engine opening new categories (skincare, espresso, fans)",
-        "current_status": "Momentum holding (composite +0.98, rank 20)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.52, rank 38)",
+        "trend": "Stable"
       },
       {
         "pillar": "International +~37% as a multi-year runway",
         "expectation": "International +~37% as a multi-year runway",
-        "current_status": "Momentum holding (composite +0.98, rank 20)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.52, rank 38)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "SN posted its 13th straight quarter of double-digit growth — Q2 net sales +22.2% to $1.77B, adjusted EPS +29.9% to $1.26 — and sharply raised full-year guidance on Ninja Luxe Cafe, skincare and international momentum, plus $247M of accepted US tariff-refund claims.",
     "pillars": [
       "13th straight double-digit quarter; guidance raised to 16-17% sales growth",
@@ -7099,20 +7178,19 @@
       "Holiday-season new-product launches (Q4 2026)"
     ],
     "target": {
-      "bear": 142.81,
-      "base": 190.59,
-      "bull": 233.62,
-      "base_upside_pct": 2.97,
-      "bull_upside_pct": 26.21
+      "bear": 117.19,
+      "base": 138.68,
+      "bull": 174.23,
+      "base_upside_pct": -24.55,
+      "bull_upside_pct": -5.2
     },
     "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction_points": 1,
     "conviction_reasons": [
-      "fresh breakout",
-      "bull-case upside > 10%"
+      "fresh breakout"
     ],
-    "conviction_trend": "Falling",
-    "weeks_tracked": 3
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "PBF": {
     "ticker": "PBF",
@@ -7149,30 +7227,40 @@
         "bull_upside_pct": 14.01,
         "conviction": "High",
         "note": "PBF Energy crushed estimates with adjusted EPS of $6.22 (vs $3.49 est) as geopolitically-tightened refining markets lifted margins, and management slashed net debt by over $1.4B to a net-debt/capital ratio of 15%, signaling elevated cracks "
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 10,
+        "composite": 1.343,
+        "price": 66.51000213623047,
+        "base_upside_pct": 13.24,
+        "bull_upside_pct": 31.74,
+        "conviction": "High",
+        "note": "PBF Energy crushed estimates with adjusted EPS of $6.22 (vs $3.49 est) as geopolitically-tightened refining markets lifted margins, and management slashed net debt by over $1.4B to a net-debt/capital ratio of 15%, signaling elevated cracks "
       }
     ],
     "scorecard": [
       {
         "pillar": "Structurally higher refining floor; global utilization down ~10%",
         "expectation": "Structurally higher refining floor; global utilization down ~10%",
-        "current_status": "Momentum strengthening (composite +1.64, rank 8)",
+        "current_status": "Momentum holding (composite +1.34, rank 10)",
         "trend": "Stable"
       },
       {
         "pillar": "Massive de-leveraging: net-debt/capital 36% -> 15%, $894M cash",
         "expectation": "Massive de-leveraging: net-debt/capital 36% -> 15%, $894M cash",
-        "current_status": "Momentum strengthening (composite +1.64, rank 8)",
+        "current_status": "Momentum holding (composite +1.34, rank 10)",
         "trend": "Stable"
       },
       {
         "pillar": "West Coast tightness (CA imports ~1/3 gasoline) suits coastal complex",
         "expectation": "West Coast tightness (CA imports ~1/3 gasoline) suits coastal complex",
-        "current_status": "Momentum strengthening (composite +1.64, rank 8)",
+        "current_status": "Momentum holding (composite +1.34, rank 10)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "PBF is breaking out on a refining-margin windfall: Q2 adjusted EPS of $6.22 crushed the $3.49 estimate as geopolitically-tightened product markets lifted cracks, and management slashed net debt by over $1.4B (net-debt/capital 36% -> 15%) while signaling elevated margins could persist into 2027.",
     "pillars": [
       "Structurally higher refining floor; global utilization down ~10%",
@@ -7190,11 +7278,11 @@
       "Balance-sheet target hit -> potential buyback resumption"
     ],
     "target": {
-      "bear": 57.95,
-      "base": 71.39,
-      "bull": 81.91,
-      "base_upside_pct": -0.64,
-      "bull_upside_pct": 14.01
+      "bear": 56.54,
+      "base": 75.32,
+      "bull": 87.62,
+      "base_upside_pct": 13.24,
+      "bull_upside_pct": 31.74
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -7204,7 +7292,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "RAND.AS": {
     "ticker": "RAND.AS",
@@ -7241,30 +7329,40 @@
         "bull_upside_pct": 63.5,
         "conviction": "High",
         "note": "Randstad returned to organic growth (+1.9% to EUR 5.9B revenue) with EBITA +8% to EUR 182M (3.1% margin) as a strong U.S. operational upturn and Germany/UK recoveries offset gross-margin pressure from large-client mix and the new Dutch CLA."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 6,
+        "composite": 1.666,
+        "price": 39.790000915527344,
+        "base_upside_pct": -4.12,
+        "bull_upside_pct": 156.72,
+        "conviction": "High",
+        "note": "Randstad returned to organic growth (+1.9% to EUR 5.9B revenue) with EBITA +8% to EUR 182M (3.1% margin) as a strong U.S. operational upturn and Germany/UK recoveries offset gross-margin pressure from large-client mix and the new Dutch CLA."
       }
     ],
     "scorecard": [
       {
         "pillar": "Returned to organic growth (+1.9%); US +13% leading recovery",
         "expectation": "Returned to organic growth (+1.9%); US +13% leading recovery",
-        "current_status": "Momentum strengthening (composite +1.72, rank 7)",
+        "current_status": "Momentum strengthening (composite +1.67, rank 6)",
         "trend": "Stable"
       },
       {
         "pillar": "$1.3B H1 new client wins from '10 by 10 by 10' engine",
         "expectation": "$1.3B H1 new client wins from '10 by 10 by 10' engine",
-        "current_status": "Momentum strengthening (composite +1.72, rank 7)",
+        "current_status": "Momentum strengthening (composite +1.67, rank 6)",
         "trend": "Stable"
       },
       {
         "pillar": "New operating model: EUR 10-15M/quarter profitability improvement",
         "expectation": "New operating model: EUR 10-15M/quarter profitability improvement",
-        "current_status": "Momentum strengthening (composite +1.72, rank 7)",
+        "current_status": "Momentum strengthening (composite +1.67, rank 6)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "RAND is turning up with the early-cycle staffing recovery: Q2 revenue returned to organic growth (+1.9% to EUR 5.9B) with EBITA +8% to EUR 182M (3.1% margin), as a strong US upturn (+13%) and Germany/UK recoveries offset gross-margin mix pressure.",
     "pillars": [
       "Returned to organic growth (+1.9%); US +13% leading recovery",
@@ -7282,11 +7380,11 @@
       "Profitability-improvement run-rate updates"
     ],
     "target": {
-      "bear": 27.07,
-      "base": 38.27,
-      "bull": 64.4,
-      "base_upside_pct": -2.84,
-      "bull_upside_pct": 63.5
+      "bear": 29.27,
+      "base": 38.15,
+      "bull": 102.15,
+      "base_upside_pct": -4.12,
+      "bull_upside_pct": 156.72
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -7296,7 +7394,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "EDEN.PA": {
     "ticker": "EDEN.PA",
@@ -7333,30 +7431,40 @@
         "bull_upside_pct": 19.35,
         "conviction": "Medium",
         "note": "Edenred upgraded full-year EBITDA guidance despite a 'reset year,' as 8% intrinsic operating-revenue growth held up but Italy/Brazil meal-voucher regulation dragged like-for-like growth to just 1.5% and adjusted EPS -6.2% to EUR 1.09."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 18,
+        "composite": 0.985,
+        "price": 30.15999984741211,
+        "base_upside_pct": -0.27,
+        "bull_upside_pct": 17.29,
+        "conviction": "Medium",
+        "note": "Edenred upgraded full-year EBITDA guidance despite a 'reset year,' as 8% intrinsic operating-revenue growth held up but Italy/Brazil meal-voucher regulation dragged like-for-like growth to just 1.5% and adjusted EPS -6.2% to EUR 1.09."
       }
     ],
     "scorecard": [
       {
         "pillar": "8% intrinsic growth beneath a transitory regulatory reset; EBITDA guide raised",
         "expectation": "8% intrinsic growth beneath a transitory regulatory reset; EBITDA guide raised",
-        "current_status": "Momentum holding (composite +0.63, rank 33)",
+        "current_status": "Momentum holding (composite +0.98, rank 18)",
         "trend": "Stable"
       },
       {
         "pillar": "Brazil renegotiations 'better than expected' — reset de-risked",
         "expectation": "Brazil renegotiations 'better than expected' — reset de-risked",
-        "current_status": "Momentum holding (composite +0.63, rank 33)",
+        "current_status": "Momentum holding (composite +0.98, rank 18)",
         "trend": "Stable"
       },
       {
         "pillar": "Mobility +11.2% LFL plus Mobility House EV positioning",
         "expectation": "Mobility +11.2% LFL plus Mobility House EV positioning",
-        "current_status": "Momentum holding (composite +0.63, rank 33)",
+        "current_status": "Momentum holding (composite +0.98, rank 18)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "EDEN is recovering off a regulatory-reset trough: in H1 results (23 Jul) management upgraded full-year EBITDA guidance despite a declared 'reset year,' as 8% intrinsic operating-revenue growth held up beneath Italy/Brazil meal-voucher regulation that dragged like-for-like growth to just 1.5%.",
     "pillars": [
       "8% intrinsic growth beneath a transitory regulatory reset; EBITDA guide raised",
@@ -7374,11 +7482,11 @@
       "FY26 results and FY27 guidance (~Feb 2027)"
     ],
     "target": {
-      "bear": 22.7,
-      "base": 28.78,
-      "bull": 34.11,
-      "base_upside_pct": 0.69,
-      "bull_upside_pct": 19.35
+      "bear": 23.65,
+      "base": 30.08,
+      "bull": 35.38,
+      "base_upside_pct": -0.27,
+      "bull_upside_pct": 17.29
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -7387,7 +7495,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "TECH": {
     "ticker": "TECH",
@@ -7424,30 +7532,40 @@
         "bull_upside_pct": -10.74,
         "conviction": "Low",
         "note": "Bio-Techne's most recent quarterly call (the company reported Q4 FY26 on 2026-08-12 without hosting a call, alongside an agreement to be acquired by Merck KGaA for $73/share, ~$11.3B EV): organic revenue fell 2% on three customer-specific t"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 44,
+        "composite": 0.448,
+        "price": 72.33000183105469,
+        "base_upside_pct": -26.88,
+        "bull_upside_pct": -0.95,
+        "conviction": "Low",
+        "note": "Revenue fell 2% organically on cell-therapy and OEM order timing, but management insisted underlying growth was ~2% and set an FY27 bar of 'at least mid-single-digit' — this was the last call Bio-Techne hosted before agreeing to be acquired"
       }
     ],
     "scorecard": [
       {
         "pillar": "Firm $73/share Merck KGaA cash bid ($11.3B EV) sets a hard floor",
         "expectation": "Firm $73/share Merck KGaA cash bid ($11.3B EV) sets a hard floor",
-        "current_status": "Momentum holding (composite +1.02, rank 18)",
-        "trend": "Falling"
+        "current_status": "Momentum weakening (composite +0.45, rank 44)",
+        "trend": "Stable"
       },
       {
         "pillar": "Board-approved; targeted close late-2026/early-2027",
         "expectation": "Board-approved; targeted close late-2026/early-2027",
-        "current_status": "Momentum holding (composite +1.02, rank 18)",
-        "trend": "Falling"
+        "current_status": "Momentum weakening (composite +0.45, rank 44)",
+        "trend": "Stable"
       },
       {
         "pillar": "Fundamentals inflecting into the deal: GMP proteins +~50%, pharma strong",
         "expectation": "Fundamentals inflecting into the deal: GMP proteins +~50%, pharma strong",
-        "current_status": "Momentum holding (composite +1.02, rank 18)",
-        "trend": "Falling"
+        "current_status": "Momentum weakening (composite +0.45, rank 44)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "TECH is in a takeover-driven breakout: in June 2026 Merck KGaA agreed to acquire the company for $73/share in cash (~$11.3B EV), board-approved and targeted to close late-2026/early-2027.",
     "pillars": [
       "Firm $73/share Merck KGaA cash bid ($11.3B EV) sets a hard floor",
@@ -7465,20 +7583,17 @@
       "Shareholder-vote and closing-condition milestones"
     ],
     "target": {
-      "bear": 38.52,
-      "base": 49.86,
-      "bull": 64.62,
-      "base_upside_pct": -31.13,
-      "bull_upside_pct": -10.74
+      "bear": 39.53,
+      "base": 52.89,
+      "bull": 71.64,
+      "base_upside_pct": -26.88,
+      "bull_upside_pct": -0.95
     },
     "conviction": "Low",
     "conviction_points": 0,
-    "conviction_reasons": [
-      "composite >= 1.0",
-      "stretched vs base multiples"
-    ],
-    "conviction_trend": "Falling",
-    "weeks_tracked": 3
+    "conviction_reasons": [],
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "ZBRA": {
     "ticker": "ZBRA",
@@ -7515,30 +7630,40 @@
         "bull_upside_pct": 369.58,
         "conviction": "Medium",
         "note": "Record Q2 with sales topping $1.5B (+9% organic) and EPS +76%; full-year guide raised as memory-cost headwind fully mitigated via pricing."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 25,
+        "composite": 0.86,
+        "price": 360.5199890136719,
+        "base_upside_pct": 12.21,
+        "bull_upside_pct": 70.01,
+        "conviction": "Medium",
+        "note": "Record Q2 with sales topping $1.5B (+9% organic) and EPS +76%; full-year guide raised as memory-cost headwind fully mitigated via pricing."
       }
     ],
     "scorecard": [
       {
         "pillar": "Record Q2, EPS +76%; FY26 guide raised across sales/margin/EPS",
         "expectation": "Record Q2, EPS +76%; FY26 guide raised across sales/margin/EPS",
-        "current_status": "Momentum holding (composite +0.63, rank 32)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.86, rank 25)",
+        "trend": "Stable"
       },
       {
         "pillar": "AI frontline suite driving double-digit growth in retail/mfg/healthcare",
         "expectation": "AI frontline suite driving double-digit growth in retail/mfg/healthcare",
-        "current_status": "Momentum holding (composite +0.63, rank 32)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.86, rank 25)",
+        "trend": "Stable"
       },
       {
         "pillar": "Memory headwind fully offset via pricing ($90M benefit vs $120M cost)",
         "expectation": "Memory headwind fully offset via pricing ($90M benefit vs $120M cost)",
-        "current_status": "Momentum holding (composite +0.63, rank 32)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.86, rank 25)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "ZBRA is breaking out on a record Q2 (4 Aug): sales topped $1.5B (+9% organic) with EPS +76%, and full-year guidance was raised across sales, margin and EPS as the memory-cost headwind was fully mitigated via pricing.",
     "pillars": [
       "Record Q2, EPS +76%; FY26 guide raised across sales/margin/EPS",
@@ -7556,11 +7681,11 @@
       "Elo Touch / Photoneo integration and RFID ramp"
     ],
     "target": {
-      "bear": 352.23,
-      "base": 488.7,
-      "bull": 1765.77,
-      "base_upside_pct": 29.96,
-      "bull_upside_pct": 369.58
+      "bear": 329.0,
+      "base": 404.54,
+      "bull": 612.93,
+      "base_upside_pct": 12.21,
+      "bull_upside_pct": 70.01
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -7568,8 +7693,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Falling",
-    "weeks_tracked": 3
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "NTAP": {
     "ticker": "NTAP",
@@ -7628,7 +7753,7 @@
         "trend": "Rising"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "NetApp closed FY26 with record Q4 revenue of $1.95B (+12% YoY) on all-flash strength and 500 Q4 AI design wins, but FY27 guide of $7.325-7.575B (~8% growth) underwhelmed on memory cost inflation press",
     "pillars": [
@@ -7698,30 +7823,40 @@
         "bull_upside_pct": 33.43,
         "conviction": "High",
         "note": "First year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%); full-year outlook raised across every key metric."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 14,
+        "composite": 1.052,
+        "price": 5.929999828338623,
+        "base_upside_pct": 15.03,
+        "bull_upside_pct": 234.47,
+        "conviction": "High",
+        "note": "First year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%); full-year outlook raised across every key metric."
       }
     ],
     "scorecard": [
       {
         "pillar": "First YoY net- and core-sales growth in 4+ years; full-year guide raised",
         "expectation": "First YoY net- and core-sales growth in 4+ years; full-year guide raised",
-        "current_status": "Momentum holding (composite +1.11, rank 16)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.05, rank 14)",
+        "trend": "Stable"
       },
       {
         "pillar": "New-product engine delivering after years of decline; A&P reinvested",
         "expectation": "New-product engine delivering after years of decline; A&P reinvested",
-        "current_status": "Momentum holding (composite +1.11, rank 16)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.05, rank 14)",
+        "trend": "Stable"
       },
       {
         "pillar": "~$100M IEEPA tariff recovery booked; margin held despite +$200M inflation",
         "expectation": "~$100M IEEPA tariff recovery booked; margin held despite +$200M inflation",
-        "current_status": "Momentum holding (composite +1.11, rank 16)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.05, rank 14)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "NWL is breaking out on a turnaround inflection: Q2 delivered its first year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%), and the full-year outlook was raised across every key metric.",
     "pillars": [
       "First YoY net- and core-sales growth in 4+ years; full-year guide raised",
@@ -7739,11 +7874,11 @@
       "Tariff-mitigation and de-leveraging progress"
     ],
     "target": {
-      "bear": 5.21,
-      "base": 6.37,
-      "bull": 8.33,
-      "base_upside_pct": 2.02,
-      "bull_upside_pct": 33.43
+      "bear": 5.99,
+      "base": 6.82,
+      "bull": 19.83,
+      "base_upside_pct": 15.03,
+      "bull_upside_pct": 234.47
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -7752,8 +7887,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Rising",
-    "weeks_tracked": 3
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "AVTR": {
     "ticker": "AVTR",
@@ -7790,30 +7925,40 @@
         "bull_upside_pct": 71.33,
         "conviction": "Medium",
         "note": "Q2 beat (EPS $0.21 vs $0.19; rev $1.69B) with VWR distribution back to organic growth ahead of plan; FY26 guide raised and shares jumped ~15%."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 31,
+        "composite": 0.682,
+        "price": 14.420000076293945,
+        "base_upside_pct": 21.5,
+        "bull_upside_pct": 83.92,
+        "conviction": "Medium",
+        "note": "Q2 beat (EPS $0.21 vs $0.19; rev $1.69B) with VWR distribution back to organic growth ahead of plan; FY26 guide raised and shares jumped ~15%."
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 beat and FY26 raise; VWR distribution back to +1.7% organic ahead of plan",
         "expectation": "Q2 beat and FY26 raise; VWR distribution back to +1.7% organic ahead of plan",
-        "current_status": "Momentum holding (composite +0.91, rank 22)",
+        "current_status": "Momentum holding (composite +0.68, rank 31)",
         "trend": "Stable"
       },
       {
         "pillar": "'Revival' self-help turnaround driving controllable outperformance",
         "expectation": "'Revival' self-help turnaround driving controllable outperformance",
-        "current_status": "Momentum holding (composite +0.91, rank 22)",
+        "current_status": "Momentum holding (composite +0.68, rank 31)",
         "trend": "Stable"
       },
       {
         "pillar": "Bioscience Production double-digit order intake, positive book-to-bill",
         "expectation": "Bioscience Production double-digit order intake, positive book-to-bill",
-        "current_status": "Momentum holding (composite +0.91, rank 22)",
+        "current_status": "Momentum holding (composite +0.68, rank 31)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "AVTR is breaking out on a turnaround beat: Q2 topped estimates (EPS $0.21 vs $0.19, rev $1.69B) with the VWR distribution business back to organic growth ahead of plan, FY26 guidance raised, and shares up ~15% on the print.",
     "pillars": [
       "Q2 beat and FY26 raise; VWR distribution back to +1.7% organic ahead of plan",
@@ -7831,19 +7976,20 @@
       "NIH/academic funding and biopharma order trends"
     ],
     "target": {
-      "bear": 13.24,
-      "base": 16.11,
-      "bull": 23.4,
-      "base_upside_pct": 17.94,
-      "bull_upside_pct": 71.33
+      "bear": 13.76,
+      "base": 17.52,
+      "bull": 26.52,
+      "base_upside_pct": 21.5,
+      "bull_upside_pct": 83.92
     },
     "conviction": "Medium",
-    "conviction_points": 1,
+    "conviction_points": 2,
     "conviction_reasons": [
+      "fresh breakout",
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "W": {
     "ticker": "W",
@@ -7902,7 +8048,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "W is breaking out on its best US revenue growth of the post-COVID era: Q2 (4 Aug) net revenue +7.5% with orders +6% and a 6.9% adjusted EBITDA margin (highest since 2021), sending shares up ~19%.",
     "pillars": [
@@ -8051,30 +8197,40 @@
         "bull_upside_pct": 25.13,
         "conviction": "High",
         "note": "Q2 beat (EPS $3.02 vs ~$2.74; rev ~$1.0B) with DSA booking its highest net book-to-bill in nearly four years; FY26 EPS guide raised $0.25 at the midpoint."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 16,
+        "composite": 1.009,
+        "price": 297.6400146484375,
+        "base_upside_pct": -8.37,
+        "bull_upside_pct": 32.27,
+        "conviction": "High",
+        "note": "Q2 beat (EPS $3.02 vs ~$2.74; rev ~$1.0B) with DSA booking its highest net book-to-bill in nearly four years; FY26 EPS guide raised $0.25 at the midpoint."
       }
     ],
     "scorecard": [
       {
         "pillar": "DSA highest net book-to-bill in ~4 years; FY26 EPS guide raised ~$0.25",
         "expectation": "DSA highest net book-to-bill in ~4 years; FY26 EPS guide raised ~$0.25",
-        "current_status": "Momentum holding (composite +1.26, rank 12)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.01, rank 16)",
+        "trend": "Stable"
       },
       {
         "pillar": "IND-enabling study uptick signals biotech-downturn bottoming",
         "expectation": "IND-enabling study uptick signals biotech-downturn bottoming",
-        "current_status": "Momentum holding (composite +1.26, rank 12)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.01, rank 16)",
+        "trend": "Stable"
       },
       {
         "pillar": "KF Cambodia + Mauritius NHP supply as a deepening cost/moat advantage",
         "expectation": "KF Cambodia + Mauritius NHP supply as a deepening cost/moat advantage",
-        "current_status": "Momentum holding (composite +1.26, rank 12)",
-        "trend": "Rising"
+        "current_status": "Momentum holding (composite +1.01, rank 16)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint.",
     "pillars": [
       "DSA highest net book-to-bill in ~4 years; FY26 EPS guide raised ~$0.25",
@@ -8092,11 +8248,11 @@
       "NHP supply-chain and regulatory developments"
     ],
     "target": {
-      "bear": 182.35,
-      "base": 253.42,
-      "bull": 350.43,
-      "base_upside_pct": -9.51,
-      "bull_upside_pct": 25.13
+      "bear": 189.12,
+      "base": 272.74,
+      "bull": 393.7,
+      "base_upside_pct": -8.37,
+      "bull_upside_pct": 32.27
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -8105,8 +8261,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Rising",
-    "weeks_tracked": 3
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "KLR.L": {
     "ticker": "KLR.L",
@@ -8165,7 +8321,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "KLR is breaking out on a record H1 (4 Aug): revenue +10.3% to GBP 1.6B, operating margin expanding to 7.3%, EPS +22.4% to 120.1p, and a record GBP 1.9B order book — with the interim dividend hiked 57%.",
     "pillars": [
@@ -8233,30 +8389,40 @@
         "bull_upside_pct": 15.36,
         "conviction": "Medium",
         "note": "A 22nd consecutive record quarter (EUR 3.1bn net profit, 23% RoTE) and a raised ~EUR 11.5bn 2026 profit target were overshadowed by Orcel flagging EUR 2.2bn of front-loaded Commerzbank investment that may dent short-term profit and distribu"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 39,
+        "composite": 0.503,
+        "price": 28.489999771118164,
+        "base_upside_pct": 3.17,
+        "bull_upside_pct": 15.77,
+        "conviction": "Medium",
+        "note": "A 22nd consecutive record quarter (EUR 3.1bn net profit, 23% RoTE) and a raised ~EUR 11.5bn 2026 profit target were overshadowed by Orcel flagging EUR 2.2bn of front-loaded Commerzbank investment that may dent short-term profit and distribu"
       }
     ],
     "scorecard": [
       {
         "pillar": "Combined ratio at 90% plan KPI with extra-prudent reserving",
         "expectation": "Combined ratio at 90% plan KPI with extra-prudent reserving",
-        "current_status": "Momentum holding (composite +0.79, rank 26)",
+        "current_status": "Momentum holding (composite +0.50, rank 39)",
         "trend": "Stable"
       },
       {
         "pillar": "Cumulative dividend target raised to >=EUR 2.4bn; >EUR 800m annual floor",
         "expectation": "Cumulative dividend target raised to >=EUR 2.4bn; >EUR 800m annual floor",
-        "current_status": "Momentum holding (composite +0.79, rank 26)",
+        "current_status": "Momentum holding (composite +0.50, rank 39)",
         "trend": "Stable"
       },
       {
         "pillar": "Bancassurance premiums +30% with Banca Popolare di Sondrio integration",
         "expectation": "Bancassurance premiums +30% with Banca Popolare di Sondrio integration",
-        "current_status": "Momentum holding (composite +0.79, rank 26)",
+        "current_status": "Momentum holding (composite +0.50, rank 39)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "UNI is grinding higher on a steady beat-and-deliver story: Q1 (15 May) was in line (EPS EUR 0.51, net profit ~EUR 329m +15%) with the combined ratio hitting the 90% industrial-plan KPI level, and management raised the cumulative 2025-27 dividend target to >=EUR 2.4bn and set 'more than EUR 800m' as an annual distribution floor.",
     "pillars": [
       "Combined ratio at 90% plan KPI with extra-prudent reserving",
@@ -8274,11 +8440,11 @@
       "BPER / Banca Popolare di Sondrio bancassurance developments"
     ],
     "target": {
-      "bear": 25.41,
-      "base": 29.37,
-      "bull": 33.27,
-      "base_upside_pct": 1.83,
-      "bull_upside_pct": 15.36
+      "bear": 25.65,
+      "base": 29.39,
+      "bull": 32.98,
+      "base_upside_pct": 3.17,
+      "bull_upside_pct": 15.77
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -8287,7 +8453,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "RNG": {
     "ticker": "RNG",
@@ -8324,30 +8490,40 @@
         "bull_upside_pct": 444.4,
         "conviction": "High",
         "note": "Broad beat-and-raise - revenue $657m (+5.9%) above the high end and FY26 raised on every metric - with the key new proof point that AI is accretive: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort net retention."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 8,
+        "composite": 1.507,
+        "price": 65.61000061035156,
+        "base_upside_pct": 15.16,
+        "bull_upside_pct": 90.1,
+        "conviction": "High",
+        "note": "Broad beat-and-raise - revenue $657m (+5.9%) above the high end and FY26 raised on every metric - with the key new proof point that AI is accretive: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort net retention."
       }
     ],
     "scorecard": [
       {
         "pillar": "Paid-AI products (~$300m, 13% of revenue) doubling y/y with >100% cohort NRR",
         "expectation": "Paid-AI products (~$300m, 13% of revenue) doubling y/y with >100% cohort NRR",
-        "current_status": "Momentum holding (composite +1.20, rank 13)",
+        "current_status": "Momentum strengthening (composite +1.51, rank 8)",
         "trend": "Stable"
       },
       {
         "pillar": "NICE partnership opens an enterprise channel; Avaya base still migrating",
         "expectation": "NICE partnership opens an enterprise channel; Avaya base still migrating",
-        "current_status": "Momentum holding (composite +1.20, rank 13)",
+        "current_status": "Momentum strengthening (composite +1.51, rank 8)",
         "trend": "Stable"
       },
       {
         "pillar": "FCF $615-625m guided, 1.5x net leverage, buybacks plus a new dividend",
         "expectation": "FCF $615-625m guided, 1.5x net leverage, buybacks plus a new dividend",
-        "current_status": "Momentum holding (composite +1.20, rank 13)",
+        "current_status": "Momentum strengthening (composite +1.51, rank 8)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "The July 23 Q2 print was a broad beat-and-raise that flipped the 'AI kills UCaaS' bear case: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort retention, and FY26 FCF was raised to $615-625m alongside a dividend increase.",
     "pillars": [
       "Paid-AI products (~$300m, 13% of revenue) doubling y/y with >100% cohort NRR",
@@ -8365,11 +8541,11 @@
       "NICE/Avaya enterprise channel win announcements (H2 2026)"
     ],
     "target": {
-      "bear": 68.09,
-      "base": 92.62,
-      "bull": 351.08,
-      "base_upside_pct": 43.62,
-      "bull_upside_pct": 444.4
+      "bear": 60.21,
+      "base": 75.55,
+      "bull": 124.73,
+      "base_upside_pct": 15.16,
+      "bull_upside_pct": 90.1
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -8379,7 +8555,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "SGRO.L": {
     "ticker": "SGRO.L",
@@ -8416,30 +8592,40 @@
         "bull_upside_pct": 21.09,
         "conviction": "Medium",
         "note": "Solid H1 (adj EPS +6.6% to 19.3p, LFL rents +5.3%, pre-lets GBP 24m vs GBP 3m) delivered inside a formal Prologis offer period - mgmt refused all bid questions - while the 3 GVA data-centre power bank and first VIRTUS pre-let at Slough beca"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 33,
+        "composite": 0.646,
+        "price": 968.0,
+        "base_upside_pct": 0.75,
+        "bull_upside_pct": 20.79,
+        "conviction": "Medium",
+        "note": "Solid H1 (adj EPS +6.6% to 19.3p, LFL rents +5.3%, pre-lets GBP 24m vs GBP 3m) delivered inside a formal Prologis offer period - mgmt refused all bid questions - while the 3 GVA data-centre power bank and first VIRTUS pre-let at Slough beca"
       }
     ],
     "scorecard": [
       {
         "pillar": "Prologis approach puts a private-market floor under 902p EPRA NTA",
         "expectation": "Prologis approach puts a private-market floor under 902p EPRA NTA",
-        "current_status": "Momentum holding (composite +0.59, rank 37)",
+        "current_status": "Momentum holding (composite +0.65, rank 33)",
         "trend": "Stable"
       },
       {
         "pillar": "3 GVA power bank + VIRTUS pre-let converts DC optionality into income",
         "expectation": "3 GVA power bank + VIRTUS pre-let converts DC optionality into income",
-        "current_status": "Momentum holding (composite +0.59, rank 37)",
+        "current_status": "Momentum holding (composite +0.65, rank 33)",
         "trend": "Stable"
       },
       {
         "pillar": "Pre-lets GBP 24m vs GBP 3m y/y — occupier demand inflecting",
         "expectation": "Pre-lets GBP 24m vs GBP 3m y/y — occupier demand inflecting",
-        "current_status": "Momentum holding (composite +0.59, rank 37)",
+        "current_status": "Momentum holding (composite +0.65, rank 33)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "SEGRO is in a formal offer period after a Prologis approach, putting an M&A floor under a stock that traded well below its 902p EPRA NTA.",
     "pillars": [
       "Prologis approach puts a private-market floor under 902p EPRA NTA",
@@ -8458,20 +8644,19 @@
       "FY26 results (~Feb 2027)"
     ],
     "target": {
-      "bear": 759.18,
-      "base": 960.94,
-      "bull": 1163.44,
-      "base_upside_pct": 0.01,
-      "bull_upside_pct": 21.09
+      "bear": 830.96,
+      "base": 975.28,
+      "bull": 1169.24,
+      "base_upside_pct": 0.75,
+      "bull_upside_pct": 20.79
     },
     "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction_points": 1,
     "conviction_reasons": [
-      "fresh breakout",
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "MKS.L": {
     "ticker": "MKS.L",
@@ -8589,30 +8774,40 @@
         "bull_upside_pct": 4.9,
         "conviction": "Medium",
         "note": "A modest beat (EPS $0.26 vs $0.254 est., revenue $1.336bn, -2% y/y) could not stop a ~12% selloff - but CEO Waddell effectively called the staffing-cycle bottom, citing three straight quarters of sequential Talent Solutions growth extending"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 32,
+        "composite": 0.663,
+        "price": 44.900001525878906,
+        "base_upside_pct": -31.64,
+        "bull_upside_pct": -5.99,
+        "conviction": "Low",
+        "note": "A modest beat (EPS $0.26 vs $0.254 est., revenue $1.336bn, -2% y/y) could not stop a ~12% selloff - but CEO Waddell effectively called the staffing-cycle bottom, citing three straight quarters of sequential Talent Solutions growth extending"
       }
     ],
     "scorecard": [
       {
         "pillar": "CEO's explicit cycle-bottom call; three straight quarters of sequential growth",
         "expectation": "CEO's explicit cycle-bottom call; three straight quarters of sequential growth",
-        "current_status": "Momentum holding (composite +0.86, rank 24)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +0.66, rank 32)",
+        "trend": "Falling"
       },
       {
         "pillar": "Q3 guide implies ~2x sequential EPS inflection ($0.43-0.53 vs $0.26)",
         "expectation": "Q3 guide implies ~2x sequential EPS inflection ($0.43-0.53 vs $0.26)",
-        "current_status": "Momentum holding (composite +0.86, rank 24)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +0.66, rank 32)",
+        "trend": "Falling"
       },
       {
         "pillar": "Protiviti restructuring: $45m annualized savings; tech consulting at a record",
         "expectation": "Protiviti restructuring: $45m annualized savings; tech consulting at a record",
-        "current_status": "Momentum holding (composite +0.86, rank 24)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +0.66, rank 32)",
+        "trend": "Falling"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "This is a counter-cyclical breakout: on the July 23 call CEO Waddell effectively called the staffing-cycle trough, citing three straight quarters of sequential Talent Solutions growth extending into July and 'no reason' prior peak revenues cannot be reclaimed.",
     "pillars": [
       "CEO's explicit cycle-bottom call; three straight quarters of sequential growth",
@@ -8630,19 +8825,20 @@
       "Monthly US jobs/JOLTS prints through H2 2026"
     ],
     "target": {
-      "bear": 22.32,
-      "base": 32.84,
-      "bull": 45.34,
-      "base_upside_pct": -24.01,
-      "bull_upside_pct": 4.9
+      "bear": 22.79,
+      "base": 30.69,
+      "bull": 42.21,
+      "base_upside_pct": -31.64,
+      "bull_upside_pct": -5.99
     },
-    "conviction": "Medium",
-    "conviction_points": 1,
+    "conviction": "Low",
+    "conviction_points": 0,
     "conviction_reasons": [
-      "fresh breakout"
+      "fresh breakout",
+      "stretched vs base multiples"
     ],
-    "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "conviction_trend": "Falling",
+    "weeks_tracked": 4
   },
   "NET": {
     "ticker": "NET",
@@ -8701,7 +8897,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "The stock is riding two stories into tonight's Q2 print (due after the close today, Aug 6): 30%+ growth with record $5m+ customer additions, and the shock 'agentic AI-first' restructuring — a ~20% workforce cut Prince framed as scaling revenue faster than headcount, with Rule of 40 guided 'north of 46%' now and above 50% next year.",
     "pillars": [
@@ -8792,7 +8988,7 @@
         "trend": "Stable"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "The stock broke out after FY26 results (May 28), when management paired a $350m share-repurchase authorization — a capital-allocation signal shift for the Shoen-controlled company — with guidance that fleet depreciation declines in FY2027, removing the expense wave that crushed reported earnings (FY26 net income $83m vs $367m).",
     "pillars": [
@@ -8841,30 +9037,40 @@
         "bull_upside_pct": -0.39,
         "conviction": "Medium",
         "note": "Fastest revenue growth of the Thaysen era ($1.16bn, +9.5%) on >95 NovaSeq X placements and 15% ex-China clinical consumables growth - FY26 guidance raised across the board while Thaysen recast the feared 'clinical cliff' as 'a wave we are s"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 50,
+        "composite": 0.361,
+        "price": 224.99000549316406,
+        "base_upside_pct": -32.51,
+        "bull_upside_pct": -4.38,
+        "conviction": "Low",
+        "note": "Fastest revenue growth of the Thaysen era ($1.16bn, +9.5%) on >95 NovaSeq X placements and 15% ex-China clinical consumables growth - FY26 guidance raised across the board while Thaysen recast the feared 'clinical cliff' as 'a wave we are s"
       }
     ],
     "scorecard": [
       {
         "pillar": "Clinical consumables +20% with NovaSeq X conversion to 80-85% by YE26",
         "expectation": "Clinical consumables +20% with NovaSeq X conversion to 80-85% by YE26",
-        "current_status": "Momentum holding (composite +0.58, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum weakening (composite +0.36, rank 50)",
+        "trend": "Falling"
       },
       {
         "pillar": "FY26 guidance raised across the board; 2027 bar deliberately left low",
         "expectation": "FY26 guidance raised across the board; 2027 bar deliberately left low",
-        "current_status": "Momentum holding (composite +0.58, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum weakening (composite +0.36, rank 50)",
+        "trend": "Falling"
       },
       {
         "pillar": "Multiomics and data businesses add growth layers (profitable from day one)",
         "expectation": "Multiomics and data businesses add growth layers (profitable from day one)",
-        "current_status": "Momentum holding (composite +0.58, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum weakening (composite +0.36, rank 50)",
+        "trend": "Falling"
       }
     ],
-    "status": "dormant",
-    "last_seen": "2026-08-06",
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
     "statement": "Q2 (July 30) delivered the fastest revenue growth of the Thaysen era — $1.16bn, +9.5%, on >95 NovaSeq X placements and 15% ex-China clinical consumables growth — and FY26 guidance was raised across the board.",
     "pillars": [
       "Clinical consumables +20% with NovaSeq X conversion to 80-85% by YE26",
@@ -8882,19 +9088,20 @@
       "FY27 guidance / JPMorgan Healthcare Conference (Jan 2027)"
     ],
     "target": {
-      "bear": 100.66,
-      "base": 142.58,
-      "bull": 199.09,
-      "base_upside_pct": -28.66,
-      "bull_upside_pct": -0.39
+      "bear": 105.09,
+      "base": 151.84,
+      "bull": 215.14,
+      "base_upside_pct": -32.51,
+      "bull_upside_pct": -4.38
     },
-    "conviction": "Medium",
-    "conviction_points": 1,
+    "conviction": "Low",
+    "conviction_points": 0,
     "conviction_reasons": [
-      "fresh breakout"
+      "fresh breakout",
+      "stretched vs base multiples"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Falling",
+    "weeks_tracked": 2
   },
   "AXON": {
     "ticker": "AXON",
@@ -9083,30 +9290,40 @@
         "bull_upside_pct": 21.0,
         "conviction": "Medium",
         "note": "Natera beat revenue by ~$92M ($752.8M, +38% y/y, ~40% ex-true-ups) on a record 1.044M tests and 283k clinical Signatera MRD units -- the largest sequential MRD add in company history -- and raised FY26 revenue guidance by $100M at the midpo"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 27,
+        "composite": 0.749,
+        "price": 336.7099914550781,
+        "base_upside_pct": 0.01,
+        "bull_upside_pct": 11.37,
+        "conviction": "Medium",
+        "note": "Natera beat revenue by ~$92M ($752.8M, +38% y/y, ~40% ex-true-ups) on a record 1.044M tests and 283k clinical Signatera MRD units -- the largest sequential MRD add in company history -- and raised FY26 revenue guidance by $100M at the midpo"
       }
     ],
     "scorecard": [
       {
         "pillar": "Signatera units +55% with ASP rising toward $1,275 (long-term $2,000)",
         "expectation": "Signatera units +55% with ASP rising toward $1,275 (long-term $2,000)",
-        "current_status": "Momentum holding (composite +0.84, rank 25)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.75, rank 27)",
+        "trend": "Stable"
       },
       {
         "pillar": "Japan PMDA approval could roughly double addressable Signatera volume",
         "expectation": "Japan PMDA approval could roughly double addressable Signatera volume",
-        "current_status": "Momentum holding (composite +0.84, rank 25)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.75, rank 27)",
+        "trend": "Stable"
       },
       {
         "pillar": "Gross margin guided to 65%; $120m guidance reset after one quarter",
         "expectation": "Gross margin guided to 65%; $120m guidance reset after one quarter",
-        "current_status": "Momentum holding (composite +0.84, rank 25)",
-        "trend": "Falling"
+        "current_status": "Momentum holding (composite +0.75, rank 27)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q1 (May 7) was the first-ever $697m / 1-million-test quarter (+39% y/y), forcing a $120m guidance reset and a 65% gross-margin guide — and Q2 prints after the close today (Aug 6).",
     "pillars": [
       "Signatera units +55% with ASP rising toward $1,275 (long-term $2,000)",
@@ -9125,11 +9342,11 @@
       "FIND CRC FDA submission progress (2027)"
     ],
     "target": {
-      "bear": 193.0,
-      "base": 330.64,
+      "bear": 280.0,
+      "base": 336.74,
       "bull": 375.0,
-      "base_upside_pct": 6.68,
-      "bull_upside_pct": 21.0
+      "base_upside_pct": 0.01,
+      "bull_upside_pct": 11.37
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -9137,8 +9354,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Falling",
-    "weeks_tracked": 3
+    "conviction_trend": "Stable",
+    "weeks_tracked": 4
   },
   "HIW": {
     "ticker": "HIW",
@@ -9257,30 +9474,40 @@
         "bull_upside_pct": 60.04,
         "conviction": "Medium",
         "note": "A beat-and-raise: Plasma revenue grew 8% and Vascular Closure returned to double-digit growth, lifting FY27 organic revenue guidance to 4-7%, while management deliberately held its plasma collection volume assumption at 0-2% against a marke"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 26,
+        "composite": 0.749,
+        "price": 108.31999969482422,
+        "base_upside_pct": 7.74,
+        "bull_upside_pct": 57.07,
+        "conviction": "Medium",
+        "note": "A beat-and-raise: Plasma revenue grew 8% and Vascular Closure returned to double-digit growth, lifting FY27 organic revenue guidance to 4-7%, while management deliberately held its plasma collection volume assumption at 0-2% against a marke"
       }
     ],
     "scorecard": [
       {
         "pillar": "Q1 FY27 beat with the EPS growth guide raised to +5-8% out of the gate",
         "expectation": "Q1 FY27 beat with the EPS growth guide raised to +5-8% out of the gate",
-        "current_status": "Momentum weakening (composite +0.33, rank 50)",
+        "current_status": "Momentum holding (composite +0.75, rank 26)",
         "trend": "Stable"
       },
       {
         "pillar": "VASCADE MVP XL's new EP evidence rides the ablation procedure boom",
         "expectation": "VASCADE MVP XL's new EP evidence rides the ablation procedure boom",
-        "current_status": "Momentum weakening (composite +0.33, rank 50)",
+        "current_status": "Momentum holding (composite +0.75, rank 26)",
         "trend": "Stable"
       },
       {
         "pillar": "Cleaner two-segment story (Apheresis/MedSurg) aids the re-rating",
         "expectation": "Cleaner two-segment story (Apheresis/MedSurg) aids the re-rating",
-        "current_status": "Momentum weakening (composite +0.33, rank 50)",
+        "current_status": "Momentum holding (composite +0.75, rank 26)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "This morning's Q1 FY27 print (Aug 6) beat — adjusted EPS $1.14 on revenue +4.8%, ~2.6% above the Street — and management raised FY27 adjusted EPS growth guidance to +5-8% (~$4.90 midpoint).",
     "pillars": [
       "Q1 FY27 beat with the EPS growth guide raised to +5-8% out of the gate",
@@ -9298,11 +9525,11 @@
       "VASCADE EP adoption data at cardiology conferences (H2 2026)"
     ],
     "target": {
-      "bear": 87.87,
-      "base": 104.67,
-      "bull": 145.31,
-      "base_upside_pct": 15.27,
-      "bull_upside_pct": 60.04
+      "bear": 91.32,
+      "base": 116.7,
+      "bull": 170.14,
+      "base_upside_pct": 7.74,
+      "bull_upside_pct": 57.07
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -9311,7 +9538,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 3
+    "weeks_tracked": 4
   },
   "TIGO": {
     "ticker": "TIGO",
@@ -9623,30 +9850,40 @@
         "bull_upside_pct": 5.14,
         "conviction": "Medium",
         "note": "A blowout print -- net income of $3.7bn / $12.62 per share (adjusted $12.54 vs $10.03 consensus) on $44.5bn revenue, with refining operating income of $4.5bn versus $1.3bn a year ago and renewable diesel swinging to $717M profit from a $79M"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 21,
+        "composite": 0.973,
+        "price": 340.4100036621094,
+        "base_upside_pct": -1.49,
+        "bull_upside_pct": 14.53,
+        "conviction": "Medium",
+        "note": "A blowout print -- net income of $3.7bn / $12.62 per share (adjusted $12.54 vs $10.03 consensus) on $44.5bn revenue, with refining operating income of $4.5bn versus $1.3bn a year ago and renewable diesel swinging to $717M profit from a $79M"
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 refining operating income $4.5bn versus $1.3bn a year ago",
         "expectation": "Q2 refining operating income $4.5bn versus $1.3bn a year ago",
-        "current_status": "Momentum holding (composite +0.69, rank 29)",
+        "current_status": "Momentum holding (composite +0.97, rank 21)",
         "trend": "Stable"
       },
       {
         "pillar": "DGD swung to $717M profit from a $79M loss — an ~$800M turn",
         "expectation": "DGD swung to $717M profit from a $79M loss — an ~$800M turn",
-        "current_status": "Momentum holding (composite +0.69, rank 29)",
+        "current_status": "Momentum holding (composite +0.97, rank 21)",
         "trend": "Stable"
       },
       {
         "pillar": "Management reframing the mid-cycle floor on NW European hydroskimming",
         "expectation": "Management reframing the mid-cycle floor on NW European hydroskimming",
-        "current_status": "Momentum holding (composite +0.69, rank 29)",
+        "current_status": "Momentum holding (composite +0.97, rank 21)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026 was a blowout: net income of $3.7bn ($12.62/share, adjusted $12.54 versus $10.03 consensus) on $44.5bn of revenue, with refining operating income of $4.5bn against $1.3bn a year ago.",
     "pillars": [
       "Q2 refining operating income $4.5bn versus $1.3bn a year ago",
@@ -9664,19 +9901,20 @@
       "Benicia wind-down cost and West Coast capacity effects (Q3-Q4 2026)"
     ],
     "target": {
-      "bear": 259.64,
-      "base": 321.86,
-      "bull": 359.22,
-      "base_upside_pct": -5.8,
-      "bull_upside_pct": 5.14
+      "bear": 251.88,
+      "base": 335.34,
+      "bull": 389.88,
+      "base_upside_pct": -1.49,
+      "bull_upside_pct": 14.53
     },
     "conviction": "Medium",
-    "conviction_points": 1,
+    "conviction_points": 2,
     "conviction_reasons": [
-      "fresh breakout"
+      "fresh breakout",
+      "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 2
+    "weeks_tracked": 3
   },
   "CRDO": {
     "ticker": "CRDO",
@@ -9763,30 +10001,40 @@
         "bull_upside_pct": 79.45,
         "conviction": "Medium",
         "note": "Record quarter and a big raise -- revenue +48% y/y to $481M (vs ~$402M FactSet), royalties +50% to $307.7M and adjusted EBITDA +46% to $328.8M, with FY26 guidance lifted $112.5M at the midpoint and a new $1bn buyback authorization on top."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 20,
+        "composite": 0.975,
+        "price": 109.31999969482422,
+        "base_upside_pct": 44.53,
+        "bull_upside_pct": 113.63,
+        "conviction": "Medium",
+        "note": "Record quarter and a big raise -- revenue +48% y/y to $481M (vs ~$402M FactSet), royalties +50% to $307.7M and adjusted EBITDA +46% to $328.8M, with FY26 guidance lifted $112.5M at the midpoint and a new $1bn buyback authorization on top."
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 revenue +48% to $481M; royalties +50% to $307.7M",
         "expectation": "Q2 revenue +48% to $481M; royalties +50% to $307.7M",
-        "current_status": "Momentum holding (composite +0.70, rank 30)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.98, rank 20)",
+        "trend": "Stable"
       },
       {
         "pillar": "FY26 guidance raised $112.5M at the midpoint plus a $1bn buyback",
         "expectation": "FY26 guidance raised $112.5M at the midpoint plus a $1bn buyback",
-        "current_status": "Momentum holding (composite +0.70, rank 30)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.98, rank 20)",
+        "trend": "Stable"
       },
       {
         "pillar": "Royalty base broadened — OCREVUS ZUNOVO, Opdivo Qvantig, RYBREVANT SC",
         "expectation": "Royalty base broadened — OCREVUS ZUNOVO, Opdivo Qvantig, RYBREVANT SC",
-        "current_status": "Momentum holding (composite +0.70, rank 30)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.98, rank 20)",
+        "trend": "Stable"
       }
     ],
-    "status": "dormant",
-    "last_seen": "2026-08-08",
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 6 August, was a record and a big raise — revenue up 48% year over year to $481M against roughly $402M consensus, royalties up 50% to $307.7M and adjusted EBITDA up 46% to $328.8M.",
     "pillars": [
       "Q2 revenue +48% to $481M; royalties +50% to $307.7M",
@@ -9804,11 +10052,11 @@
       "New ENHANZE / Hypercon collaboration signings extending duration past 2040"
     ],
     "target": {
-      "bear": 109.83,
-      "base": 122.37,
-      "bull": 185.04,
-      "base_upside_pct": 18.67,
-      "bull_upside_pct": 79.45
+      "bear": 120.57,
+      "base": 158.0,
+      "bull": 233.54,
+      "base_upside_pct": 44.53,
+      "bull_upside_pct": 113.63
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -9816,8 +10064,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "MPC": {
     "ticker": "MPC",
@@ -9844,30 +10092,40 @@
         "bull_upside_pct": 5.08,
         "conviction": "Medium",
         "note": "Record refining quarter -- adjusted EBITDA of $8.5bn and EPS of $17.73 versus $14.52 consensus, on a 112% R&M margin capture driven by advantaged SPR barrels and heavier Canadian and Venezuelan crude runs, with $2.8bn returned to shareholde"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 15,
+        "composite": 1.023,
+        "price": 354.8800048828125,
+        "base_upside_pct": -4.95,
+        "bull_upside_pct": 13.18,
+        "conviction": "High",
+        "note": "Record refining quarter -- adjusted EBITDA of $8.5bn and EPS of $17.73 versus $14.52 consensus, on a 112% R&M margin capture driven by advantaged SPR barrels and heavier Canadian and Venezuelan crude runs, with $2.8bn returned to shareholde"
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 adjusted EBITDA $8.5bn and EPS $17.73 versus $14.52 consensus",
         "expectation": "Q2 adjusted EBITDA $8.5bn and EPS $17.73 versus $14.52 consensus",
-        "current_status": "Momentum holding (composite +0.69, rank 30)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.02, rank 15)",
+        "trend": "Rising"
       },
       {
         "pillar": "112% R&M capture on advantaged SPR, Canadian and Venezuelan barrels",
         "expectation": "112% R&M capture on advantaged SPR, Canadian and Venezuelan barrels",
-        "current_status": "Momentum holding (composite +0.69, rank 30)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.02, rank 15)",
+        "trend": "Rising"
       },
       {
         "pillar": "MPLX growth capex to $2.9bn underwrites 12.5% distribution growth",
         "expectation": "MPLX growth capex to $2.9bn underwrites 12.5% distribution growth",
-        "current_status": "Momentum holding (composite +0.69, rank 30)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.02, rank 15)",
+        "trend": "Rising"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 4 August, was a record refining quarter — adjusted EBITDA of $8.5bn and EPS of $17.73 against $14.52 consensus, on a 112% R&M margin capture.",
     "pillars": [
       "Q2 adjusted EBITDA $8.5bn and EPS $17.73 versus $14.52 consensus",
@@ -9885,19 +10143,21 @@
       "45Z credit and feedstock tariff resolution (2H 2026) — renewable diesel swing"
     ],
     "target": {
-      "bear": 268.01,
-      "base": 332.98,
-      "bull": 373.48,
-      "base_upside_pct": -6.31,
-      "bull_upside_pct": 5.08
+      "bear": 249.99,
+      "base": 337.31,
+      "bull": 401.65,
+      "base_upside_pct": -4.95,
+      "bull_upside_pct": 13.18
     },
-    "conviction": "Medium",
-    "conviction_points": 1,
+    "conviction": "High",
+    "conviction_points": 3,
     "conviction_reasons": [
-      "fresh breakout"
+      "composite >= 1.0",
+      "fresh breakout",
+      "bull-case upside > 10%"
     ],
-    "conviction_trend": "Stable",
-    "weeks_tracked": 2
+    "conviction_trend": "Rising",
+    "weeks_tracked": 3
   },
   "PAYC": {
     "ticker": "PAYC",
@@ -9924,30 +10184,40 @@
         "bull_upside_pct": 439.46,
         "conviction": "Medium",
         "note": "Beat-and-raise -- revenue $531.2M (+9.8% y/y), non-GAAP EPS $2.78 (16.8% above consensus) and adjusted EBITDA of $235M (44.2% margin) -- with FY26 revenue guidance lifted to $2.197-2.212bn; the stock rose ~14% pre-market and BTIG lifted its"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 12,
+        "composite": 1.179,
+        "price": 231.6999969482422,
+        "base_upside_pct": 9.27,
+        "bull_upside_pct": 75.59,
+        "conviction": "High",
+        "note": "Beat-and-raise -- revenue $531.2M (+9.8% y/y), non-GAAP EPS $2.78 (16.8% above consensus) and adjusted EBITDA of $235M (44.2% margin) -- with FY26 revenue guidance lifted to $2.197-2.212bn; the stock rose ~14% pre-market and BTIG lifted its"
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 EPS $2.78, 16.8% above consensus, on revenue +9.8%",
         "expectation": "Q2 EPS $2.78, 16.8% above consensus, on revenue +9.8%",
-        "current_status": "Momentum holding (composite +0.62, rank 34)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.18, rank 12)",
+        "trend": "Rising"
       },
       {
         "pillar": "FY26 guide raised to $2.197-2.212bn with ~46% implied EBITDA margin",
         "expectation": "FY26 guide raised to $2.197-2.212bn with ~46% implied EBITDA margin",
-        "current_status": "Momentum holding (composite +0.62, rank 34)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.18, rank 12)",
+        "trend": "Rising"
       },
       {
         "pillar": "Beti and IWant converting automation into real operating leverage",
         "expectation": "Beti and IWant converting automation into real operating leverage",
-        "current_status": "Momentum holding (composite +0.62, rank 34)",
-        "trend": "Stable"
+        "current_status": "Momentum holding (composite +1.18, rank 12)",
+        "trend": "Rising"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 5 August, was a beat-and-raise — revenue of $531.2M (+9.8% year over year), non-GAAP EPS of $2.78 (16.8% above consensus) and adjusted EBITDA of $235M at a 44.2% margin.",
     "pillars": [
       "Q2 EPS $2.78, 16.8% above consensus, on revenue +9.8%",
@@ -9965,20 +10235,21 @@
       "FY2027 preliminary guidance (Feb 2027) — first clean post-float-headwind year"
     ],
     "target": {
-      "bear": 217.05,
-      "base": 305.63,
-      "bull": 1176.72,
-      "base_upside_pct": 40.11,
-      "bull_upside_pct": 439.46
+      "bear": 199.12,
+      "base": 253.19,
+      "bull": 406.83,
+      "base_upside_pct": 9.27,
+      "bull_upside_pct": 75.59
     },
-    "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction": "High",
+    "conviction_points": 3,
     "conviction_reasons": [
+      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "Stable",
-    "weeks_tracked": 2
+    "conviction_trend": "Rising",
+    "weeks_tracked": 3
   },
   "ATI": {
     "ticker": "ATI",
@@ -10076,30 +10347,40 @@
         "bull_upside_pct": 161.77,
         "conviction": "Medium",
         "note": "UiPath's first GAAP-profitable quarter in company history ($28m GAAP operating income) on revenue up 17% to $418m, but ARR growth of just 12% to $1.901bn on $49m of net new ARR keeps the debate open on whether agentic AI is genuinely re-acc"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 22,
+        "composite": 0.944,
+        "price": 16.65999984741211,
+        "base_upside_pct": -14.09,
+        "bull_upside_pct": 13.87,
+        "conviction": "Medium",
+        "note": "UiPath delivered its first GAAP-profitable quarter ever (+$28M GAAP operating income vs a $16M loss a year ago) on 17% revenue growth, and raised full-year guidance despite an FX headwind, with AI present in 16 of its top 20 deals."
       }
     ],
     "scorecard": [
       {
         "pillar": "First GAAP-profitable quarter in company history — $28m operating income",
         "expectation": "First GAAP-profitable quarter in company history — $28m operating income",
-        "current_status": "Momentum holding (composite +0.75, rank 28)",
+        "current_status": "Momentum holding (composite +0.94, rank 22)",
         "trend": "Stable"
       },
       {
         "pillar": "Revenue +17% to $418m; $130m adjusted FCF, $1.4bn cash, no debt",
         "expectation": "Revenue +17% to $418m; $130m adjusted FCF, $1.4bn cash, no debt",
-        "current_status": "Momentum holding (composite +0.75, rank 28)",
+        "current_status": "Momentum holding (composite +0.94, rank 22)",
         "trend": "Stable"
       },
       {
         "pillar": "16 of the top 20 deals had AI; AI-attached expansions ~6x larger",
         "expectation": "16 of the top 20 deals had AI; AI-attached expansions ~6x larger",
-        "current_status": "Momentum holding (composite +0.75, rank 28)",
+        "current_status": "Momentum holding (composite +0.94, rank 22)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q1 FY2027, reported 28 May 2026, was UiPath's first GAAP-profitable quarter in company history — $28m of GAAP operating income on revenue up 17% to $418m.",
     "pillars": [
       "First GAAP-profitable quarter in company history — $28m operating income",
@@ -10117,11 +10398,11 @@
       "US federal procurement cycle (Sept-Oct 2026 fiscal year end)"
     ],
     "target": {
-      "bear": 10.36,
-      "base": 13.68,
-      "bull": 41.91,
-      "base_upside_pct": -14.53,
-      "bull_upside_pct": 161.77
+      "bear": 11.74,
+      "base": 14.31,
+      "bull": 18.97,
+      "base_upside_pct": -14.09,
+      "bull_upside_pct": 13.87
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -10130,7 +10411,7 @@
       "bull-case upside > 10%"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 2
+    "weeks_tracked": 3
   },
   "U": {
     "ticker": "U",
@@ -10157,30 +10438,40 @@
         "bull_upside_pct": 104.89,
         "conviction": "Medium",
         "note": "CEO Matt Bromberg called it 'arguably the best quarter in Unity's history as a public company': Vector grew 23% sequentially against 12-13% guidance, crossed a $1bn annualised run rate two quarters early, EBITDA margin hit a record 29%, and"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 24,
+        "composite": 0.876,
+        "price": 44.9900016784668,
+        "base_upside_pct": -15.02,
+        "bull_upside_pct": 3.9,
+        "conviction": "Medium",
+        "note": "CEO Matt Bromberg called it 'arguably the best quarter in Unity's history as a public company': Vector grew 23% sequentially against 12-13% guidance, crossed a $1bn annualised run rate two quarters early, EBITDA margin hit a record 29%, and"
       }
     ],
     "scorecard": [
       {
         "pillar": "Vector +23% sequential versus 12-13% guided; $1bn run rate two quarters early",
         "expectation": "Vector +23% sequential versus 12-13% guided; $1bn run rate two quarters early",
-        "current_status": "Momentum holding (composite +0.88, rank 23)",
+        "current_status": "Momentum holding (composite +0.88, rank 24)",
         "trend": "Stable"
       },
       {
         "pillar": "Record 29% EBITDA margin; Q3 guided to ~33% (~1,000bps year over year)",
         "expectation": "Record 29% EBITDA margin; Q3 guided to ~33% (~1,000bps year over year)",
-        "current_status": "Momentum holding (composite +0.88, rank 23)",
+        "current_status": "Momentum holding (composite +0.88, rank 24)",
         "trend": "Stable"
       },
       {
         "pillar": "GAAP profitability pulled forward to Q3, two quarters early",
         "expectation": "GAAP profitability pulled forward to Q3, two quarters early",
-        "current_status": "Momentum holding (composite +0.88, rank 23)",
+        "current_status": "Momentum holding (composite +0.88, rank 24)",
         "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 6 August, was in CEO Matt Bromberg's words 'arguably the best quarter in Unity's history as a public company'.",
     "pillars": [
       "Vector +23% sequential versus 12-13% guided; $1bn run rate two quarters early",
@@ -10198,20 +10489,19 @@
       "Netflix games partnership milestones and Day 28 ROAS adoption data"
     ],
     "target": {
-      "bear": 28.76,
-      "base": 43.61,
-      "bull": 94.76,
-      "base_upside_pct": -5.7,
-      "bull_upside_pct": 104.89
+      "bear": 28.97,
+      "base": 38.23,
+      "bull": 46.75,
+      "base_upside_pct": -15.02,
+      "bull_upside_pct": 3.9
     },
     "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction_points": 1,
     "conviction_reasons": [
-      "fresh breakout",
-      "bull-case upside > 10%"
+      "fresh breakout"
     ],
     "conviction_trend": "Stable",
-    "weeks_tracked": 2
+    "weeks_tracked": 3
   },
   "SWK": {
     "ticker": "SWK",
@@ -10299,30 +10589,40 @@
         "bull_upside_pct": 19.5,
         "conviction": "High",
         "note": "Roku's last earnings call before the $22B Fox takeover: platform revenue rose 28% and the full-year platform guide went up over $100M, but management flagged materially weaker visibility into H2 - and has since stopped holding calls entirel"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 4,
+        "composite": 1.996,
+        "price": 159.75999450683594,
+        "base_upside_pct": 0.48,
+        "bull_upside_pct": 18.99,
+        "conviction": "High",
+        "note": "No earnings call was held — Roku posted a record quarter (revenue $1.35B, +22%; net income $164.2M; diluted EPS $1.08, roughly double consensus) but suspended both the call and financial guidance pending Fox Corp.'s $22B acquisition."
       }
     ],
     "scorecard": [
       {
         "pillar": "Definitive Fox deal at $160/share, $96 of it cash",
         "expectation": "Definitive Fox deal at $160/share, $96 of it cash",
-        "current_status": "Momentum holding (composite +1.44, rank 9)",
-        "trend": "New"
+        "current_status": "Momentum strengthening (composite +2.00, rank 4)",
+        "trend": "Stable"
       },
       {
         "pillar": "Platform revenue +28%, ad gross margin above 60%",
         "expectation": "Platform revenue +28%, ad gross margin above 60%",
-        "current_status": "Momentum holding (composite +1.44, rank 9)",
-        "trend": "New"
+        "current_status": "Momentum strengthening (composite +2.00, rank 4)",
+        "trend": "Stable"
       },
       {
         "pillar": "100m households, ~44% of US CTV viewing hours",
         "expectation": "100m households, ~44% of US CTV viewing hours",
-        "current_status": "Momentum holding (composite +1.44, rank 9)",
-        "trend": "New"
+        "current_status": "Momentum strengthening (composite +2.00, rank 4)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "This is not a fundamentals breakout — it is merger arbitrage, and it should be sized as such.",
     "pillars": [
       "Definitive Fox deal at $160/share, $96 of it cash",
@@ -10341,11 +10641,11 @@
       "Q3 2026 results filing (Nov 2026) — 10-Q only, no call, watch platform revenue against the ~21% FY26 guide"
     ],
     "target": {
-      "bear": 138.82,
-      "base": 159.14,
-      "bull": 188.43,
-      "base_upside_pct": 0.93,
-      "bull_upside_pct": 19.5
+      "bear": 140.06,
+      "base": 160.53,
+      "bull": 190.1,
+      "base_upside_pct": 0.48,
+      "bull_upside_pct": 18.99
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -10354,8 +10654,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "TEAM": {
     "ticker": "TEAM",
@@ -10372,30 +10672,40 @@
         "bull_upside_pct": 204.51,
         "conviction": "High",
         "note": "Cloud growth re-accelerated to 31% and RPO jumped 44% to $4.8B, sending shares up roughly 35% after hours - yet management guided FY27 subscription ARR to just 18% against the 23% it printed, and spent the call defending that gap as prudenc"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 11,
+        "composite": 1.271,
+        "price": 166.49000549316406,
+        "base_upside_pct": -11.41,
+        "bull_upside_pct": 82.81,
+        "conviction": "High",
+        "note": "Cloud growth re-accelerated to 31% and RPO jumped 44% to $4.8B, sending shares up roughly 35% after hours - yet management guided FY27 subscription ARR to just 18% against the 23% it printed, and spent the call defending that gap as prudenc"
       }
     ],
     "scorecard": [
       {
         "pillar": "Cloud re-accelerated to 31%, RPO +44% to $4.8bn",
         "expectation": "Cloud re-accelerated to 31%, RPO +44% to $4.8bn",
-        "current_status": "Momentum holding (composite +1.13, rank 14)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.27, rank 11)",
+        "trend": "Stable"
       },
       {
         "pillar": "18% FY27 ARR guide looks like a deliberate sandbag",
         "expectation": "18% FY27 ARR guide looks like a deliberate sandbag",
-        "current_status": "Momentum holding (composite +1.13, rank 14)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.27, rank 11)",
+        "trend": "Stable"
       },
       {
         "pillar": "Rovo in 80%+ of Fortune 500, adopters expand at 2x",
         "expectation": "Rovo in 80%+ of Fortune 500, adopters expand at 2x",
-        "current_status": "Momentum holding (composite +1.13, rank 14)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.27, rank 11)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Atlassian reported Q4 FY2026 on 6 August 2026 and the stock moved roughly 35% after hours.",
     "pillars": [
       "Cloud re-accelerated to 31%, RPO +44% to $4.8bn",
@@ -10414,11 +10724,11 @@
       "Atlassian Team '27 conference (spring 2027) — agent roadmap and Teamwork Graph monetisation"
     ],
     "target": {
-      "bear": 112.05,
-      "base": 171.06,
-      "bull": 493.97,
-      "base_upside_pct": 5.45,
-      "bull_upside_pct": 204.51
+      "bear": 99.55,
+      "base": 147.49,
+      "bull": 304.35,
+      "base_upside_pct": -11.41,
+      "bull_upside_pct": 82.81
     },
     "conviction": "High",
     "conviction_points": 3,
@@ -10427,8 +10737,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "ELF": {
     "ticker": "ELF",
@@ -10445,30 +10755,40 @@
         "bull_upside_pct": 20.2,
         "conviction": "Medium",
         "note": "rhode delivered $160M of net sales in a single quarter and a $50M tariff refund landed, letting e.l.f. lift FY27 sales growth guidance from 12-14% to 18-20% - but organic net sales fell high single digits and units were down about 3 points,"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 9,
+        "composite": 1.411,
+        "price": 105.7699966430664,
+        "base_upside_pct": -7.58,
+        "bull_upside_pct": 14.4,
+        "conviction": "High",
+        "note": "rhode delivered $160M of net sales in a single quarter and a $50M tariff refund landed, letting e.l.f. lift FY27 sales growth guidance from 12-14% to 18-20% - but organic net sales fell high single digits and units were down about 3 points,"
       }
     ],
     "scorecard": [
       {
         "pillar": "rhode did $160m in one quarter, ahead of plan",
         "expectation": "rhode did $160m in one quarter, ahead of plan",
-        "current_status": "Momentum holding (composite +0.91, rank 21)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.41, rank 9)",
+        "trend": "Rising"
       },
       {
         "pillar": "FY27 guide up to 18-20% sales, $3.50-3.55 EPS",
         "expectation": "FY27 guide up to 18-20% sales, $3.50-3.55 EPS",
-        "current_status": "Momentum holding (composite +0.91, rank 21)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.41, rank 9)",
+        "trend": "Rising"
       },
       {
         "pillar": "Sephora Europe across 19 countries from Sept 2026",
         "expectation": "Sephora Europe across 19 countries from Sept 2026",
-        "current_status": "Momentum holding (composite +0.91, rank 21)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.41, rank 9)",
+        "trend": "Rising"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q1 FY2027 landed on 5 August 2026 and reset the whole FY27 frame: rhode delivered $160m of net sales in a single quarter and a $50m tariff refund arrived, letting management lift FY27 sales growth guidance from 12-14% to 18-20% ($1.938-1.968bn), adjusted EBITDA growth to 20-21%, and adjusted EPS to $3.50-3.55.",
     "pillars": [
       "rhode did $160m in one quarter, ahead of plan",
@@ -10487,20 +10807,21 @@
       "FY27 exit supply-chain milestone (Mar 2027) — 60% non-China production target"
     ],
     "target": {
-      "bear": 73.9,
-      "base": 93.18,
-      "bull": 109.91,
-      "base_upside_pct": 1.91,
-      "bull_upside_pct": 20.2
+      "bear": 65.0,
+      "base": 97.75,
+      "bull": 121.0,
+      "base_upside_pct": -7.58,
+      "bull_upside_pct": 14.4
     },
-    "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction": "High",
+    "conviction_points": 3,
     "conviction_reasons": [
+      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Rising",
+    "weeks_tracked": 2
   },
   "GTLB": {
     "ticker": "GTLB",
@@ -10539,7 +10860,7 @@
         "trend": "New"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "On 2 June 2026 GitLab beat and raised while simultaneously announcing 'Act 2' — a 14% workforce cut (~350 employees), removal of up to three management layers, exit from 22 countries cutting the geographic footprint 37%, and a pivot from pure seats toward consumption pricing.",
     "pillars": [
@@ -10590,30 +10911,40 @@
         "bull_upside_pct": 35.33,
         "conviction": "Medium",
         "note": "Adjusted EBITDA more than doubled to $1.5B on an unusually tight refining market, and HF Sinclair used the cash-flow strength to announce a tax-efficient spin-off of Lubricants & Specialties within 12-18 months."
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 23,
+        "composite": 0.893,
+        "price": 93.23999786376953,
+        "base_upside_pct": 19.98,
+        "bull_upside_pct": 42.92,
+        "conviction": "Medium",
+        "note": "Adjusted EBITDA more than doubled to $1.5B on an unusually tight refining market, and HF Sinclair used the cash-flow strength to announce a tax-efficient spin-off of Lubricants & Specialties within 12-18 months."
       }
     ],
     "scorecard": [
       {
         "pillar": "Q2 adjusted EBITDA more than doubled to $1.5bn",
         "expectation": "Q2 adjusted EBITDA more than doubled to $1.5bn",
-        "current_status": "Momentum holding (composite +0.61, rank 36)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.89, rank 23)",
+        "trend": "Stable"
       },
       {
         "pillar": "Lubricants spin unlocks the conglomerate discount",
         "expectation": "Lubricants spin unlocks the conglomerate discount",
-        "current_status": "Momentum holding (composite +0.61, rank 36)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.89, rank 23)",
+        "trend": "Stable"
       },
       {
         "pillar": "Management guiding tighter refining markets into 2027",
         "expectation": "Management guiding tighter refining markets into 2027",
-        "current_status": "Momentum holding (composite +0.61, rank 36)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.89, rank 23)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 28 July, was an outlier quarter — adjusted EBITDA more than doubled to $1.5bn on an unusually tight refining market, with refining segment EBITDA of $1.0bn (up 110%), lubricants at $207m versus $55m a year ago, and renewables swinging to $123m from a $2m loss.",
     "pillars": [
       "Q2 adjusted EBITDA more than doubled to $1.5bn",
@@ -10632,11 +10963,11 @@
       "EPA small refinery exemption decisions and year-end RIN bank position (Q4 2026)"
     ],
     "target": {
-      "bear": 95.03,
-      "base": 111.52,
-      "bull": 126.76,
-      "base_upside_pct": 19.05,
-      "bull_upside_pct": 35.33
+      "bear": 88.07,
+      "base": 111.87,
+      "bull": 133.26,
+      "base_upside_pct": 19.98,
+      "bull_upside_pct": 42.92
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -10644,8 +10975,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "WDAY": {
     "ticker": "WDAY",
@@ -10662,30 +10993,40 @@
         "bull_upside_pct": 254.82,
         "conviction": "Medium",
         "note": "Workday posted its best Q1 new-ACV growth in five years with agentic AI ARR approaching $500M, but Bhusri immediately damped it - 'one quarter does not make a year', with some of it Q4 slippage - and the full-year subscription guide was lef"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 37,
+        "composite": 0.557,
+        "price": 194.4199981689453,
+        "base_upside_pct": -10.83,
+        "bull_upside_pct": 38.6,
+        "conviction": "Medium",
+        "note": "Workday delivered its best first-quarter new-ACV growth in five years with agentic AI ARR approaching $500M, raised the FY27 non-GAAP operating margin target to 30.5%, and repurchased $1.6B of stock on flat headcount."
       }
     ],
     "scorecard": [
       {
         "pillar": "Agentic AI ARR near $500m, new ACV up over 200%",
         "expectation": "Agentic AI ARR near $500m, new ACV up over 200%",
-        "current_status": "Momentum holding (composite +0.57, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.56, rank 37)",
+        "trend": "Stable"
       },
       {
         "pillar": "Best Q1 new-ACV growth in five years, guide untouched",
         "expectation": "Best Q1 new-ACV growth in five years, guide untouched",
-        "current_status": "Momentum holding (composite +0.57, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.56, rank 37)",
+        "trend": "Stable"
       },
       {
         "pillar": "Margin guide to 30.5% on flat 20,800 headcount",
         "expectation": "Margin guide to 30.5% on flat 20,800 headcount",
-        "current_status": "Momentum holding (composite +0.57, rank 39)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.56, rank 37)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q1 FY2027, reported 21 May 2026, delivered the best Q1 new-ACV growth in five years with agentic AI ARR approaching $500m and agentic new ACV up over 200% — and the stock fell about 3.5%, because Bhusri immediately damped it ('one quarter does not make a year', some of it Q4 slippage) and the FY27 subscription guide was reiterated at $9.925-9.95bn rather than raised.",
     "pillars": [
       "Agentic AI ARR near $500m, new ACV up over 200%",
@@ -10704,11 +11045,11 @@
       "FY28 initial guidance (Feb 2027) — where the flex-credit bookings Rowe flagged are meant to land in revenue"
     ],
     "target": {
-      "bear": 139.9,
-      "base": 206.62,
-      "bull": 704.96,
-      "base_upside_pct": 3.99,
-      "bull_upside_pct": 254.82
+      "bear": 121.98,
+      "base": 173.36,
+      "bull": 269.47,
+      "base_upside_pct": -10.83,
+      "bull_upside_pct": 38.6
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -10716,8 +11057,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "RBRK": {
     "ticker": "RBRK",
@@ -10756,7 +11097,7 @@
         "trend": "New"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "Q1 FY27, reported 4-Jun-2026, put subscription ARR at $1.57bn, up 32%, with cloud now 89% of the mix and free cash flow more than doubling to $74m.",
     "pillars": [
@@ -10828,7 +11169,7 @@
         "trend": "New"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "In the Q4 FY26 print on 28-May-2026 the commitment build mattered more than the beat: CRPO accelerated to 20% and RPO to 28%, far ahead of the ~14.6% FY27 revenue guide, because the Q4 mix skewed toward cloud where revenue ramps rather than being recognised upfront.",
     "pillars": [
@@ -10878,30 +11219,40 @@
         "bull_upside_pct": 133.99,
         "conviction": "Medium",
         "note": "A clean beat-and-raise: technology-enabled cost takeout and a high-acuity mix shift more than absorbed a 17% collapse in ACA exchange revenue, letting Tenet lift FY26 EBITDA guidance by $295m at the midpoint while buying back $1.04bn of sto"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 17,
+        "composite": 1.002,
+        "price": 271.8800048828125,
+        "base_upside_pct": 71.61,
+        "bull_upside_pct": 160.26,
+        "conviction": "High",
+        "note": "A clean beat-and-raise: technology-enabled cost takeout and a high-acuity mix shift more than absorbed a 17% collapse in ACA exchange revenue, letting Tenet lift FY26 EBITDA guidance by $295m at the midpoint while buying back $1.04bn of sto"
       }
     ],
     "scorecard": [
       {
         "pillar": "FY26 EBITDA guide raised $295m to $4.83-5.03bn",
         "expectation": "FY26 EBITDA guide raised $295m to $4.83-5.03bn",
-        "current_status": "Momentum holding (composite +0.52, rank 43)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.00, rank 17)",
+        "trend": "Rising"
       },
       {
         "pillar": "Hospital margin 15.6% to 18.0% in two quarters",
         "expectation": "Hospital margin 15.6% to 18.0% in two quarters",
-        "current_status": "Momentum holding (composite +0.52, rank 43)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.00, rank 17)",
+        "trend": "Rising"
       },
       {
         "pillar": "$1.04bn repurchased in Q2; $2.13bn still authorized",
         "expectation": "$1.04bn repurchased in Q2; $2.13bn still authorized",
-        "current_status": "Momentum holding (composite +0.52, rank 43)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +1.00, rank 17)",
+        "trend": "Rising"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 24-Jul-2026, was a clean beat-and-raise: FY26 adjusted EBITDA guidance lifted $295m at the midpoint to $4.83bn-$5.03bn, revenue up $300m to $21.9bn-$22.5bn, and $1.04bn of stock repurchased in the quarter.",
     "pillars": [
       "FY26 EBITDA guide raised $295m to $4.83-5.03bn",
@@ -10920,20 +11271,21 @@
       "FY2027 guidance (Feb 2027) — EBITDA growth off the raised 2026 base plus any dividend initiation"
     ],
     "target": {
-      "bear": 361.04,
-      "base": 429.4,
-      "bull": 626.86,
-      "base_upside_pct": 60.28,
-      "bull_upside_pct": 133.99
+      "bear": 371.56,
+      "base": 466.58,
+      "bull": 707.59,
+      "base_upside_pct": 71.61,
+      "bull_upside_pct": 160.26
     },
-    "conviction": "Medium",
-    "conviction_points": 2,
+    "conviction": "High",
+    "conviction_points": 3,
     "conviction_reasons": [
+      "composite >= 1.0",
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Rising",
+    "weeks_tracked": 2
   },
   "EXPE": {
     "ticker": "EXPE",
@@ -10950,30 +11302,40 @@
         "bull_upside_pct": 91.61,
         "conviction": "Medium",
         "note": "Fifth straight quarter above the high end of guidance — bookings +12%, revenue +14%, EBITDA +23% on the strongest US demand in 15 quarters — but management pre-warned that the marketing-efficiency engine behind the margin story starts lappi"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 36,
+        "composite": 0.575,
+        "price": 337.9700012207031,
+        "base_upside_pct": -0.15,
+        "bull_upside_pct": 31.42,
+        "conviction": "Medium",
+        "note": "Fifth straight quarter above the high end of guidance — bookings +12%, revenue +14%, EBITDA +23% on the strongest US demand in 15 quarters — but management pre-warned that the marketing-efficiency engine behind the margin story starts lappi"
       }
     ],
     "scorecard": [
       {
         "pillar": "Fifth straight quarter above the guidance high end",
         "expectation": "Fifth straight quarter above the guidance high end",
-        "current_status": "Momentum weakening (composite +0.45, rank 44)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.58, rank 36)",
+        "trend": "Stable"
       },
       {
         "pillar": "US demand strongest in 15 quarters",
         "expectation": "US demand strongest in 15 quarters",
-        "current_status": "Momentum weakening (composite +0.45, rank 44)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.58, rank 36)",
+        "trend": "Stable"
       },
       {
         "pillar": "B2B: 20 consecutive double-digit growth quarters",
         "expectation": "B2B: 20 consecutive double-digit growth quarters",
-        "current_status": "Momentum weakening (composite +0.45, rank 44)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.58, rank 36)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 5-Aug-2026, was the fifth straight quarter above the high end of guidance — bookings +12%, revenue +14%, EBITDA +23% — on the strongest US consumer demand in 15 quarters, with longer stays and longer booking windows.",
     "pillars": [
       "Fifth straight quarter above the guidance high end",
@@ -10992,11 +11354,11 @@
       "Holiday and Q1 booking-window data (Dec 2026-Jan 2027) — durability of the US demand inflection"
     ],
     "target": {
-      "bear": 395.13,
-      "base": 510.53,
-      "bull": 637.45,
-      "base_upside_pct": 53.46,
-      "bull_upside_pct": 91.61
+      "bear": 256.03,
+      "base": 337.45,
+      "bull": 444.17,
+      "base_upside_pct": -0.15,
+      "bull_upside_pct": 31.42
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -11004,8 +11366,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "CCC": {
     "ticker": "CCC",
@@ -11022,30 +11384,40 @@
         "bull_upside_pct": 441.57,
         "conviction": "Medium",
         "note": "Revenue and EBITDA both cleared the high end of guidance and AI solutions crossed $120m of annualized revenue growing ~45%, yet the stock fell 8.4% premarket because the implied Q4 exit rate of ~9% told investors AI still isn't enough to re"
+      },
+      {
+        "date": "2026-08-26",
+        "rank": 34,
+        "composite": 0.61,
+        "price": 7.460000038146973,
+        "base_upside_pct": 15.56,
+        "bull_upside_pct": 90.44,
+        "conviction": "Medium",
+        "note": "Revenue and EBITDA both cleared the high end of guidance and AI solutions crossed $120m of annualized revenue growing ~45%, yet the stock fell 8.4% premarket because the implied Q4 exit rate of ~9% told investors AI still isn't enough to re"
       }
     ],
     "scorecard": [
       {
         "pillar": ">$120m annualized AI revenue, growing ~45-50%",
         "expectation": ">$120m annualized AI revenue, growing ~45-50%",
-        "current_status": "Momentum weakening (composite +0.44, rank 45)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.61, rank 34)",
+        "trend": "Stable"
       },
       {
         "pillar": "~99% software gross dollar retention",
         "expectation": "~99% software gross dollar retention",
-        "current_status": "Momentum weakening (composite +0.44, rank 45)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.61, rank 34)",
+        "trend": "Stable"
       },
       {
         "pillar": "Beat the high end on both revenue and EBITDA",
         "expectation": "Beat the high end on both revenue and EBITDA",
-        "current_status": "Momentum weakening (composite +0.44, rank 45)",
-        "trend": "New"
+        "current_status": "Momentum holding (composite +0.61, rank 34)",
+        "trend": "Stable"
       }
     ],
     "status": "in_screen",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-08-26",
     "statement": "Q2 2026, reported 30-Jul-2026, cleared the high end of guidance on both revenue and EBITDA, and AI solutions crossed $120m of annualized revenue growing ~45-50% — about 11% of total and roughly 4 points of the quarter's 10% growth, led by APD, subrogation and EvolutionIQ.",
     "pillars": [
       ">$120m annualized AI revenue, growing ~45-50%",
@@ -11064,11 +11436,11 @@
       "EvolutionIQ MedHub auto-casualty rollout progress (FY27) — proof the acquisition productises beyond disability"
     ],
     "target": {
-      "bear": 7.58,
-      "base": 10.45,
-      "bull": 37.75,
-      "base_upside_pct": 49.94,
-      "bull_upside_pct": 441.57
+      "bear": 6.75,
+      "base": 8.62,
+      "bull": 14.21,
+      "base_upside_pct": 15.56,
+      "bull_upside_pct": 90.44
     },
     "conviction": "Medium",
     "conviction_points": 2,
@@ -11076,8 +11448,8 @@
       "fresh breakout",
       "bull-case upside > 10%"
     ],
-    "conviction_trend": "New",
-    "weeks_tracked": 1
+    "conviction_trend": "Stable",
+    "weeks_tracked": 2
   },
   "JHX": {
     "ticker": "JHX",
@@ -11116,7 +11488,7 @@
         "trend": "New"
       }
     ],
-    "status": "in_screen",
+    "status": "dormant",
     "last_seen": "2026-08-15",
     "statement": "The Q1 FY27 report on 6-Aug-2026 — the company's first quarter of the new fiscal year, not an FY26 result — was the inflection: North American fiber cement organic sales rose 20% with sell-through accelerating to +19% in June.",
     "pillars": [
@@ -11141,6 +11513,941 @@
       "bull": 36.99,
       "base_upside_pct": 3.96,
       "bull_upside_pct": 19.17
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "MRNA": {
+    "ticker": "MRNA",
+    "name": "Moderna, Inc.",
+    "sector": "Healthcare",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 1,
+        "composite": 5.255,
+        "price": 158.8300018310547,
+        "base_upside_pct": -39.77,
+        "bull_upside_pct": 7.03,
+        "conviction": "Medium",
+        "note": "Moderna cleared the top of its own Q2 revenue guide ($145M) and cut full-year cost guidance again, turning 2026 into a cash-preservation year while the equity story shifts to the mFLUSIVA approval and the adjuvant-melanoma intismeran readou"
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "FY26 cash guide raised to $4.7-5.2bn; cost of sales and R&D both cut",
+        "expectation": "FY26 cash guide raised to $4.7-5.2bn; cost of sales and R&D both cut",
+        "current_status": "Momentum strengthening (composite +5.25, rank 1)",
+        "trend": "New"
+      },
+      {
+        "pillar": "mFLUSIVA (mRNA-1010) fifth approval; sub-two-month strain-update capability",
+        "expectation": "mFLUSIVA (mRNA-1010) fifth approval; sub-two-month strain-update capability",
+        "current_status": "Momentum strengthening (composite +5.25, rank 1)",
+        "trend": "New"
+      },
+      {
+        "pillar": "69% of H1 revenue international - dilutes US vaccine-policy risk",
+        "expectation": "69% of H1 revenue international - dilutes US vaccine-policy risk",
+        "current_status": "Momentum strengthening (composite +5.25, rank 1)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "The stock is breaking out off a multi-year base as the narrative flips from COVID melt to platform optionality.",
+    "pillars": [
+      "FY26 cash guide raised to $4.7-5.2bn; cost of sales and R&D both cut",
+      "mFLUSIVA (mRNA-1010) fifth approval; sub-two-month strain-update capability",
+      "69% of H1 revenue international - dilutes US vaccine-policy risk"
+    ],
+    "falsifiers": [
+      "Q2 2026 net loss of $782m on just $145m of revenue",
+      "Roughly 55% of H2 2026 revenue lands in Q3 alone - one-shot season",
+      "Flu needs an ACIP recommendation; FDA approval alone creates no market"
+    ],
+    "catalysts": [
+      "Q3 2026 results (early Nov 2026) - the ~55%-of-H2 revenue quarter",
+      "Autumn 2026 ACIP/CDC recommendation decisions on flu and COVID",
+      "Intismeran adjuvant-melanoma Phase III interim readout, 2026",
+      "mRNA-1403 norovirus interim - binary, effect size undisclosed"
+    ],
+    "target": {
+      "bear": 25.0,
+      "base": 95.67,
+      "bull": 170.0,
+      "base_upside_pct": -39.77,
+      "bull_upside_pct": 7.03
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "composite >= 2.0",
+      "fresh breakout",
+      "stretched vs base multiples"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "CHYM": {
+    "ticker": "CHYM",
+    "name": "Chime Financial, Inc.",
+    "sector": "Technology",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 7,
+        "composite": 1.647,
+        "price": 33.099998474121094,
+        "base_upside_pct": -17.32,
+        "bull_upside_pct": 25.83,
+        "conviction": "High",
+        "note": "Chime raised full-year revenue and member guidance on 27% growth and a 15% adjusted EBITDA margin, then paired the beat with a 10% workforce cut and the CFO's departure."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "FY26 revenue guide raised to $2.725-2.745bn, +25-26%; members 1.4m to 1.8m",
+        "expectation": "FY26 revenue guide raised to $2.725-2.745bn, +25-26%; members 1.4m to 1.8m",
+        "current_status": "Momentum strengthening (composite +1.65, rank 7)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Blended ARPAM $260 (+6%); Prime members over 2x base ARPAM",
+        "expectation": "Blended ARPAM $260 (+6%); Prime members over 2x base ARPAM",
+        "current_status": "Momentum strengthening (composite +1.65, rank 7)",
+        "trend": "New"
+      },
+      {
+        "pillar": "MyPay $4.5bn originated, transaction profit tripled to $73m",
+        "expectation": "MyPay $4.5bn originated, transaction profit tripled to $73m",
+        "current_status": "Momentum strengthening (composite +1.65, rank 7)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Q2 2026 was a clean guidance raise across every line: FY26 revenue lifted to $2.725-2.745bn (25-26% growth), adjusted EBITDA to $465-475m at a 17% margin, and net new active members from 1.4m to 1.8m.",
+    "pillars": [
+      "FY26 revenue guide raised to $2.725-2.745bn, +25-26%; members 1.4m to 1.8m",
+      "Blended ARPAM $260 (+6%); Prime members over 2x base ARPAM",
+      "MyPay $4.5bn originated, transaction profit tripled to $73m"
+    ],
+    "falsifiers": [
+      "Durbin exemption repeal would hit ~two-thirds of revenue",
+      "MyPay loss rates guided deliberately higher into Q3 and Q4",
+      "CFO departed alongside the raise - governance question mark"
+    ],
+    "catalysts": [
+      "Q3 2026 results (early Nov 2026) - guide is $680-690m revenue, 15-16% margin",
+      "Permanent CFO appointment",
+      "Prime-gated revolving line of credit commercial launch",
+      "Second Chime Workplace enterprise logo (after Allied Universal, 320,000 workers)"
+    ],
+    "target": {
+      "bear": 20.32,
+      "base": 27.37,
+      "bull": 41.65,
+      "base_upside_pct": -17.32,
+      "bull_upside_pct": 25.83
+    },
+    "conviction": "High",
+    "conviction_points": 3,
+    "conviction_reasons": [
+      "composite >= 1.0",
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "CAI": {
+    "ticker": "CAI",
+    "name": "Caris Life Sciences, Inc.",
+    "sector": "Healthcare",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 19,
+        "composite": 0.977,
+        "price": 28.010000228881836,
+        "base_upside_pct": -32.92,
+        "bull_upside_pct": -1.66,
+        "conviction": "Low",
+        "note": "Caris beat consensus revenue by 10.8% ($263.7M, +45%) on a record 59,200 clinical cases and a record blended ASP above $3,850, and raised full-year guidance while explicitly excluding every new product from the number."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Q2 revenue $263.7m, +45%, a 10.8% beat; FY26 raised to $1.03-1.04bn",
+        "expectation": "Q2 revenue $263.7m, +45%, a 10.8% beat; FY26 raised to $1.03-1.04bn",
+        "current_status": "Momentum holding (composite +0.98, rank 19)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Record blended ASP above $3,850 on record 59,200 clinical cases",
+        "expectation": "Record blended ASP above $3,850 on record 59,200 clinical cases",
+        "current_status": "Momentum holding (composite +0.98, rank 19)",
+        "trend": "New"
+      },
+      {
+        "pillar": "GAAP gross margin 68% vs 63% a year ago; fifth straight positive EBITDA quarter",
+        "expectation": "GAAP gross margin 68% vs 63% a year ago; fifth straight positive EBITDA quarter",
+        "current_status": "Momentum holding (composite +0.98, rank 19)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Q2 2026 beat consensus revenue by 10.8% at $263.7m, up 45%, on a record 59,200 clinical cases and a record blended ASP above $3,850.",
+    "pillars": [
+      "Q2 revenue $263.7m, +45%, a 10.8% beat; FY26 raised to $1.03-1.04bn",
+      "Record blended ASP above $3,850 on record 59,200 clinical cases",
+      "GAAP gross margin 68% vs 63% a year ago; fifth straight positive EBITDA quarter"
+    ],
+    "falsifiers": [
+      "~90% of revenue set by Medicare/MolDX - a rate revision has no offset",
+      "Growth is price and mix led; volume only +20% vs revenue +21-22%",
+      "GAAP opex guided up 19-20% against thin EBITDA"
+    ],
+    "catalysts": [
+      "Q3 2026 results (early Nov 2026) - first quarter with Caris Detect in market",
+      "MRD assay launch, slated H2 2026",
+      "Caris Assure ADLT / gap-fill reimbursement determination",
+      "FY27 guidance (early 2027) - first quarter new products enter the forecast"
+    ],
+    "target": {
+      "bear": 14.91,
+      "base": 18.79,
+      "bull": 27.55,
+      "base_upside_pct": -32.92,
+      "bull_upside_pct": -1.66
+    },
+    "conviction": "Low",
+    "conviction_points": 0,
+    "conviction_reasons": [
+      "fresh breakout",
+      "stretched vs base multiples"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "FRO.OL": {
+    "ticker": "FRO.OL",
+    "name": "Frontline plc",
+    "sector": "Energy",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 28,
+        "composite": 0.733,
+        "price": 400.5,
+        "base_upside_pct": -5.65,
+        "bull_upside_pct": 5.94,
+        "conviction": "Medium",
+        "note": "With the Strait of Hormuz effectively closed, Frontline earned $103,500/day on VLCCs in Q1 and had already booked 82% of Q2 VLCC days at $181,700/day — six-figure TCE across every segment, on a $24,100/day fleet breakeven."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "82% of Q2 VLCC days booked at $181,700/day vs $24,100/day breakeven",
+        "expectation": "82% of Q2 VLCC days booked at $181,700/day vs $24,100/day breakeven",
+        "current_status": "Momentum holding (composite +0.73, rank 28)",
+        "trend": "New"
+      },
+      {
+        "pillar": "~$1.5bn / ~$7 per share annual cash generation, paid as variable dividend",
+        "expectation": "~$1.5bn / ~$7 per share annual cash generation, paid as variable dividend",
+        "current_status": "Momentum holding (composite +0.73, rank 28)",
+        "trend": "New"
+      },
+      {
+        "pillar": "$945m liquidity, no significant maturities until 2030",
+        "expectation": "$945m liquidity, no significant maturities until 2030",
+        "current_status": "Momentum holding (composite +0.73, rank 28)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "This is a Strait of Hormuz trade.",
+    "pillars": [
+      "82% of Q2 VLCC days booked at $181,700/day vs $24,100/day breakeven",
+      "~$1.5bn / ~$7 per share annual cash generation, paid as variable dividend",
+      "$945m liquidity, no significant maturities until 2030"
+    ],
+    "falsifiers": [
+      "55 VLCCs on standby outside the Gulf, ready to flood back on a reopening headline",
+      "Management adding charter cover - they do not believe $180k/day holds",
+      "OPEC+ cuts remove the long-haul Middle East Gulf barrels directly"
+    ],
+    "catalysts": [
+      "Q2 2026 results, late Aug 2026 - the $181,700/day quarter and variable dividend",
+      "Monthly OPEC+ production meetings through H2 2026",
+      "Any Strait of Hormuz reopening or de-escalation headline",
+      "Q3 2026 results, Nov 2026 - first quarter of post-spike rate normalisation"
+    ],
+    "target": {
+      "bear": 271.66,
+      "base": 377.88,
+      "bull": 424.29,
+      "base_upside_pct": -5.65,
+      "bull_upside_pct": 5.94
+    },
+    "conviction": "Medium",
+    "conviction_points": 1,
+    "conviction_reasons": [
+      "fresh breakout"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "BLKB": {
+    "ticker": "BLKB",
+    "name": "Blackbaud, Inc.",
+    "sector": "Technology",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 29,
+        "composite": 0.723,
+        "price": 47.41999816894531,
+        "base_upside_pct": 65.08,
+        "bull_upside_pct": 156.33,
+        "conviction": "Medium",
+        "note": "Blackbaud printed the high end of guidance (revenue $290.6M, +3.0% organic; non-GAAP EPS $1.33, +9%; FCF $75.3M, +46%) and steered investors to the top half of every FY26 range while recasting itself as an AI-first company targeting 40%+ EB"
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Q2 FCF $75.3m, +46%; FY26 FCF guided to the high end of $280-290m",
+        "expectation": "Q2 FCF $75.3m, +46%; FY26 FCF guided to the high end of $280-290m",
+        "current_status": "Momentum holding (composite +0.72, rank 29)",
+        "trend": "New"
+      },
+      {
+        "pillar": "6.1% of shares retired in H1 2026, 15% since Q4 2023",
+        "expectation": "6.1% of shares retired in H1 2026, 15% since Q4 2023",
+        "current_status": "Momentum holding (composite +0.72, rank 29)",
+        "trend": "New"
+      },
+      {
+        "pillar": "25% of contractual recurring revenue now on 4-year-plus terms, up from 20%",
+        "expectation": "25% of contractual recurring revenue now on 4-year-plus terms, up from 20%",
+        "current_status": "Momentum holding (composite +0.72, rank 29)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Q2 2026 printed at the high end of guidance - revenue $290.6m (+3.0% organic), non-GAAP EPS $1.33 (+9%) and free cash flow $75.3m, up 46% - and management steered investors to the top half of every FY26 range and to at or above the high end on both EPS and free cash flow, a raise in all but name.",
+    "pillars": [
+      "Q2 FCF $75.3m, +46%; FY26 FCF guided to the high end of $280-290m",
+      "6.1% of shares retired in H1 2026, 15% since Q4 2023",
+      "25% of contractual recurring revenue now on 4-year-plus terms, up from 20%"
+    ],
+    "falsifiers": [
+      "Organic growth only 3.0% in Q2, 3.6% YTD, vs 5.5% in FY2025",
+      "Transactional revenue tied to US giving, up just 4.3% in 2025",
+      "Gross retention normalisation promised only by end-2027"
+    ],
+    "catalysts": [
+      "Q3 2026 results, early Nov 2026 - first quarter with the AI agent in GA",
+      "First disclosed pricing or attach rate on the generally available AI agents",
+      "FY2027 guidance (Feb 2027) - the test of the 4-6% organic algorithm",
+      "Ongoing buyback disclosure against the 50%-of-FCF-through-2030 commitment"
+    ],
+    "target": {
+      "bear": 63.47,
+      "base": 78.28,
+      "bull": 121.55,
+      "base_upside_pct": 65.08,
+      "bull_upside_pct": 156.33
+    },
+    "conviction": "Medium",
+    "conviction_points": 1,
+    "conviction_reasons": [
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "PSX": {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "sector": "Energy",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 30,
+        "composite": 0.723,
+        "price": 236.89999389648438,
+        "base_upside_pct": -13.79,
+        "bull_upside_pct": -0.34,
+        "conviction": "Medium",
+        "note": "Phillips 66 posted its best quarter since 2022 — $3.8B adjusted earnings and $9.41 EPS against roughly $7.02 consensus — on a $24.08/bbl refining realized margin, and cut total debt by $6.6B to $20.6B."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Q2 2026 EPS $9.41 vs ~$7.02 consensus; $3.8bn adjusted earnings, best since 2022",
+        "expectation": "Q2 2026 EPS $9.41 vs ~$7.02 consensus; $3.8bn adjusted earnings, best since 2022",
+        "current_status": "Momentum holding (composite +0.72, rank 30)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Management calls this a supply shock, not a demand shock - slower to normalise",
+        "expectation": "Management calls this a supply shock, not a demand shock - slower to normalise",
+        "current_status": "Momentum holding (composite +0.72, rank 30)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Midstream tracking to $4.5bn EBITDA run rate by end-2027, above 100% frac utilisation",
+        "expectation": "Midstream tracking to $4.5bn EBITDA run rate by end-2027, above 100% frac utilisation",
+        "current_status": "Momentum holding (composite +0.72, rank 30)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Q2 2026 was the best quarter since 2022: $3.8bn of adjusted earnings and $9.41 EPS against roughly $7.02 consensus, on a $24.08/bbl realised refining margin at 96% crude utilisation and 86% clean product yield.",
+    "pillars": [
+      "Q2 2026 EPS $9.41 vs ~$7.02 consensus; $3.8bn adjusted earnings, best since 2022",
+      "Management calls this a supply shock, not a demand shock - slower to normalise",
+      "Midstream tracking to $4.5bn EBITDA run rate by end-2027, above 100% frac utilisation"
+    ],
+    "falsifiers": [
+      "$24.08/bbl realised margin is far above mid-cycle - reversion is the base case",
+      "China has ~2.5m bpd of refining runs offline that could return as product exports",
+      "45Z foreign-feedstock RIN generation may halve after next year"
+    ],
+    "catalysts": [
+      "Q3 2026 results, late Oct 2026 - $100-120m turnaround expense guided",
+      "Year-end 2026 net debt below $16bn milestone against the $15bn target",
+      "Board/Elliott decision on midstream separation or sale",
+      "45Z clean fuel production credit rules and California LCFS pricing into 2027"
+    ],
+    "target": {
+      "bear": 159.97,
+      "base": 204.24,
+      "bull": 236.09,
+      "base_upside_pct": -13.79,
+      "bull_upside_pct": -0.34
+    },
+    "conviction": "Medium",
+    "conviction_points": 1,
+    "conviction_reasons": [
+      "fresh breakout"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "WAWI.OL": {
+    "ticker": "WAWI.OL",
+    "name": "Wallenius Wilhelmsen ASA",
+    "sector": "Industrials",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 35,
+        "composite": 0.578,
+        "price": 168.5,
+        "base_upside_pct": 1.61,
+        "bull_upside_pct": 29.99,
+        "conviction": "Medium",
+        "note": "Wallenius Wilhelmsen lifted full-year EBITDA guidance to $1.7B on relentless Chinese vehicle exports and its best Logistics quarter in about five years, even as extraordinary bunker costs pushed adjusted EBITDA down 7% sequentially to $361M"
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "FY26 adjusted EBITDA guidance raised $1.6bn to $1.7bn",
+        "expectation": "FY26 adjusted EBITDA guidance raised $1.6bn to $1.7bn",
+        "current_status": "Momentum holding (composite +0.58, rank 35)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Backlog above $10bn against $5.2bn annual revenue; Chinese OEMs signing 3-5 year deals",
+        "expectation": "Backlog above $10bn against $5.2bn annual revenue; Chinese OEMs signing 3-5 year deals",
+        "current_status": "Momentum holding (composite +0.58, rank 35)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Equity ratio 49% from 39%, leverage 1.2x, LTM ROCE 15.6%",
+        "expectation": "Equity ratio 49% from 39%, leverage 1.2x, LTM ROCE 15.6%",
+        "current_status": "Momentum holding (composite +0.58, rank 35)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Q2 2026 saw management lift FY26 adjusted EBITDA guidance from $1.6bn to $1.7bn on relentless Chinese vehicle exports and the best Logistics quarter in about five years ($46m segment adjusted EBITDA), even though extraordinary bunker costs pushed group adjusted EBITDA down 7% sequentially to $361m.",
+    "pillars": [
+      "FY26 adjusted EBITDA guidance raised $1.6bn to $1.7bn",
+      "Backlog above $10bn against $5.2bn annual revenue; Chinese OEMs signing 3-5 year deals",
+      "Equity ratio 49% from 39%, leverage 1.2x, LTM ROCE 15.6%"
+    ],
+    "falsifiers": [
+      "Section 301 at $46/net tonne = $300-400m 2026 exposure, still unconfirmed as suspended",
+      "US auto tariffs add $4,000-6,000 per vehicle on the highest-rate lanes",
+      "Industry order book ~21%; management telegraphing more newbuilds"
+    ],
+    "catalysts": [
+      "Oslo market update event, Sept. 24, 2026",
+      "USTR clarification on whether the Section 301 suspension covers vehicle carriers",
+      "Q3 2026 results, Nov 2026 - test of the Logistics run rate and Government Services recovery",
+      "Further multi-year Chinese OEM contract announcements beyond the $420m and $190m renewals"
+    ],
+    "target": {
+      "bear": 138.3,
+      "base": 171.22,
+      "bull": 219.04,
+      "base_upside_pct": 1.61,
+      "bull_upside_pct": 29.99
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "WEX": {
+    "ticker": "WEX",
+    "name": "WEX Inc.",
+    "sector": "Technology",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 41,
+        "composite": 0.489,
+        "price": 199.7100067138672,
+        "base_upside_pct": 39.38,
+        "bull_upside_pct": 81.99,
+        "conviction": "Medium",
+        "note": "WEX beat the high end of its own guidance on fuel-price and FX tailwinds, hit sub-3x leverage ahead of plan and pivoted essentially all free cash flow to buybacks — while conceding underlying Mobility volumes are still flat."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Fwd P/E 9.76x vs Corpay 14.13x; EV/EBITDA 6.58x vs 12.38x",
+        "expectation": "Fwd P/E 9.76x vs Corpay 14.13x; EV/EBITDA 6.58x vs 12.38x",
+        "current_status": "Momentum weakening (composite +0.49, rank 41)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Share count -9.57% y/y with most of $600-650m FCF going to buyback",
+        "expectation": "Share count -9.57% y/y with most of $600-650m FCF going to buyback",
+        "current_status": "Momentum weakening (composite +0.49, rank 41)",
+        "trend": "New"
+      },
+      {
+        "pillar": "FY26 guide raised to $19.68-$20.08 adj EPS vs $19.62 consensus",
+        "expectation": "FY26 guide raised to $19.68-$20.08 adj EPS vs $19.62 consensus",
+        "current_status": "Momentum weakening (composite +0.49, rank 41)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "WEX printed a 52-week high of $203.99 on 24-25 August and sits at $199.71, about 20% above its 50-day moving average of $166.75 and 28% above the 200-day at $156.14.",
+    "pillars": [
+      "Fwd P/E 9.76x vs Corpay 14.13x; EV/EBITDA 6.58x vs 12.38x",
+      "Share count -9.57% y/y with most of $600-650m FCF going to buyback",
+      "FY26 guide raised to $19.68-$20.08 adj EPS vs $19.62 consensus"
+    ],
+    "falsifiers": [
+      "Mobility, 52% of revenue, still flat on underlying volume",
+      "Late-fee drag of ~2pts to segment as fleets paid on time",
+      "Corporate Payments funded volume -4%, concentrated in OTA travel"
+    ],
+    "catalysts": [
+      "Q3 2026 results late October - guided $733-753m revenue, $5.45-$5.65 EPS",
+      "Monthly Cass Freight Index prints as the tell on trucking miles",
+      "Buyback pace disclosure - $93m repurchased May through 20 July",
+      "Q4/FY27 guidance in February 2027 sets the next fuel-price assumption"
+    ],
+    "target": {
+      "bear": 229.97,
+      "base": 278.37,
+      "bull": 363.46,
+      "base_upside_pct": 39.38,
+      "bull_upside_pct": 81.99
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "MANH": {
+    "ticker": "MANH",
+    "name": "Manhattan Associates, Inc.",
+    "sector": "Technology",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 42,
+        "composite": 0.487,
+        "price": 213.10000610351562,
+        "base_upside_pct": -37.58,
+        "bull_upside_pct": -10.57,
+        "conviction": "Low",
+        "note": "A third consecutive record-bookings quarter with 26% cloud growth and RPO up 23% to $2.47B let Manhattan raise revenue, margin and EPS guidance despite an $8M restructuring charge — the stock rose ~17%."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "RPO $2.47bn, +23% y/y, over 98% non-cancellable - two years of visibility",
+        "expectation": "RPO $2.47bn, +23% y/y, over 98% non-cancellable - two years of visibility",
+        "current_status": "Momentum weakening (composite +0.49, rank 42)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Cloud revenue +26% to $127m; FY26 cloud guide raised to $505.5m, +24%",
+        "expectation": "Cloud revenue +26% to $127m; FY26 cloud guide raised to $505.5m, +24%",
+        "current_status": "Momentum weakening (composite +0.49, rank 42)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Third straight record-bookings quarter; adj operating margin lifted to ~35.1%",
+        "expectation": "Third straight record-bookings quarter; adj operating margin lifted to ~35.1%",
+        "current_status": "Momentum weakening (composite +0.49, rank 42)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "Shares are $213.10, up roughly 79% from the $119.06 52-week low, 26% above the 50-day moving average of $168.64 and 36% above the 200-day at $156.41, with RSI at 71.8.",
+    "pillars": [
+      "RPO $2.47bn, +23% y/y, over 98% non-cancellable - two years of visibility",
+      "Cloud revenue +26% to $127m; FY26 cloud guide raised to $505.5m, +24%",
+      "Third straight record-bookings quarter; adj operating margin lifted to ~35.1%"
+    ],
+    "falsifiers": [
+      "36.63x forward EPS, 42.55x EV/EBITDA - no cushion for a single miss",
+      "Services revenue, 47% of total, guided down $4.5m to $513.5m",
+      "New-logo-heavy bookings mix is not the run-rate management underwrites"
+    ],
+    "catalysts": [
+      "Q3 2026 results late October - cloud guided to roughly $130m",
+      "Q4/FY26 close late January 2027 with RPO guided to high end of $2.62-2.68bn",
+      "First FY27 guidance, and the first sizing of Active Agents revenue",
+      "Peak-season fulfilment volumes from November as the demand read-through"
+    ],
+    "target": {
+      "bear": 110.73,
+      "base": 133.01,
+      "bull": 190.58,
+      "base_upside_pct": -37.58,
+      "bull_upside_pct": -10.57
+    },
+    "conviction": "Low",
+    "conviction_points": 0,
+    "conviction_reasons": [
+      "fresh breakout",
+      "stretched vs base multiples"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "REP.MC": {
+    "ticker": "REP.MC",
+    "name": "Repsol, S.A.",
+    "sector": "Energy",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 43,
+        "composite": 0.461,
+        "price": 26.920000076293945,
+        "base_upside_pct": 41.22,
+        "bull_upside_pct": 68.37,
+        "conviction": "Medium",
+        "note": "A refining super-cycle (margin indicator $14/bbl in Q2 and above $30/bbl in July) more than doubled adjusted net income to EUR 1.8bn, and Repsol answered with a bigger buyback and Pikka first oil rather than higher capex."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Q2 adjusted net income doubled to EUR 1.8bn; July margin indicator above $30/bbl",
+        "expectation": "Q2 adjusted net income doubled to EUR 1.8bn; July margin indicator above $30/bbl",
+        "current_status": "Momentum weakening (composite +0.46, rank 43)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Second 2026 buyback raised EUR 350m to EUR 500m; third to come with Q3",
+        "expectation": "Second 2026 buyback raised EUR 350m to EUR 500m; third to come with Q3",
+        "current_status": "Momentum weakening (composite +0.46, rank 43)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Pikka first oil, ramping to 80 kbbl/d gross; output already 580-585 kboe/d",
+        "expectation": "Pikka first oil, ramping to 80 kbbl/d gross; output already 580-585 kboe/d",
+        "current_status": "Momentum weakening (composite +0.46, rank 43)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "The stock is EUR 26.92 after touching a 52-week high of EUR 28.42 on 21 August, up 93.6% over twelve months and 30% above its 200-day moving average of EUR 20.66.",
+    "pillars": [
+      "Q2 adjusted net income doubled to EUR 1.8bn; July margin indicator above $30/bbl",
+      "Second 2026 buyback raised EUR 350m to EUR 500m; third to come with Q3",
+      "Pikka first oil, ramping to 80 kbbl/d gross; output already 580-585 kboe/d"
+    ],
+    "falsifiers": [
+      "Refining margin is the single largest earnings swing factor - and it is peak",
+      "Hormuz normalisation removes the geopolitical leg of the premium",
+      "59% of sales in Spain, exposed to the windfall levy and permitting friction"
+    ],
+    "catalysts": [
+      "Q3 2026 results on 29 October - sizing of the third buyback programme",
+      "Pikka Phase 1 reaching 80 kbbl/d gross during Q3",
+      "Venezuela licence status under the February 2026 US authorisations",
+      "Q4 print in February 2027 confirming FY26 production at the high end"
+    ],
+    "target": {
+      "bear": 29.94,
+      "base": 38.02,
+      "bull": 45.32,
+      "base_upside_pct": 41.22,
+      "bull_upside_pct": 68.37
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "BME.L": {
+    "ticker": "BME.L",
+    "name": "B&M European Value Retail plc",
+    "sector": "Consumer Defensive",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 45,
+        "composite": 0.444,
+        "price": 246.8000030517578,
+        "base_upside_pct": -3.39,
+        "bull_upside_pct": 180.73,
+        "conviction": "Medium",
+        "note": "FY26 was the reset year — adjusted EBITDA (pre-IFRS 16) down 25.9% to GBP 459m and the dividend cut 36% — with CEO Tjeerd Jegen buying time on 'Back to B&M Basics' by pointing to Q4 UK LFL turning positive (+0.1%) and leverage back inside t"
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "4.15x P/FCF, 6.84x EV/EBITDA, 11.37x fwd P/E with a 4.01% yield",
+        "expectation": "4.15x P/FCF, 6.84x EV/EBITDA, 11.37x fwd P/E with a 4.01% yield",
+        "current_status": "Momentum weakening (composite +0.44, rank 45)",
+        "trend": "New"
+      },
+      {
+        "pillar": "France +13.4% to GBP 616m, discount share 8.4% from 8.1%, 147 stores vs 799 UK",
+        "expectation": "France +13.4% to GBP 616m, discount share 8.4% from 8.1%, 147 stores vs 799 UK",
+        "current_status": "Momentum weakening (composite +0.44, rank 45)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Availability of key brands 86% to 93% H1 to H2; December UK LFL +3%",
+        "expectation": "Availability of key brands 86% to 93% H1 to H2; December UK LFL +3%",
+        "current_status": "Momentum weakening (composite +0.44, rank 45)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "The shares are 246.8p, 76% above the 140p 52-week low, 16% above the 50-day moving average of 213.64p and 35% above the 200-day at 183.28p - a textbook Stage 2 base breakout off a distress low, though still short of the 269.3p 52-week high.",
+    "pillars": [
+      "4.15x P/FCF, 6.84x EV/EBITDA, 11.37x fwd P/E with a 4.01% yield",
+      "France +13.4% to GBP 616m, discount share 8.4% from 8.1%, 147 stores vs 799 UK",
+      "Availability of key brands 86% to 93% H1 to H2; December UK LFL +3%"
+    ],
+    "falsifiers": [
+      "UK LFL still -2.3% in Q1 FY27; the turnaround has not turned",
+      "FY26 adjusted EBITDA -25.9% to GBP 459m, UK margin 12.2% to 8.6%",
+      "Heron Foods EBITDA margin 2.9% vs 5.5%, revenue declining"
+    ],
+    "catalysts": [
+      "H1 FY27 interim results in early November 2026 - first adjusted PBT guidance",
+      "New CFO Atheeq Akbar taking the seat from Asda",
+      "First 'Store 2.0' format opening at end-Q2 FY27, around September 2026",
+      "Christmas trading update in January 2027 - the make-or-break UK LFL print"
+    ],
+    "target": {
+      "bear": 202.85,
+      "base": 238.44,
+      "bull": 692.84,
+      "base_upside_pct": -3.39,
+      "bull_upside_pct": 180.73
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "SHC": {
+    "ticker": "SHC",
+    "name": "Sotera Health Company",
+    "sector": "Healthcare",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 46,
+        "composite": 0.441,
+        "price": 19.510000228881836,
+        "base_upside_pct": 25.03,
+        "bull_upside_pct": 82.25,
+        "conviction": "Medium",
+        "note": "New CEO Alton Shader's first quarter delivered 8% constant-currency revenue growth and 51.6% adjusted EBITDA margin, funding a raise to every FY26 guidance line, with leverage finally at the top of the 2-3x target and the former PE sponsors"
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "Every FY26 guidance line raised; 51.6% adj EBITDA margin, 8% cc growth",
+        "expectation": "Every FY26 guidance line raised; 51.6% adj EBITDA margin, 8% cc growth",
+        "current_status": "Momentum weakening (composite +0.44, rank 46)",
+        "trend": "New"
+      },
+      {
+        "pillar": "12.97x EV/EBITDA vs STERIS 15.00x; $22.72 target implies 16% upside",
+        "expectation": "12.97x EV/EBITDA vs STERIS 15.00x; $22.72 target implies 16% upside",
+        "current_status": "Momentum weakening (composite +0.44, rank 46)",
+        "trend": "New"
+      },
+      {
+        "pillar": "New Mexico EO litigation settled July for an immaterial amount",
+        "expectation": "New Mexico EO litigation settled July for an immaterial amount",
+        "current_status": "Momentum weakening (composite +0.44, rank 46)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "The stock gapped 5.2% higher on 6 August on Q2 and has ground to $19.51, within 2% of the $19.85 52-week high and above both the 50-day at $17.86 and the 200-day at $16.68.",
+    "pillars": [
+      "Every FY26 guidance line raised; 51.6% adj EBITDA margin, 8% cc growth",
+      "12.97x EV/EBITDA vs STERIS 15.00x; $22.72 target implies 16% upside",
+      "New Mexico EO litigation settled July for an immaterial amount"
+    ],
+    "falsifiers": [
+      "Nordion H1 pulled forward - H2 faces a self-inflicted revenue comp",
+      "Nelson Labs 32.4% Q2 margin explicitly disowned as the new base",
+      "Georgia EO appeal still live after $408m and $358.7m prior outcomes"
+    ],
+    "catalysts": [
+      "Q3 2026 results in early November - first X-ray facility revenue",
+      "Georgia EO appeal ruling, the last major litigation domino",
+      "Large med-tech customer insource-to-outsource EO shift landing in H2",
+      "Second greenfield restart progress toward late-2027/early-2028 completion"
+    ],
+    "target": {
+      "bear": 18.95,
+      "base": 24.39,
+      "bull": 35.56,
+      "base_upside_pct": 25.03,
+      "bull_upside_pct": 82.25
+    },
+    "conviction": "Medium",
+    "conviction_points": 2,
+    "conviction_reasons": [
+      "fresh breakout",
+      "bull-case upside > 10%"
+    ],
+    "conviction_trend": "New",
+    "weeks_tracked": 1
+  },
+  "HRB": {
+    "ticker": "HRB",
+    "name": "H&R Block, Inc.",
+    "sector": "Consumer Cyclical",
+    "first_seen": "2026-08-26",
+    "log": [
+      {
+        "date": "2026-08-26",
+        "rank": 47,
+        "composite": 0.434,
+        "price": 53.189998626708984,
+        "base_upside_pct": 57.5,
+        "bull_upside_pct": 107.7,
+        "conviction": "Medium",
+        "note": "H&R Block's strongest year in five (revenue +4.9%, adjusted EPS +13.9%) plus an FY27 guide implying ~15.6% EPS growth sent the stock up ~17% after hours and was used explicitly to rebut the 'AI kills tax prep' trade."
+      }
+    ],
+    "scorecard": [
+      {
+        "pillar": "FY27 guide of $6.04-$6.24 adj EPS implies ~15.6% growth off a 4.9% revenue year",
+        "expectation": "FY27 guide of $6.04-$6.24 adj EPS implies ~15.6% growth off a 4.9% revenue year",
+        "current_status": "Momentum weakening (composite +0.43, rank 47)",
+        "trend": "New"
+      },
+      {
+        "pillar": "8.65x fwd P/E, 7.47x EV/EBITDA, ~11.5% FCF yield vs Intuit at 14.08x EV/EBITDA",
+        "expectation": "8.65x fwd P/E, 7.47x EV/EBITDA, ~11.5% FCF yield vs Intuit at 14.08x EV/EBITDA",
+        "current_status": "Momentum weakening (composite +0.43, rank 47)",
+        "trend": "New"
+      },
+      {
+        "pillar": "Conversion +200bps and retention +190bps - best single-year gain on record",
+        "expectation": "Conversion +200bps and retention +190bps - best single-year gain on record",
+        "current_status": "Momentum weakening (composite +0.43, rank 47)",
+        "trend": "New"
+      }
+    ],
+    "status": "in_screen",
+    "last_seen": "2026-08-26",
+    "statement": "The stock gapped 16.1% on 12 August on 8.4m shares, more than three times the 20-day average, after the 11 August FY26 print: revenue up 4.9% to $3.95bn, adjusted EPS up 13.9%, and an FY27 guide of $4.11-$4.16bn revenue with $6.04-$6.24 adjusted EPS implying roughly 15.6% growth.",
+    "pillars": [
+      "FY27 guide of $6.04-$6.24 adj EPS implies ~15.6% growth off a 4.9% revenue year",
+      "8.65x fwd P/E, 7.47x EV/EBITDA, ~11.5% FCF yield vs Intuit at 14.08x EV/EBITDA",
+      "Conversion +200bps and retention +190bps - best single-year gain on record"
+    ],
+    "falsifiers": [
+      "Growth is price and buyback, not volume - industry filings decelerating below 1%",
+      "FY27 tax rate steps from 14% to ~23%, compressing reported comparisons",
+      "DIY revenue +0.2%, franchise royalties -3.9%, financial services shrinking"
+    ],
+    "catalysts": [
+      "Ex-dividend 3 September 2026 on the raised $0.46 quarterly payout",
+      "Q1 FY27 results in early November - seasonally loss-making, watch cost base",
+      "IRS 2027 filing season opening in late January - the only quarter that matters",
+      "Execution of the ~$400m FY27 buyback against $600m left on the authorisation"
+    ],
+    "target": {
+      "bear": 62.81,
+      "base": 83.78,
+      "bull": 110.47,
+      "base_upside_pct": 57.5,
+      "bull_upside_pct": 107.7
     },
     "conviction": "Medium",
     "conviction_points": 2,

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-08-15",
+    "as_of": "2026-08-26",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -12305,5 +12305,1197 @@
       }
     ],
     "last_refreshed": "2026-08-15"
+  },
+  "MRNA": {
+    "ticker": "MRNA",
+    "company": "Moderna, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Moderna develops and sells vaccines built on messenger-RNA technology, which instructs the body's own cells to make a target protein. Today it makes money from three approved products sold into seasonal respiratory vaccination campaigns: Spikevax (original COVID shot), mNEXSPIKE (next-generation COVID shot launched in the US in 2025) and mRESVIA (RSV). Revenue has collapsed from the $19.3bn COVID peak to roughly $1.9bn in FY2025, and the company now runs as a cash-disciplined platform business funded by multi-year national supply agreements while it tries to prove mRNA outside COVID.",
+    "revenue_mix": [
+      {
+        "segment": "Spikevax (COVID-19, mRNA-1273) — approx, not split by SKU in filings",
+        "share_pct": 58,
+        "trend": "declining"
+      },
+      {
+        "segment": "mNEXSPIKE (next-gen COVID, mRNA-1283) — approx",
+        "share_pct": 32,
+        "trend": "growing"
+      },
+      {
+        "segment": "mRESVIA (RSV) — approx, immaterial ($2m in Q3 2025)",
+        "share_pct": 2,
+        "trend": "stable"
+      },
+      {
+        "segment": "Other revenue (grants, collaborations, licensing) — approx",
+        "share_pct": 8,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 50
+      },
+      {
+        "region": "International (UK, Canada, Australia, Japan, Taiwan, Mexico, EU)",
+        "share_pct": 50
+      }
+    ],
+    "end_markets": [
+      "Seasonal respiratory vaccination (COVID, RSV; flu in pipeline)",
+      "Government / public-health long-term supply agreements (Mexico, Taiwan, UK, Canada, Australia)",
+      "US retail pharmacy channel for commercial COVID shots",
+      "Oncology — individualized neoantigen therapy (intismeran autogene, mRNA-4157) partnered 50/50 with Merck",
+      "Rare disease and latent-virus pipeline (CMV, norovirus, propionic acidemia)"
+    ],
+    "top_competitors": [
+      "Pfizer/BioNTech (Comirnaty — direct COVID share competitor)",
+      "Novavax with Sanofi (protein-adjuvanted Nuvaxovid, positioned as the non-mRNA option)",
+      "GSK (Arexvy) and Pfizer (Abrysvo) in RSV, both ahead of mRESVIA",
+      "Sanofi and CSL Seqirus in influenza, the market mRNA-1010 must break into",
+      "BioNTech (also the closest rival in mRNA cancer immunotherapy, partnered with BMS)"
+    ],
+    "moat": {
+      "type": "Platform speed + installed manufacturing, but eroding in COVID",
+      "narrative": "The genuine advantage is cycle time: because the mRNA sequence is software-like, Moderna can re-code a strain change in weeks rather than the months egg- or protein-based rivals need, and it owns dedicated fill-finish plants (Norwood MA, Harwell UK, Melbourne, Laval) contractually tied to 10-year national supply deals that guarantee off-take irrespective of retail demand. That is a real edge in a pandemic, but in the current endemic COVID market Moderna and Pfizer sell an interchangeable product into a shrinking vaccinated population, so pricing is commoditising — the durable value sits in the unproven pipeline (Merck-partnered INT, flu, CMV, norovirus), not in the COVID franchise."
+    },
+    "key_customers": [
+      "National governments under multi-year supply agreements — UKHSA, Health Canada, Australia (Moderna Victoria offtake), Mexico, Taiwan, Japan MHLW",
+      "US retail pharmacy chains and distributors (CVS, Walgreens, McKesson) for the commercial seasonal channel",
+      "Merck & Co. — collaboration partner sharing costs 50/50 on individualized neoantigen therapy",
+      "US federal government (BARDA/ASPR), now a materially reduced customer after the August 2025 mRNA contract cancellations"
+    ],
+    "key_risks": [
+      "US vaccine policy under HHS Secretary Robert F. Kennedy Jr — FDA revoked COVID EUAs and reissued narrower approvals (65+ or high-risk under-65), ACIP was reconstituted, and HHS cancelled ~$500m of federally funded mRNA contracts in August 2025",
+      "Cash burn against a finite runway — Q2 2026 net loss of $782m on just $145m of revenue; guided year-end 2026 cash of $4.7–5.2bn with ~$4bn of annual cash costs",
+      "Extreme seasonal concentration — management guides ~55% of second-half 2026 revenue to Q3 alone, so one weak autumn campaign resets the year",
+      "mRNA-1010 flu and the flu/COVID combination need a CDC/ACIP recommendation to be commercially meaningful; FDA approval alone does not create a market",
+      "Lipid-nanoparticle IP litigation (Alnylam, Arbutus/Genevant, GSK, Promosome) creating unresolved royalty exposure on the delivery technology",
+      "US share loss to Pfizer/BioNTech in a shrinking COVID pool — Moderna is now ~50% international, which reduces but does not remove US policy risk"
+    ],
+    "sources": [
+      {
+        "label": "Moderna Q2 2026 results (8-K exhibit 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm"
+      },
+      {
+        "label": "Moderna Q4 and FY2025 results",
+        "url": "https://www.biospace.com/press-releases/moderna-reports-fourth-quarter-and-fiscal-year-2025-financial-results-and-provides-business-updates"
+      },
+      {
+        "label": "CIDRAP — State of US Vaccine Policy, June 2026",
+        "url": "https://www.cidrap.umn.edu/childhood-vaccines/state-us-vaccine-policy-jun-11-2026"
+      },
+      {
+        "label": "Moderna 2025 shareholder letter",
+        "url": "https://www.modernatx.com/media-center/all-media/blogs/moderna-2025-shareholder-letter"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "CHYM": {
+    "ticker": "CHYM",
+    "company": "Chime Financial, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Chime is a US consumer fintech that offers fee-free checking and savings accounts, a debit card and a secured credit card to mass-market Americans. It is not a bank — deposits are held and cards issued by partner banks The Bancorp Bank and Stride Bank. Chime earns most of its money from interchange fees paid by merchants every time a member swipes a Chime card, and increasingly from fee-based liquidity products: MyPay (earned wage access), SpotMe (fee-free overdraft) and Instant Loans. FY2025 revenue was $2.19bn, up 31%, across 9.5 million Active Members.",
+    "revenue_mix": [
+      {
+        "segment": "Payments revenue (debit + credit card interchange)",
+        "share_pct": 69,
+        "trend": "stable"
+      },
+      {
+        "segment": "Platform-related revenue (MyPay, Instant Loans, Outbound Instant Transfer)",
+        "share_pct": 31,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "US mass-market consumers earning under ~$100k with recurring direct deposit",
+      "Earned wage access / payday-loan substitution (MyPay, >$400m annualised revenue)",
+      "Credit building for thin-file consumers (Chime Card secured credit card, launched Sept 2025)",
+      "Small-dollar instant credit (~$400m of Instant Loans originated in 2025)"
+    ],
+    "top_competitors": [
+      "Cash App (Block) — the closest overlap on the same demographic and also interchange-funded",
+      "SoFi — broader product suite but its >$10bn balance sheet means Durbin-capped interchange",
+      "Dave — the original overdraft-alternative cash advance model",
+      "Varo Bank — holds its own OCC national bank charter",
+      "Current — fee-free overdraft and teen banking",
+      "Incumbent low-fee accounts: Capital One 360, Chase Secure Banking"
+    ],
+    "moat": {
+      "type": "Durbin small-bank exemption + direct-deposit primacy",
+      "narrative": "Chime routes its cards through partner banks with under $10bn in assets (The Bancorp, Stride), which are exempt from the Durbin Amendment interchange cap — so Chime earns roughly 1.5% per debit swipe where any bank above $10bn earns about 0.05% plus a few cents. That is a structural revenue-per-transaction advantage that even a much larger competitor like SoFi cannot replicate. On top of it sits direct-deposit primacy: once payroll lands at Chime, SpotMe limits and MyPay eligibility are underwritten off that deposit history, so leaving means losing the overdraft cushion. The catch is that half the moat is a regulatory carve-out Congress can remove."
+    },
+    "key_customers": [
+      "9.5 million Active Members (retail consumers) — no revenue concentration, ARPAM $257",
+      "Merchants indirectly, via Visa interchange on $34bn+ of quarterly Purchase Volume",
+      "The Bancorp Bank, N.A. and Stride Bank, N.A. — issuing and deposit partners, effectively critical counterparties rather than customers",
+      "Visa — network partner whose economics underpin ~69% of revenue"
+    ],
+    "key_risks": [
+      "Durbin exemption is the single largest risk — any repeal, or a change to the $10bn partner-bank asset threshold, hits roughly two-thirds of revenue directly",
+      "Partner-bank concentration on Bancorp and Stride: a regulatory consent order at either, or a renegotiated economic split, is an existential operating dependency",
+      "Credit losses on MyPay (1% loss rate) and Instant Loans are untested through a real labour-market downturn — the whole product set is underwritten off employed direct-deposit members",
+      "CFPB and state regulators reclassifying earned wage access as credit would force APR disclosure and bring MyPay under state usury caps",
+      "Customer acquisition cost inflation against Cash App, which has a far cheaper viral acquisition loop",
+      "GAAP profitability is only expected for the first time in 2026 — guidance of $2.63–2.67bn revenue and $380–400m adjusted EBITDA has no cushion for a miss",
+      "Post-IPO share supply — Chime only listed in June 2025 and insider/venture overhang remains"
+    ],
+    "sources": [
+      {
+        "label": "Chime Q4 and FY2025 results",
+        "url": "https://investors.chime.com/news-releases/news-release-details/chime-reports-fourth-quarter-and-full-year-2025-financial"
+      },
+      {
+        "label": "Chime Financial Form 424B4 (IPO prospectus)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1795586/000162828025030855/chimefinancialinc-finalpro.htm"
+      },
+      {
+        "label": "Chime Financial Form S-1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1795586/000162828025025059/chimefinancialinc-sx1wq1da.htm"
+      },
+      {
+        "label": "Contrary Research — Chime business breakdown",
+        "url": "https://research.contrary.com/company/chime"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "CAI": {
+    "ticker": "CAI",
+    "company": "Caris Life Sciences, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Caris runs a precision-oncology laboratory. An oncologist sends a tumour sample; Caris performs whole-exome DNA and whole-transcriptome RNA sequencing (MI Profile, with the FDA-approved MI Cancer Seek as the NGS component) plus a blood-based assay (Caris Assure), and returns a report matching the patient to therapies and clinical trials. Payers — principally Medicare — reimburse per test. Caris then licenses the resulting multi-omic database and AI models to pharmaceutical companies. FY2025 revenue was roughly $0.81bn and 2026 guidance is $1.0–1.02bn.",
+    "revenue_mix": [
+      {
+        "segment": "Molecular profiling services (clinical therapy selection — MI Profile, Caris Assure)",
+        "share_pct": 92,
+        "trend": "growing"
+      },
+      {
+        "segment": "Pharma & research (biomarker discovery, companion diagnostics, trial enrolment)",
+        "share_pct": 8,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — not separately disclosed)",
+        "share_pct": 97
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "Community and academic oncology practices — therapy selection at diagnosis and at progression (~52,700 clinical cases in Q4 2025)",
+      "Blood-based testing: minimal residual disease monitoring and early detection (Caris Assure, ~8,550 cases in Q4 2025)",
+      "Biopharma biomarker discovery and companion diagnostic development",
+      "Clinical trial patient identification through the Caris Precision Oncology Alliance network of cancer centres"
+    ],
+    "top_competitors": [
+      "Foundation Medicine (Roche) — the incumbent FDA-approved comprehensive genomic profiling test",
+      "Tempus AI — closest direct analogue on the data-plus-diagnostics model, competes hard on EMR integration",
+      "Guardant Health — liquid biopsy leader (Guardant360, Shield, Infinity), signed a multi-year Merck CDx collaboration in Jan 2026",
+      "Exact Sciences and Natera — MRD and early detection, the segment Caris Assure targets",
+      "NeoGenomics and Myriad Genetics — mid-market oncology testing",
+      "Labcorp and Quest Diagnostics in-house NGS panels on price"
+    ],
+    "moat": {
+      "type": "Whole-transcriptome data scale + FDA companion-diagnostic status",
+      "narrative": "Nearly every rival profiles DNA panels; Caris runs whole exome AND whole transcriptome on essentially every case, and had accumulated 959,000+ total profiles including 628,000+ whole-transcriptome profiles by September 2025. RNA-level data at that scale is what trains the AI models and is what pharma actually pays for — a competitor cannot buy it, only re-accumulate it case by case over years. MI Cancer Seek's FDA approval as a companion diagnostic (Q4 2024) then converts that into payer coverage and drug-label linkage, and the Precision Oncology Alliance of 90+ cancer centres feeds fresh cases back in. The vulnerability is that the flywheel monetises through a single reimbursed test code."
+    },
+    "key_customers": [
+      "Ordering oncologists and pathology groups across US community and academic practices — highly fragmented, no single ordering account material",
+      "Medicare via MolDX — the largest single payer for comprehensive genomic profiling and the effective price-setter for ~90% of revenue",
+      "Commercial payers under comprehensive genomic profiling coverage policies",
+      "90+ NCI-designated and academic cancer centres in the Caris Precision Oncology Alliance",
+      "Biopharma sponsors funding CDx and biomarker work — guided to $75–85m of revenue in 2026"
+    ],
+    "key_risks": [
+      "Reimbursement concentration — a MolDX rate revision or PAMA repricing of the comprehensive genomic profiling code hits ~90% of revenue with no offset, and Caris does not control the rate",
+      "2026 growth is mix- and price-led, not volume-led: clinical volume is guided to grow ~20% while molecular profiling revenue grows 21–22%, so the revenue beat is not repeatable if per-test reimbursement normalises",
+      "Tempus AI and Foundation Medicine competing on price and on EMR/ordering-workflow integration, where Caris is not obviously advantaged",
+      "GAAP operating expenses guided up 19–20% in 2026 on commercial expansion and pipeline trials, against only just-achieved positive adjusted EBITDA and free cash flow",
+      "Caris Assure needs its own ADLT/gap-fill reimbursement decision before blood-based volume can carry meaningful revenue",
+      "Post-IPO governance — Caris only listed in June 2025 and founder David Halbert retains a controlling economic and voting position",
+      "Single-country, single-modality concentration: essentially all revenue is US oncology testing"
+    ],
+    "sources": [
+      {
+        "label": "Caris Q4 and FY2025 results with 2026 outlook",
+        "url": "https://investor.carislifesciences.com/news-releases/news-release-details/caris-life-sciences-reports-fourth-quarter-and-full-year-2025"
+      },
+      {
+        "label": "Caris Q3 2025 results",
+        "url": "https://investor.carislifesciences.com/news-releases/news-release-details/caris-life-sciences-reports-third-quarter-2025-financial-results"
+      },
+      {
+        "label": "Caris Life Sciences Form S-1/A (IPO prospectus)",
+        "url": "https://www.sec.gov/Archives/edgar/data/2019410/000110465925057593/tm2415719-16_s1a.htm"
+      },
+      {
+        "label": "Caris Life Sciences FY2025 annual report (Form ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0002019410/000201941026000034/carislifesciencesincars422.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "FRO.OL": {
+    "ticker": "FRO.OL",
+    "company": "Frontline plc (Oslo Børs listing; also NYSE: FRO)",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Frontline owns and operates large crude oil and refined-product tankers and rents them out, mostly on the spot market where the daily rate resets voyage by voyage. As of 31 December 2025 the fleet was 80 owned vessels of about 17.6m dwt — 41 VLCCs, 21 Suezmaxes and 18 LR2/Aframaxes — with an average age of 7.5 years, 100% eco-design and 57% scrubber-fitted. FY2025 revenue was $1.97bn with net income of $379m; Q4 2025 alone produced $227.9m of profit and a $1.03 per share dividend. Control sits with the Fredriksen family's Hemen Holding.",
+    "revenue_mix": [
+      {
+        "segment": "VLCC (very large crude carriers, 41 vessels) — approx, TCE-weighted",
+        "share_pct": 63,
+        "trend": "growing"
+      },
+      {
+        "segment": "Suezmax (21 vessels) — approx, TCE-weighted",
+        "share_pct": 24,
+        "trend": "stable"
+      },
+      {
+        "segment": "LR2 / Aframax product tankers (18 vessels) — approx, TCE-weighted",
+        "share_pct": 13,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Middle East Gulf to Asia (approx — not disclosed by region; spot trade estimate)",
+        "share_pct": 45
+      },
+      {
+        "region": "Atlantic (US Gulf, Brazil, West Africa) to Asia and Europe (approx)",
+        "share_pct": 35
+      },
+      {
+        "region": "Intra-Atlantic, Mediterranean and other (approx)",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "Seaborne crude oil transport for oil majors, national oil companies and commodity traders",
+      "Clean petroleum products — naphtha, jet, diesel — on the LR2 fleet",
+      "Period time-charter contracts (eight VLCCs fixed on one-year charters at high daily rates in early 2026)",
+      "Secondhand vessel asset trading — eight older eco VLCCs sold for $831.5m"
+    ],
+    "top_competitors": [
+      "DHT Holdings — pure-play VLCC owner, closest comparable",
+      "International Seaways — mixed crude and product fleet, US-listed",
+      "Okeanis Eco Tankers — younger, similarly eco-focused VLCC/Suezmax fleet",
+      "CMB.TECH (formerly Euronav) — large crude fleet, diverging into decarbonisation assets",
+      "Teekay Tankers, Tsakos Energy Navigation, Nordic American Tankers",
+      "The sanctioned 'shadow fleet' of 400+ tankers, which competes for cargoes outside compliant markets"
+    ],
+    "moat": {
+      "type": "None structural — cost position and fleet vintage only",
+      "narrative": "Commodity-like dynamics: a VLCC is a VLCC, and the spot rate is set globally with no customer lock-in. What Frontline actually owns is a cost and timing edge — a 7.5-year-average, 100% eco, 57% scrubber-fitted fleet with a fleet-wide cash breakeven of about $24,300/day ($25,000 VLCC, $23,700 Suezmax, $23,800 LR2), among the lowest of the listed peers, so it stays cash-generative deeper into a downcycle than older tonnage. Add Fredriksen-network access to shipyard slots and secondhand deals. That is execution and balance sheet, not a moat — the equity is a leveraged call on the tanker cycle."
+    },
+    "key_customers": [
+      "Oil majors and national oil companies chartering VLCCs and Suezmaxes on a voyage basis — the typical counterparty set includes Saudi Aramco/Bahri, Shell, ExxonMobil, TotalEnergies and Chevron",
+      "Chinese and Indian refiners and their trading arms — Unipec/Sinopec, PetroChina, Reliance",
+      "Commodity trading houses — Vitol, Trafigura, Glencore",
+      "Time-charter counterparties on the eight VLCCs fixed for one year in the 2026 fleet-renewal programme"
+    ],
+    "key_risks": [
+      "The whole equity story is one number: Q4 2025 VLCC spot TCE of $74,200/day against a $25,000/day cash breakeven — a reversion toward breakeven eliminates both earnings and the variable dividend, which is paid out of quarterly cash flow",
+      "OPEC+ production decisions set tonne-mile demand directly; a cut in Middle East Gulf barrels removes the highest-value long-haul cargoes",
+      "Sanctions are a two-way risk — continued enforcement on Russian, Iranian and Venezuelan trades keeps shadow-fleet tonnage out of the compliant market, but a Russia peace deal or sanctions relief would release hundreds of tankers back into competition overnight",
+      "Newbuild orderbook: heavy 2024–25 VLCC ordering across the industry delivers into 2027–2028, precisely when Frontline's own nine newbuilds arrive",
+      "Fleet-renewal capex timing — $1.224bn committed for nine scrubber-fitted VLCC newbuilds against $831.5m of disposals, leaving a funding gap to be financed near the cycle top",
+      "Hemen Holding / Fredriksen control and related-party dealings with SFL Corporation, Golden Ocean and Seatankers limit minority influence",
+      "Oslo listing means NOK/USD translation for local holders while all earnings are USD"
+    ],
+    "sources": [
+      {
+        "label": "Frontline Q4 and FY2025 results",
+        "url": "https://www.frontlineplc.cy/fro-fourth-quarter-and-full-year-2025-results/"
+      },
+      {
+        "label": "Frontline plc FY2025 Form 20-F",
+        "url": "https://www.sec.gov/Archives/edgar/data/913290/000162828026021774/fro-20251231.htm"
+      },
+      {
+        "label": "Frontline Q4 2025 earnings call transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/02/27/frontline-fro-q4-2025-earnings-call-transcript/"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "BLKB": {
+    "ticker": "BLKB",
+    "company": "Blackbaud, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Blackbaud sells the back-office software that nonprofits, private K-12 schools, universities and corporate giving programmes run on — donor CRM and fundraising (Raiser's Edge NXT, Blackbaud CRM), nonprofit accounting (Financial Edge NXT), school administration and tuition management, and corporate grantmaking (YourCause). About 98% of revenue is recurring: a subscription fee plus a cut of every donation and tuition payment processed through Blackbaud's own payments rail. FY2025 revenue was $1.1bn with adjusted EBITDA of $405m (35.9% margin) after divesting EVERFI.",
+    "revenue_mix": [
+      {
+        "segment": "Contractual recurring (software subscriptions)",
+        "share_pct": 64,
+        "trend": "stable"
+      },
+      {
+        "segment": "Transactional recurring (donation processing, tuition management, consumer giving, event usage)",
+        "share_pct": 34,
+        "trend": "growing"
+      },
+      {
+        "segment": "One-time services and other",
+        "share_pct": 2,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx — not disclosed in detail)",
+        "share_pct": 90
+      },
+      {
+        "region": "United Kingdom and Europe (approx)",
+        "share_pct": 6
+      },
+      {
+        "region": "Canada (approx)",
+        "share_pct": 2
+      },
+      {
+        "region": "Australia / New Zealand (approx)",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Nonprofits and private foundations — fundraising, donor CRM, financial management, grantmaking",
+      "Private K-12 schools — enrolment, tuition management, school administration",
+      "Higher-education advancement and alumni giving offices",
+      "Healthcare foundations and faith communities",
+      "Corporations — CSR, employee giving and grantmaking (YourCause)"
+    ],
+    "top_competitors": [
+      "Salesforce Nonprofit Cloud — the main enterprise-tier alternative",
+      "Bonterra (EveryAction, Network for Good) — mid-market fundraising CRM",
+      "Givebutter, Donorbox, Qgiv/Bloomerang, Classy (GoFundMe) — low-cost erosion at the small-org end",
+      "Veracross and Nelnet/FACTS in K-12 school administration and tuition",
+      "Benevity in corporate CSR and employee giving",
+      "Sage Intacct in nonprofit financial management"
+    ],
+    "moat": {
+      "type": "System-of-record switching costs plus payments attach",
+      "narrative": "Raiser's Edge holds decades of donor history, pledge schedules, grant restrictions and gift-compliance records for the same institution — a development office cannot rip that out without risking its own major-gift pipeline, so migrations are multi-year projects that rarely start. Blackbaud has hardened this by moving ~90% of contractual recurring revenue onto three-year-plus contracts (25% on four-year-plus) and by attaching Blackbaud Merchant Services, so it takes a fee on every donation and tuition payment its clients process — revenue grows with client giving volume without selling a single new seat. Estimated 40–50% share of US mid-to-large nonprofit fundraising CRM. The moat is thinnest at the bottom, where Givebutter and Donorbox undercut on price."
+    },
+    "key_customers": [
+      "Highly fragmented — tens of thousands of nonprofit, K-12 school, higher-education and healthcare-foundation accounts, with no single customer material to revenue",
+      "Largest and stickiest verticals are university advancement offices and independent K-12 schools, where the data is oldest and the compliance burden highest",
+      "Corporate clients on the YourCause CSR and grantmaking platform",
+      "Donors and parents indirectly — they are the payment volume that drives the 34% transactional revenue line"
+    ],
+    "key_risks": [
+      "Growth deceleration is the core problem — Q2 2026 organic revenue rose only 3.0% (year-to-date 3.6%) versus 5.5% organic in FY2025; the Rule of 40 is being met through margin, not growth",
+      "Transactional revenue is directly levered to US charitable giving volume, which the Blackbaud Institute measured up only 4.3% in 2025, and to any change in the US charitable deduction",
+      "Federal and state grant reductions to nonprofits squeeze customer budgets and lengthen renewal cycles",
+      "Legacy of the 2020 ransomware breach — an FTC consent order (Feb 2024) and a $49.5m 49-state attorney-general settlement impose ongoing security obligations and remain a competitive talking point at renewals",
+      "Low-cost and AI-native fundraising tools (Givebutter, Donorbox) compressing the small and mid-market where new logos come from",
+      "EPS growth is increasingly buyback-driven rather than revenue-driven, which caps the sustainable multiple",
+      "The EVERFI divestiture removed the growth narrative and left a lower-growth, higher-margin core"
+    ],
+    "sources": [
+      {
+        "label": "Blackbaud Q2 2026 results",
+        "url": "https://www.blackbaud.com/newsroom/article/blackbaud-announces-2026-second-quarter-results"
+      },
+      {
+        "label": "Blackbaud Q4 and FY2025 results",
+        "url": "https://investor.blackbaud.com/news-releases/news-release-details/blackbaud-announces-2025-fourth-quarter-and-full-year-results"
+      },
+      {
+        "label": "Blackbaud investor presentation, April 2026",
+        "url": "https://investor.blackbaud.com/static-files/bf4a7b6b-18d1-4bc3-b690-af841a99ad00"
+      },
+      {
+        "label": "Blackbaud Institute 2025 charitable giving data",
+        "url": "https://www.blackbaud.com/newsroom/article/2025-trends-in-giving-spotlight"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "PSX": {
+    "ticker": "PSX",
+    "company": "Phillips 66",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Phillips 66 is a US downstream and midstream energy company. It refines crude into gasoline, diesel and jet fuel across its refining system, gathers and processes natural gas liquids and exports LPG from the Gulf Coast, sells fuel through the Phillips 66, 76 and Conoco branded networks, owns half of petrochemical joint venture CPChem, and produces renewable diesel and SAF at Rodeo. Earnings swing violently with refining crack spreads — from $133m in Q3 2025 to $2.9bn in Q4 2025 to $3.8bn ($9.55 per share) in Q2 2026, when refining ran at 96% utilisation.",
+    "revenue_mix": [
+      {
+        "segment": "Marketing and Specialties (external revenues — includes resale of purchased fuel, so overstates economic weight)",
+        "share_pct": 45,
+        "trend": "stable"
+      },
+      {
+        "segment": "Refining",
+        "share_pct": 42,
+        "trend": "growing"
+      },
+      {
+        "segment": "Midstream",
+        "share_pct": 10,
+        "trend": "growing"
+      },
+      {
+        "segment": "Renewable Fuels",
+        "share_pct": 2,
+        "trend": "stable"
+      },
+      {
+        "segment": "Chemicals (CPChem is a 50/50 JV carried at equity, so it contributes earnings not revenue)",
+        "share_pct": 1,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 78
+      },
+      {
+        "region": "Europe — Humber refinery, JET retail network (approx)",
+        "share_pct": 18
+      },
+      {
+        "region": "Asia and other international trading (approx)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "Transportation fuels through roughly 7,000 US branded retail outlets and ~1,700 international sites",
+      "NGL and LPG exports to Asian and European petrochemical crackers via the Freeport export dock",
+      "Commercial aviation jet fuel and marine bunkers",
+      "Lubricants and specialty products (Kendall, Red Line)",
+      "Renewable diesel and sustainable aviation fuel into the California LCFS market from Rodeo",
+      "Olefins and polyolefins through the CPChem joint venture"
+    ],
+    "top_competitors": [
+      "Marathon Petroleum — largest US refiner, direct scale comparison",
+      "Valero Energy — closest refining-plus-renewables analogue",
+      "ExxonMobil and Chevron downstream",
+      "PBF Energy and Delek US in independent refining",
+      "Energy Transfer, Enterprise Products, Targa Resources and ONEOK in NGL midstream and LPG export",
+      "Dow, LyondellBasell and ExxonMobil Chemical, competing against CPChem in polyethylene"
+    ],
+    "moat": {
+      "type": "Wellhead-to-water NGL integration and unreplicable permitted assets",
+      "narrative": "The durable edge is the Sweeny/Old Ocean complex: the same NGL molecule is gathered in the Permian, fractionated at Sweeny (capacity raised 23% after 2025 debottlenecking), fed to CPChem's adjacent crackers, and exported through the Freeport LPG dock (capacity up 15%) — Phillips 66 captures margin at four points on one barrel and Q2 2026 set records on both fractionation and LPG export volumes. Nobody is permitting a new US Gulf Coast refinery or a new deepwater export dock, so replacement cost, not competition, sets the floor. What this does not protect is the crack spread itself, which is a pure commodity price and the reason quarterly earnings move by billions."
+    },
+    "key_customers": [
+      "Branded wholesale marketers and retail dealers operating the ~7,000 US and ~1,700 international Phillips 66 / 76 / Conoco sites",
+      "Asian and European LPG importers and petrochemical crackers lifting cargoes from the Freeport dock",
+      "CPChem — the 50/50 joint venture is simultaneously an NGL feedstock customer and an equity affiliate",
+      "Airlines and commercial trucking fleets for jet fuel and diesel",
+      "California obligated parties buying LCFS credits generated at Rodeo"
+    ],
+    "key_risks": [
+      "Refining crack spreads are the entire earnings variable — Q2 2026 refining pre-tax income of $3.1bn is far above mid-cycle and mean reversion is the base case, not the bear case",
+      "Elliott Investment Management remains engaged, with Howard Ungerleider and Kevin Meyers added to the board; continued pressure to separate or sell midstream means strategic direction is not fully management's to set",
+      "Twelve-refinery operational exposure — a single unplanned outage or extended turnaround at a large Gulf Coast site materially moves quarterly earnings",
+      "Renewable Fuels economics depend on 45Z clean fuel production credit rules and California LCFS credit pricing; Rodeo was loss-making through 2024–25 before recovering",
+      "CPChem earnings are levered to a globally oversupplied polyethylene market with continued Chinese capacity additions",
+      "Balance sheet still carries $20.6bn of total debt and $16.5bn net despite a $6.6bn reduction, and buybacks compete with deleveraging for the same cash",
+      "Long-run structural demand decline for US gasoline as the EV fleet grows, against assets with 30-year lives"
+    ],
+    "sources": [
+      {
+        "label": "Phillips 66 Q2 2026 results",
+        "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Delivers-Strong-Second-Quarter-Results-and-Operating-Performance/default.aspx"
+      },
+      {
+        "label": "Phillips 66 Q4 2025 earnings release (PDF)",
+        "url": "https://s22.q4cdn.com/128149789/files/doc_financials/2025/q4/Phillips-66-Fourth-Quarter-2025-Earnings-Release-FINAL.pdf"
+      },
+      {
+        "label": "Phillips 66 Q1 2026 results",
+        "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Reports-First-Quarter-Results-Expanded-Capacity-and-Continued-Strong-Operations/default.aspx"
+      },
+      {
+        "label": "Phillips 66 Q3 2025 Form 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1534701/000153470125000155/psx-20250930.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "WAWI.OL": {
+    "ticker": "WAWI.OL",
+    "company": "Wallenius Wilhelmsen ASA",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Wallenius Wilhelmsen ships finished vehicles and rolling heavy equipment across oceans and then handles them on land. It runs around 128 RoRo and pure car and truck carrier vessels on 15 trade lanes, plus roughly 70 vehicle processing centres, an inland trucking and rail network and eight marine terminals, and a separate US government sealift business (American Roll-on Roll-off Carrier). Revenue comes from multi-year contracts of affreightment with car makers and equipment manufacturers. FY2025 revenue was $5,240m with adjusted EBITDA of $1,811m and net profit of $1,104m; the contract backlog exceeded $10bn at year-end.",
+    "revenue_mix": [
+      {
+        "segment": "Shipping Services (ocean transport of cars and RoRo cargo) — approx",
+        "share_pct": 74,
+        "trend": "stable"
+      },
+      {
+        "segment": "Logistics Services (vehicle processing centres, inland distribution, terminals) — approx",
+        "share_pct": 20,
+        "trend": "declining"
+      },
+      {
+        "segment": "Government Services (US military and government sealift via ARC) — approx",
+        "share_pct": 8,
+        "trend": "growing"
+      },
+      {
+        "segment": "Intersegment eliminations",
+        "share_pct": -2,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Asia to North America and Europe (approx — trade-lane estimate, not disclosed by region)",
+        "share_pct": 40
+      },
+      {
+        "region": "Europe to North America and Asia (approx)",
+        "share_pct": 25
+      },
+      {
+        "region": "North America outbound, including high & heavy exports (approx)",
+        "share_pct": 20
+      },
+      {
+        "region": "Oceania, Middle East and other (approx)",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Automotive OEM finished-vehicle exports — cars, light trucks and EVs",
+      "'High & heavy' cargo — construction, mining, agricultural and forestry equipment",
+      "Breakbulk and project cargo that cannot be containerised",
+      "US government and defence sealift (Military Sealift Command / USTRANSCOM through ARC)",
+      "Landside finished-vehicle logistics — pre-delivery inspection, accessory fitting, inland delivery to dealers"
+    ],
+    "top_competitors": [
+      "NYK Line, Mitsui O.S.K. Lines (MOL) and Kawasaki Kisen (K Line) — the Japanese car-carrier majors",
+      "Hyundai Glovis and EUKOR — captive carriers for Hyundai/Kia volumes",
+      "Höegh Autoliners — closest Oslo-listed pure-play comparable",
+      "Grimaldi Group — dominant in Mediterranean and Atlantic RoRo",
+      "Toyofuji Shipping and Nissan Motor Car Carrier — Japanese captive tonnage",
+      "Chinese OEM-owned fleets now entering: BYD, SAIC Anji Logistics, Chery"
+    ],
+    "moat": {
+      "type": "Long-dated OEM contracts bundled with an irreplaceable landside network",
+      "narrative": "Contracts are multi-year and increasingly renewed years early — a $420m three-year extension with a European OEM covering mid-2028 to mid-2031, a $190m renewal in March 2026 and roughly $500m of extensions in December 2025, underpinning a backlog above $10bn against $5.2bn of annual revenue. What makes those contracts hard to move is that the OEM does not just buy an ocean leg: 70 vehicle processing centres and eight terminals do the pre-delivery inspection, accessory fitting and inland delivery, so switching carrier means rebuilding a physical distribution chain in every destination market. PCTC newbuild slots are also scarce and expensive, which caps how fast a rival can add capacity."
+    },
+    "key_customers": [
+      "Toyota and Volkswagen Group — named OEM customers on multi-year contracts of affreightment",
+      "A broader OEM base spanning Japanese, Korean, European and increasingly Chinese vehicle makers",
+      "High & heavy equipment manufacturers (construction, mining and agricultural machinery makers) shipping self-propelled cargo",
+      "US government — Military Sealift Command and USTRANSCOM through American Roll-on Roll-off Carrier, the Government Services segment",
+      "Global vehicle distributors, including a $190m renewal signed in March 2026"
+    ],
+    "key_risks": [
+      "USTR Section 301 port fees are the dominant near-term risk — $46 per net tonne on foreign-built RoRo vessels calling at US ports from 14 October 2025, up from $14; management flagged roughly $100m of cost in Q4 2025 alone and $300–400m for full-year 2026 if the fees stand, and has not received confirmation that the White House's November 2025 one-year Section 301 suspension covers vehicle carriers",
+      "US auto import tariffs adding an estimated $4,000–6,000 per imported vehicle, suppressing exactly the Asia-to-US and Europe-to-US volumes that carry the best rates",
+      "Chinese OEMs (BYD, SAIC, Chery) commissioning their own car-carrier fleets, permanently removing third-party cargo from the market",
+      "Heavy global PCTC newbuild orderbook delivering through 2026–2027 into a flattening volume backdrop, pressuring rates off the 2022–24 peak",
+      "High & heavy and logistics weakness — logistics revenue fell about 10% year on year, and construction/mining equipment demand is the cyclical swing factor",
+      "Concentrated dual-family control by the Wallenius and Wilhelmsen groups, with a limited free float on Oslo Børs",
+      "Legacy antitrust exposure — the car-carrier industry has a history of cartel investigations and fines across multiple jurisdictions"
+    ],
+    "sources": [
+      {
+        "label": "Wallenius Wilhelmsen 2025 annual report",
+        "url": "https://www.walleniuswilhelmsen.com/stock-exchange-notice/wallenius-wilhelmsen-2025-annual-report-steady-delivery-stronger-position"
+      },
+      {
+        "label": "Wallenius Wilhelmsen 2025 Annual Report (PDF)",
+        "url": "https://www.walleniuswilhelmsen.com/storage/images/Investor-relations/2025-Annual-report-document.pdf"
+      },
+      {
+        "label": "Lloyd's List — Wallenius Wilhelmsen expects USTR fees to remain despite suspension",
+        "url": "https://www.lloydslist.com/LL1155385/Wallenius-Wilhelmsen-expects-USTR-fees-to-remain-despite-suspension-announcement"
+      },
+      {
+        "label": "Wallenius Wilhelmsen contract extension with European OEM (~$420m)",
+        "url": "https://www.walleniuswilhelmsen.com/stock-exchange-notice/wallenius-wilhelmsen-enters-new-contract-with-major-asian-vehicle-and-heavy-equipment-manufacturer"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "WEX": {
+    "ticker": "WEX",
+    "company": "WEX Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "WEX issues and processes closed-loop payment cards and virtual cards for three unrelated buyer groups: commercial vehicle fleets buying fuel, employers administering tax-advantaged health accounts (HSA/FSA/COBRA), and corporates paying suppliers (heavily online travel agencies). It earns interchange on transaction value, per-account/per-vehicle servicing fees, finance charges on late-paying fleets, and interest on the ~$4.2bn of HSA cash deposited at its own industrial bank, WEX Bank.",
+    "revenue_mix": [
+      {
+        "segment": "Mobility (fleet fuel cards, OTR trucking, telematics SaaS)",
+        "share_pct": 52,
+        "trend": "flat/declining"
+      },
+      {
+        "segment": "Benefits (HSA/FSA/COBRA SaaS + custodial deposits)",
+        "share_pct": 30,
+        "trend": "growing"
+      },
+      {
+        "segment": "Corporate Payments (virtual cards, embedded AP, travel)",
+        "share_pct": 18,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 88
+      },
+      {
+        "region": "International (Europe, Australia, Asia — no single country >10%)",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Commercial light/medium-duty service fleets (plumbing, HVAC, utilities, government)",
+      "Over-the-road long-haul trucking and freight",
+      "US employer-sponsored health benefits (HSA/FSA/COBRA administration)",
+      "Online travel agencies and travel wholesalers (virtual card settlement to hotels)",
+      "Corporate accounts payable / supplier enablement"
+    ],
+    "top_competitors": [
+      "Corpay (fleet cards — the direct scale rival in North America)",
+      "U.S. Bank Voyager Fleet Systems",
+      "Edenred and DKV (European fleet/mobility cards)",
+      "Radius Payment Solutions",
+      "HealthEquity and Alegeus (HSA/CDH administration)",
+      "Alight, bswift, Businessolver, Empyrean, PlanSource (benefits administration)",
+      "Marqeta, i2c, Global Payments, Adyen, ConnexPay, Stripe (virtual card / embedded payments)"
+    ],
+    "moat": {
+      "type": "Closed-loop network + regulated bank charter + switching costs in benefits",
+      "narrative": "WEX's proprietary closed-loop fuel network reaches over 90% of US fueling and charging locations, capturing line-item purchase data (gallons, product code, odometer) that open-loop Visa/Mastercard rails cannot, which is what fleet managers actually buy. Funding sits inside WEX Bank, a Utah industrial loan company charter that is effectively unobtainable for new entrants and lets WEX self-fund receivables and hold ~$4.2bn of HSA cash on balance sheet. In Benefits, WEX is an IRS-designated non-bank HSA custodian embedded in employer payroll and benefits-administration workflows, so displacement requires a mid-year plan migration employers rarely attempt. The weak leg is Corporate Payments, where virtual-card issuing is increasingly commoditised."
+    },
+    "key_customers": [
+      "Large fleet operators and government agencies (no single customer >10% of revenue)",
+      "Fuel retailers under private-label and co-brand arrangements (Esso-branded cards in Europe, Motorpass in Australia)",
+      "Online travel agencies — a large travel customer renegotiated in Q2 2024 and shifted to an account-servicing model, still depressing Corporate Payments revenue",
+      "Employers and health plan administrators using WEX Benefits (HSA account growth +6% in 2025)"
+    ],
+    "key_risks": [
+      "Mobility revenue was $1,386.0m in 2025 vs $1,400.8m in 2024 — the largest segment (52%) is shrinking on soft fleet transaction volumes and lower fuel prices; WEX earns a spread on fuel price, so diesel/gasoline deflation directly cuts revenue",
+      "Impactive Capital ran a proxy contest into the May 5, 2026 annual meeting; management is responding with $50m of cost actions and 2026 guidance of $2.82-2.88bn revenue, which raises execution and distraction risk",
+      "Corporate Payments fell 2% to $477.4m in 2025 with purchase volume down 10%, driven by the restructured travel contract — the segment remains concentrated in OTA travel demand",
+      "WEX Bank's ILC charter is the funding backbone; loss, suspension, or broader ILC liberalisation (more competitors gaining bank charters) would raise funding cost and competition",
+      "Provision for credit losses of $78.4m in 2025 on a fleet customer base that is small-business heavy and cyclically exposed",
+      "As non-bank HSA custodian, WEX bears the risk of depository partner failure on off-balance-sheet custodial assets"
+    ],
+    "sources": [
+      {
+        "label": "WEX Inc. FY2025 Form 10-K (filed 13 Feb 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm"
+      },
+      {
+        "label": "Q4 and FY2025 results press release",
+        "url": "https://ir.wexinc.com/news/news-details/2026/WEX-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx"
+      },
+      {
+        "label": "DEFA14A — WEX response to Impactive Capital, April 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/1309108/000121390026044340/ea0286421-defa14a_wexinc.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "MANH": {
+    "ticker": "MANH",
+    "company": "Manhattan Associates, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Manhattan Associates writes and sells the software that runs warehouses, store fulfilment and order management for large retailers, wholesalers, manufacturers and 3PLs. Its Manhattan Active suite is delivered as a versionless, multi-tenant SaaS subscription on five-year-plus contracts, and roughly half of revenue comes from the implementation consulting needed to deploy it. Cash-generative, no debt, $328.7m cash and investments at end-2025.",
+    "revenue_mix": [
+      {
+        "segment": "Services (implementation consulting, training)",
+        "share_pct": 47,
+        "trend": "declining"
+      },
+      {
+        "segment": "Cloud subscriptions (Manhattan Active SaaS)",
+        "share_pct": 38,
+        "trend": "growing"
+      },
+      {
+        "segment": "Maintenance (legacy on-premise support)",
+        "share_pct": 12,
+        "trend": "declining"
+      },
+      {
+        "segment": "Hardware",
+        "share_pct": 2,
+        "trend": "stable"
+      },
+      {
+        "segment": "Software license (perpetual, effectively run-off)",
+        "share_pct": 1,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (incl. North and Latin America)",
+        "share_pct": 75
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 20
+      },
+      {
+        "region": "APAC",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "Specialty and department-store retail (omnichannel order management, store fulfilment)",
+      "Grocery and consumer packaged goods distribution",
+      "Third-party logistics and parcel/freight operators",
+      "Manufacturing and wholesale distribution",
+      "Healthcare and automotive parts distribution"
+    ],
+    "top_competitors": [
+      "Blue Yonder / Panasonic (formerly JDA) — the closest direct WMS rival",
+      "SAP (Extended Warehouse Management on S/4HANA)",
+      "Oracle (WMS Cloud, NetSuite, and Oracle POS)",
+      "Infios (formerly Körber / HighJump)",
+      "Infor, e2open, Relex, IBM Sterling",
+      "Aptos, Jumpmind, Salesforce (in point-of-sale / order management)",
+      "In-house engineering teams at the largest retailers (Amazon-style build-not-buy)"
+    ],
+    "moat": {
+      "type": "Mission-critical embedded system + multi-year contracted backlog + implementation ecosystem",
+      "narrative": "A WMS is the operational nervous system of a distribution centre — ripping it out means re-training thousands of pickers, re-integrating conveyors and robotics, and risking the fulfilment peak, so replacement cycles run 10-20 years and incumbents almost never lose renewals. That shows up as $2.2bn of remaining performance obligations at end-2025 (up 25% YoY), of which over 98% is non-cancellable cloud subscription with terms longer than a year. The versionless single-codebase architecture of Manhattan Active is genuinely differentiated — customers get quarterly innovation with zero-downtime updates rather than the multi-year upgrade projects that plague SAP EWM and legacy Blue Yonder estates. Risk to the moat is not displacement but deal-cycle elongation: services revenue fell from $525.5m to $503.0m in 2025 as customers slowed new implementations."
+    },
+    "key_customers": [
+      "Top five customers were only 10% of total revenue in 2025; no single customer exceeded 10% in any of 2023-2025 — deliberately unconcentrated",
+      "Over 1,200 customers worldwide; publicly referenced brands include Walmart, Nike, Coca-Cola, FedEx and Home Depot",
+      "Large 3PLs and parcel operators using Manhattan Active Warehouse Management",
+      "Approximately 4,370 employees supporting a direct sales and delivery model across 12 countries"
+    ],
+    "key_risks": [
+      "Services revenue — 47% of total — declined in 2025 as enterprise buyers deferred implementations; the reported 4% total growth masks a slowing consulting engine",
+      "Maintenance revenue is in structural run-off (down to $130.0m from $138.3m) as on-premise customers migrate; the cloud transition flatters growth optics while total revenue growth stays mid-single-digit",
+      "Concentrated exposure to retail capex cycles — tariff uncertainty and weak US discretionary retail directly delay WMS and OMS purchase decisions",
+      "SAP is bundling EWM into S/4HANA migrations, giving CIOs a 'good enough and already paid for' option in the largest installed base in enterprise software",
+      "Premium software multiple leaves no cushion for a single quarter of RPO or cloud bookings deceleration"
+    ],
+    "sources": [
+      {
+        "label": "Manhattan Associates FY2025 Form 10-K (filed 4 Feb 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526037138/manh-20251231.htm"
+      },
+      {
+        "label": "Q4 2025 results press release",
+        "url": "https://www.businesswire.com/news/home/20260127602098/en/Manhattan-Associates-Reports-Fourth-Quarter-Results"
+      },
+      {
+        "label": "Manhattan Associates investor relations",
+        "url": "https://ir.manh.com/"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "REP.MC": {
+    "ticker": "REP.MC",
+    "company": "Repsol, S.A.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Repsol is a Spanish integrated energy company. It produces oil and gas (548 kboe/d average in 2025, roughly two-thirds gas), refines over 1 million barrels per day across six refineries in Spain and Peru, and sells the output through more than 4,500 service stations — 3,270 of them in Spain — plus retail electricity, gas and LPG contracts. It is unusual among European majors in that the customer-facing energy retail business, not upstream, is its fastest-growing profit pool.",
+    "revenue_mix": [
+      {
+        "segment": "Upstream (E&P) — share of FY25 segment adjusted net income, €957m",
+        "share_pct": 35,
+        "trend": "declining"
+      },
+      {
+        "segment": "Industrial (refining, chemicals, renewable fuels, trading) — €963m",
+        "share_pct": 35,
+        "trend": "declining"
+      },
+      {
+        "segment": "Customer (mobility, LPG, power & gas retail, aviation, lubricants) — €754m",
+        "share_pct": 28,
+        "trend": "growing"
+      },
+      {
+        "segment": "Low Carbon Generation (wind, solar, CCGT) — €53m",
+        "share_pct": 2,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Spain",
+        "share_pct": 59
+      },
+      {
+        "region": "Rest of Europe",
+        "share_pct": 10
+      },
+      {
+        "region": "Peru",
+        "share_pct": 7
+      },
+      {
+        "region": "United States",
+        "share_pct": 7
+      },
+      {
+        "region": "Portugal",
+        "share_pct": 6
+      },
+      {
+        "region": "Other (Latin America, North Africa, Asia)",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "Iberian road fuel retail and EV charging (Waylet app)",
+      "Spanish and Portuguese household/SME electricity and gas supply",
+      "Aviation fuel and sustainable aviation fuel (SAF)",
+      "Petrochemicals and industrial specialties (asphalts, lubricants)",
+      "LNG and natural gas sales into North American and European markets"
+    ],
+    "top_competitors": [
+      "Moeve (formerly Cepsa) and BP/Shell in Iberian fuel retail",
+      "Galp Energia (Portugal/Iberia integrated)",
+      "Iberdrola, Endesa and Naturgy in Spanish power and gas retail",
+      "TotalEnergies and Eni among European integrated peers in renewables and biofuels",
+      "Neste in renewable diesel/HVO and SAF"
+    ],
+    "moat": {
+      "type": "Physical integration and dominant Iberian retail position — a regulatory/permitting moat, not a technology one",
+      "narrative": "Repsol owns the only integrated refining-to-forecourt chain of scale in Spain: six refineries feeding 3,270 domestic service stations, which no competitor can replicate because new refining and forecourt permitting in Spain is effectively closed. That physical position is being converted into a multi-energy customer relationship — bundling fuel, electricity, gas and EV charging to the same household through the Waylet app — which is why Customer adjusted net income rose 17% to €754m in a year when both Upstream and Industrial fell. The upstream book, by contrast, has no structural moat: it is a mid-tier, gas-weighted portfolio competing on cost, and Repsol has already sold 25% of Repsol Upstream Solutions to EIG. Honest read: the durable asset is the Iberian customer base, not the barrels."
+    },
+    "key_customers": [
+      "Iberian retail consumers across 4,500+ service stations and multi-energy contracts (no B2B customer concentration)",
+      "Airlines purchasing jet fuel and SAF from Spanish refineries",
+      "Industrial and petrochemical offtakers of Cartagena, Tarragona, Puertollano and A Coruña output",
+      "LNG and gas offtakers in North America and Europe"
+    ],
+    "key_risks": [
+      "Adjusted net income fell 15% to €2,568m in 2025 while statutory net income rose 8% to €1,899m — the underlying business is contracting even as headline profit improves",
+      "Upstream production declined 4% to 548 kboe/d in 2025; 2026 guidance of 560-570 kboed depends on Pikka (Alaska), Leon-Castile (Gulf of Mexico) and Cypre (Trinidad) ramping on schedule",
+      "Venezuela exposure is a live binary — US licences permitting resumption of operations were only re-issued in February 2026 and can be revoked again",
+      "Industrial adjusted net income fell 33.4% on weak chemicals and the 28 April 2025 Spain-wide blackout; refining margins are the single largest swing factor in group earnings",
+      "Spanish energy windfall levy and permitting friction have already prompted Repsol to threaten redirecting investment out of Spain — political risk is concentrated in its home market",
+      "Roughly 59% of sales originate in Spain, so Iberian consumer demand and EUR/USD are unhedged macro exposures"
+    ],
+    "sources": [
+      {
+        "label": "Repsol FY2025 results press release (19 Feb 2026)",
+        "url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-posts-adjusted-net-income-2568-billion/index.cshtml"
+      },
+      {
+        "label": "Repsol Q4 & FY2025 results report",
+        "url": "https://www.repsol.com/content/dam/repsol-corporate/es/accionistas-e-inversores/pdf/ref19022026-repsol-sa-results-4q-full-year-2025.pdf"
+      },
+      {
+        "label": "Repsol 2025 Consolidated Management Report",
+        "url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/informes-anuales/2025/consolidated-management-report-2025.pdf"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "BME.L": {
+    "ticker": "BME.L",
+    "company": "B&M European Value Retail S.A.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "B&M is a UK limited-assortment discount variety retailer. It sells around 6,000 SKUs of branded groceries and general merchandise from out-of-town, low-rent, no-frills stores with no e-commerce channel at all, buying opportunistically and direct from Asia to undercut supermarkets. The group runs three fascias: B&M UK (799 stores), Heron Foods/B&M Express convenience (342 stores) and B&M France (147 stores at FY26 year-end, 28 March 2026).",
+    "revenue_mix": [
+      {
+        "segment": "B&M UK (£4,615m, +2.9%, 8.6% EBITDA margin)",
+        "share_pct": 80,
+        "trend": "stable"
+      },
+      {
+        "segment": "B&M France (£616m, +13.4%, 8.7% EBITDA margin)",
+        "share_pct": 11,
+        "trend": "growing"
+      },
+      {
+        "segment": "Heron Foods / B&M Express (£544m, -0.3%, 2.9% EBITDA margin)",
+        "share_pct": 9,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United Kingdom",
+        "share_pct": 89
+      },
+      {
+        "region": "France",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "UK value-conscious grocery shoppers (FMCG branded groceries, household, pet)",
+      "General merchandise — homeware, toys, DIY, garden, seasonal",
+      "Convenience/food-to-go via Heron Foods in northern England",
+      "French discount retail (8.4% share of the French discount market at FY26, up from 8.1%)"
+    ],
+    "top_competitors": [
+      "Home Bargains (TJ Morris) — the closest UK format analogue",
+      "Poundland (now under Gordon Brothers ownership after the 2025 Pepco sale)",
+      "The Range and Wilko (now a Range-owned brand)",
+      "Aldi and Lidl on FMCG price perception",
+      "Tesco, Asda and Sainsbury's on branded grocery",
+      "Action (the dominant continental European discounter) in France",
+      "Temu and Shein on low-ticket general merchandise"
+    ],
+    "moat": {
+      "type": "Cost-to-serve advantage — thin, and currently impaired",
+      "narrative": "B&M's advantage is structural cost, not brand: cheap out-of-town leases, no e-commerce infrastructure, no loyalty scheme, a deliberately narrow ~6,000 SKU range that concentrates buying power, and direct Far East sourcing on general merchandise. That model historically supported double-digit EBITDA margins. But FY26 showed the moat is execution-dependent rather than structural — B&M UK's EBITDA margin collapsed from 12.2% to 8.6% because pricing drifted, on-shelf availability of best-selling brands dipped, and cost inflation was not mitigated. Home Bargains runs essentially the same playbook, so there is no defence against a competitor that simply executes better. The one genuinely defensible asset is the French runway: 147 stores versus 799 in the UK, gaining share, with management targeting at least 15 openings a year."
+    },
+    "key_customers": [
+      "UK retail consumers — no customer concentration by definition; footfall and basket size are the operating metrics",
+      "Brand owners (Coca-Cola, Cadbury, Nestlé, P&G-type FMCG suppliers) supply clearance and opportunistic parcels — B&M is a channel for them, not a customer",
+      "Direct Far East general-merchandise vendors on own-import terms"
+    ],
+    "key_risks": [
+      "B&M UK like-for-like sales were -0.1% in FY26 and only +0.1% in Q4 — the turnaround under CEO Tjeerd Jegen (appointed June 2025) is not yet producing growth, and 'Back to B&M Basics' pricing investment compresses margin before it lifts volume",
+      "Group adjusted EBITDA (pre-IFRS 16) fell 25.9% to £459m and adjusted PBT fell 37.7% to £284m; adjusted diluted EPS fell 36.4% to 21.3p and the ordinary dividend was cut 36% to 9.6p",
+      "Management has flagged Middle East conflict pressure on international freight, domestic distribution and energy costs into FY27 — B&M imports a large share of general merchandise by container",
+      "Heron Foods is broken: revenue -0.3% and EBITDA margin halved from 5.5% to 2.9%, with net store closures in FY26",
+      "£36m impairment charge in FY26 (vs £3m in FY25) signals underperforming stores within the 799-store UK estate",
+      "The UK expansion ambition of ~1,200 stores requires 25-35 gross openings a year into a market where Home Bargains and The Range are competing for the same retail parks"
+    ],
+    "sources": [
+      {
+        "label": "B&M FY26 Preliminary Results announcement (3 June 2026)",
+        "url": "https://www.bandmretail.com/~/media/Files/B/Bmstores-Corp/documents/investors/reports-and-presentations/2026/fy26-preliminary-results-announcement.pdf"
+      },
+      {
+        "label": "B&M FY26 Results Presentation",
+        "url": "https://www.bandmretail.com/~/media/Files/B/Bmstores-Corp/documents/investors/reports-and-presentations/2026/fy26-preliminary-results-presentation.pdf"
+      },
+      {
+        "label": "FY26 Preliminary Results RNS (Investegate)",
+        "url": "https://www.investegate.co.uk/announcement/rns/b-m-european-value-retail-s-a-di---bme/fy26-preliminary-results-/9598419"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "SHC": {
+    "ticker": "SHC",
+    "company": "Sotera Health Company",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Sotera Health is an outsourced sterilization and lab-testing utility for the medical device and pharma industry. Sterigenics runs 48 sterilization plants in 13 countries using ethylene oxide, gamma and X-ray; Nordion is the world's leading supplier of Cobalt-60, the isotope that gamma sterilization consumes; Nelson Labs does the microbiological and analytical testing that validates those processes. Revenue is fee-per-unit-processed under multi-year contracts, and 2025 was its 20th consecutive year of revenue growth.",
+    "revenue_mix": [
+      {
+        "segment": "Sterigenics (contract sterilization, $755.8m, +8.3%)",
+        "share_pct": 65,
+        "trend": "growing"
+      },
+      {
+        "segment": "Nelson Labs (lab testing and advisory, $220.2m, -3.9%)",
+        "share_pct": 19,
+        "trend": "declining"
+      },
+      {
+        "segment": "Nordion (Cobalt-60 supply and gamma irradiators, $187.6m, +8.2%)",
+        "share_pct": 16,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 54
+      },
+      {
+        "region": "Europe",
+        "share_pct": 20
+      },
+      {
+        "region": "Canada",
+        "share_pct": 19
+      },
+      {
+        "region": "Other (Asia, Latin America)",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Single-use medical devices (syringes, catheters, implants, surgical kits) — the dominant end market",
+      "Pharmaceutical and biologics packaging and components",
+      "Oncology radiotherapy equipment (high-specific-activity Co-60 for Gamma Knife stereotactic radiosurgery)",
+      "Food safety irradiation and agricultural products",
+      "Advanced materials — power semiconductors, polymer cross-linking, gemstones"
+    ],
+    "top_competitors": [
+      "STERIS plc (Applied Sterilization Technologies segment) — the only comparable global outsourced sterilizer",
+      "In-house sterilization capacity built by large device OEMs",
+      "Regional/niche contract sterilizers and E-beam service providers",
+      "Domestic Co-60 producers in Russia, Argentina and India (Nordion's only real isotope competition)",
+      "Eurofins, SGS, Charles River and regional labs in Nelson Labs' testing market"
+    ],
+    "moat": {
+      "type": "Regulatory lock-in on validated processes + physical network + isotope scarcity",
+      "narrative": "Once a device manufacturer validates a sterilization process at a specific Sterigenics facility, that facility is written into the FDA submission — moving it requires re-validation and a regulatory filing, which is why Sterigenics has renewed 100% of its top-ten customers for more than five consecutive years and averages over a decade of tenure with its top 25. Over 90% of Sterigenics revenue and roughly 90% of Nordion revenue sits under multi-year contracts. Physical replication is prohibitive: a new facility costs over $50m plus multi-year licensing, and EO permitting in the US has become effectively impossible post-litigation. Nordion is arguably the harder moat still — Co-60 is produced in a handful of CANDU-type reactors, and gamma accounts for roughly 30% of global single-use device sterilization, so Nordion sells to Sterigenics and to Sterigenics' competitors alike."
+    },
+    "key_customers": [
+      "Sterigenics serves more than 2,000 customers; Nelson Labs approximately 3,000 — no single customer exceeded 10% of total revenue",
+      "Global medical device OEMs and their contract manufacturers, served at multiple facilities each",
+      "Outsourced contract sterilizers (including Sterigenics itself) and in-house device sterilizers buying Nordion Co-60",
+      "Manufacturers of Gamma Knife and other stereotactic radiosurgery systems requiring high-specific-activity Co-60"
+    ],
+    "key_risks": [
+      "Ethylene oxide tort litigation is the defining risk: a 2022 Cook County verdict produced a $358.7m judgment, followed by a $408.0m settlement of 880+ Willowbrook claims (2023), $30.9m for 97 claims (finalised Sept 2025) and $34.0m for 129 more (July 2025) — the settlement drumbeat has not stopped, and Georgia property-devaluation and personal-injury cases remain pending",
+      "Nelson Labs revenue declined 3.9% in 2025 — the only segment shrinking, and the one most exposed to device-industry R&D budgets",
+      "Cobalt-60 supply depends on a small set of nuclear reactors; Russian sanctions (in either direction) and reactor outage schedules could disrupt Nordion's feedstock",
+      "In the United States there is a single commercial supplier of ethylene oxide to the sterilization industry — a genuine single point of failure, only partially mitigated by Sotera's own EO distribution licence",
+      "EPA and state-level EO emissions rules keep tightening, forcing capital spend on emissions control and constraining capacity at existing sites",
+      "Customers building in-house sterilization capacity, and the gradual shift from EO/gamma toward X-ray, could erode the installed-base lock-in over a decade"
+    ],
+    "sources": [
+      {
+        "label": "Sotera Health FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1822479/000182247926000015/shc-20251231.htm"
+      },
+      {
+        "label": "FY2025 results press release — 20th consecutive year of revenue growth",
+        "url": "https://investors.soterahealth.com/news-releases/news-release-details/sotera-health-delivers-20th-consecutive-year-revenue-growth-and"
+      },
+      {
+        "label": "Sotera Health EO litigation disclosure page",
+        "url": "https://investors.soterahealth.com/eo-litigation"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
+  },
+  "HRB": {
+    "ticker": "HRB",
+    "company": "H&R Block, Inc.",
+    "as_of": "2026-08-26",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "H&R Block prepares tax returns for consumers and small businesses, filing 22.3 million returns by or through the company in fiscal 2026 (year ended 30 June 2026). Roughly two-thirds of revenue is assisted preparation in company-owned and franchised offices; the rest is DIY software, franchise royalties, and attached financial products — Refund Transfers, the Emerald Card, Spruce mobile banking and Emerald Advance loans — plus Wave, a small-business accounting and payments platform.",
+    "revenue_mix": [
+      {
+        "segment": "US assisted tax preparation ($2,560.9m, +6.1%)",
+        "share_pct": 65,
+        "trend": "growing"
+      },
+      {
+        "segment": "US DIY tax preparation ($384.6m, +0.2%)",
+        "share_pct": 10,
+        "trend": "flat"
+      },
+      {
+        "segment": "International — Canada, Australia, Brazil, India ($265.4m, +7.4%)",
+        "share_pct": 7,
+        "trend": "growing"
+      },
+      {
+        "segment": "Franchise royalties ($185.4m, -3.9%)",
+        "share_pct": 5,
+        "trend": "declining"
+      },
+      {
+        "segment": "Refund Transfers ($145.1m)",
+        "share_pct": 4,
+        "trend": "growing"
+      },
+      {
+        "segment": "Wave small-business platform ($122.7m, +12.3%)",
+        "share_pct": 3,
+        "trend": "growing"
+      },
+      {
+        "segment": "Financial services — Emerald Card/Spruce + Emerald Advance interest ($99.5m)",
+        "share_pct": 2,
+        "trend": "declining"
+      },
+      {
+        "segment": "Peace of Mind, Tax Identity Shield and other ($181.8m)",
+        "share_pct": 4,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 93
+      },
+      {
+        "region": "International (Canada, Australia, Brazil, India)",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "US individual taxpayers, skewed toward lower-to-middle income and refund-anticipating filers",
+      "Small business and self-employed filers (Block Advisors)",
+      "Underbanked consumers using Emerald Card, Spruce and Emerald Advance",
+      "Small-business accounting, invoicing and payments (Wave)",
+      "International consumer tax markets — Canada, Australia, Brazil, India"
+    ],
+    "top_competitors": [
+      "Intuit TurboTax — dominant in DIY with roughly 60% share, and pushing into assisted via TurboTax Live",
+      "Jackson Hewitt and Liberty Tax in storefront assisted preparation",
+      "Independent CPAs and Enrolled Agents (the largest single share of assisted filers)",
+      "Cash App Taxes and FreeTaxUSA on free/low-cost DIY",
+      "IRS Free File Alliance (and, until it was terminated, IRS Direct File)"
+    ],
+    "moat": {
+      "type": "Physical distribution to the refund-driven filer + regulatory complexity — a slowly eroding moat",
+      "narrative": "The real asset is a nationwide office network reaching a customer who wants a human, a same-day advance against their refund, and a guarantee — a bundle Intuit cannot fully replicate remotely. That bundling is why net average charge keeps rising even as return volumes stagnate, and why financial products (Refund Transfers, Emerald Advance, Refund Advance) attach so profitably: they monetise the refund, not the return. Regulatory complexity is the second leg — every tax code change re-creates demand for help. But be honest about direction: DIY revenue grew 0.2% in fiscal 2026 and Intuit's TurboTax Live is attacking the assisted segment from the low-cost side. Management is offsetting the flat top line with buybacks, shrinking diluted shares from 137.3m to 128.9m in one year, which flatters EPS more than it widens the moat."
+    },
+    "key_customers": [
+      "US retail taxpayers — 22.3 million returns filed by or through the company in fiscal 2026; no customer concentration",
+      "Franchisees operating under the H&R Block brand, contributing $185.4m of royalties",
+      "Pathward, N.A. as the issuing bank partner for Emerald Card, Spruce and refund-related lending products",
+      "Wave's small-business subscriber base — second consecutive year of double-digit revenue growth"
+    ],
+    "key_risks": [
+      "The addressable market is being shaved every year: free and near-free DIY (Cash App Taxes, FreeTaxUSA) and AI-assisted preparation reduce the justification for paying for a simple return — DIY revenue grew just 0.2% in fiscal 2026",
+      "Growth is coming from price, not volume — revenue rose 4.9% to $3.95bn primarily on higher net average charge; that pricing lever has a ceiling against Intuit",
+      "Franchise royalties declined 3.9% to $185.4m, indicating shrinkage in the franchised office base",
+      "Financial services revenue fell to $99.5m from $101.8m as Emerald Card/Spruce revenue declined — the attached-product monetisation engine is not compounding",
+      "Bad debt expense of $75.9m in fiscal 2026 on refund-advance and Emerald Advance lending, concentrated in a single quarter of the year",
+      "Extreme seasonality — the business earns essentially all of its profit between January and April, so any single disrupted filing season (IRS delays, government shutdown, late tax legislation) is unrecoverable",
+      "CFPB/state regulatory attention on refund-anticipation products and on paid-preparer fee disclosure remains an open policy risk"
+    ],
+    "sources": [
+      {
+        "label": "H&R Block FY2026 Form 10-K (filed 14 Aug 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000026/hrb-20260630.htm"
+      },
+      {
+        "label": "FY2026 Q4 earnings release (Form 8-K exhibit, revenue detail by line)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000019/q4fy26earningsrelease.htm"
+      },
+      {
+        "label": "H&R Block Reports Fiscal 2026 Results",
+        "url": "https://investors.hrblock.com/news-releases/news-release-details/hr-block-reports-fiscal-2026-results-and-enters-fiscal-2027"
+      }
+    ],
+    "last_refreshed": "2026-08-26"
   }
 }
