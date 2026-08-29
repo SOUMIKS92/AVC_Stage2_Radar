@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-08-26",
+    "as_of": "2026-08-29",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -13497,5 +13497,270 @@
       }
     ],
     "last_refreshed": "2026-08-26"
+  },
+  "NTNX": {
+    "ticker": "NTNX",
+    "company": "Nutanix, Inc.",
+    "as_of": "2026-08-29",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Nutanix sells the software that runs a private cloud: its AHV hypervisor, distributed storage layer and management plane are bundled as the Nutanix Cloud Platform and licensed as multi-year term subscriptions, priced per node or per core. The software runs on third-party servers from Dell, HPE, Lenovo, Cisco and Supermicro rather than Nutanix hardware, and extends into AWS and Azure via Nutanix Cloud Clusters (NC2). Roughly 95% of revenue is recurring subscription. FY2026 (ended 31-Jul-2026) revenue was $2.854bn, up 12%, with ARR of $2.549bn and $841m free cash flow.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription (term-based licenses, SaaS, support & entitlements)",
+        "share_pct": 95,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services",
+        "share_pct": 4,
+        "trend": "stable"
+      },
+      {
+        "segment": "Non-subscription software (life-of-device) + NX hardware pass-through",
+        "share_pct": 1,
+        "trend": "shrinking"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 56
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 27
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 15
+      },
+      {
+        "region": "Other Americas",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Enterprise private cloud / VMware vSphere replacement (the dominant demand driver post-Broadcom)",
+      "US federal, state and local government and defence",
+      "Healthcare provider systems and financial services core infrastructure",
+      "Distributed retail / branch (ROBO) and edge compute via Cisco Unified Edge",
+      "On-prem AI inference workloads (Nutanix Enterprise AI, Cisco AI PODs)"
+    ],
+    "top_competitors": [
+      "VMware by Broadcom (VMware Cloud Foundation) - the incumbent Nutanix is displacing",
+      "Microsoft (Azure Local, Hyper-V) - bundles the hypervisor into existing EA spend",
+      "Red Hat OpenShift Virtualization (KubeVirt) - the open-source displacement path",
+      "Public cloud (AWS, Azure, Google Cloud, Oracle Cloud) as the alternative to refreshing on-prem at all",
+      "Dell (VxRail, PowerFlex), HPE, Pure Storage, NetApp, Hitachi Vantara in integrated systems"
+    ],
+    "moat": {
+      "type": "Regulated-workload switching costs + free-hypervisor price wedge + OEM distribution",
+      "narrative": "The hypervisor and storage layer sits underneath every VM a customer runs, so replacing it means re-platforming the whole estate - which is why Broadcom's VMware repricing, not Nutanix's sales force, is what moves the market. Nutanix bundles AHV at no incremental license cost, undercutting VCF on TCO, and rides Cisco/Dell/HPE/Lenovo/Fujitsu OEM channels so customers keep their existing servers and now their existing external storage (Dell PowerFlex, forthcoming PowerStore, Pure). Evidence of lock-in: Global 2000 customers of 18 months or more have placed lifetime orders averaging 37.2x their initial order, and Nutanix held 578 issued US patents at FY2025 year-end. The caveat is that this is a lock-in moat, not a pricing moat - NRR fell to 108% from 114%."
+    },
+    "key_customers": [
+      "No end customer exceeded 10% of revenue in FY2023-FY2025 - Nutanix sells almost entirely through channel",
+      "Concentration sits with distributors: four partners were 25%, 16%, 15% and 10% of FY2025 revenue; top two distributors alone were 41% (down from 48% in FY2023)",
+      "OEM route-to-market: Cisco (Compute Hyperconverged), Dell (XC, PowerFlex), HPE (DX/GreenLake), Lenovo (HX), Fujitsu (XF)",
+      "~30,000 end customers; more than 3,000 added in FY2026 across Global 2000 and enterprise tiers"
+    ],
+    "key_risks": [
+      "The VMware refugee wave is a finite land opportunity - Broadcom's repricing, not product superiority, is generating new logos, and Gartner's 2028 migration window implies the tailwind is time-boxed",
+      "Net dollar retention fell to 108% (FY2025) from 114% (FY2024) - expansion inside the installed base is decelerating even as new logos land",
+      "Server component shortages (CPU lead times, AI-driven DRAM shortage) are delaying customer hardware procurement from Cisco/Dell/Lenovo, which pushed bookings-to-revenue conversion out in Q2 FY2026 and is embedded in guidance",
+      "Channel concentration: two distributors are 41% of revenue; loss or renegotiation of either is a direct revenue event",
+      "Microsoft (Azure Local) and Red Hat can give the hypervisor away inside existing enterprise agreements, compressing the TCO argument that wins Nutanix deals",
+      "Convertible notes settle partly in Class A shares under the if-converted method, diluting reported EPS"
+    ],
+    "sources": [
+      {
+        "label": "Nutanix FY2025 Form 10-K (year ended 31-Jul-2025)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312525213801/ntnx-20250731.htm"
+      },
+      {
+        "label": "Q4 and FY2026 results press release (26-Aug-2026)",
+        "url": "https://ir.nutanix.com/news-releases/news-release-details/nutanix-reports-fourth-quarter-and-fiscal-2026-financial-results"
+      },
+      {
+        "label": "Nutanix .NEXT 2026 ecosystem and partner announcements",
+        "url": "https://www.nutanix.com/blog/top-next-2026-news"
+      }
+    ],
+    "last_refreshed": "2026-08-29"
+  },
+  "ANF": {
+    "ticker": "ANF",
+    "company": "Abercrombie & Fitch Co.",
+    "as_of": "2026-08-29",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Abercrombie & Fitch designs and sells its own-label apparel through two brand families targeting different age cohorts: Abercrombie & Fitch and abercrombie kids for adults in their 20s-30s, and Hollister plus Gilly Hicks for teens. It owns no factories - merchandise is developed in-house in New Albany, Ohio and sourced from roughly 130 third-party vendors concentrated in Vietnam, Cambodia and India - and sells direct through 829 stores and its own e-commerce, which was 44% of fiscal 2025 sales. Fiscal 2025 (ended 31-Jan-2026) net sales were $5.27bn, up 6%, at a 13.3% operating margin and $10.46 diluted EPS.",
+    "revenue_mix": [
+      {
+        "segment": "Hollister brands (Hollister, Gilly Hicks)",
+        "share_pct": 52,
+        "trend": "growing"
+      },
+      {
+        "segment": "Abercrombie brands (Abercrombie & Fitch, abercrombie kids)",
+        "share_pct": 48,
+        "trend": "shrinking"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 81
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 16
+      },
+      {
+        "region": "APAC",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "Teen and Gen-Z casual apparel (Hollister - denim, fleece, graphic tops)",
+      "Millennial adult casual and elevated workwear (Abercrombie - the 2021-2024 repositioning category)",
+      "Occasion and event dressing (Abercrombie 'Best Dressed Guest' wedding-guest and dress assortment)",
+      "Intimates, loungewear and sleep (Gilly Hicks)",
+      "Athleisure and activewear (YPB - Your Personal Best)"
+    ],
+    "top_competitors": [
+      "American Eagle Outfitters / Aerie - closest direct comp on both teen denim and intimates",
+      "Gap Inc. (Gap, Old Navy) - reaccelerating under Richard Dickson, competing for the same millennial casual dollar",
+      "Urban Outfitters Group (Urban, Anthropologie, Free People / FP Movement)",
+      "Inditex (Zara) and H&M on fast-fashion price-to-newness",
+      "Shein and Temu at the price floor for Hollister's teen customer",
+      "Lululemon, Vuori, Alo and Aritzia on the activewear and elevated-basics adjacency"
+    ],
+    "moat": {
+      "type": "No structural moat - merchandising execution and a test-and-react supply chain",
+      "narrative": "There is no patent, network effect or switching cost here; the entire advantage is speed of read-and-react. ANF buys shallow, reads sell-through, and chases winners through a ~130-vendor Southeast Asian base, which is why it can post 13 consecutive quarters of growth without owning a factory. Fran Horowitz's rebuild of the Abercrombie brand from teen-mall wreckage to a $2.5bn adult label proves brand equity here is re-earnable - which is the same as saying it is losable. The durable asset is a 44%-digital channel that yields first-party customer data and lower fixed cost per dollar than a pure store fleet, not the brand itself."
+    },
+    "key_customers": [
+      "Direct-to-consumer only - no wholesale customer concentration",
+      "Channel split: 44% digital (Abercrombie brand ~59% digital, Hollister ~31%), balance through 829 stores",
+      "Demand is bifurcated by cohort: Hollister serves high-school/Gen-Z, Abercrombie serves 25-40 year-old professionals - the two rarely move in the same direction"
+    ],
+    "key_risks": [
+      "The Abercrombie brand has rolled over - fiscal 2025 net sales -1% on comparable sales of -7%, so Hollister's +15% is carrying the entire company; a Hollister stumble leaves nothing growing",
+      "Fiscal 2026 EPS is flattered by roughly $120m of one-time IEEPA tariff refunds (~$2.10 per share, of which ~$100m landed in Q2) - the underlying earnings power is materially below the $10.20-$11.00 guide",
+      "Sourcing is concentrated in tariff-exposed geographies (approx. 35% Vietnam, 22% Cambodia, 12% India, 7% China) - any reciprocal-tariff reset hits COGS directly with no domestic fallback",
+      "Higher year-over-year freight costs pressure first-half fiscal 2026 gross margin, with the second-half benefit dependent on rates staying down",
+      "EMEA comparable sales were 0% in fiscal 2025 and dragged Hollister negative in Q2 fiscal 2026 - the international leg is not compounding",
+      "Guided fiscal 2026 operating margin of 12.0-12.5% is a step down from 13.3%, so the market is being asked to pay for growth while margin de-rates"
+    ],
+    "sources": [
+      {
+        "label": "Q4 and full-year fiscal 2025 results, 8-K Ex-99.1 (4-Mar-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000006/q42025pressrelease.htm"
+      },
+      {
+        "label": "Q2 fiscal 2026 results, 8-K Ex-99.1 (27-Aug-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001018840/000101884026000041/q22026pressrelease.htm"
+      },
+      {
+        "label": "Fiscal 2025 Annual Report (Form ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001018840/000101884026000024/anf2025_ars.pdf"
+      },
+      {
+        "label": "Abercrombie & Fitch Form 10-K (sourcing and vendor base)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884025000013/anf-20250201.htm"
+      }
+    ],
+    "last_refreshed": "2026-08-29"
+  },
+  "VEEV": {
+    "ticker": "VEEV",
+    "company": "Veeva Systems Inc.",
+    "as_of": "2026-08-29",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Veeva is a vertical software company that sells only to life sciences. Its Vault platform hosts the systems of record that pharma runs on: CRM and content approval for sales and medical teams (Commercial Cloud, Crossix), clinical trial systems including CTMS, eTMF, EDC, RTSM and drug safety (Development Cloud), and quality, manufacturing and regulatory submission systems (Quality Cloud, RIM). Revenue is subscription seat- and application-based, billed annually. FY2026 (ended 31-Jan-2026) revenue was $3,195.3m, up 16%, of which $2,684.2m was subscription, with $916.4m GAAP operating income and 1,552 customers.",
+    "revenue_mix": [
+      {
+        "segment": "Veeva R&D and Quality Solutions - subscription",
+        "share_pct": 45,
+        "trend": "growing"
+      },
+      {
+        "segment": "Veeva Commercial Solutions - subscription",
+        "share_pct": 39,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional services and other (both areas; R&D services ~63% of this line)",
+        "share_pct": 16,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 60
+      },
+      {
+        "region": "Europe",
+        "share_pct": 29
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 9
+      },
+      {
+        "region": "Other international",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Biopharma commercial operations - field force CRM, medical affairs, MLR content review, digital HCP engagement",
+      "Clinical development - CTMS, eTMF, EDC, RTSM, and pharmacovigilance/safety signal detection",
+      "Quality and manufacturing - QMS, document control, training, and LIMS (first top-20 go-live targeted 2026)",
+      "Regulatory affairs - RIM and global submission publishing",
+      "Patient and HCP data / marketing measurement (Crossix, Compass, Link, OpenData)",
+      "Adjacent regulated industries - cosmetics, consumer packaged goods and chemicals buying Quality and Development apps"
+    ],
+    "top_competitors": [
+      "Salesforce Life Sciences Cloud - the existential competitor since the Veeva-Salesforce non-compete lapsed 1-Sep-2025; has taken Novartis, AstraZeneca, Takeda and Pfizer",
+      "IQVIA - competes in Data Cloud/Crossix and parts of Development Cloud, and has licensed its own CRM software to Salesforce (though it settled its eight-year litigation with Veeva in Aug-2025 and is now a Veeva partner)",
+      "Dassault Systemes (Medidata) in EDC and clinical data",
+      "Oracle (Argus safety, Siebel CTMS) and Microsoft as legacy client-server incumbents being replaced",
+      "OpenText (Documentum) in regulated content management; Honeywell (Sparta TrackWise) and EtQ in QMS",
+      "Ipsos and Definitive Healthcare in commercial data and analytics"
+    ],
+    "moat": {
+      "type": "GxP-validated system of record plus cross-suite data model - regulatory switching costs",
+      "narrative": "Once a Vault application is validated under FDA/EMA GxP rules, ripping it out means re-validating every process and re-proving the audit trail to a regulator, which is why nobody swaps a running eTMF or QMS to save licence fees. The compounding layer is the single Vault platform: content, metadata and documents flow from clinical into regulatory into quality without integration projects, so each additional application makes the next one cheaper to add - 1,196 of Veeva's 1,552 customers now sit in R&D and Quality, which is why that segment overtook Commercial. Veeva also owns roughly 80% of global life-sciences CRM seats. The vulnerability is that this moat protects R&D far better than it protects CRM, where Salesforce is now free to compete."
+    },
+    "key_customers": [
+      "1,552 total customers, of which 1,196 in R&D and Quality Solutions and 767 in Commercial Solutions",
+      "No single customer exceeded 10% of total revenue in any year presented (one customer was 10.1% of receivables at Jan-2025, none at Jan-2026)",
+      "Publicly disclosed top-20 biopharma commitments to Vault CRM: Bristol Myers Squibb, Roche, Merck, GSK, Bayer, Boehringer Ingelheim, Novo Nordisk International Operations, BioNTech - 10 of the top 20 committed, management targets ~14",
+      "More than 125 customers live on Vault CRM including 2 top-20 biopharmas in major markets"
+    ],
+    "key_risks": [
+      "The Salesforce wind-down is a hard clock: Veeva cannot sell legacy Veeva CRM to new customers after 1-Sep-2025, existing customers are capped at 150% of their Sep-2025 seats, all Salesforce-platform sales stop 1-Sep-2030, and Veeva CRM is supported only to 31-Dec-2029 - every remaining customer must be migrated to Vault CRM or is at risk of being lost",
+      "Salesforce Life Sciences Cloud, carrying IQVIA-licensed CRM, has already won Novartis (five-year global Agentforce 360 rollout), AstraZeneca, Takeda and Pfizer and claimed 70+ life-sciences customers - direct evidence that the CRM franchise is contestable",
+      "Only ~125 of the Commercial base are live on Vault CRM - the migration is the single largest execution risk in the business over the next three years",
+      "Pharma R&D and commercial budget pressure from IRA drug-price negotiation and a weak biotech funding environment reduces seat counts at renewal, and Veeva is priced per seat",
+      "Europe is 29% of revenue, creating FX translation exposure and sensitivity to EU pharmaceutical package regulation",
+      "The stated path to a $6bn run rate by 2030 requires sustaining mid-teens growth off $3.2bn, which depends on newer, unproven applications (LIMS, Safety, RTSM, Veeva AI agents) landing at top-20 accounts",
+      "One-time ~$31m payment to law firms in connection with the IQVIA settlement"
+    ],
+    "sources": [
+      {
+        "label": "Veeva FY2026 Form 10-K (year ended 31-Jan-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000014/veev-20260131.htm"
+      },
+      {
+        "label": "Q4 and FY2026 results, 8-K Ex-99.1 (4-Mar-2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000007/veev-20260131q426xex991.htm"
+      },
+      {
+        "label": "Veeva-IQVIA litigation settlement and partnership (Aug-2025)",
+        "url": "https://news.bloomberglaw.com/antitrust/health-tech-rivals-iqvia-veeva-end-dispute-after-striking-deal"
+      }
+    ],
+    "last_refreshed": "2026-08-29"
   }
 }
