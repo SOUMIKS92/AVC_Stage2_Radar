@@ -233,13 +233,13 @@
     "CES 2026 AI-PC product launches"
    ],
    "statement": "Dell is breaking out as AI server backlog reaches record levels and ISG (Infrastructure Solutions) margin expansion finally arrives.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 364.3,
-    "base": 507.5,
-    "bull": 1776.79,
-    "base_upside_pct": 3.4,
-    "bull_upside_pct": 262.01
+    "bear": 458.36,
+    "base": 639.33,
+    "bull": 862.68,
+    "base_upside_pct": 21.98,
+    "bull_upside_pct": 64.59
    },
    "falsifier": "AI server gross margins structurally lower than legacy ISG"
   }
@@ -2413,13 +2413,13 @@
     "Q2 2026 earnings"
    ],
    "statement": "Corcept raised FY2026 revenue guidance to $950m-$1.05bn as Lifyorli won early FDA approval in platinum-resistant ovarian cancer (3.5 months ahead of PDUFA) and the Cushing's franchise marches toward a",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 60.06,
-    "base": 113.78,
-    "bull": 138.17,
-    "base_upside_pct": -0.09,
-    "bull_upside_pct": 21.33
+    "bear": 60.71,
+    "base": 113.29,
+    "bull": 137.15,
+    "base_upside_pct": 1.49,
+    "bull_upside_pct": 22.87
    },
    "falsifier": "Ovarian TAM is a 35-40% patient subset"
   }
@@ -2485,11 +2485,11 @@
    "statement": "Computacenter broke 9bn pounds revenue (+32% to 9.2bn) on a near-doubling of North America profit and a record 7.1bn-pound product order backlog (+200% cc), even as pre-tax profit slipped 2.5% to 238.",
    "conviction": "Medium",
    "target": {
-    "bear": 4587.33,
-    "base": 6843.53,
-    "bull": 12393.78,
-    "base_upside_pct": 20.7,
-    "bull_upside_pct": 118.59
+    "bear": 4518.76,
+    "base": 6515.69,
+    "bull": 8637.31,
+    "base_upside_pct": 16.56,
+    "bull_upside_pct": 54.51
    },
    "falsifier": "Hardware-heavy mix pressured margins (PBT -2.5%)"
   }
@@ -2639,7 +2639,7 @@
   "last_updated": "2026-06-13"
  },
  "_meta": {
-  "as_of": "2026-08-29"
+  "as_of": "2026-09-05"
  },
  "DDOG": {
   "business": "Datadog is a cloud-native observability and security SaaS platform that unifies infrastructure metrics, application traces, logs and security signals through 800+ integrations. All revenue is subscription and usage-based, expanding automatically as customer cloud workloads scale.",
@@ -2773,10 +2773,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 179.0,
-    "base": 225.49,
-    "bull": 291.0,
-    "base_upside_pct": 6.68,
-    "bull_upside_pct": 37.67
+    "base": 250.46,
+    "bull": 320.0,
+    "base_upside_pct": 19.26,
+    "bull_upside_pct": 52.37
    },
    "falsifier": "Single-asset binary risk — an FDA or tolerability setback re-rates the equity hard"
   }
@@ -2913,10 +2913,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 110.0,
-    "base": 326.87,
-    "bull": 500.0,
-    "base_upside_pct": -0.34,
-    "bull_upside_pct": 52.44
+    "base": 410.16,
+    "bull": 525.0,
+    "base_upside_pct": 21.64,
+    "bull_upside_pct": 55.7
    },
    "falsifier": "Consumption model exposed to customer cost-optimization"
   }
@@ -3017,11 +3017,11 @@
    "statement": "Okta is breaking out after a Q1 FY2027 beat (revenue $765M, EPS $0.91 vs $0.85 est) with net retention inflecting back up to 107% and a raised FY27 revenue guide.",
    "conviction": "Medium",
    "target": {
-    "bear": 74.27,
-    "base": 124.29,
-    "bull": 166.54,
-    "base_upside_pct": -25.23,
-    "bull_upside_pct": 0.19
+    "bear": 96.19,
+    "base": 132.93,
+    "bull": 155.51,
+    "base_upside_pct": -22.08,
+    "bull_upside_pct": -8.84
    },
    "falsifier": "Microsoft Entra ID bundled into E5/M365 pressures Workforce pricing"
   }
@@ -3049,13 +3049,13 @@
     "FY26 full-year results (~Nov 2026)"
    ],
    "statement": "EZJ is in a takeover-driven breakout: the board agreed in principle to a 7.15 GBP/share cash bid from Apollo (valuing equity ~5.7bn GBP), trumping an earlier 6.90 GBP Castlelake approach, with Apollo's firm-offer deadline set for 7 August 2026.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 688.17,
-    "base": 912.22,
-    "bull": 1677.31,
-    "base_upside_pct": 35.34,
-    "bull_upside_pct": 148.86
+    "bear": 634.54,
+    "base": 794.01,
+    "bull": 920.1,
+    "base_upside_pct": 18.47,
+    "bull_upside_pct": 37.29
    },
    "falsifier": "Deal breaks at 7 Aug deadline and shares retrace to weak standalone PBT"
   }
@@ -3085,11 +3085,11 @@
    "statement": "MAN is breaking out on an early-cycle staffing recovery: Q2 revenue rose 6% cc to $4.9B with EPS of $0.99, and management explicitly declared a shift 'from stabilization into recovery' as the Manpower brand logged its 5th straight quarter of growth (US +16% days-adjusted).",
    "conviction": "High",
    "target": {
-    "bear": 56.55,
-    "base": 70.43,
-    "bull": 116.93,
-    "base_upside_pct": 12.88,
-    "bull_upside_pct": 87.42
+    "bear": 53.2,
+    "base": 61.64,
+    "bull": 73.93,
+    "base_upside_pct": -0.55,
+    "bull_upside_pct": 19.28
    },
    "falsifier": "European labor markets still contracting; recovery could stall"
   }
@@ -3117,13 +3117,13 @@
     "QFlex consumption-model adoption ramp"
    ],
    "statement": "QLYS just beat and raised (Q2 on 4 Aug): revenue +11% to $182.2M, non-GAAP EPS $1.98 vs $1.78 est, and 16% billings growth prompted the CFO to lift full-year guidance and talk of 're-accelerating long",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 127.16,
-    "base": 204.7,
-    "bull": 362.68,
-    "base_upside_pct": 9.44,
-    "bull_upside_pct": 93.89
+    "bear": 124.77,
+    "base": 193.68,
+    "bull": 260.55,
+    "base_upside_pct": 12.84,
+    "bull_upside_pct": 51.79
    },
    "falsifier": "Re-acceleration confined to a small ETM cohort; broad base not yet moving"
   }
@@ -3187,11 +3187,11 @@
    "statement": "PBF is breaking out on a refining-margin windfall: Q2 adjusted EPS of $6.22 crushed the $3.49 estimate as geopolitically-tightened product markets lifted cracks, and management slashed net debt by over $1.4B (net-debt/capital 36% -> 15%) while signaling elevated margins could persist into 2027.",
    "conviction": "High",
    "target": {
-    "bear": 58.68,
-    "base": 78.77,
-    "bull": 90.59,
-    "base_upside_pct": 10.51,
-    "bull_upside_pct": 27.09
+    "bear": 60.19,
+    "base": 79.54,
+    "bull": 93.04,
+    "base_upside_pct": 7.0,
+    "bull_upside_pct": 25.16
    },
    "falsifier": "Deeply cyclical; unhedged cracks can normalize sharply"
   }
@@ -3221,11 +3221,11 @@
    "statement": "RAND is turning up with the early-cycle staffing recovery: Q2 revenue returned to organic growth (+1.9% to EUR 5.9B) with EBITA +8% to EUR 182M (3.1% margin), as a strong US upturn (+13%) and Germany/UK recoveries offset gross-margin mix pressure.",
    "conviction": "High",
    "target": {
-    "bear": 29.02,
-    "base": 38.53,
-    "bull": 66.35,
-    "base_upside_pct": -4.01,
-    "bull_upside_pct": 65.29
+    "bear": 27.36,
+    "base": 33.92,
+    "bull": 45.73,
+    "base_upside_pct": -13.0,
+    "bull_upside_pct": 17.3
    },
    "falsifier": "Q3 gross margins guided down on lower-margin large-client mix"
   }
@@ -3255,11 +3255,11 @@
    "statement": "EDEN is recovering off a regulatory-reset trough: in H1 results (23 Jul) management upgraded full-year EBITDA guidance despite a declared 'reset year,' as 8% intrinsic operating-revenue growth held up beneath Italy/Brazil meal-voucher regulation that dragged like-for-like growth to just 1.5%.",
    "conviction": "High",
    "target": {
-    "bear": 23.84,
-    "base": 30.3,
-    "bull": 35.63,
-    "base_upside_pct": -0.58,
-    "bull_upside_pct": 16.91
+    "bear": 25.11,
+    "base": 30.28,
+    "bull": 34.1,
+    "base_upside_pct": -0.55,
+    "bull_upside_pct": 11.98
    },
    "falsifier": "Regulatory caps (Italy fees, Brazil PLR) are structural revenue risk"
   }
@@ -3323,11 +3323,11 @@
    "statement": "ZBRA is breaking out on a record Q2 (4 Aug): sales topped $1.5B (+9% organic) with EPS +76%, and full-year guidance was raised across sales, margin and EPS as the memory-cost headwind was fully mitigated via pricing.",
    "conviction": "Medium",
    "target": {
-    "bear": 370.25,
-    "base": 536.72,
-    "bull": 939.35,
-    "base_upside_pct": 50.57,
-    "bull_upside_pct": 163.53
+    "bear": 363.87,
+    "base": 507.37,
+    "bull": 661.92,
+    "base_upside_pct": 39.87,
+    "bull_upside_pct": 82.48
    },
    "falsifier": "Cyclical enterprise capex; refresh demand can roll over in a downturn"
   }
@@ -3355,13 +3355,13 @@
     "Tariff-mitigation and de-leveraging progress"
    ],
    "statement": "NWL is breaking out on a turnaround inflection: Q2 delivered its first year-over-year net-sales AND core-sales growth in over four years (+3% / +2.3%), and the full-year outlook was raised across every key metric.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 5.17,
-    "base": 6.32,
-    "bull": 8.27,
-    "base_upside_pct": 2.38,
-    "bull_upside_pct": 34.04
+    "bear": 5.13,
+    "base": 6.28,
+    "bull": 8.22,
+    "base_upside_pct": 2.7,
+    "bull_upside_pct": 34.55
    },
    "falsifier": "Reacceleration modest and back-half-weighted (Q3 only +2-3%)"
   }
@@ -3391,11 +3391,11 @@
    "statement": "AVTR is breaking out on a turnaround beat: Q2 topped estimates (EPS $0.21 vs $0.19, rev $1.69B) with the VWR distribution business back to organic growth ahead of plan, FY26 guidance raised, and shares up ~15% on the print.",
    "conviction": "Medium",
    "target": {
-    "bear": 13.46,
-    "base": 17.25,
-    "bull": 27.28,
-    "base_upside_pct": 18.3,
-    "bull_upside_pct": 87.09
+    "bear": 13.69,
+    "base": 17.1,
+    "bull": 26.74,
+    "base_upside_pct": 14.26,
+    "bull_upside_pct": 78.64
    },
    "falsifier": "Rebound self-help-driven, not yet demand-led"
   }
@@ -3493,11 +3493,11 @@
    "statement": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint.",
    "conviction": "Medium",
    "target": {
-    "bear": 183.42,
-    "base": 267.11,
-    "bull": 400.77,
-    "base_upside_pct": -8.37,
-    "bull_upside_pct": 37.49
+    "bear": 186.95,
+    "base": 265.47,
+    "bull": 393.88,
+    "base_upside_pct": -7.98,
+    "bull_upside_pct": 36.53
    },
    "falsifier": "Recovery bookings-led; FY26 organic revenue still only flat to +1%"
   }
@@ -3561,11 +3561,11 @@
    "statement": "UNI is grinding higher on a steady beat-and-deliver story: Q1 (15 May) was in line (EPS EUR 0.51, net profit ~EUR 329m +15%) with the combined ratio hitting the 90% industrial-plan KPI level, and management raised the cumulative 2025-27 dividend target to >=EUR 2.4bn and set 'more than EUR 800m' as an annual distribution floor.",
    "conviction": "Medium",
    "target": {
-    "bear": 25.64,
-    "base": 29.38,
-    "bull": 32.97,
-    "base_upside_pct": 3.19,
-    "bull_upside_pct": 15.8
+    "bear": 26.67,
+    "base": 29.19,
+    "bull": 31.36,
+    "base_upside_pct": 2.72,
+    "bull_upside_pct": 10.34
    },
    "falsifier": "Italy-concentrated; exposed to BTP spreads and domestic GDP"
   }
@@ -3595,11 +3595,11 @@
    "statement": "The July 23 Q2 print was a broad beat-and-raise that flipped the 'AI kills UCaaS' bear case: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort retention, and FY26 FCF was raised to $615-625m alongside a dividend increase.",
    "conviction": "High",
    "target": {
-    "bear": 70.35,
-    "base": 105.99,
-    "bull": 195.6,
-    "base_upside_pct": 52.77,
-    "bull_upside_pct": 181.93
+    "bear": 68.35,
+    "base": 100.32,
+    "bull": 138.27,
+    "base_upside_pct": 36.69,
+    "bull_upside_pct": 88.41
    },
    "falsifier": "Teams Phone bundling caps seat growth and pricing — core UCaaS is ex-growth"
   }
@@ -3630,11 +3630,11 @@
    "statement": "SEGRO is in a formal offer period after a Prologis approach, putting an M&A floor under a stock that traded well below its 902p EPRA NTA.",
    "conviction": "Medium",
    "target": {
-    "bear": 826.91,
-    "base": 970.52,
-    "bull": 1163.77,
-    "base_upside_pct": 0.97,
-    "bull_upside_pct": 21.07
+    "bear": 820.37,
+    "base": 962.82,
+    "bull": 1154.91,
+    "base_upside_pct": 1.33,
+    "bull_upside_pct": 21.54
    },
    "falsifier": "A bid lapse would unwind the takeover premium overnight"
   }
@@ -3904,10 +3904,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 280.0,
-    "base": 336.74,
-    "bull": 375.0,
-    "base_upside_pct": 3.21,
-    "bull_upside_pct": 14.94
+    "base": 338.07,
+    "bull": 376.0,
+    "base_upside_pct": 3.01,
+    "bull_upside_pct": 14.57
    },
    "falsifier": "Premium multiple plus unprofitability means brutal drawdowns on any unit miss"
   }
@@ -3972,11 +3972,11 @@
    "statement": "This morning's Q1 FY27 print (Aug 6) beat — adjusted EPS $1.14 on revenue +4.8%, ~2.6% above the Street — and management raised FY27 adjusted EPS growth guidance to +5-8% (~$4.90 midpoint).",
    "conviction": "Medium",
    "target": {
-    "bear": 88.82,
-    "base": 114.26,
-    "bull": 173.4,
-    "base_upside_pct": 9.91,
-    "bull_upside_pct": 66.8
+    "bear": 90.23,
+    "base": 113.9,
+    "bull": 171.36,
+    "base_upside_pct": 10.67,
+    "bull_upside_pct": 66.5
    },
    "falsifier": "Plasma revenue concentrated among a few fractionators — renewal risk"
   }
@@ -4144,11 +4144,11 @@
    "statement": "Q2 2026 was a blowout: net income of $3.7bn ($12.62/share, adjusted $12.54 versus $10.03 consensus) on $44.5bn of revenue, with refining operating income of $4.5bn against $1.3bn a year ago.",
    "conviction": "Medium",
    "target": {
-    "bear": 259.55,
-    "base": 348.35,
-    "bull": 410.85,
-    "base_upside_pct": -1.14,
-    "bull_upside_pct": 16.6
+    "bear": 270.0,
+    "base": 358.78,
+    "bull": 436.3,
+    "base_upside_pct": -3.22,
+    "bull_upside_pct": 17.69
    },
    "falsifier": "Cash held above the $4-5bn target — management hedging a crude pullback"
   }
@@ -4214,11 +4214,11 @@
    "statement": "Q2 2026, reported 6 August, was a record and a big raise — revenue up 48% year over year to $481M against roughly $402M consensus, royalties up 50% to $307.7M and adjusted EBITDA up 46% to $328.8M.",
    "conviction": "Medium",
    "target": {
-    "bear": 115.99,
-    "base": 154.17,
-    "bull": 232.06,
-    "base_upside_pct": 46.34,
-    "bull_upside_pct": 120.28
+    "bear": 118.5,
+    "base": 153.35,
+    "bull": 228.48,
+    "base_upside_pct": 39.17,
+    "bull_upside_pct": 107.35
    },
    "falsifier": "rHuPH20 patent cliff around 2027 is the whole valuation question"
   }
@@ -4249,11 +4249,11 @@
    "statement": "Q2 2026, reported 4 August, was a record refining quarter — adjusted EBITDA of $8.5bn and EPS of $17.73 against $14.52 consensus, on a 112% R&M margin capture.",
    "conviction": "Medium",
    "target": {
-    "bear": 257.85,
-    "base": 349.36,
-    "bull": 412.17,
-    "base_upside_pct": -5.28,
-    "bull_upside_pct": 11.75
+    "bear": 266.38,
+    "base": 358.05,
+    "bull": 440.12,
+    "base_upside_pct": -7.93,
+    "bull_upside_pct": 13.17
    },
    "falsifier": "Management flagged the 112% capture as a high-water mark"
   }
@@ -4284,11 +4284,11 @@
    "statement": "Q2 2026, reported 5 August, was a beat-and-raise — revenue of $531.2M (+9.8% year over year), non-GAAP EPS of $2.78 (16.8% above consensus) and adjusted EBITDA of $235M at a 44.2% margin.",
    "conviction": "High",
    "target": {
-    "bear": 228.5,
-    "base": 346.13,
-    "bull": 640.02,
-    "base_upside_pct": 45.11,
-    "bull_upside_pct": 168.32
+    "bear": 222.46,
+    "base": 325.48,
+    "bull": 443.88,
+    "base_upside_pct": 40.49,
+    "bull_upside_pct": 91.6
    },
    "falsifier": "~$105M of float income is near-100% margin and falls with Fed cuts"
   }
@@ -4354,11 +4354,11 @@
    "statement": "Q1 FY2027, reported 28 May 2026, was UiPath's first GAAP-profitable quarter in company history — $28m of GAAP operating income on revenue up 17% to $418m.",
    "conviction": "High",
    "target": {
-    "bear": 10.35,
-    "base": 14.55,
-    "bull": 23.08,
-    "base_upside_pct": -19.82,
-    "bull_upside_pct": 27.14
+    "bear": 11.02,
+    "base": 15.87,
+    "bull": 21.21,
+    "base_upside_pct": 4.49,
+    "bull_upside_pct": 39.6
    },
    "falsifier": "ARR growth only 12%; net new ARR just $49m in the quarter"
   }
@@ -4389,11 +4389,11 @@
    "statement": "Q2 2026, reported 6 August, was in CEO Matt Bromberg's words 'arguably the best quarter in Unity's history as a public company'.",
    "conviction": "Medium",
    "target": {
-    "bear": 31.93,
-    "base": 45.24,
-    "bull": 58.59,
-    "base_upside_pct": 4.45,
-    "bull_upside_pct": 35.28
+    "bear": 31.1,
+    "base": 42.19,
+    "bull": 49.97,
+    "base_upside_pct": 1.26,
+    "bull_upside_pct": 19.94
    },
    "falsifier": "AppLovin's AXON has a multi-year data lead and ~80% EBITDA margins"
   }
@@ -4460,11 +4460,11 @@
    "statement": "This is not a fundamentals breakout — it is merger arbitrage, and it should be sized as such.",
    "conviction": "Medium",
    "target": {
-    "bear": 138.81,
-    "base": 159.08,
-    "bull": 188.43,
-    "base_upside_pct": 0.89,
-    "bull_upside_pct": 19.51
+    "bear": 137.57,
+    "base": 157.61,
+    "bull": 186.75,
+    "base_upside_pct": 1.3,
+    "bull_upside_pct": 20.03
    },
    "falsifier": "Antitrust and shareholder votes still outstanding"
   }
@@ -4496,11 +4496,11 @@
    "statement": "Atlassian reported Q4 FY2026 on 6 August 2026 and the stock moved roughly 35% after hours.",
    "conviction": "High",
    "target": {
-    "bear": 110.95,
-    "base": 174.96,
-    "bull": 350.17,
-    "base_upside_pct": -8.11,
-    "bull_upside_pct": 83.9
+    "bear": 107.71,
+    "base": 164.7,
+    "bull": 316.75,
+    "base_upside_pct": -13.12,
+    "bull_upside_pct": 67.08
    },
    "falsifier": "Data Center guided down ~17%, migration tailwind spent"
   }
@@ -4532,11 +4532,11 @@
    "statement": "Q1 FY2027 landed on 5 August 2026 and reset the whole FY27 frame: rhode delivered $160m of net sales in a single quarter and a $50m tariff refund arrived, letting management lift FY27 sales growth guidance from 12-14% to 18-20% ($1.938-1.968bn), adjusted EBITDA growth to 20-21%, and adjusted EPS to $3.50-3.55.",
    "conviction": "High",
    "target": {
-    "bear": 81.44,
-    "base": 102.19,
-    "bull": 120.1,
-    "base_upside_pct": -1.83,
-    "bull_upside_pct": 15.37
+    "bear": 84.75,
+    "base": 106.34,
+    "bull": 125.18,
+    "base_upside_pct": -3.04,
+    "bull_upside_pct": 14.15
    },
    "falsifier": "Organic sales down high single digits, units -3pts"
   }
@@ -4566,13 +4566,13 @@
     "FY28 initial guidance (Mar 2027) — first year Duo Agent is expected to carry material revenue"
    ],
    "statement": "On 2 June 2026 GitLab beat and raised while simultaneously announcing 'Act 2' — a 14% workforce cut (~350 employees), removal of up to three management layers, exit from 22 countries cutting the geographic footprint 37%, and a pivot from pure seats toward consumption pricing.",
-   "conviction": "Low",
+   "conviction": "Medium",
    "target": {
-    "bear": 20.86,
-    "base": 31.11,
-    "bull": 47.32,
-    "base_upside_pct": -30.67,
-    "bull_upside_pct": 5.47
+    "bear": 29.22,
+    "base": 36.83,
+    "bull": 46.98,
+    "base_upside_pct": -26.09,
+    "bull_upside_pct": -5.73
    },
    "falsifier": "Total RPO only +18% versus cRPO at 24%"
   }
@@ -4604,11 +4604,11 @@
    "statement": "Q2 2026, reported 28 July, was an outlier quarter — adjusted EBITDA more than doubled to $1.5bn on an unusually tight refining market, with refining segment EBITDA of $1.0bn (up 110%), lubricants at $207m versus $55m a year ago, and renewables swinging to $123m from a $2m loss.",
    "conviction": "Medium",
    "target": {
-    "bear": 91.3,
-    "base": 116.47,
-    "bull": 137.66,
-    "base_upside_pct": 16.81,
-    "bull_upside_pct": 38.06
+    "bear": 95.69,
+    "base": 119.66,
+    "bull": 142.59,
+    "base_upside_pct": 13.52,
+    "bull_upside_pct": 35.27
    },
    "falsifier": "Q3 runs guided down to 590-620 kbpd on turnaround"
   }
@@ -4640,11 +4640,11 @@
    "statement": "Q1 FY2027, reported 21 May 2026, delivered the best Q1 new-ACV growth in five years with agentic AI ARR approaching $500m and agentic new ACV up over 200% — and the stock fell about 3.5%, because Bhusri immediately damped it ('one quarter does not make a year', some of it Q4 slippage) and the FY27 subscription guide was reiterated at $9.925-9.95bn rather than raised.",
    "conviction": "Medium",
    "target": {
-    "bear": 148.76,
-    "base": 240.67,
-    "bull": 417.09,
-    "base_upside_pct": 17.56,
-    "bull_upside_pct": 103.74
+    "bear": 142.23,
+    "base": 225.33,
+    "bull": 301.31,
+    "base_upside_pct": 15.09,
+    "bull_upside_pct": 53.89
    },
    "falsifier": "Per-worker pricing levered to shrinking white-collar seats"
   }
@@ -4712,11 +4712,11 @@
    "statement": "In the Q4 FY26 print on 28-May-2026 the commitment build mattered more than the beat: CRPO accelerated to 20% and RPO to 28%, far ahead of the ~14.6% FY27 revenue guide, because the Q4 mix skewed toward cloud where revenue ramps rather than being recognised upfront.",
    "conviction": "Medium",
    "target": {
-    "bear": 60.15,
-    "base": 90.02,
-    "bull": 130.48,
-    "base_upside_pct": -9.9,
-    "bull_upside_pct": 30.6
+    "bear": 63.75,
+    "base": 93.27,
+    "bull": 115.52,
+    "base_upside_pct": 1.59,
+    "bull_upside_pct": 25.83
    },
    "falsifier": "AWS OpenSearch is a free fork of the engine"
   }
@@ -4748,11 +4748,11 @@
    "statement": "Q2 2026, reported 24-Jul-2026, was a clean beat-and-raise: FY26 adjusted EBITDA guidance lifted $295m at the midpoint to $4.83bn-$5.03bn, revenue up $300m to $21.9bn-$22.5bn, and $1.04bn of stock repurchased in the quarter.",
    "conviction": "Medium",
    "target": {
-    "bear": 363.21,
-    "base": 456.81,
-    "bull": 742.57,
-    "base_upside_pct": 71.22,
-    "bull_upside_pct": 178.33
+    "bear": 369.91,
+    "base": 453.25,
+    "bull": 725.67,
+    "base_upside_pct": 71.01,
+    "bull_upside_pct": 173.78
    },
    "falsifier": "~$250m 2026 EBITDA hit from ACA subsidy expiry"
   }
@@ -4820,11 +4820,11 @@
    "statement": "Q2 2026, reported 30-Jul-2026, cleared the high end of guidance on both revenue and EBITDA, and AI solutions crossed $120m of annualized revenue growing ~45-50% — about 11% of total and roughly 4 points of the quarter's 10% growth, led by APD, subrogation and EvolutionIQ.",
    "conviction": "Medium",
    "target": {
-    "bear": 7.66,
-    "base": 11.45,
-    "bull": 20.99,
-    "base_upside_pct": 52.8,
-    "bull_upside_pct": 180.23
+    "bear": 7.5,
+    "base": 10.76,
+    "bull": 15.27,
+    "base_upside_pct": 43.26,
+    "bull_upside_pct": 103.38
    },
    "falsifier": "Implied Q4 exit rate only ~9%"
   }
@@ -4892,11 +4892,11 @@
    "statement": "The stock is breaking out off a multi-year base as the narrative flips from COVID melt to platform optionality.",
    "conviction": "High",
    "target": {
-    "bear": 40.0,
-    "base": 104.53,
+    "bear": 45.0,
+    "base": 116.5,
     "bull": 170.0,
-    "base_upside_pct": -24.25,
-    "bull_upside_pct": 23.2
+    "base_upside_pct": -19.96,
+    "bull_upside_pct": 16.8
    },
    "falsifier": "Q2 2026 net loss of $782m on just $145m of revenue"
   }
@@ -4928,11 +4928,11 @@
    "statement": "Q2 2026 was a clean guidance raise across every line: FY26 revenue lifted to $2.725-2.745bn (25-26% growth), adjusted EBITDA to $465-475m at a 17% margin, and net new active members from 1.4m to 1.8m.",
    "conviction": "High",
    "target": {
-    "bear": 23.0,
-    "base": 35.63,
-    "bull": 60.64,
-    "base_upside_pct": 7.33,
-    "bull_upside_pct": 82.64
+    "bear": 22.47,
+    "base": 33.53,
+    "bull": 44.68,
+    "base_upside_pct": -0.68,
+    "bull_upside_pct": 32.35
    },
    "falsifier": "Durbin exemption repeal would hit ~two-thirds of revenue"
   }
@@ -4964,11 +4964,11 @@
    "statement": "Q2 2026 beat consensus revenue by 10.8% at $263.7m, up 45%, on a record 59,200 clinical cases and a record blended ASP above $3,850.",
    "conviction": "Medium",
    "target": {
-    "bear": 14.84,
-    "base": 18.55,
-    "bull": 29.18,
-    "base_upside_pct": -27.64,
-    "bull_upside_pct": 13.84
+    "bear": 15.09,
+    "base": 18.85,
+    "bull": 29.09,
+    "base_upside_pct": -24.82,
+    "bull_upside_pct": 16.02
    },
    "falsifier": "~90% of revenue set by Medicare/MolDX - a rate revision has no offset"
   }
@@ -5000,11 +5000,11 @@
    "statement": "This is a Strait of Hormuz trade.",
    "conviction": "Medium",
    "target": {
-    "bear": 275.15,
-    "base": 388.89,
-    "bull": 429.65,
-    "base_upside_pct": -7.01,
-    "bull_upside_pct": 2.74
+    "bear": 371.46,
+    "base": 429.51,
+    "bull": 467.68,
+    "base_upside_pct": -1.33,
+    "bull_upside_pct": 7.44
    },
    "falsifier": "55 VLCCs on standby outside the Gulf, ready to flood back on a reopening headline"
   }
@@ -5036,11 +5036,11 @@
    "statement": "Q2 2026 printed at the high end of guidance - revenue $290.6m (+3.0% organic), non-GAAP EPS $1.33 (+9%) and free cash flow $75.3m, up 46% - and management steered investors to the top half of every FY26 range and to at or above the high end on both EPS and free cash flow, a raise in all but name.",
    "conviction": "Medium",
    "target": {
-    "bear": 59.2,
-    "base": 89.16,
-    "bull": 180.89,
-    "base_upside_pct": 83.39,
-    "bull_upside_pct": 272.05
+    "bear": 58.4,
+    "base": 85.42,
+    "bull": 115.08,
+    "base_upside_pct": 81.37,
+    "bull_upside_pct": 144.33
    },
    "falsifier": "Organic growth only 3.0% in Q2, 3.6% YTD, vs 5.5% in FY2025"
   }
@@ -5072,11 +5072,11 @@
    "statement": "Q2 2026 was the best quarter since 2022: $3.8bn of adjusted earnings and $9.41 EPS against roughly $7.02 consensus, on a $24.08/bbl realised refining margin at 96% crude utilisation and 86% clean product yield.",
    "conviction": "Medium",
    "target": {
-    "bear": 164.37,
-    "base": 211.25,
-    "bull": 241.98,
-    "base_upside_pct": -13.42,
-    "bull_upside_pct": -0.83
+    "bear": 171.18,
+    "base": 219.31,
+    "bull": 274.52,
+    "base_upside_pct": -14.03,
+    "bull_upside_pct": 7.62
    },
    "falsifier": "$24.08/bbl realised margin is far above mid-cycle - reversion is the base case"
   }
@@ -5180,11 +5180,11 @@
    "statement": "Shares are $213.10, up roughly 79% from the $119.06 52-week low, 26% above the 50-day moving average of $168.64 and 36% above the 200-day at $156.41, with RSI at 71.8.",
    "conviction": "Medium",
    "target": {
-    "bear": 121.75,
-    "base": 168.96,
-    "bull": 278.17,
-    "base_upside_pct": -24.33,
-    "bull_upside_pct": 24.58
+    "bear": 119.62,
+    "base": 160.41,
+    "bull": 209.13,
+    "base_upside_pct": -24.96,
+    "bull_upside_pct": -2.17
    },
    "falsifier": "36.63x forward EPS, 42.55x EV/EBITDA - no cushion for a single miss"
   }
@@ -5216,11 +5216,11 @@
    "statement": "The stock is EUR 26.92 after touching a 52-week high of EUR 28.42 on 21 August, up 93.6% over twelve months and 30% above its 200-day moving average of EUR 20.66.",
    "conviction": "Medium",
    "target": {
-    "bear": 30.63,
-    "base": 39.16,
-    "bull": 46.16,
-    "base_upside_pct": 47.22,
-    "bull_upside_pct": 73.55
+    "bear": 31.71,
+    "base": 40.03,
+    "bull": 48.76,
+    "base_upside_pct": 44.29,
+    "bull_upside_pct": 75.76
    },
    "falsifier": "Refining margin is the single largest earnings swing factor - and it is peak"
   }
@@ -5357,13 +5357,13 @@
     "Server/DRAM supply normalization commentary from Cisco and Dell (Q4 CY2026)"
    ],
    "statement": "Nutanix is breaking out on the 26-Aug Q4 FY26 print, which beat on both lines — $757.1m revenue against a $725-745m guide and a 26.2% non-GAAP operating margin against 21-23% guided.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 39.11,
-    "base": 57.88,
-    "bull": 94.94,
-    "base_upside_pct": -16.31,
-    "bull_upside_pct": 37.28
+    "bear": 42.14,
+    "base": 57.69,
+    "bull": 73.81,
+    "base_upside_pct": -15.24,
+    "bull_upside_pct": 8.45
    },
    "falsifier": "FY27 FCF guided to just ~7% growth — operating leverage story is over"
   }
@@ -5394,11 +5394,11 @@
    "statement": "The stock gapped roughly 17% on the 26-Aug Q2 FY26 print: $4.17 EPS on the back of a ~$100m IEEPA tariff refund, with FY26 EPS guidance raised about 30% from $10.20-11.00 to $13.10-13.60 and operating margin from 12.0-12.5% to 14.5-15.0%.",
    "conviction": "High",
    "target": {
-    "bear": 114.41,
-    "base": 148.26,
-    "bull": 171.98,
-    "base_upside_pct": -0.11,
-    "bull_upside_pct": 15.87
+    "bear": 129.25,
+    "base": 153.64,
+    "bull": 175.98,
+    "base_upside_pct": 2.65,
+    "bull_upside_pct": 17.58
    },
    "falsifier": "~790bps of the ~990bps margin beat was a one-time tariff refund"
   }
@@ -5429,13 +5429,121 @@
    "statement": "Veeva had its best day ever on 27-Aug after the Q2 FY27 print — $928m revenue (+13%) and $416m non-GAAP operating income, both above guide, with FY27 revenue guidance lifted to $3,682-3,687m (~15% growth).",
    "conviction": "Medium",
    "target": {
-    "bear": 142.74,
-    "base": 200.15,
-    "bull": 298.78,
-    "base_upside_pct": -27.66,
-    "bull_upside_pct": 7.99
+    "bear": 150.11,
+    "base": 210.28,
+    "bull": 296.23,
+    "base_upside_pct": -23.56,
+    "bull_upside_pct": 7.68
    },
    "falsifier": "Salesforce Life Sciences Cloud already holds Novartis, AZ, Takeda, Pfizer"
+  }
+ },
+ "CMCX.L": {
+  "business": "CMC Markets is a London-listed online trading and investing group founded by Peter (Lord) Cruddas in 1989, running regulated operations in 12 countries with the UK, Australia, Germany and Singapore as its main markets. It has two engines: a retail business offering CFDs, spread betting and stockbroking across 12,000+ instruments, and a fast-growing B2B arm (CMC Markets Connect) that white-labels its pricing, execution, clearing and account technology to banks, brokers and fintechs. Following the Revolut, Westpac and ASB deals, management says a majority of income now comes from institutional and B2B platform partnerships rather than direct retail flow.",
+  "happening": "The stock is breaking out on two upgrades in five weeks. FY26 results (4 June 2026) showed net operating income up 15% to £392.6m and pre-tax profit up 20% to £101.3m, with the full-year dividend raised 21% to 13.8p and initial FY27 guidance of £460-480m. Then on 1 July 2026 CMC tore that guidance up, saying FY27 net operating income would be at least £550m (roughly 40% growth) with EBITDA around £250m, citing 'exponential and exceptional' B2B growth in the opening months of the year; the shares jumped over 20% that day and have since set new multi-year highs near 750p.",
+  "why": "The mechanism is operating leverage on a fixed cost base as B2B volumes scale. (1) Guidance implies £550m of income against roughly £280m of operating costs ex variable pay, so incremental partnership revenue drops to the bottom line at very high margin — the FY27 EBITDA guide of ~£250m compares with £101m of pre-tax profit just reported. (2) The Revolut partnership has soft-launched in three European countries and has barely contributed yet; Revolut's 70m+ customer base across 160+ markets is the largest distribution deal in the company's history, and it is back-to-back trading where CMC earns the spread. (3) The Australian pipeline is contracted and dated: the record Australian stockbroking result (A$140.3m, +32%) precedes the Westpac migration (~A$39bn of assets, ~500k accounts) and ASB Bank launch, both guided to go live within 12 months. (4) Tokenisation is an option the market pays nothing for — CMC has executed a UK tokenised share trade with StrikeX and CapX and is positioning its infrastructure as the rails for tokenised assets.",
+  "risk": "Watch: this is still a market-maker whose income swings with client trading volumes and volatility, and the 'at least £550m' guide was struck after an unusually active spring — a quiet autumn would show up fast in the H1 FY27 print (November 2026). Partner concentration is the new risk: Revolut can renegotiate revenue share or in-source once volumes prove out, and a Westpac or ASB launch slip pushes contracted income into FY28. Lord Cruddas and family control roughly 60% of the shares, so free float is thin and moves are exaggerated in both directions; the stock has roughly tripled from its 203p 52-week low and the RSI has been flagged as overbought since July. Regulatory risk (FCA/ASIC leverage caps, CFD marketing rules) never goes away. Size for a high-beta financial: stop ≈ 2× ATR below entry, and treat a close back inside the pre-1-July gap as a thesis failure.",
+  "thesis": {
+   "bull": [
+    "FY27 net operating income guide raised to at least £550m from £460-480m, ~40% growth",
+    "EBITDA guide ~£250m on ~£280m fixed costs — extreme operating leverage",
+    "Revolut (70m+ users) soft-launched, not yet material; Westpac and ASB go live within 12 months",
+    "Record FY26: NOI +15%, PBT +20%, dividend +21% to 13.8p"
+   ],
+   "bear": [
+    "Income is volatility- and volume-dependent; a quiet market compresses the guide",
+    "Revolut/Westpac partner concentration and revenue-share renegotiation risk",
+    "Cruddas family ~60% holding leaves thin free float and exaggerated moves",
+    "Stock has tripled from 203p low; RSI overbought since July"
+   ],
+   "catalysts": [
+    "H1 FY27 results (November 2026) — first hard numbers behind the £550m guide and B2B mix",
+    "Revolut roll-out beyond the three initial European markets (H2 2026)",
+    "Westpac and ASB Bank stockbroking migrations going live (by mid-2027)",
+    "Any Q3 FY27 trading update (January 2027) — volume and margin trajectory into year-end"
+   ],
+   "statement": "The stock is breaking out on two upgrades in five weeks.",
+   "conviction": "High",
+   "target": {
+    "bear": 761.4,
+    "base": 797.03,
+    "bull": 832.72,
+    "base_upside_pct": 4.19,
+    "bull_upside_pct": 8.85
+   },
+   "falsifier": "Income is volatility- and volume-dependent; a quiet market compresses the guide"
+  }
+ },
+ "WPP.L": {
+  "business": "WPP is the world's largest advertising and marketing services group by headcount, with roughly 104,000 staff after this year's cuts, and is now being run as a single integrated company rather than a holding company. Under CEO Cindy Rose's Elevate28 plan the business is organised into four units — media (WPP Media, formerly GroupM), creative (Ogilvy, VML), production (Hogarth) and Enterprise Solutions (consulting) — all built around the WPP Open AI/data platform, into which it invests about £300m a year. Clients are global brand owners; WPP still owns a 40% stake in market-research firm Kantar and carries adjusted net debt of £2.9bn.",
+  "happening": "The stock is breaking out because the decline stopped getting worse. H1 2026 results on 6 August 2026 showed like-for-like net sales down 4.7%, but the quarterly path improved from -6.7% in Q1 to -2.8% in Q2 against a consensus of -6.3%, headline operating margin edged up to 8.4%, reported operating profit rose 18% to £261m and the interim dividend was held at 7.5p. WPP reaffirmed a 12-13% full-year headline margin, reiterated an improving second-half trajectory, and the shares rose roughly 25% in a session — the biggest one-day gain since 1992 — recovering most of the ground lost since the 2025 FTSE 100 ejection.",
+  "why": "This is a classic second-derivative turn on a washed-out name. (1) New business has flipped: WPP topped the JP Morgan H1 2026 net new business table with Estée Lauder, Jaguar Land Rover, Airbnb, Henkel and Waymo, and COMvergence data show about $3bn won versus $2.8bn lost year-to-date, against $7bn lost in 2025 — those wins bill into H2 2026 and 2027. (2) The cost base is being cut into a stabilising top line: 1,260 roles removed in H1, 15 non-core assets sold, severance falling, and the four-unit structure now complete, so any revenue stabilisation converts to margin quickly. (3) Portfolio simplification is live optionality — Rose has said more disposals are likely, the 40% Kantar stake is the obvious cash-generative candidate, and any sale would go straight against the £2.9bn debt pile. (4) Valuation and positioning were extreme: WPP trades at a fraction of Publicis's multiple with the margin gap (WPP's H1 reported margin ~4% versus Publicis's ~17%) leaving room for mean reversion if Elevate28 executes even partially.",
+  "risk": "Watch: revenue is still falling — 'improving' means -2.8%, not growth — and Q2 was flattered by easier comps and a burst of onboarding wins; the Q3 trading update (late October 2026) needs to show organic decline narrowing further or the re-rating stalls. The Coca-Cola global review, expected to conclude before Christmas 2026, is binary for sentiment after Publicis already took the North American media account; IKEA's $1bn media review is also in play, and Novo Nordisk went to Omnicom. Legal overhangs are real: a New York shareholder class action over the prior CEO's disclosures and a whistleblower suit on principal media buying, the very practice WPP is doubling down on. Leverage limits patience — £2.9bn of net debt against falling headline EPS (15.1p, -24.5%). After a 25% single-day gap the near-term risk/reward is unbalanced; stop ≈ 2× ATR below entry, tightened to the top of the August gap once the Q3 update is out.",
+  "thesis": {
+   "bull": [
+    "Q2 LFL net sales -2.8% vs -6.3% consensus and -6.7% in Q1 — sequential turn confirmed",
+    "Number one in JP Morgan H1 2026 net new business (Estée Lauder, JLR, Airbnb, Waymo)",
+    "Cost base shrinking: 1,260 roles cut in H1, 15 disposals, 12-13% FY margin reaffirmed",
+    "Kantar 40% stake sale is live optionality against £2.9bn net debt"
+   ],
+   "bear": [
+    "Top line still shrinking; headline EPS -24.5% to 15.1p",
+    "Coca-Cola and IKEA reviews could hand Publicis a narrative-sealing win",
+    "NY class action plus whistleblower suit on principal media buying",
+    "Structural AI/in-housing threat to agency labour-based fees"
+   ],
+   "catalysts": [
+    "Q3 2026 trading update (late October 2026) — LFL trajectory and FY margin guide",
+    "Coca-Cola global agency review outcome (expected before Christmas 2026)",
+    "IKEA ~$1bn global media review decision (Q4 2026 / Q1 2027)",
+    "Kantar stake or further disposals; FY2026 preliminary results (February 2027)"
+   ],
+   "statement": "The stock is breaking out because the decline stopped getting worse.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 298.06,
+    "base": 369.09,
+    "bull": 432.29,
+    "base_upside_pct": -1.55,
+    "bull_upside_pct": 15.31
+   },
+   "falsifier": "Top line still shrinking; headline EPS -24.5% to 15.1p"
+  }
+ },
+ "NCNO": {
+  "business": "nCino sells cloud software that banks and credit unions use to run lending, account opening and onboarding — commercial loan origination, consumer and small-business lending, mortgage (via SimpleNexus) and treasury onboarding — historically built on the Salesforce platform. It now markets itself as 'the platform for agentic banking', layering Banking Advisor AI agents on top of that workflow to automate credit memos, spreading and compliance. It serves over 2,700 financial institutions from community banks to global enterprises, with about 90% of revenue from subscriptions and roughly 20% from outside the US.",
+  "happening": "Q2 FY27 results on 25 August 2026 beat every guided metric: revenue $161.0m (+8%, vs $159.2m consensus), subscription revenue $143.5m (+10%), non-GAAP operating income $40.8m (+36%, a 25% margin), GAAP operating income of $13.6m versus a $9.3m loss a year ago, and free cash flow $34.0m (+170%). Management raised full-year non-GAAP operating income guidance to $171-174m, held FY27 revenue at $644-647m and FCF at $137-142m, and added a fresh $100m buyback on top of $300m already executed since April 2025. Barclays, Citizens and Truist all lifted targets and the stock has pushed through $21, roughly 40% above the $15.41 average price the company paid for its own shares during the quarter.",
+  "why": "The story has moved from growth to profitable compounding plus capital return. (1) Margins are inflecting: non-GAAP operating margin of 25% is up from 20% a year ago, GAAP margin swung 1,500bps positive, and the $171-174m full-year operating income guide implies further expansion in H2 while FCF of $137-142m is ~21% of revenue. (2) Enterprise retention with AI upsell is showing up in hard numbers — four of the 20 largest US enterprise customers (over $900bn of combined assets) renewed early with average ACV increases above 10%, all committing to AI functionality, which supports the $662.5-667.5m year-end ACV guide. (3) Capital return is aggressive for a $2bn software company: 10.2m shares (~9% of the count) retired in Q2 alone via open-market and ASR purchases, with another $100m authorised. (4) International is a real second leg — non-US revenue growing 9% with Hachijuni Nagano Bank in Japan and a German development finance institution signed this quarter, and a rate-cut cycle would lift US mortgage volumes that feed SimpleNexus.",
+  "risk": "Watch: 8% total revenue growth is slow for a software multiple, and the quarter's non-GAAP EPS of $0.05 actually missed the $0.06 consensus — this is a margin and buyback story, so any wobble in the $171-174m operating income guide or the Q3 range ($42-44m) is what breaks it. The balance sheet is being levered to fund buybacks: $275.4m drawn on the credit facility against $83.6m of cash, so net debt is rising while the stock is bought at multi-year highs. Bank consolidation is a double-edged sword — mergers can cancel contracts as easily as expand them — and the Salesforce platform dependency remains a cost and competitive overhang as Salesforce pushes its own financial-services agents. Mortgage remains cyclical and rate-sensitive. Momentum is fresh, not extended: stop ≈ 2× ATR below entry, and reassess if the stock loses the post-earnings gap around $19.",
+  "thesis": {
+   "bull": [
+    "Q2 beat on every line: revenue +8%, non-GAAP op income +36% to 25% margin, FCF +170%",
+    "FY27 non-GAAP operating income guide raised to $171-174m; FCF $137-142m",
+    "Four top-20 enterprise customers (>$900bn assets) renewed early with >10% ACV uplifts on AI",
+    "~9% of shares retired in one quarter; new $100m buyback on top of $300m completed"
+   ],
+   "bear": [
+    "8% growth and a $0.05 vs $0.06 EPS miss — thin margin for error",
+    "$275m drawn on credit facility vs $84m cash to fund buybacks",
+    "Bank M&A and Salesforce platform dependency threaten seat/ACV base",
+    "Mortgage (SimpleNexus) remains rate-cyclical"
+   ],
+   "catalysts": [
+    "Q3 FY27 results (late November / early December 2026) — Q3 guide $161.25-163.25m revenue, $42-44m op income",
+    "Pace of the new $100m buyback and any further ASR (Q3-Q4 FY27)",
+    "Fed rate path and US mortgage application volumes into year-end 2026",
+    "FY28 guidance framework at Q4 FY27 results (March 2027) — first look at AI-driven ACV acceleration"
+   ],
+   "statement": "Q2 FY27 results on 25 August 2026 beat every guided metric: revenue $161.0m (+8%, vs $159.2m consensus), subscription revenue $143.5m (+10%), non-GAAP operating income $40.8m (+36%, a 25% margin), GAAP operating income of $13.6m versus a $9.3m loss a year ago, and free cash flow $34.0m (+170%).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 18.83,
+    "base": 26.83,
+    "bull": 34.61,
+    "base_upside_pct": 16.04,
+    "bull_upside_pct": 49.69
+   },
+   "falsifier": "8% growth and a $0.05 vs $0.06 EPS miss — thin margin for error"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-08-29",
+    "as_of": "2026-09-05",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -67,23 +67,17 @@
         "TCAP.L"
       ]
     },
-    "tickers_n": 145,
+    "tickers_n": 164,
     "last_saturday_refresh": {
-      "date": "2026-08-15",
+      "date": "2026-09-05",
       "tickers_refreshed": [
-        "ROKU",
-        "DDOG",
-        "TEAM",
-        "ELF",
-        "GTLB",
-        "DINO",
-        "WDAY",
-        "RBRK",
+        "CMCX.L",
+        "FRO.OL",
+        "WPP.L",
         "ESTC",
-        "THC",
-        "EXPE",
-        "CCC",
-        "JHX"
+        "OKTA",
+        "WDAY",
+        "NCNO"
       ]
     }
   },
@@ -7765,17 +7759,22 @@
   "OKTA": {
     "ticker": "OKTA",
     "company": "Okta, Inc.",
-    "as_of": "2026-06-28",
-    "last_refreshed_reason": "New concall (Q1 FY2027)",
-    "company_overview": "Okta is the leading independent identity provider: its cloud platform manages who can log into which applications and systems, handling single sign-on, multi-factor authentication, and identity governance for a company's employees (Workforce Identity) and, via Auth0, for the logins inside companies' own apps (Customer Identity). It sells multi-year SaaS subscriptions. FY2026 (ended Jan 2026) revenue grew ~12% with Q4 revenue of $761M, subscription RPO (backlog) of $4.83B, and free cash flow strength.",
+    "as_of": "2026-09-05",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Okta is the largest independent identity and access management vendor. It sells cloud subscriptions (98% of FY2026 revenue of $2.919bn, +12%) that let organisations authenticate and authorise (a) their employees and contractors — Workforce Identity: single sign-on, MFA, lifecycle/governance, privileged access — and (b) their end customers and AI agents via Customer Identity, sold as Okta Customer Identity and the developer-focused Auth0 platform. Pricing is per user/per monthly active user; 5,100 customers spend over $100k a year and account for ~85% of ACV, out of 20,000+ total customers.",
     "revenue_mix": [
       {
-        "segment": "Subscription (Workforce Identity + Customer Identity/Auth0)",
-        "share_pct": 98,
+        "segment": "Workforce Identity Cloud (SSO, MFA, Identity Governance, Privileged Access, Device Access; approx)",
+        "share_pct": 60,
+        "trend": "stable"
+      },
+      {
+        "segment": "Customer Identity — Auth0 platform + Okta Customer Identity (approx)",
+        "share_pct": 38,
         "trend": "growing"
       },
       {
-        "segment": "Professional services & other",
+        "segment": "Professional services and other",
         "share_pct": 2,
         "trend": "stable"
       }
@@ -7783,62 +7782,64 @@
     "geo_mix": [
       {
         "region": "United States",
-        "share_pct": 78
+        "share_pct": 79
       },
       {
-        "region": "EMEA",
-        "share_pct": 13
-      },
-      {
-        "region": "APAC & Other (incl. Americas ex-US)",
-        "share_pct": 9
+        "region": "International (EMEA, APAC, Americas ex-US)",
+        "share_pct": 21
       }
     ],
     "end_markets": [
-      "Enterprise IT / workforce access management",
-      "Software & technology companies (developer Auth0/CIAM)",
-      "Financial services",
-      "Public sector & government (FedRAMP)",
-      "Healthcare, retail & education"
+      "Enterprise IT/security teams replacing on-prem AD/legacy IAM with cloud SSO and MFA",
+      "Developers embedding login/authorisation into consumer and B2B SaaS apps (Auth0)",
+      "Identity governance and privileged access (upsell into the Workforce base)",
+      "Securing non-human identities — AI agents, service accounts, API keys (Okta for AI Agents, Auth0 Auth for GenAI)",
+      "US federal and public sector (FedRAMP High, Okta for Government)"
     ],
     "top_competitors": [
-      "Microsoft (Entra ID / Azure AD)",
-      "Ping Identity (Thoma Bravo)",
-      "CyberArk (privileged/identity security)",
-      "SailPoint (governance)",
-      "ForgeRock (now part of Ping)",
-      "AWS Cognito (in CIAM)"
+      "Microsoft Entra ID (bundled with M365 E3/E5 — largest threat)",
+      "Ping Identity / ForgeRock (Thoma Bravo)",
+      "CyberArk (now part of Palo Alto Networks) and SailPoint in PAM/IGA",
+      "Cisco Duo",
+      "Amazon Cognito, Firebase Auth, Clerk, Descope (developer CIAM)",
+      "Google Workspace identity / JumpCloud (SMB)"
     ],
     "moat": {
-      "type": "Vendor-neutral integration network + identity-as-control-plane stickiness",
-      "narrative": "Okta's value is being independent of any single cloud — its Integration Network of 7,000+ pre-built app connectors makes it the neutral identity layer that Microsoft-skeptical enterprises prefer, and once identity is wired into every app and workflow, ripping it out is highly disruptive (high switching costs, multi-year contracts). New products like Okta Identity Governance, Privileged Access, and Auth0 for AI Agents expand wallet share on the same control plane."
+      "type": "Neutral integration network + switching costs",
+      "narrative": "Okta's advantage is the Okta Integration Network — 7,000+ pre-built app and infrastructure integrations — and vendor neutrality across Microsoft, Google, AWS and Salesforce estates, which enterprises with heterogeneous stacks value over Entra's Microsoft-centric bundle. Identity is deeply wired into onboarding, offboarding and every login, so ripping it out is a multi-year project with security risk; gross retention is in the high-90s. Auth0 gives a developer-led wedge into customer-facing apps. The moat is real but bounded: Microsoft can price identity at zero inside E5, which caps Okta's pricing power in the commodity SSO/MFA layer."
     },
     "key_customers": [
-      "~20,000 customers including large enterprises across FedRAMP-authorized public sector",
-      "Referenced users include FedEx, T-Mobile, JetBlue, and major banks/SaaS firms (Auth0 powering app logins)",
-      "Broad base; growth skewing to large $100K+/$1M+ accounts and Auth0 expansion"
+      "FedEx, T-Mobile, Zoom, Hitachi, JetBlue (Workforce Identity references)",
+      "Large SaaS and consumer apps using Auth0 (e.g., Atlassian, Mazda, Pfizer digital properties)",
+      "US federal agencies under Okta for Government",
+      "No customer above 10% of revenue; 5,100 customers >$100k ACV"
     ],
     "key_risks": [
-      "Microsoft Entra ID bundled into E5/M365 licensing is a powerful 'free-with-suite' competitor that pressures Workforce pricing and net retention",
-      "Security-trust sensitivity after the late-2023 support-system breach raised scrutiny of an identity vendor's own security posture",
-      "Decelerating growth (~11-12%) and seat-based exposure to customer headcount and IT-budget softness",
-      "CIAM/Auth0 competition from hyperscaler-native identity (AWS Cognito, Azure AD B2C) and execution risk integrating new governance/PAM products"
+      "Microsoft Entra bundling erodes new-logo wins and pricing in mid-market; seat-based pricing is exposed if AI shrinks customer headcount",
+      "Growth decelerating to ~10-12% with net revenue retention drifting toward ~106%; multiple depends on Identity Governance/PAM/agent-identity upsell working",
+      "Trust: the 2022 Lapsus$ incident and October 2023 support-system breach damaged brand for a security vendor; another breach would be costly",
+      "Integration debt from running two platforms (Okta and Auth0) with separate sales motions",
+      "Non-human/agent identity is an open race — Microsoft, CyberArk/Palo Alto and startups are all targeting it"
     ],
     "sources": [
       {
-        "label": "Okta Q4 & FY2026 results (IR)",
-        "url": "https://www.okta.com/newsroom/press-releases/okta-announces-fourth-quarter-fiscal-year-2026-financial-results/"
+        "label": "Okta Q4 and FY2026 results (4 Mar 2026)",
+        "url": "https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-Announces-Fourth-Quarter-And-Fiscal-Year-2026-Financial-Results/"
       },
       {
-        "label": "Okta FY2026 Q4 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001660134/000166013426000016/okta-1312026_ex991.htm"
+        "label": "Okta Form 10-K FY2026 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000020/okta-20260131.htm"
       },
       {
-        "label": "Okta Q3 FY2026 results",
-        "url": "https://www.okta.com/newsroom/press-releases/okta-announces-third-quarter-fiscal-year-2026-financial-results/"
+        "label": "Okta Q2 FY2027 posted commentary (Aug 2026)",
+        "url": "https://s205.q4cdn.com/566291348/files/doc_financials/2027/q2/Q2FY27PostedCommentaryforwebsite.pdf"
+      },
+      {
+        "label": "Okta Identity Security Fabric announcement",
+        "url": "https://www.okta.com/newsroom/press-releases/new-okta-innovations-secure-the-ai-driven-enterprise-and-combat-/"
       }
     ],
-    "last_refreshed": "2026-06-28"
+    "last_refreshed": "2026-09-05"
   },
   "EZJ.L": {
     "ticker": "EZJ.L",
@@ -11683,22 +11684,22 @@
   "WDAY": {
     "ticker": "WDAY",
     "company": "Workday, Inc.",
-    "as_of": "2026-08-15",
+    "as_of": "2026-09-05",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Workday runs the HR and finance system of record for large enterprises — payroll, benefits, recruiting, workforce planning in HCM, and general ledger, procurement and planning in Financial Management — delivered as a single multi-tenant cloud with two mandatory upgrades a year. It bills a subscription per worker under multi-year contracts. FY2026 (ended 31 January 2026) revenue was $9.55bn, up 13.1%, of which $8.83bn was subscription, with non-GAAP operating margin of 29.6%.",
+    "company_overview": "Workday sells cloud software that large and mid-sized organisations use to run HR (Human Capital Management — payroll, talent, workforce management) and finance (Financial Management, Adaptive Planning, spend and procurement). It earns multi-year, per-employee subscriptions (92% of FY2026 revenue of $9.55bn; subscription $8.83bn, +14.5%) plus implementation services, from 11,500+ customers including 65%+ of the Fortune 500 and 7,000+ core HCM/Financials accounts. Since 2024 it has been layering AI agents (Illuminate, Agent System of Record) and acquisitions — Sana, Paradox, Pipedream — onto the platform.",
     "revenue_mix": [
       {
-        "segment": "Subscription services — HCM (approx two-thirds of subscription base)",
-        "share_pct": 61,
+        "segment": "Subscription services — HCM suite (payroll, talent, workforce mgmt; approx)",
+        "share_pct": 62,
         "trend": "stable"
       },
       {
-        "segment": "Subscription services — Financial Management, Planning, Analytics",
-        "share_pct": 31,
+        "segment": "Subscription services — Financial Management, Planning (Adaptive), Spend, Analytics (approx)",
+        "share_pct": 30,
         "trend": "growing"
       },
       {
-        "segment": "Professional services (deployment and training)",
+        "segment": "Professional services (implementation, training)",
         "share_pct": 8,
         "trend": "declining"
       }
@@ -11709,61 +11710,62 @@
         "share_pct": 75
       },
       {
-        "region": "International (EMEA, APAC, Canada — not further split in headline disclosure)",
+        "region": "International (UK, Europe, Canada, ANZ, Japan)",
         "share_pct": 25
       }
     ],
     "end_markets": [
-      "Large enterprise HR and payroll (Fortune 500 core market)",
-      "Enterprise financial management and accounting",
-      "Healthcare systems and universities",
-      "US federal, state and local government",
-      "Professional services and technology firms"
+      "Large enterprise HR and payroll (Fortune 500 / Global 2000)",
+      "Medium enterprise via Workday Launch and partner-led deployments",
+      "CFO office — core financials, planning, procurement (cross-sell into HCM base)",
+      "Higher education, healthcare, state and local government, US federal (Workday Government Cloud)",
+      "AI agents for HR/finance workflows (Illuminate, Sana knowledge agents, Paradox recruiting)"
     ],
     "top_competitors": [
-      "Oracle Fusion HCM/ERP Cloud (~15% HR software share vs Workday ~13%)",
-      "SAP SuccessFactors and S/4HANA via RISE bundling",
-      "ADP",
-      "Dayforce (formerly Ceridian)",
-      "UKG",
-      "Microsoft Dynamics 365",
-      "Rippling (attacking from mid-market upward)"
+      "SAP SuccessFactors / S/4HANA Cloud",
+      "Oracle Fusion Cloud HCM and ERP",
+      "ADP, UKG, Dayforce (payroll/workforce management)",
+      "Rippling, Deel, Paycom (mid-market HR, increasingly moving upmarket)",
+      "Microsoft Dynamics 365, NetSuite (finance)",
+      "Anaplan, Pigment (planning)"
     ],
     "moat": {
-      "type": "System of record with punitive replacement economics",
-      "narrative": "Workday holds the authoritative employee and financial record for over 11,500 organisations, including more than 7,000 running both HCM and Financials, and a replacement means an 18-24 month reimplementation, re-integrating payroll, benefits carriers and the GL, and retraining the whole HR and finance function. That is reinforced by an entrenched systems-integrator bench — Deloitte, Accenture, PwC, Kainos — whose consultants are certified on Workday and who steer new deals toward it. The genuine vulnerability is pricing, not architecture."
+      "type": "System-of-record switching costs + unified data model",
+      "narrative": "Workday is the HR system of record for over a third of Fortune 500 employees; replacing it means re-implementing payroll, benefits and compliance across countries — a 12-24 month, eight-figure project that almost no CHRO volunteers for, hence gross retention above 97%. Its single-tenant-per-object data model (one codebase, one data set for HR and finance) is genuinely hard for SAP/Oracle to replicate and makes its AI agents more useful because they sit on clean, unified people and finance data. The vulnerability is pricing: per-seat contracts are exposed if AI shrinks white-collar headcount, and Workday must pivot to agent/consumption pricing without cannibalising itself."
     },
     "key_customers": [
-      "More than 11,500 customers globally, including 7,000+ running both Workday HCM and Financial Management",
-      "Netflix",
-      "Salesforce",
-      "Target",
-      "Bank of America",
-      "Sanofi",
-      "US Department of Education and other federal agencies"
+      "Walmart (largest HCM deployment, ~2m employees)",
+      "Amazon, Bank of America, Target, Netflix (HCM)",
+      "Sanofi, Rolls-Royce, AstraZeneca (HCM + Financials)",
+      "Salesforce (long-standing HCM/Financials reference)",
+      "US federal agencies via Workday Government Cloud"
     ],
     "key_risks": [
-      "Per-worker subscription pricing is directly levered to white-collar headcount growth at customers — a hiring freeze is a revenue freeze, and AI agents are being sold explicitly on reducing seat counts",
-      "Growth has decelerated to 13% with subscription at 14.5%, so the story has shifted from growth to margin expansion (non-GAAP margin up ~370bps YoY)",
-      "SAP's RISE program bundles SuccessFactors with full ERP at migration discounts, and Oracle already leads HR software share",
-      "Financial Management attach into the HCM base has been slower than management targeted; Oracle and SAP defend the GL far harder than they defend HR",
-      "US federal, higher-education and healthcare deal cycles have elongated on budget uncertainty"
+      "Seat-based revenue model faces structural headwind if enterprise headcount flattens due to AI — CEO Eshbach has flagged slower customer headcount growth",
+      "Subscription growth decelerating to low-teens; activist Elliott Management holds >$2bn stake pushing for margin and buyback discipline",
+      "Rippling, Deel and Oracle are winning mid-market and international deals with lower price points and integrated payroll",
+      "Acquisition integration (Sana $1.1bn, Paradox, Pipedream, Evisort) and ~$1bn+ annual SBC diluting the AI narrative",
+      "Long implementation cycles and partner-dependence (Accenture, Deloitte, KPMG) slow time-to-value versus lighter competitors"
     ],
     "sources": [
       {
-        "label": "Workday FY2026 Q4 and full year results (8-K Ex-99.1)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-01312026x991.htm"
+        "label": "Workday Q4 and FY2026 results (24 Feb 2026)",
+        "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results/default.aspx"
       },
       {
-        "label": "Workday FY2026 Q4 earnings release PDF",
-        "url": "https://s21.q4cdn.com/950027458/files/doc_earnings/2026/q4/Earnings-Release-Q4FY26-022426_FOR-UPLOAD.pdf"
+        "label": "Workday Form 10-K FY2026 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm"
       },
       {
-        "label": "Workday Q2 FY2026 prepared remarks",
-        "url": "https://s21.q4cdn.com/950027458/files/doc_financials/2026/q2/workday-fiscal-2026-second-quarter-prepared-remarks.pdf"
+        "label": "Workday Q1 FY2027 results (21 May 2026)",
+        "url": "https://newsroom.workday.com/2026-05-21-Workday-Announces-Fiscal-2027-First-Quarter-Financial-Results"
+      },
+      {
+        "label": "Workday revenue by geography (Bullfincher)",
+        "url": "https://bullfincher.io/companies/workday/revenue-by-geography"
       }
     ],
-    "last_refreshed": "2026-08-15"
+    "last_refreshed": "2026-09-05"
   },
   "RBRK": {
     "ticker": "RBRK",
@@ -11859,91 +11861,89 @@
   "ESTC": {
     "ticker": "ESTC",
     "company": "Elastic N.V.",
-    "as_of": "2026-08-15",
+    "as_of": "2026-09-05",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Elastic commercialises Elasticsearch, the open-source distributed search and analytics engine that also functions as a vector database, and packages it into three paid solutions: Search AI (application search and RAG retrieval), Observability (logs, metrics, APM) and Security (SIEM and endpoint). Customers either self-manage the software under a paid licence or buy consumption-based Elastic Cloud. FY2026 (ended 30 April 2026) revenue was $1.74bn, up 17%, with subscriptions at 94% of revenue and Elastic Cloud at 48% of total.",
+    "company_overview": "Elastic sells the Elasticsearch-based 'Search AI Platform' used for three workloads: enterprise/application search (including vector and hybrid search for generative-AI/RAG apps), observability (logs, metrics, APM) and security (SIEM, endpoint). It makes money from subscriptions (94% of FY2026 revenue of $1.739bn), either as Elastic Cloud consumption on AWS/Azure/GCP (48% of revenue, growing 22%) or as self-managed licences. Revenue is ~54% US and 46% international; 1,720+ customers pay over $100k a year and 240+ pay over $1m.",
     "revenue_mix": [
       {
-        "segment": "Elastic Cloud (consumption-based managed service)",
-        "share_pct": 48,
+        "segment": "Elastic Cloud — annual commitments (Cloud Hosted + Serverless)",
+        "share_pct": 37,
         "trend": "growing"
       },
       {
-        "segment": "Self-managed and other subscriptions",
+        "segment": "Elastic Cloud — monthly self-serve (credit card)",
+        "share_pct": 11,
+        "trend": "declining"
+      },
+      {
+        "segment": "Self-managed subscriptions (on-prem / customer-run licences)",
         "share_pct": 46,
         "trend": "stable"
       },
       {
-        "segment": "Professional services",
+        "segment": "Professional services and training",
         "share_pct": 6,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States (approx)",
-        "share_pct": 55
+        "region": "United States",
+        "share_pct": 54
       },
       {
-        "region": "EMEA (approx — Elastic is Dutch-domiciled with a large European base)",
-        "share_pct": 30
-      },
-      {
-        "region": "Asia Pacific and other (approx)",
-        "share_pct": 15
+        "region": "Rest of world (EMEA-weighted; approx split)",
+        "share_pct": 46
       }
     ],
     "end_markets": [
-      "Application and site search / enterprise retrieval for RAG and AI agents",
-      "Log analytics and observability",
-      "SIEM and security analytics",
-      "Public sector and defence (FedRAMP-authorised Elastic Cloud for Government)",
-      "E-commerce and marketplace search relevance"
+      "Generative AI / RAG application search (vector database, ELSER, Elasticsearch Relevance Engine)",
+      "Observability — log analytics, APM, infrastructure monitoring",
+      "Security analytics — SIEM, endpoint, Attack Discovery",
+      "US federal and public sector (FedRAMP High on AWS GovCloud)",
+      "E-commerce and site/workplace search"
     ],
     "top_competitors": [
-      "Splunk (Cisco) in SIEM and log analytics",
-      "Datadog and Dynatrace in observability",
-      "AWS OpenSearch — a direct fork of Elasticsearch, the sharpest competitive threat",
-      "Grafana Labs (Loki/Mimir)",
-      "Microsoft Sentinel and CrowdStrike Falcon LogScale in SIEM",
-      "Pinecone, Weaviate and MongoDB Atlas Vector Search in retrieval"
+      "Splunk / Cisco (logs, SIEM)",
+      "Datadog and Dynatrace (observability)",
+      "CrowdStrike Falcon Next-Gen SIEM, Microsoft Sentinel, Google SecOps (security)",
+      "AWS OpenSearch (open-source fork of Elasticsearch)",
+      "Pinecone, Weaviate, MongoDB Atlas Vector Search, Databricks (vector search)",
+      "Algolia, Coveo (commerce/site search)"
     ],
     "moat": {
-      "type": "Developer install base and default status — weakened by the OpenSearch fork",
-      "narrative": "Elasticsearch is the default answer for full-text search in most engineering organisations, with tens of millions of downloads and a decade of accumulated tooling, Logstash/Beats pipelines and index mappings that make migration painful — and the vector search capability let it stay relevant for RAG without customers adopting a separate vector DB. But the moat has a visible hole: AWS forked the codebase into OpenSearch in 2021 and offers a free managed equivalent, which is precisely why Elastic relicensed under AGPL in 2024 to reclaim the open-source label. The moat is habit and ecosystem, not exclusivity."
+      "type": "Open-source developer standard + data gravity",
+      "narrative": "Elasticsearch is the default search engine for a generation of developers (hundreds of millions of downloads; now AGPL-licensed again to win back the community), and once an enterprise's logs, security telemetry and product catalogue sit in an Elastic index, migrating is painful. That installed base gives Elastic a cheap on-ramp to sell vector/hybrid search for GenAI on data customers already hold. The weakness is that AWS OpenSearch offers a free fork and hyperscalers and Datadog bundle adjacent observability — so the moat is workflow stickiness and search relevance IP, not exclusivity."
     },
     "key_customers": [
-      "~24,000 total customers; 1,720+ spending over $100k annually; 240+ spending over $1m",
-      "Uber",
-      "Cisco",
-      "Booking.com",
-      "Adobe",
-      "Verizon",
-      "T-Mobile",
-      "Audi"
+      "Cisco (search across product and support experiences)",
+      "Adobe, Booking.com, Uber (search and observability references)",
+      "US Department of Defense and federal civilian agencies (FedRAMP High)",
+      "Stack Overflow, DocuSign, T-Mobile",
+      "No single customer above 10% of revenue"
     ],
     "key_risks": [
-      "AWS OpenSearch offers a free, managed fork of Elastic's own engine and directly caps pricing power in the cloud",
-      "Net expansion rate at 112% is below software peers and indicates modest expansion within the installed base",
-      "Consumption-based Elastic Cloud revenue is volatile quarter to quarter as customers tune log retention and ingest to cut cost",
-      "Observability is a two-front war against Datadog and Splunk/Cisco, both of which outspend Elastic on go-to-market",
-      "Vector-native databases and hyperscaler retrieval services threaten the Search AI positioning that underpins the reacceleration thesis"
+      "Consumption-based Cloud revenue is exposed to customer cost-optimisation cycles (monthly Cloud fell 4% YoY in Q4 FY2026)",
+      "Hyperscaler forks and bundles — AWS OpenSearch is free, and Datadog/CrowdStrike/Microsoft bundle logs and SIEM into broader platforms",
+      "GenAI search could commoditise: purpose-built vector DBs and Databricks/Snowflake embedding search into the data platform",
+      "Go-to-market execution after the FY2025 sales-territory reorganisation that stalled growth; sales-led subscription growth of 20% must be sustained to justify multiple",
+      "Dutch N.V. domicile and dual open-source licensing controversies can affect community adoption"
     ],
     "sources": [
       {
-        "label": "Elastic FY2026 Form 10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000018/estc-20260430.htm"
-      },
-      {
-        "label": "Elastic Q4 and FY2026 results (IR)",
+        "label": "Elastic Q4 and FY2026 results (28 May 2026)",
         "url": "https://ir.elastic.co/News--Events/news/news-details/2026/Elastic-Reports-Fourth-Quarter-and-Fiscal-2026-Financial-Results/default.aspx"
       },
       {
-        "label": "Elastic Q4 FY2026 earnings call transcript",
-        "url": "https://www.roic.ai/quote/ESTC/transcripts/2026-year/4-quarter"
+        "label": "Elastic N.V. Form 10-K FY2026 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000018/estc-20260430.htm"
+      },
+      {
+        "label": "Elastic FY2026 10-K summary (TradingView)",
+        "url": "https://www.tradingview.com/news/tradingview:60063553926b1:0-elastic-n-v-fy-2026-revenue-1-74b-eps-3-43-10-k-summary/"
       }
     ],
-    "last_refreshed": "2026-08-15"
+    "last_refreshed": "2026-09-05"
   },
   "THC": {
     "ticker": "THC",
@@ -12557,89 +12557,86 @@
   },
   "FRO.OL": {
     "ticker": "FRO.OL",
-    "company": "Frontline plc (Oslo Børs listing; also NYSE: FRO)",
-    "as_of": "2026-08-26",
+    "company": "Frontline plc",
+    "as_of": "2026-09-05",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Frontline owns and operates large crude oil and refined-product tankers and rents them out, mostly on the spot market where the daily rate resets voyage by voyage. As of 31 December 2025 the fleet was 80 owned vessels of about 17.6m dwt — 41 VLCCs, 21 Suezmaxes and 18 LR2/Aframaxes — with an average age of 7.5 years, 100% eco-design and 57% scrubber-fitted. FY2025 revenue was $1.97bn with net income of $379m; Q4 2025 alone produced $227.9m of profit and a $1.03 per share dividend. Control sits with the Fredriksen family's Hemen Holding.",
+    "company_overview": "Frontline is one of the world's largest crude and product tanker owners, operating a young (avg ~7.5 years), 100% eco-design fleet of roughly 40 VLCCs, ~19 Suezmaxes and 18 LR2/Aframax tankers. It earns almost entirely from spot voyage charters (2025: $1.88bn voyage revenue vs $72m time-charter revenue), so earnings are a direct function of daily tanker rates (TCE) minus a cash breakeven of ~$23-26k/day per vessel. Controlled by John Fredriksen's Hemen Holding (~36%), it pays out essentially all adjusted earnings as quarterly dividends ($2.61/share for Q2 2026) and recycles the fleet through sale-and-newbuild swaps.",
     "revenue_mix": [
       {
-        "segment": "VLCC (very large crude carriers, 41 vessels) — approx, TCE-weighted",
-        "share_pct": 63,
+        "segment": "VLCC segment (crude, 2m bbl; approx share of TCE revenue)",
+        "share_pct": 55,
         "trend": "growing"
       },
       {
-        "segment": "Suezmax (21 vessels) — approx, TCE-weighted",
-        "share_pct": 24,
+        "segment": "Suezmax segment (crude, 1m bbl; approx)",
+        "share_pct": 27,
         "trend": "stable"
       },
       {
-        "segment": "LR2 / Aframax product tankers (18 vessels) — approx, TCE-weighted",
-        "share_pct": 13,
+        "segment": "LR2 / Aframax segment (clean products and crude; approx)",
+        "share_pct": 18,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Middle East Gulf to Asia (approx — not disclosed by region; spot trade estimate)",
+        "region": "Middle East Gulf to Asia crude trade lanes (approx share of employment)",
         "share_pct": 45
       },
       {
-        "region": "Atlantic (US Gulf, Brazil, West Africa) to Asia and Europe (approx)",
+        "region": "Atlantic Basin (US Gulf, Brazil, West Africa exports) (approx)",
         "share_pct": 35
       },
       {
-        "region": "Intra-Atlantic, Mediterranean and other (approx)",
+        "region": "Other / product trades (approx)",
         "share_pct": 20
       }
     ],
     "end_markets": [
-      "Seaborne crude oil transport for oil majors, national oil companies and commodity traders",
-      "Clean petroleum products — naphtha, jet, diesel — on the LR2 fleet",
-      "Period time-charter contracts (eight VLCCs fixed on one-year charters at high daily rates in early 2026)",
-      "Secondhand vessel asset trading — eight older eco VLCCs sold for $831.5m"
+      "Seaborne crude oil transport for oil majors, national oil companies and refiners",
+      "Commodity trading houses chartering spot tonnage",
+      "Refined product (clean) trades via LR2 fleet",
+      "Period time-charters to majors/traders when rates are high (seven VLCCs fixed at ~$77k/day, newbuilds at $120k/day)"
     ],
     "top_competitors": [
-      "DHT Holdings — pure-play VLCC owner, closest comparable",
-      "International Seaways — mixed crude and product fleet, US-listed",
-      "Okeanis Eco Tankers — younger, similarly eco-focused VLCC/Suezmax fleet",
-      "CMB.TECH (formerly Euronav) — large crude fleet, diverging into decarbonisation assets",
-      "Teekay Tankers, Tsakos Energy Navigation, Nordic American Tankers",
-      "The sanctioned 'shadow fleet' of 400+ tankers, which competes for cargoes outside compliant markets"
+      "DHT Holdings (pure VLCC)",
+      "CMB.TECH (ex-Euronav)",
+      "International Seaways",
+      "Teekay Tankers",
+      "Okeanis Eco Tankers",
+      "Hafnia / Torm / Scorpio (product tankers)"
     ],
     "moat": {
-      "type": "None structural — cost position and fleet vintage only",
-      "narrative": "Commodity-like dynamics: a VLCC is a VLCC, and the spot rate is set globally with no customer lock-in. What Frontline actually owns is a cost and timing edge — a 7.5-year-average, 100% eco, 57% scrubber-fitted fleet with a fleet-wide cash breakeven of about $24,300/day ($25,000 VLCC, $23,700 Suezmax, $23,800 LR2), among the lowest of the listed peers, so it stays cash-generative deeper into a downcycle than older tonnage. Add Fredriksen-network access to shipyard slots and secondhand deals. That is execution and balance sheet, not a moat — the equity is a leveraged call on the tanker cycle."
+      "type": "Commodity shipping — moat is fleet quality, cost of capital and capital-allocation discipline, not structural",
+      "narrative": "Tanker freight is a pure commodity; no owner has pricing power. Frontline's edge is a modern, scrubber-fitted eco fleet that earns a premium of several thousand dollars/day over older tonnage and is preferred by majors' vetting, a very low cash breakeven (~$24k/day VLCC after refinancing cut margins to 126bps), and the Fredriksen platform's ability to buy and sell ships counter-cyclically (e.g. selling eight 2015-16 VLCCs for $831m and buying nine newbuilds for $1.22bn). This produces superior through-cycle returns but does not protect against a rate collapse."
     },
     "key_customers": [
-      "Oil majors and national oil companies chartering VLCCs and Suezmaxes on a voyage basis — the typical counterparty set includes Saudi Aramco/Bahri, Shell, ExxonMobil, TotalEnergies and Chevron",
-      "Chinese and Indian refiners and their trading arms — Unipec/Sinopec, PetroChina, Reliance",
-      "Commodity trading houses — Vitol, Trafigura, Glencore",
-      "Time-charter counterparties on the eight VLCCs fixed for one year in the 2026 fleet-renewal programme"
+      "Oil majors and NOCs (Shell, Equinor, Sinopec/Unipec, Saudi Aramco affiliates) — charterers not individually disclosed",
+      "Commodity traders (Vitol, Trafigura, Glencore)",
+      "Refiners in China, India, South Korea and Japan on MEG-East VLCC voyages"
     ],
     "key_risks": [
-      "The whole equity story is one number: Q4 2025 VLCC spot TCE of $74,200/day against a $25,000/day cash breakeven — a reversion toward breakeven eliminates both earnings and the variable dividend, which is paid out of quarterly cash flow",
-      "OPEC+ production decisions set tonne-mile demand directly; a cut in Middle East Gulf barrels removes the highest-value long-haul cargoes",
-      "Sanctions are a two-way risk — continued enforcement on Russian, Iranian and Venezuelan trades keeps shadow-fleet tonnage out of the compliant market, but a Russia peace deal or sanctions relief would release hundreds of tankers back into competition overnight",
-      "Newbuild orderbook: heavy 2024–25 VLCC ordering across the industry delivers into 2027–2028, precisely when Frontline's own nine newbuilds arrive",
-      "Fleet-renewal capex timing — $1.224bn committed for nine scrubber-fitted VLCC newbuilds against $831.5m of disposals, leaving a funding gap to be financed near the cycle top",
-      "Hemen Holding / Fredriksen control and related-party dealings with SFL Corporation, Golden Ocean and Seatankers limit minority influence",
-      "Oslo listing means NOK/USD translation for local holders while all earnings are USD"
+      "Extreme rate cyclicality — VLCC spot TCE swung from $34k/day (Q3 2025) to $153k/day (Q2 2026); a Middle East ceasefire or Strait of Hormuz normalisation would remove the current premium",
+      "Orderbook risk: elevated rates are pulling newbuild orders; deliveries from 2027-28 could erode the tight supply that underpins the thesis",
+      "OPEC+ production decisions and Chinese crude import demand drive tonne-mile demand",
+      "Related-party governance — newbuild purchases from Hemen (largest shareholder) and management services via Frontline Management AS",
+      "Sanctions/shadow-fleet dynamics and IMO/EU decarbonisation rules (FuelEU, ETS) that could raise costs or strand older assets"
     ],
     "sources": [
       {
-        "label": "Frontline Q4 and FY2025 results",
+        "label": "Frontline Q2 2026 results (28 Aug 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/08/28/3352492/0/en/fro-second-quarter-and-six-months-2026-results.html"
+      },
+      {
+        "label": "Frontline Q4 and FY2025 results (27 Feb 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/02/27/3246279/0/en/FRO-Fourth-Quarter-and-Full-Year-2025-Results.html"
+      },
+      {
+        "label": "Frontline plc investor site",
         "url": "https://www.frontlineplc.cy/fro-fourth-quarter-and-full-year-2025-results/"
-      },
-      {
-        "label": "Frontline plc FY2025 Form 20-F",
-        "url": "https://www.sec.gov/Archives/edgar/data/913290/000162828026021774/fro-20251231.htm"
-      },
-      {
-        "label": "Frontline Q4 2025 earnings call transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/02/27/frontline-fro-q4-2025-earnings-call-transcript/"
       }
     ],
-    "last_refreshed": "2026-08-26"
+    "last_refreshed": "2026-09-05"
   },
   "BLKB": {
     "ticker": "BLKB",
@@ -13762,5 +13759,279 @@
       }
     ],
     "last_refreshed": "2026-08-29"
+  },
+  "CMCX.L": {
+    "ticker": "CMCX.L",
+    "company": "CMC Markets plc",
+    "as_of": "2026-09-05",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "CMC Markets runs an online trading and investing platform: it makes money mainly from the bid-offer spread and financing on leveraged CFDs and spread bets (net trading revenue £289.5m in FY2026, ~74% of £392.6m net operating income), plus commissions on cash equities stockbroking in Australia and the UK (net investing revenue £57.8m, +30%), and interest earned on client and own cash. A majority of income now comes from B2B/institutional 'platform-as-a-service' partnerships (ANZ, Revolut, Westpac, ASB) rather than direct retail clients, with CMC providing pricing, execution, custody and risk management under the partner's brand.",
+    "revenue_mix": [
+      {
+        "segment": "Net trading revenue (CFDs, spread bets, FX, crypto; B2C + B2B liquidity)",
+        "share_pct": 74,
+        "trend": "growing"
+      },
+      {
+        "segment": "Net investing revenue (Australia + UK stockbroking, incl. ANZ white-label)",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Interest income, treasury and other (approx)",
+        "share_pct": 11,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "UK & Ireland (approx)",
+        "share_pct": 35
+      },
+      {
+        "region": "Australia, NZ & Singapore (approx; stockbroking alone A$140m)",
+        "share_pct": 32
+      },
+      {
+        "region": "Europe ex-UK (Germany, Austria, Poland, Spain, France; approx)",
+        "share_pct": 18
+      },
+      {
+        "region": "Canada, Middle East & other (approx)",
+        "share_pct": 15
+      }
+    ],
+    "end_markets": [
+      "Active retail and professional leveraged traders (CFDs, spread bets, FX, indices, commodities, crypto)",
+      "Mass-market self-directed investors via bank/neobank partners (ANZ Share Investing, Westpac from FY2027, Revolut)",
+      "Institutional liquidity, prime-of-prime and white-label brokerage (CMC Connect)",
+      "Private markets / pre-IPO investing (CMC CapX) and digital-asset infrastructure"
+    ],
+    "top_competitors": [
+      "IG Group (UK/Australia CFD leader)",
+      "Plus500",
+      "Saxo Bank (B2B platform partnerships)",
+      "Interactive Brokers",
+      "Hargreaves Lansdown / Trading 212 (UK investing)",
+      "eToro"
+    ],
+    "moat": {
+      "type": "Proprietary technology stack + embedded B2B distribution",
+      "narrative": "CMC owns its full front-to-back platform (pricing engine, execution, custody, risk) built over 25+ years, which lets it plug in as the invisible infrastructure behind bank and neobank brokerages — ANZ Share Investing (~500k accounts, live since 2018), Revolut's API partnership, and Westpac (A$39bn AUA, half a million accounts) and ASB launching within 12 months. Once a bank migrates its client book onto CMC's stack, switching costs are high and CMC earns on flow without acquisition cost. The retail CFD side is more commodity-like — moat there is execution quality, spreads and regulatory licences rather than structure."
+    },
+    "key_customers": [
+      "ANZ Bank (Australian share-investing white label, largest single partner)",
+      "Westpac and St George (Australian stockbroking migration, launching FY2027)",
+      "ASB Bank (New Zealand)",
+      "Revolut (neobank API partnership for trading/CFDs in Europe)",
+      "Currys (UK retail partnership for CMC Invest UK)",
+      "~2 million retail and professional traders/investors globally"
+    ],
+    "key_risks": [
+      "Founder control: Lord Peter Cruddas (CEO) and family hold a majority of the equity, limiting minority influence and board independence",
+      "Regulatory tightening on leveraged retail products — FCA/ASIC leverage caps, ASIC design-and-distribution rules, and an Australian client remediation charge booked in H1 FY2026",
+      "Trading revenue is volatility-dependent; calm markets (as in FY2023) cut net trading revenue sharply while the cost base (~£225m+) is largely fixed",
+      "Execution risk on the Westpac/ASB migrations and Super App rollout — delays would defer the FY2027 growth story that drove the shares",
+      "Concentration in a handful of B2B partners (ANZ, Revolut, Westpac) — partner insourcing or renegotiated economics would hit income"
+    ],
+    "sources": [
+      {
+        "label": "CMC Markets preliminary results FY2026 (4 June 2026)",
+        "url": "https://www.cmcmarkets.com/group/press-releases/cmc-markets-releases-preliminary-results-for-the-year-ended-31-march-2026"
+      },
+      {
+        "label": "CMC Markets HY2026 RNS (Nov 2025)",
+        "url": "https://assets.ctfassets.net/qjd94rsxb7ou/5yxk6BCasbVfGmxu6rJU1/c9f562252328343c2928f0257152969f/cmc_markets_hy2026_rns_vF.pdf"
+      },
+      {
+        "label": "CMC Markets Annual Report FY2025",
+        "url": "https://downloads.ctfassets.net/qjd94rsxb7ou/6zR8ncTYTHL79Mx7eeWfQy/d9982a45391114d206077f20ad9de8b6/cmc_annual_report_fy25.pdf"
+      },
+      {
+        "label": "TradeInformer FY2026 coverage (trading vs investing split)",
+        "url": "https://tradeinformer.com/broker-news/cmc-markets-reports-record-profit-fy2026"
+      }
+    ],
+    "last_refreshed": "2026-09-05"
+  },
+  "WPP.L": {
+    "ticker": "WPP.L",
+    "company": "WPP plc",
+    "as_of": "2026-09-05",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "WPP is the world's second-largest advertising and marketing services group by revenue (2025 revenue £13.55bn; revenue less pass-through costs £10.18bn). It earns fees and commissions for planning and buying media (WPP Media, formerly GroupM — the largest media buyer globally), creating advertising and brand work (Ogilvy, VML, AKQA), producing content at scale (Hogarth), PR (Burson) and increasingly for data/AI-enabled marketing technology (WPP Open, Open Intelligence built on InfoSum). Under CEO Cindy Rose's 'Elevate28' plan it is collapsing a holding-company structure into four units: Media, Creative, Production and Enterprise Solutions.",
+    "revenue_mix": [
+      {
+        "segment": "Global Integrated Agencies — WPP Media (media planning/buying; approx)",
+        "share_pct": 38,
+        "trend": "declining"
+      },
+      {
+        "segment": "Global Integrated Agencies — creative, CX and production (Ogilvy, VML, AKQA, Hogarth; approx)",
+        "share_pct": 48,
+        "trend": "declining"
+      },
+      {
+        "segment": "Public Relations (Burson) and Specialist Agencies (CMI Media, Landor, Design Bridge; approx)",
+        "share_pct": 14,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 38
+      },
+      {
+        "region": "United Kingdom (approx)",
+        "share_pct": 14
+      },
+      {
+        "region": "Western Continental Europe (approx)",
+        "share_pct": 20
+      },
+      {
+        "region": "Rest of World (India growing, China -14% in 2025; approx)",
+        "share_pct": 28
+      }
+    ],
+    "end_markets": [
+      "Consumer packaged goods and retail advertisers (largest sector)",
+      "Technology and telecom brands",
+      "Healthcare and pharma (only sector to grow in 2025; CMI Media)",
+      "Automotive (Ford) and financial services",
+      "Enterprise AI/marketing transformation services (new Enterprise Solutions unit)"
+    ],
+    "top_competitors": [
+      "Omnicom (now merged with IPG — largest holding company)",
+      "Publicis Groupe (won Mars, Coca-Cola NA, Paramount media from WPP in 2025)",
+      "Dentsu",
+      "Havas",
+      "Accenture Song (marketing transformation)",
+      "Google/Meta/Amazon self-serve AI ad tools and client in-housing"
+    ],
+    "moat": {
+      "type": "Media-buying scale + entrenched multinational client relationships — eroding",
+      "narrative": "WPP's remaining structural advantage is the scale of WPP Media's buying power and the operational lock-in of running global, multi-brand accounts (Unilever, Ford, Google, Nestlé) across 100+ markets, plus proprietary first-party data collaboration via InfoSum/Open Intelligence. But the 2025 loss of Mars ($1.7bn), Coca-Cola North America and Paramount to Publicis shows media accounts are contestable, and generative AI is deflating fees for creative and production — the parts of WPP that carry the highest margins. Moat today is weakening scale, not technology."
+    },
+    "key_customers": [
+      "Unilever (long-standing global creative and media)",
+      "Ford (WPP's largest single client for decades)",
+      "Google/Alphabet",
+      "Nestlé",
+      "Pfizer and other pharma via CMI Media / Ogilvy Health",
+      "Top-25 clients declined 4.1% LFL in 2025"
+    ],
+    "key_risks": [
+      "Continued net new business losses — 2026 guidance is for mid-to-high single-digit LFL decline in H1 with a return to growth only 'during 2027'",
+      "Generative AI compressing creative and production fees faster than WPP can rebuild revenue via Enterprise Solutions",
+      "Balance sheet: 2.2x average net debt/EBITDA with ~£400m of Elevate28 restructuring cash costs and 2025 goodwill impairments of £641m; dividend cut to 15p",
+      "Publicis and Omnicom-IPG out-investing WPP in data/tech (Epsilon, Acxiom/Flywheel) and winning consolidation pitches",
+      "China exposure (-14% in 2025) and US tariff-driven client spend cuts in CPG"
+    ],
+    "sources": [
+      {
+        "label": "WPP 2025 Preliminary Results and Elevate28 strategy update (26 Feb 2026)",
+        "url": "https://www.wpp.com/en/news/2026/02/strategy-update-and-2025-preliminary-results"
+      },
+      {
+        "label": "WPP 2025 Preliminary Results PDF",
+        "url": "https://res.cloudinary.com/wpp-cloudinary/raw/upload/v1778567193/wpp/migrated/wpp-2025-preliminary-results-and-strategy-update.pdf"
+      },
+      {
+        "label": "WPP 2025 Form 20-F (via StockTitan)",
+        "url": "https://www.stocktitan.net/sec-filings/WPP/20-f-wpp-plc-files-annual-report-foreign-issuer-19a8f4ef0548.html"
+      },
+      {
+        "label": "Mars media loss to Publicis (afaqs)",
+        "url": "https://www.afaqs.com/news/advertising/after-coca-cola-wpp-loses-17-billion-mars-media-account-to-rival-publicis-9353466"
+      }
+    ],
+    "last_refreshed": "2026-09-05"
+  },
+  "NCNO": {
+    "ticker": "NCNO",
+    "company": "nCino, Inc.",
+    "as_of": "2026-09-05",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "nCino sells a cloud 'Bank Operating System' that banks and credit unions use to originate and manage loans, open accounts and onboard clients — commercial lending, small-business lending, consumer lending, treasury management onboarding and, via the former SimpleNexus, residential mortgage point-of-sale. It earns multi-year subscriptions (88% of FY2026 revenue of $594.8m; subscription $523.1m, +12%) priced on users and increasingly on customer asset size, plus implementation services. The core platform is built on Salesforce's Force.com. It serves 2,700+ customers, ~1,500 of them depository institutions, with ~22% of revenue from outside the US (UK/EMEA, Canada, ANZ, Japan).",
+    "revenue_mix": [
+      {
+        "segment": "Subscription — Commercial, Small Business, Consumer lending, Onboarding & Treasury (approx)",
+        "share_pct": 68,
+        "trend": "growing"
+      },
+      {
+        "segment": "Subscription — nCino Mortgage (ex-SimpleNexus point-of-sale; approx)",
+        "share_pct": 20,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional services (implementation, consulting)",
+        "share_pct": 12,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 78
+      },
+      {
+        "region": "International (UK & Ireland, EMEA/DACH, Canada, ANZ, Japan)",
+        "share_pct": 22
+      }
+    ],
+    "end_markets": [
+      "US community and regional banks ($1bn-$100bn assets) — core commercial lending base",
+      "Large/enterprise banks (top-40 US bank now on Mortgage + Commercial + Treasury)",
+      "Credit unions (consumer and indirect lending)",
+      "Independent mortgage banks and bank mortgage divisions (nCino Mortgage)",
+      "International SME and corporate lending (Santander UK, Barclays, DACH lighthouse account)"
+    ],
+    "top_competitors": [
+      "Q2 Holdings and Alkami (digital banking, adjacent lending)",
+      "Jack Henry, Fiserv, FIS (core providers extending into origination)",
+      "Temenos, Finastra (Loan IQ), Baker Hill, Abrigo (commercial lending)",
+      "ICE Mortgage Technology (Encompass), Blend, MeridianLink (mortgage/consumer POS)",
+      "Salesforce Financial Services Cloud (platform partner and potential competitor)"
+    ],
+    "moat": {
+      "type": "Workflow system-of-record for lending + regulatory/compliance embedding",
+      "narrative": "Once a bank moves commercial loan origination, covenant tracking and document management onto nCino, the platform becomes the workflow of record for relationship managers, credit and compliance — replacing it means re-training lenders and re-validating regulatory processes, so subscription net retention has held at 110% even in a soft lending cycle. nCino's single platform across commercial, small business, consumer and mortgage is unique among US vendors and enables land-and-expand (top-40 bank added Mortgage to become a top-10 account). The offset: nCino rents its foundation from Salesforce, paying a revenue-linked royalty and depending on Salesforce's roadmap, which caps margin and gives Salesforce optionality."
+    },
+    "key_customers": [
+      "Truist, Fifth Third, Regions and other US regional banks (commercial lending)",
+      "TD Bank and Bank of Montreal (North America)",
+      "Santander UK, Barclays, Allied Irish Banks (international commercial lending)",
+      "A top-40 US bank by assets (largest nCino Mortgage customer, top-10 by ACV)",
+      "~1,500 depository institutions; no customer above 10% of revenue"
+    ],
+    "key_risks": [
+      "Salesforce platform dependency — royalty payments, renewal of the Force.com agreement and Salesforce's own Financial Services Cloud ambitions",
+      "Mortgage exposure: independent mortgage bank churn and volume-sensitive pricing tie ~20% of subscription revenue to US housing/rate cycle",
+      "Bank consolidation removes customers (acquired bank's contract terminates) and elongated sales cycles at regional banks after 2023-24 stress",
+      "Transition to asset-based pricing and 'Banking Advisor' AI features must lift ACV to offset a decelerating ~7% subscription growth rate in Q4 FY2026",
+      "Competition from core providers (Fiserv, Jack Henry) bundling origination, and Q2/Alkami moving into lending"
+    ],
+    "sources": [
+      {
+        "label": "nCino Q4 and FY2026 results (31 Mar 2026)",
+        "url": "https://investor.ncino.com/news-releases/news-release-details/ncino-reports-fourth-quarter-and-fiscal-year-2026-financial"
+      },
+      {
+        "label": "nCino Form 10-K FY2026 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1902733/000190273326000022/ncno-20260131.htm"
+      },
+      {
+        "label": "nCino Q2 FY2027 earnings call transcript (1 Sep 2026)",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/09/01/ncino-ncno-q2-2027-earnings-call-transcript/"
+      },
+      {
+        "label": "nCino FY2026 Annual Report (ARS)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1902733/000119312526214677/d61925dars.pdf"
+      }
+    ],
+    "last_refreshed": "2026-09-05"
   }
 }
