@@ -233,13 +233,13 @@
     "CES 2026 AI-PC product launches"
    ],
    "statement": "Dell is breaking out as AI server backlog reaches record levels and ISG (Infrastructure Solutions) margin expansion finally arrives.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 458.36,
-    "base": 639.33,
-    "bull": 862.68,
-    "base_upside_pct": 21.98,
-    "bull_upside_pct": 64.59
+    "bear": 419.87,
+    "base": 565.15,
+    "bull": 846.09,
+    "base_upside_pct": -0.38,
+    "bull_upside_pct": 49.15
    },
    "falsifier": "AI server gross margins structurally lower than legacy ISG"
   }
@@ -1170,11 +1170,11 @@
    "statement": "Hewlett Packard Enterprise is breaking out as Cray-AI supercomputer orders accelerate from sovereign/hyperscale customers and the Juniper Networks acquisition closes (regulatory hurdle removed).",
    "conviction": "Medium",
    "target": {
-    "bear": 46.85,
-    "base": 67.66,
-    "bull": 104.71,
-    "base_upside_pct": 26.61,
-    "bull_upside_pct": 95.94
+    "bear": 61.74,
+    "base": 85.19,
+    "bull": 130.01,
+    "base_upside_pct": 37.2,
+    "bull_upside_pct": 109.4
    },
    "falsifier": "Same hyperscaler-concentration risk as Dell"
   }
@@ -1236,7 +1236,17 @@
     "Q4 2025 results (Feb 2026) — rate + dividend declaration",
     "US LPG export volume data",
     "Panama Canal transit capacity updates"
-   ]
+   ],
+   "statement": "BW LPG is breaking out as VLGC (very large gas carrier) day-rates remain elevated and US LPG export growth continues.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 180.94,
+    "base": 209.54,
+    "bull": 223.64,
+    "base_upside_pct": -10.38,
+    "bull_upside_pct": -4.34
+   },
+   "falsifier": "Shipping rates extremely volatile, sentiment-driven"
   }
  },
  "AKAM": {
@@ -2415,11 +2425,11 @@
    "statement": "Corcept raised FY2026 revenue guidance to $950m-$1.05bn as Lifyorli won early FDA approval in platinum-resistant ovarian cancer (3.5 months ahead of PDUFA) and the Cushing's franchise marches toward a",
    "conviction": "Medium",
    "target": {
-    "bear": 60.71,
-    "base": 113.29,
-    "bull": 137.15,
-    "base_upside_pct": 1.49,
-    "bull_upside_pct": 22.87
+    "bear": 57.82,
+    "base": 117.08,
+    "bull": 136.86,
+    "base_upside_pct": 3.8,
+    "bull_upside_pct": 21.34
    },
    "falsifier": "Ovarian TAM is a 35-40% patient subset"
   }
@@ -2485,11 +2495,11 @@
    "statement": "Computacenter broke 9bn pounds revenue (+32% to 9.2bn) on a near-doubling of North America profit and a record 7.1bn-pound product order backlog (+200% cc), even as pre-tax profit slipped 2.5% to 238.",
    "conviction": "Medium",
    "target": {
-    "bear": 4518.76,
-    "base": 6515.69,
-    "bull": 8637.31,
-    "base_upside_pct": 16.56,
-    "bull_upside_pct": 54.51
+    "bear": 4549.0,
+    "base": 6420.77,
+    "bull": 9613.95,
+    "base_upside_pct": 23.0,
+    "bull_upside_pct": 84.18
    },
    "falsifier": "Hardware-heavy mix pressured margins (PBT -2.5%)"
   }
@@ -2639,7 +2649,7 @@
   "last_updated": "2026-06-13"
  },
  "_meta": {
-  "as_of": "2026-09-05"
+  "as_of": "2026-09-12"
  },
  "DDOG": {
   "business": "Datadog is a cloud-native observability and security SaaS platform that unifies infrastructure metrics, application traces, logs and security signals through 800+ integrations. All revenue is subscription and usage-based, expanding automatically as customer cloud workloads scale.",
@@ -2913,10 +2923,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 110.0,
-    "base": 410.16,
+    "base": 418.29,
     "bull": 525.0,
-    "base_upside_pct": 21.64,
-    "bull_upside_pct": 55.7
+    "base_upside_pct": 27.14,
+    "bull_upside_pct": 59.58
    },
    "falsifier": "Consumption model exposed to customer cost-optimization"
   }
@@ -3017,11 +3027,11 @@
    "statement": "Okta is breaking out after a Q1 FY2027 beat (revenue $765M, EPS $0.91 vs $0.85 est) with net retention inflecting back up to 107% and a raised FY27 revenue guide.",
    "conviction": "Medium",
    "target": {
-    "bear": 96.19,
-    "base": 132.93,
-    "bull": 155.51,
-    "base_upside_pct": -22.08,
-    "bull_upside_pct": -8.84
+    "bear": 93.29,
+    "base": 130.09,
+    "bull": 154.05,
+    "base_upside_pct": -21.87,
+    "bull_upside_pct": -7.48
    },
    "falsifier": "Microsoft Entra ID bundled into E5/M365 pressures Workforce pricing"
   }
@@ -3051,11 +3061,11 @@
    "statement": "EZJ is in a takeover-driven breakout: the board agreed in principle to a 7.15 GBP/share cash bid from Apollo (valuing equity ~5.7bn GBP), trumping an earlier 6.90 GBP Castlelake approach, with Apollo's firm-offer deadline set for 7 August 2026.",
    "conviction": "Medium",
    "target": {
-    "bear": 634.54,
-    "base": 794.01,
-    "bull": 920.1,
-    "base_upside_pct": 18.47,
-    "bull_upside_pct": 37.29
+    "bear": 607.6,
+    "base": 758.45,
+    "bull": 893.42,
+    "base_upside_pct": 13.68,
+    "bull_upside_pct": 33.91
    },
    "falsifier": "Deal breaks at 7 Aug deadline and shares retrace to weak standalone PBT"
   }
@@ -3085,11 +3095,11 @@
    "statement": "MAN is breaking out on an early-cycle staffing recovery: Q2 revenue rose 6% cc to $4.9B with EPS of $0.99, and management explicitly declared a shift 'from stabilization into recovery' as the Manpower brand logged its 5th straight quarter of growth (US +16% days-adjusted).",
    "conviction": "High",
    "target": {
-    "bear": 53.2,
-    "base": 61.64,
-    "bull": 73.93,
-    "base_upside_pct": -0.55,
-    "bull_upside_pct": 19.28
+    "bear": 50.63,
+    "base": 58.82,
+    "bull": 71.84,
+    "base_upside_pct": 4.18,
+    "bull_upside_pct": 27.24
    },
    "falsifier": "European labor markets still contracting; recovery could stall"
   }
@@ -3187,11 +3197,11 @@
    "statement": "PBF is breaking out on a refining-margin windfall: Q2 adjusted EPS of $6.22 crushed the $3.49 estimate as geopolitically-tightened product markets lifted cracks, and management slashed net debt by over $1.4B (net-debt/capital 36% -> 15%) while signaling elevated margins could persist into 2027.",
    "conviction": "High",
    "target": {
-    "bear": 60.19,
-    "base": 79.54,
-    "bull": 93.04,
-    "base_upside_pct": 7.0,
-    "bull_upside_pct": 25.16
+    "bear": 68.88,
+    "base": 89.88,
+    "bull": 124.32,
+    "base_upside_pct": 14.79,
+    "bull_upside_pct": 58.77
    },
    "falsifier": "Deeply cyclical; unhedged cracks can normalize sharply"
   }
@@ -3221,11 +3231,11 @@
    "statement": "RAND is turning up with the early-cycle staffing recovery: Q2 revenue returned to organic growth (+1.9% to EUR 5.9B) with EBITA +8% to EUR 182M (3.1% margin), as a strong US upturn (+13%) and Germany/UK recoveries offset gross-margin mix pressure.",
    "conviction": "High",
    "target": {
-    "bear": 27.36,
-    "base": 33.92,
-    "bull": 45.73,
-    "base_upside_pct": -13.0,
-    "bull_upside_pct": 17.3
+    "bear": 26.15,
+    "base": 33.18,
+    "bull": 45.0,
+    "base_upside_pct": -11.61,
+    "bull_upside_pct": 19.86
    },
    "falsifier": "Q3 gross margins guided down on lower-margin large-client mix"
   }
@@ -3253,13 +3263,13 @@
     "FY26 results and FY27 guidance (~Feb 2027)"
    ],
    "statement": "EDEN is recovering off a regulatory-reset trough: in H1 results (23 Jul) management upgraded full-year EBITDA guidance despite a declared 'reset year,' as 8% intrinsic operating-revenue growth held up beneath Italy/Brazil meal-voucher regulation that dragged like-for-like growth to just 1.5%.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 25.11,
-    "base": 30.28,
-    "bull": 34.1,
-    "base_upside_pct": -0.55,
-    "bull_upside_pct": 11.98
+    "bear": 23.83,
+    "base": 28.69,
+    "bull": 32.48,
+    "base_upside_pct": 2.45,
+    "bull_upside_pct": 16.01
    },
    "falsifier": "Regulatory caps (Italy fees, Brazil PLR) are structural revenue risk"
   }
@@ -3323,11 +3333,11 @@
    "statement": "ZBRA is breaking out on a record Q2 (4 Aug): sales topped $1.5B (+9% organic) with EPS +76%, and full-year guidance was raised across sales, margin and EPS as the memory-cost headwind was fully mitigated via pricing.",
    "conviction": "Medium",
    "target": {
-    "bear": 363.87,
-    "base": 507.37,
-    "bull": 661.92,
-    "base_upside_pct": 39.87,
-    "bull_upside_pct": 82.48
+    "bear": 327.82,
+    "base": 436.76,
+    "bull": 636.93,
+    "base_upside_pct": 24.66,
+    "bull_upside_pct": 81.79
    },
    "falsifier": "Cyclical enterprise capex; refresh demand can roll over in a downturn"
   }
@@ -3391,11 +3401,11 @@
    "statement": "AVTR is breaking out on a turnaround beat: Q2 topped estimates (EPS $0.21 vs $0.19, rev $1.69B) with the VWR distribution business back to organic growth ahead of plan, FY26 guidance raised, and shares up ~15% on the print.",
    "conviction": "Medium",
    "target": {
-    "bear": 13.69,
-    "base": 17.1,
-    "bull": 26.74,
-    "base_upside_pct": 14.26,
-    "bull_upside_pct": 78.64
+    "bear": 13.17,
+    "base": 18.12,
+    "bull": 26.45,
+    "base_upside_pct": 22.34,
+    "bull_upside_pct": 78.63
    },
    "falsifier": "Rebound self-help-driven, not yet demand-led"
   }
@@ -3493,11 +3503,11 @@
    "statement": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint.",
    "conviction": "Medium",
    "target": {
-    "bear": 186.95,
-    "base": 265.47,
-    "bull": 393.88,
-    "base_upside_pct": -7.98,
-    "bull_upside_pct": 36.53
+    "bear": 179.23,
+    "base": 279.08,
+    "bull": 389.28,
+    "base_upside_pct": 0.3,
+    "bull_upside_pct": 39.9
    },
    "falsifier": "Recovery bookings-led; FY26 organic revenue still only flat to +1%"
   }
@@ -3595,11 +3605,11 @@
    "statement": "The July 23 Q2 print was a broad beat-and-raise that flipped the 'AI kills UCaaS' bear case: paid-AI customers doubled y/y to 13% of revenue (~$300m) with >100% cohort retention, and FY26 FCF was raised to $615-625m alongside a dividend increase.",
    "conviction": "High",
    "target": {
-    "bear": 68.35,
-    "base": 100.32,
-    "bull": 138.27,
-    "base_upside_pct": 36.69,
-    "bull_upside_pct": 88.41
+    "bear": 60.81,
+    "base": 86.27,
+    "bull": 132.95,
+    "base_upside_pct": 25.17,
+    "bull_upside_pct": 92.9
    },
    "falsifier": "Teams Phone bundling caps seat growth and pricing — core UCaaS is ex-growth"
   }
@@ -3630,11 +3640,11 @@
    "statement": "SEGRO is in a formal offer period after a Prologis approach, putting an M&A floor under a stock that traded well below its 902p EPRA NTA.",
    "conviction": "Medium",
    "target": {
-    "bear": 820.37,
-    "base": 962.82,
-    "bull": 1154.91,
-    "base_upside_pct": 1.33,
-    "bull_upside_pct": 21.54
+    "bear": 810.37,
+    "base": 951.06,
+    "bull": 1141.39,
+    "base_upside_pct": 1.89,
+    "bull_upside_pct": 22.28
    },
    "falsifier": "A bid lapse would unwind the takeover premium overnight"
   }
@@ -3904,10 +3914,10 @@
    "conviction": "Medium",
    "target": {
     "bear": 280.0,
-    "base": 338.07,
-    "bull": 376.0,
-    "base_upside_pct": 3.01,
-    "bull_upside_pct": 14.57
+    "base": 344.33,
+    "bull": 435.0,
+    "base_upside_pct": 4.68,
+    "bull_upside_pct": 32.25
    },
    "falsifier": "Premium multiple plus unprofitability means brutal drawdowns on any unit miss"
   }
@@ -4144,11 +4154,11 @@
    "statement": "Q2 2026 was a blowout: net income of $3.7bn ($12.62/share, adjusted $12.54 versus $10.03 consensus) on $44.5bn of revenue, with refining operating income of $4.5bn against $1.3bn a year ago.",
    "conviction": "Medium",
    "target": {
-    "bear": 270.0,
-    "base": 358.78,
-    "bull": 436.3,
-    "base_upside_pct": -3.22,
-    "bull_upside_pct": 17.69
+    "bear": 298.61,
+    "base": 395.55,
+    "bull": 617.31,
+    "base_upside_pct": 1.31,
+    "bull_upside_pct": 58.11
    },
    "falsifier": "Cash held above the $4-5bn target — management hedging a crude pullback"
   }
@@ -4214,11 +4224,11 @@
    "statement": "Q2 2026, reported 6 August, was a record and a big raise — revenue up 48% year over year to $481M against roughly $402M consensus, royalties up 50% to $307.7M and adjusted EBITDA up 46% to $328.8M.",
    "conviction": "Medium",
    "target": {
-    "bear": 118.5,
-    "base": 153.35,
-    "bull": 228.48,
-    "base_upside_pct": 39.17,
-    "bull_upside_pct": 107.35
+    "bear": 112.91,
+    "base": 162.86,
+    "bull": 226.08,
+    "base_upside_pct": 51.92,
+    "bull_upside_pct": 110.9
    },
    "falsifier": "rHuPH20 patent cliff around 2027 is the whole valuation question"
   }
@@ -4249,11 +4259,11 @@
    "statement": "Q2 2026, reported 4 August, was a record refining quarter — adjusted EBITDA of $8.5bn and EPS of $17.73 against $14.52 consensus, on a 112% R&M margin capture.",
    "conviction": "Medium",
    "target": {
-    "bear": 266.38,
-    "base": 358.05,
-    "bull": 440.12,
-    "base_upside_pct": -7.93,
-    "bull_upside_pct": 13.17
+    "bear": 294.13,
+    "base": 394.96,
+    "bull": 609.92,
+    "base_upside_pct": -0.24,
+    "bull_upside_pct": 54.05
    },
    "falsifier": "Management flagged the 112% capture as a high-water mark"
   }
@@ -4282,13 +4292,13 @@
     "FY2027 preliminary guidance (Feb 2027) — first clean post-float-headwind year"
    ],
    "statement": "Q2 2026, reported 5 August, was a beat-and-raise — revenue of $531.2M (+9.8% year over year), non-GAAP EPS of $2.78 (16.8% above consensus) and adjusted EBITDA of $235M at a 44.2% margin.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 222.46,
-    "base": 325.48,
-    "bull": 443.88,
-    "base_upside_pct": 40.49,
-    "bull_upside_pct": 91.6
+    "bear": 197.75,
+    "base": 276.61,
+    "bull": 426.92,
+    "base_upside_pct": 26.36,
+    "bull_upside_pct": 95.02
    },
    "falsifier": "~$105M of float income is near-100% margin and falls with Fed cuts"
   }
@@ -4352,13 +4362,13 @@
     "US federal procurement cycle (Sept-Oct 2026 fiscal year end)"
    ],
    "statement": "Q1 FY2027, reported 28 May 2026, was UiPath's first GAAP-profitable quarter in company history — $28m of GAAP operating income on revenue up 17% to $418m.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 11.02,
-    "base": 15.87,
-    "bull": 21.21,
-    "base_upside_pct": 4.49,
-    "bull_upside_pct": 39.6
+    "bear": 10.2,
+    "base": 14.56,
+    "bull": 21.16,
+    "base_upside_pct": 5.92,
+    "bull_upside_pct": 53.86
    },
    "falsifier": "ARR growth only 12%; net new ARR just $49m in the quarter"
   }
@@ -4389,11 +4399,11 @@
    "statement": "Q2 2026, reported 6 August, was in CEO Matt Bromberg's words 'arguably the best quarter in Unity's history as a public company'.",
    "conviction": "Medium",
    "target": {
-    "bear": 31.1,
-    "base": 42.19,
-    "bull": 49.97,
-    "base_upside_pct": 1.26,
-    "bull_upside_pct": 19.94
+    "bear": 29.94,
+    "base": 41.05,
+    "bull": 49.38,
+    "base_upside_pct": -6.61,
+    "bull_upside_pct": 12.34
    },
    "falsifier": "AppLovin's AXON has a multi-year data lead and ~80% EBITDA margins"
   }
@@ -4496,11 +4506,11 @@
    "statement": "Atlassian reported Q4 FY2026 on 6 August 2026 and the stock moved roughly 35% after hours.",
    "conviction": "High",
    "target": {
-    "bear": 107.71,
-    "base": 164.7,
-    "bull": 316.75,
-    "base_upside_pct": -13.12,
-    "bull_upside_pct": 67.08
+    "bear": 103.25,
+    "base": 161.29,
+    "bull": 314.49,
+    "base_upside_pct": -10.25,
+    "bull_upside_pct": 75.01
    },
    "falsifier": "Data Center guided down ~17%, migration tailwind spent"
   }
@@ -4530,13 +4540,13 @@
     "FY27 exit supply-chain milestone (Mar 2027) — 60% non-China production target"
    ],
    "statement": "Q1 FY2027 landed on 5 August 2026 and reset the whole FY27 frame: rhode delivered $160m of net sales in a single quarter and a $50m tariff refund arrived, letting management lift FY27 sales growth guidance from 12-14% to 18-20% ($1.938-1.968bn), adjusted EBITDA growth to 20-21%, and adjusted EPS to $3.50-3.55.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 84.75,
-    "base": 106.34,
-    "bull": 125.18,
-    "base_upside_pct": -3.04,
-    "bull_upside_pct": 14.15
+    "bear": 77.16,
+    "base": 97.4,
+    "bull": 114.91,
+    "base_upside_pct": 0.51,
+    "bull_upside_pct": 18.58
    },
    "falsifier": "Organic sales down high single digits, units -3pts"
   }
@@ -4568,11 +4578,11 @@
    "statement": "On 2 June 2026 GitLab beat and raised while simultaneously announcing 'Act 2' — a 14% workforce cut (~350 employees), removal of up to three management layers, exit from 22 countries cutting the geographic footprint 37%, and a pivot from pure seats toward consumption pricing.",
    "conviction": "Medium",
    "target": {
-    "bear": 29.22,
-    "base": 36.83,
-    "bull": 46.98,
-    "base_upside_pct": -26.09,
-    "bull_upside_pct": -5.73
+    "bear": 28.99,
+    "base": 36.31,
+    "bull": 46.62,
+    "base_upside_pct": -22.72,
+    "bull_upside_pct": -0.79
    },
    "falsifier": "Total RPO only +18% versus cRPO at 24%"
   }
@@ -4604,11 +4614,11 @@
    "statement": "Q2 2026, reported 28 July, was an outlier quarter — adjusted EBITDA more than doubled to $1.5bn on an unusually tight refining market, with refining segment EBITDA of $1.0bn (up 110%), lubricants at $207m versus $55m a year ago, and renewables swinging to $123m from a $2m loss.",
    "conviction": "Medium",
    "target": {
-    "bear": 95.69,
-    "base": 119.66,
-    "bull": 142.59,
-    "base_upside_pct": 13.52,
-    "bull_upside_pct": 35.27
+    "bear": 105.89,
+    "base": 132.28,
+    "bull": 214.37,
+    "base_upside_pct": 22.66,
+    "bull_upside_pct": 98.79
    },
    "falsifier": "Q3 runs guided down to 590-620 kbpd on turnaround"
   }
@@ -4640,11 +4650,11 @@
    "statement": "Q1 FY2027, reported 21 May 2026, delivered the best Q1 new-ACV growth in five years with agentic AI ARR approaching $500m and agentic new ACV up over 200% — and the stock fell about 3.5%, because Bhusri immediately damped it ('one quarter does not make a year', some of it Q4 slippage) and the FY27 subscription guide was reiterated at $9.925-9.95bn rather than raised.",
    "conviction": "Medium",
    "target": {
-    "bear": 142.23,
-    "base": 225.33,
-    "bull": 301.31,
-    "base_upside_pct": 15.09,
-    "bull_upside_pct": 53.89
+    "bear": 128.79,
+    "base": 202.27,
+    "bull": 292.96,
+    "base_upside_pct": 8.92,
+    "bull_upside_pct": 57.76
    },
    "falsifier": "Per-worker pricing levered to shrinking white-collar seats"
   }
@@ -4712,11 +4722,11 @@
    "statement": "In the Q4 FY26 print on 28-May-2026 the commitment build mattered more than the beat: CRPO accelerated to 20% and RPO to 28%, far ahead of the ~14.6% FY27 revenue guide, because the Q4 mix skewed toward cloud where revenue ramps rather than being recognised upfront.",
    "conviction": "Medium",
    "target": {
-    "bear": 63.75,
-    "base": 93.27,
-    "bull": 115.52,
-    "base_upside_pct": 1.59,
-    "bull_upside_pct": 25.83
+    "bear": 61.33,
+    "base": 91.5,
+    "bull": 114.52,
+    "base_upside_pct": 9.72,
+    "bull_upside_pct": 37.33
    },
    "falsifier": "AWS OpenSearch is a free fork of the engine"
   }
@@ -4748,11 +4758,11 @@
    "statement": "Q2 2026, reported 24-Jul-2026, was a clean beat-and-raise: FY26 adjusted EBITDA guidance lifted $295m at the midpoint to $4.83bn-$5.03bn, revenue up $300m to $21.9bn-$22.5bn, and $1.04bn of stock repurchased in the quarter.",
    "conviction": "Medium",
    "target": {
-    "bear": 369.91,
-    "base": 453.25,
-    "bull": 725.67,
-    "base_upside_pct": 71.01,
-    "bull_upside_pct": 173.78
+    "bear": 286.35,
+    "base": 380.58,
+    "bull": 436.09,
+    "base_upside_pct": 44.33,
+    "bull_upside_pct": 65.38
    },
    "falsifier": "~$250m 2026 EBITDA hit from ACA subsidy expiry"
   }
@@ -4893,10 +4903,10 @@
    "conviction": "High",
    "target": {
     "bear": 45.0,
-    "base": 116.5,
+    "base": 119.56,
     "bull": 170.0,
-    "base_upside_pct": -19.96,
-    "bull_upside_pct": 16.8
+    "base_upside_pct": -16.95,
+    "bull_upside_pct": 18.08
    },
    "falsifier": "Q2 2026 net loss of $782m on just $145m of revenue"
   }
@@ -4928,11 +4938,11 @@
    "statement": "Q2 2026 was a clean guidance raise across every line: FY26 revenue lifted to $2.725-2.745bn (25-26% growth), adjusted EBITDA to $465-475m at a 17% margin, and net new active members from 1.4m to 1.8m.",
    "conviction": "High",
    "target": {
-    "bear": 22.47,
-    "base": 33.53,
-    "bull": 44.68,
-    "base_upside_pct": -0.68,
-    "bull_upside_pct": 32.35
+    "bear": 20.47,
+    "base": 30.67,
+    "bull": 44.94,
+    "base_upside_pct": -7.05,
+    "bull_upside_pct": 36.17
    },
    "falsifier": "Durbin exemption repeal would hit ~two-thirds of revenue"
   }
@@ -4964,11 +4974,11 @@
    "statement": "Q2 2026 beat consensus revenue by 10.8% at $263.7m, up 45%, on a record 59,200 clinical cases and a record blended ASP above $3,850.",
    "conviction": "Medium",
    "target": {
-    "bear": 15.09,
-    "base": 18.85,
-    "bull": 29.09,
-    "base_upside_pct": -24.82,
-    "bull_upside_pct": 16.02
+    "bear": 14.97,
+    "base": 19.36,
+    "bull": 28.91,
+    "base_upside_pct": -20.48,
+    "bull_upside_pct": 18.77
    },
    "falsifier": "~90% of revenue set by Medicare/MolDX - a rate revision has no offset"
   }
@@ -5000,11 +5010,11 @@
    "statement": "This is a Strait of Hormuz trade.",
    "conviction": "Medium",
    "target": {
-    "bear": 371.46,
-    "base": 429.51,
-    "bull": 467.68,
-    "base_upside_pct": -1.33,
-    "bull_upside_pct": 7.44
+    "bear": 381.27,
+    "base": 437.09,
+    "bull": 459.99,
+    "base_upside_pct": -4.65,
+    "bull_upside_pct": 0.35
    },
    "falsifier": "55 VLCCs on standby outside the Gulf, ready to flood back on a reopening headline"
   }
@@ -5036,11 +5046,11 @@
    "statement": "Q2 2026 printed at the high end of guidance - revenue $290.6m (+3.0% organic), non-GAAP EPS $1.33 (+9%) and free cash flow $75.3m, up 46% - and management steered investors to the top half of every FY26 range and to at or above the high end on both EPS and free cash flow, a raise in all but name.",
    "conviction": "Medium",
    "target": {
-    "bear": 58.4,
-    "base": 85.42,
-    "bull": 115.08,
-    "base_upside_pct": 81.37,
-    "bull_upside_pct": 144.33
+    "bear": 50.87,
+    "base": 68.32,
+    "bull": 108.97,
+    "base_upside_pct": 50.23,
+    "bull_upside_pct": 139.6
    },
    "falsifier": "Organic growth only 3.0% in Q2, 3.6% YTD, vs 5.5% in FY2025"
   }
@@ -5072,11 +5082,11 @@
    "statement": "Q2 2026 was the best quarter since 2022: $3.8bn of adjusted earnings and $9.41 EPS against roughly $7.02 consensus, on a $24.08/bbl realised refining margin at 96% crude utilisation and 86% clean product yield.",
    "conviction": "Medium",
    "target": {
-    "bear": 171.18,
-    "base": 219.31,
-    "bull": 274.52,
-    "base_upside_pct": -14.03,
-    "bull_upside_pct": 7.62
+    "bear": 184.06,
+    "base": 236.55,
+    "bull": 357.0,
+    "base_upside_pct": -8.83,
+    "bull_upside_pct": 37.59
    },
    "falsifier": "$24.08/bbl realised margin is far above mid-cycle - reversion is the base case"
   }
@@ -5180,11 +5190,11 @@
    "statement": "Shares are $213.10, up roughly 79% from the $119.06 52-week low, 26% above the 50-day moving average of $168.64 and 36% above the 200-day at $156.41, with RSI at 71.8.",
    "conviction": "Medium",
    "target": {
-    "bear": 119.62,
-    "base": 160.41,
-    "bull": 209.13,
-    "base_upside_pct": -24.96,
-    "bull_upside_pct": -2.17
+    "bear": 111.07,
+    "base": 145.25,
+    "bull": 203.71,
+    "base_upside_pct": -28.03,
+    "bull_upside_pct": 0.93
    },
    "falsifier": "36.63x forward EPS, 42.55x EV/EBITDA - no cushion for a single miss"
   }
@@ -5214,13 +5224,13 @@
     "Q4 print in February 2027 confirming FY26 production at the high end"
    ],
    "statement": "The stock is EUR 26.92 after touching a 52-week high of EUR 28.42 on 21 August, up 93.6% over twelve months and 30% above its 200-day moving average of EUR 20.66.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 31.71,
-    "base": 40.03,
-    "bull": 48.76,
-    "base_upside_pct": 44.29,
-    "bull_upside_pct": 75.76
+    "bear": 34.53,
+    "base": 43.29,
+    "bull": 70.73,
+    "base_upside_pct": 49.7,
+    "bull_upside_pct": 144.58
    },
    "falsifier": "Refining margin is the single largest earnings swing factor - and it is peak"
   }
@@ -5359,11 +5369,11 @@
    "statement": "Nutanix is breaking out on the 26-Aug Q4 FY26 print, which beat on both lines — $757.1m revenue against a $725-745m guide and a 26.2% non-GAAP operating margin against 21-23% guided.",
    "conviction": "Medium",
    "target": {
-    "bear": 42.14,
-    "base": 57.69,
-    "bull": 73.81,
-    "base_upside_pct": -15.24,
-    "bull_upside_pct": 8.45
+    "bear": 39.22,
+    "base": 52.45,
+    "bull": 72.0,
+    "base_upside_pct": -20.43,
+    "bull_upside_pct": 9.22
    },
    "falsifier": "FY27 FCF guided to just ~7% growth — operating leverage story is over"
   }
@@ -5392,13 +5402,13 @@
     "IEEPA tariff litigation / refund finalization and FY27 guide (Mar 2027)"
    ],
    "statement": "The stock gapped roughly 17% on the 26-Aug Q2 FY26 print: $4.17 EPS on the back of a ~$100m IEEPA tariff refund, with FY26 EPS guidance raised about 30% from $10.20-11.00 to $13.10-13.60 and operating margin from 12.0-12.5% to 14.5-15.0%.",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 129.25,
-    "base": 153.64,
-    "bull": 175.98,
-    "base_upside_pct": 2.65,
-    "bull_upside_pct": 17.58
+    "bear": 126.61,
+    "base": 150.73,
+    "bull": 172.41,
+    "base_upside_pct": 3.78,
+    "bull_upside_pct": 18.71
    },
    "falsifier": "~790bps of the ~990bps margin beat was a one-time tariff refund"
   }
@@ -5429,11 +5439,11 @@
    "statement": "Veeva had its best day ever on 27-Aug after the Q2 FY27 print — $928m revenue (+13%) and $416m non-GAAP operating income, both above guide, with FY27 revenue guidance lifted to $3,682-3,687m (~15% growth).",
    "conviction": "Medium",
    "target": {
-    "bear": 150.11,
-    "base": 210.28,
-    "bull": 296.23,
-    "base_upside_pct": -23.56,
-    "bull_upside_pct": 7.68
+    "bear": 145.14,
+    "base": 221.03,
+    "bull": 295.21,
+    "base_upside_pct": -15.76,
+    "bull_upside_pct": 12.5
    },
    "falsifier": "Salesforce Life Sciences Cloud already holds Novartis, AZ, Takeda, Pfizer"
   }
@@ -5465,11 +5475,11 @@
    "statement": "The stock is breaking out on two upgrades in five weeks.",
    "conviction": "High",
    "target": {
-    "bear": 761.4,
-    "base": 797.03,
-    "bull": 832.72,
-    "base_upside_pct": 4.19,
-    "bull_upside_pct": 8.85
+    "bear": 740.06,
+    "base": 767.85,
+    "bull": 808.26,
+    "base_upside_pct": 3.48,
+    "bull_upside_pct": 8.93
    },
    "falsifier": "Income is volatility- and volume-dependent; a quiet market compresses the guide"
   }
@@ -5501,11 +5511,11 @@
    "statement": "The stock is breaking out because the decline stopped getting worse.",
    "conviction": "Medium",
    "target": {
-    "bear": 298.06,
-    "base": 369.09,
-    "bull": 432.29,
-    "base_upside_pct": -1.55,
-    "bull_upside_pct": 15.31
+    "bear": 293.43,
+    "base": 366.23,
+    "bull": 462.02,
+    "base_upside_pct": -0.24,
+    "bull_upside_pct": 25.86
    },
    "falsifier": "Top line still shrinking; headline EPS -24.5% to 15.1p"
   }
@@ -5544,6 +5554,244 @@
     "bull_upside_pct": 49.69
    },
    "falsifier": "8% growth and a $0.05 vs $0.06 EPS miss — thin margin for error"
+  }
+ },
+ "NIQ": {
+  "business": "NIQ Global Intelligence sells syndicated consumer-purchase measurement: it aggregates retailer point-of-sale scanner feeds and household panel data across 100+ markets, then licenses the resulting market-share reads back to the CPG, beverage-alcohol, beauty and tech-durables brands whose products moved. Roughly 81% of FY2025's $4.20bn revenue is recurring subscription 'Intelligence' ($3,394m); the remaining 19% is 'Activation' (analytics, revenue-optimisation and consumer-insight projects, $804m). EMEA is 44% of revenue, Americas 39%, APAC 17%. The company is Advent International's 2021 carve-out of Nielsen's Connect arm merged with GfK in 2023, IPO'd on the NYSE in July 2025.",
+  "happening": "NIQ is breaking out on the 10-Aug-2026 Q2 print, which beat the top end of its own guidance for a fifth consecutive quarter and — the part that actually moved the stock — inflected levered free cash flow positive at $74.1m while cutting net leverage to 3.1x. The shares rose ~15.6% after hours and ~42% over the following days, and are now up 115.7% over three months at $17.84, a 52-week range of $7.97 to $19.24. Management raised every line of FY26 guidance in the same release: organic constant-currency revenue growth to 5.2%-5.6% (reported 7.1%-7.4%), adjusted EBITDA growth to 15%-17% with margin of 23.5%-23.9%, adjusted EPS to $1.08-$1.12, and levered free cash flow to $245-$255m. Q2 adjusted EBITDA rose 21.9% to $262m with margin up 270bps to 23.3%.",
+  "why": "The re-rating is a deleveraging story wearing an AI costume, and both halves work. (1) Post-IPO, NIQ was being priced as a levered LBO carry-out — the equity is a thin option on an over-geared balance sheet, so the move from cash-burn to $74.1m of levered FCF and 3.1x leverage with a stated path to sub-3x and >$1bn of adjusted EBITDA mechanically transfers value from creditors to equity holders; the buy side reacted to the cash turn, not to the modest 5.8% organic growth. (2) The optionality is free: AI-native product revenue grew 34% y/y in Q2 with over 80% of it coming from existing recurring clients, and CEO Jim Peck explicitly told analysts the raised FY26 outlook assumes NO material contribution from AI products, with commercial scaling starting in 2027 — so consensus carries none of it. (3) The agentic-commerce measurement product due later in 2026 (metrics: share of prompt, share of discovery, accuracy, clicks, conversion) is an attempt to become the scorekeeper for AI shopping before the channel exists, and Chief AI & Product Officer Troy Treangen flagged 49 live ConnectAI opportunities. Underneath it all sits a genuine moat — thousands of individually negotiated retailer data-sharing agreements that no new entrant can assemble — at 13.8x forward earnings on a $5.3bn market cap, still below the July 2025 IPO price.",
+  "risk": "The falsifier is the Activation segment and the free float. Activation — the non-subscription 19% — shrank 1.2% organically in Q4 2025 and is the half of the business most exposed to CPG customers cutting measurement budgets while building in-house data teams on retailer clean rooms; if Intelligence growth also slips below 5% the whole 'measurement standard' premise is in question. Second, Advent International retains majority control post-IPO: the free float is small, which flatters the 115.7% three-month move, and lock-up expiry plus secondary supply is a standing overhang that can cap the stock regardless of fundamentals. Third, 44% of revenue is EMEA, so euro/sterling translation swings reported growth by 3-4pts in either direction. Fourth, the structural threat is real — Walmart Luminate, Amazon Marketing Cloud and retailers' own retail-media clean rooms monetise the same underlying data directly, and Circana, Kantar and Numerator all compete for the same budget. Suggested stop ≈ 2× ATR below the pivot; cut size if Q3 shows levered FCF regressing or leverage failing to fall below 3.1x.",
+  "thesis": {
+   "bull": [
+    "Levered FCF inflected positive at $74.1m with leverage to 3.1x and a stated path to sub-3x — equity value transfers from creditors",
+    "Fifth straight beat of the top end of guidance; every FY26 line raised (EBITDA growth 15%-17%, margin 23.5%-23.9%)",
+    "Management guides FY26 assuming zero material AI contribution — 2027 AI revenue is un-modelled in consensus",
+    "AI-native revenue +34% y/y with 80%+ from existing recurring clients, so the attach is sticky, not pilot spend",
+    "Trades at 13.8x forward EPS and still below the July 2025 IPO price despite a $1bn+ EBITDA path"
+   ],
+   "bear": [
+    "Activation (19% of revenue) shrank 1.2% organically in Q4 2025 — the non-subscription half is not growing",
+    "Advent retains majority control; small free float plus lock-up/secondary supply is a persistent overhang",
+    "Retailer clean rooms (Walmart Luminate, Amazon Marketing Cloud) disintermediate the same data NIQ resells",
+    "EMEA at 44% of revenue makes reported growth a 3-4pt FX coin flip",
+    "5.2%-5.6% organic constant-currency growth is a mid-single-digit business being re-rated on cash flow mechanics"
+   ],
+   "catalysts": [
+    "Q3 2026 earnings, 13-Nov-2026 — levered FCF trajectory and whether leverage breaks below 3.0x",
+    "Agentic-commerce measurement product launch (H2 2026) — first pricing and client-count disclosure",
+    "FY27 guidance (Feb/Mar 2027) — the first guide that is allowed to carry AI revenue",
+    "Advent lock-up / secondary placement decisions through 2026-27 — resolution of the float overhang"
+   ],
+   "statement": "NIQ is breaking out on the 10-Aug-2026 Q2 print, which beat the top end of its own guidance for a fifth consecutive quarter and — the part that actually moved the stock — inflected levered free cash flow positive at $74.1m while cutting net leverage to 3.1x.",
+   "conviction": "High",
+   "target": {
+    "bear": 15.09,
+    "base": 18.69,
+    "bull": 22.59,
+    "base_upside_pct": 4.79,
+    "bull_upside_pct": 26.61
+   },
+   "falsifier": "Activation (19% of revenue) shrank 1.2% organically in Q4 2025 — the non-subscription half is not growing"
+  }
+ },
+ "CRM": {
+  "business": "Salesforce rents the cloud applications that hold a company's customer record — sales pipeline, support cases, marketing campaigns — plus the integration (MuleSoft), analytics (Tableau), data (Data 360/Informatica) and collaboration (Slack) layers around them, billed per seat on multi-year contracts. FY2026 (ended 31-Jan-2026) revenue was $41.5bn, up 10%, with remaining performance obligation of $72.4bn, GAAP operating margin of 20.1% and $14.4bn of free cash flow. Service Cloud is the largest segment at $9.8bn, Sales Cloud $9.0bn, Platform/Slack/other $8.9bn, MuleSoft+Tableau $6.2bn and Marketing+Commerce $5.4bn. Roughly two-thirds of revenue is the Americas.",
+  "happening": "Salesforce is breaking out on the 26-Aug-2026 Q2 FY27 print, which put the 'SaaS apocalypse' thesis on trial and won: record revenue of $11.35bn (+11% constant currency, above the high end of guidance), 34.1% non-GAAP operating margin, Agentforce ARR through $1.5bn, and the strongest net-new annual order value growth in four years with attrition near record lows. The stock rose 22.6% on the print and is up 49.3% over three months to $247.72, having bottomed at $150.12 within the last year. FY27 revenue guidance was raised to $46.1bn-$46.4bn — a $300m constant-currency raise comprising $100m organic (Agentforce, Data 360, Slack) and $200m from the pending Contentful and Fin acquisitions. Just before the call Salesforce announced Claudeforce with Anthropic CEO Dario Amodei, packaging Anthropic's Claude model and the Cowork interface on top of Salesforce data, applications, workflows and governance, with a joint field go-to-market. Product cadence has continued into September, including Slackforce Surfaces (interactive dashboards and microsites built inside Slack conversations), which added another 2.4% on 11-Sep-2026.",
+  "why": "The entire 2025-26 de-rating was one bet — that AI agents destroy per-seat software — and Q2 FY27 is the first quarter with hard numbers arguing the other way. (1) Agentforce crossed from pilot to production: ARR above $1.5bn, 3.2bn Agentic Work Units consumed in the quarter (+97% sequentially), accounts with agents in production up 70% sequentially, and Agentforce One Edition plus Agentforce for Apps bookings more than doubling q/q — the consumption line is now visibly compounding rather than sitting in POCs. (2) The core reaccelerated, which is the part the bears had no answer for: strongest net-new AOV growth in four years and record-low attrition means the installed base is expanding, not being cannibalised. (3) The valuation had already priced the bear case — CRM trades near 20.6x trailing and 15.5x forward earnings against an S&P median around 22.6x, after losing ground over the prior twelve months, so a single quarter of evidence produced violent multiple repair on a $204bn market cap. (4) Claudeforce reframes the model risk: Salesforce positions itself as the enterprise distribution, data and governance layer for a frontier model it does not have to fund, capping R&D exposure while keeping the workflow. Layered on top is $14.4bn of free cash flow and a $50bn buyback authorisation shrinking the share count into the recovery.",
+  "risk": "The honest bear case is that the pricing model is still unsettled and the growth is partly bought. Management described user-based, consumption-based and business-outcome pricing running in parallel on the Goldman Sachs question — which means the $1.5bn Agentforce ARR figure is not yet a clean recurring-revenue construct, and as consumption mix rises the 34.1% operating margin is the real guardrail to watch, not the ARR headline. The FY27 revenue raise is two-thirds inorganic ($200m of the $300m from Contentful and Fin), and the underlying FY27 10-11% growth guide leans on roughly 3pts of Informatica contribution; organic growth is still high single digits with reacceleration promised only for H2 FY27. Strategically, Agentforce succeeding at replacing service-agent headcount directly attacks Salesforce's own billing unit — the repricing into 'Agentic Work Units' is a defensive manoeuvre, not a choice. Microsoft continues to bundle Copilot and Dynamics 365 into existing enterprise agreements, pressuring per-seat renewal economics, while ServiceNow pushes from ITSM into customer workflow. And $12.7bn of FY26 buybacks means a growing share of EPS growth is financial engineering. Suggested stop ≈ 2× ATR below the pivot; cut size if Q3 FY27 shows operating margin slipping below ~33% as consumption mix rises, or if net-new AOV growth fails to hold.",
+  "thesis": {
+   "bull": [
+    "Q2 FY27: record $11.35bn revenue (+11% cc) above the high end, 34.1% op margin, stock +22.6% on the print",
+    "Agentforce ARR through $1.5bn with Agentic Work Units +97% q/q and production accounts +70% q/q",
+    "Strongest net-new annual order value growth in four years with attrition near record lows — the core reaccelerated",
+    "Claudeforce with Anthropic makes Salesforce the enterprise distribution and governance layer without funding a frontier model",
+    "15.5x forward earnings vs an S&P median above 20x, plus $14.4bn FCF and a $50bn buyback authorisation"
+   ],
+   "bear": [
+    "Pricing is unsettled — user, consumption and outcome-based models run in parallel, so $1.5bn Agentforce ARR is not clean recurring revenue",
+    "Two-thirds of the FY27 raise ($200m of $300m) is Contentful/Fin inorganic; organic growth is still high single digits",
+    "Agentforce cannibalises the seat — success at replacing service headcount shrinks Salesforce's own billing unit",
+    "Microsoft bundles Copilot and Dynamics into enterprise agreements, pressuring per-seat renewal pricing",
+    "$12.7bn FY26 buybacks mean EPS growth is increasingly engineered; Informatica adds goodwill on top of Slack and Tableau"
+   ],
+   "catalysts": [
+    "Dreamforce, September 2026 — Agentforce/Claudeforce roadmap and the first full consumption-pricing framework",
+    "Q3 FY27 earnings, 3-Dec-2026 — operating margin under rising consumption mix and net-new AOV durability",
+    "Contentful and Fin deal closings — the $200m inorganic contribution has to actually land",
+    "FY28 guidance (Feb/Mar 2027) — the H2 FY27 organic reacceleration either shows up or it does not"
+   ],
+   "statement": "Salesforce is breaking out on the 26-Aug-2026 Q2 FY27 print, which put the 'SaaS apocalypse' thesis on trial and won: record revenue of $11.35bn (+11% constant currency, above the high end of guidance), 34.1% non-GAAP operating margin, Agentforce ARR through $1.5bn, and the strongest net-new annual order value growth in four years with attrition near record lows.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 199.46,
+    "base": 294.4,
+    "bull": 477.69,
+    "base_upside_pct": 18.85,
+    "bull_upside_pct": 92.84
+   },
+   "falsifier": "Pricing is unsettled — user, consumption and outcome-based models run in parallel, so $1.5bn Agentforce ARR is not clean recurring revenue"
+  }
+ },
+ "HPQ": {
+  "business": "HP Inc. sells PCs and printers, but the profit engine is printer supplies. In FY2025 (ended 31-Oct-2025) Personal Systems generated $38.5bn of $55.3bn total revenue at a 5.3% operating margin, while Printing generated $16.7bn at 18.7% — 30% of revenue producing 62% of segment operating profit. Within Printing, $10.9bn is cartridge and toner supplies sold into an installed base of printers that only accept HP-authenticated cartridges. FY2025 non-GAAP EPS fell 9% to $3.12, and alongside those results HP announced a plan to cut 4,000-6,000 roles for roughly $1bn of gross run-rate savings by end-FY2028 at $650m of restructuring cost.",
+  "happening": "HP printed a record Q3 FY26 on 26-Aug-2026 — $15.7bn revenue, up 13%, a ninth consecutive quarter of growth — and raised FY26 non-GAAP EPS guidance from $2.90-$3.10 to $3.19-$3.29 with free cash flow guided to $3.0-$3.2bn. Personal Systems revenue rose 18% with AI PCs reaching 46% of shipment mix, and management is targeting 50% by end-FY26 and over 70% by 2028. The shares actually fell after hours on the print because management confirmed $0.11 per share of Q3 tariff refunds with a further $0.08 expected in Q4 — roughly a third of the raise was non-recurring. The stock has nonetheless climbed to a fresh 52-week high of $35.48 as of 11-Sep-2026, up 41.9% over three months and 91.6% over six, after RBC Capital's David Paige initiated coverage on 11-Sep with a Sector Perform rating, a move that added 8.2% intraday. HP is being dragged upward inside a broad re-rating of the PC/server hardware complex — Dell is up 323% over twelve months and HPE 130.6% on the same AI-hardware trade.",
+  "why": "Three mechanisms are compounding, and only one of them is about HP. (1) Sector beta: the market has decided legacy hardware OEMs are AI infrastructure plays, and HP is the cheapest liquid way to express that — 11.3x forward earnings and a 3.7% dividend yield on a $32bn market cap, versus Dell's quadrupling. Money rotating out of expensive AI names lands here. (2) Mix, not units: management's own algorithm is explicitly premiumisation — AI PCs at 46% of shipments heading to 50%, plus workstations, commercial attach and pricing actions — which lets revenue grow even as they guide the PC unit market down high-teens in H2. (3) The memory squeeze is being read as a pricing event rather than a cost event. DRAM/NAND inflation in the 2026 upcycle is hitting every OEM's gross margin (Apple's is guided lower for the same reason), and HP's four-pillar mitigation plan — supply security, demand shaping, cost reduction, disciplined pricing — with management stating supply is available and channel inventory controlled, has convinced the market HP can pass it through. Printing meanwhile is being run for margin not growth: revenue fell 2% to $3.9bn but operating margin improved 110bps to 18.1%. Add the $1bn cost-out programme and the EPS line holds up even with a shrinking annuity underneath.",
+  "risk": "The falsifier is the quality of the earnings. Roughly a third of the FY26 guidance raise is tariff refunds — $0.11 in Q3, $0.08 expected in Q4 — which is exactly why the stock fell on a beat-and-raise, and those refunds do not repeat in FY27. On the margin question management pointedly refused to give a Personal Systems recovery date and conceded memory costs keep rising into FY27, only at a slower rate than FY26; PS already runs at just 5.3% operating margin, so there is very little cushion between DRAM inflation and the segment going to zero contribution. Structurally, the profit engine is in permanent decline: supplies revenue fell 3% in FY2025 and office print volumes keep falling while clone-cartridge suppliers improve. Demand is also borrowed — the Windows 10 end-of-support refresh that drove FY2025 commercial PC growth pulls purchases forward and sets up an FY2027 air pocket against a unit market already guided down high-teens. The balance sheet offers no shock absorber: stockholders' equity is negative at -$346m and $18.1bn of accounts payable at 139 days is funding working capital. Finally, the RBC initiation that sparked the 8.2% pop was Sector Perform, with the analyst flagging margin pressure and secular Print decline — this is not a fundamental upgrade. Suggested stop ≈ 2× ATR below the pivot; cut size if Q4 FY26 shows Personal Systems operating margin below ~4.5% or if FY27 guidance is set below the ex-tariff FY26 run-rate.",
+  "thesis": {
+   "bull": [
+    "Record Q3 FY26: $15.7bn revenue +13%, ninth straight growth quarter, FY26 EPS guide raised to $3.19-$3.29",
+    "AI PCs at 46% of shipment mix targeting 50% by end-FY26 and 70%+ by 2028 — mix, not units, drives revenue",
+    "Printing run for margin: revenue -2% but operating margin +110bps to 18.1%, plus $1bn cost-out by FY2028",
+    "11.3x forward EPS with a 3.7% dividend yield — the cheapest liquid way to play the hardware/AI-PC re-rating",
+    "FY26 free cash flow guided up to $3.0-$3.2bn against a $32bn market cap"
+   ],
+   "bear": [
+    "About a third of the EPS raise is one-time tariff refunds ($0.11 Q3, $0.08 Q4) that do not repeat in FY27",
+    "Memory/DRAM costs still rising into FY27 against a Personal Systems margin of only 5.3% — no recovery date given",
+    "Supplies revenue, the actual profit engine, fell 3% in FY2025 and declines structurally every year",
+    "Windows 10 refresh pulled demand forward; PC units guided down high-teens in H2 with FY2027 air-pocket risk",
+    "Negative stockholders' equity (-$346m) and $18.1bn payables at 139 days — no balance-sheet shock absorber",
+    "The 11-Sep pop came from an RBC initiation at Sector Perform, flagging margin pressure — not a fundamental upgrade"
+   ],
+   "catalysts": [
+    "Q4 FY26 / full-year results, 25-Nov-2026 — first FY27 guide, ex-tariff earnings base and PS margin trough",
+    "DRAM/NAND contract pricing resets (Q4 CY2026 and Q1 CY2027) — the single biggest swing factor on PS margin",
+    "AI PC mix disclosure at the Q4 print — the 50%-by-end-FY26 target is a hard, checkable number",
+    "Restructuring progress against the 4,000-6,000 role reduction and $1bn run-rate savings through FY2027"
+   ],
+   "statement": "HP printed a record Q3 FY26 on 26-Aug-2026 — $15.7bn revenue, up 13%, a ninth consecutive quarter of growth — and raised FY26 non-GAAP EPS guidance from $2.90-$3.10 to $3.19-$3.29 with free cash flow guided to $3.0-$3.2bn.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 33.62,
+    "base": 46.6,
+    "bull": 76.49,
+    "base_upside_pct": 31.34,
+    "bull_upside_pct": 115.57
+   },
+   "falsifier": "About a third of the EPS raise is one-time tariff refunds ($0.11 Q3, $0.08 Q4) that do not repeat in FY27"
+  }
+ },
+ "ABN.AS": {
+  "business": "ABN AMRO is a Dutch-centred retail, wealth and corporate bank: it funds itself with Dutch household deposits and lends against Dutch residential mortgages and SME/corporate loans, earning the spread, plus fees from wealth management (EUR 283bn client assets) and from ABN AMRO Clearing, one of a handful of globally systemic clearers for listed derivatives serving the Amsterdam-centred proprietary market-making community. Roughly 72% of income is net interest income and 24% fees; around 78% of the business is the Netherlands. FY2025 net profit was EUR 2,252m on 8.7% ROE with cost of risk of just 1bp and CET1 of 15.4%.",
+  "happening": "ABN AMRO is breaking out on the 12-Aug-2026 Q2 print, which raised income guidance and cut cost guidance in the same quarter — net profit up almost 30% y/y to EUR 781m, ROE of 12.1% against an 8.7% full-year 2025 base, and pro-forma CET1 of 15.9% even after absorbing the NIBC acquisition's disclosed c.70-75bps CET1 drag. FY26 commercial net interest income guidance was raised to c.EUR 6.8bn including NIBC (against roughly EUR 6.4bn previously flagged), and FY26 cost guidance was cut to c.EUR 5.5bn. Fee income hit a record high: client assets grew just over EUR 25bn in the quarter, clearing had another strong quarter, client deposits rose over EUR 5bn and mortgage volume rose EUR 1.7bn at an 18% market share. Cost and RWA optimisation is running ahead of plan — c.EUR 300m of the EUR 900m 2028 savings target already realised, FTE reductions ahead of schedule against the 5,200 target, and c.EUR 9bn of RWA optimisation since the Capital Markets Day including c.EUR 2bn in Q2 alone. The shares are at EUR 42.64, up 22.9% over three months, 64.9% over six and 74.3% over twelve, within a whisker of the EUR 43.30 52-week high.",
+  "why": "The market had ABN priced for rate-cut-driven NII decay and it is not happening. (1) The replicating portfolio and deposit repricing tailwind still has runway — management raised FY26 commercial NII to c.EUR 6.8bn even as policy rates ease, which pushes out rather than confirms the consensus decay assumption, and that single revision is worth several hundred million of recurring pre-tax income. (2) Simultaneous cost cuts to c.EUR 5.5bn mean the jaws are positive on both blades, which is how a bank goes from 8.7% ROE to 12.1% in two quarters. (3) The capital story is the coiled spring: pro-forma CET1 at 15.9% is well above target with NIBC already absorbed, and on the analyst Q&A management explicitly declined to revisit the capital target before its Q4 annual assessment while noting a persistently above-target position could support additional distributions — the read is that an incremental buyback is coming and is being deliberately parked one quarter to clear the NIBC hit and Basel-related RWA moves first. The standing commitment is at least EUR 7.5bn of capital returned and up to 100% of net profit paid out over 2026-2028, against a EUR 35bn market cap. (4) The mix is shifting capital-light: record fees, EUR 25bn of client-asset inflows and a strong clearing franchise reduce the earnings' rate sensitivity. At 11.8x forward earnings with a 3.2% dividend yield before any special distribution, the re-rating has room.",
+  "risk": "The bear case is that this is still a Dutch rates proxy with a government seller on the register. Roughly three-quarters of the book is Dutch and heavily weighted to residential mortgages, and Dutch house-price growth is guided to moderate in 2026 — a genuine housing downturn would hit volume, margin and the 1bp cost of risk simultaneously, and that 1bp is not a sustainable level, it is a cycle low that can only go one way. The NII upgrade is the whole thesis, so any sign the replicating-portfolio tailwind exhausts in 2027 unwinds it directly. NLFI still holds about 20.5% of the shares after the July 2026 dribble-out, a persistent supply overhang that has repeatedly capped rallies. NIBC consumes capital and adds integration risk precisely while the bank is cutting 5,200 FTEs, and doing both at once is how execution errors happen. Management's refusal to move the capital target before Q4 is also a risk in the other direction: if the Q4 assessment produces no incremental buyback, the capital-return leg of the story is deferred a full year. And legacy AML/KYC remediation after the 2021 EUR 480m Dutch settlement keeps compliance costs and regulatory attention elevated. Suggested stop ≈ 2× ATR below the pivot; cut size if Q3 shows commercial NII tracking below the c.EUR 6.8bn path or if NLFI announces another placement.",
+  "thesis": {
+   "bull": [
+    "Q2 2026: net profit +30% y/y to EUR 781m, ROE 12.1% vs 8.7% in FY2025 — income guide up and cost guide down together",
+    "FY26 commercial NII raised to c.EUR 6.8bn including NIBC while policy rates ease — the rate-decay consensus is being pushed out",
+    "Pro-forma CET1 of 15.9% after the NIBC drag; management hinted a persistently above-target position supports extra distributions",
+    "Committed to at least EUR 7.5bn returned and up to 100% of net profit paid out over 2026-2028 on a EUR 35bn market cap",
+    "Capital-light mix building: record fees, EUR 25bn client-asset inflows, strong clearing quarter, 18% mortgage market share",
+    "Cost-out ahead of plan — EUR 300m of the EUR 900m 2028 target already realised, c.EUR 9bn RWA optimised since CMD"
+   ],
+   "bear": [
+    "Cost of risk of 1bp is a cycle low, not a run-rate — Dutch house-price growth is guided to moderate in 2026",
+    "Roughly 78% Dutch with heavy residential mortgage concentration; no geographic offset",
+    "NLFI still holds c.20.5% after the July 2026 placement — a standing supply overhang",
+    "NIBC integration risk lands at the same time as a 5,200 FTE reduction",
+    "If the Q4 capital assessment produces no incremental buyback, the capital-return leg is deferred a full year",
+    "The entire re-rating rests on one NII revision — exhaustion of the replicating-portfolio tailwind in 2027 unwinds it"
+   ],
+   "catalysts": [
+    "Q3 2026 results, 11-Nov-2026 — whether commercial NII is still tracking to c.EUR 6.8bn",
+    "Q4 2026 results and the annual capital assessment (Feb 2027) — the deliberately deferred buyback decision",
+    "NLFI placement decisions through 2026-27 — removal or renewal of the 20.5% overhang",
+    "NIBC integration milestones and the associated CET1 rebuild through H2 2026",
+    "ECB policy path and Dutch housing data — the two exogenous inputs to the NII and cost-of-risk lines"
+   ],
+   "statement": "ABN AMRO is breaking out on the 12-Aug-2026 Q2 print, which raised income guidance and cut cost guidance in the same quarter — net profit up almost 30% y/y to EUR 781m, ROE of 12.1% against an 8.7% full-year 2025 base, and pro-forma CET1 of 15.9% even after absorbing the NIBC acquisition's disclosed c.70-75bps CET1 drag.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 36.1,
+    "base": 42.97,
+    "bull": 46.51,
+    "base_upside_pct": -1.27,
+    "bull_upside_pct": 6.87
+   },
+   "falsifier": "Cost of risk of 1bp is a cycle low, not a run-rate — Dutch house-price growth is guided to moderate in 2026"
+  }
+ },
+ "SAB.MC": {
+  "business": "Banco Sabadell is Spain's SME bank: it lends working capital, trade finance and equipment finance to small and mid-sized Spanish companies and cross-sells payments, POS acquiring and insurance, funded by retail deposits. Net interest income is roughly 72% of income, fees around 20%. After the 30-Apr-2026 disposal of UK subsidiary TSB to Santander for GBP 2.65bn, the group is about 90% Spain and 10% Mexico, with a gross loan book of EUR 160.7bn. FY2025 net profit was EUR 1,775m, down 2.8% reported but up 3.4% excluding extraordinaries, with NII of EUR 3.6bn. The moat is entrenched Spanish SME relationships — payroll, POS terminals, supplier payments, credit lines and trade documentation sit with one bank and take months to move — which is precisely what BBVA spent eighteen months and EUR 16bn trying to buy before shareholders refused to tender in late 2025.",
+  "happening": "Sabadell is breaking out on the 24-Jul-2026 H1 print, the first under new CEO Marc Armengol and CFO Sergio Palavecino with TSB sold and gone. H1 net profit was EUR 971m — flat y/y headline but EUR 892m and +10.9% on a like-for-like ex-TSB basis — with recurrent RoTE of 14.9% and, critically, net interest income inflecting +3.4% q/q even while still -2.0% y/y at EUR 1,774m. Management steered analysts hard to the sequential number, effectively calling the rate-driven NII trough behind them. Commercial momentum has visibly recovered from the BBVA bid defence: performing loans +3% q/q, customer funds +1.8% q/q, net fees +4.0% q/q to EUR 643m. Capital return has become mechanical rather than event-driven — the EUR 800m buyback completed and a fresh EUR 331m buyback (c.2.1% of share capital) was announced immediately, on top of the EUR 0.50/share extraordinary TSB dividend paid in May 2026. The profitability ladder is now explicit: 13.6% recurrent RoTE at June 2026, 14.5% by end-2026, 16% in 2027, with cost of risk held at c.40bps. A restructure announced 28-Jul-2026 centralises key functions and expands the AI focus. Shares sit at EUR 3.65, up 21.0% over three months, 41.4% over six and 30.0% over twelve, essentially at the EUR 3.73 52-week high.",
+  "why": "This is a simplification plus a trough call, and the market is paying for both. (1) The NII trough is the load-bearing claim: if +3.4% q/q is the turn, then the 16% 2027 RoTE target is arithmetically reachable rather than aspirational, and the entire valuation gap to CaixaBank closes. Euribor stabilising plus loan growth of 3% q/q does the work that rate cuts were supposed to undo. (2) TSB's removal generated more than 400bps of capital and left a single-jurisdiction equity story that can actually be modelled — management explicitly sold that simplification to the market, and it is why the stock re-rated despite losing EUR 318m of 2025 UK profit. (3) The distribution reframing matters more than the amounts: completing EUR 800m and instantly launching EUR 331m tells shareholders buybacks are a recurring mechanical output of excess capital generation, not one-off disposal proceeds — which is also the core of the standalone defence against any renewed consolidation approach. With roughly EUR 4bn being returned against a EUR 17.6bn market cap and a 5.6% dividend yield at 11.5x forward earnings, the total shareholder yield is the argument. (4) There is a residual, unpriced option: BBVA raised its own profitability outlook and announced a $2.3bn buyback on 30-Jul-2026, and Spanish consolidation logic did not disappear when the tender failed.",
+  "risk": "The falsifier is Euribor. NII fell 6.6% in 2025 and is still -2.0% y/y; one quarter of +3.4% sequential improvement is management's trough call, not a proven trend, and with roughly 90% of the business in Spain there is no geographic offset if the spread resumes compressing. Selling TSB removed EUR 318m of diversified UK earnings and concentrated the franchise into a single housing and SME cycle — cost of risk guided at c.40bps is fine until Spanish SME credit turns, and Sabadell is structurally more SME-weighted than CaixaBank or Santander Spain. With BBVA's bid rejected, the takeover premium that supported the shares through 2025 is gone and the equity now depends purely on standalone execution by a management team that has been in place for one quarter. The Spanish windfall banking levy remains a direct charge against domestic profit. And returning roughly EUR 4bn — EUR 800m buyback, EUR 331m buyback, EUR 0.50/share extraordinary dividend and interim dividends — leaves a thinner cushion for a Spanish credit downturn precisely as the bank becomes a pure Spanish credit bet. In undifferentiated retail deposits and mortgages Sabadell is simply sub-scale against CaixaBank and Santander. Suggested stop ≈ 2× ATR below the pivot; cut size if Q3 NII fails to grow sequentially again or if cost of risk drifts above 45bps.",
+  "thesis": {
+   "bull": [
+    "H1 2026 net profit EUR 892m ex-TSB, +10.9%, with recurrent RoTE at 14.9% and NII inflecting +3.4% q/q",
+    "Explicit profitability ladder: 13.6% recurrent RoTE at Jun-26, 14.5% by end-2026, 16% in 2027",
+    "TSB sale generated 400bps+ of capital; roughly EUR 4bn being returned against a EUR 17.6bn market cap",
+    "Buybacks reframed as mechanical: EUR 800m completed and EUR 331m (2.1% of capital) launched immediately",
+    "Commercial momentum restored post-bid-defence — performing loans +3% q/q, fees +4.0% q/q to EUR 643m",
+    "11.5x forward earnings with a 5.6% dividend yield, plus residual Spanish consolidation optionality"
+   ],
+   "bear": [
+    "NII is still -2.0% y/y; one quarter of +3.4% sequential growth is a trough call, not a proven turn",
+    "Post-TSB the bank is c.90% Spain — no geographic offset if Euribor resumes compressing the spread",
+    "Losing TSB removed EUR 318m of 2025 profit and all UK diversification",
+    "BBVA's bid is dead, so the takeover premium is gone and everything rests on a one-quarter-old management team",
+    "c.40bps cost of risk on an SME-heavy book is a benign-cycle number; Sabadell is sub-scale in retail vs CaixaBank",
+    "The Spanish windfall banking levy remains a direct charge, and EUR 4bn of distributions thins the downturn cushion"
+   ],
+   "catalysts": [
+    "Q3 2026 results, 12-Nov-2026 — the second data point on the NII trough and progress toward 14.5% RoTE",
+    "FY2026 results (late Jan / Feb 2027) — confirmation of the 14.5% exit RoTE and the 2027 16% bridge",
+    "Execution of the EUR 331m buyback and the size of the next tranche — the 'mechanical distribution' test",
+    "Delivery of the 28-Jul-2026 restructure (centralised functions, AI focus) in the cost line through H2 2026",
+    "Euribor path and Spanish SME credit data; any renewed Spanish consolidation approach post-BBVA"
+   ],
+   "statement": "Sabadell is breaking out on the 24-Jul-2026 H1 print, the first under new CEO Marc Armengol and CFO Sergio Palavecino with TSB sold and gone.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 3.05,
+    "base": 3.6,
+    "bull": 3.97,
+    "base_upside_pct": -3.64,
+    "bull_upside_pct": 6.29
+   },
+   "falsifier": "NII is still -2.0% y/y; one quarter of +3.4% sequential growth is a trough call, not a proven turn"
+  }
+ },
+ "BMNR": {
+  "business": "BitMine Immersion Technologies is an Ethereum treasury vehicle, not an operating company. Chaired by Fundstrat's Tom Lee, it issues equity through at-the-market programmes, uses the proceeds to buy ETH, and stakes it for protocol yield. As of September 2026 it holds 5,929,198 ETH — roughly 4.8% of total ETH supply, worth about $15.2-15.4bn — of which some 5.07 million ETH is staked, plus 210 BTC, a $180m stake in Beast Industries, a $73m stake in Eightco Holdings (ORBS) and cash. Management's stated target is to own 5% of all ETH. It also runs MAVAN, a US-domiciled institutional validator network, and retains a de minimis legacy immersion-cooled bitcoin mining and hosting business. Say this plainly: the P&L is dominated by ETH mark-to-market under ASU 2023-08 fair-value accounting, not by operating revenue — staking rewards on ~5.07m ETH are the only meaningful recurring income and there is no conventional customer base underneath.",
+  "happening": "BMNR is in the Top 50 because Ethereum turned, not because anything changed at the company. ETH pushed past $2,600 on 11-Sep-2026 for the first time in eight months, outrunning bitcoin, XRP and solana, and is up roughly 49.5% over three months from a 52-week low of $1,565. BMNR has tracked it with leverage: the stock is at $25.03, up 55.4% over three months, but still down 54.6% over twelve from a 52-week high of $63.20. The buying has not stopped through the drawdown — BitMine bought 28,086 more ETH in early September (a $69m purchase disclosed 8-Sep-2026, its largest since June), taking holdings to within 0.1% of the 'alchemy of 5%' supply goal. Cantor Fitzgerald doubled its price target on the crypto treasury complex on 10-11 Sep, sending BMNR up 8% with SharpLink up 9% and Strategy up 4%, and Tom Lee has publicly called for ETH at $6,000 by December 2026 (conditional on bitcoin reaching $150,000 first). Treat that last item as a promoter forecast from the company's own chairman, not as research.",
+  "why": "The mechanism is arithmetic, and it is fragile. BMNR's entire growth engine is that the stock must trade above the value of the ETH it holds — only then is at-the-market issuance accretive to ETH-per-share, and only then does the flywheel spin. Right now it barely does: 603m shares at $25.03 is a $15.1bn market capitalisation against 5.93m ETH worth roughly $15.4bn at $2,600, which is ETH-per-share of about 0.0098 and an mNAV of roughly 0.98-1.0x. In other words the premium has already been arbitraged away, and what is moving the stock now is pure levered beta to the ETH price plus a short-covering sentiment trade triggered by the Cantor target raise. The three-month move decomposes almost entirely into ETH's 49.5% rally, staking yield on 5.07m ETH, and a sell-side call that a crypto bear-market bottom is in. Scale (4.8% of supply), MAVAN and Tom Lee's distribution reach are real assets but none of them are defensible — a spot ETH ETF delivers identical exposure for around 25 basis points with daily liquidity and no dilution risk.",
+  "risk": "This is a levered crypto proxy and should be sized as one, not as an equity. The falsifier is mNAV: at roughly 1.0x the accretive-issuance mechanism is already dead, and if the stock trades through NAV the company becomes a less liquid, dilution-prone ETH ETF with a corporate overhead — at which point the rational trade is to own ETH or ETHA directly. ETH price is effectively the entire P&L; holdings were marked at roughly $2,511/ETH in August 2026, so a 50% ETH drawdown halves the balance sheet and, because the equity carries issuance and operating costs on top, the stock falls further than the asset — which is exactly what the -54.6% twelve-month return against a much shallower ETH decline demonstrates. The position is also not liquid in stress: with ~5.07m ETH staked, validator slashing penalties and the Ethereum exit and withdrawal queue mean it cannot be unwound quickly. Continuous ATM issuance makes share-count growth structural. The $180m Beast Industries and $73m Eightco (ORBS) stakes are illiquid venture bets with no mark-to-market discipline. Fair-value accounting under ASU 2023-08 means reported earnings swing violently with ETH with no recurring operating cash flow underneath, so conventional earnings-based stops and valuation screens are meaningless here. Competition for the same capital pool is direct — SharpLink, The Ether Machine, ETHZilla, Strategy as the template, and the spot ETH ETFs as the cheap substitute. Position sizing, not a stop, is the primary risk control; if used, a stop should sit well outside normal crypto volatility (ETH routinely moves 20%+ in a month) or it will be taken out by noise.",
+  "thesis": {
+   "bull": [
+    "ETH broke above $2,600 on 11-Sep-2026 for the first time in eight months, +49.5% over three months off a $1,565 low",
+    "Holdings of 5,929,198 ETH are within 0.1% of the stated 5%-of-supply target; buying continued through the drawdown (28,086 ETH, $69m, early September)",
+    "Staking ~5.07m ETH generates protocol yield that compounds ETH-per-share without new issuance",
+    "Cantor Fitzgerald doubled targets across crypto treasury names on 10-11 Sep, calling a bear-market bottom",
+    "Stock is still 60% below its 52-week high of $63.20 — maximum operating leverage to any ETH recovery"
+   ],
+   "bear": [
+    "mNAV is already about 0.98-1.0x ($15.1bn market cap vs ~$15.4bn of ETH) — the accretive-issuance flywheel has stopped",
+    "ETH mark-to-market is effectively the entire P&L; there is no operating business and no recurring cash flow underneath",
+    "Spot ETH ETFs deliver identical exposure for ~25bps with daily liquidity and zero dilution risk",
+    "~5.07m ETH staked cannot be liquidated quickly — validator slashing and the exit/withdrawal queue block a stress exit",
+    "Continuous ATM issuance makes share-count dilution structural, and the equity fell 54.6% over twelve months on a far shallower ETH decline",
+    "$180m Beast Industries and $73m Eightco stakes are illiquid venture bets with no mark-to-market discipline",
+    "The $6,000-ETH-by-December call comes from chairman Tom Lee — promoter commentary, not independent research"
+   ],
+   "catalysts": [
+    "Weekly ETH holdings and NAV-per-share disclosures — the crossing of the 5%-of-supply threshold is imminent",
+    "FY2026 results / 10-K (fiscal year ended 31-Aug-2026), around 21-Nov-2026 — first full-year fair-value accounting and share-count disclosure",
+    "ETH price action versus Tom Lee's $6,000-by-December-2026 call and its $150,000 bitcoin precondition",
+    "US crypto market-structure legislation (Clarity Act Senate vote pending as of Sep 2026) — the main regulatory swing factor",
+    "Any move to mNAV materially above or below 1.0x — above restarts accretive issuance, below invalidates the entire model"
+   ],
+   "statement": "BMNR is in the Top 50 because Ethereum turned, not because anything changed at the company.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 19.61,
+    "base": 26.38,
+    "bull": 35.3,
+    "base_upside_pct": 5.41,
+    "bull_upside_pct": 41.05
+   },
+   "falsifier": "mNAV is already about 0.98-1.0x ($15.1bn market cap vs ~$15.4bn of ETH) — the accretive-issuance flywheel has stopped"
   }
  }
 }

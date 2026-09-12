@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-09-05",
+    "as_of": "2026-09-12",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -601,79 +601,78 @@
   "DELL": {
     "ticker": "DELL",
     "company": "Dell Technologies Inc.",
-    "as_of": "2026-06-06",
+    "as_of": "2026-09-12",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Dell sells servers, storage, networking, PCs, and related services to enterprises, governments, and consumers. It runs two segments: Infrastructure Solutions Group (ISG) — servers (now heavily AI-optimized), storage and networking — and Client Solutions Group (CSG) — commercial and consumer PCs. AI-optimized servers are the dominant growth driver: ISG hit $19.6bn in Q4 FY2026 (+73% YoY) with AI servers up 342%, and Dell guided to ~$50bn of full-year AI-server revenue. Margins are thin (especially AI servers), so Dell earns on volume, attach (storage/services), and supply-chain scale.",
+    "company_overview": "Dell designs, integrates and ships x86 infrastructure and PCs, and increasingly acts as the rack-scale integrator for NVIDIA GPU systems: it buys GPUs, memory and power/cooling components, assembles liquid-cooled racks, and delivers them installed with financing and support. FY2026 (ended 30 Jan 2026) revenue was a record $113.5bn, with Infrastructure Solutions Group at $60.8bn (+40%) on $24.7bn of AI-optimised servers (+166%). It booked over $64bn of AI server orders in the year, shipped $25bn, and entered FY27 with a record $43bn backlog.",
     "revenue_mix": [
       {
-        "segment": "Infrastructure Solutions Group (servers, storage, networking)",
-        "share_pct": 56,
+        "segment": "Infrastructure Solutions Group — servers, networking, storage ($60.8bn)",
+        "share_pct": 54,
         "trend": "growing"
       },
       {
-        "segment": "Client Solutions Group (commercial + consumer PCs)",
+        "segment": "Client Solutions Group — commercial and consumer PCs (approx $50bn)",
         "share_pct": 44,
-        "trend": "stable"
+        "trend": "growing"
+      },
+      {
+        "segment": "Other / corporate (VMware resale and legacy, approx)",
+        "share_pct": 2,
+        "trend": "declining"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas",
-        "share_pct": 52
+        "region": "United States ($63.1bn)",
+        "share_pct": 56
       },
       {
-        "region": "EMEA",
-        "share_pct": 28
-      },
-      {
-        "region": "Asia Pacific & Japan",
-        "share_pct": 20
+        "region": "Non-US — EMEA, APJ and rest of Americas ($50.4bn)",
+        "share_pct": 44
       }
     ],
     "end_markets": [
-      "AI infrastructure / hyperscale & neocloud server build-outs",
-      "Enterprise data center (storage, traditional servers)",
-      "Commercial PC fleets (corporate, government, education)",
-      "Consumer PCs"
+      "AI neoclouds and GPU-as-a-service providers",
+      "Hyperscale and Tier-2 cloud datacentres",
+      "Enterprise and mid-market IT (commercial PCs, storage, traditional servers)",
+      "Government, education and healthcare",
+      "Telecom edge / 5G core infrastructure"
     ],
     "top_competitors": [
-      "HPE (servers, storage)",
-      "Supermicro (AI servers)",
-      "Lenovo (PCs + ISG)",
-      "HP Inc. (PCs)",
-      "Pure Storage / NetApp (storage)",
-      "Cisco (networking)"
+      "Super Micro Computer (direct rival in AI rack integration)",
+      "Hewlett Packard Enterprise",
+      "Lenovo (both servers and PCs)",
+      "ODMs selling direct — Quanta, Wiwynn, Foxconn Industrial Internet",
+      "NetApp and Pure Storage in external storage; HP Inc., Lenovo and Apple in PCs"
     ],
     "moat": {
-      "type": "Supply-chain scale + enterprise sales/services footprint",
-      "narrative": "Dell's moat is operational, not structural: a best-in-class direct-and-channel supply chain, vendor financing, global services, and entrenched enterprise relationships let it win large AI-server deals and attach proprietary PowerStore/PowerScale storage and services. There is little technology lock-in (it assembles others' GPUs/CPUs), so AI-server margins are razor-thin; the durable advantage is procurement scale, configuration/integration capability, and trusted enterprise account access."
+      "type": "Supply-chain scale and delivery speed — execution, not structure",
+      "narrative": "There is no defensible technology moat in assembling someone else's GPUs; the advantage is procuring power-delivery, liquid-cooling and memory components at 113bn-of-revenue scale, financing the customer through Dell Financial Services, and physically deploying racks faster than rivals — the GB300 NVL72 delivery to CoreWeave is the proof point. That is genuinely hard to match at speed, but it is a working-capital and logistics advantage that erodes if NVIDIA allocation shifts or if neoclouds buy direct from ODMs. The durable piece is the commercial PC and storage installed base with its services attach, not the AI server line."
     },
     "key_customers": [
-      "Hyperscalers & neoclouds (AI builders such as xAI/CoreWeave-type accounts)",
-      "Large enterprises and government agencies",
-      "Channel partners and resellers globally"
+      "AI neoclouds — CoreWeave is a publicly referenced GB300 NVL72 customer",
+      "xAI and other frontier-model training clusters",
+      "Large enterprise and government commercial PC fleets bought through a two-tier channel",
+      "No single customer historically exceeds 10% of revenue, but AI server orders are concentrated in a handful of names"
     ],
     "key_risks": [
-      "Thin and pressured AI-server gross margins; revenue mix shift toward AI servers dilutes overall profitability",
-      "Component cost inflation (memory/DRAM/HBM, GPUs) and supply allocation from Nvidia",
-      "PC demand cyclicality in CSG and dependence on a Windows refresh cycle",
-      "Customer concentration in a few large AI buyers whose capex is volatile"
+      "AI servers carry structurally thin margins — ISG revenue grew 40% while segment profitability lagged, so revenue growth is not earnings growth",
+      "Customer credit concentration: a large share of the $43bn backlog sits with venture-funded neoclouds whose ability to pay depends on continued AI capex financing",
+      "DRAM/NAND cost inflation in the 2026 memory upcycle hits CSG gross margin directly and cannot be fully passed through in commodity PCs",
+      "Complete dependence on NVIDIA GPU allocation — Dell does not control the scarce input",
+      "Michael Dell and Silver Lake retain voting control through the Class B/C share structure, limiting minority-shareholder influence"
     ],
     "sources": [
       {
-        "label": "Dell Q4 FY2026 results coverage (Futurum)",
-        "url": "https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/"
+        "label": "Dell Q4 & full-year FY2026 results",
+        "url": "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-3"
       },
       {
-        "label": "Dell FY2026 Annual Report (SEC ARS)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000119312526226755/d341553dars.pdf"
-      },
-      {
-        "label": "Wikipedia Dell Technologies",
-        "url": "https://en.wikipedia.org/wiki/Dell_Technologies"
+        "label": "Dell Technologies FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm"
       }
     ],
-    "last_refreshed": "2026-06-13"
+    "last_refreshed": "2026-09-12"
   },
   "BESI.AS": {
     "ticker": "BESI.AS",
@@ -7500,80 +7499,77 @@
   "SNOW": {
     "ticker": "SNOW",
     "company": "Snowflake Inc.",
-    "as_of": "2026-06-28",
-    "last_refreshed_reason": "New concall (Q1 FY2027)",
-    "company_overview": "Snowflake operates the AI Data Cloud — a cloud platform where companies store, query, share, and run analytics and AI on their data without managing infrastructure. It separates storage from compute and bills on a consumption basis (credits per second of compute), so revenue rises as customers run more queries and AI workloads. FY2026 (ended Jan 2026) revenue was $4.44B, up 29%, with product revenue the vast majority and a $9.77B remaining-performance-obligation backlog.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Snowflake runs a cloud data platform where storage and compute are billed separately and metered by the second — customers pre-purchase credits and burn them running SQL, ML and AI workloads across AWS, Azure and GCP from a single account. Because it is consumption- rather than seat-priced, revenue tracks how much querying customers actually do. FY2026 (ended 31 Jan 2026) product revenue was $4.47bn, up 29%, with net revenue retention of 125% and 733 customers spending over $1m on a trailing-twelve-month basis — up from 576 — together representing about 68% of product revenue.",
     "revenue_mix": [
       {
-        "segment": "Product revenue (platform consumption — compute, storage, data services)",
+        "segment": "Product revenue (consumption credits, $4.47bn)",
         "share_pct": 96,
         "trend": "growing"
       },
       {
-        "segment": "Professional services & other",
+        "segment": "Professional services and other",
         "share_pct": 4,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States",
+        "region": "Americas",
         "share_pct": 78
       },
       {
         "region": "EMEA",
-        "share_pct": 14
+        "share_pct": 16
       },
       {
-        "region": "Asia Pacific & Other",
-        "share_pct": 8
+        "region": "Asia Pacific and Japan",
+        "share_pct": 6
       }
     ],
     "end_markets": [
-      "Financial services",
-      "Technology & software",
-      "Retail/CPG",
-      "Healthcare & life sciences",
-      "Media, advertising & telecom"
+      "Financial services and fintech",
+      "Healthcare and life sciences",
+      "Retail, CPG and advertising/retail media",
+      "Technology and media streaming analytics",
+      "Public sector and telecom"
     ],
     "top_competitors": [
-      "Databricks",
+      "Databricks — the head-to-head rival, stronger in ML/AI and Iceberg-native workloads",
       "Google BigQuery",
-      "Amazon Redshift",
-      "Microsoft Fabric/Azure Synapse",
-      "Oracle",
-      "ClickHouse/Confluent (in niches)"
+      "AWS Redshift plus S3 Tables (Amazon is simultaneously landlord and competitor)",
+      "Microsoft Fabric / Synapse",
+      "ClickHouse, DuckDB/MotherDuck and Apache Iceberg-based open stacks at the low-cost end"
     ],
     "moat": {
-      "type": "Multi-cloud data gravity + data-sharing network + consumption stickiness",
-      "narrative": "Snowflake's cross-cloud, cross-region architecture plus its data-sharing/Marketplace lets customers and partners exchange live datasets without copying — a network effect that deepens as more enterprises join, while massive stored data creates gravity that is costly to migrate. Cortex AI (430+ new capabilities in FY2026, including Cortex Code) keeps AI workloads on-platform, and consumption pricing compounds revenue with usage; 733 customers now spend $1M+ trailing-12-month product revenue."
+      "type": "Data gravity plus the Marketplace sharing network",
+      "narrative": "Once a company's governed enterprise data and its RBAC/masking policies live in Snowflake, moving out means rebuilding the governance layer, not just copying bytes. The sharper edge is Snowflake Marketplace and secure data sharing: a retailer that already exchanges live data with its CPG suppliers inside Snowflake creates a two-sided switching cost, which is a genuine network effect rather than a lock-in. That said, the Apache Iceberg open table format — which Snowflake itself now supports — deliberately decouples storage from compute and structurally weakens the storage-side moat over time."
     },
     "key_customers": [
-      "790 of the Forbes Global 2000 as customers",
-      "733 customers with >$1M trailing-12-month product revenue",
-      "Referenced large users include AT&T, Capital One, Adobe, NBCUniversal and major banks/retailers; revenue is diversified with no single dominant customer"
+      "733 customers at $1m+ trailing-twelve-month product revenue, about 68% of product revenue",
+      "Roughly 12,000 total customers including several hundred of the Forbes Global 2000",
+      "Capital One is the largest historically disclosed customer relationship",
+      "Heavy concentration in financial services, adtech/retail media and healthcare data workloads"
     ],
     "key_risks": [
-      "Consumption model means revenue is sensitive to customer cost-optimization and to how efficiently new compute generations (and AI) consume credits",
-      "Intense competition from Databricks (lakehouse) and hyperscalers (BigQuery, Redshift, Microsoft Fabric) bundling data + AI at aggressive prices",
-      "Hyperscaler dependency — Snowflake runs on AWS/Azure/GCP, paying them while competing with their native warehouses",
-      "Rich valuation requires durable ~25-30% growth and proof that Cortex AI converts into incremental consumption"
+      "Iceberg and open table formats let customers keep data in their own object storage and point any engine at it, eroding the storage-side lock-in Snowflake was built on",
+      "Databricks competes directly for the AI/ML workload that is driving incremental spend, and is the reference alternative in most enterprise bake-offs",
+      "AWS, Azure and GCP are simultaneously Snowflake's cost base and its competitors — gross margin is structurally capped by what it pays them",
+      "Consumption pricing cuts both ways: customer cost-optimisation programmes hit revenue immediately with no contractual floor",
+      "Still GAAP-unprofitable with stock-based compensation running at a very high share of revenue, so per-share value depends on dilution discipline"
     ],
     "sources": [
       {
-        "label": "Snowflake Q4 & FY2026 results (IR)",
+        "label": "Snowflake Q4 & full-year FY2026 results",
         "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026/"
       },
       {
-        "label": "Snowflake FY2026 Q4 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000162828026011631/fy2026q4earnings.htm"
-      },
-      {
-        "label": "Snowflake Q3 FY2026 results",
-        "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-third-quarter-of-fiscal-2026/"
+        "label": "Snowflake Inc. FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm"
       }
     ],
-    "last_refreshed": "2026-06-28"
+    "last_refreshed": "2026-09-12"
   },
   "LRCX": {
     "ticker": "LRCX",
@@ -10956,90 +10952,86 @@
   "PATH": {
     "ticker": "PATH",
     "company": "UiPath, Inc.",
-    "as_of": "2026-08-08",
+    "as_of": "2026-09-12",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "UiPath sells enterprise automation software. Its original product is RPA — software robots that drive existing applications through their user interfaces to run rules-based back-office work (invoice matching, claims intake, ERP data entry) without any integration project. It now sells the same platform as agentic automation: deterministic robots plus LLM-based agents, governed centrally through Orchestrator. Fiscal 2026 (ended 31-Jan-2026) revenue was $1.611bn, up 13%, on ARR of $1.853bn, up 11%, of which over $1.2bn is cloud.",
+    "company_overview": "UiPath sells software robots that execute repetitive back-office work — invoice processing, claims adjudication, ERP data entry — by driving existing applications through their user interfaces, so customers automate legacy systems without re-platforming them. Revenue is term licences plus attached maintenance, billed per attended/unattended robot and orchestrator. FY2026 (ended 31 Jan 2026) ARR reached $1.853bn, up 11%, on revenue up 14%; it was the first full year of GAAP operating profit ($57m) with $372m free cash flow. The company is repositioning from RPA to 'agentic automation', wrapping LLM agents around the existing robot fleet.",
     "revenue_mix": [
       {
-        "segment": "Licenses — term licences, revenue recognised largely upfront (approx)",
-        "share_pct": 53,
+        "segment": "Licenses (term subscription, approx)",
+        "share_pct": 49,
         "trend": "stable"
       },
       {
-        "segment": "Subscription services — Automation Cloud, maintenance and support (approx)",
+        "segment": "Maintenance and support (approx)",
         "share_pct": 44,
         "trend": "growing"
       },
       {
-        "segment": "Professional services and other (approx)",
-        "share_pct": 3,
-        "trend": "declining"
+        "segment": "Services and other (approx)",
+        "share_pct": 7,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas",
+        "region": "Americas (approx)",
         "share_pct": 50
       },
       {
-        "region": "EMEA",
-        "share_pct": 32
+        "region": "EMEA (approx)",
+        "share_pct": 33
       },
       {
-        "region": "Asia Pacific",
-        "share_pct": 18
+        "region": "Asia Pacific (approx)",
+        "share_pct": 17
       }
     ],
     "end_markets": [
-      "Banking and financial services — reconciliation, KYC/AML, loan operations (largest vertical)",
-      "Insurance — claims intake and adjudication",
-      "Healthcare and life sciences — revenue cycle management, prior authorisation",
-      "Public sector, including US federal (FedRAMP-authorised Automation Cloud)",
-      "Manufacturing, CPG and telecom shared-service centres",
-      "BPO and outsourcing providers who embed UiPath in their own delivery"
+      "Banking & insurance back office",
+      "Healthcare claims and revenue-cycle management",
+      "Public sector / government shared services",
+      "Telecom and BPO providers",
+      "Manufacturing ERP and supply-chain operations"
     ],
     "top_competitors": [
-      "Microsoft Power Automate — bundled into M365 E5, the single biggest pricing threat",
-      "Automation Anywhere — closest pure-play rival",
+      "Microsoft Power Automate (bundled into M365/E5, the price anchor)",
+      "Automation Anywhere",
       "SS&C Blue Prism",
-      "ServiceNow — encroaching from ITSM workflow into AI agents",
-      "Pegasystems, Appian and Nintex in process orchestration",
-      "Salesforce Agentforce and the LLM labs' own computer-use agent frameworks",
-      "Celonis in process mining (competes with UiPath Process Mining)"
+      "ServiceNow (workflow + agents encroaching from the ITSM side)",
+      "Salesforce Agentforce and LLM-native agent startups displacing the 'agentic' narrative"
     ],
     "moat": {
-      "type": "Deployed automation install base plus the governance/orchestration control plane — real switching costs, weak pricing power",
-      "narrative": "The defensible asset is not the robot, it is Orchestrator: the control plane that schedules, versions, audits and credential-manages thousands of unattended robots inside regulated enterprises, plus the sunk cost of a bank that has 5,000 production automations built in UiPath Studio and cannot cheaply port them. That is why dollar-based net retention is still ~109% and $1m+ ARR customers grew 18% YoY. But it is genuinely contested rather than structural — Microsoft gives Power Automate away inside E5, and if general-purpose LLM agents learn to operate enterprise applications reliably, the install base becomes legacy rather than moat."
+      "type": "Deployed robot fleet and process documentation — narrowing, not widening",
+      "narrative": "The real lock-in is the several thousand bespoke automations a large bank or insurer has already built in UiPath Studio, each encoding an undocumented business process; ripping them out means re-discovering the process. That is a decaying moat rather than a structural one — LLM agents can now read a screen and act without a pre-built workflow, and Microsoft gives Power Automate away inside E5. Management is explicitly betting that the orchestrator/governance layer (audit trails, human-in-the-loop, on-prem deployment for regulated clients) is the durable piece, not the robots."
     },
     "key_customers": [
-      "No single customer above 10% of revenue; concentration is not disclosed",
-      "374 customers at $1m+ ARR as of Q1 FY2027, up 18% YoY — the enterprise base is where growth is coming from",
-      "A Fortune 500 energy company put UiPath at the centre of a $70m cost-reduction programme (cited on the Q1 FY2027 call)",
-      "Published enterprise references include Uber, Deloitte, EY, Generali, Heineken, Chipotle, Omron and Postbank",
-      "Global systems integrators and BPOs (Accenture, Deloitte, EY, PwC, Cognizant, Infosys, TCS) act as both customers and the primary deployment channel"
+      "2,432 customers at $100k+ ARR; 320 at $1m+ ARR",
+      "Heavy concentration in banking, insurance and healthcare shared-service centres",
+      "Large BPOs and GSIs (Accenture, EY, Deloitte) as both channel and end user",
+      "~60% of $100k+ ARR customers now consume an AI product"
     ],
     "key_risks": [
-      "Microsoft Power Automate is bundled into M365 E5, which removes the budget line for entry-level RPA entirely — UiPath's dollar-based net retention has slid from 118% (Q1 FY2025) to 109% (Q1 FY2027)",
-      "ARR growth (11-12%) is running below revenue growth, and net new ARR in Q1 FY2027 was only $49m — the installed base is expanding slowly and the agentic products have not yet re-accelerated the underlying subscription base",
-      "US federal is a meaningful vertical, so procurement pauses and budget scrutiny hit new bookings directly with little warning",
-      "Category risk is existential rather than competitive: if LLM agents operate enterprise applications reliably, UI-scripting RPA becomes a commodity feature inside someone else's platform",
-      "Dual-class structure — co-founder Daniel Dines, who returned as CEO in 2024, holds super-voting Class B shares, so public holders cannot force a sale or a strategy change"
+      "ARR growth has decelerated to 11% while revenue grew 14% — the forward indicator is worse than the reported one",
+      "Microsoft bundles Power Automate into M365 E5 at effectively zero incremental price, capping seat pricing",
+      "Agentic AI is a genuine substitution threat, not just a competitor: an LLM that operates a UI directly removes the need for a pre-recorded robot",
+      "Dollar-based net retention has fallen to ~108% — expansion inside the installed base has largely stalled",
+      "Founder Daniel Dines holds super-voting Class B shares, so the board is effectively founder-controlled despite public-market pressure"
     ],
     "sources": [
       {
-        "label": "UiPath Q4 and full year fiscal 2026 results (IR)",
+        "label": "UiPath Q4 & full-year FY2026 results",
         "url": "https://ir.uipath.com/news/detail/431/uipath-reports-fourth-quarter-and-full-year-fiscal-2026-financial-results"
       },
       {
-        "label": "UiPath Q1 fiscal 2027 results (IR)",
-        "url": "https://ir.uipath.com/news/detail/452/uipath-reports-first-quarter-fiscal-2027-financial-results"
+        "label": "UiPath Q3 FY2026 results",
+        "url": "https://ir.uipath.com/news/detail/420/uipath-reports-third-quarter-fiscal-2026-financial-results"
       },
       {
-        "label": "UiPath Q1 FY2027 Form 8-K exhibit (SEC)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001734722/000173472226000037/path-2026430xex991.htm"
+        "label": "UiPath investor relations",
+        "url": "https://ir.uipath.com/"
       }
     ],
-    "last_refreshed": "2026-08-08"
+    "last_refreshed": "2026-09-12"
   },
   "U": {
     "ticker": "U",
@@ -11492,93 +11484,81 @@
   "GTLB": {
     "ticker": "GTLB",
     "company": "GitLab Inc.",
-    "as_of": "2026-08-15",
+    "as_of": "2026-09-12",
     "last_refreshed_reason": "Initial backfill",
-    "company_overview": "GitLab sells a single application that covers the whole software lifecycle — source control, code review, CI/CD pipelines, security scanning, package registry and the GitLab Duo AI assistant — priced per seat on Free, Premium ($29) and Ultimate ($99) tiers. Unlike GitHub it ships a fully-featured self-managed edition, which is why regulated and air-gapped customers buy it. FY2026 (ended 31 January 2026) revenue was $955.2m, up 26%, with subscription revenue of $864.7m and ARR crossing $1bn.",
+    "company_overview": "GitLab sells a single application covering the whole software lifecycle — source control, CI/CD pipelines, security scanning, compliance and release management — priced per seat in Free/Premium/Ultimate tiers and deployable either as SaaS or self-managed behind a customer's own firewall. FY2026 (ended 31 Jan 2026) revenue was $955m, up 26%, with ARR crossing $1bn and free cash flow of $220m, up over 80%. The Ultimate tier, which carries the security and compliance features, now represents 56% of ARR.",
     "revenue_mix": [
       {
-        "segment": "Self-managed subscription (customer-hosted; approx, GitLab reports self-managed and SaaS combined)",
-        "share_pct": 58,
-        "trend": "stable"
-      },
-      {
-        "segment": "SaaS — GitLab.com and GitLab Dedicated (approx)",
-        "share_pct": 33,
+        "segment": "Subscription — self-managed and SaaS (approx)",
+        "share_pct": 89,
         "trend": "growing"
       },
       {
-        "segment": "License, professional services and other",
-        "share_pct": 9,
+        "segment": "License — self-managed and other (approx)",
+        "share_pct": 11,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States (approx — GitLab's largest single market)",
-        "share_pct": 52
+        "region": "United States (approx)",
+        "share_pct": 63
       },
       {
         "region": "Europe (approx)",
-        "share_pct": 26
+        "share_pct": 22
       },
       {
         "region": "Asia Pacific (approx)",
-        "share_pct": 14
+        "share_pct": 10
       },
       {
-        "region": "Other / rest of world (approx)",
-        "share_pct": 8
+        "region": "Other (approx)",
+        "share_pct": 5
       }
     ],
     "end_markets": [
-      "Enterprise software engineering and platform teams",
-      "Regulated industries needing self-managed/air-gapped DevSecOps (banks, defence, healthcare)",
-      "US federal and public sector (FedRAMP-authorised GitLab Dedicated for Government)",
-      "Embedded/automotive and hardware software teams"
+      "Regulated financial services (banks, exchanges)",
+      "Defence, aerospace and government — including air-gapped deployments",
+      "Semiconductors and hardware engineering",
+      "Telecom and automotive software",
+      "Tech and internet companies"
     ],
     "top_competitors": [
-      "GitHub (Microsoft) — incumbent with Copilot and Actions",
-      "Atlassian (Bitbucket, Jira, Compass)",
-      "JFrog and CircleCI (artifact and CI point tools)",
-      "Harness",
-      "Snyk and Checkmarx (in application security)",
-      "Cursor, Anthropic's Claude Code and OpenAI Codex (agentic tools capturing the developer workflow above the repo)"
+      "Microsoft GitHub, bundled with Copilot and Azure — the dominant threat",
+      "Atlassian (Jira/Bitbucket)",
+      "JFrog and Harness in artefact management and CI/CD",
+      "Snyk and Checkmarx in application security scanning",
+      "AI-native coding tools (Cursor, Claude Code, OpenAI Codex) pulling developer workflow into the IDE"
     ],
     "moat": {
-      "type": "Single-application consolidation and self-managed deployment — narrowing",
-      "narrative": "GitLab's defensible slice is the regulated, self-hosted enterprise that cannot put source code in Microsoft's cloud, plus the cost case for replacing five point tools with one Ultimate licence. Beyond that the moat is thin and getting thinner: git itself is portable, and the value is migrating up the stack to AI agents that sit above the repository, where GitHub Copilot, Cursor and Claude Code already own the developer's attention. Reported takeover interest in 2026 reflects exactly this — GitLab is a strong asset with a shrinking independent runway."
+      "type": "Self-managed deployment in regulated and air-gapped environments",
+      "narrative": "GitHub's commercial centre of gravity is cloud; GitLab's is the on-prem/self-managed install that a defence contractor, exchange or central bank can run disconnected from the internet with the compliance, audit and separation-of-duties controls bundled in Ultimate. That is a procurement moat, not a code moat — the product is open-core, so the defensibility comes from FedRAMP-style certifications, air-gap support and the fact that the entire DevSecOps toolchain is one vendor and one audit trail. It does not protect against the seat-count risk if AI agents write more of the code."
     },
     "key_customers": [
-      "1,456 customers with $100k+ ARR (up 18% YoY)",
-      "Goldman Sachs",
-      "Siemens",
-      "NVIDIA",
-      "US Department of Defense and other federal agencies (via GitLab Dedicated for Government)",
-      "T-Mobile",
-      "Airbus"
+      "1,456 customers at $100k+ ARR (+18% y/y); 155 customers at $1m+ ARR",
+      "Publicly referenced enterprise users include NVIDIA, Siemens, Airbus, Lockheed Martin, UBS and T-Mobile",
+      "US federal and defence agencies via self-managed/air-gapped deployments",
+      "Google Cloud partnership channels GitLab Dedicated to GCP enterprise accounts"
     ],
     "key_risks": [
-      "Reports that OpenAI is building an internal AI-native code-hosting platform sent GTLB down ~7% in March 2026 and reopened the question of whether repo hosting is a durable business",
-      "GitHub Copilot's bundling into Microsoft enterprise agreements makes GitLab Duo a paid add-on competing against something the CIO already owns",
-      "Seat-based pricing is directly exposed to slowing software engineering headcount growth as AI agents absorb junior work",
-      "FY2026 net loss widened to $58.6m despite 26% growth, and stock-based compensation remains a large share of revenue",
-      "Persistent takeover speculation (Datadog and Google have both been named historically) means the equity trades on deal chatter rather than execution"
+      "GitHub Copilot is bundled into Microsoft enterprise agreements, so GitLab must win on merit against a functionally free incumbent",
+      "Seat-based pricing is exposed if agentic coding reduces developer headcount growth — GitLab's answer, usage-priced 'GitLab Credits' for the Duo Agent Platform, is unproven",
+      "56% of ARR now sits in Ultimate, so further growth depends on the harder Premium-to-Ultimate upsell rather than new logos",
+      "Persistent unresolved M&A speculation (reported Datadog/Google interest in 2024) distorts the share price and complicates enterprise sales cycles",
+      "Open-core model means the free tier cannibalises paid seats in cost-conscious budgets"
     ],
     "sources": [
       {
-        "label": "GitLab Q4 and FY2026 results (IR)",
+        "label": "GitLab Q4 & full-year FY2026 results",
         "url": "https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-Fourth-Quarter-and-Full-Year-Fiscal-Year-2026-Financial-Results-Board-of-Directors-Authorizes-400-million-for-Share-Repurchase-Program/default.aspx"
       },
       {
-        "label": "GitLab FY2026 Form 10-K summary",
-        "url": "https://www.stocktitan.net/sec-filings/GTLB/10-k-gitlab-inc-files-annual-report-1c11f3df5f7c.html"
-      },
-      {
-        "label": "GitLab Q4 FY2026 earnings call highlights",
-        "url": "https://finance.yahoo.com/news/gitlab-inc-gtlb-q4-2026-050129335.html"
+        "label": "GitLab Inc. FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/gtlb-20260131.htm"
       }
     ],
-    "last_refreshed": "2026-08-15"
+    "last_refreshed": "2026-09-12"
   },
   "DINO": {
     "ticker": "DINO",
@@ -14033,5 +14013,502 @@
       }
     ],
     "last_refreshed": "2026-09-05"
+  },
+  "NIQ": {
+    "ticker": "NIQ",
+    "company": "NIQ Global Intelligence plc",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "NIQ sells syndicated consumer-purchase measurement: it aggregates retailer point-of-sale scanner feeds and household panel data in 100+ markets, then licenses the resulting market-share reads back to the CPG, beverage-alcohol, beauty and tech-durables brands whose products moved. Roughly 81% of the $4.20bn FY2025 revenue is recurring subscription 'Intelligence'; the rest is 'Activation' (analytics, revenue-optimisation and consumer-insight projects). Formed by Advent's 2021 carve-out of Nielsen's Connect arm plus the 2023 GfK merger; IPO'd on the NYSE in July 2025.",
+    "revenue_mix": [
+      {
+        "segment": "Intelligence (subscription measurement, $3,394m)",
+        "share_pct": 81,
+        "trend": "growing"
+      },
+      {
+        "segment": "Activation (analytics & consumer-insight projects, $804m)",
+        "share_pct": 19,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "EMEA ($1,864m)",
+        "share_pct": 44
+      },
+      {
+        "region": "Americas ($1,632m)",
+        "share_pct": 39
+      },
+      {
+        "region": "APAC ($702m)",
+        "share_pct": 17
+      }
+    ],
+    "end_markets": [
+      "Consumer packaged goods manufacturers",
+      "Grocery / drug / mass retailers",
+      "Beverage alcohol",
+      "Beauty and personal care",
+      "Tech & durables (ex-GfK franchise)"
+    ],
+    "top_competitors": [
+      "Circana (ex-IRI + NPD, the direct US rival)",
+      "Kantar (Worldpanel consumer panels)",
+      "Ipsos",
+      "Numerator (receipt-based panels)",
+      "Retailers' own first-party media/data platforms (Walmart Luminate, Amazon Marketing Cloud)"
+    ],
+    "moat": {
+      "type": "Non-replicable data supply contracts + measurement-standard incumbency",
+      "narrative": "The asset is thousands of individually negotiated retailer data-sharing agreements plus household panels covering 90%+ of world population — a new entrant cannot buy scanner feeds from Carrefour, Tesco and Walmart at once. Because brand/retailer trade negotiations and internal incentive comp are settled against NIQ share numbers, the data becomes the industry's scorekeeper, which makes switching a commercial rather than technical decision. The offset: retailers increasingly monetise the same data directly through their own retail-media clean rooms."
+    },
+    "key_customers": [
+      "30,000+ clients; no single client is material",
+      "Large-cap CPG (Nestle, Unilever, P&G-type accounts) are the anchor spend",
+      "Grocery and mass retailers who both supply data and buy it back",
+      "Beverage-alcohol and beauty brands via the GfK/NIQ combined panels"
+    ],
+    "key_risks": [
+      "Activation segment shrank 1.2% organically in Q4 2025 — the non-subscription half is not growing",
+      "Advent International retains majority control post-IPO; free float is small and lock-up/secondary supply is an overhang",
+      "Leverage inherited from the Advent LBO and the KKR-backed GfK combination constrains capital allocation",
+      "EMEA is 44% of revenue — euro/sterling translation swings reported growth by 3-4pts (FX cut EMEA reported growth from 7.7% to 7.2% cc in FY25)",
+      "CPG customers are in a margin squeeze and are cutting measurement budgets while building in-house data teams on retailer clean rooms"
+    ],
+    "sources": [
+      {
+        "label": "NIQ FY2025 Q4 / full-year results (8-K)",
+        "url": "https://investors.nielseniq.com/news/news-details/2026/NIQ-Announces-Strong-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "NIQ Global Intelligence plc FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026012572/niq-20251231.htm"
+      },
+      {
+        "label": "NIQ / GfK combination completion release",
+        "url": "https://nielseniq.com/global/en/news-center/2023/niq-and-gfk-complete-combination-creating-the-worlds-leading-consumer-intelligence-company/"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
+  },
+  "CRM": {
+    "ticker": "CRM",
+    "company": "Salesforce, Inc.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Salesforce rents cloud applications that hold a company's customer record — sales pipeline, support cases, marketing campaigns — plus the integration (MuleSoft), analytics (Tableau), data (Data 360/Informatica) and collaboration (Slack) layers around them, billed per seat on multi-year contracts. FY2026 (ended 31 Jan 2026) revenue was $41.5bn, up 10%, with remaining performance obligation of $72.4bn, GAAP operating margin of 20.1% and $14.4bn of free cash flow. Agentforce, the AI agent layer, reached $800m ARR and Agentforce plus Data 360 together exceed $2.9bn ARR including $1.1bn from the November 2025 Informatica acquisition.",
+    "revenue_mix": [
+      {
+        "segment": "Agentforce Service (Service Cloud, $9,818m)",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Agentforce Sales (Sales Cloud, $9,028m)",
+        "share_pct": 22,
+        "trend": "stable"
+      },
+      {
+        "segment": "Agentforce 360 Platform, Slack and Other ($8,882m, incl. $388m Informatica)",
+        "share_pct": 21,
+        "trend": "growing"
+      },
+      {
+        "segment": "Agentforce Integration and Analytics (MuleSoft, Tableau, $6,232m)",
+        "share_pct": 15,
+        "trend": "stable"
+      },
+      {
+        "segment": "Agentforce Marketing and Commerce ($5,428m)",
+        "share_pct": 13,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional services and other ($2,112m)",
+        "share_pct": 5,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 66
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 23
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "Financial services and insurance",
+      "Healthcare and life sciences",
+      "Retail and consumer goods",
+      "Manufacturing and automotive",
+      "Public sector and communications/media — industry clouds collectively $6.6bn ARR"
+    ],
+    "top_competitors": [
+      "Microsoft Dynamics 365 plus Copilot, bundled into enterprise agreements",
+      "SAP and Oracle in the installed-base CRM/CX seat",
+      "ServiceNow, expanding from ITSM into customer workflow and agents",
+      "HubSpot in mid-market",
+      "Adobe Experience Cloud in marketing; Databricks and Snowflake against Data 360"
+    ],
+    "moat": {
+      "type": "Accumulated customisation and metadata switching costs",
+      "narrative": "A 15-year Salesforce org carries thousands of custom objects, Apex triggers, validation rules and third-party AppExchange integrations that encode how the business actually sells — migrating means re-implementing that logic, which is why replacement projects routinely run multi-year. Data 360's zero-copy federation (112 trillion records ingested in FY26, 53 trillion via Zero Copy) deepens this by making Salesforce the join key across the customer's warehouses. The live question is whether seat-based CRM value survives if agents, not humans, work the cases — Salesforce's answer is to reprice into consumption ('Agentic Work Units'), which is a defensive move."
+    },
+    "key_customers": [
+      "No single customer represents a material share of revenue",
+      "Publicly referenced Q4 FY26 accounts include SharkNinja and Wyndham Hotels & Resorts",
+      "Over 29,000 Agentforce deals closed since launch; 60%+ of Q4 Agentforce/Data 360 bookings were existing-customer expansion",
+      "Large financial-services and healthcare enterprises anchor the industry-cloud ARR"
+    ],
+    "key_risks": [
+      "Organic revenue growth has decelerated to high single digits — management only guides re-acceleration for H2 FY27, so FY27's 10-11% guide leans on ~3pts of Informatica inorganic contribution",
+      "Seat-based pricing is directly exposed if Agentforce succeeds at replacing service-agent headcount — the product cannibalises its own billing unit",
+      "Microsoft bundles Copilot and Dynamics into existing enterprise agreements, pressuring per-seat renewal pricing",
+      "The ~$8bn Informatica acquisition adds integration risk and goodwill on top of the already-troubled Slack and Tableau deals",
+      "$12.7bn of FY26 buybacks and a new $50bn authorisation mean EPS growth is increasingly financially engineered rather than operating-driven"
+    ],
+    "sources": [
+      {
+        "label": "Salesforce Q4 FY2026 results press release",
+        "url": "https://www.salesforce.com/news/press-releases/2026/02/25/fy26-q4-earnings/"
+      },
+      {
+        "label": "Salesforce, Inc. FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
+  },
+  "HPQ": {
+    "ticker": "HPQ",
+    "company": "HP Inc.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "HP sells PCs and printers, but the profit engine is printer supplies: in FY2025 (ended 31 Oct 2025) Personal Systems generated $38.5bn of the $55.3bn total revenue at a 5.3% operating margin, while Printing generated $16.7bn at 18.7% — meaning 30% of revenue produced 62% of segment operating profit. Within Printing, $10.9bn is cartridge and toner supplies. FY2025 non-GAAP EPS fell 9% to $3.12; alongside results HP announced a plan to cut 4,000-6,000 roles for roughly $1bn of gross run-rate savings by end-FY2028 at $650m of restructuring cost.",
+    "revenue_mix": [
+      {
+        "segment": "Commercial Personal Systems ($27,438m)",
+        "share_pct": 50,
+        "trend": "growing"
+      },
+      {
+        "segment": "Consumer Personal Systems ($11,094m)",
+        "share_pct": 20,
+        "trend": "stable"
+      },
+      {
+        "segment": "Printing Supplies ($10,916m)",
+        "share_pct": 20,
+        "trend": "declining"
+      },
+      {
+        "segment": "Commercial Printing hardware ($4,633m)",
+        "share_pct": 8,
+        "trend": "declining"
+      },
+      {
+        "segment": "Consumer Printing hardware ($1,153m)",
+        "share_pct": 2,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx; HP discloses US at roughly one-third of net revenue)",
+        "share_pct": 40
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 35
+      },
+      {
+        "region": "Asia Pacific & Japan (approx)",
+        "share_pct": 25
+      }
+    ],
+    "end_markets": [
+      "Commercial PC fleets — enterprise, SMB, education and government",
+      "Consumer PCs and gaming (OMEN)",
+      "Office and home printing",
+      "Industrial graphics — Indigo, PageWide, large-format",
+      "3D printing and personalisation (footwear, molded fiber)"
+    ],
+    "top_competitors": [
+      "Lenovo — the global PC share leader",
+      "Dell Technologies in commercial PCs and workstations",
+      "Apple in premium consumer and creative",
+      "Canon, Epson, Brother and Xerox in printing",
+      "Third-party and refilled cartridge makers, who attack the supplies annuity directly"
+    ],
+    "moat": {
+      "type": "Razor-and-blade printing annuity defended by cartridge authentication",
+      "narrative": "The durable economics come from an installed base of printers that only accept HP-authenticated cartridges — firmware chip handshakes, Instant Ink subscription lock-in and dynamic-security updates keep $10.9bn of high-margin supplies flowing from hardware sold near cost. That annuity is in structural decline as office print volumes fall and clone-cartridge suppliers improve. On the PC side there is no moat worth the word: it is a scale-procurement and channel-relationship business, and HP's edge is purchasing power plus the commercial services/Device-as-a-Service attach, not product differentiation."
+    },
+    "key_customers": [
+      "Sold through a two-tier channel — no single customer exceeds 10% of revenue",
+      "Largest distribution partners are Ingram Micro and TD SYNNEX; largest resellers CDW and Insight",
+      "Retail exposure through Best Buy, Amazon and Walmart on the consumer side",
+      "Large enterprise and government fleet contracts via Managed Print Services and Device-as-a-Service"
+    ],
+    "key_risks": [
+      "Memory cost inflation in the 2026 DRAM/NAND upcycle hits Personal Systems gross margin directly — PS already runs at only 5.3%",
+      "Supplies revenue fell 3% in FY2025; the segment that produces most of the profit is shrinking every year",
+      "US tariffs on imported hardware, which HP explicitly flags as embedded in its FY2026 outlook",
+      "Balance sheet is stretched: stockholders' equity is negative (-$346m) and $18.1bn of accounts payable at 139 days funds working capital",
+      "The Windows 10 end-of-support refresh that drove FY2025 commercial PC growth pulls demand forward and risks an FY2027 air pocket"
+    ],
+    "sources": [
+      {
+        "label": "HP Inc. FY2025 full-year and Q4 results",
+        "url": "https://investor.hp.com/news-events/news/news-details/2025/HP-Inc--Reports-Fiscal-2025-Full-Year-and-Fourth-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "HP Inc. Q4 FY2025 earnings press release (PDF, segment tables)",
+        "url": "https://www.hp.com/content/dam/sites/garage-press/press/press-releases/2025/q4-fy25-earnings/HP_Q4_2025_Earnings_Press_Release.pdf"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
+  },
+  "ABN.AS": {
+    "ticker": "ABN.AS",
+    "company": "ABN AMRO Bank N.V.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "ABN AMRO is a Dutch-centred retail, wealth and corporate bank: it funds itself with Dutch household deposits and lends against Dutch residential mortgages and SME/corporate loans, earning the spread, plus fees from wealth management and from ABN AMRO Clearing. FY2025 net profit was EUR 2,252m, down 6%, on a return on equity of 8.7%, with net interest income above EUR 6.3bn and cost of risk of just 1bp for the year. CET1 finished at 15.4%. Management targets operating income above EUR 10bn by 2028 while cutting 5,200 FTEs; it is acquiring NIBC and closing in 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Net interest income (approx, >EUR 6.3bn)",
+        "share_pct": 72,
+        "trend": "stable"
+      },
+      {
+        "segment": "Net fee and commission income (approx, ~EUR 2.1bn)",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other operating income (approx)",
+        "share_pct": 4,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Netherlands (approx)",
+        "share_pct": 78
+      },
+      {
+        "region": "Rest of Northwest Europe — Germany, Belgium, France (approx)",
+        "share_pct": 17
+      },
+      {
+        "region": "Other international (approx)",
+        "share_pct": 5
+      }
+    ],
+    "end_markets": [
+      "Dutch residential mortgages — 21% new-production market share in Q4 2025",
+      "Dutch SME and mid-corporate lending",
+      "Private banking / wealth management — EUR 283bn client assets",
+      "Listed-derivatives and securities clearing for global market makers",
+      "Corporate finance, global markets and transaction banking"
+    ],
+    "top_competitors": [
+      "ING Group and Rabobank — the other two members of the Dutch retail oligopoly",
+      "de Volksbank (ASN/SNS) and digital challengers bunq and Knab in deposits",
+      "Van Lanschot Kempen, Julius Baer and Deutsche Bank in Benelux/German private banking",
+      "BNP Paribas and Deutsche Bank in Dutch corporate banking",
+      "Marex, Goldman Sachs and Ion-backed clearers in listed-derivatives clearing"
+    ],
+    "moat": {
+      "type": "Dutch deposit oligopoly plus a top-tier global clearing franchise",
+      "narrative": "Three banks — ABN AMRO, ING and Rabobank — hold the large majority of Dutch retail deposits, and Dutch households are notably reluctant to switch primary current accounts; that gives ABN a low-beta, low-cost funding base which is the actual source of its net interest income. The second, less obvious asset is ABN AMRO Clearing, one of a handful of globally systemic clearers for listed derivatives, serving the proprietary market-making firms concentrated in Amsterdam — a licence-, capital- and risk-systems-intensive business that almost no one new enters. Neither moat protects against falling rates."
+    },
+    "key_customers": [
+      "Retail and SME deposits and mortgages — fully granular, no concentration",
+      "Wealth management clients across the Netherlands, Germany (Hauck Aufhäuser), Belgium and France",
+      "ABN AMRO Clearing serves the Amsterdam-centred proprietary trading community (market makers and prop firms)",
+      "Dutch mid-corporates and selected Northwest European corporate banking clients"
+    ],
+    "key_risks": [
+      "ECB rate cuts compress deposit margins — 2026 commercial NII is guided flat at around EUR 6.4bn, so the earnings engine is not growing",
+      "NLFI still holds about 20.5% of the shares after the July 2026 dribble-out, leaving a persistent supply overhang",
+      "The NIBC acquisition consumes capital and adds integration risk just as the bank is cutting 5,200 FTEs",
+      "Roughly three-quarters of the book is Dutch, with a very large residential mortgage concentration — house-price growth is guided to moderate in 2026",
+      "Legacy AML/KYC remediation (after the 2021 EUR 480m Dutch settlement) keeps compliance headcount and regulatory scrutiny elevated"
+    ],
+    "sources": [
+      {
+        "label": "ABN AMRO Q4 2025 results press release",
+        "url": "https://www.abnamro.com/en/news/abn-amro-posts-net-profit-of-eur-410-million-in-q4-2025"
+      },
+      {
+        "label": "ABN AMRO Bank N.V. Quarterly Report Q4 2025 (PDF)",
+        "url": "https://assets.ctfassets.net/1u811bvgvthc/5Sl1LgSjnfl5rXnSOOFLf2/4389f21aceae42173e87a3dd7e0717c5/ABN_Amro_Bank_-_Quarterly_Report_fourth_quarter_2025.pdf"
+      },
+      {
+        "label": "ABN AMRO Annual Report 2025",
+        "url": "https://www.abnamro.com/en/about-abn-amro/annual-report"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
+  },
+  "SAB.MC": {
+    "ticker": "SAB.MC",
+    "company": "Banco de Sabadell, S.A.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Sabadell is Spain's SME bank: it lends working capital, trade finance and equipment finance to small and mid-sized Spanish companies and cross-sells payments, POS acquiring and insurance, funded by retail deposits. FY2025 net profit was EUR 1,775m, down 2.8% reported but up 3.4% excluding extraordinaries, with net interest income of EUR 3.6bn (down 6.6% ex-TSB) and the loan book up 2.4% to EUR 160.7bn. Two events reshaped it: BBVA's hostile EUR 16bn takeover collapsed in late 2025 when shareholders refused to tender, and the UK subsidiary TSB was sold to Santander for GBP 2.65bn, completing 30 April 2026 — leaving a Spain-plus-Mexico bank returning roughly EUR 4bn to shareholders.",
+    "revenue_mix": [
+      {
+        "segment": "Net interest income (approx, ~EUR 3.6bn ex-TSB)",
+        "share_pct": 72,
+        "trend": "declining"
+      },
+      {
+        "segment": "Net fee and commission income (approx)",
+        "share_pct": 20,
+        "trend": "growing"
+      },
+      {
+        "segment": "Trading gains, insurance and other (approx)",
+        "share_pct": 8,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Spain (post-TSB disposal, approx)",
+        "share_pct": 90
+      },
+      {
+        "region": "Mexico (approx)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "Spanish SME and mid-corporate lending — the core franchise",
+      "Spanish residential mortgages and consumer credit",
+      "Merchant acquiring / POS and payments",
+      "Bancassurance and mutual funds distribution",
+      "Mexican corporate and commercial banking"
+    ],
+    "top_competitors": [
+      "CaixaBank — the dominant Spanish retail and SME lender",
+      "Santander Spain and BBVA Spain (the latter a failed acquirer, still a direct rival)",
+      "Bankinter in affluent retail and corporate",
+      "Unicaja, Abanca and Kutxabank in regional retail",
+      "Specialist SME lenders and fintechs in factoring and merchant acquiring"
+    ],
+    "moat": {
+      "type": "Entrenched Spanish SME relationships with high operational switching costs",
+      "narrative": "A Spanish SME's payroll, POS terminals, supplier payments, credit lines and trade documentation typically sit with one bank; moving them is a multi-month operational disruption, which is why Sabadell holds roughly a low-teens share of Spanish business lending despite being much smaller than CaixaBank overall. This franchise — relationship managers with decades of local Catalan and Valencian business knowledge — is precisely what BBVA spent eighteen months and EUR 16bn trying to buy. The weakness is the mirror image: in undifferentiated retail deposits and mortgages Sabadell is sub-scale against CaixaBank and Santander."
+    },
+    "key_customers": [
+      "Granular Spanish SME and retail base — no single-name concentration",
+      "Roughly EUR 160.7bn gross loan book, predominantly Spanish businesses and mortgages",
+      "Mexican corporate banking clients (the only remaining international franchise after the TSB exit)",
+      "TSB's ~5 million UK retail customers are gone — sold to Santander UK on 30 April 2026"
+    ],
+    "key_risks": [
+      "Falling Euribor is already compressing the spread — NII fell 6.6% in 2025 and Spain-only concentration removes any offset",
+      "With BBVA's bid rejected, the takeover premium is gone and the equity now depends purely on standalone execution",
+      "TSB contributed EUR 318m to 2025 profit; selling it removes the UK earnings diversification and raises Spanish concentration to roughly 90%",
+      "The Spanish windfall banking levy remains a direct charge against domestic profit",
+      "Distributing roughly EUR 4bn (EUR 800m buyback, EUR 0.50/share extraordinary dividend, interim dividends) leaves less capital cushion for a Spanish credit downturn"
+    ],
+    "sources": [
+      {
+        "label": "Banco Sabadell FY2025 results press release",
+        "url": "https://comunicacion.grupbancsabadell.com/en/press-room/banco-sabadell-delivers-net-profit-of-e1775-million-in-2025-and-announces-an-e800-million-share-buyback-programme/"
+      },
+      {
+        "label": "Sabadell completes the sale of TSB for EUR 3.3bn",
+        "url": "https://comunicacion.grupbancsabadell.com/en/press-room/banco-sabadell-completes-the-sale-of-tsb-for-3-3-billion-euros-and-will-pay-a-dividend-of-50-euro-cents-per-share-on-29-may-2026/"
+      },
+      {
+        "label": "Banco Sabadell economic and financial information (IR)",
+        "url": "https://www.grupbancsabadell.com/corp/en/shareholders-and-investors/economic-and-financial-information.html"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
+  },
+  "BMNR": {
+    "ticker": "BMNR",
+    "company": "BitMine Immersion Technologies, Inc.",
+    "as_of": "2026-09-12",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "BitMine is an Ethereum treasury vehicle, not an operating company: chaired by Fundstrat's Tom Lee, it issues equity through at-the-market programmes, uses the proceeds to buy ETH, and stakes it for protocol yield. As of September 2026 it holds 5,929,198 ETH worth roughly $15.2bn — about 4.8% of total ETH supply — of which some 5.07 million ETH is staked, plus 210 BTC, a $180m stake in Beast Industries, a $73m stake in Eightco Holdings (ORBS) and cash. Management's stated target is to own 5% of all ETH. It also operates MAVAN, a US-based institutional validator network, and retains a de minimis legacy immersion-cooled bitcoin mining/hosting business.",
+    "revenue_mix": [
+      {
+        "segment": "ETH staking rewards on ~5.07m staked ETH (approx; the primary recurring income)",
+        "share_pct": 85,
+        "trend": "growing"
+      },
+      {
+        "segment": "Legacy bitcoin mining, hosting and immersion equipment (approx; de minimis)",
+        "share_pct": 15,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (US-domiciled; MAVAN is an explicitly 'Made in America' validator network)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Ethereum protocol staking and validation",
+      "Public-equity investors seeking levered ETH exposure",
+      "Institutional custodians and ecosystem partners targeted by MAVAN",
+      "Legacy bitcoin hosting customers (immaterial)"
+    ],
+    "top_competitors": [
+      "SharpLink Gaming (SBET) — the next-largest ETH treasury company",
+      "The Ether Machine and ETHZilla in the same treasury-vehicle trade",
+      "Spot ETH ETFs (BlackRock ETHA and peers) — the cheap, liquid substitute for the same exposure",
+      "Coinbase Cloud, Figment and Kiln in institutional staking infrastructure",
+      "Strategy (MSTR) as the template competing for the same 'digital asset treasury' capital pool"
+    ],
+    "moat": {
+      "type": "None structural — the model is a financing arbitrage on the share price",
+      "narrative": "There is no defensible business here: the entire mechanism depends on the stock trading above net asset value so that at-the-market issuance is accretive to ETH-per-share. Scale (4.8% of ETH supply), the MAVAN validator network and Tom Lee's distribution reach are real but replicable, and a spot ETH ETF delivers the identical exposure for roughly 25 basis points with daily liquidity and no dilution risk. If the mNAV premium compresses to or below 1.0x, the flywheel reverses and the company becomes a levered, less liquid ETF."
+    },
+    "key_customers": [
+      "No conventional customer base — this is a balance sheet, not a revenue business",
+      "MAVAN is intended to serve institutional investors, custodians and ecosystem partners, but that is stated intent rather than booked revenue",
+      "Equity capital markets participants (ATM buyers) are functionally the counterparty that funds the model"
+    ],
+    "key_risks": [
+      "mNAV compression: if the share price falls to or below the value of the ETH held, accretive issuance stops and the growth mechanism dies",
+      "ETH price is effectively the entire P&L — holdings were marked at roughly $2,511/ETH in August 2026, so a 50% drawdown halves the balance sheet",
+      "Staking concentration risk on ~5.07m ETH: validator slashing penalties and the Ethereum exit/withdrawal queue mean the position cannot be liquidated quickly in a stress event",
+      "Illiquid non-core holdings — $180m in Beast Industries and $73m in Eightco (ORBS) — are venture-style bets with no mark-to-market discipline",
+      "Continuous ATM issuance means share count growth is structural, and under ASU 2023-08 fair-value accounting reported earnings swing violently with ETH with no recurring operating cash flow underneath"
+    ],
+    "sources": [
+      {
+        "label": "BitMine ETH holdings reach 5.90m tokens; $15.6bn total crypto and cash",
+        "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-5-90-million-tokens-and-total-crypto-and-total-cash-holdings-of-15-6-billion-302864579.html"
+      },
+      {
+        "label": "BitMine Immersion Technologies investor relations",
+        "url": "https://www.bitminetech.io/investor-relations"
+      },
+      {
+        "label": "The Block — BMNR Ethereum treasury tracker",
+        "url": "https://www.theblock.co/treasuries/bmnr"
+      }
+    ],
+    "last_refreshed": "2026-09-12"
   }
 }
