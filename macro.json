@@ -5,44 +5,44 @@
   },
   "US10Y": {
     "ticker": "^TNX",
-    "level": 4.96,
-    "wow_chg": 0.18,
-    "wow_pct": 3.7,
-    "ytd_pct": 8.2
+    "level": 5.0,
+    "wow_chg": 0.19,
+    "wow_pct": 3.95,
+    "ytd_pct": 9.92
   },
   "DXY": {
     "ticker": "DX-Y.NYB",
-    "level": 99.5,
-    "wow_chg": 0.34,
-    "wow_pct": 0.34,
-    "ytd_pct": -1.42
+    "level": 99.68,
+    "wow_chg": 0.84,
+    "wow_pct": 0.85,
+    "ytd_pct": -0.81
   },
   "VIX": {
     "ticker": "^VIX",
-    "level": 17.1,
-    "wow_chg": 1.8,
-    "wow_pct": 11.76,
-    "ytd_pct": 3.64
+    "level": 17.2,
+    "wow_chg": 1.48,
+    "wow_pct": 9.41,
+    "ytd_pct": 9.76
   },
   "Brent": {
     "ticker": "BZ=F",
-    "level": 106.45,
-    "wow_chg": 10.17,
-    "wow_pct": 10.56,
-    "ytd_pct": 25.63
+    "level": 108.46,
+    "wow_chg": 10.54,
+    "wow_pct": 10.76,
+    "ytd_pct": 27.68
   },
   "SPX": {
     "ticker": "^GSPC",
-    "level": 7619.98,
-    "wow_chg": -98.62,
-    "wow_pct": -1.28,
-    "ytd_pct": 0.63
+    "level": 7585.73,
+    "wow_chg": -87.79,
+    "wow_pct": -1.14,
+    "ytd_pct": 0.69
   },
   "Gold": {
     "ticker": "GC=F",
-    "level": 4327.5,
-    "wow_chg": -102.3,
-    "wow_pct": -2.31,
-    "ytd_pct": 6.56
+    "level": 4326.8,
+    "wow_chg": -112.2,
+    "wow_pct": -2.53,
+    "ytd_pct": 6.79
   }
 }
