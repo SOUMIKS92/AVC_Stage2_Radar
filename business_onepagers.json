@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-09-12",
+    "as_of": "2026-10-03",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -69,15 +69,26 @@
     },
     "tickers_n": 164,
     "last_saturday_refresh": {
-      "date": "2026-09-05",
+      "date": "2026-10-03",
       "tickers_refreshed": [
-        "CMCX.L",
-        "FRO.OL",
-        "WPP.L",
-        "ESTC",
-        "OKTA",
-        "WDAY",
-        "NCNO"
+        "ONT.L",
+        "TWLO",
+        "P",
+        "ROR.L",
+        "HAFNI.OL",
+        "HPE",
+        "BWLPG.OL",
+        "OCDO.L",
+        "AUGO",
+        "MTO.L",
+        "MSTR",
+        "AVT",
+        "RBRK",
+        "VAR.OL",
+        "SWKS",
+        "HAUTO.OL",
+        "EQNR.OL",
+        "SAP.DE"
       ]
     }
   },
@@ -2681,9 +2692,9 @@
   "TWLO": {
     "ticker": "TWLO",
     "company": "Twilio Inc.",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "Twilio provides cloud APIs that let developers embed messaging, voice, video and email into their own applications, plus a customer data platform (Segment) that unifies customer interaction data. It earns usage-based fees per message/call/API call and subscription fees for its data platform.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Twilio provides cloud APIs and a customer-engagement platform that lets developers embed messaging (SMS, WhatsApp, RCS), voice, email (SendGrid) and verification into apps. It earns mostly usage-based fees per message, minute or email. A smaller Data & Applications segment sells customer data (Segment) and engagement software on subscriptions. Over 349,000 active customer accounts.",
     "revenue_mix": [
       {
         "segment": "Communications",
@@ -2691,125 +2702,128 @@
         "trend": "growing"
       },
       {
-        "segment": "Segment (customer data platform)",
+        "segment": "Data & Applications",
         "share_pct": 6,
-        "trend": "flat"
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Not separately disclosed",
-        "share_pct": 100,
-        "trend": "n/a"
+        "region": "United States (approx)",
+        "share_pct": 68
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 32
       }
     ],
     "end_markets": [
-      "Software/SaaS platforms embedding communications",
-      "Financial services (2FA, fraud alerts)",
-      "Retail/e-commerce (order & delivery notifications)",
-      "On-demand marketplaces & ride-hailing",
-      "Healthcare appointment/communication workflows"
+      "Digital-native apps and marketplaces",
+      "Retail and e-commerce",
+      "Financial services and fintech",
+      "Healthcare",
+      "Travel and hospitality",
+      "Enterprise contact centres and marketing"
     ],
     "top_competitors": [
       "Sinch",
-      "Bandwidth",
+      "Infobip",
       "Vonage (Ericsson)",
-      "MessageBird",
-      "AWS (SNS/Pinpoint)"
+      "Bandwidth",
+      "Amazon SNS/Pinpoint",
+      "Braze/MessageBird (Bird)"
     ],
     "moat": {
-      "type": "Direct carrier network + deep code-level integration",
-      "narrative": "Twilio's direct relationships with mobile carriers and telecom regulators across 180+ countries are costly to replicate, and once its messaging/voice APIs are embedded in a customer's production codebase, migrating to a competitor requires re-engineering core application logic, not just switching vendors."
+      "type": "Scale and switching costs (modest)",
+      "narrative": "Carrier connectivity, developer mindshare and code embedded in customers' apps create switching friction. Core SMS and voice are commoditised, so the moat is moderate, not structural."
     },
     "key_customers": [
-      "349,000+ active customer accounts (Q2 2025); no single customer named as concentrated"
+      "Developer-led digital natives and enterprises (long tail of 349,000+ accounts)",
+      "Large enterprise and ISV accounts driving most usage growth"
     ],
     "key_risks": [
-      "Carrier surcharge/network fee volatility that Twilio must pass through or absorb",
-      "Intensifying price competition from Sinch, Bandwidth and hyperscale cloud providers compressing take rates",
-      "Potential AI-agent disintermediation of traditional SMS/voice channels as conversational AI reshapes customer engagement",
-      "Dollar-based net expansion deceleration risk if usage growth among existing large accounts slows"
+      "Messaging price competition from Sinch, Infobip and Bandwidth",
+      "Carrier and regulatory changes (US A2P 10DLC, spam rules)",
+      "Usage-based revenue sensitive to customer volumes and macro",
+      "Data & Applications segment flat (about $75m/quarter)",
+      "AI-agent and CPaaS disruption from hyperscalers"
     ],
     "sources": [
       {
-        "label": "Twilio Announces Second Quarter 2025 Results",
+        "label": "Twilio Q2 2025 results",
         "url": "https://investors.twilio.com/news-releases/news-release-details/twilio-announces-second-quarter-2025-results"
       },
       {
-        "label": "Twilio Q4/FY2025 Results",
-        "url": "https://investors.twilio.com/news-releases/news-release-details/twilio-announces-fourth-quarter-and-full-year-2025-results"
+        "label": "Twilio Form 10-Q (Aug 2025)",
+        "url": "https://investors.twilio.com/static-files/ce61f034-3e69-4600-8850-eeb0f33237f0"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "VAR.OL": {
     "ticker": "VAR.OL",
     "company": "Vår Energi ASA",
-    "as_of": "2026-05-24",
-    "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Vår Energi is the third-largest oil and gas producer on the Norwegian Continental Shelf, formed from the 2018 merger of Eni Norge and Point Resources and majority-owned by Italy's Eni (~63%). It produces ~330 kboepd from operated fields including Goliat (Barents), Balder, Gjøa, Duva, Ringhorne, Fenja, plus partner stakes. Revenue is commodity-linked sales of crude, gas, and NGLs.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Vår Energi is an upstream oil and gas company operating only on the Norwegian Continental Shelf, majority-owned by Eni. It explores for, develops and produces oil, gas and NGLs, including Balder, Goliat, Ormen Lange and Johan Castberg interests. 2025 production averaged 332 kboepd and petroleum revenue was $7,966m. Earnings follow Brent and European gas prices.",
     "revenue_mix": [
       {
-        "segment": "Crude oil sales",
-        "share_pct": 62,
-        "trend": "stable"
-      },
-      {
-        "segment": "Natural gas sales (piped to Europe)",
-        "share_pct": 33,
+        "segment": "Crude oil ($5,274m)",
+        "share_pct": 66,
         "trend": "growing"
       },
       {
-        "segment": "NGL / LPG",
-        "share_pct": 5,
+        "segment": "Gas ($2,457m)",
+        "share_pct": 31,
+        "trend": "stable"
+      },
+      {
+        "segment": "NGL ($235m)",
+        "share_pct": 3,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Norway (all upstream production on NCS)",
+        "region": "Norwegian Continental Shelf",
         "share_pct": 100
       }
     ],
     "end_markets": [
-      "European gas buyers (replacing Russian pipe gas post-2022)",
-      "Global refiners (Brent-linked crude)",
-      "European petrochemicals (NGL feedstock)"
+      "Crude oil sales to refiners and traders",
+      "European natural gas supply",
+      "NGL and condensate"
     ],
     "top_competitors": [
-      "Equinor (Norwegian state major, dominant NCS operator)",
+      "Equinor",
       "Aker BP",
-      "Shell (NCS partner & competitor)",
-      "TotalEnergies (NCS operator)"
+      "DNO",
+      "TotalEnergies (Norway)",
+      "ConocoPhillips (Norway)"
     ],
     "moat": {
-      "type": "Low-cost NCS production with strategic gas position",
-      "narrative": "Vår's ~$30/boe full-cycle break-even on legacy fields plus Balder X redevelopment gives capital-efficient barrels at a time European gas pricing carries a structural premium. Eni majority ownership provides technical depth and a guaranteed offtake channel but limits independent strategic flexibility."
+      "type": "Resource base and low-cost operated assets (cost position, not structural)",
+      "narrative": "Large NCS acreage and recent project start-ups (nine in 2025, about 180 kboepd peak capacity) give scale in Norway. As a commodity price taker there is no structural moat."
     },
     "key_customers": [
-      "European utilities and gas traders via Gassco/Gassled pipeline system",
-      "Eni S.p.A. (offtake and marketing)",
-      "Refining majors (Shell, ExxonMobil, BP) for crude offtake"
+      "Equinor (gas marketing via Gassco)",
+      "Eni (affiliate offtake)",
+      "Crude oil refiners and trading houses"
     ],
     "key_risks": [
-      "Brent price sensitivity — every $10/bbl move hits FCF ~$700m; 2025 oil weakened to mid-$60s",
-      "Project execution on the 20-project growth pipeline targeting 400 kboepd by 2026 — Balder X delays already pushed first oil",
-      "Norway's increased CO2 tax + EU CBAM exposure raise operating costs faster than peers in lower-tax jurisdictions"
+      "Brent and European gas (TTF) prices determine revenue",
+      "Norwegian petroleum tax regime (78% marginal rate)",
+      "Ramp-up of new fields such as Johan Castberg and Balder Phase VI",
+      "Reserve replacement on a single-basin portfolio",
+      "Leverage and dividend commitments, with Eni as controlling shareholder"
     ],
     "sources": [
       {
-        "label": "Vår Energi Investor Relations",
-        "url": "https://varenergi.no/en/investor/"
-      },
-      {
-        "label": "Production update December 2025",
-        "url": "https://live.euronext.com/en/products/equities/company-news/2025-12-22-var-energi-asa-production-update-december-2025"
-      },
-      {
-        "label": "Rigzone: 20 new projects to sustain Norway production",
-        "url": "https://www.rigzone.com/news/wire/var_energi_plans_20_new_projects_to_sustain_norway_production-18-dec-2025-182562-article/"
+        "label": "Vår Energi Q4 and FY2025 interim report",
+        "url": "https://mb.cision.com/Public/21086/4305025/bd1a0561bff4ea5b.pdf"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-10-03"
   },
   "MNTN.L": {
     "ticker": "MNTN.L",
@@ -2955,24 +2969,24 @@
   "HPE": {
     "ticker": "HPE",
     "company": "Hewlett Packard Enterprise Company",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "HPE designs, manufactures and sells enterprise IT infrastructure — servers, storage, networking (via Juniper), and hybrid cloud software — plus offers financing through HPE Financial Services. It makes money selling hardware and software, increasingly as-a-service via GreenLake, and earns high-margin recurring revenue from networking, support and subscriptions, with AI/GPU servers now a fast-growing driver of both revenue and margin pressure.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "HPE sells servers (ProLiant, Cray and AI systems), networking (Aruba and, since July 2025, Juniper), storage and hybrid-cloud software (GreenLake) to enterprises, service providers and governments. Revenue comes from hardware, software and support subscriptions, and financing via HPE Financial Services. FY2025 revenue was USD34.3bn, with Server the largest segment.",
     "revenue_mix": [
       {
         "segment": "Server",
-        "share_pct": 52,
+        "share_pct": 51,
         "trend": "growing"
       },
       {
-        "segment": "Networking (incl. Juniper)",
+        "segment": "Networking",
         "share_pct": 20,
         "trend": "growing"
       },
       {
         "segment": "Hybrid Cloud",
         "share_pct": 17,
-        "trend": "stable"
+        "trend": "growing"
       },
       {
         "segment": "Financial Services",
@@ -2980,69 +2994,64 @@
         "trend": "stable"
       },
       {
-        "segment": "Corporate Investments/Other",
-        "share_pct": 1,
-        "trend": "stable"
+        "segment": "Corporate Investments and other",
+        "share_pct": 2,
+        "trend": "declining"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas",
-        "share_pct": 46
+        "region": "Americas (approx)",
+        "share_pct": 50
       },
       {
-        "region": "EMEA",
-        "share_pct": 34
+        "region": "EMEA (approx)",
+        "share_pct": 30
       },
       {
-        "region": "APAC/Japan",
+        "region": "Asia Pacific (approx)",
         "share_pct": 20
       }
     ],
     "end_markets": [
-      "Enterprise IT infrastructure",
-      "Cloud & hyperscale AI compute",
-      "Telecom & service providers",
-      "Campus/data-center networking"
+      "Enterprise IT and data centres",
+      "AI and high-performance computing",
+      "Service providers and sovereign AI",
+      "Campus and branch networking",
+      "Hybrid/private cloud"
     ],
     "top_competitors": [
       "Dell Technologies",
-      "Cisco Systems",
+      "Cisco",
       "Lenovo",
-      "Super Micro Computer",
-      "Arista Networks",
-      "NetApp"
+      "Supermicro",
+      "Arista",
+      "Nvidia (networking)"
     ],
     "moat": {
-      "type": "Full-stack integrated infrastructure + high-margin networking annuity",
-      "narrative": "The 2025 close of the $14B Juniper Networks acquisition added AI-native, Mist AI-driven campus/data-center networking, giving HPE a server-to-network-to-cloud stack it can bundle under its GreenLake as-a-service platform, while HPE Financial Services locks in multi-year financing relationships with large enterprise and service-provider customers that raise switching costs."
+      "type": "Installed base and distribution",
+      "narrative": "A large enterprise installed base, channel reach and the Aruba/Juniper networking franchise provide stickiness. Servers are largely commoditised and margin-thin against Dell and Supermicro."
     },
     "key_customers": [
-      "Not individually disclosed; broad enterprise, government, telecom and hyperscale/cloud service-provider base with no single customer >10% of revenue"
+      "Large enterprises",
+      "Governments and national labs",
+      "Service providers and neoclouds",
+      "Channel partners and distributors"
     ],
     "key_risks": [
-      "AI server margin compression: large GPU-based AI systems deals carry thinner gross margins than core ProLiant/storage, pressuring blended profitability even as AI revenue grows",
-      "Integration risk from the $14B Juniper Networks acquisition (closed July 2025), including realizing networking synergies and a DOJ-mandated Mist AI source-code license to a competitor",
-      "Intense pricing competition from Dell and Supermicro in AI servers, and from Cisco/Arista in networking, that could erode share or margins"
+      "Low-margin AI server mix and Dell/Supermicro price competition",
+      "Juniper integration, synergy delivery and acquisition debt",
+      "Dependence on Nvidia GPUs and memory/component supply",
+      "Tariffs and DRAM/NAND cost inflation",
+      "Cisco and Arista competition in networking post-Juniper"
     ],
     "sources": [
       {
-        "label": "HPE FY2025 Q3 earnings press release",
-        "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/09/hewlett-packard-enterprise-reports-fiscal-2025-third-quarter-results.html"
-      },
-      {
-        "label": "HPE closes Juniper Networks acquisition (press release)",
-        "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
-      },
-      {
-        "label": "HPE revenue by segment (FY2025 aggregator)",
-        "url": "https://bullfincher.io/companies/hewlett-packard-enterprise-company/revenue-by-segment"
-      },
-      {
-        "label": "HPE revenue by geography (FY2025 aggregator)",
-        "url": "https://bullfincher.io/companies/hewlett-packard-enterprise-company/revenue-by-geography"
+        "label": "HPE FY2025 Q4 results",
+        "url": "https://www.businesswire.com/news/home/20251204671507/en/HPE-Reports-Fiscal-2025-Fourth-Quarter-Results"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "LSCC": {
     "ticker": "LSCC",
@@ -3127,77 +3136,61 @@
   "BWLPG.OL": {
     "ticker": "BWLPG.OL",
     "company": "BW LPG Limited",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "BW LPG owns and operates the world's largest fleet of Very Large Gas Carriers (VLGCs), shipping liquefied petroleum gas from production hubs (US Gulf, Middle East) to consumption markets, mainly in Asia. A Product Services trading arm also buys and sells physical LPG cargoes, so the company earns both charter/freight revenue and trading margins.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "BW LPG owns and operates about 50 Very Large Gas Carriers (VLGCs) shipping LPG from export hubs such as the US Gulf and Middle East to Asia and Europe. It earns freight mostly from spot and short-term voyages with some time-charter cover; a smaller Product Services arm trades LPG. The fleet earned about USD50,300 per available day in Q4 2025 at 94% utilisation.",
     "revenue_mix": [
       {
-        "segment": "Product Services (physical LPG trading)",
-        "share_pct": 71,
-        "trend": "flat"
+        "segment": "Shipping (VLGC TCE, approx)",
+        "share_pct": 95,
+        "trend": "stable"
       },
       {
-        "segment": "Shipping (VLGC time charter/spot)",
-        "share_pct": 29,
-        "trend": "growing"
+        "segment": "Product Services (approx)",
+        "share_pct": 5,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "APAC (primary destination market)",
-        "share_pct": 55
-      },
-      {
-        "region": "EMEA (incl. Middle East origin)",
-        "share_pct": 25
-      },
-      {
-        "region": "Americas (US Gulf origin)",
-        "share_pct": 20
+        "region": "Global seaborne LPG trade (approx; not disclosed by region)",
+        "share_pct": 100
       }
     ],
     "end_markets": [
-      "Residential/commercial LPG for heating & cooking",
-      "Petrochemical feedstock (propane dehydrogenation plants in China)",
-      "Agriculture (crop drying)",
-      "Marine bunker fuel (own dual-fuel fleet)"
+      "Seaborne LPG exports (US Gulf, Middle East)",
+      "Asian petrochemical and residential LPG demand"
     ],
     "top_competitors": [
       "Dorian LPG",
-      "Navigator Holdings",
+      "Avance Gas",
       "Exmar",
-      "Avance Gas"
+      "Petredec"
     ],
     "moat": {
-      "type": "Fleet scale + early dual-fuel conversion",
-      "narrative": "BW LPG's roughly 12% share of the global VLGC fleet (versus a ~3% peer average) gives it outsized negotiating leverage on bunker fuel, insurance and shipyard contracts, while having 40-50% of its fleet already retrofitted with dual-fuel LPG propulsion lets it meet tightening IMO emissions rules ahead of peers and command premium charter rates."
+      "type": "Scale (limited)",
+      "narrative": "No structural moat: VLGC freight is cyclical and rate-taking. Fleet scale (about 50 of a 421-ship global VLGC fleet), dual-fuel efficiency and relationships with majors and traders give a modest advantage."
     },
     "key_customers": [
-      "National oil companies",
-      "Global energy trading houses (Trafigura, Vitol, Gunvor)",
-      "Petrochemical plant operators",
-      "Regional LPG distributors"
+      "Energy majors",
+      "Commodity trading houses",
+      "National oil companies and LPG importers",
+      "Indian LPG buyers via BW LPG India"
     ],
     "key_risks": [
-      "Freight-rate cyclicality tied to the US-Asia LPG price arbitrage spread",
-      "VLGC newbuild orderbook overhang that could pressure future charter rates",
-      "Geopolitical chokepoint risk (Panama Canal transit restrictions, Strait of Hormuz)",
-      "Thin, volatile trading margins in the Product Services segment exposed to commodity price swings"
+      "VLGC spot rates driven by US export volumes, Panama/Cape routing and US-China tariffs",
+      "Orderbook of 105 ships against a 421-ship fleet",
+      "Middle East and Red Sea disruption",
+      "Mark-to-market swings in Product Services",
+      "IMO and EU carbon rules"
     ],
     "sources": [
       {
-        "label": "BW LPG Business & Moat Analysis",
-        "url": "https://koalagains.com/stocks/NYSE/BWLP/business-and-moat"
-      },
-      {
-        "label": "BW LPG Limited – Financial Results for Q4 2025",
+        "label": "BW LPG Q4 2025 results",
         "url": "https://www.bwlpg.com/bw-lpg-limited-financial-results-for-q4-2025/"
-      },
-      {
-        "label": "BW LPG 2025 Integrated Annual Report",
-        "url": "https://www.sec.gov/Archives/edgar/data/1649313/000110465926037395/tm261202d2_ex99-1.pdf"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "AKAM": {
     "ticker": "AKAM",
@@ -3706,91 +3699,82 @@
   "EQNR.OL": {
     "ticker": "EQNR.OL",
     "company": "Equinor ASA",
-    "as_of": "2026-05-24",
-    "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Equinor is Norway's state-controlled (67% government) integrated oil & gas major, dominant operator on the Norwegian Continental Shelf (NCS) and the largest natural gas supplier to Europe. It earns revenue producing crude and gas (E&P Norway, E&P International, E&P USA), trading and marketing molecules through MMP, and developing offshore wind via Renewables (REN). FY25 adjusted operating income ~$28bn with European TTF gas prices averaging $14.80/mmbtu in Q1 driving outperformance.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Equinor is a Norwegian, state-controlled energy company producing oil and gas mostly on the Norwegian Continental Shelf and in the US, Brazil and the UK. It markets and transports most Norwegian gas to Europe, trades oil, gas and power, operates refining and processing, and is building renewables. 2025 equity production was a record 2,137 mboe/day, about 56% liquids.",
     "revenue_mix": [
       {
-        "segment": "E&P Norway (NCS oil + gas)",
-        "share_pct": 50,
+        "segment": "E&P Norway (approx, share of 2025 adj. operating income)",
+        "share_pct": 86,
         "trend": "stable"
       },
       {
-        "segment": "E&P International (UK, Brazil, Angola, Algeria)",
-        "share_pct": 18,
+        "segment": "E&P International (approx)",
+        "share_pct": 6,
         "trend": "stable"
       },
       {
-        "segment": "Marketing, Midstream & Processing (gas trading, refining)",
-        "share_pct": 18,
-        "trend": "stable"
+        "segment": "E&P USA (approx)",
+        "share_pct": 4,
+        "trend": "declining"
       },
       {
-        "segment": "E&P USA (Bakken, Eagle Ford, GoM)",
-        "share_pct": 12,
+        "segment": "Marketing, Midstream and Processing (approx)",
+        "share_pct": 6,
         "trend": "stable"
-      },
-      {
-        "segment": "Renewables (offshore wind)",
-        "share_pct": 2,
-        "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "Norway / EU gas sales",
-        "share_pct": 70
+        "region": "Norway (approx, share of equity production)",
+        "share_pct": 66
       },
       {
-        "region": "United States",
-        "share_pct": 15
+        "region": "United States (approx)",
+        "share_pct": 20
       },
       {
-        "region": "UK & rest of world",
-        "share_pct": 15
+        "region": "Other international (approx)",
+        "share_pct": 14
       }
     ],
     "end_markets": [
-      "European utilities & industrials (gas via Langeled, Nord Stream alternatives)",
-      "European refineries (NCS crude)",
-      "US Henry Hub gas market",
-      "Offshore wind PPAs (UK Dogger Bank, US Empire Wind)"
+      "European natural gas supply",
+      "Crude oil and refined products",
+      "Power and renewables",
+      "Carbon capture and storage"
     ],
     "top_competitors": [
       "Shell",
+      "BP",
       "TotalEnergies",
-      "BP (in NCS)",
-      "Aker BP (NCS pure-play)"
+      "ExxonMobil",
+      "Aker BP",
+      "Chevron"
     ],
     "moat": {
-      "type": "NCS resource concession + low carbon-intensity barrels",
-      "narrative": "Equinor is the designated operator of most strategic NCS infrastructure (Troll, Johan Sverdrup, Snøhvit) — a position the Norwegian state will not allow to be displaced. NCS barrels have among the lowest scope-1+2 carbon intensities globally (~7 kg CO2/boe vs ~17 industry avg), making Equinor a defensive supplier in a decarbonising EU."
+      "type": "Resource and infrastructure position (cost advantage)",
+      "narrative": "Norwegian acreage and the gas pipeline system, with about 70% of Norwegian gas exports flowing through Equinor marketing. As a price taker there is no structural pricing moat."
     },
     "key_customers": [
-      "Major European utilities (Centrica, RWE, Engie, Uniper) buying piped gas",
-      "European refiners (TotalEnergies, Shell downstream)",
-      "Long-term LNG offtakers (Asian utilities via Hammerfest)"
+      "European gas utilities and industrials",
+      "Oil refiners and traders",
+      "Norwegian state (SDFI marketing)"
     ],
     "key_risks": [
-      "Empire Wind US offshore project facing Trump-administration permit/tariff headwinds — multi-billion-dollar 2025 impairments in REN",
-      "UK Energy Profits Levy (78% effective rate) and Labour govt removing investment allowances threatens Rosebank economics",
-      "EU windfall tax proposals from 5-country coalition (Germany/Spain/Italy/Portugal/Austria) could cap MMP and gas upstream margins"
+      "Oil and TTF gas prices",
+      "Norwegian tax regime and about 67% state ownership",
+      "Decline of mature Norwegian fields and project execution",
+      "Losses in renewables and offshore wind (US project cost and policy risk)",
+      "Energy-transition demand shifts"
     ],
     "sources": [
       {
-        "label": "Equinor Q4 & FY2025 results",
-        "url": "https://www.equinor.com/news/equinor-fourth-quarter-and-full-year-2025-results"
-      },
-      {
-        "label": "Equinor 2025 20-F (SEC)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001140625/000114062526000013/eqnr-20251231.htm"
-      },
-      {
-        "label": "OilPrice: Equinor UK windfall tax",
-        "url": "https://oilprice.com/Energy/Energy-General/Equinor-Warns-Windfall-Tax-May-Discourage-Its-UK-Investments.html"
+        "label": "Equinor 2025 annual report (20-F exhibit)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1140625/000114062526000013/exhibit154equinor2025ann.htm"
       }
     ],
-    "last_refreshed": "2026-05-24"
+    "last_refreshed": "2026-10-03"
   },
   "DPLM.L": {
     "ticker": "DPLM.L",
@@ -11733,93 +11717,71 @@
   "RBRK": {
     "ticker": "RBRK",
     "company": "Rubrik, Inc.",
-    "as_of": "2026-08-15",
-    "last_refreshed_reason": "Initial backfill",
-    "company_overview": "Rubrik sells cyber-resilience software — it backs up enterprise data from on-premises servers, cloud workloads and SaaS applications into an immutable, append-only store, monitors that data for sensitive content and ransomware indicators, and restores it fast after an attack. It is deliberately sold to the CISO as a security product rather than to IT as backup. FY2026 (ended 31 January 2026) revenue was $1.32bn, up ~48%, with subscription ARR of $1.46bn, up 34%, and net retention above 120%.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Rubrik sells data security and cyber-resilience software that backs up, protects and recovers enterprise data across on-premises, cloud and SaaS, adding ransomware detection, data classification and identity resilience. Revenue is almost entirely subscription, sold through channel partners, with a shift from appliance to cloud contracts. FY26 revenue was $1.32bn (+48%); subscription ARR $1.46bn.",
     "revenue_mix": [
       {
-        "segment": "Subscription — Rubrik Security Cloud SaaS",
-        "share_pct": 62,
+        "segment": "Subscription (Q1 FY27 $374.2m)",
+        "share_pct": 97,
         "trend": "growing"
       },
       {
-        "segment": "Subscription — term-based software (self-managed appliances/software)",
-        "share_pct": 29,
-        "trend": "stable"
-      },
-      {
-        "segment": "Maintenance and other (legacy perpetual support, declining by design)",
-        "share_pct": 6,
-        "trend": "declining"
-      },
-      {
-        "segment": "Professional services",
+        "segment": "Other (services, appliance maintenance)",
         "share_pct": 3,
-        "trend": "stable"
+        "trend": "declining"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States (approx — majority of ARR)",
-        "share_pct": 70
+        "region": "Americas (US about 69%)",
+        "share_pct": 72
       },
       {
-        "region": "EMEA (approx)",
-        "share_pct": 21
+        "region": "EMEA",
+        "share_pct": 24
       },
       {
-        "region": "Asia Pacific and other (approx)",
-        "share_pct": 9
+        "region": "APAC",
+        "share_pct": 4
       }
     ],
     "end_markets": [
-      "Large-enterprise data protection and ransomware recovery",
-      "US federal and state government (RSC-G, FedRAMP; Salesforce Government Cloud support added 2026)",
-      "Financial services and healthcare (regulatory retention and recovery mandates)",
-      "SaaS application backup (Microsoft 365, Salesforce, Workday)",
-      "Cloud and AI data security posture management"
+      "Enterprise data backup and recovery",
+      "Cyber resilience and ransomware recovery",
+      "Cloud and SaaS data protection",
+      "Identity and data security posture"
     ],
     "top_competitors": [
-      "Veeam (largest incumbent by ARR)",
-      "Cohesity (merged with Veritas NetBackup)",
+      "Cohesity (with Veritas)",
       "Commvault",
-      "Dell PowerProtect / Data Domain",
+      "Veeam",
+      "Dell Technologies",
       "Druva",
-      "Zerto (HPE)",
-      "Native cloud backup from AWS Backup and Azure Backup"
+      "Palo Alto Networks and CrowdStrike (adjacent)"
     ],
     "moat": {
-      "type": "Immutable architecture plus CISO budget positioning",
-      "narrative": "Rubrik's file system is append-only with metadata held in Rubrik's own cloud and logically air-gapped from the customer's Active Directory, so an attacker who owns the domain still cannot delete the backups — a design point competitors retrofitted rather than started with. The commercial moat is where the money comes from: by selling recovery as a security control it is funded out of the security budget, which is growing, rather than the infrastructure budget, which is not. Expansion into DSPM (Laminar) and Identity Resilience deepens the account but is not yet a proven independent business."
+      "type": "Switching costs",
+      "narrative": "Backup data and policies embedded across estates are costly to migrate, supporting about 120% net retention. The moat is narrow because Cohesity, Veeam and Commvault offer comparable products."
     },
     "key_customers": [
-      "2,805 customers with $100k+ subscription ARR (up from 2,246 a year earlier)",
-      "US federal agencies via Rubrik Security Cloud Government",
-      "Large financial institutions and healthcare systems (Rubrik's stated core verticals)",
-      "Goes to market almost entirely through channel partners and GSIs rather than direct"
+      "Large enterprises (2,946 customers above $100K ARR as of Q1 FY27)",
+      "Government and financial-services customers"
     ],
     "key_risks": [
-      "Cohesity's merger with Veritas NetBackup created a competitor with a far larger installed base to defend and cross-sell into",
-      "Veeam remains the volume incumbent with a much bigger ARR base and is preparing its own public listing, which will fund competitive spend",
-      "Still deeply GAAP-loss-making with very high stock-based compensation relative to revenue — the equity depends on continued 30%+ ARR growth to justify the multiple",
-      "Growth is heavily land-and-expand dependent; net retention above 120% has to hold as the $100k+ cohort matures",
-      "Backup is being commoditised at the low end by AWS Backup, Azure Backup and hypervisor-native tools, compressing the entry price point"
+      "Competition from Cohesity, Veeam and Commvault on pricing and bundles",
+      "Appliance-to-cloud transition (Cloud ARR $1.39bn)",
+      "Sustaining net new ARR growth while GAAP losses persist and stock comp is heavy",
+      "Reliance on channel partners and hyperscaler platforms",
+      "Security incidents damaging trust in a cyber-resilience vendor"
     ],
     "sources": [
       {
-        "label": "Rubrik FY2026 Form 10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm"
-      },
-      {
-        "label": "Rubrik Q4 and FY2026 results (IR)",
-        "url": "https://ir.rubrik.com/news-events/press-releases/news-details/2026/Rubrik-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx"
-      },
-      {
-        "label": "Rubrik Q1 FY2027 Form 10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001943896/000194389626000047/rbrk-20260430.htm"
+        "label": "Rubrik Q4 and FY2026 results",
+        "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-fourth-quarter-fiscal-year-2026-financial-results"
       }
     ],
-    "last_refreshed": "2026-08-15"
+    "last_refreshed": "2026-10-03"
   },
   "ESTC": {
     "ticker": "ESTC",
@@ -14497,17 +14459,17 @@
   "ROR.L": {
     "ticker": "ROR.L",
     "company": "Rotork plc",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "Rotork designs, manufactures and services actuators, valves and gearboxes that automate the opening and closing of industrial flow-control equipment. It makes money selling this equipment plus a growing aftermarket service business to oil & gas, water, chemical and power customers worldwide.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Rotork makes flow-control equipment, mainly electric, pneumatic and hydraulic valve actuators, plus gearboxes, instruments and valve controls, sold to oil and gas, chemical, process, water and power customers. Revenue comes from original-equipment project sales and a stickier aftermarket Rotork Service business (24% of 2025 sales). 2025 revenue was GBP777.3m.",
     "revenue_mix": [
       {
         "segment": "Oil & Gas",
         "share_pct": 45,
-        "trend": "flat"
+        "trend": "stable"
       },
       {
-        "segment": "Chemical, Process & Industrial (CPI)",
+        "segment": "Chemical, Process & Industrial",
         "share_pct": 29,
         "trend": "growing"
       },
@@ -14519,279 +14481,284 @@
     ],
     "geo_mix": [
       {
-        "region": "EMEA",
-        "share_pct": 39
+        "region": "EMEA (approx)",
+        "share_pct": 40
       },
       {
-        "region": "APAC",
-        "share_pct": 33
+        "region": "Americas (approx)",
+        "share_pct": 30
       },
       {
-        "region": "Americas",
+        "region": "Asia Pacific (approx)",
+        "share_pct": 30
+      }
+    ],
+    "end_markets": [
+      "Upstream, midstream and downstream oil and gas",
+      "Chemicals and process industries",
+      "Water and wastewater",
+      "Power generation",
+      "HVAC and industrial"
+    ],
+    "top_competitors": [
+      "Emerson (Bettis/EIM)",
+      "AUMA",
+      "Flowserve (Limitorque)",
+      "Curtiss-Wright"
+    ],
+    "moat": {
+      "type": "Installed base and brand",
+      "narrative": "A large installed base, approved-vendor status with oil majors and a global service network produce recurring aftermarket revenue and high replacement costs. Competition from Emerson, AUMA and Flowserve limits pricing power on new projects."
+    },
+    "key_customers": [
+      "Oil majors and national oil companies",
+      "EPC contractors",
+      "Chemical and process producers",
+      "Water utilities and power operators",
+      "Valve manufacturers (OEMs)"
+    ],
+    "key_risks": [
+      "Oil and gas project delays and capex cuts (division grew only 0.6% organically in 2025)",
+      "US tariffs and trade-policy uncertainty",
+      "Net seller of USD and EUR, so GBP strength hits reported revenue",
+      "Competition from Emerson and AUMA in actuators",
+      "Middle East geopolitical disruption to project timing"
+    ],
+    "sources": [
+      {
+        "label": "Rotork 2025 full year results",
+        "url": "https://www.investegate.co.uk/announcement/rns/rotork--ror/2025-full-year-results/9465798"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "P": {
+    "ticker": "P",
+    "company": "Everpure, Inc. (formerly Pure Storage)",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Everpure sells all-flash enterprise data storage (FlashArray, FlashBlade, Portworx software) managed through a unified Purity operating system. It earns upfront product revenue plus a growing recurring stream of subscription services (Evergreen, as-a-service, support). About 14,500 customers, including about 64% of the Fortune 500, and a hyperscaler design-win relationship.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription services (approx)",
+        "share_pct": 57,
+        "trend": "growing"
+      },
+      {
+        "segment": "Product (approx)",
+        "share_pct": 43,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 72
+      },
+      {
+        "region": "International (approx)",
         "share_pct": 28
       }
     ],
     "end_markets": [
-      "Oil & gas (midstream/downstream/upstream)",
-      "Water & wastewater treatment",
-      "Chemical & process industries",
-      "Power generation (nuclear, renewables, conventional thermal)",
-      "Data centers (emerging)"
+      "Enterprise data centres and databases",
+      "AI/ML and analytics data pipelines",
+      "Hyperscale and cloud providers",
+      "Backup and cyber-resilience storage",
+      "Cloud-native/Kubernetes data (Portworx)"
     ],
     "top_competitors": [
-      "Emerson Electric (Fisher/Bettis)",
-      "Flowserve",
-      "AUMA",
-      "Curtiss-Wright"
-    ],
-    "moat": {
-      "type": "Installed base + long equipment life driving recurring aftermarket service",
-      "narrative": "Actuators are safety-critical, embedded components with 20-30 year service lives inside customers' plants, so Rotork's growing Service division (24% of group sales in 2025, outgrowing the core business) locks in high-margin recurring revenue and makes switching costly once units are installed."
-    },
-    "key_customers": [
-      "Not separately disclosed; company states risk is spread over a large number of countries and customers with no significant concentration"
-    ],
-    "key_risks": [
-      "Oil & gas capex cyclicality (45% of revenue) — midstream project delays hit H2 2025 and subdued upstream/midstream demand is expected into 2026",
-      "China industrial demand slowdown (China alone ~14% of group revenue within APAC)",
-      "Geopolitical instability affecting customer capex decisions",
-      "FX transaction exposure as a net seller of US dollars and euros"
-    ],
-    "sources": [
-      {
-        "label": "Rotork plc 2025 Full Year Results press release",
-        "url": "https://media.rotork.com/api/public/content/rotorkfy2025pressrelease-downloadoriginal-nmcispv8svefnc2ppzej.pdf?v=14606f38"
-      },
-      {
-        "label": "Rotork 2025 full year results (Investegate)",
-        "url": "https://www.investegate.co.uk/announcement/rns/rotork--ror/2025-full-year-results/9465798"
-      },
-      {
-        "label": "Rotork Annual Report 2025",
-        "url": "https://media.rotork.com/api/public/content/rotorkannualreport2025-pdf-rgqfrcghqhg7tvtmbalvvq.pdf?v=9b37b48e"
-      }
-    ]
-  },
-  "P": {
-    "ticker": "P",
-    "company": "Everpure, Inc. (formerly Pure Storage, Inc.)",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh — ticker identity verified: NYSE:P is Pure Storage, Inc., renamed Everpure, Inc. in February 2026, not the historical Pandora Media entity",
-    "company_overview": "Everpure (formerly Pure Storage) designs all-flash data storage hardware and software that let enterprises and cloud providers store, protect and manage data. It sells storage arrays (FlashArray, FlashBlade) and an increasingly large subscription-based storage-as-a-service offering (Evergreen//One), monetizing through hardware sales, subscriptions and support.",
-    "revenue_mix": [
-      {
-        "segment": "Product (FlashArray/FlashBlade hardware)",
-        "share_pct": 58,
-        "trend": "flat"
-      },
-      {
-        "segment": "Subscription services (Evergreen/support)",
-        "share_pct": 42,
-        "trend": "growing"
-      }
-    ],
-    "geo_mix": [
-      {
-        "region": "United States",
-        "share_pct": 67
-      },
-      {
-        "region": "International",
-        "share_pct": 33
-      }
-    ],
-    "end_markets": [
-      "Enterprise IT / data center infrastructure",
-      "Cloud service providers & hyperscalers",
-      "AI/ML training and inference data pipelines",
-      "Database & virtualization workloads",
-      "Media & entertainment unstructured data"
-    ],
-    "top_competitors": [
-      "Dell EMC (PowerStore/PowerMax)",
+      "Dell Technologies",
       "NetApp",
       "Hitachi Vantara",
-      "HPE (Alletra)"
+      "HPE",
+      "IBM",
+      "Vast Data",
+      "Hyperscaler storage"
     ],
     "moat": {
-      "type": "Non-disruptive upgrade subscription model",
-      "narrative": "The Evergreen//Forever subscription lets customers upgrade storage controllers in place without a forklift replacement or data migration, which has historically produced multi-decade customer retention and shifts revenue from one-time hardware refresh cycles to recurring subscription income that competitors' hardware-refresh models don't match."
+      "type": "Technology and switching costs",
+      "narrative": "DirectFlash architecture, unified software and Evergreen non-disruptive upgrades give high renewal and low churn. The moat is not structural against well-funded incumbents like NetApp and Dell, and it is exposed to NAND costs."
     },
     "key_customers": [
-      "Not separately named; customer base skews to large enterprises and hyperscale/AI infrastructure operators, with no single customer disclosed above 10% of revenue"
+      "Fortune 500 enterprises",
+      "Large hyperscaler customer (Meta design win)",
+      "Service providers and neoclouds",
+      "Channel partners and distributors"
     ],
     "key_risks": [
-      "Slowing enterprise IT capex or storage refresh cycles reducing product revenue growth",
-      "Competitive bundling pressure from Dell and NetApp packaging storage into broader infrastructure deals",
-      "Revenue-recognition timing risk as the mix shifts further toward subscription (deferred) revenue",
-      "Customer concentration risk tied to hyperscaler/AI-datacenter capex cycles"
+      "NAND flash and DRAM cost and supply swings squeezing gross margin",
+      "Hyperscaler dependency and order lumpiness",
+      "Competition from Dell, NetApp, Vast Data and HDD/QLC pricing",
+      "Component shortages and tariff-driven supply-chain disruption",
+      "Execution risk in the subscription shift and Everpure rebrand"
     ],
     "sources": [
       {
-        "label": "Everpure FY2026 (fiscal) full-year results",
-        "url": "https://www.barchart.com/story/news/424030/everpure-announces-fiscal-fourth-quarter-and-full-year-2026-financial-results"
+        "label": "Everpure FY2026 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000027/pstg-20260201.htm"
       },
       {
-        "label": "From Storage To Data: Inside Pure Storage's Rebranding As Everpure (Forbes)",
-        "url": "https://www.forbes.com/sites/stevemcdowell/2026/02/28/from-storage-to-data-inside-pure-storages-rebranding-as--everpure/"
-      },
-      {
-        "label": "Pure Storage/Everpure revenue by geography",
-        "url": "https://bullfincher.io/companies/pure-storage/revenue-by-geography"
+        "label": "Everpure FY2026 results release",
+        "url": "https://www.prnewswire.com/news-releases/everpure-announces-fiscal-fourth-quarter-and-full-year-2026-financial-results-302697520.html"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "MTO.L": {
     "ticker": "MTO.L",
     "company": "Mitie Group plc",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "Mitie is the UK's largest facilities management outsourcer, providing security, cleaning/hygiene, engineering maintenance and specialist compliance services to corporate, government and defence clients under typically multi-year contracts. It earns most of its revenue from recurring service fees plus higher-margin project and technology upsell work.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Mitie is a UK outsourcer running buildings and infrastructure for clients: bundled facilities management (cleaning, security, maintenance), compliance services and project work such as fire and security systems, energy and data-centre fit-outs. Revenue comes from multi-year service contracts plus shorter-cycle projects. FY26 revenue was GBP 5,619m.",
     "revenue_mix": [
       {
-        "segment": "Business Services (Security, Hygiene, Central Government, Immigration & Justice, Spain)",
+        "segment": "Business Services (FY26 GBP 2,985m, +18%)",
         "share_pct": 53,
         "trend": "growing"
       },
       {
-        "segment": "Technical Services (Engineering Maintenance, Defence, Healthcare/Local Govt/Education)",
+        "segment": "Technical Services (FY26 GBP 2,634m, +3%)",
         "share_pct": 47,
-        "trend": "flat"
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "UK",
-        "share_pct": 92
+        "region": "United Kingdom (approx, residual)",
+        "share_pct": 96
       },
       {
-        "region": "Other (Spain, US)",
-        "share_pct": 8
+        "region": "Spain (GBP 227m)",
+        "share_pct": 4
       }
     ],
     "end_markets": [
-      "Corporate & commercial real estate facilities management",
-      "UK central & local government estates",
-      "Defence & justice facilities",
-      "Retail, logistics & transport sites",
-      "Healthcare & education estates"
+      "Central government, immigration and justice",
+      "Defence (11% of group revenue)",
+      "Healthcare, local government and education",
+      "Retail and logistics",
+      "Critical national infrastructure and data centres",
+      "Financial services"
     ],
     "top_competitors": [
+      "ISS",
+      "Sodexo",
       "Serco",
       "CBRE",
-      "ISS",
-      "OCS Group (pending acquisition target)",
-      "G4S",
-      "Securitas"
+      "Engie",
+      "Compass Group"
     ],
     "moat": {
-      "type": "#1 UK share positions + long recurring contracts",
-      "narrative": "Mitie holds #1 market share in UK engineering maintenance (19%), security (13%) and hygiene (8%), and roughly 80% of group revenue comes from recurring, inflation-linked contracts averaging four years — long enough that clients rarely re-tender, letting Mitie cross-sell higher-margin compliance and decarbonization projects into an already-embedded relationship."
+      "type": "Scale and switching costs (narrow)",
+      "narrative": "Large UK footprint, long-dated bundled contracts and security-cleared defence and government work create some stickiness. There is no structural moat: outsourcing is competitive, margins thin and contracts are re-tendered."
     },
     "key_customers": [
-      "3,000+ customers; revenue split 52% government / 48% non-government"
+      "Department for Work and Pensions",
+      "Transport for London",
+      "Asda",
+      "AWE",
+      "GSK",
+      "Aviva",
+      "Ministry of Defence"
     ],
     "key_risks": [
-      "Integration risk from the pending ~£3.1bn OCS Group acquisition",
-      "UK public-sector budget pressure on government contracts (52% of revenue)",
-      "Labor-cost exposure to UK minimum wage and National Insurance increases in a low-margin, people-intensive model",
-      "Competitive re-tendering risk when multi-year contracts come up for renewal"
+      "UK labour cost inflation (National Living Wage, employer NICs) not fully passed through on fixed-fee contracts",
+      "Contract re-tender and renewal risk on large government and defence frameworks",
+      "Integration of acquisitions such as Marlowe",
+      "Project margin slippage in Technical Services",
+      "Dependence on UK public-sector budgets"
     ],
     "sources": [
       {
-        "label": "Intro to Mitie, January 2026 (investor presentation)",
-        "url": "http://www.mitie.com/wp-content/uploads/2026/06/Intro-to-Mitie_January_2026.pdf"
-      },
-      {
-        "label": "Mitie Group AGM: Q1 Revenue Jumps 10% as Board Backs £3.1B OCS Takeover",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mitie-group-agm-q1-revenue-120240511.html"
+        "label": "Mitie FY26 Results (4 June 2026)",
+        "url": "https://www.mitie.com/wp-content/uploads/2026/06/Mitie-FY26-Results.pdf"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "AUGO": {
     "ticker": "AUGO",
     "company": "Aura Minerals Inc.",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh — ticker identity verified: Nasdaq:AUGO is Aura Minerals Inc., a gold/copper miner",
-    "company_overview": "Aura Minerals is a Canadian-headquartered gold and copper mining company operating six producing mines across Brazil, Honduras and Mexico. It generates revenue by extracting and selling gold doré and copper concentrate at prevailing metal prices, reporting output in gold-equivalent ounces (GEO).",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Aura Minerals is a gold and copper producer with mines in Brazil, Mexico and Honduras. It mines and processes ore and sells gold doré and copper/gold concentrate at market prices, so revenue follows volumes and metal prices. Q2 2025 output was 64,033 gold-equivalent ounces. Borborema in Brazil reached commercial production in September 2025.",
     "revenue_mix": [
       {
-        "segment": "Aranzazu (Mexico, gold-copper)",
-        "share_pct": 27,
+        "segment": "Aranzazu, Mexico (approx, Q2'25 GEO)",
+        "share_pct": 35,
+        "trend": "stable"
+      },
+      {
+        "segment": "Minosa, Honduras (approx)",
+        "share_pct": 28,
+        "trend": "stable"
+      },
+      {
+        "segment": "Almas, Brazil (approx)",
+        "share_pct": 20,
         "trend": "growing"
       },
       {
-        "segment": "Minosa (Honduras, gold)",
-        "share_pct": 25,
-        "trend": "flat"
-      },
-      {
-        "segment": "Almas (Brazil, gold)",
-        "share_pct": 21,
-        "trend": "growing"
-      },
-      {
-        "segment": "Apoena (Brazil, gold)",
+        "segment": "Apoena, Brazil (approx)",
         "share_pct": 13,
-        "trend": "flat"
-      },
-      {
-        "segment": "Borborema (Brazil, gold)",
-        "share_pct": 12,
-        "trend": "growing"
-      },
-      {
-        "segment": "MSG (Brazil)",
-        "share_pct": 2,
         "trend": "declining"
+      },
+      {
+        "segment": "Borborema, Brazil (approx)",
+        "share_pct": 4,
+        "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "Brazil",
-        "share_pct": 48
+        "region": "Brazil (approx)",
+        "share_pct": 37
       },
       {
-        "region": "Mexico",
-        "share_pct": 27
+        "region": "Mexico (approx)",
+        "share_pct": 35
       },
       {
-        "region": "Honduras",
-        "share_pct": 25
+        "region": "Honduras (approx)",
+        "share_pct": 28
       }
     ],
     "end_markets": [
-      "Gold bullion sold to refiners/bullion banks",
-      "Copper concentrate sold to smelters (byproduct of Aranzazu polymetallic ore)"
+      "Gold bullion/doré",
+      "Copper concentrate",
+      "Silver by-product"
     ],
     "top_competitors": [
       "Equinox Gold",
-      "Eldorado Gold",
-      "Other mid-cap Americas-focused gold producers"
+      "SSR Mining",
+      "Jaguar Mining",
+      "Hochschild Mining",
+      "Torex Gold"
     ],
     "moat": {
-      "type": "Multi-asset, multi-jurisdiction diversification",
-      "narrative": "Operating six mines across three countries diversifies Aura against single-asset operational or geopolitical shocks that hit smaller peers, while reserve growth (up 110% to 7.22M GEO in 2025) extends mine life and supports a lower per-ounce sustaining cost base than single-mine competitors."
+      "type": "No structural moat",
+      "narrative": "Aura is a commodity price-taker; its edge is a low-cost Latin American mine portfolio and operating track record, and mine reserve life is finite."
     },
     "key_customers": [
-      "Not separately disclosed; gold and copper sold into commodity markets via bullion banks, smelters and trading houses rather than to named end customers"
+      "Gold refiners",
+      "Copper concentrate smelters and traders",
+      "Offtake counterparties"
     ],
     "key_risks": [
-      "Gold price collar hedges (189,072 oz through mid-2028) capping upside and generating large unrealized mark-to-market losses ($281.5m in 2025)",
-      "Ramp-up execution risk at Borborema and MSG, with MSG requiring a 2026 operational turnaround",
-      "FX and country risk across Brazil, Mexico and Honduras operations",
-      "Gold and copper price cyclicality"
+      "Gold and copper price volatility",
+      "Latin American jurisdiction and permit risk (Honduras mining law, Mexico, Brazil taxes)",
+      "Borborema ramp-up and grade execution",
+      "Apoena grade decline and mine-life depletion",
+      "Reserve replacement and capex funding"
     ],
     "sources": [
       {
-        "label": "Aura Minerals Announces Q4 2025 and FY 2025 Financial and Operational Results",
-        "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/585-nasdaq/augo/198327-aura-announces-q4-2025-and-fy-2025-financial-and-operational-results.html"
-      },
-      {
-        "label": "Aura Minerals Reserves Surge 110% to 7.22M GEO in 2025",
-        "url": "https://discoveryalert.com/aura-minerals-reserve-growth-2026-gold-market-expansion/"
+        "label": "Aura Q2 2025 production results",
+        "url": "https://www.globenewswire.com/news-release/2025/07/03/3110164/0/en/Aura-Announces-Preliminary-Q2-2025-Production-Results.html"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "TEP.PA": {
     "ticker": "TEP.PA",
@@ -14935,157 +14902,156 @@
   "SAP.DE": {
     "ticker": "SAP.DE",
     "company": "SAP SE",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "SAP is the world's largest enterprise application software vendor, providing ERP, supply chain, HR and analytics software that runs the core business processes of large corporations. It is transitioning from perpetual software licenses to a subscription-based Cloud ERP Suite, monetizing through cloud subscriptions, software support/maintenance fees and implementation services.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "SAP sells enterprise application software running core business processes (finance, supply chain, procurement, HR, customer management). Its main product is the S/4HANA Cloud ERP suite, increasingly sold as subscription cloud services, alongside legacy on-premise licences with annual support fees, plus consulting. It also offers Business Technology Platform, analytics and AI (Joule). 2025 revenue was EUR 36.8bn, cloud EUR 21.0bn.",
     "revenue_mix": [
       {
-        "segment": "Cloud (incl. Cloud ERP Suite)",
+        "segment": "Cloud (EUR 21,023m, +23%)",
         "share_pct": 57,
         "trend": "growing"
       },
       {
-        "segment": "Software licenses & support",
-        "share_pct": 30,
+        "segment": "Software support (EUR 10,525m)",
+        "share_pct": 29,
         "trend": "declining"
       },
       {
-        "segment": "Services",
-        "share_pct": 13,
-        "trend": "flat"
+        "segment": "Services (EUR 4,262m)",
+        "share_pct": 12,
+        "trend": "stable"
+      },
+      {
+        "segment": "Software licences (EUR 990m)",
+        "share_pct": 3,
+        "trend": "declining"
       }
     ],
     "geo_mix": [
       {
-        "region": "Americas",
-        "share_pct": 42
+        "region": "EMEA (approx)",
+        "share_pct": 45
       },
       {
-        "region": "EMEA",
-        "share_pct": 36
+        "region": "Americas (approx)",
+        "share_pct": 41
       },
       {
-        "region": "APJ",
-        "share_pct": 22
+        "region": "Asia Pacific Japan (approx)",
+        "share_pct": 14
       }
     ],
     "end_markets": [
-      "Large enterprise ERP & finance transformation",
-      "Supply chain & manufacturing digitization",
-      "HR/workforce management (SuccessFactors)",
-      "AI-embedded business applications (Joule copilot)",
-      "Public sector & regulated industries"
+      "Manufacturing and automotive",
+      "Financial services",
+      "Retail and consumer products",
+      "Public sector",
+      "Utilities, energy and resources",
+      "Life sciences and healthcare"
     ],
     "top_competitors": [
       "Oracle",
-      "Microsoft Dynamics 365",
+      "Microsoft (Dynamics 365)",
       "Workday",
-      "Salesforce"
+      "Salesforce",
+      "ServiceNow",
+      "Infor"
     ],
     "moat": {
-      "type": "Deep ERP embedding + cloud-conversion installed base lock-in",
-      "narrative": "SAP ERP is embedded in customers' core financial and operational processes after multi-year, multi-million-dollar implementations, making migration prohibitively disruptive; the RISE with SAP program is converting this on-premise installed base into recurring cloud subscriptions, evidenced by a €77.3bn cloud backlog (up 22% reported, 30% at constant currency) that provides multi-year revenue visibility."
+      "type": "Switching costs",
+      "narrative": "SAP ERP is embedded in finance and operations of large enterprises, so replacement takes years; the installed base is migrating to S/4HANA Cloud. The moat could be pressured if AI agents let rivals layer over the system of record."
     },
     "key_customers": [
-      "Not separately disclosed; installed base concentrated in large multinational manufacturers, financial institutions and public-sector agencies with no single customer concentration"
+      "Large global enterprises (about 400,000 customers; no single concentration)",
+      "Public-sector bodies",
+      "Partners and system integrators (Accenture, Deloitte and others)"
     ],
     "key_risks": [
-      "Execution risk migrating on-premise ECC customers to S/4HANA Cloud before the 2027 end-of-mainstream-support deadline",
-      "Intensifying competition from Oracle Fusion and Workday in cloud ERP",
-      "Slowing Americas cloud growth (15% reported vs 29%+ in EMEA/APJ) signaling potential market saturation",
-      "Rising AI capex requirements to keep pace with Microsoft and Salesforce copilot features"
+      "On-premise to cloud migration timing: 2027 end of mainstream ERP maintenance risks customers delaying or defecting to Oracle or Workday",
+      "Generative AI shifting value away from ERP vendors and pricing pressure",
+      "Cloud backlog conversion (cloud growth guided to 23-25% in 2026)",
+      "EUR/USD currency swings",
+      "US tariffs, geopolitics and European cloud-sovereignty demands"
     ],
     "sources": [
       {
-        "label": "SAP Q4 2025 slides: cloud revenue surges 26% (Investing.com)",
-        "url": "https://www.investing.com/news/company-news/sap-q4-2025-slides-cloud-revenue-surges-26-free-cash-flow-nearly-doubles-93CH-4471985"
-      },
-      {
-        "label": "SAP Announces Q4 and FY 2025 Results",
-        "url": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/"
+        "label": "SAP Quarterly Statement Q4 2025",
+        "url": "https://www.prnewswire.com/news-releases/sap-quarterly-statement-q4-2025-302673209.html"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "HAFNI.OL": {
     "ticker": "HAFNI.OL",
     "company": "Hafnia Limited",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "Hafnia is one of the world's largest owners and operators of oil product and chemical tankers, transporting refined fuels (gasoline, diesel, jet fuel) and chemicals between refineries and end markets. It earns revenue by chartering its owned fleet of 114 vessels — plus pooled third-party tonnage, roughly 200 vessels under commercial management — on spot and time-charter contracts, so earnings are highly leveraged to tanker freight (TCE) rates.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Hafnia owns and operates one of the world's largest fleets of product and chemical tankers carrying refined petroleum products and chemicals. It earns time-charter-equivalent (TCE) income, mostly by trading vessels in the spot market through commercial pools, plus time charters, JV earnings and pool/management fees. 108 vessels on the water at Q4 2025 (LR2, LR1, MR, Handy).",
     "revenue_mix": [
       {
-        "segment": "MR (Medium Range) tankers — 57 vessels",
-        "share_pct": 45,
+        "segment": "MR (TCE income, FY25)",
+        "share_pct": 48,
         "trend": "stable"
       },
       {
-        "segment": "LR1 tankers — 32 vessels",
-        "share_pct": 25,
+        "segment": "LR1 (TCE income)",
+        "share_pct": 26,
         "trend": "stable"
       },
       {
-        "segment": "Handy/Specialized chemical tankers — 24 vessels",
-        "share_pct": 15,
+        "segment": "Handy (TCE income)",
+        "share_pct": 17,
         "trend": "stable"
       },
       {
-        "segment": "LR2 tankers — 10 vessels",
-        "share_pct": 15,
-        "trend": "growing"
+        "segment": "LR2 (TCE income)",
+        "share_pct": 8,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "Asia-Pacific trade lanes",
-        "share_pct": 40
-      },
-      {
-        "region": "EMEA / Middle East trade lanes",
-        "share_pct": 35
-      },
-      {
-        "region": "Americas trade lanes",
-        "share_pct": 25
+        "region": "Global seaborne trade (approx; not disclosed by region)",
+        "share_pct": 100
       }
     ],
     "end_markets": [
-      "Refined petroleum product distribution (gasoline, diesel, jet fuel)",
-      "Chemical tanker transport",
-      "Commercial pool management for third-party ship owners"
+      "Refined oil products seaborne trade",
+      "Chemical and vegetable-oil shipping",
+      "Long-haul clean product flows (Middle East, India, US Gulf)"
     ],
     "top_competitors": [
       "Scorpio Tankers",
-      "Torm plc",
+      "Torm",
+      "d'Amico International Shipping",
       "Ardmore Shipping",
-      "International Seaways",
-      "d'Amico International Shipping"
+      "Maersk Tankers",
+      "International Seaways"
     ],
     "moat": {
-      "type": "Commercial pooling scale + modern eco-fleet",
-      "narrative": "Hafnia's ~200-vessel commercial platform (owned plus pooled third-party tonnage across LR2/LR1/MR/Handy classes, including a Panamax pool formed with trader Mercuria) gives it scale to improve utilization and bargaining power with charterers versus smaller owners, while its majority IMO Tier II-compliant MR and Handy fleet commands a fuel-efficiency premium as environmental rules tighten."
+      "type": "Scale (limited)",
+      "narrative": "No structural moat: tanker rates are set by the market. Scale, pool access, oil-major and trader relationships and a modern, low-cost fleet give a modest commercial edge."
     },
     "key_customers": [
-      "Not individually disclosed; charterers include major oil majors, trading houses (e.g., Mercuria via the Panamax pool) and refiners on spot/COA contracts"
+      "Oil majors",
+      "Commodity trading houses",
+      "Refiners and national oil companies",
+      "Pool partners and third-party vessel owners"
     ],
     "key_risks": [
-      "Freight rate cyclicality: FY2025 average TCE fell 23.6% y/y to USD 25,206/day (from USD 33,000/day in 2024) as spot rates softened, directly compressing earnings and the dividend payout",
-      "Sanctions/geopolitical exposure: trade patterns tied to Russia, Iran and Venezuela sanctions regimes affect which vessels can trade where and create compliance risk",
-      "Newbuild oversupply: industry-wide new tanker deliveries adding an estimated 3-4% annual fleet supply growth, a risk to future rates if demand doesn't keep pace"
+      "Product tanker spot rates (MR about USD26,300/day in Q4 2025) driven by refinery runs, sanctions and trade-lane shifts",
+      "Fleet oversupply as newbuild deliveries ramp up",
+      "Sanctions and re-routing of Russian and Middle East product flows",
+      "Decarbonisation rules (IMO, EU ETS) and compliance costs",
+      "Leverage and vessel values moving with the freight cycle"
     ],
     "sources": [
       {
-        "label": "Hafnia FY2025 (Q4) financial results",
-        "url": "https://www.businesswire.com/news/home/20260225445913/en/Hafnia-Limited-Announces-Financial-Results-For-The-Three-and-Twelve-Months-Ended-31-December-2025"
-      },
-      {
-        "label": "Hafnia Investor Relations",
-        "url": "https://investor.hafnia.com/"
-      },
-      {
-        "label": "Hafnia–Mercuria Panamax tanker pool announcement",
-        "url": "https://mercuria.com/hafnia-links-up-with-major-trader-mercuria-to-form-new-panamax-tanker-pool/"
+        "label": "Hafnia Q4 2025 earnings report",
+        "url": "https://s201.q4cdn.com/891122012/files/doc_financials/2025/q4/Hafnia-Q4-2025-Earnings-Report-vF.pdf"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-03"
   },
   "ITH.L": {
     "ticker": "ITH.L",
@@ -15373,5 +15339,432 @@
         "url": "https://www.thewolfofharcourtstreet.com/p/evolution-ab-investment-thesis"
       }
     ]
+  },
+  "ONT.L": {
+    "ticker": "ONT.L",
+    "company": "Oxford Nanopore Technologies plc",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Oxford Nanopore sells DNA/RNA sequencing devices (MinION, GridION, PromethION) that read molecules through protein nanopores, giving long reads, real-time output and portability. Most revenue is recurring consumables (flow cells and kits) on an installed base, plus device sales and services. Customers are academic researchers, biopharma, clinical labs and applied users. FY25 revenue was GBP223.9m.",
+    "revenue_mix": [
+      {
+        "segment": "Research",
+        "share_pct": 66,
+        "trend": "growing"
+      },
+      {
+        "segment": "Clinical",
+        "share_pct": 13,
+        "trend": "growing"
+      },
+      {
+        "segment": "BioPharma",
+        "share_pct": 8,
+        "trend": "growing"
+      },
+      {
+        "segment": "Applied Industrial",
+        "share_pct": 12,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "EMEAI",
+        "share_pct": 45
+      },
+      {
+        "region": "Americas",
+        "share_pct": 33
+      },
+      {
+        "region": "APAC",
+        "share_pct": 22
+      }
+    ],
+    "end_markets": [
+      "Academic and government genomics research",
+      "Clinical and public-health sequencing",
+      "Biopharma (vaccines, gene therapy QC)",
+      "Applied/industrial"
+    ],
+    "top_competitors": [
+      "Illumina",
+      "Pacific Biosciences",
+      "MGI/Complete Genomics",
+      "Element Biosciences",
+      "Thermo Fisher (Ion Torrent)"
+    ],
+    "moat": {
+      "type": "Proprietary technology / installed-base switching costs",
+      "narrative": "Nanopore chemistry, motor proteins and basecalling are protected by a large patent estate, and the flow-cell consumable model ties revenue to instruments placed. The moat is narrower in short-read volume markets, where Illumina's scale and cost per base dominate."
+    },
+    "key_customers": [
+      "Academic institutes and grant-funded research organisations (about two-thirds of revenue)",
+      "Clinical and reimbursement-based labs",
+      "Vaccine and gene-therapy developers",
+      "Public-health agencies"
+    ],
+    "key_risks": [
+      "Dependence on academic grant funding (US NIH budgets) for about two-thirds of revenue",
+      "Illumina, PacBio and Element competing on accuracy and cost per genome in clinical sequencing",
+      "Still loss-making; cash burn and timing of reimbursement-driven clinical adoption",
+      "Patent litigation and IP challenges",
+      "FX exposure: USD/EUR revenue against a GBP cost base"
+    ],
+    "sources": [
+      {
+        "label": "2025 Annual results presentation (2 Mar 2026)",
+        "url": "https://nanoporetech.com/api/assets/f/196663/x/0e2c0197ad/ont-annual-2025-results-presentatin-final-2-march-2026.pdf"
+      },
+      {
+        "label": "Annual Report and Accounts 2025",
+        "url": "https://nanoporetech.com/api/assets/f/196663/x/e6a62a9b49/ont-ar25-interactive-final.pdf"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "OCDO.L": {
+    "ticker": "OCDO.L",
+    "company": "Ocado Group plc",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Ocado builds and licenses automated grocery fulfilment technology (robotics, software, fulfilment centres) to grocers worldwide, and runs the UK Ocado Retail logistics business. In Technology Solutions it earns fees from partners (percentage of sales and fixed fees per module, plus capex-related fees). FY2025 group revenue was GBP1,362m.",
+    "revenue_mix": [
+      {
+        "segment": "Technology Solutions",
+        "share_pct": 41,
+        "trend": "growing"
+      },
+      {
+        "segment": "Logistics",
+        "share_pct": 59,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "UK (approx)",
+        "share_pct": 75
+      },
+      {
+        "region": "North America (approx)",
+        "share_pct": 15
+      },
+      {
+        "region": "Europe/APAC ex-UK (approx)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "Online grocery fulfilment",
+      "Grocery retail automation",
+      "Warehouse robotics"
+    ],
+    "top_competitors": [
+      "Symbotic",
+      "AutoStore",
+      "Attabotics",
+      "Alert Innovation (Walmart)",
+      "Takeoff Technologies",
+      "Swisslog/Knapp"
+    ],
+    "moat": {
+      "type": "Technology and long-term contracts",
+      "narrative": "Proprietary software, robotics and multi-year partner agreements give high switching costs once live. The moat is economically unproven because partners are slowing CFC rollouts and cash flow remains negative."
+    },
+    "key_customers": [
+      "Kroger",
+      "Sobeys",
+      "Coles",
+      "Aeon",
+      "Lotte",
+      "Bon Preu",
+      "Ocado Retail (UK)"
+    ],
+    "key_risks": [
+      "Kroger scaling back its CFC network, reducing module rollout and fees",
+      "Partner exclusivity expiring, increasing competition from Symbotic and AutoStore",
+      "Negative underlying cash flow (GBP213m in FY25) and debt refinancing needs",
+      "Online grocery penetration slower than planned",
+      "Execution of restructuring and cost cuts"
+    ],
+    "sources": [
+      {
+        "label": "Ocado Group Full Year Results 2025",
+        "url": "https://www.ocadogroup.com/investors/results-and-presentations/ocado-group-full-year-results-2025"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "MSTR": {
+    "ticker": "MSTR",
+    "company": "Strategy Inc (formerly MicroStrategy)",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Strategy runs enterprise analytics/BI software (modest operating revenue) and is the largest corporate holder of bitcoin (843,775 BTC per Q2 2026). It funds purchases with equity, convertible debt and perpetual preferred stock (STRF, STRC, STRE, STRK, STRD). Reported earnings swing with bitcoin fair-value changes; equity value tracks the bitcoin holdings far more than the software.",
+    "revenue_mix": [
+      {
+        "segment": "Enterprise analytics software incl. subscription, licences/support, services (approx; bitcoin gains/losses are not revenue)",
+        "share_pct": 100,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 58
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 28
+      },
+      {
+        "region": "Other international (approx)",
+        "share_pct": 14
+      }
+    ],
+    "end_markets": [
+      "Enterprise BI and analytics",
+      "Bitcoin treasury and digital credit (preferred stock, convertibles)"
+    ],
+    "top_competitors": [
+      "Microsoft Power BI",
+      "Salesforce Tableau",
+      "Qlik",
+      "ThoughtSpot",
+      "Spot bitcoin ETFs (e.g. IBIT)",
+      "Other bitcoin treasury companies (e.g. Metaplanet)"
+    ],
+    "moat": {
+      "type": "None in software; capital-markets access for the bitcoin strategy",
+      "narrative": "The software is sub-scale against Microsoft and Salesforce. The bitcoin strategy relies on capital-markets access and the equity premium to holdings, which is not durable."
+    },
+    "key_customers": [
+      "Diversified enterprise software customers (no disclosed concentration)",
+      "Capital-markets investors in preferred stock and convertibles"
+    ],
+    "key_risks": [
+      "Bitcoin price below the ~$75.5k average cost means large fair-value losses",
+      "Fixed charges (preferred dividends ~$400m/quarter, convertibles) versus small software cash flow; USD reserve funds dividends and interest",
+      "Premium/discount of equity value to bitcoin holdings (mNAV) controlling capital access",
+      "Custody concentration (Coinbase, Anchorage, Fidelity)",
+      "Regulatory, accounting and index-inclusion changes for bitcoin treasury companies"
+    ],
+    "sources": [
+      {
+        "label": "Strategy Inc FY2025 10-K (summary)",
+        "url": "https://www.stocktitan.net/sec-filings/MSTR/10-k-strategy-inc-files-annual-report-9656434d4cfd.html"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "AVT": {
+    "ticker": "AVT",
+    "company": "Avnet, Inc.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Avnet is a global electronic components distributor. It buys semiconductors, passives, interconnect and electromechanical parts from suppliers, holds inventory and sells to 100k+ OEMs and contract manufacturers, adding design-in support and supply-chain services. Farnell sells small-quantity parts online. Profit is a resale gross margin with heavy working-capital intensity. FY26 (June) sales were $27.6bn, up about 24.5%.",
+    "revenue_mix": [
+      {
+        "segment": "Electronic Components (FY26 $25.85bn, +24.6%)",
+        "share_pct": 93.6,
+        "trend": "growing"
+      },
+      {
+        "segment": "Farnell (FY26 $1.78bn, +23.2%)",
+        "share_pct": 6.4,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Asia",
+        "share_pct": 48.6
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 28
+      },
+      {
+        "region": "Americas",
+        "share_pct": 23.4
+      }
+    ],
+    "end_markets": [
+      "Industrial and automation",
+      "Automotive and transportation",
+      "Communications and networking",
+      "Aerospace and defense",
+      "Medical",
+      "Computing and data infrastructure"
+    ],
+    "top_competitors": [
+      "Arrow Electronics",
+      "Future Electronics",
+      "WT Microelectronics",
+      "World Peace Group",
+      "Mouser",
+      "Digi-Key",
+      "RS Components"
+    ],
+    "moat": {
+      "type": "Scale and supplier/customer relationships (narrow)",
+      "narrative": "Global logistics, line cards from major suppliers and design-in services give modest switching costs. Distribution is low-margin and cyclical, so there is no strong structural moat."
+    },
+    "key_customers": [
+      "Diversified OEM and EMS base (no customer above 10%)",
+      "Supplier concentration: one supplier above 10% of purchases"
+    ],
+    "key_risks": [
+      "Semiconductor inventory cycle: a downturn forces write-downs and sales declines",
+      "Supplier line-card changes or direct-sales shifts",
+      "Working capital and interest costs when inventory builds",
+      "Competition from Arrow and Asian distributors on margin",
+      "FX, tariff and export-control exposure with about 78% of sales outside the US"
+    ],
+    "sources": [
+      {
+        "label": "Avnet Q4 and FY2026 results",
+        "url": "https://ir.avnet.com/news-releases/news-release-details/avnet-reports-fourth-quarter-and-fiscal-2026-financial-results"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "SWKS": {
+    "ticker": "SWKS",
+    "company": "Skyworks Solutions, Inc.",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Skyworks designs analog and mixed-signal semiconductors, mainly RF front-end modules for cellular connectivity, plus Wi-Fi, Bluetooth, power and timing chips for automotive, industrial, data-centre and infrastructure uses. It sells to phone makers and distributors, with Apple the largest customer. A merger with Qorvo (signed Oct 2025) is pending.",
+    "revenue_mix": [
+      {
+        "segment": "Mobile (Q3 FY26 $541m)",
+        "share_pct": 57,
+        "trend": "declining"
+      },
+      {
+        "segment": "Broad Markets (Q3 FY26 $403m)",
+        "share_pct": 43,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Asia-Pacific incl. China (approx)",
+        "share_pct": 80
+      },
+      {
+        "region": "United States (approx)",
+        "share_pct": 12
+      },
+      {
+        "region": "Europe and other (approx)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Smartphones and tablets",
+      "Wi-Fi and connected home",
+      "Automotive",
+      "Data centre and optical",
+      "Aerospace, defense and industrial",
+      "Cellular infrastructure"
+    ],
+    "top_competitors": [
+      "Qorvo",
+      "Murata",
+      "Broadcom",
+      "Qualcomm",
+      "Analog Devices",
+      "NXP",
+      "Texas Instruments",
+      "Cirrus Logic"
+    ],
+    "moat": {
+      "type": "Technology and customer integration (narrow)",
+      "narrative": "RF filter and module know-how, in-house manufacturing and long Apple design cycles. The moat is eroding as Apple brings RF content in house, and customer concentration is heavy."
+    },
+    "key_customers": [
+      "Apple (over 10% of revenue every year)",
+      "Samsung",
+      "Distributors and contract manufacturers",
+      "Xiaomi, Oppo, Honor and other Android OEMs"
+    ],
+    "key_risks": [
+      "Apple content loss (roughly 20-25% guided) and in-house modem/RF efforts",
+      "Customer concentration: top three receivables 82% of total",
+      "Qorvo merger completion and regulatory approvals (including China)",
+      "Broadcom, Murata and Qualcomm competing for premium smartphone RF content",
+      "Broad Markets growth must offset Mobile declines"
+    ],
+    "sources": [
+      {
+        "label": "Skyworks FY2025 10-K",
+        "url": "https://investors.skyworksinc.com/static-files/58b91ff0-62ab-46df-9f2b-576b02f06914"
+      },
+      {
+        "label": "Semiconductor Today on Skyworks Q3 FY26",
+        "url": "https://www.semiconductor-today.com/news_items/2026/aug/skyworks-060826.shtml"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
+  },
+  "HAUTO.OL": {
+    "ticker": "HAUTO.OL",
+    "company": "Höegh Autoliners ASA",
+    "as_of": "2026-10-03",
+    "last_refreshed_reason": "Quarterly refresh",
+    "company_overview": "Höegh Autoliners is an Oslo-listed deep-sea roll-on/roll-off shipping company operating about 40 pure car and truck carriers, carrying about 1.6 million CEU a year of new and used cars, high-and-heavy machinery and breakbulk across 11 global trades. Revenue is freight per unit, mostly under contracts of affreightment with vehicle makers, plus spot cargo. 2025 revenue was $1,426m with EBITDA of $621m.",
+    "revenue_mix": [
+      {
+        "segment": "Deep-sea RoRo freight (split not disclosed)",
+        "share_pct": 100,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Global deep-sea trades (11 trades; no regional split disclosed)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Factory-new light vehicles",
+      "Previously owned vehicles",
+      "High and heavy equipment",
+      "Breakbulk"
+    ],
+    "top_competitors": [
+      "Wallenius Wilhelmsen",
+      "NYK",
+      "MOL",
+      "K Line",
+      "Hyundai Glovis",
+      "Grimaldi",
+      "BYD and COSCO car carrier fleets"
+    ],
+    "moat": {
+      "type": "Scale and fleet quality (narrow)",
+      "narrative": "Modern, dual-fuel-ready Aurora class vessels and multi-year OEM contracts help. Shipping is cyclical and capacity-driven, so there is no structural moat."
+    },
+    "key_customers": [
+      "Two major international car producers (long-term contracts signed January 2025; names not disclosed)",
+      "Other global automakers and high-and-heavy shippers"
+    ],
+    "key_risks": [
+      "PCTC fleet supply growth pressuring freight rates",
+      "Chinese vehicle-export volumes and Chinese carriers building their own fleets (BYD, COSCO)",
+      "US port fees (USTR Section 301) and tariffs",
+      "IMO and EU decarbonisation costs and fuel price",
+      "Contract backlog rolling off at lower renewal rates"
+    ],
+    "sources": [
+      {
+        "label": "Höegh Autoliners Annual Report 2025",
+        "url": "https://annualreport2025.hoeghautoliners.com/about-hoegh/hoegh-autoliners-in-brief/"
+      }
+    ],
+    "last_refreshed": "2026-10-03"
   }
 }
