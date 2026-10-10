@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-10-03",
+    "as_of": "2026-10-10",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -69,26 +69,16 @@
     },
     "tickers_n": 164,
     "last_saturday_refresh": {
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "tickers_refreshed": [
-        "ONT.L",
-        "TWLO",
-        "P",
-        "ROR.L",
-        "HAFNI.OL",
-        "HPE",
-        "BWLPG.OL",
-        "OCDO.L",
-        "AUGO",
-        "MTO.L",
-        "MSTR",
-        "AVT",
-        "RBRK",
-        "VAR.OL",
-        "SWKS",
-        "HAUTO.OL",
-        "EQNR.OL",
-        "SAP.DE"
+        "XP",
+        "CCC.L",
+        "SMTC",
+        "CRWD",
+        "ZS",
+        "PLTR",
+        "ENI.MI",
+        "SAIL"
       ]
     }
   },
@@ -6426,75 +6416,92 @@
   "CCC.L": {
     "ticker": "CCC.L",
     "company": "Computacenter plc",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh — ticker identity verified: LSE:CCC is Computacenter plc, not CCC Intelligent Solutions (NASDAQ:CCCS)",
-    "company_overview": "Computacenter helps large enterprises and public-sector bodies source, deploy and manage IT infrastructure — from procuring hardware and software (Technology Sourcing) to running managed and professional IT services — across the UK, Germany, France and North America. It earns thin margins on high-volume hardware resale plus higher-margin recurring services fees.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "Computacenter plc is a UK-listed IT infrastructure reseller and services group. It sources hardware and software from vendors for large enterprises, public-sector bodies and, increasingly, hyperscale and neocloud customers. It wraps that in professional services and managed services such as service desk and workplace support. In H1 2026 revenue was £6.85bn, 72% higher YoY, led by AI-infrastructure sourcing in North America and the UK. About 56% of revenue comes from North America.",
     "revenue_mix": [
       {
-        "segment": "Technology Sourcing (hardware/software resale)",
-        "share_pct": 82,
+        "segment": "Technology Sourcing",
+        "share_pct": 86.3,
         "trend": "growing"
       },
       {
-        "segment": "Services (Professional + Managed)",
-        "share_pct": 18,
-        "trend": "growing"
+        "segment": "Professional Services",
+        "share_pct": 7.6,
+        "trend": "stable"
+      },
+      {
+        "segment": "Managed Services",
+        "share_pct": 6.0,
+        "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "North America",
-        "share_pct": 53
-      },
-      {
-        "region": "Germany",
-        "share_pct": 23
+        "region": "North America (approx £3.8bn, of which US £3.79bn)",
+        "share_pct": 56.1
       },
       {
         "region": "UK",
-        "share_pct": 15
+        "share_pct": 22.1
       },
       {
-        "region": "Western Europe (France/Benelux)",
-        "share_pct": 9
+        "region": "Germany",
+        "share_pct": 15.5
+      },
+      {
+        "region": "Western Europe (France, Belgium, Netherlands, Switzerland)",
+        "share_pct": 6.1
+      },
+      {
+        "region": "International",
+        "share_pct": 0.3
       }
     ],
     "end_markets": [
-      "Enterprise & public-sector IT infrastructure",
-      "Data center & hyperscale computing buildout",
-      "AI infrastructure hardware procurement",
-      "Financial services and government verticals"
+      "Hyperscale, neocloud and AI infrastructure",
+      "Large enterprise (including pharma, automotive, materials)",
+      "Public sector (US federal via GAI; UK and German public sector)",
+      "Workplace/end-user device refresh and managed services"
     ],
     "top_competitors": [
-      "Bechtle",
-      "SoftwareOne",
-      "Insight Enterprises",
       "CDW",
-      "World Wide Technology"
+      "Insight Enterprises",
+      "SHI International",
+      "Softcat",
+      "Bechtle",
+      "Cancom",
+      "Atea"
     ],
     "moat": {
-      "type": "Vendor-scale procurement + embedded managed services",
-      "narrative": "Volume purchasing relationships with Dell, HPE, Cisco, Microsoft and hyperscale vendors give Computacenter pricing leverage in a low-margin resale business, while its Managed Services teams sit inside customers' IT operations on multi-year contracts, raising switching costs beyond a pure box-shifting reseller."
+      "type": "Scale and vendor relationships",
+      "narrative": "Computacenter is a top-tier partner to the major infrastructure vendors and supply chains (e.g. Nvidia named its US public-sector unit GAI Partner of the Year 2025). It has 216 major customers on trailing-12-month terms, spread across North America, Germany, the UK and Western Europe. Lower-margin, high-volume sourcing is diluting group gross margin to 9.6%, so scale advantages mostly show up in volume, not pricing."
     },
     "key_customers": [
-      "215+ 'major customers' generating over £1m gross profit annually each (2025), concentrated in North American enterprise and hyperscale accounts"
+      "Unnamed hyperscale and neocloud customers",
+      "216 major customers (TTM): North America 67, Germany 66, UK 61, Western Europe 22",
+      "Won a global device-support contract with an automotive manufacturer (Germany)",
+      "Lost a pharma contract (North America)"
     ],
     "key_risks": [
-      "Gross margin compression (down 242bps in 2025) from mix shift toward high-volume, low-margin North American hardware sales",
-      "France segment underperformance, including a £20.2m impairment recognized in 2025",
-      "Hardware component supply shortages affecting delivery timelines",
-      "Customer concentration in cyclical hyperscaler capex spending"
+      "AI-infrastructure Technology Sourcing demand from a small number of hyperscale and neocloud buyers could reverse or slip",
+      "Margin dilution: group gross margin fell to 9.6% as low-margin sourcing mix rose",
+      "Working capital: inventory £1,260m, H1 operating cash outflow £82.6m, £140.5m of invoice financing outstanding",
+      "Component price inflation from AI demand, and customers reprioritising IT spend",
+      "Underperforming Services contracts: provisions up from £14.8m to £24.8m",
+      "Weak German and French public-sector transformation activity; Western Europe still loss-making (£4.9m adjusted operating loss)"
     ],
     "sources": [
       {
-        "label": "Computacenter Final Results 2025",
-        "url": "https://investors.computacenter.com/news-releases/news-release-details/computacenter-final-results-2025"
+        "label": "Computacenter 2026 Half Year Results",
+        "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/09/Computacenter-2026-Half-Year-Results.pdf"
       },
       {
-        "label": "Computacenter breaks £9bn revenue threshold in FY25 results (ChannelWeb)",
-        "url": "https://www.channelweb.co.uk/news/2026/computacenter-fy25-results"
+        "label": "Computacenter converts AI infrastructure demand into record H1 (TechMarketView)",
+        "url": "https://www.techmarketview.com/ukhotviews/archive/2026/09/08/computacenter-converts-ai-infrastructure-demand-into-record-h1"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-10"
   },
   "QCOM": {
     "ticker": "QCOM",
@@ -7384,84 +7391,73 @@
   "CRWD": {
     "ticker": "CRWD",
     "company": "CrowdStrike Holdings, Inc.",
-    "as_of": "2026-06-28",
-    "last_refreshed_reason": "New concall (Q1 FY2027)",
-    "company_overview": "CrowdStrike sells cloud-delivered cybersecurity through its Falcon platform — a single lightweight agent that protects laptops, servers, and cloud workloads and streams telemetry to a central AI/graph engine for threat detection. Customers subscribe to 33 modules spanning endpoint, cloud security, identity protection, SIEM/log management, threat intelligence, and generative-AI security (Charlotte AI). It crossed $5.3B in ARR (+24% YoY) in FY2026, sold almost entirely as recurring subscriptions.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "CrowdStrike sells the cloud-native Falcon cybersecurity platform. It started in endpoint detection and response and now covers cloud, identity, SIEM/next-gen log management (Falcon LogScale) and managed detection (Falcon Complete). Modules are sold by subscription, increasingly under Falcon Flex bundles. Customers are mostly large enterprises and governments, with more than 88,000 organizations including MSSP end customers. Ending ARR was $5.25bn at Jan 2026 (up 24%), and FY26 revenue was $4.81bn.",
     "revenue_mix": [
       {
-        "segment": "Subscription (Falcon modules)",
-        "share_pct": 95,
+        "segment": "Subscription",
+        "share_pct": 94.8,
         "trend": "growing"
       },
       {
-        "segment": "Professional services (incident response, advisory)",
-        "share_pct": 5,
-        "trend": "stable"
+        "segment": "Professional services",
+        "share_pct": 5.1,
+        "trend": "growing"
       }
     ],
     "geo_mix": [
       {
-        "region": "United States",
-        "share_pct": 68
+        "region": "United States (approx; derived as total less international)",
+        "share_pct": 67
       },
       {
-        "region": "EMEA",
-        "share_pct": 16
-      },
-      {
-        "region": "APAC",
-        "share_pct": 11
-      },
-      {
-        "region": "Other (incl. LATAM)",
-        "share_pct": 5
+        "region": "International (approx $1.60bn in FY26, +26% YoY)",
+        "share_pct": 33
       }
     ],
     "end_markets": [
-      "Large enterprise IT security",
-      "Financial services & insurance",
-      "Government & public sector",
-      "Healthcare",
-      "Retail, technology & MSP/managed security partners"
+      "Large enterprise and mid-market",
+      "Government and public sector",
+      "Cloud workloads, identity and SIEM",
+      "MSSP and MSP channel"
     ],
     "top_competitors": [
-      "Microsoft (Defender for Endpoint)",
-      "SentinelOne",
+      "Microsoft Defender",
       "Palo Alto Networks (Cortex XDR)",
-      "Zscaler (in cloud/identity adjacencies)",
-      "Wiz/Palo Alto (cloud security)",
-      "Splunk/Cisco (SIEM)"
+      "SentinelOne",
+      "Zscaler",
+      "Splunk/Cisco",
+      "Wiz/Google",
+      "Okta/CyberArk (identity)"
     ],
     "moat": {
-      "type": "Single-agent architecture + data network effects + module land-and-expand",
-      "narrative": "One Falcon agent and a unified threat graph mean each new customer's telemetry improves detection for all (Threat Graph network effect), while the same agent lights up new modules with zero additional deployment — driving high attach rates (51% of customers run 6+ modules, 25% run 8+). That consolidation pitch ('replace a dozen point tools with one platform') plus switching costs of an installed agent base creates durable lock-in even after the July 2024 outage."
+      "type": "Platform and data network effect",
+      "narrative": "A single lightweight Falcon agent plus the Threat Graph's telemetry lets customers add modules without new deployments, and Falcon Flex lowers the friction of buying more. Distribution through AWS and Google marketplaces, resellers and MSSPs widens reach. Microsoft Marketplace listing is planned from fiscal 2027."
     },
     "key_customers": [
-      "Over 65% of the Fortune 100 and a majority of the Fortune 500 (per company)",
-      "AWS, NVIDIA, and OpenAI as Charlotte AI AgentWorks ecosystem partners",
-      "Large public-sector and financial-services accounts; no single customer is a material concentration"
+      "No end customer is material (company states it is not dependent on any particular end customer)",
+      "Channel: resellers, distributors, MSSPs, global system integrators; AWS and Google marketplaces",
+      "Saudi Aramco (MoU, regional cloud)"
     ],
     "key_risks": [
-      "Reputation/contractual fallout and customer-retention sensitivity following the July 2024 global outage (Channel File 291) — pricing concessions and 'customer commitment packages' weigh on near-term net new ARR",
-      "Microsoft bundling Defender into E5 licenses pressures endpoint pricing at cost-focused accounts",
-      "Identity/cloud-security expansion brings direct competition with Okta, Zscaler, Wiz and Palo Alto",
-      "Premium valuation demands sustained 20%+ ARR growth and successful upsell of newer modules"
+      "Residual fallout from the July 19, 2024 content update outage: churn, incentive costs, litigation and government inquiries",
+      "Competitive bundling by Microsoft (Defender in E5) and Palo Alto Networks platform consolidation",
+      "Falcon Flex discounts and contract mix could pressure net new ARR and margins",
+      "Becomes a target of nation-state attacks; reliance on AWS and colocation infrastructure",
+      "Professional services growth is lower-margin and tied to incident response demand"
     ],
     "sources": [
       {
-        "label": "CrowdStrike Q4 & FY2026 results (IR)",
+        "label": "CrowdStrike Q4 and FY2026 results",
         "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026"
       },
       {
-        "label": "CrowdStrike FY2026 Q1 8-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000022/crwd-20260603xex991.htm"
-      },
-      {
-        "label": "Futurum: CrowdStrike Q4 FY2026 analysis",
-        "url": "https://futurumgroup.com/insights/crowdstrike-q4-fy-2026-earnings-extend-arr-scale-and-ai-security-focus/"
+        "label": "CrowdStrike Form 10-K FY2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm"
       }
     ],
-    "last_refreshed": "2026-06-28"
+    "last_refreshed": "2026-10-10"
   },
   "SNOW": {
     "ticker": "SNOW",
@@ -15123,150 +15119,170 @@
   "SAIL": {
     "ticker": "SAIL",
     "company": "SailPoint, Inc.",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh — ticker identity verified: SailPoint, Inc., re-IPO'd Feb 2025, majority owned by Thoma Bravo",
-    "company_overview": "SailPoint sells identity security software that helps large organizations control who has access to which systems, applications and data, automatically flagging or removing excess or orphaned access. It earns revenue mainly through SaaS subscriptions — about 94% of revenue is recurring, with roughly $813 million of annual recurring revenue — following its February 2025 re-IPO after four years as a Thoma Bravo portfolio company, which still holds a majority (~76%) stake.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "SailPoint sells identity security software for large enterprises: identity governance, access management, privileged access and agent/AI identity security (the Identity Security Cloud, plus self-hosted IdentityIQ). It is controlled by Thoma Bravo and went public again in 2025. FY2026 (Jan 2026) revenue was $1,071m (+24%) and ARR $1,125m (+28%). Customers number about 3,235, and partners are involved in more than 90% of new transactions.",
     "revenue_mix": [
       {
-        "segment": "Subscription/SaaS (Identity Security Cloud)",
-        "share_pct": 85,
+        "segment": "SaaS subscription",
+        "share_pct": 56.2,
         "trend": "growing"
       },
       {
-        "segment": "Term licenses/on-premises (IdentityIQ) & maintenance",
-        "share_pct": 10,
+        "segment": "Term subscriptions",
+        "share_pct": 21.4,
+        "trend": "growing"
+      },
+      {
+        "segment": "Maintenance and support",
+        "share_pct": 14.1,
         "trend": "declining"
       },
       {
-        "segment": "Professional services & other",
-        "share_pct": 5,
+        "segment": "Other subscription services",
+        "share_pct": 2.6,
+        "trend": "growing"
+      },
+      {
+        "segment": "Services and other",
+        "share_pct": 5.7,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx; derived as 100% less 35% outside US)",
+        "share_pct": 65
+      },
+      {
+        "region": "Outside the U.S.",
+        "share_pct": 35
+      }
+    ],
+    "end_markets": [
+      "Large enterprise and Global 2000",
+      "Financial services, healthcare, government",
+      "Cloud and hybrid identity governance",
+      "AI agent identity security"
+    ],
+    "top_competitors": [
+      "Microsoft (Entra ID Governance)",
+      "Palo Alto Networks (CyberArk)",
+      "Okta",
+      "IBM",
+      "Oracle",
+      "One Identity"
+    ],
+    "moat": {
+      "type": "Switching costs and channel ecosystem",
+      "narrative": "Identity governance sits in compliance workflows and is deeply integrated into HR, directory and application connectors, so migrations are slow and expensive. Partners including Accenture, Deloitte, Capgemini, PwC and KPMG are involved in more than 90% of new transactions. The shift from self-hosted to SaaS (SaaS ARR $746m, +38%) is the main growth driver."
+    },
+    "key_customers": [
+      "About 3,235 customers; none above 10% of revenue",
+      "System integrators: Accenture, Capgemini, Deloitte, KPMG, PwC",
+      "Resellers: CDW, GuidePoint, Optiv, Softcat"
+    ],
+    "key_risks": [
+      "Microsoft bundling identity governance into Entra, and Palo Alto's CyberArk combination widening identity platform competition",
+      "Dependence on channel partners; some face independence requirements tied to Thoma Bravo affiliates",
+      "Thoma Bravo control and possible share overhang or conflicts",
+      "Long, unpredictable enterprise sales cycles and quarterly volatility",
+      "Migration of self-hosted maintenance (-2%) revenue into SaaS and term contracts can create comparability noise",
+      "AI adoption could shift identity security architecture and create new entrants"
+    ],
+    "sources": [
+      {
+        "label": "SailPoint Form 10-K FY2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/2030781/000203078126000003/sail-20260131.htm"
+      },
+      {
+        "label": "SailPoint Q4 FY2026 results (8-K Ex. 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/2030781/000162828026019034/sailpointinc-20260131x991x.htm"
+      }
+    ],
+    "last_refreshed": "2026-10-10"
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "company": "Palantir Technologies Inc.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "Palantir sells data-integration and AI software to governments and companies. Its platforms are Gotham (defense and intelligence), Foundry (commercial), Apollo (deployment) and the Artificial Intelligence Platform (AIP), with forward-deployed engineers embedding them in customer workflows. Q2 2026 revenue was $1.935bn, up 93% YoY. US revenue was $1.573bn, with US commercial up 149% and US government up 90%.",
+    "revenue_mix": [
+      {
+        "segment": "U.S. government",
+        "share_pct": 41.8,
+        "trend": "growing"
+      },
+      {
+        "segment": "U.S. commercial",
+        "share_pct": 39.5,
+        "trend": "growing"
+      },
+      {
+        "segment": "International government",
+        "share_pct": 9.4,
+        "trend": "growing"
+      },
+      {
+        "segment": "International commercial (approx, derived)",
+        "share_pct": 9.4,
         "trend": "stable"
       }
     ],
     "geo_mix": [
       {
-        "region": "North America",
-        "share_pct": 70
-      },
-      {
-        "region": "EMEA",
-        "share_pct": 20
-      },
-      {
-        "region": "APAC/Other",
-        "share_pct": 10
-      }
-    ],
-    "end_markets": [
-      "Enterprise identity & access governance",
-      "Regulatory compliance access certification (SOX, HIPAA, GDPR)",
-      "Cloud/SaaS access management for large enterprises and government"
-    ],
-    "top_competitors": [
-      "Okta (Identity Governance)",
-      "Microsoft Entra ID Governance",
-      "CyberArk",
-      "Saviynt",
-      "One Identity (Quest Software)"
-    ],
-    "moat": {
-      "type": "Land-and-expand incumbency + AI-driven access-risk scoring",
-      "narrative": "SailPoint's identity graph and AI-based access-risk models, which learn normal access patterns across a customer's full application estate, become more valuable as more applications are onboarded, creating high switching costs once Identity Security Cloud is embedded as the system of record for access certifications — reflected in 114% net dollar retention and 67% y/y growth in customers with >$1M ARR."
-    },
-    "key_customers": [
-      "Not individually disclosed; ~2,895 total customers concentrated in large regulated enterprises (financial services, healthcare, government)"
-    ],
-    "key_risks": [
-      "Thoma Bravo control: the PE sponsor retains ~76% post-IPO ownership, creating governance/float concerns and a potential overhang from future secondary sell-downs",
-      "Profitability: FY2024 net loss of $395M and negative $250M free cash flow, alongside a $1.565B debt load carrying ~$183M in annual interest expense",
-      "Competitive displacement risk from Microsoft bundling Entra ID Governance into its E5 licensing suite, pressuring pricing and win rates versus SailPoint's standalone platform"
-    ],
-    "sources": [
-      {
-        "label": "SailPoint IPO S-1 breakdown (Mostly Metrics)",
-        "url": "https://www.mostlymetrics.com/p/sailpoint-ipo-s1-breakdown"
-      },
-      {
-        "label": "SailPoint vs Microsoft Entra ID Governance comparison",
-        "url": "https://www.sailpoint.com/compare/sailpoint-vs-microsoft-entra"
-      }
-    ]
-  },
-  "PLTR": {
-    "ticker": "PLTR",
-    "company": "Palantir Technologies Inc.",
-    "as_of": "2026-09-26",
-    "last_refreshed_reason": "Scheduled quarterly refresh",
-    "company_overview": "Palantir builds software platforms — Gotham, Foundry, Apollo and the AIP artificial-intelligence layer — that let governments and large companies integrate fragmented data from many systems into one operational view and act on it, from military mission planning to supply-chain and manufacturing decisions. It earns revenue mainly from multi-year government contracts and enterprise software subscriptions, with US Commercial now its fastest-growing segment, up 137% year-over-year in Q4 2025.",
-    "revenue_mix": [
-      {
-        "segment": "Government (US + international defense/intelligence/public sector)",
-        "share_pct": 54,
-        "trend": "growing"
-      },
-      {
-        "segment": "Commercial (enterprise, incl. US Commercial)",
-        "share_pct": 46,
-        "trend": "growing"
-      }
-    ],
-    "geo_mix": [
-      {
         "region": "United States",
-        "share_pct": 70
+        "share_pct": 81.3
       },
       {
-        "region": "EMEA (incl. UK)",
-        "share_pct": 15
-      },
-      {
-        "region": "Rest of World",
-        "share_pct": 15
+        "region": "International (approx, derived)",
+        "share_pct": 18.7
       }
     ],
     "end_markets": [
-      "Defense & intelligence",
-      "Federal/civilian government",
-      "Healthcare",
-      "Manufacturing & energy",
-      "Financial services",
-      "Supply chain/logistics"
+      "US defense and intelligence",
+      "Civilian government and healthcare",
+      "Commercial enterprise AI (energy, industrials, financial services)",
+      "Allied governments"
     ],
     "top_competitors": [
-      "Anduril Industries",
+      "Snowflake",
+      "Databricks",
       "C3.ai",
-      "Booz Allen Hamilton / Leidos / SAIC (traditional govcon integrators)",
-      "Microsoft Azure/OpenAI enterprise AI stack",
-      "Snowflake / Databricks"
+      "Microsoft",
+      "Anduril (defense)",
+      "IBM",
+      "Accenture/Deloitte and in-house builds"
     ],
     "moat": {
-      "type": "Mission-critical government lock-in + ontology-based data integration",
-      "narrative": "Palantir's 'ontology' layer maps an organization's real-world objects and workflows onto its raw data, embedding its platforms deep in customer operations (e.g., the US Army's Vantage program, UK Ministry of Defence, NHS England's Federated Data Platform) such that removal means rebuilding years of custom data modeling; long, multi-year government contract vehicles further lock in recurring revenue."
+      "type": "Switching costs and embedded deployment",
+      "narrative": "AIP and Foundry ontologies encode a customer's data, logic and workflows, so replacing them is costly. Accreditation and entrenched ties to the DoD and intelligence community make government wins sticky. Competition from frontier-lab tooling is a pressure point."
     },
     "key_customers": [
-      "US Department of Defense/US Army (Vantage program)",
-      "UK Ministry of Defence and NHS England",
-      "Growing roster of large commercial accounts (US Commercial revenue +137% y/y in Q4 2025)"
+      "US Department of Defense (including the Army)",
+      "Intelligence community",
+      "653 US commercial customers (Q2 2026)",
+      "International government: $181M in Q2 (+42% YoY)"
     ],
     "key_risks": [
-      "Government contract/political risk: reliance on US federal budgets and defense priorities means an administration shift, continuing resolutions, or program cancellations could disrupt growth",
-      "Valuation/execution risk: the stock trades at a very high growth multiple, so any deceleration from the current ~60-70% revenue growth trajectory could trigger a sharp re-rating",
-      "Reputational/regulatory scrutiny: Palantir's work with US immigration enforcement and military/intelligence agencies draws public and activist criticism that could affect commercial customer willingness to partner or employee recruiting"
+      "Valuation prices in years of hypergrowth, so decelerating US commercial growth would be punished",
+      "Government contracts are lumpy and tied to US budget and contract-vehicle timing",
+      "Concentration in US revenue (81%); international commercial growth was not disclosed",
+      "Competition from Microsoft, Databricks and frontier-AI-lab tooling, which could reduce the need for forward-deployed engineers",
+      "Stock-based compensation and insider selling"
     ],
     "sources": [
       {
-        "label": "Palantir Q3 2025 earnings release",
-        "url": "https://investors.palantir.com/news-details/2025/Palantir-Reports-Q3-2025-U-S--Comm-Revenue-Growth-of-121-YY-and-Revenue-Growth-of-63-YY-Guides-Q4-Revenue-to-61-YY-and-U-S--Comm-Revenue-to-121-YY-Raises-FY-2025-Revenue-Guidance-to-53-YY-Crushing-Consensus-Expectations/"
+        "label": "Palantir Q2 2026 press release (8-K Ex. 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm"
       },
       {
-        "label": "CNBC: Palantir Q4 2025 earnings",
-        "url": "https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html"
-      },
-      {
-        "label": "Palantir revenue breakdown (government vs. commercial)",
-        "url": "https://stockdividendscreener.com/technology/palantir-revenue-breakdown/"
+        "label": "Futurum: Palantir Q2 FY2026 earnings",
+        "url": "https://futurumgroup.com/insights/palantir-q2-fy-2026-earnings-surge-on-us-commercial-ai-demand/"
       }
-    ]
+    ],
+    "last_refreshed": "2026-10-10"
   },
   "EVO.ST": {
     "ticker": "EVO.ST",
@@ -15766,5 +15782,326 @@
       }
     ],
     "last_refreshed": "2026-10-03"
+  },
+  "XP": {
+    "ticker": "XP",
+    "company": "XP Inc.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "XP Inc. is a Brazilian investment platform and wealth manager listed on NASDAQ. It distributes funds, fixed income, equities and structured products to about 4.77m active clients, with R$1,535bn of client assets at 2Q26. It earns most of its revenue from retail brokerage and advisory take rates. The rest comes from Wholesale: Corporate (capital markets, M&A), Institutional and Issuer Services. It also runs a bank, an insurance arm and asset managers (e.g. XP Asset, Kinea) alongside the platform.",
+    "revenue_mix": [
+      {
+        "segment": "Retail",
+        "share_pct": 76.8,
+        "trend": "growing"
+      },
+      {
+        "segment": "Corporate",
+        "share_pct": 12.0,
+        "trend": "growing"
+      },
+      {
+        "segment": "Institutional",
+        "share_pct": 7.6,
+        "trend": "stable"
+      },
+      {
+        "segment": "Issuer Services",
+        "share_pct": 3.7,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Brazil (substantially all; no geographic split disclosed in the 2Q26 release)",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Brazilian retail and affluent investors",
+      "Brazilian corporates and capital markets issuance",
+      "Institutional investors",
+      "Asset management and distribution of third-party funds"
+    ],
+    "top_competitors": [
+      "Itau (Itau Personnalite and Itau BBA)",
+      "BTG Pactual (incl. BTG Digital)",
+      "Nubank/NuInvest",
+      "Banco do Brasil and Bradesco (BB Investimentos, Bradesco Investimentos)",
+      "Inter&Co"
+    ],
+    "moat": {
+      "type": "Distribution and scale; open-architecture platform",
+      "narrative": "R$1.5tn of client assets and an independent-advisor network give XP product distribution reach that most rivals lack. The open platform also lets it sell third-party funds and credit, which captive bank channels tend not to do. Take rate fell to 1.20% in 2Q26 (down 5 bps YoY), so pricing power is being tested."
+    },
+    "key_customers": [
+      "About 4.77m active retail clients (no single-client concentration)",
+      "Brazilian corporate issuers and institutional investors (names not disclosed)"
+    ],
+    "key_risks": [
+      "Selic and Brazilian rate path: Fixed Income revenue fell 16% YoY on mark-to-market in 2Q26",
+      "Take-rate compression (1.20%, down 5 bps YoY) and fee competition from Itau, BTG, Nubank and Inter",
+      "Active clients grew only 1% YoY vs client assets +12%, so growth relies on wallet share",
+      "Issuer Services revenue down 30% YoY (-31% QoQ) and Corporate lumpiness (+117% YoY) dependent on Brazilian capital-markets windows",
+      "BIS ratio of 20.3% is above the 16-19% target; the capital-return plan depends on regulatory and market conditions"
+    ],
+    "sources": [
+      {
+        "label": "XP Inc. 2Q26 results (Form 6-K, Ex. 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+      },
+      {
+        "label": "XP Inc. Reports Second Quarter 2026 Results",
+        "url": "https://seekingalpha.com/pr/20621477"
+      }
+    ],
+    "last_refreshed": "2026-10-10"
+  },
+  "SMTC": {
+    "ticker": "SMTC",
+    "company": "Semtech Corporation",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "Semtech is a US analog and mixed-signal semiconductor company. Its Signal Integrity business sells optical and copper interconnect chips used in AI and data center links. Analog Mixed Signal and Wireless covers power, protection and LoRa radio products. IoT Systems and Connectivity (Sierra Wireless cellular modules and routers, plus IoT cloud services) is largely under a pending cellular-module divestiture. FY2026 (ended Jan 2026) net sales were $1,050m, with 74% sold through distributors and 47% to China including Hong Kong.",
+    "revenue_mix": [
+      {
+        "segment": "Signal Integrity",
+        "share_pct": 30.7,
+        "trend": "growing"
+      },
+      {
+        "segment": "Analog Mixed Signal and Wireless",
+        "share_pct": 35.6,
+        "trend": "growing"
+      },
+      {
+        "segment": "IoT Systems and Connectivity",
+        "share_pct": 33.7,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "China (incl. Hong Kong)",
+        "share_pct": 47
+      },
+      {
+        "region": "United States",
+        "share_pct": 18
+      },
+      {
+        "region": "Taiwan",
+        "share_pct": 6
+      },
+      {
+        "region": "Other (no other country above 5%; residual)",
+        "share_pct": 29
+      }
+    ],
+    "end_markets": [
+      "Infrastructure (30% of FY26 sales; AI and general-compute data centers, up from 27%)",
+      "High-End Consumer (15%)",
+      "Industrial (55%)"
+    ],
+    "top_competitors": [
+      "Broadcom",
+      "Marvell",
+      "Credo",
+      "MaxLinear",
+      "Texas Instruments",
+      "Analog Devices",
+      "Nordic Semiconductor",
+      "Telit Cinterion",
+      "Quectel"
+    ],
+    "moat": {
+      "type": "Technical IP and design-in switching costs",
+      "narrative": "Semtech's PAM4 and optical interconnect chips and LoRa wireless IP are designed into long-lived platforms, which makes sockets sticky once qualified. Its position in hyperscale data center interconnect is smaller than Broadcom's or Marvell's."
+    },
+    "key_customers": [
+      "Customer B (14% of FY26 sales)",
+      "Customer A (11% of FY26 sales)",
+      "Customers C and D each over 10% of receivables (names not disclosed)",
+      "Independent distributors (74% of sales)"
+    ],
+    "key_risks": [
+      "Customer concentration: two customers above 10% of sales and four above 10% of receivables",
+      "Heavy reliance on AI-related data center demand, which adds cyclicality and competition from Broadcom, Marvell and Credo",
+      "47% of sales to China, exposed to export controls and tariffs",
+      "Pending cellular module divestiture and Sierra Wireless integration; declining ASPs",
+      "Supplier and subcontractor concentration in Asia; HieFo acquisition (March 2026) brings in-house foundry operations"
+    ],
+    "sources": [
+      {
+        "label": "Semtech Form 10-K FY2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000005/smtc-20260125.htm"
+      },
+      {
+        "label": "Semtech segment data (OpenCapital)",
+        "url": "https://www.opencapital.sh/stocks/smtc/metrics/segments?period=ttm"
+      }
+    ],
+    "last_refreshed": "2026-10-10"
+  },
+  "ZS": {
+    "ticker": "ZS",
+    "company": "Zscaler, Inc.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "Zscaler operates the Zero Trust Exchange, a cloud security platform across 200+ data centers. It secures user and workload access to the internet and private apps (Zscaler Internet Access, Private Access), adds data protection and digital experience monitoring, and, after the Red Canary acquisition, SecOps. It sells subscriptions mainly to large enterprises and governments, with Z-Flex bundles. FY26 (July 2026) revenue was $3.35bn (up 25%; 20% excluding Red Canary) and ARR was $3.77bn.",
+    "revenue_mix": [
+      {
+        "segment": "Single reportable segment: Zero Trust Exchange platform subscriptions (ZIA, ZPA, data security, SecOps incl. Red Canary); product-level split not separately disclosed",
+        "share_pct": 100,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx; implied from latest-quarter EMEA/APJ/Other data)",
+        "share_pct": 53
+      },
+      {
+        "region": "EMEA (approx, Q4 FY26)",
+        "share_pct": 27
+      },
+      {
+        "region": "Asia Pacific (approx, Q4 FY26)",
+        "share_pct": 16
+      },
+      {
+        "region": "Other (approx, Q4 FY26)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "Global 2000 enterprises (SASE / zero-trust network replacement of VPN and firewalls)",
+      "Government and regulated industries",
+      "Security for AI and agentic workloads",
+      "Security operations (SecOps/MDR)"
+    ],
+    "top_competitors": [
+      "Palo Alto Networks (Prisma Access)",
+      "Cisco",
+      "Fortinet",
+      "Netskope",
+      "Cloudflare",
+      "Check Point",
+      "CrowdStrike (SecOps/identity)"
+    ],
+    "moat": {
+      "type": "Switching costs and proxy-architecture scale",
+      "narrative": "Large customers route traffic through the Zero Trust Exchange across 200+ data centers, so replacing it means re-architecting network access and policy. Scale in traffic volumes also feeds threat-intelligence data. Hardware-heritage rivals (Palo Alto, Fortinet, Cisco) are bundling competing SASE products."
+    },
+    "key_customers": [
+      "Global 2000 enterprises and governments (individual customers not named in sources reviewed)",
+      "Channel: resellers and system integrators (partner names not confirmed in sources reviewed)"
+    ],
+    "key_risks": [
+      "Platform bundling by Palo Alto Networks and Cisco, plus Netskope in SASE, pressuring pricing and win rates",
+      "Integration of Red Canary: $141m of FY26 ARR is acquired; organic ARR growth was 20%, versus 25% reported",
+      "Z-Flex and non-seat deals bring lumpy consumption and billing risk",
+      "AI providers and hyperscalers may enter the market more easily",
+      "Federal spending timing and large-deal renewals"
+    ],
+    "sources": [
+      {
+        "label": "Zscaler Q4 and FY2026 results (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm"
+      },
+      {
+        "label": "Zscaler Form 10-K FY2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000157/zs-20260731.htm"
+      },
+      {
+        "label": "Zscaler geographic data (OpenCapital)",
+        "url": "https://www.opencapital.sh/stocks/ZS"
+      }
+    ],
+    "last_refreshed": "2026-10-10"
+  },
+  "ENI.MI": {
+    "ticker": "ENI.MI",
+    "company": "Eni S.p.A.",
+    "as_of": "2026-10-10",
+    "last_refreshed_reason": "New concall / stale refresh",
+    "company_overview": "Eni is an Italian integrated energy company. It produced 1.73m boe/d in FY2025, with oil and gas operations in Africa, the Middle East, Norway, Asia and the Americas. Its other businesses are gas and LNG trading and power; Enilive (refining, biofuels and retail mobility); Plenitude (renewables and retail power); and Versalis chemicals. It has brought in partners to fund growth, selling stakes in Plenitude (20% to Ares, EUR2bn) and Enilive (30% to KKR, EUR3.57bn). The FY2025 group proforma adjusted EBIT was EUR12.2bn.",
+    "revenue_mix": [
+      {
+        "segment": "Exploration & Production (share of FY25 proforma adjusted EBIT, EUR11,163m)",
+        "share_pct": 91,
+        "trend": "stable"
+      },
+      {
+        "segment": "Global Gas & LNG Portfolio and Power (EUR1,392m)",
+        "share_pct": 11,
+        "trend": "stable"
+      },
+      {
+        "segment": "Enilive and Plenitude (EUR1,208m)",
+        "share_pct": 10,
+        "trend": "growing"
+      },
+      {
+        "segment": "Refining and Chemicals (EUR -689m)",
+        "share_pct": -6,
+        "trend": "declining"
+      },
+      {
+        "segment": "Corporate/other and eliminations (residual)",
+        "share_pct": -6,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Not separately disclosed in sources reviewed (production spans Italy, Libya, Egypt, Algeria, Norway via Var Energi, Angola, Congo, Cote d'Ivoire, Indonesia, Kazakhstan, US)",
+        "share_pct": null
+      }
+    ],
+    "end_markets": [
+      "Upstream oil and gas",
+      "European gas and LNG supply",
+      "Fuels and biofuels retail",
+      "Retail power and renewables",
+      "Petrochemicals"
+    ],
+    "top_competitors": [
+      "Shell",
+      "TotalEnergies",
+      "BP",
+      "Equinor",
+      "Repsol",
+      "ExxonMobil",
+      "Chevron"
+    ],
+    "moat": {
+      "type": "Resource access and project execution",
+      "narrative": "Eni has legacy positions in North and West Africa, a high exploration success rate and a 162% FY25 reserve replacement ratio. Its satellite model (Var Energi, Azule Energy, Ithaca Energy, the Petronas Indonesia/Malaysia NewCo) brings in third-party capital at attractive valuations."
+    },
+    "key_customers": [
+      "European gas and power buyers",
+      "Retail fuel and power customers via Enilive and Plenitude",
+      "Partners and counterparties: Ares, KKR, Petronas, Var Energi",
+      "Governments and NOCs (Sonatrach, Libya NOC, Angola, Congo, Egypt)"
+    ],
+    "key_risks": [
+      "Brent: FY25 Brent was down 14% YoY and 2026 guidance assumes $62/bbl, so lower prices cut E&P EBIT",
+      "Versalis chemicals lost EUR819m adjusted EBIT in FY25, with EUR905m of Refining and Chemicals impairments",
+      "High adjusted tax rate of about 44% in FY25",
+      "Execution and approvals on project and portfolio milestones: Argentina LNG FID, the Petronas NewCo, Baleine stake sale to SOCAR, Acea Energia antitrust",
+      "North and West African political and fiscal risk (Libya, Nigeria, Mozambique)"
+    ],
+    "sources": [
+      {
+        "label": "Eni FY2025 and 4Q results press release",
+        "url": "https://www.eni.com/content/dam/enicom/documents/press-release/migrated/2026-en/02/PR-2025-fourth-quarter-results.pdf"
+      },
+      {
+        "label": "Eni investor reports and accounts",
+        "url": "https://www.eni.com/it-IT/investitori/report-bilanci.html"
+      }
+    ],
+    "last_refreshed": "2026-10-10"
   }
 }
