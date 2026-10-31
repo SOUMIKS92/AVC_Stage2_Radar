@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-10-10",
+    "as_of": "2026-10-31",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -16103,5 +16103,1149 @@
       }
     ],
     "last_refreshed": "2026-10-10"
+  },
+  "RVTY": {
+    "ticker": "RVTY",
+    "company": "Revvity Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Revvity makes instruments, reagents, assays and software for life-science research and for clinical diagnostics. Life Sciences sells to pharma, biotech and academic labs (informatics, imaging, detection and bioanalytical reagents). Diagnostics runs newborn and reproductive-health screening, immunodiagnostics and genetic-testing kits and services, mostly sold as recurring consumables to hospitals and reference labs. Revenue is roughly half each, with razor-and-blade consumable pull-through on a large installed base.",
+    "revenue_mix": [
+      {
+        "segment": "Diagnostics (approx; reproductive health, newborn screening, immunodiagnostics)",
+        "share_pct": 51,
+        "trend": "growing"
+      },
+      {
+        "segment": "Life Sciences (approx; reagents, instruments, software)",
+        "share_pct": 49,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 43
+      },
+      {
+        "region": "Europe/EMEA (approx)",
+        "share_pct": 28
+      },
+      {
+        "region": "Asia Pacific incl. China (approx)",
+        "share_pct": 29
+      }
+    ],
+    "end_markets": [
+      "Pharma and biotech R&D",
+      "Academic and government research",
+      "Newborn and prenatal screening",
+      "Clinical and reference laboratories",
+      "Infectious disease and immunodiagnostics"
+    ],
+    "top_competitors": [
+      "Thermo Fisher Scientific",
+      "Danaher (Beckman, Cytiva, Leica, Cepheid)",
+      "Agilent",
+      "Bio-Rad",
+      "Bruker",
+      "Hologic and Qiagen in selected diagnostics"
+    ],
+    "moat": {
+      "type": "Installed base + regulated assay franchises",
+      "narrative": "Screening assays (e.g. newborn screening and reproductive health) are FDA/CE-cleared, embedded in lab workflows and sold with instrument placements that pull through consumables, so switching needs revalidation. Signals software and the detection/imaging reagents tie into drug-discovery workflows. The moat is weaker in Life Sciences where tools are more commoditised and budget-sensitive."
+    },
+    "key_customers": [
+      "Large pharma and biotech",
+      "Public health newborn-screening programs and reference laboratories (e.g. in China and Europe)",
+      "Academic institutions funded by NIH and equivalents"
+    ],
+    "key_risks": [
+      "Life Sciences revenue fell ~2% in Q2 2026 with software down ~$10M; academic and government funding (NIH) and biopharma capex remain soft",
+      "Divestiture of China Immunodiagnostics (~6% of FY25 revenue) removes revenue and could dilute near-term growth",
+      "Restructuring (~5% headcount cut, $46M charge in H1 2026) must deliver margin gains; goodwill is ~$6.6B or ~55% of assets, impairment risk if Life Sciences does not recover",
+      "Tariff and China volume-based procurement exposure; Q2 gross margin of 57.1% included a one-time $16M tariff refund"
+    ],
+    "sources": [
+      {
+        "label": "Q2 2026 earnings coverage (MarketBeat)",
+        "url": "https://www.marketbeat.com/instant-alerts/revvity-nyservty-issues-quarterly-earnings-results-beats-expectations-by-020-eps-2026-08-04/"
+      },
+      {
+        "label": "Q2 2026 results summary (Panabee)",
+        "url": "https://www.panabee.com/news/revvity-earnings-q3-2026-report"
+      },
+      {
+        "label": "Revvity Q2 2026 earnings summary (Quartr)",
+        "url": "https://quartr.com/events/revvity-inc-rvty-q2-2026_3YVeIkPs"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "PTC": {
+    "ticker": "PTC",
+    "company": "PTC Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "PTC sells engineering software that designs and manages physical products across their life: Creo and Onshape (CAD), Windchill (product lifecycle management, PLM), plus application and service lifecycle tools (Codebeamer, ServiceMax). Customers are discrete manufacturers in aerospace, auto, medtech and industrial machinery. Revenue is subscription-based, measured by annual recurring revenue (ARR) of about $2.4B, with Kepware and ThingWorx divested in March 2026 to focus on CAD and PLM.",
+    "revenue_mix": [
+      {
+        "segment": "PLM (Windchill, Codebeamer, ServiceMax; approx ARR share)",
+        "share_pct": 61,
+        "trend": "growing"
+      },
+      {
+        "segment": "CAD (Creo, Onshape; approx ARR share)",
+        "share_pct": 39,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 47
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 32
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 21
+      }
+    ],
+    "end_markets": [
+      "Aerospace and defense",
+      "Automotive",
+      "Industrial machinery",
+      "Medical devices",
+      "Electronics and high tech"
+    ],
+    "top_competitors": [
+      "Siemens Digital Industries Software (Teamcenter, NX)",
+      "Dassault Systemes (SolidWorks, CATIA, ENOVIA)",
+      "Autodesk (Fusion, Inventor)",
+      "Synopsys/Ansys (simulation adjacent)",
+      "Aras (PLM)"
+    ],
+    "moat": {
+      "type": "Switching costs + data lock-in",
+      "narrative": "Windchill holds a manufacturer's bills of materials, change history and regulated product records, and CAD files (Creo) sit upstream of it, so replacement means multi-year data migration and re-training. Long-term subscription contracts with high renewal rates give visibility; the weak spot is that Siemens and Dassault bundle competing suites and win large digital-thread deals."
+    },
+    "key_customers": [
+      "Large aerospace and defense primes",
+      "Automakers and tier-1 suppliers",
+      "Industrial OEMs",
+      "Channel partners resell a large share of CAD seats"
+    ],
+    "key_risks": [
+      "Fiscal-year contract timing: Q3 FY26 revenue fell 7% to $600M (ASC 606 upfront license timing and divestiture), so reported numbers swing quarter to quarter",
+      "Aggressive buybacks (~$1.625B planned in FY26; ~$525M in Q3) shrink cash while debt remains ~$1B+",
+      "Manufacturing capex cyclicality in auto and industrial; FX moves (reported ARR +7% vs +9.1% constant currency in Q3)",
+      "Competition from Siemens and Dassault suites and from cloud-native Onshape-type challengers; AI-native design tools could reset pricing"
+    ],
+    "sources": [
+      {
+        "label": "PTC Q2 FY26 earnings release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000857005/000119312526208904/ptc-ex99_1.htm"
+      },
+      {
+        "label": "PTC Q3 FY26 results (Finviz)",
+        "url": "https://finviz.com/news/374352/ptc-announces-third-fiscal-quarter-2026-results"
+      },
+      {
+        "label": "PTC FY26 10-Q (June 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000857005/000119312526328444/ptc-20260630.htm"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "ACN": {
+    "ticker": "ACN",
+    "company": "Accenture plc",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Accenture sells technology and business consulting plus long-term managed services (application, infrastructure, operations and cloud/AI outsourcing) to large enterprises and governments. Consulting is project-based; Managed Services are multi-year contracts. FY26 (to Aug 2026) revenue was $74.2B with about 50/50 consulting and managed services, and about 49% of revenue from the Americas.",
+    "revenue_mix": [
+      {
+        "segment": "Consulting",
+        "share_pct": 50,
+        "trend": "stable"
+      },
+      {
+        "segment": "Managed Services",
+        "share_pct": 50,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas",
+        "share_pct": 49
+      },
+      {
+        "region": "EMEA",
+        "share_pct": 36
+      },
+      {
+        "region": "Asia Pacific",
+        "share_pct": 14
+      }
+    ],
+    "end_markets": [
+      "Financial services",
+      "Communications, media and technology",
+      "Health and public service",
+      "Products (retail, consumer, industrial)",
+      "Resources (energy, utilities)"
+    ],
+    "top_competitors": [
+      "Deloitte, PwC, EY and KPMG",
+      "IBM Consulting",
+      "Capgemini",
+      "Infosys, TCS, Wipro, Cognizant",
+      "Hyperscaler and AI-native services firms"
+    ],
+    "moat": {
+      "type": "Scale, client intimacy and delivery talent pool",
+      "narrative": "Accenture embeds in the top 2,000 clients through multi-year managed-service contracts and has alliances with all hyperscalers and Nvidia, OpenAI-type model vendors; 141 client bookings of $100M or more were booked in Q4 FY26, a record. Its edge is the ability to staff and integrate large transformations globally, but generative AI could compress billable hours, so the moat is execution rather than IP."
+    },
+    "key_customers": [
+      "Large multinational corporations (no customer above ~2% of revenue)",
+      "US federal government via Accenture Federal Services",
+      "Hyperscaler alliance partners (Microsoft, AWS, Google Cloud)"
+    ],
+    "key_risks": [
+      "AI-driven deflation of consulting hours and pricing; Consulting grew only 3% in local currency in FY26",
+      "FY27 growth guide of 3-6% in local currency is modest; Health and Public Service grew just 2% in FY26 on US federal cost-cutting",
+      "Free cash flow fell to $2.85B in Q4 from $3.81B a year earlier",
+      "Wage inflation and utilisation pressure from onshore talent and competing offshore players such as Infosys and TCS"
+    ],
+    "sources": [
+      {
+        "label": "Accenture Q4 and FY26 results (8-K exhibit)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000037/q4fy26earnings8-kexhibit.htm"
+      },
+      {
+        "label": "Accenture Q4 FY26 results release",
+        "url": "https://newsroom.accenture.com/content/4q-full-fy26-earnings/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results.pdf"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "BPT.L": {
+    "ticker": "BPT.L",
+    "company": "Bridgepoint Group plc",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Bridgepoint is a UK-listed alternative asset manager with about EUR85.1bn of assets under management at 30 June 2026 across private equity, infrastructure, credit and secondaries. It earns recurring management fees on fee-paying assets (EUR51.1bn) plus performance fees (carry) when funds exit investments. A deal to buy Kayne Anderson Real Estate (about $1.4bn upfront) is expected to close around year-end 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Private equity (H1 2026 management fees, approx share)",
+        "share_pct": 45,
+        "trend": "declining"
+      },
+      {
+        "segment": "Infrastructure (ECP)",
+        "share_pct": 39,
+        "trend": "growing"
+      },
+      {
+        "segment": "Credit",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Secondaries",
+        "share_pct": 1,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Not disclosed; Europe-led with US-led infrastructure (ECP) and about 50/50 Europe/US after the real estate acquisition",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Mid-market European buyouts",
+      "US/European infrastructure and energy transition (ECP)",
+      "Direct lending credit",
+      "Growth equity",
+      "Secondaries"
+    ],
+    "top_competitors": [
+      "EQT",
+      "CVC Capital Partners",
+      "Partners Group",
+      "Ardian",
+      "Blackstone and KKR in infrastructure/credit"
+    ],
+    "moat": {
+      "type": "Mid-market franchise + long-duration locked-in capital",
+      "narrative": "Funds have 10-12 year lives, so fee revenue is contractual and visible; ECP's energy infrastructure fund (ECP VI at $7.0bn, hard cap raised to $7.8bn) and BDL IV (EUR5.1bn) show LP demand. Strength is its mid-market buyout track record in Europe; it is a smaller player than EQT or CVC and relies on a few flagship fund raises."
+    },
+    "key_customers": [
+      "Pension funds, sovereign wealth funds and insurers as fund LPs",
+      "Family offices and wealth channels"
+    ],
+    "key_risks": [
+      "Fundraising cadence: EUR26bn raised toward the EUR28bn 2024-26 target, so the remaining EUR2bn plus BE VIII's final close in Q1 2027 must land",
+      "Performance fees lumpy: about two-thirds of 2026 PRE fell in H1 (GBP120.7m), so H2 earnings will be lower",
+      "Reported profit before tax fell 29% to GBP42.9m on acquisition costs and amortisation; H1 operating cash outflow of GBP45.2m",
+      "Kayne Anderson Real Estate execution and leverage (net debt peaks near 2.0x EBITDA); private markets exit environment and interest-rate sensitivity"
+    ],
+    "sources": [
+      {
+        "label": "Bridgepoint interim results 2026 announcement",
+        "url": "https://www.bridgepointgroup.com/content/dam/bridgepoint/corporate2022/documents/financial-information/results_reports_presentations/2026/bridgepoint-group-interim-results-2026-announcement.pdf.downloadasset.pdf"
+      },
+      {
+        "label": "Bridgepoint H1 2026 analysis",
+        "url": "https://joshthompson.co.uk/investing/bridgepoint-half-year-results-2026-fundraising-profit-growth/"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "TEM": {
+    "ticker": "TEM",
+    "company": "Tempus AI, Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Tempus runs clinical genomic testing (mainly oncology and hereditary tests) and sells de-identified clinical-genomic data and AI applications to pharma. Diagnostics produced $289.3M of Q2 2026 revenue (76%); Data and Applications $93.2M (24%). Its data library, built from its own testing and health-system partners, is licensed to drug developers and used in AI-based trial matching and models.",
+    "revenue_mix": [
+      {
+        "segment": "Diagnostics (genomic testing)",
+        "share_pct": 76,
+        "trend": "growing"
+      },
+      {
+        "segment": "Data and Applications (data licensing, Insights)",
+        "share_pct": 24,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 92
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Oncology testing and precision medicine",
+      "Hereditary testing",
+      "Biopharma R&D and trial recruitment",
+      "Minimal residual disease (MRD)"
+    ],
+    "top_competitors": [
+      "Guardant Health",
+      "Natera",
+      "Foundation Medicine (Roche)",
+      "Caris Life Sciences",
+      "Exact Sciences",
+      "Illumina/Tempus data peers such as Flatiron (Roche)"
+    ],
+    "moat": {
+      "type": "Proprietary clinical-genomic data scale + FDA-cleared assays",
+      "narrative": "Tempus links sequencing results to structured clinical records across thousands of providers, producing a licensable multimodal dataset (about $200M of new data licenses in Q2 2026) that pharma use for target discovery and trial design. The xT CDx assay's FDA approval, including a tumor-only 648-gene claim, supports higher reimbursement. Not yet a hard moat: competitors have comparable testing scale and AI claims are unproven at the margin."
+    },
+    "key_customers": [
+      "AstraZeneca and GSK (large multi-year data deals)",
+      "Academic medical centers and community oncology practices",
+      "Medicare and commercial payers as payors of record"
+    ],
+    "key_risks": [
+      "Reimbursement dependence: Medicare ADLT and commercial payer pricing; any change to coverage reduces ASP",
+      "Profitability is thin: Q2 2026 adjusted EBITDA of $8.0M on $382.5M revenue; GAAP profit included $98.5M of unrealised securities gains and $55.6M stock compensation",
+      "Integration risk on the pending ~$1.5B Personalis acquisition (close late Q4 2026 or early 2027) and convertible/dilution overhang",
+      "Competition from Natera, Guardant and Caris in oncology; hereditary revenue growing only 5%"
+    ],
+    "sources": [
+      {
+        "label": "Tempus Q2 2026 results (8-K exhibit)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326083/tem-ex99_1.htm"
+      },
+      {
+        "label": "Tempus Reports Second Quarter 2026 Results",
+        "url": "https://www.tempus.com/news/pr/tempus-reports-second-quarter-2026-results/"
+      },
+      {
+        "label": "Tempus to acquire Personalis (PharmaShots)",
+        "url": "https://pharmashots.com/?p=34738"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "SOON.SW": {
+    "ticker": "SOON.SW",
+    "company": "Sonova Holding AG",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Sonova (Phonak, Unitron, Advanced Bionics) designs hearing aids and cochlear implants, sold wholesale to audiologists and retailers and through its own retail clinics (AudioNova). FY2025/26 (to March 2026) sales were CHF3.6bn, with Hearing Instruments (wholesale and retail) around 93% and Cochlear Implants around 7%; the consumer hearing unit (Sennheiser consumer) is being divested.",
+    "revenue_mix": [
+      {
+        "segment": "Hearing Instruments - Wholesale",
+        "share_pct": 52,
+        "trend": "growing"
+      },
+      {
+        "segment": "Hearing Instruments - Retail (AudioNova etc.)",
+        "share_pct": 41,
+        "trend": "growing"
+      },
+      {
+        "segment": "Cochlear Implants (Advanced Bionics)",
+        "share_pct": 7,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 40
+      },
+      {
+        "region": "USA (approx)",
+        "share_pct": 35
+      },
+      {
+        "region": "Rest of Americas (approx)",
+        "share_pct": 8
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 17
+      }
+    ],
+    "end_markets": [
+      "Adult hearing loss (prescription hearing aids)",
+      "Pediatric hearing",
+      "Cochlear implants",
+      "Over-the-counter hearing aids (emerging)"
+    ],
+    "top_competitors": [
+      "Demant (Oticon)",
+      "GN Store Nord (ReSound)",
+      "WS Audiology (Signia, Widex)",
+      "Starkey",
+      "Cochlear Ltd and MED-EL (implants)",
+      "Apple AirPods Pro hearing aid feature and OTC entrants"
+    ],
+    "moat": {
+      "type": "Audiologist distribution + R&D scale",
+      "narrative": "Five firms control about 90% of hearing-aid volume; Phonak's chip and AI platform (Infinio/Sphere-type launches), an installed base of fitted patients who return to the same audiologist for service, and a retail network owned by Sonova that anchors channel access. The channel is the real moat; the OTC and consumer-electronics threat is aimed at mild-loss patients, not the core fitted market."
+    },
+    "key_customers": [
+      "Independent audiologists and hearing-care chains",
+      "US Veterans Affairs and national health systems (tenders)",
+      "Own retail clinics (AudioNova)"
+    ],
+    "key_risks": [
+      "Market growth of only 2-4% versus Sonova guide of 5-8% sales growth in FY26/27 depends on new product launches landing",
+      "Strong CHF: at May 2026 rates FX cuts reported sales growth by 1-2 points and core EBIT growth by 3-4 points",
+      "Cochlear implants -11.1% in local currency on China volume-based procurement",
+      "Competition from Demant, GN and WS Audiology, price tendering in government channels, and OTC/Apple disruption"
+    ],
+    "sources": [
+      {
+        "label": "Sonova FY2025/26 results (Deutsche Boerse)",
+        "url": "https://live.deutsche-boerse.com/news/Sonova-delivers-strong-FY-2025-26-results-with-continuedmarket-outperformance-and-increased-profitability-26160c9f-1c81-4b65-b250-ca5b158462f5"
+      },
+      {
+        "label": "Sonova current outlook",
+        "url": "https://www.sonova.com/current-outlook/"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "OPCH": {
+    "ticker": "OPCH",
+    "company": "Option Care Health, Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Option Care Health is the largest independent US provider of home and alternate-site infusion services: specialty pharmacies and nurses deliver infused drugs (anti-infectives, biologics such as infliximab, immunoglobulin, parenteral nutrition, hemophilia and rare disease therapies) to patients outside the hospital. It gets paid per prescription by commercial payers, Medicare and Medicaid. Q2 2026 net revenue was $1,442.4M (+1.9%).",
+    "revenue_mix": [
+      {
+        "segment": "Home and alternate-site infusion services (single segment; chronic, acute, specialty therapies)",
+        "share_pct": 100,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Chronic infusion (immunoglobulin, biologics, nutrition)",
+      "Acute infusion (anti-infectives)",
+      "Rare disease and specialty therapies",
+      "Payer-driven shift from hospital to home care"
+    ],
+    "top_competitors": [
+      "CVS Health (Coram)",
+      "Amerita (Walgreens-backed)",
+      "BioScrip legacy competitors, hospital-owned infusion",
+      "Optum Infusion Pharmacy (UnitedHealth)",
+      "Local independent infusion pharmacies"
+    ],
+    "moat": {
+      "type": "National footprint + payer contract scale",
+      "narrative": "About 100 pharmacies and nurse networks, in-network contracts with most large payers, and 24/7 clinical capabilities allow it to serve complex drugs at lower total cost than hospital outpatient; payer steering to home infusion adds volume. The moat is thinner than a pure franchise because vertically integrated payers (CVS, UnitedHealth) can steer volume to their own pharmacies."
+    },
+    "key_customers": [
+      "Commercial payers (Anthem/Elevance, UnitedHealthcare, Cigna, Aetna)",
+      "Medicare and Medicaid",
+      "Referring physicians and health systems"
+    ],
+    "key_risks": [
+      "Gross margin pressure: Q2 2026 gross margin 18.5% versus 19.0%, and gross profit fell 0.7%, from biosimilar shifts and payer mix",
+      "Payer concentration and vertical integration risks (CVS Coram, Optum steering volume in-house)",
+      "Revenue growth only 1.9% in Q2 2026; FY26 guide of $5.675-5.775B depends on specialty and rare-disease starts",
+      "Drug-pricing and reimbursement policy (Medicare coverage for home infusion, Medicaid cuts)"
+    ],
+    "sources": [
+      {
+        "label": "Option Care Health Q2 2026 release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001014739/000101473926000021/exhibit991-q22026.htm"
+      },
+      {
+        "label": "Option Care Health Q2 2026 results (Barchart)",
+        "url": "https://www.barchart.com/story/news/3521859/option-care-health-announces-financial-results-for-the-second-quarter-ended-june-30-2026"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "DOCU": {
+    "ticker": "DOCU",
+    "company": "DocuSign, Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "DocuSign sells electronic signature and Intelligent Agreement Management (IAM), a cloud platform that creates, signs, extracts data from and manages contracts, increasingly with AI agents. Sold by subscription to enterprises and small businesses, partly via self-serve. Q2 FY27 revenue was $875.8M (+9.4%), with IAM now 15.1% of ARR.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription (eSignature and IAM; approx)",
+        "share_pct": 97,
+        "trend": "stable"
+      },
+      {
+        "segment": "Professional services and other (approx)",
+        "share_pct": 3,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 78
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 22
+      }
+    ],
+    "end_markets": [
+      "Sales, procurement and legal contracting",
+      "Financial services and insurance",
+      "Real estate",
+      "Human resources onboarding",
+      "Public sector and healthcare"
+    ],
+    "top_competitors": [
+      "Adobe Acrobat Sign",
+      "Dropbox Sign",
+      "Salesforce, Microsoft and Google bundled workflow tools",
+      "Icertis, Ironclad, Agiloft (contract lifecycle)",
+      "AI-native agreement tools"
+    ],
+    "moat": {
+      "type": "Brand/legal trust + integration depth",
+      "narrative": "DocuSign's envelope is the default legally accepted e-signature across 1M+ customers with audit trails, compliance certifications and 900+ integrations (Salesforce, SAP, Workday), which makes it hard to rip out of regulated workflows. IAM adds data on every agreement, but eSignature itself is commoditising and AI agents could be built by horizontal platform vendors."
+    },
+    "key_customers": [
+      "Enterprises across Fortune 500 (no single customer concentration)",
+      "Salesforce (partnership, launched native IAM in Salesforce in October 2026)",
+      "Resellers and channel partners"
+    ],
+    "key_risks": [
+      "eSignature commoditisation: ARR growth only 8.5-9% for FY27 even after IAM launch",
+      "Bundling by Microsoft, Adobe, Google and Salesforce could undercut pricing",
+      "Billings/seat volatility and SMB self-serve churn; stock fell 18% in an earlier billings-outlook cut",
+      "IAM transition requires sustained R&D and AI cost; IAM must reach 18-19% of ARR by year-end"
+    ],
+    "sources": [
+      {
+        "label": "DocuSign Q2 FY27 results (RTTNews)",
+        "url": "https://www.rttnews.com/3688484/docusign-q2-profit-rises-sees-higher-q3-revenues-lifts-fy27-revenue-guidance-shares-up.aspx"
+      },
+      {
+        "label": "DocuSign Q2 FY27 summary (Autobound)",
+        "url": "https://www.autobound.ai/companies/docusign/news/docusign-stock-reports-a-q2-beat-and-raises-fiscal-2027-72c215f6"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "GRG.L": {
+    "ticker": "GRG.L",
+    "company": "Greggs plc",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Greggs is a UK food-on-the-go retailer that bakes its own sausage rolls, bakes, sandwiches and coffee in vertically integrated manufacturing sites and sells them through roughly 2,700 shops, most company-managed and the rest franchised (airports, motorway services, Moto, Travelodge). It earns money on shop sales at low price points, with a growing evening, delivery and Bake at Home (Iceland, Tesco) channel. Its own bakeries and logistics give cost control but make profit sensitive to wage and ingredient inflation.",
+    "revenue_mix": [
+      {
+        "segment": "Company-managed shops (approx)",
+        "share_pct": 80,
+        "trend": "stable"
+      },
+      {
+        "segment": "Franchise and wholesale (approx)",
+        "share_pct": 15,
+        "trend": "growing"
+      },
+      {
+        "segment": "Delivery, online and other (approx)",
+        "share_pct": 5,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United Kingdom",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "UK breakfast and lunchtime food-to-go",
+      "Value-conscious high-street and retail park footfall",
+      "Evening and delivery occasions",
+      "Travel and franchise locations"
+    ],
+    "top_competitors": [
+      "Pret A Manger",
+      "Tesco and Sainsbury's meal deals",
+      "Subway",
+      "Costa and Starbucks",
+      "Gail's"
+    ],
+    "moat": {
+      "type": "Vertical integration + price leadership",
+      "narrative": "Greggs bakes centrally in its own sites and distributes to about 2,700 shops, which lets it hold sub-GBP 3 price points on sausage rolls and bakes that grocers and cafe chains struggle to match at similar quality. Its brand and shop density in lower-income high streets are hard to replicate, but the supply chain is capital-heavy (Derby frozen site 2026, Kettering centre 2027)."
+    },
+    "key_customers": [
+      "Mass-market UK consumers (no customer concentration)",
+      "Franchise partners (Moto, Travelodge, airports)",
+      "Iceland and Tesco (Bake at Home)"
+    ],
+    "key_risks": [
+      "UK wage and employer National Insurance inflation against a low-price proposition",
+      "Consumer footfall weakness; H1 2026 like-for-like was only +2.1%",
+      "Execution and cost of closing four manufacturing sites (about 740 roles, about GBP 60m cash cost) while Derby and Kettering add 2027 costs",
+      "Competition from supermarket meal deals and Pret"
+    ],
+    "sources": [
+      {
+        "label": "Greggs Q3 trading update, 30 Sep 2026 (coverage)",
+        "url": "https://www.asktraders.com/?p=255203"
+      },
+      {
+        "label": "Greggs Q3 2026 TU summary",
+        "url": "https://quartr.com/events/greggs-plc-grg-q3-2026-tu_oj0vZxuv"
+      },
+      {
+        "label": "Wikipedia Greggs",
+        "url": "https://en.wikipedia.org/wiki/Greggs"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "WKL.AS": {
+    "ticker": "WKL.AS",
+    "company": "Wolters Kluwer N.V.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Wolters Kluwer sells expert software and information to professionals in healthcare, tax and accounting, legal, finance and compliance. About 90 percent of revenue is recurring subscription or software, led by UpToDate clinical decision support, CCH Axcess tax software, and legal and compliance research. It earns money by embedding workflow software and trusted content in customers' daily work and adding AI features on top.",
+    "revenue_mix": [
+      {
+        "segment": "Health (approx)",
+        "share_pct": 25,
+        "trend": "growing"
+      },
+      {
+        "segment": "Tax & Accounting (approx)",
+        "share_pct": 21,
+        "trend": "growing"
+      },
+      {
+        "segment": "Financial & Corporate Compliance (approx)",
+        "share_pct": 21,
+        "trend": "stable"
+      },
+      {
+        "segment": "Legal & Regulatory (approx)",
+        "share_pct": 21,
+        "trend": "stable"
+      },
+      {
+        "segment": "Corporate Performance & ESG (approx)",
+        "share_pct": 12,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America",
+        "share_pct": 64
+      },
+      {
+        "region": "Europe",
+        "share_pct": 29
+      },
+      {
+        "region": "Asia Pacific and Rest of World",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Hospitals and clinicians",
+      "Accounting and tax firms",
+      "Law firms and regulators",
+      "Banks, lenders and corporate finance teams"
+    ],
+    "top_competitors": [
+      "Thomson Reuters",
+      "RELX (LexisNexis, Elsevier)",
+      "Intuit and Avalara",
+      "Epic and Elsevier ClinicalKey",
+      "Harvey and AI-native legal tools"
+    ],
+    "moat": {
+      "type": "Workflow lock-in + proprietary content",
+      "narrative": "UpToDate is embedded in hospital clinical workflows and Epic, with over 90 percent of US Enterprise Edition Health customers adopting UpToDate Expert AI, and CCH Axcess holds tax firms' client data and filings. Switching costs are high and the editorial content is proprietary, so general AI models face a data and trust gap, although AI-native tools are a live threat in legal research."
+    },
+    "key_customers": [
+      "Hospitals and health systems (UpToDate Enterprise)",
+      "Accounting and tax firms (CCH Axcess)",
+      "Law firms and corporate legal departments",
+      "Financial institutions (compliance and lending)"
+    ],
+    "key_risks": [
+      "AI disruption of information-led products (Libra, legal research) by AI-native entrants",
+      "Currency: H1 2026 reported revenue fell 1 percent while organic rose 5 percent (USD weakness)",
+      "Product development spend of 12-13 percent of revenue weighted to 2H",
+      "UpToDate competition from OpenEvidence and Doximity Ask"
+    ],
+    "sources": [
+      {
+        "label": "Wolters Kluwer 2026 Half-Year Report",
+        "url": "https://www.taiwannews.com.tw/en/news/6415196"
+      },
+      {
+        "label": "Wolters Kluwer Q1 2026 trading update",
+        "url": "https://www.streetinsider.com/Press+Releases/Wolters+Kluwer+First-Quarter+2026+Trading+Update/26437400.html"
+      },
+      {
+        "label": "Wikipedia Wolters Kluwer",
+        "url": "https://en.wikipedia.org/wiki/Wolters_Kluwer"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "ERF.PA": {
+    "ticker": "ERF.PA",
+    "company": "Eurofins Scientific SE",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Eurofins is the world's largest bioanalytical testing group, running over 900 laboratories that test food, environment, pharmaceuticals, consumer products and clinical samples for companies, regulators and health systems. It earns fees per test, often under recurring regulatory or quality-control mandates. Growth comes from market growth, new laboratories and bolt-on acquisitions, financed by a leveraged balance sheet.",
+    "revenue_mix": [
+      {
+        "segment": "Life (food, environment, agro; approx)",
+        "share_pct": 42,
+        "trend": "stable"
+      },
+      {
+        "segment": "BioPharma Services",
+        "share_pct": 28,
+        "trend": "stable"
+      },
+      {
+        "segment": "Diagnostics (clinical and genomics)",
+        "share_pct": 20,
+        "trend": "stable"
+      },
+      {
+        "segment": "Consumer and technology product testing",
+        "share_pct": 10,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Europe",
+        "share_pct": 52
+      },
+      {
+        "region": "North America",
+        "share_pct": 36
+      },
+      {
+        "region": "Rest of world",
+        "share_pct": 11
+      }
+    ],
+    "end_markets": [
+      "Food and feed safety",
+      "Environmental testing",
+      "Pharma and biotech development and QC",
+      "Clinical diagnostics (France, US)",
+      "Consumer product and technology testing"
+    ],
+    "top_competitors": [
+      "SGS",
+      "Bureau Veritas",
+      "Intertek",
+      "Labcorp and Quest (clinical)",
+      "Charles River and IQVIA (biopharma)"
+    ],
+    "moat": {
+      "type": "Scale + regulatory accreditation + local density",
+      "narrative": "A network of over 900 accredited labs lets Eurofins serve multinational food and pharma clients with local turnaround and regulator-accepted methods in each country, which smaller labs cannot match. The moat is moderate: testing is partly commoditised and margin gains depend on utilisation and automation."
+    },
+    "key_customers": [
+      "Food and beverage manufacturers and retailers",
+      "Pharma and biotech sponsors",
+      "Public health and environmental authorities",
+      "French and US clinical channels"
+    ],
+    "key_risks": [
+      "2026 organic growth now below the single-digit target (9M 2026 organic +3.0 percent)",
+      "BioPharma Services weak (9M organic +0.9 percent) and some clinical programs not restarting in 2026",
+      "Diagnostics reported revenue down 1.6 percent in Q3",
+      "High leverage and capital intensity with ongoing acquisitions (22 deals, over EUR 210m revenue)",
+      "FX drag of 1.7 points on 9M growth"
+    ],
+    "sources": [
+      {
+        "label": "Eurofins Q3 and 9M 2026 (coverage, 21 Oct 2026)",
+        "url": "https://www.ideal-investisseur.fr/en/stock-news/eurofins-accelerating-growth-in-the-third-quarter-but-2026-organic-target-out-of-reach/27618.html"
+      },
+      {
+        "label": "Eurofins guidance cut (OptionFinance)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-21-eurofins-scientific-ajuste-a-la-baisse-un-objectif-financier-annuel.html"
+      },
+      {
+        "label": "Wikipedia Eurofins Scientific",
+        "url": "https://en.wikipedia.org/wiki/Eurofins_Scientific"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "QIA.DE": {
+    "ticker": "QIA.DE",
+    "company": "Qiagen N.V.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Qiagen sells the sample preparation kits and molecular diagnostic tests that extract and analyse DNA and RNA for clinical labs, pharma and academic researchers. Revenue is mostly recurring consumables on installed instruments such as QIAstat-Dx, QIAcuity digital PCR and QuantiFERON TB testing. In October 2026 it agreed to a EUR 46.50 per share cash takeover offer from EQT.",
+    "revenue_mix": [
+      {
+        "segment": "Diagnostic solutions incl. QuantiFERON, QIAstat-Dx (approx)",
+        "share_pct": 50,
+        "trend": "growing"
+      },
+      {
+        "segment": "Sample technologies (approx)",
+        "share_pct": 38,
+        "trend": "stable"
+      },
+      {
+        "segment": "PCR, NGS and genomics (approx)",
+        "share_pct": 12,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 40
+      },
+      {
+        "region": "Europe, Middle East and Africa (approx)",
+        "share_pct": 35
+      },
+      {
+        "region": "Asia Pacific and Rest of world (approx)",
+        "share_pct": 25
+      }
+    ],
+    "end_markets": [
+      "Molecular diagnostics (latent TB, syndromic testing)",
+      "Pharma and biotech research",
+      "Academic and applied testing",
+      "Clinical oncology and genomics"
+    ],
+    "top_competitors": [
+      "Thermo Fisher",
+      "Roche Diagnostics",
+      "Becton Dickinson",
+      "bioMerieux",
+      "Bio-Rad"
+    ],
+    "moat": {
+      "type": "Installed base + consumable lock-in",
+      "narrative": "Qiagen's sample-prep chemistry is the validated first step in thousands of lab workflows, and QuantiFERON holds a leading position in latent TB blood testing. Instruments such as QIAstat-Dx and QIAcuity pull through proprietary cartridges and reagents. Moat is solid in sample prep but contested in syndromic and digital PCR by larger rivals."
+    },
+    "key_customers": [
+      "Hospital and reference laboratories",
+      "Pharma and biotech companies",
+      "Academic and government research institutes",
+      "Public-health programmes (TB testing)"
+    ],
+    "key_risks": [
+      "Takeover pending: EQT offer needs 50 percent plus one share acceptance and approvals, closing expected mid-2027",
+      "Full-year 2026 outlook suspended during the transaction",
+      "Flat sales (Q2 2026 net sales about USD 535m, roughly +0.3 percent) and weak academic and China demand",
+      "Competition from Roche, Thermo Fisher and bioMerieux in syndromic testing"
+    ],
+    "sources": [
+      {
+        "label": "QIAGEN preliminary Q3 2026 results",
+        "url": "https://investingnews.com/qiagen-reports-preliminary-q3-2026-results/"
+      },
+      {
+        "label": "Qiagen EQT offer coverage",
+        "url": "https://trading-treff.de/trading/qiagen-aktie-mindestannahmequote-entscheidet-ueber-eqt-offerte"
+      },
+      {
+        "label": "Qiagen Q2 2026 summary",
+        "url": "https://www.marketbeat.com/instant-alerts/qiagen-nyseqgen-updates-q3-2026-earnings-guidance-2026-08-06/"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "DOCS": {
+    "ticker": "DOCS",
+    "company": "Doximity Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Doximity runs the largest professional network for US physicians, nurse practitioners and PAs, offering free tools (telehealth, e-fax, news, AI clinical assistant Doximity Ask, scribe) that keep clinicians engaged. It earns money mainly from pharmaceutical manufacturers and health systems that pay subscriptions for marketing, hiring and talent solutions to reach those clinicians.",
+    "revenue_mix": [
+      {
+        "segment": "Pharma marketing solutions (approx)",
+        "share_pct": 85,
+        "trend": "stable"
+      },
+      {
+        "segment": "Health system and hiring solutions (approx)",
+        "share_pct": 15,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "Pharmaceutical brand marketing to US clinicians",
+      "Health system recruiting and talent",
+      "Clinician workflow software (telehealth, AI scribe)"
+    ],
+    "top_competitors": [
+      "OpenEvidence",
+      "Medscape / WebMD (Internet Brands)",
+      "Sermo",
+      "Epic and UpToDate (Wolters Kluwer)",
+      "Veeva (pharma commercial)"
+    ],
+    "moat": {
+      "type": "Network effect + engagement data",
+      "narrative": "Over 80 percent of US physicians are verified members, which gives pharma a closed audience that is hard to reach at similar scale; free workflow tools (prescription-active users grew more than 30 percent YoY) feed engagement. The moat is being tested by AI search rivals, especially OpenEvidence, and by concentrated pharma budget exposure."
+    },
+    "key_customers": [
+      "Top-20 pharma manufacturers (not individually named)",
+      "Large health systems",
+      "Pharma agencies"
+    ],
+    "key_risks": [
+      "Revenue growth slowed to +7 percent in fiscal Q1 2027 and adjusted EBITDA margin fell to 47.7 percent from 54.7 percent as AI spending rose",
+      "Pharma budget concentration and pricing pressure on Newsfeed advertising; securities class action over Newsfeed claims (lead plaintiff deadline 16 Nov 2026)",
+      "OpenEvidence competition; settlement in principle reported 15 Oct 2026, terms undisclosed",
+      "Elevated AI compute and R&D costs"
+    ],
+    "sources": [
+      {
+        "label": "Doximity fiscal 2027 Q1 results",
+        "url": "https://www.businesswire.com/news/home/20260806730067/en/Doximity-Announces-Fiscal-2027-First-Quarter-Financial-Results"
+      },
+      {
+        "label": "MarketBeat DOCS, 20 Oct 2026",
+        "url": "https://www.marketbeat.com/instant-alerts/price-doximity-nyse-docs-shares-up-8-should-you-buy-2026-10-20"
+      },
+      {
+        "label": "Wikipedia Doximity",
+        "url": "https://en.wikipedia.org/wiki/Doximity"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "APA": {
+    "ticker": "APA",
+    "company": "APA Corporation",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "APA Corporation, the parent of Apache, is an independent oil and gas producer with its core in the Permian Basin in West Texas and New Mexico, plus Egypt (Western Desert, with Sinopec as minority partner), the UK North Sea and exploration in Suriname (Block 58 with TotalEnergies), Uruguay and Alaska. It earns money selling crude oil, gas and NGLs at market prices, so profits track commodity prices and cost discipline.",
+    "revenue_mix": [
+      {
+        "segment": "United States (Permian), adjusted production (approx)",
+        "share_pct": 76,
+        "trend": "stable"
+      },
+      {
+        "segment": "Egypt, adjusted production (approx)",
+        "share_pct": 18,
+        "trend": "stable"
+      },
+      {
+        "segment": "North Sea (approx)",
+        "share_pct": 6,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 76
+      },
+      {
+        "region": "Egypt",
+        "share_pct": 18
+      },
+      {
+        "region": "United Kingdom (North Sea)",
+        "share_pct": 6
+      }
+    ],
+    "end_markets": [
+      "Crude oil (Brent and WTI-linked)",
+      "Natural gas (Egypt, US Waha-linked)",
+      "NGLs"
+    ],
+    "top_competitors": [
+      "Diamondback Energy",
+      "Occidental",
+      "Devon Energy",
+      "Coterra",
+      "Permian Resources"
+    ],
+    "moat": {
+      "type": "Commodity-like dynamics",
+      "narrative": "No structural moat; advantage is acreage position in the Permian and Egypt, low-cost Egyptian gas and oil, and cost control ($500m exit run-rate cost savings target). Value depends on oil prices and capital discipline rather than customer lock-in."
+    },
+    "key_customers": [
+      "Commodity marketers and refiners",
+      "Egyptian General Petroleum Corporation (EGPC)",
+      "Midstream purchasers in the Permian"
+    ],
+    "key_risks": [
+      "Oil and gas price volatility (Q3 2026 realised oil about USD 87.50 per bbl US, USD 98.50 international; US gas only USD 1.45 per Mcf at Waha)",
+      "Egypt payment and gas pricing exposure",
+      "Net debt of USD 3.3B at 30 June 2026",
+      "Suriname GranMorgu execution and exploration dry-hole risk (USD 25m in Q3)",
+      "Permian decline rates and the pace of production growth"
+    ],
+    "sources": [
+      {
+        "label": "APA Q2 2026 earnings release",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001841666/000184166626000050/exhibit9912q26earningsrele.htm"
+      },
+      {
+        "label": "APA Q3 2026 supplemental guide",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001841666/000184166626000058/a3q26supplementalguide-ear.htm"
+      },
+      {
+        "label": "Wikipedia APA Corporation",
+        "url": "https://en.wikipedia.org/wiki/APA_Corporation"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
+  },
+  "S": {
+    "ticker": "S",
+    "company": "SentinelOne Inc.",
+    "as_of": "2026-10-31",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "SentinelOne sells its Singularity cybersecurity platform, which uses AI to detect and automatically stop attacks on endpoints, cloud workloads, identities and data, plus a security data lake and AI SIEM (Observo AI). It earns money through annual subscriptions billed per endpoint or workload, sold direct and through channel partners and MSSPs.",
+    "revenue_mix": [
+      {
+        "segment": "Subscription and support (approx)",
+        "share_pct": 98,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services and other (approx)",
+        "share_pct": 2,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 70
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 30
+      }
+    ],
+    "end_markets": [
+      "Enterprise endpoint security",
+      "Cloud workload security",
+      "Identity and data security",
+      "AI SIEM and security data lake",
+      "MSSP and MDR services"
+    ],
+    "top_competitors": [
+      "CrowdStrike",
+      "Microsoft Defender",
+      "Palo Alto Networks (Cortex XDR)",
+      "Trend Micro",
+      "Sophos"
+    ],
+    "moat": {
+      "type": "Technology platform with moderate switching costs",
+      "narrative": "Agent-based autonomous endpoint response and the Singularity data lake create integration and data-gravity switching costs, but CrowdStrike and Microsoft's bundling are stronger. SentinelOne wins on price and open ecosystem rather than structural advantage."
+    },
+    "key_customers": [
+      "1,715 customers with ARR of USD 100K or more (up 13 percent)",
+      "Fortune 500 enterprises (not individually named)",
+      "MSSP and channel partners"
+    ],
+    "key_risks": [
+      "ARR growth of 22 percent trails the cybersecurity leaders and is decelerating",
+      "GAAP operating margin still negative at (31) percent; gross margin fell to 72 percent GAAP",
+      "Microsoft bundling and CrowdStrike share gains",
+      "FY27 non-GAAP EPS guide of USD 0.30-0.32 was trimmed even as revenue was lifted",
+      "Stock-based compensation dilution (diluted share count about 361m)"
+    ],
+    "sources": [
+      {
+        "label": "SentinelOne Q2 FY2027 results",
+        "url": "https://www.01net.it/sentinelone-announces-second-quarter-fiscal-year-2027-financial-results/"
+      },
+      {
+        "label": "SentinelOne Q2 FY27 press release",
+        "url": "https://s28.q4cdn.com/399982429/files/doc_financials/2027/q2/SentinelOne-Q2-27-Earnings-Press-Release.pdf"
+      },
+      {
+        "label": "Wikipedia SentinelOne",
+        "url": "https://en.wikipedia.org/wiki/SentinelOne"
+      }
+    ],
+    "last_refreshed": "2026-10-31"
   }
 }
