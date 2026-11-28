@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "as_of": "2026-10-31",
+    "as_of": "2026-11-28",
     "schema_version": "1.0",
     "structure": "8-block: company_overview, revenue_mix, geo_mix, end_markets, top_competitors, moat, key_customers, key_risks, sources",
     "refresh_policy": "Quarterly — only refresh tickers whose concall_date is newer than last_refreshed. See agent_orchestration_helpers.py.",
@@ -17247,5 +17247,2398 @@
       }
     ],
     "last_refreshed": "2026-10-31"
+  },
+  "VFC": {
+    "ticker": "VFC",
+    "company": "V.F. Corporation",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "VF owns and designs branded outdoor and lifestyle apparel and footwear: The North Face, Vans and Timberland are the three core brands, alongside smaller labels such as Altra, Smartwool and Napapijri (Dickies was sold in November 2025). Manufacturing is outsourced, mostly to Asian contract factories. Revenue splits roughly evenly between wholesale (department stores, sporting goods, specialty retailers) and direct-to-consumer (owned stores and e-commerce). Under CEO Bracken Darrell the company is in a multi-year turnaround: paying down debt, cutting costs, and fixing Vans.",
+    "revenue_mix": [
+      {
+        "segment": "The North Face (Outdoor) approx",
+        "share_pct": 46,
+        "trend": "growing"
+      },
+      {
+        "segment": "Vans (Active) approx",
+        "share_pct": 21,
+        "trend": "declining"
+      },
+      {
+        "segment": "Timberland approx",
+        "share_pct": 18,
+        "trend": "growing"
+      },
+      {
+        "segment": "Other brands (Altra, Smartwool, Napapijri, Kipling, etc.) approx",
+        "share_pct": 15,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas approx",
+        "share_pct": 52
+      },
+      {
+        "region": "EMEA approx",
+        "share_pct": 35
+      },
+      {
+        "region": "APAC (incl. Greater China) approx",
+        "share_pct": 13
+      }
+    ],
+    "end_markets": [
+      "Outdoor apparel and equipment (jackets, technical outerwear)",
+      "Youth and skate lifestyle footwear (Vans)",
+      "Work and lifestyle boots (Timberland)",
+      "Trail-running footwear (Altra)"
+    ],
+    "top_competitors": [
+      "Nike / Jordan",
+      "Deckers (HOKA, UGG)",
+      "Columbia Sportswear",
+      "Amer Sports (Arc'teryx, Salomon)",
+      "Patagonia / Canada Goose / Moncler (premium outdoor)"
+    ],
+    "moat": {
+      "type": "Brand portfolio (TNF, Timberland), not structural",
+      "narrative": "The North Face is a globally recognised technical-outerwear brand with Summit Series credibility and pricing power, and the Timberland 6-inch yellow boot is an iconic franchise. Vans shows the moat is fragile: fashion-cycle brands lose relevance quickly, and Vans revenue has fallen for years. Moat strength comes down to brand heat, which needs constant product and marketing reinvestment."
+    },
+    "key_customers": [
+      "Wholesale partners: Dick's Sporting Goods, REI, JD Sports, Foot Locker, Zalando, department stores",
+      "Owned DTC (about 1,100 stores plus e-commerce), roughly 45-50% of revenue"
+    ],
+    "key_risks": [
+      "Vans revenue down 10% in Q2 FY27 with wholesale still weak; full turnaround not yet proven",
+      "High leverage (target 2.6-2.9x at FY27 year-end) limits flexibility after the Supreme/Dickies disposals",
+      "APAC weakness (Q2 -7%, Timberland -21%) and China consumer softness",
+      "Tariff exposure on Asian sourcing (Vietnam, Cambodia, Bangladesh) despite IEEPA refunds",
+      "Inventory up 7% YoY going into the holiday quarter"
+    ],
+    "sources": [
+      {
+        "label": "Q2 FY27 results coverage (FashionUnited)",
+        "url": "https://fashionunited.com/news/business/vf-corporation-exceeds-expectations-in-second-quarter/2026102875428"
+      },
+      {
+        "label": "Zacks Q2 FY27 recap",
+        "url": "https://www.zacks.com/stock/news/3017625/vf-corp-q2-earnings-beat-on-margin-gains-brand-strength"
+      },
+      {
+        "label": "Quartr VFC Q2 2027 summary",
+        "url": "https://quartr.com/events/v-f-corporation-vfc-q2-2027_338BoUzz"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "ABBV": {
+    "ticker": "ABBV",
+    "company": "AbbVie Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "AbbVie is a large biopharma company that discovers, licenses and sells branded drugs. Immunology is the profit engine: Skyrizi (IL-23) and Rinvoq (JAK) have replaced Humira, which lost US exclusivity in 2023. Neuroscience is the second pillar (Vraylar, therapeutic Botox, the migraine drugs Ubrelvy and Qulipta, and Vyalev for Parkinson's). Oncology (Venclexta, Imbruvica, Elahere, Epkinly) and the Allergan aesthetics unit (Botox Cosmetic, Juvederm) round out the portfolio. Q3 2026 revenue was $17.4B (+10%), with about 77% from the US.",
+    "revenue_mix": [
+      {
+        "segment": "Immunology (Skyrizi, Rinvoq, Humira)",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Neuroscience (Vraylar, Botox Tx, Ubrelvy, Qulipta, Vyalev)",
+        "share_pct": 19,
+        "trend": "growing"
+      },
+      {
+        "segment": "Oncology (Venclexta, Imbruvica, Elahere, Epkinly)",
+        "share_pct": 10,
+        "trend": "stable"
+      },
+      {
+        "segment": "Aesthetics (Botox Cosmetic, Juvederm)",
+        "share_pct": 7,
+        "trend": "declining"
+      },
+      {
+        "segment": "Other (eye care, women's health, other) approx",
+        "share_pct": 11,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 77
+      },
+      {
+        "region": "International",
+        "share_pct": 23
+      }
+    ],
+    "end_markets": [
+      "Psoriasis, psoriatic arthritis, IBD (Crohn's, ulcerative colitis), RA, atopic dermatitis",
+      "Psychiatry (bipolar, schizophrenia, MDD adjunct)",
+      "Migraine and Parkinson's disease",
+      "Hematologic oncology (CLL, AML, DLBCL, multiple myeloma)",
+      "Medical aesthetics"
+    ],
+    "top_competitors": [
+      "Johnson & Johnson (Stelara/Tremfya)",
+      "Eli Lilly (Omvoh, Ebglyss, Taltz)",
+      "Bristol Myers Squibb (Sotyktu)",
+      "Pfizer and Sanofi/Regeneron (Dupixent in atopic dermatitis)",
+      "Galderma and Revance (aesthetics)"
+    ],
+    "moat": {
+      "type": "Patent-protected franchise plus immunology commercial scale",
+      "narrative": "Skyrizi and Rinvoq are protected by patents into the early 2030s and are winning head-to-head share in IBD and psoriasis, backed by a large immunology salesforce and payer contracts built during the Humira years. Vraylar and Botox add durable neuroscience cash flows, and Botox's biologic manufacturing and brand make it hard to copy. The moat is time-limited by loss of exclusivity, so AbbVie keeps it alive by restocking the pipeline through acquisitions (Cerevel, ImmunoGen, Apogee)."
+    },
+    "key_customers": [
+      "US PBMs and wholesalers: McKesson, Cardinal Health, Cencora (the three together are most of US sales)",
+      "CVS Caremark, Express Scripts and Optum formulary access"
+    ],
+    "key_risks": [
+      "IRA Medicare price negotiation (Imbruvica already selected; later Skyrizi/Rinvoq exposure risk)",
+      "Humira erosion (-31%) and Imbruvica (-26%) still a drag",
+      "Rinvoq loss of exclusivity around 2033 and Skyrizi biosimilars later in the decade",
+      "Aesthetics demand weakness (Juvederm -12%) tied to the US and China consumer",
+      "BD-heavy strategy brings frequent IPR&D charges ($0.69/share YTD) and integration risk"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000033/abbv-20260930xexhibit991.htm"
+      },
+      {
+        "label": "StockStory Q3 deep dive",
+        "url": "https://stockstory.org/us/stocks/nyse/abbv/news/earnings-call/abbv-q3-deep-dive-immunology-and-neuroscience-drive-growth-pipeline-progress-continues"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "EPAM": {
+    "ticker": "EPAM",
+    "company": "EPAM Systems, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "EPAM is a digital engineering and IT services firm. It sells software product development, platform engineering, data/AI and consulting, mostly on time-and-materials contracts. About 57,000 delivery professionals, historically concentrated in Ukraine, Belarus and Russia, have been relocated since 2022 to Poland, Hungary, India, Latin America and Central Asia. Q3 2026 revenue was $1.43B (+2.3%). AI-native work reached about 13% of revenue, offsetting a shrinking legacy book.",
+    "revenue_mix": [
+      {
+        "segment": "Financial Services approx",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "Software & Hi-Tech approx",
+        "share_pct": 15,
+        "trend": "declining"
+      },
+      {
+        "segment": "Life Sciences & Healthcare approx",
+        "share_pct": 13,
+        "trend": "growing"
+      },
+      {
+        "segment": "Business Information & Media approx",
+        "share_pct": 17,
+        "trend": "declining"
+      },
+      {
+        "segment": "Consumer Goods, Retail & Travel approx",
+        "share_pct": 19,
+        "trend": "declining"
+      },
+      {
+        "segment": "Emerging Verticals (energy, telecom, auto, manufacturing) approx",
+        "share_pct": 12,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (mostly North America) approx",
+        "share_pct": 58
+      },
+      {
+        "region": "EMEA approx",
+        "share_pct": 40
+      },
+      {
+        "region": "CEE / other approx",
+        "share_pct": 2
+      }
+    ],
+    "end_markets": [
+      "Banking and capital markets engineering",
+      "Pharma and health-tech platforms",
+      "Media/information services (e.g., data providers)",
+      "Retail, travel and hospitality digital platforms",
+      "Energy and industrial software"
+    ],
+    "top_competitors": [
+      "Globant",
+      "Endava",
+      "Accenture (Industry X / Song)",
+      "Cognizant, Infosys, TCS (offshore scale)",
+      "Thoughtworks"
+    ],
+    "moat": {
+      "type": "Engineering talent depth + embedded relationships",
+      "narrative": "EPAM's edge is complex, product-grade software engineering rather than commodity IT outsourcing: top clients have used EPAM for 10+ years, and its engineers sit inside client product teams. That embedding creates switching costs but not a structural moat. Rates are under pressure from Indian offshore firms, and GenAI coding tools threaten the hours-based pricing model, so EPAM must reprice toward AI outcome-based work."
+    },
+    "key_customers": [
+      "Top-20 clients approx 30% of revenue; largest client approx 4-5%",
+      "Named clients include large banks, a leading pharma group, global data/media publishers (e.g., Thomson Reuters-type info services), and big-tech software platforms"
+    ],
+    "key_risks": [
+      "GenAI deflation of hourly engineering demand (non-AI revenue reportedly down about 6% YoY)",
+      "Q4 2026 guide of 0.5-1.6% organic cc growth; CEO ruled out double-digit growth in 2027",
+      "Flat 2027 non-GAAP margin guide (15-16%) as Poland R&D incentives roughly halve",
+      "Delivery concentration in CEE (Poland, Hungary) with Ukraine war exposure",
+      "Buybacks partly funded by revolver borrowing; cash fell to $970M"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001352010/000135201026000048/exhibit99_q3x2026.htm"
+      },
+      {
+        "label": "Q3 2026 analysis (Finviz)",
+        "url": "https://finviz.com/news/417226/epam-beats-signs-its-first-big-ai-deals-and-launches-a-buyback-push-but-a-q4-slowdown-and-flat-2027-margins-test-the-rally"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "VNT": {
+    "ticker": "VNT",
+    "company": "Vontier Corporation",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "Vontier was spun off from Fortive in 2020 and makes mobility and fueling infrastructure. Gilbarco Veeder-Root (fuel dispensers, tank monitoring, payment terminals, EV charging) is the largest segment. Mobility Technologies sells convenience-store and fleet software (Invenco, DRB car-wash software). Repair Solutions is Matco Tools, a franchised mobile tool-distribution network serving auto mechanics. Teletrac Navman telematics was divested in 2026. Revenue is about $3.0B, with roughly 30% recurring.",
+    "revenue_mix": [
+      {
+        "segment": "Environmental & Fueling Solutions (Gilbarco Veeder-Root)",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Mobility Technologies (DRB, Invenco, retail software)",
+        "share_pct": 32,
+        "trend": "stable"
+      },
+      {
+        "segment": "Repair Solutions (Matco Tools)",
+        "share_pct": 19,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States approx",
+        "share_pct": 67
+      },
+      {
+        "region": "Europe approx",
+        "share_pct": 15
+      },
+      {
+        "region": "Rest of world (Asia, LatAm, other) approx",
+        "share_pct": 18
+      }
+    ],
+    "end_markets": [
+      "Retail fueling stations and convenience stores",
+      "Car-wash operators",
+      "Automotive repair technicians",
+      "Fleet and EV charging operators"
+    ],
+    "top_competitors": [
+      "Dover (OPW, Wayne Fueling Systems)",
+      "Snap-on and Mac Tools (vs Matco)",
+      "NCR Voyix (c-store POS)",
+      "Franklin Fueling (Franklin Electric)",
+      "ChargePoint and others in EV charging"
+    ],
+    "moat": {
+      "type": "Installed base + regulatory-driven replacement",
+      "narrative": "Gilbarco and Dover's Wayne form a near-duopoly in North American fuel dispensers, and Veeder-Root tank gauges are embedded in EPA leak-detection compliance. A large installed base drives replacement, payment-security (EMV) upgrades and service revenue. Matco's franchised truck network gives repeat access to mechanics. The weakness is that dispenser demand is cyclical, and long-run fuel volumes decline as vehicles electrify."
+    },
+    "key_customers": [
+      "Major fuel retailers and c-store chains (e.g., Circle K, 7-Eleven, Murphy USA, Casey's)",
+      "Oil majors' retail networks",
+      "Matco franchisees and independent repair shops"
+    ],
+    "key_risks": [
+      "EV adoption reduces long-run fuel-dispenser demand",
+      "Repair Solutions weakness (core -1%, margin -180bp) as mechanics' credit and big-ticket tool demand soften",
+      "Fueling cycle: Q3 EFS core +13% may be pull-forward and could normalise",
+      "Net leverage 2.3x with active buybacks",
+      "Portfolio reshaping (Teletrac sale, $86M loss) adds execution risk"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001786842/000162828026070524/a20261002-ex991.htm"
+      },
+      {
+        "label": "Q3 2026 analysis (Finviz)",
+        "url": "https://finviz.com/news/417186/vontier-beats-and-raises-again-as-cost-cuts-and-a-fueling-surge-outrun-a-still-modest-growth-base"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "COLM": {
+    "ticker": "COLM",
+    "company": "Columbia Sportswear Company",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "Columbia designs and sources outdoor and active apparel, footwear and accessories under four brands: Columbia (about 85% of sales), SOREL (winter and fashion boots), prAna (yoga/climbing apparel) and Mountain Hardwear (technical outdoor). It sells through wholesale (about 60% of sales) and DTC stores/e-commerce, with sales weighted to the fall/winter outerwear season. It is founder-controlled (CEO Tim Boyle), has no debt, and is running the ACCELERATE strategy to reposition the Columbia brand toward younger consumers. FY2026 sales are guided to $3.46-3.50B.",
+    "revenue_mix": [
+      {
+        "segment": "Columbia brand",
+        "share_pct": 86,
+        "trend": "growing"
+      },
+      {
+        "segment": "SOREL",
+        "share_pct": 9,
+        "trend": "stable"
+      },
+      {
+        "segment": "prAna approx",
+        "share_pct": 3,
+        "trend": "declining"
+      },
+      {
+        "segment": "Mountain Hardwear approx",
+        "share_pct": 2,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States approx",
+        "share_pct": 59
+      },
+      {
+        "region": "Latin America & Asia Pacific (LAAP) approx",
+        "share_pct": 17
+      },
+      {
+        "region": "EMEA approx",
+        "share_pct": 16
+      },
+      {
+        "region": "Canada approx",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Outdoor and winter outerwear (Omni-Heat, Omni-Tech)",
+      "Winter and lifestyle footwear",
+      "Hiking/fishing (PFG) apparel",
+      "Yoga and climbing apparel"
+    ],
+    "top_competitors": [
+      "VF (The North Face)",
+      "Patagonia",
+      "Amer Sports (Arc'teryx, Salomon)",
+      "Deckers (UGG vs SOREL)",
+      "Decathlon and private label at value price points"
+    ],
+    "moat": {
+      "type": "Value-price positioning + proprietary fabric tech + net-cash balance sheet",
+      "narrative": "Columbia's niche is technical outdoor features (Omni-Heat reflective lining, Omni-Tech waterproofing) at mid-market prices sold broadly through Dick's, Academy and Kohl's. It is a defensible but not dominant position. The no-debt balance sheet lets it get through weak winters and tariff shocks. The moat is shallow: younger consumers lean to premium (Arc'teryx) or value/private label, which ACCELERATE is meant to address."
+    },
+    "key_customers": [
+      "Dick's Sporting Goods, Academy Sports, Kohl's, REI, Costco and international distributors (LAAP/EMEA)",
+      "DTC (about 40% of sales)"
+    ],
+    "key_risks": [
+      "US wholesale softness (US Q3 -1%) and retailer caution on reorders",
+      "Weather-sensitive fall/winter season (Q4 is about a third of sales)",
+      "Tariff policy: FY26 gross margin includes about 180bp of one-off IEEPA refunds that will not recur",
+      "Inventory up 11% YoY and FY26 operating cash flow guide cut to $230-250M",
+      "Mountain Hardwear (-17%) and prAna drag; ACCELERATE payback unproven"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001050797/000105079726000148/colmfy26q3exhibit991.htm"
+      },
+      {
+        "label": "FashionUnited Q3 coverage",
+        "url": "https://fashionunited.com/news/business/columbia-sportswear-exceeds-q3-projections-raises-outlook/2026103075480"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "GME": {
+    "ticker": "GME",
+    "company": "GameStop Corp.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "GameStop is a specialty retailer of video games, consoles and collectibles (trading cards, figures, apparel) with stores in the US, Australia and Europe (France was divested). Under CEO Ryan Cohen it has closed stores, cut costs, moved toward collectibles (45% of Q2 FY26 sales) and graded trading cards, and turned into a cash-rich holding vehicle. It held about $5.1B of cash and securities, a small bitcoin position and a stake of about 9.8% in eBay, worth about $4.9B. In May 2026 it made an unsolicited ~$56B bid for eBay, which eBay rejected.",
+    "revenue_mix": [
+      {
+        "segment": "Collectibles (trading cards, toys, apparel)",
+        "share_pct": 45,
+        "trend": "growing"
+      },
+      {
+        "segment": "Video Games (new hardware, software, accessories) approx",
+        "share_pct": 35,
+        "trend": "declining"
+      },
+      {
+        "segment": "Pre-Owned and Refurbished approx",
+        "share_pct": 20,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 77
+      },
+      {
+        "region": "Australia",
+        "share_pct": 15
+      },
+      {
+        "region": "Europe (Germany, Italy, other)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Video game hardware and software (console cycle, e.g., Nintendo Switch 2)",
+      "Trading card games and graded collectibles (Pokemon, PSA grading)",
+      "Pre-owned and trade-in",
+      "Investment income on a multi-billion cash pile"
+    ],
+    "top_competitors": [
+      "Amazon",
+      "Walmart and Target",
+      "Digital storefronts (Steam, PlayStation Store, Xbox, Nintendo eShop)",
+      "eBay, Fanatics/Collectors (Collectibles and PSA), TCGplayer",
+      "Best Buy"
+    ],
+    "moat": {
+      "type": "No operating moat; balance-sheet optionality",
+      "narrative": "Gaming retail is structurally declining as game sales go digital, and console makers sell direct, so GameStop has no durable operating advantage. Its edge is financial: billions of cash and securities raised through at-the-market equity offerings and 0% converts, plus a retail investor base that lets it raise capital cheaply. Shareholder value depends mainly on how Cohen allocates that capital (eBay stake/bid, bitcoin, collectibles), not on the store base."
+    },
+    "key_customers": [
+      "Retail consumers (PowerUp Rewards loyalty members)",
+      "Console makers and publishers as suppliers: Nintendo, Sony, Microsoft"
+    ],
+    "key_risks": [
+      "Core gaming sales in secular decline (Q2 net sales -19% YoY)",
+      "Capital-allocation risk: hostile eBay pursuit (~$56B, rejected) or a large M&A deal could destroy value",
+      "Earnings are inflated by investment and derivative gains ($166M derivative gain in Q2), so they are volatile",
+      "Dilution from ATM issuance and the convertible notes (about $2.8B long-term debt)",
+      "Collectibles demand (trading-card bubble) could cool"
+    ],
+    "sources": [
+      {
+        "label": "Q2 FY2026 results release (Finviz/Business Wire)",
+        "url": "https://finviz.com/news/389689/gamestop-discloses-second-quarter-2026-results"
+      },
+      {
+        "label": "Proposed acquisition of eBay by GameStop (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_eBay_by_GameStop"
+      },
+      {
+        "label": "CNBC on eBay bid",
+        "url": "https://www.cnbc.com/2026/05/04/gamestop-ebay-takeover-bid-ryan-cohen-gaming-retail-ecommerce.html"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "CROX": {
+    "ticker": "CROX",
+    "company": "Crocs, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "Crocs designs and sells casual footwear under two brands. The Crocs brand (about 83% of revenue) sells molded Croslite clogs, sandals and Jibbitz charms. HEYDUDE (about 17%, acquired in 2022 for $2.5B) sells lightweight slip-on loafers. Production is outsourced, mainly to Vietnam, China and Indonesia. Sales split roughly evenly between DTC (e-commerce, marketplaces, outlets) and wholesale. Gross margins near 60% (adjusted) and adjusted operating margins of about 22% fund large buybacks.",
+    "revenue_mix": [
+      {
+        "segment": "Crocs Brand",
+        "share_pct": 83,
+        "trend": "growing"
+      },
+      {
+        "segment": "HEYDUDE Brand",
+        "share_pct": 17,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (Crocs + HEYDUDE) approx",
+        "share_pct": 58
+      },
+      {
+        "region": "International - Asia Pacific (China, Japan, Korea, India) approx",
+        "share_pct": 24
+      },
+      {
+        "region": "International - EMEALA approx",
+        "share_pct": 18
+      }
+    ],
+    "end_markets": [
+      "Casual and comfort footwear",
+      "Charms/personalisation (Jibbitz)",
+      "Kids footwear",
+      "Work/healthcare clogs",
+      "Sandals and slides"
+    ],
+    "top_competitors": [
+      "Birkenstock",
+      "Skechers",
+      "Deckers (UGG, HOKA)",
+      "Nike and Adidas slides",
+      "Low-cost molded-clog knockoffs"
+    ],
+    "moat": {
+      "type": "Proprietary material + iconic design + personalisation ecosystem",
+      "narrative": "The Classic Clog is a single high-margin silhouette made from proprietary Croslite resin at very low unit cost. Jibbitz charms add a high-margin, collectible personalisation layer, and frequent collaborations (Pokemon, luxury brands) keep cultural relevance. Few footwear brands earn 60% gross margins on one silhouette. The risk is fashion fatigue, and HEYDUDE shows that the halo does not carry over to other brands."
+    },
+    "key_customers": [
+      "Wholesale partners: Famous Footwear, DSW, Academy, Zalando, Amazon (third-party), Tmall/JD (China) distributors",
+      "DTC (about 50% of revenue)"
+    ],
+    "key_risks": [
+      "North America Crocs brand softening (Q3 -2.1%) as clog fashion cycle matures",
+      "HEYDUDE brand health and possible impairment of acquisition goodwill/intangibles",
+      "Tariff exposure on Vietnam sourcing; Q3 benefited from $64M one-off IEEPA refunds",
+      "Gross debt of $1.29B from the HEYDUDE deal",
+      "Dependence on China/Asia growth for international expansion (+11.8%)"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (Seeking Alpha PR)",
+        "url": "https://seekingalpha.com/pr/20705150"
+      },
+      {
+        "label": "FashionUnited Q3 coverage",
+        "url": "https://fashionunited.com/news/business/crocs-lifts-annual-outlook-as-third-quarter-revenues-reach-1-04-billion-dollars/2026102975461"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "EXPO": {
+    "ticker": "EXPO",
+    "company": "Exponent, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "Exponent is a science and engineering consulting firm with about 1,000 PhD-heavy consultants. It does failure analysis and expert-witness work for litigation and insurance disputes (reactive, about half of revenue) and proactive regulatory, design-review and user-research work for tech, medical device, auto and chemical companies. It bills hourly at premium rates and has no debt. EBITDA margins are near 28% of revenue before reimbursements, which was about $600M in 2025.",
+    "revenue_mix": [
+      {
+        "segment": "Engineering & Other Scientific",
+        "share_pct": 85,
+        "trend": "growing"
+      },
+      {
+        "segment": "Environmental & Health",
+        "share_pct": 15,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States approx",
+        "share_pct": 88
+      },
+      {
+        "region": "International approx",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Litigation and dispute resolution (product liability, insurance claims)",
+      "Consumer electronics and wearables (battery safety, user research)",
+      "Transportation (autonomous/EV vehicle safety)",
+      "Medical devices and life sciences regulatory",
+      "Chemicals, energy and critical infrastructure"
+    ],
+    "top_competitors": [
+      "Engineering Systems Inc. (ESi)",
+      "S-E-A Ltd",
+      "Charles River Associates / FTI Consulting (expert witness)",
+      "UL Solutions and Intertek (testing)",
+      "Big Four and in-house corporate labs"
+    ],
+    "moat": {
+      "type": "Reputation + court-tested experts",
+      "narrative": "Exponent's credibility as the go-to independent expert in high-stakes product failures (from the Challenger investigation to battery recalls) is hard to copy. Courts and insurers value experts with long testimony records, and a 1,000-strong multidisciplinary PhD bench is costly to assemble. Proactive work for large consumer-electronics clients adds recurring relationships. Growth is limited by hiring and utilisation, not demand."
+    },
+    "key_customers": [
+      "Fortune 500 consumer electronics companies (a large tech client has historically been a top account)",
+      "Automakers and AV developers",
+      "Insurers and law firms acting for manufacturers",
+      "Chemical and medical device companies"
+    ],
+    "key_risks": [
+      "Utilisation (77%) and headcount growth cap revenue growth",
+      "Concentration in consumer electronics proactive work (client budget cuts)",
+      "Tort reform or litigation cycle slowdown hitting reactive work",
+      "Premium valuation versus high single-digit organic growth",
+      "Q4 2026 guide slows to 8-10% growth with lower EBITDA margin (26.3-26.8%)"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (Finviz/GlobeNewswire)",
+        "url": "https://finviz.com/news/412038/exponent-reports-third-quarter-2026-financial-results"
+      },
+      {
+        "label": "Kalkine Q3 commentary",
+        "url": "https://kalkine.ca/news/corporate-earnings/can-exponent-nasdaqexpo-keep-user-research-demand-driving-double-digit-growth"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "PCOR": {
+    "ticker": "PCOR",
+    "company": "Procore Technologies, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "Procore sells cloud construction-management software: project management, quality and safety, financials, preconstruction and analytics. General contractors, owners and specialty contractors use it on one connected platform. Pricing is based on annual construction volume (ACV) rather than per-seat, so collaborators join for free. FY2026 revenue is guided to about $1.56B (+18%). It acquired DroneDeploy (reality capture/drones, about $845M cash) in Q3 2026 and is launching Procore AI agents.",
+    "revenue_mix": [
+      {
+        "segment": "General Contractors approx",
+        "share_pct": 65,
+        "trend": "growing"
+      },
+      {
+        "segment": "Owners approx",
+        "share_pct": 20,
+        "trend": "growing"
+      },
+      {
+        "segment": "Specialty Contractors approx",
+        "share_pct": 12,
+        "trend": "growing"
+      },
+      {
+        "segment": "DroneDeploy / reality capture approx",
+        "share_pct": 3,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States approx",
+        "share_pct": 86
+      },
+      {
+        "region": "International (Canada, ANZ, UK/EMEA, other) approx",
+        "share_pct": 14
+      }
+    ],
+    "end_markets": [
+      "Commercial and institutional construction",
+      "Data center and infrastructure build-outs",
+      "Healthcare and education facilities",
+      "Residential multifamily",
+      "Public sector (FedRAMP Moderate)"
+    ],
+    "top_competitors": [
+      "Autodesk Construction Cloud",
+      "Oracle (Aconex, Primavera)",
+      "Trimble (Viewpoint, e-Builder)",
+      "Bentley Systems (infrastructure)",
+      "Point solutions (Fieldwire/Hilti, Buildertrend)"
+    ],
+    "moat": {
+      "type": "Network effects + workflow system of record",
+      "narrative": "Procore's unlimited-user, volume-based pricing pulls every subcontractor, architect and owner on a project into the platform, so it becomes the record of project data across thousands of firms. That creates cross-side network effects and high switching costs (95% gross revenue retention). Autodesk is a credible competitor through design-to-build integration, but Procore's general contractor installed base and its app marketplace of 500+ integrations are hard to replicate."
+    },
+    "key_customers": [
+      "2,968 customers with >$100K ARR (+14%)",
+      "Large GCs such as Turner, DPR, Hensel Phelps-scale firms; owners in data centers and healthcare",
+      "A newly won US government agency (FedRAMP)"
+    ],
+    "key_risks": [
+      "Construction cycle sensitivity (interest rates, non-residential starts) because pricing is tied to construction volume",
+      "DroneDeploy integration and $950M zero-coupon convertible (dilution, leverage)",
+      "Autodesk bundling design and construction",
+      "AI compute costs and unproven monetisation of AI agents",
+      "Path to 25% FY27 non-GAAP margin while GAAP results stay around breakeven"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001611052/000161105226000002/pcor-q326x8xkxexx991.htm"
+      },
+      {
+        "label": "Q3 2026 analysis (Finviz)",
+        "url": "https://finviz.com/news/415677/procore-beats-as-organic-growth-accelerates-for-a-third-straight-quarter-but-the-dronedeploy-deal-changes-the-balance-sheet"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "IDXX": {
+    "ticker": "IDXX",
+    "company": "IDEXX Laboratories, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill (weekly scan 2026-11-28)",
+    "company_overview": "IDEXX is the leading supplier of veterinary diagnostics for companion animals. It places in-clinic analyzers (Catalyst chemistry, ProCyte hematology, SediVue urine, inVue Dx cytology) and sells the recurring consumables they use. It also runs a global network of 80+ reference labs, rapid SNAP tests and practice-management software (Cornerstone, ezyVet, Vello). Water (Colilert microbiology tests) and Livestock/Poultry/Dairy (LPD) are small segments. Companion Animal Group (CAG) Diagnostics recurring revenue is about 80% of sales, which makes it razor/razor-blade economics with 33% operating margins.",
+    "revenue_mix": [
+      {
+        "segment": "CAG Diagnostics recurring (consumables, reference labs, rapid assays)",
+        "share_pct": 80,
+        "trend": "growing"
+      },
+      {
+        "segment": "CAG instruments, software and services approx",
+        "share_pct": 12,
+        "trend": "growing"
+      },
+      {
+        "segment": "Water",
+        "share_pct": 4,
+        "trend": "growing"
+      },
+      {
+        "segment": "Livestock, Poultry & Dairy (LPD)",
+        "share_pct": 3,
+        "trend": "stable"
+      },
+      {
+        "segment": "Other approx",
+        "share_pct": 1,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States approx",
+        "share_pct": 65
+      },
+      {
+        "region": "Europe approx",
+        "share_pct": 22
+      },
+      {
+        "region": "Asia Pacific, Canada, LatAm approx",
+        "share_pct": 13
+      }
+    ],
+    "end_markets": [
+      "Companion-animal (dog/cat) veterinary clinics",
+      "Veterinary reference lab testing",
+      "Municipal and private water testing",
+      "Livestock and dairy disease screening"
+    ],
+    "top_competitors": [
+      "Zoetis (Abaxis point-of-care diagnostics)",
+      "Antech/Heska (Mars Petcare)",
+      "Neogen (LPD/water)",
+      "Thermo Fisher (water)"
+    ],
+    "moat": {
+      "type": "Installed-base razor/razor-blade + integrated lab/software ecosystem",
+      "narrative": "IDEXX's installed base of premium analyzers (growing 11%) locks clinics into proprietary consumables, often under multi-year IDEXX 360 agreements. Integration across in-clinic instruments, reference labs and practice software, with results flowing into one patient record (VetConnect PLUS), raises switching costs. Unique menus (SDMA kidney test, inVue Dx AI cytology) let it raise prices about 4-5% a year. Zoetis and Mars/Antech are the only scaled rivals."
+    },
+    "key_customers": [
+      "About 50,000+ independent and corporate vet clinics worldwide; corporate groups (Mars VCA/Banfield/BluePearl, NVA, IVC Evidensia) are large but contested",
+      "Water utilities"
+    ],
+    "key_risks": [
+      "US clinical visits declining (Q3 -1.8%, worsening from -1.3% in Q2)",
+      "Corporate vet consolidators (Mars owns Antech) using buying power",
+      "Price-led growth could meet resistance if pet-owner spending weakens",
+      "CoVet acquisition diluting margins (FY26 operating margin guide cut to 32.1-32.3%)",
+      "Premium valuation leaves little room for a slowdown in comparable margin expansion"
+    ],
+    "sources": [
+      {
+        "label": "Q3 2026 earnings release (8-K Ex 99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000874716/000110465926120892/tm2628647d1_ex99-1.htm"
+      },
+      {
+        "label": "Q3 2026 analysis (Finviz)",
+        "url": "https://finviz.com/news/413386/idexx-raises-its-growth-outlook-a-third-time-as-diagnostics-volumes-outrun-falling-vet-visits-while-covet-trims-the-margin-guide"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "RRC": {
+    "ticker": "RRC",
+    "company": "Range Resources Corporation",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Range Resources drills and produces natural gas, natural gas liquids (ethane, propane, butane) and condensate from about 2.5 Bcfe/d of Marcellus Shale output in southwest Pennsylvania. It earns money by selling these molecules at market prices, partly hedged, with NGLs sold domestically and into export markets. About 68% of volumes are gas. In October 2026 Range agreed to be acquired by EQT in an all-stock deal (0.987 EQT shares per Range share), expected to close in Q1 2027.",
+    "revenue_mix": [
+      {
+        "segment": "Natural gas sales (Q3 2026)",
+        "share_pct": 50,
+        "trend": "growing"
+      },
+      {
+        "segment": "NGL sales (Q3 2026)",
+        "share_pct": 44,
+        "trend": "growing"
+      },
+      {
+        "segment": "Oil/condensate sales (Q3 2026)",
+        "share_pct": 6,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States - Appalachia (southwest Pennsylvania Marcellus) production",
+        "share_pct": 100
+      }
+    ],
+    "end_markets": [
+      "US natural gas (utilities, power generation, LNG feedgas via Gulf Coast pipelines)",
+      "Domestic and export NGL markets (petrochemical ethane, propane)",
+      "Condensate for refiners"
+    ],
+    "top_competitors": [
+      "EQT Corporation (pending acquirer)",
+      "Antero Resources",
+      "Expand Energy",
+      "CNX Resources",
+      "Coterra Energy"
+    ],
+    "moat": {
+      "type": "Low-cost resource depth (commodity price taker)",
+      "narrative": "Range holds a large block of contiguous, liquids-rich core Marcellus acreage with decades of drilling inventory and a low base decline. This gives it among the lowest maintenance capital per unit in US gas. It still has no pricing power, so returns follow Henry Hub and NGL prices. Its standalone moat will be folded into EQT's integrated midstream scale once the deal closes."
+    },
+    "key_customers": [
+      "Not individually disclosed; gas sold to marketers, utilities and Gulf Coast/LNG-linked buyers via firm transport",
+      "NGL export buyers via Mariner East / Marcus Hook terminal",
+      "Petrochemical ethane offtakers"
+    ],
+    "key_risks": [
+      "EQT deal close risk (shareholder and regulatory approvals, target Q1 2027); RRC now trades on EQT's share price at the 0.987 ratio",
+      "Henry Hub gas price volatility; realized price was USD 3.43/mcfe after hedges in Q3 2026",
+      "NGL price exposure to petrochemical demand and US-China trade and tariff actions on ethane and propane exports",
+      "Appalachian takeaway constraints and basis differentials"
+    ],
+    "sources": [
+      {
+        "label": "Range Q3 2026 results (8-K Ex-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000315852/000119312526435073/d174576dex991.htm"
+      },
+      {
+        "label": "EQT and Range combination (World Oil)",
+        "url": "https://worldoil.com/news/2026/10/26/eqt-range-combine-to-create-largest-u-s-natural-gas-producer"
+      },
+      {
+        "label": "EQT announcement of Range acquisition",
+        "url": "https://finviz.com/news/407513/eqt-announces-strategic-acquisition-of-range-resources-creating-americas-undisputed-natural-gas-champion"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "BILL": {
+    "ticker": "BILL",
+    "company": "BILL Holdings, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "BILL sells cloud software that automates small and midsize businesses' financial operations: accounts payable and receivable (BILL AP/AR), corporate cards and expense management (BILL Spend & Expense, formerly Divvy), plus embedded payments for partners. It earns subscription fees per user, transaction fees on payments, card interchange, and float interest on about USD 4.1B of customer funds in transit. Total payment volume (TPV) was about USD 102B in Q1 FY27.",
+    "revenue_mix": [
+      {
+        "segment": "Transaction fees (Q1 FY27)",
+        "share_pct": 68,
+        "trend": "growing"
+      },
+      {
+        "segment": "Subscription fees (Q1 FY27)",
+        "share_pct": 22,
+        "trend": "growing"
+      },
+      {
+        "segment": "Float revenue on customer funds (Q1 FY27)",
+        "share_pct": 10,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 99
+      },
+      {
+        "region": "International (approx)",
+        "share_pct": 1
+      }
+    ],
+    "end_markets": [
+      "US SMB accounts payable and receivable automation",
+      "SMB corporate cards and spend management",
+      "Accounting firms serving SMB clients",
+      "Embedded B2B payments for banks and software partners"
+    ],
+    "top_competitors": [
+      "Intuit QuickBooks Bill Pay",
+      "Ramp",
+      "Brex",
+      "Melio (Xero)",
+      "Tipalti",
+      "AvidXchange"
+    ],
+    "moat": {
+      "type": "Network effects plus accountant channel distribution",
+      "narrative": "Thousands of accounting firms run their SMB clients on BILL, and its payables-receivables network of several million members lets payments flow between members. Two-way sync with QuickBooks, NetSuite, Sage and Xero makes it sticky. The moat is mid-strength: Ramp and Intuit are bundling free AP into card and accounting products."
+    },
+    "key_customers": [
+      "475,300 businesses using BILL solutions (down from 498,500 as Embedded/Other shrinks)",
+      "233,400 Integrated Platform (AP/AR plus Spend & Expense) customers",
+      "Accounting-firm partners",
+      "Bank and software embedded partners"
+    ],
+    "key_risks": [
+      "Starboard Value disclosed about a 10% stake (13D, November 2026), so the activist push for cost cuts, buybacks or a sale is live",
+      "Fed rate cuts compress float revenue (USD 37.4M in the quarter, about 10% of revenue)",
+      "Competition from Ramp, Brex and Intuit on cards and free AP",
+      "Customer count decline in Embedded Solutions and Other",
+      "Card-reward revenue reclassification from July 2026 makes year-on-year comparisons noisy"
+    ],
+    "sources": [
+      {
+        "label": "BILL Q1 FY27 press release",
+        "url": "https://www.bill.com/press-release/bill-reports-first-quarter-fiscal-year-2027-financial-results"
+      },
+      {
+        "label": "BILL Q1 FY27 8-K Ex-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001786352/000162828026070994/bill-2026930xexx991.htm"
+      },
+      {
+        "label": "247wallst Q1 FY27 review",
+        "url": "https://247wallst.com/cards/bill-holdings-q1-2027-earnings-bill-01m6prkd65n8x09nv204h5bj3e"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "ZAL.DE": {
+    "ticker": "ZAL.DE",
+    "company": "Zalando SE",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Zalando runs Europe's largest online fashion and lifestyle platform (Zalando, Lounge by Zalando, and ABOUT YOU, acquired in 2025) across more than 25 markets. In B2C it earns retail margin on wholesale-bought stock plus commissions from the Partner Program and retail media fees. In B2B it sells fulfilment (ZEOS), e-commerce software (SCAYLE) and channel integration (Tradebyte) to other brands and retailers. GMV was about EUR 4.5B in Q3 2026.",
+    "revenue_mix": [
+      {
+        "segment": "B2C - Zalando, Lounge and ABOUT YOU platforms (approx)",
+        "share_pct": 89,
+        "trend": "stable"
+      },
+      {
+        "segment": "B2B - ZEOS logistics, SCAYLE software, Tradebyte (approx)",
+        "share_pct": 11,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "DACH - Germany, Austria, Switzerland (approx)",
+        "share_pct": 50
+      },
+      {
+        "region": "Rest of Europe (approx)",
+        "share_pct": 50
+      }
+    ],
+    "end_markets": [
+      "European online apparel and footwear",
+      "Sportswear (DFB partnership through 2030)",
+      "Beauty",
+      "Logistics and e-commerce software for third-party brands"
+    ],
+    "top_competitors": [
+      "Amazon Fashion",
+      "Shein",
+      "Temu",
+      "Inditex (Zara online)",
+      "H&M",
+      "Vinted (secondhand)"
+    ],
+    "moat": {
+      "type": "Pan-European logistics scale and two-sided network",
+      "narrative": "Zalando's fulfilment network, with free delivery and returns in 25+ countries and about 50M+ active customers, is hard for brands to replicate. Brands plug into it through the Partner Program and ZEOS, so Zalando captures volume without holding inventory. The moat is real in mid-to-premium branded fashion but weak against Shein and Temu at the low end."
+    },
+    "key_customers": [
+      "Tens of millions of European active consumers (over 61M pro forma including ABOUT YOU at the 2025 count)",
+      "B2B clients such as Marks & Spencer and DEICHMANN (via SCAYLE)",
+      "Brand partners in the Partner Program (Nike, adidas and others)"
+    ],
+    "key_risks": [
+      "Weak European consumer demand; pro forma B2C growth guided to the lower half of 5-10% for FY26",
+      "Gross margin down 0.9 points to 38.7% in Q3 from customer-offer investment",
+      "Ultra-cheap competition from Shein and Temu, pending EU de minimis duty changes",
+      "ABOUT YOU integration execution and restructuring (EUR 197M year to date, including the Erfurt warehouse closure)",
+      "Guidance excludes the effects of a prolonged Middle East conflict"
+    ],
+    "sources": [
+      {
+        "label": "Zalando Q3 2026 summary (Quartr)",
+        "url": "https://quartr.com/events/zalando-se-zal-q3-2026_ojeT6iMr"
+      },
+      {
+        "label": "FashionUnited Q3 2026",
+        "url": "https://fashionunited.com/news/business/zalando-increases-quarterly-revenue-by-5-percent/2026110375524"
+      },
+      {
+        "label": "Zalando corporate site",
+        "url": "https://corporate.zalando.com/en/node/10838"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "HHH": {
+    "ticker": "HHH",
+    "company": "Howard Hughes Holdings Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Howard Hughes is turning into a Pershing Square-chaired diversified holding company (Bill Ackman is chairman). Its anchor is Vantage, a Bermuda specialty insurance and reinsurance group bought in June 2026 for about USD 2.1B. It also owns master-planned communities (MPCs): Summerlin (Las Vegas), The Woodlands and Bridgeland (Houston), Columbia (Maryland) and Teravalis (Phoenix). HHH sells residential and commercial land to homebuilders, earns rental NOI from office, retail and multifamily assets, and sells Ward Village condos in Honolulu.",
+    "revenue_mix": [
+      {
+        "segment": "Vantage insurance and reinsurance net earned premiums (Q3 2026, approx)",
+        "share_pct": 55,
+        "trend": "growing"
+      },
+      {
+        "segment": "MPC land sales (Q3 2026, approx)",
+        "share_pct": 23,
+        "trend": "declining"
+      },
+      {
+        "segment": "Operating Assets rents (office, retail, multifamily; approx)",
+        "share_pct": 21,
+        "trend": "growing"
+      },
+      {
+        "segment": "Condominium sales - Ward Village (Q3 2026, lumpy; approx)",
+        "share_pct": 1,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States real estate - Texas, Nevada, Hawaii, Maryland, Arizona (approx)",
+        "share_pct": 45
+      },
+      {
+        "region": "Vantage global specialty and reinsurance risks - Bermuda, US, London (approx)",
+        "share_pct": 55
+      }
+    ],
+    "end_markets": [
+      "US homebuilder land demand in Sunbelt MPCs",
+      "Specialty insurance and property reinsurance",
+      "Commercial real estate (office, retail, multifamily) in owned MPCs",
+      "Luxury Honolulu condominiums"
+    ],
+    "top_competitors": [
+      "Five Point Holdings and St. Joe (MPC land)",
+      "Forestar (lot development)",
+      "Arch Capital, Everest and RenaissanceRe (reinsurance)",
+      "Markel and Hiscox (specialty insurance)"
+    ],
+    "moat": {
+      "type": "Scarce entitled land bank plus a permanent-capital insurance float",
+      "narrative": "HHH controls zoning and supply inside its MPCs, which hold low-cost-basis land in fast-growing Sunbelt metros. Land pricing rose about 18% year on year. Adding Vantage's float creates a Berkshire-style structure in which investment income and land cash flows are redeployed by Pershing Square. The insurance moat itself is ordinary, since Vantage is a mid-sized specialty carrier in a softening market."
+    },
+    "key_customers": [
+      "Homebuilders buying MPC lots (for example Lennar, Toll Brothers and Taylor Morrison; not individually disclosed)",
+      "Office and retail tenants at The Woodlands and Downtown Summerlin",
+      "Vantage cedents and brokers",
+      "Ward Village condo buyers"
+    ],
+    "key_risks": [
+      "Softening reinsurance cycle: Vantage gross written premium growth slowed to 4% from 29%, and reinsurance premiums fell 9%",
+      "Catastrophe losses (hurricane and Gulf Coast exposure) on Vantage's property book",
+      "Housing slowdown cutting land velocity (Bridgeland net new home sales down 9%)",
+      "Key-person, governance and fee dependence on Pershing Square",
+      "Leverage: about USD 5.7B of mortgages and notes"
+    ],
+    "sources": [
+      {
+        "label": "HHH Q3 2026 earnings release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001981792/000162828026071028/hhhearningsreleaseq32026.htm"
+      },
+      {
+        "label": "Latham & Watkins on the completed Vantage acquisition",
+        "url": "https://www.lw.com/en/news/2026/06/latham-watkins-advises-howard-hughes-holdings-on-completed-acquisition-of-vantage-group-holdings"
+      },
+      {
+        "label": "HHH Q3 2026 analysis",
+        "url": "https://finviz.com/news/418544/howard-hughes-beats-on-adjusted-eps-but-vantages-slowing-premiums-and-weaker-real-estate-velocity-complicate-the-holding-company-pivot"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "REGN": {
+    "ticker": "REGN",
+    "company": "Regeneron Pharmaceuticals, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Regeneron discovers and sells antibody medicines. Its own products include EYLEA HD and EYLEA (retinal disease), Libtayo (cancer), Praluent (cholesterol) and Evkeeza. Most profit, however, comes from a 50/50 global profit share with Sanofi on Dupixent (atopic dermatitis, asthma, COPD and more), Kevzara and new antibodies. It also books a profit share from Bayer on ex-US EYLEA sales. Revenue was USD 5.1B in Q3 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Sanofi collaboration revenue (Dupixent, Kevzara profit share; Q3 2026)",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Net product sales (EYLEA HD/EYLEA, Libtayo, Praluent, Evkeeza; Q3 2026)",
+        "share_pct": 35,
+        "trend": "growing"
+      },
+      {
+        "segment": "Bayer collaboration (ex-US EYLEA profit share; Q3 2026)",
+        "share_pct": 5,
+        "trend": "declining"
+      },
+      {
+        "segment": "Other revenue",
+        "share_pct": 6,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 70
+      },
+      {
+        "region": "Rest of world (approx)",
+        "share_pct": 30
+      }
+    ],
+    "end_markets": [
+      "Type 2 inflammation (atopic dermatitis, asthma, COPD, EoE, CSU)",
+      "Retinal disease (wet AMD, DME)",
+      "Oncology (skin cancers, lung, blood cancers)",
+      "Cardiovascular and rare disease"
+    ],
+    "top_competitors": [
+      "Roche (Vabysmo in retina)",
+      "Amgen (Pavblu EYLEA biosimilar) and other biosimilars",
+      "Eli Lilly (Ebglyss) and AbbVie (Rinvoq) in atopic dermatitis",
+      "AstraZeneca/Amgen (Tezspire) in asthma and COPD",
+      "Merck (Keytruda) in oncology"
+    ],
+    "moat": {
+      "type": "Proprietary antibody discovery engine plus the Dupixent franchise",
+      "narrative": "VelocImmune mice and the Regeneron Genetics Center, which holds sequenced data on about 2M+ people, produce fully human antibodies faster and with high clinical hit rates. That engine yielded Dupixent, now about USD 26B annualized, with US composition patents into the early 2030s. Sanofi's October 2026 expansion, with USD 1B upfront and up to USD 7B in milestones, shows that partners pay for access to the platform."
+    },
+    "key_customers": [
+      "Sanofi (partner; about half of revenue via collaboration)",
+      "Bayer (ex-US EYLEA partner)",
+      "US wholesalers McKesson, Cencora and Cardinal Health",
+      "Retina specialists and oncologists"
+    ],
+    "key_risks": [
+      "EYLEA franchise erosion: EYLEA -49% to USD 658M as biosimilars and Vabysmo take share; the combined franchise is down 11%",
+      "US drug pricing: Medicare negotiation under the IRA and most-favored-nation policy",
+      "Dupixent competition from oral JAKs, Lilly's Ebglyss and next-generation long-acting antibodies, with a patent cliff around 2031",
+      "Pipeline binary events (cemdisiran gMG decision, odronextamab Feb-2027 PDUFA, obesity and Factor XI programs)"
+    ],
+    "sources": [
+      {
+        "label": "Regeneron Q3 2026 results (8-K Ex-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000032/exhibit991q32026.htm"
+      },
+      {
+        "label": "Zacks: REGN Q3 beat",
+        "url": "https://www.zacks.com/stock/news/3019989/regn-q3-earnings-beat-on-dupixent-profits-&-eylea-hd-growth,-stock-up"
+      },
+      {
+        "label": "Wikipedia Regeneron",
+        "url": "https://en.wikipedia.org/wiki/Regeneron_Pharmaceuticals"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "PVH": {
+    "ticker": "PVH",
+    "company": "PVH Corp.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "PVH owns two global apparel brands, Tommy Hilfiger and Calvin Klein, after selling its US heritage brands. It sells through its own stores and e-commerce (DTC), wholesale to department stores and online retailers, and licenses the brands for fragrance, eyewear, watches and some US categories. Europe is its largest region, at almost half of sales. Revenue is about USD 8.5-9B a year.",
+    "revenue_mix": [
+      {
+        "segment": "Tommy Hilfiger (Q2 FY26)",
+        "share_pct": 54,
+        "trend": "stable"
+      },
+      {
+        "segment": "Calvin Klein (Q2 FY26)",
+        "share_pct": 44,
+        "trend": "declining"
+      },
+      {
+        "segment": "Other / licensing-related (approx)",
+        "share_pct": 2,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "EMEA (Q2 FY26)",
+        "share_pct": 47
+      },
+      {
+        "region": "Americas (Q2 FY26)",
+        "share_pct": 32
+      },
+      {
+        "region": "Asia-Pacific (Q2 FY26)",
+        "share_pct": 16
+      },
+      {
+        "region": "Licensing (Q2 FY26)",
+        "share_pct": 4
+      }
+    ],
+    "end_markets": [
+      "Premium casual apparel and denim",
+      "Underwear and intimates (Calvin Klein)",
+      "Accessories and licensed fragrance and eyewear",
+      "European wholesale and department stores"
+    ],
+    "top_competitors": [
+      "Ralph Lauren",
+      "Hugo Boss",
+      "Tapestry",
+      "Levi Strauss",
+      "Lacoste",
+      "Inditex"
+    ],
+    "moat": {
+      "type": "Brand equity with moderate pricing power",
+      "narrative": "Tommy Hilfiger and Calvin Klein are two of only a handful of US-origin apparel brands with global scale (each is about USD 4B or more at retail). Calvin Klein underwear is a category leader. Through its PVH+ plan the company runs a global licensing and wholesale engine. The moat is not structural: both brands have lost heat in US wholesale, and fashion relevance must be re-earned each season."
+    },
+    "key_customers": [
+      "European wholesale partners (for example Zalando, El Corte Ingles and Galeries Lafayette)",
+      "US department stores (Macy's)",
+      "Amazon and digital marketplaces",
+      "Licensees (for example G-III Apparel in the US, now being transitioned)"
+    ],
+    "key_risks": [
+      "Tariffs on Asian-sourced apparel; a USD 107M tariff refund flattered Q2 FY26 gross margin",
+      "Europe wholesale weakness (EMEA -6% in Q2), including Middle East conflict effects",
+      "China's MOFCOM placed PVH on its unreliable entity list in 2025, putting the China business at risk",
+      "Calvin Klein revenue fell 7% in Q2, and the North America license transitions (G-III) weigh on licensing"
+    ],
+    "sources": [
+      {
+        "label": "Zacks: PVH Q2 FY26",
+        "url": "https://www.zacks.com/stock/news/2984505/pvh-corp-q2-earnings-beat-on-tariff-refunds-revenues-in-line"
+      },
+      {
+        "label": "PVH Q3 2026 earnings date notice",
+        "url": "https://finviz.com/news/425235/pvh-corp-to-host-conference-call-to-discuss-third-quarter-2026-earnings-results"
+      },
+      {
+        "label": "Wikipedia PVH",
+        "url": "https://en.wikipedia.org/wiki/PVH_(company)"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "KVYO": {
+    "ticker": "KVYO",
+    "company": "Klaviyo, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Klaviyo sells a B2C CRM to consumer brands, mainly e-commerce merchants on Shopify. It combines a customer data platform with email, SMS and push marketing, AI marketing and customer-service agents, analytics and a helpdesk. Customers pay a subscription priced by contact count and messaging volume. It has 211,000+ customers, and revenue was USD 387M in Q3 2026 (+25%).",
+    "revenue_mix": [
+      {
+        "segment": "Subscription - Marketing (email, SMS, push), Service, Analytics, CDP (product split not disclosed; approx)",
+        "share_pct": 100,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 70
+      },
+      {
+        "region": "EMEA and APAC (approx; grew 32% in Q3 2026)",
+        "share_pct": 30
+      }
+    ],
+    "end_markets": [
+      "E-commerce and direct-to-consumer brands",
+      "Mid-market and enterprise retailers",
+      "Shopify, WooCommerce and Wix merchant ecosystems"
+    ],
+    "top_competitors": [
+      "Mailchimp (Intuit)",
+      "Attentive (SMS)",
+      "Salesforce Marketing Cloud",
+      "Braze",
+      "Omnisend",
+      "Shopify Email"
+    ],
+    "moat": {
+      "type": "Data-layer switching costs plus Shopify ecosystem position",
+      "narrative": "Klaviyo stores each merchant's full customer event history (orders, browsing, messages). Its predictive models and flows are built on that data, so switching means rebuilding segmentation and automations. Shopify is a strategic partner and shareholder (warrants for 15.7M shares at USD 88.93) and features Klaviyo as its recommended marketing app. Moving upmarket against Salesforce and Braze tests whether the moat holds at enterprise scale."
+    },
+    "key_customers": [
+      "211,000+ customers",
+      "4,725 customers with over USD 50K ARR (+33%)",
+      "105 customers with over USD 500K ARR (+57%)",
+      "Shopify (strategic partner)"
+    ],
+    "key_risks": [
+      "Growth deceleration: the Q4 guide implies about 21% versus 25% in Q3; no 2027 outlook yet",
+      "NRR slipped to 108%",
+      "Dependence on the Shopify ecosystem and partnership terms",
+      "AI agents and platform-native tools (Shopify Email, Meta) commoditizing email and SMS",
+      "SMS regulation (TCPA) and carrier fee increases; GAAP operating loss persists"
+    ],
+    "sources": [
+      {
+        "label": "Klaviyo Q3 2026 earnings release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001835830/000183583026000045/confidentialfiscalq32026ea.htm"
+      },
+      {
+        "label": "Klaviyo Q3 2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001835830/000183583026000046/kvyo-20260930.htm"
+      },
+      {
+        "label": "Q3 2026 analysis",
+        "url": "https://finviz.com/news/416356/klaviyo-beats-and-raises-again-but-a-21-q4-guide-slipping-nrr-and-a-missing-2027-outlook-keep-the-deceleration-story-front-and-center"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "GIVN.SW": {
+    "ticker": "GIVN.SW",
+    "company": "Givaudan SA",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Givaudan is the world's largest flavour and fragrance house, with roughly a quarter of the global market. It creates bespoke flavours, taste solutions and nutrition ingredients for food and beverage makers (Taste & Wellbeing). It also creates fine fragrances, consumer-product scents, fragrance ingredients and active cosmetic ingredients (Fragrance & Beauty). Customers pay per kilo for formulations that end up in their products. Sales were CHF 5.89B in 9M 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Fragrance & Beauty (9M 2026)",
+        "share_pct": 53,
+        "trend": "growing"
+      },
+      {
+        "segment": "Taste & Wellbeing (9M 2026)",
+        "share_pct": 47,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Europe (approx)",
+        "share_pct": 30
+      },
+      {
+        "region": "North America (approx)",
+        "share_pct": 22
+      },
+      {
+        "region": "Asia-Pacific (approx)",
+        "share_pct": 24
+      },
+      {
+        "region": "Latin America (approx)",
+        "share_pct": 11
+      },
+      {
+        "region": "South Asia, Africa & Middle East (approx)",
+        "share_pct": 13
+      }
+    ],
+    "end_markets": [
+      "Packaged food, beverages and snacks",
+      "Fine fragrance (prestige perfume)",
+      "Home and personal care consumer products",
+      "Cosmetic active ingredients"
+    ],
+    "top_competitors": [
+      "DSM-Firmenich",
+      "IFF",
+      "Symrise",
+      "Kerry (taste)",
+      "Takasago"
+    ],
+    "moat": {
+      "type": "Core-list supplier positions and embedded formulations",
+      "narrative": "Givaudan sits on the limited supplier core lists of Nestle, Unilever, P&G and L'Oreal. Its flavours and fragrances are co-developed, regulatory-filed and consumer-tested in the final product. Reformulating a flavour or scent is risky and costly for less than 1% of the customer's product cost, so incumbency is very sticky. Scale in perfumers, flavourists and naturals sourcing (for example vanilla and patchouli) keeps share in a four-player oligopoly."
+    },
+    "key_customers": [
+      "Nestle",
+      "Unilever",
+      "Procter & Gamble",
+      "L'Oreal",
+      "PepsiCo and Coca-Cola system bottlers (not individually disclosed)"
+    ],
+    "key_risks": [
+      "Strong Swiss franc: currency cost about 4 points of growth in both divisions in 9M 2026",
+      "North America Taste & Wellbeing weakness (-3.3% LFL), including US tariff refunds to customers",
+      "Fine-fragrance boom (+15% LFL) may normalize after several years of very high growth",
+      "Ongoing EU, UK, US and Swiss antitrust investigation into fragrance pricing (dawn raids in 2023)",
+      "Raw-material and naturals input-cost inflation that requires price pass-through"
+    ],
+    "sources": [
+      {
+        "label": "Givaudan 9M 2026 sales (Indian Chemical News)",
+        "url": "https://www.indianchemicalnews.com/general/givaudan-sales-growth-accelerates-to-52-in-first-nine-months-of-2026-32277"
+      },
+      {
+        "label": "Givaudan Q3 2026 organic growth (bluewin)",
+        "url": "https://www.bluewin.ch/en/news/givaudan-accelerates-organic-growth-in-the-third-quarter-li.3633592"
+      },
+      {
+        "label": "Wikipedia Givaudan",
+        "url": "https://en.wikipedia.org/wiki/Givaudan"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "KGF.L": {
+    "ticker": "KGF.L",
+    "company": "Kingfisher plc",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Kingfisher is Europe's second-largest home-improvement retailer, behind Adeo/Leroy Merlin. Its banners are B&Q and Screwfix (UK and Ireland), Castorama and Brico Depot (France), Castorama (Poland) and Brico Depot (Iberia), plus a stake in Koctas in Turkey. It earns retail margin on DIY, trade and garden products, a growing share of them exclusive own brands, plus marketplace commissions and retail media. Sales are about GBP 12.8B a year.",
+    "revenue_mix": [
+      {
+        "segment": "B&Q (approx)",
+        "share_pct": 30,
+        "trend": "stable"
+      },
+      {
+        "segment": "Screwfix UK (approx)",
+        "share_pct": 22,
+        "trend": "growing"
+      },
+      {
+        "segment": "Castorama France (approx)",
+        "share_pct": 15,
+        "trend": "declining"
+      },
+      {
+        "segment": "Brico Depot France (approx)",
+        "share_pct": 15,
+        "trend": "declining"
+      },
+      {
+        "segment": "Castorama Poland (approx)",
+        "share_pct": 15,
+        "trend": "stable"
+      },
+      {
+        "segment": "Brico Depot Iberia and other (approx)",
+        "share_pct": 3,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "UK & Ireland (approx)",
+        "share_pct": 52
+      },
+      {
+        "region": "France (approx)",
+        "share_pct": 30
+      },
+      {
+        "region": "Poland (approx)",
+        "share_pct": 15
+      },
+      {
+        "region": "Other International - Iberia (approx)",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "DIY home improvement",
+      "Trade and tradesperson supplies (Screwfix, TradePoint)",
+      "Garden and outdoor",
+      "Kitchens and bathrooms"
+    ],
+    "top_competitors": [
+      "Adeo (Leroy Merlin)",
+      "Wickes",
+      "Toolstation / Travis Perkins",
+      "OBI",
+      "Amazon",
+      "Les Mousquetaires (Bricomarche)"
+    ],
+    "moat": {
+      "type": "Scale buying and own-brand sourcing, plus Screwfix trade convenience",
+      "narrative": "Screwfix's 900+ UK compact stores with minute-level click-and-collect make it the default for tradespeople, and it grew 6.9% LFL in a declining market. Group-level own exclusive brands (GoodHome, Erbauer, Magnusson) and pooled sourcing give gross-margin advantages that smaller DIY chains lack. B&Q and the French banners compete mostly on price and location, with limited structural moat."
+    },
+    "key_customers": [
+      "UK tradespeople (Screwfix, TradePoint)",
+      "DIY homeowners in the UK, France and Poland",
+      "Marketplace third-party sellers on B&Q and Castorama"
+    ],
+    "key_risks": [
+      "French home-improvement market in decline (Brico Depot -5.3% LFL in Q3)",
+      "UK consumer and housing softness (B&Q -1.0% LFL)",
+      "UK labour-cost inflation (employer NI and National Living Wage increases)",
+      "Competitive intensity from Amazon and Adeo, and integration of space from Homebase's collapse",
+      "Stretched expectations: shares fell about 3% despite the guidance upgrade"
+    ],
+    "sources": [
+      {
+        "label": "Kingfisher Q3 FY26/27 trading update (RNS via TradingView)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-11-24:newsml_RSX3297Ea:0-reg-kingfisher-plc-q3-trading-update/"
+      },
+      {
+        "label": "UK Investor Magazine on Q3",
+        "url": "https://ukinvestormagazine.co.uk/kingfisher-shares-drop-despite-upgrading-profit-guidance/"
+      },
+      {
+        "label": "Kingfisher Annual Report 2025/26",
+        "url": "https://www.kingfisher.com/~/media/Files/K/Kingfisher-Plc/Universal/investors/result-reports-presentation/2026/2526-annual-report-and-accounts.pdf"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "ALLE": {
+    "ticker": "ALLE",
+    "company": "Allegion plc",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Weekly refresh",
+    "company_overview": "Allegion makes mechanical and electronic security products for doors: Schlage locks, Von Duprin exit devices, LCN door closers, Steelcraft doors and frames, and electronic access and credentials. It sells mainly to US non-residential buildings (schools, hospitals, offices, government) through specification-driven distribution channels, with a smaller residential Schlage business and an International segment (CISA, Interflex). Revenue was USD 1.17B in Q3 2026.",
+    "revenue_mix": [
+      {
+        "segment": "Allegion Americas (Q3 2026)",
+        "share_pct": 80,
+        "trend": "growing"
+      },
+      {
+        "segment": "Allegion International (Q3 2026)",
+        "share_pct": 20,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas - mostly United States (Q3 2026)",
+        "share_pct": 80
+      },
+      {
+        "region": "International - Europe, Australia/NZ, Asia (Q3 2026)",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "US institutional non-residential (education, healthcare, government)",
+      "Commercial offices and multifamily",
+      "Residential (Schlage locks and smart locks)",
+      "Electronic access control and workforce time systems (International)"
+    ],
+    "top_competitors": [
+      "ASSA ABLOY (Sargent, Corbin Russwin, HID)",
+      "dormakaba",
+      "Fortune Brands (Yale/August)",
+      "Spectrum and Kwikset (ASSA ABLOY)",
+      "Hager Companies"
+    ],
+    "moat": {
+      "type": "Specification lock-in plus installed-base aftermarket",
+      "narrative": "Architects and security consultants write Von Duprin, LCN and Schlage part numbers into building specifications. Fire and life-safety code certification and master-key systems then tie the building owner to Allegion for decades of replacement and upgrade demand. Electronic access conversions such as mobile credentials extend this with recurring software. Effectively a US duopoly with ASSA ABLOY."
+    },
+    "key_customers": [
+      "Security and door-hardware distributors and locksmith wholesalers (not individually disclosed)",
+      "Institutional end users (universities, hospital systems, K-12 districts)",
+      "Home Depot and Lowe's (Schlage residential)"
+    ],
+    "key_risks": [
+      "US non-residential construction cycle; institutional strength is now carrying growth",
+      "Steel, zinc and brass input costs and tariffs",
+      "International organic revenue -0.2% in Q3 (European volume weakness)",
+      "Residential housing softness affecting Schlage",
+      "Acquisition integration (2.6% revenue contribution in Q3)"
+    ],
+    "sources": [
+      {
+        "label": "Allegion Q3 2026 press release (8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001579241/000157924126000032/exhibit991-pressreleasedat.htm"
+      },
+      {
+        "label": "Zacks: ALLE Q3 beat",
+        "url": "https://www.zacks.com/stock/news/3013122/alle-q3-earnings-beat-on-americas-strength-outlook-raised"
+      },
+      {
+        "label": "Wikipedia Allegion",
+        "url": "https://en.wikipedia.org/wiki/Allegion"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "HOG": {
+    "ticker": "HOG",
+    "company": "Harley-Davidson, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Harley-Davidson designs and sells heavyweight (601cc+) motorcycles, plus parts, accessories, apparel and licensing, through roughly 1,200 independent dealers worldwide (HDMC segment). Harley-Davidson Financial Services (HDFS) provides retail and wholesale financing and insurance to riders and dealers, now on an asset-light model after selling most retail receivables in 2025. A majority-owned, separately listed subsidiary, LiveWire, makes electric motorcycles.",
+    "revenue_mix": [
+      {
+        "segment": "Harley-Davidson Motor Company (HDMC: motorcycles, P&A, apparel, licensing), Q3 2026",
+        "share_pct": 89,
+        "trend": "declining"
+      },
+      {
+        "segment": "Harley-Davidson Financial Services (HDFS), Q3 2026",
+        "share_pct": 10,
+        "trend": "declining"
+      },
+      {
+        "segment": "LiveWire (electric motorcycles), Q3 2026",
+        "share_pct": 1,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx, by Q3 2026 retail units)",
+        "share_pct": 71
+      },
+      {
+        "region": "EMEA (approx, retail units)",
+        "share_pct": 13
+      },
+      {
+        "region": "Asia-Pacific (approx, retail units)",
+        "share_pct": 13
+      },
+      {
+        "region": "Latin America (approx, retail units)",
+        "share_pct": 3
+      }
+    ],
+    "end_markets": [
+      "US heavyweight touring and cruiser motorcycles",
+      "Parts, accessories and riding apparel",
+      "Consumer motorcycle finance and insurance",
+      "Brand licensing",
+      "Electric motorcycles (LiveWire)"
+    ],
+    "top_competitors": [
+      "Polaris (Indian Motorcycle, sold to Carolwood in 2025)",
+      "BMW Motorrad",
+      "Honda",
+      "Triumph",
+      "Royal Enfield / Hero MotoCorp (mid-weight; Hero builds the X440)"
+    ],
+    "moat": {
+      "type": "Iconic brand + exclusive dealer network",
+      "narrative": "Harley holds about half of the US heavyweight market thanks to a 120-year brand that supports premium pricing, high-margin P&A and licensing, and an exclusive dealer network that rivals cannot easily copy. The moat is narrowing because the core rider base is aging and the brand has not translated to younger or electric buyers."
+    },
+    "key_customers": [
+      "US retail riders (about 2/3 of retail units)",
+      "~1,200 independent dealers worldwide (wholesale customers)",
+      "HDFS retail loan borrowers and dealer floorplan"
+    ],
+    "key_risks": [
+      "Aging core rider base and weak younger demand. FY2026 HDMC operating income guided at only USD 25-55M",
+      "US tariffs on inputs and retaliatory EU/China/ASEAN tariffs on US-built bikes",
+      "LiveWire has withdrawn guidance and disclosed substantial doubt about its ability to continue as a going concern",
+      "HDFS earnings structurally lower after the receivables sale (Q3 HDFS operating income USD 11M versus USD 439M)",
+      "CEO transition (Artie Starrs) and Back to the Bricks reset carry execution risk"
+    ],
+    "sources": [
+      {
+        "label": "Harley-Davidson Q3 2026 8-K exhibit 99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000793952/000079395226000065/a8kq32026exhibit991.htm"
+      },
+      {
+        "label": "Benzinga: Q3 results and guidance raise",
+        "url": "https://www.benzinga.com/node/62688824"
+      },
+      {
+        "label": "Wikipedia Harley-Davidson",
+        "url": "https://en.wikipedia.org/wiki/Harley-Davidson"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "VLTO": {
+    "ticker": "VLTO",
+    "company": "Veralto Corporation",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Veralto, spun out of Danaher in 2023, sells water analytics, treatment and chemicals (Hach, Trojan UV, ChemTreat, Aquafine, In-Situ) and product-identification and packaging/color tools (Videojet, Linx marking and coding; Esko, X-Rite, Pantone software and color). About 60% of sales are recurring consumables, service and software (reagents, inks, water-treatment chemicals and subscriptions) that follow the installed base of instruments and printers. It runs the Danaher-style Veralto Enterprise System.",
+    "revenue_mix": [
+      {
+        "segment": "Water Quality (WQ: Hach, Trojan, ChemTreat, In-Situ) (approx)",
+        "share_pct": 61,
+        "trend": "growing"
+      },
+      {
+        "segment": "Product Quality & Innovation (PQI: Videojet, Linx, Esko, X-Rite, Pantone) (approx)",
+        "share_pct": 39,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 50
+      },
+      {
+        "region": "Western Europe (approx)",
+        "share_pct": 25
+      },
+      {
+        "region": "Other developed markets (approx)",
+        "share_pct": 5
+      },
+      {
+        "region": "High-growth markets (approx)",
+        "share_pct": 20
+      }
+    ],
+    "end_markets": [
+      "Municipal drinking and wastewater utilities",
+      "Industrial water treatment (power, data centers, food, refining)",
+      "Consumer packaged goods marking and coding",
+      "Packaging and brand color management",
+      "Pharma and life-sciences packaging"
+    ],
+    "top_competitors": [
+      "Xylem",
+      "Ecolab (Nalco Water)",
+      "Thermo Fisher (water analytics)",
+      "Domino Printing (Brother)",
+      "Markem-Imaje (Dover)"
+    ],
+    "moat": {
+      "type": "Installed base + recurring consumables + regulatory specification",
+      "narrative": "Hach instruments and methods are written into EPA and utility compliance workflows, and Videojet/Linx printers lock customers into proprietary inks, so about 60% of sales are razor-blade recurring revenue with high switching costs. Pantone and Esko are de facto standards in brand color and packaging prepress."
+    },
+    "key_customers": [
+      "US and European municipal water utilities",
+      "Industrial plants (ChemTreat service contracts)",
+      "Global CPG and food and beverage producers (Videojet coders)",
+      "Brand owners and packaging converters (Esko, Pantone)"
+    ],
+    "key_risks": [
+      "Acquisition integration and dilution (USD 1.1B on In-Situ, GlobalVision, Alfaa UV and Cleanwater1 in 2026), with Q4 margin flattening to about 24.5%",
+      "Municipal budget timing and US federal water-funding cuts",
+      "PQI tied to CPG volumes and packaging redesign cycles (core growth only 3.2% in Q3)",
+      "Price-cost pressure from tariffs on imported components",
+      "Europe and China industrial softness"
+    ],
+    "sources": [
+      {
+        "label": "Veralto Q3 2026 8-K exhibit 99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001967680/000196768026000047/vlto-20261029xex991.htm"
+      },
+      {
+        "label": "Veralto Q3 2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001967680/000196768026000048/vlto-20261002.htm"
+      },
+      {
+        "label": "Wikipedia Veralto",
+        "url": "https://en.wikipedia.org/wiki/Veralto"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "EXLS": {
+    "ticker": "EXLS",
+    "company": "ExlService Holdings, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "EXL is a data analytics, AI and digital operations firm that runs and reengineers processes for insurers, health plans, banks and other enterprises, such as claims, payment integrity, underwriting support, collections and finance and accounting. Most delivery is from India and the Philippines. It is paid through multi-year transaction, FTE and outcome-based contracts. Data and AI-led services (analytics, the EXLerate.AI agentic platform, model training via iMerit) are now nearly two-thirds of revenue.",
+    "revenue_mix": [
+      {
+        "segment": "Insurance (Q3 2026)",
+        "share_pct": 33,
+        "trend": "growing"
+      },
+      {
+        "segment": "Healthcare & Life Sciences (Q3 2026)",
+        "share_pct": 25,
+        "trend": "growing"
+      },
+      {
+        "segment": "Banking, Capital Markets & Diversified Industries (Q3 2026)",
+        "share_pct": 24,
+        "trend": "growing"
+      },
+      {
+        "segment": "International Growth Markets (Q3 2026)",
+        "share_pct": 18,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States (approx)",
+        "share_pct": 80
+      },
+      {
+        "region": "United Kingdom (approx)",
+        "share_pct": 10
+      },
+      {
+        "region": "Rest of world (approx)",
+        "share_pct": 10
+      }
+    ],
+    "end_markets": [
+      "P&C and life insurance operations",
+      "US health plan payment integrity",
+      "Banking and consumer lending operations",
+      "Enterprise data engineering and AI",
+      "AI model training and data annotation (iMerit)"
+    ],
+    "top_competitors": [
+      "Genpact",
+      "WNS (Capgemini)",
+      "Cognizant",
+      "Accenture",
+      "EPAM / TaskUs (in data annotation)"
+    ],
+    "moat": {
+      "type": "Domain-specific data and process IP + embedded multi-year contracts",
+      "narrative": "EXL runs core insurance and health plan workflows (claims, subrogation, payment integrity) under multi-year contracts and owns proprietary domain datasets and models, which makes it hard to rip out. Its edge over generalist IT services firms is vertical depth in insurance and healthcare data, not labor arbitrage. Agentic AI could still commoditize the operations half of the business."
+    },
+    "key_customers": [
+      "Top-10 clients about 1/3 of revenue (not named)",
+      "Large US and UK P&C and life insurers",
+      "US health plans (payment services)",
+      "US banks and consumer lenders"
+    ],
+    "key_risks": [
+      "Agentic AI could deflate FTE-based operations revenue",
+      "Adjusted operating margin stalled at about 19.3% despite 20% growth",
+      "Client concentration in US insurance and healthcare",
+      "INR appreciation and wage inflation in India",
+      "Integration of the iMerit acquisition and model-training demand volatility"
+    ],
+    "sources": [
+      {
+        "label": "EXL Q3 2026 8-K press release",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001297989/000129798926000028/exlq326pressrelease.htm"
+      },
+      {
+        "label": "StockStory: EXL Q3 2026",
+        "url": "https://stockstory.org/us/stocks/nasdaq/exls/news/earnings/exl-nasdaqexls-delivers-strong-q3-2026-numbers-full-year-outlook-slightly-exceeds-expectations"
+      },
+      {
+        "label": "Wikipedia EXL Service",
+        "url": "https://en.wikipedia.org/wiki/EXL_Service"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "HAS": {
+    "ticker": "HAS",
+    "company": "Hasbro, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Hasbro owns toy and game brands (Nerf, Play-Doh, Monopoly, Peppa Pig, Transformers, My Little Pony) and makes licensed Marvel and Star Wars toys, sold through retailers, plus out-licensing of its IP. Its Wizards of the Coast unit owns Magic: The Gathering and Dungeons & Dragons, and earns high-margin revenue from trading card sets, digital (MTG Arena) and mobile licensing (Monopoly Go!). Wizards now produces most of company profit.",
+    "revenue_mix": [
+      {
+        "segment": "Consumer Products (toys, games, licensing) (approx, 2026 YTD)",
+        "share_pct": 56,
+        "trend": "stable"
+      },
+      {
+        "segment": "Wizards of the Coast & Digital Gaming (MTG, D&D, Monopoly Go!) (approx, 2026 YTD)",
+        "share_pct": 42,
+        "trend": "growing"
+      },
+      {
+        "segment": "Entertainment (approx)",
+        "share_pct": 2,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 62
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 24
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 7
+      },
+      {
+        "region": "Latin America (approx)",
+        "share_pct": 7
+      }
+    ],
+    "end_markets": [
+      "Trading card games (Magic: The Gathering)",
+      "Mass-market toys and board games",
+      "Digital and mobile gaming licensing",
+      "Tabletop role-playing (D&D)",
+      "Brand licensing and entertainment"
+    ],
+    "top_competitors": [
+      "Mattel",
+      "The Pokemon Company (TCG)",
+      "Konami (Yu-Gi-Oh!)",
+      "Spin Master",
+      "LEGO"
+    ],
+    "moat": {
+      "type": "Owned IP + collectible card game network effects",
+      "narrative": "Magic: The Gathering is a 30-year-old collectible game with network effects (players, stores, tournaments and rules knowledge) and pricing power on sets, now extended by Universes Beyond crossovers (The Hobbit, Marvel). This is a structurally stronger moat than the commoditizing toy business, where retailer concentration and private label limit pricing."
+    },
+    "key_customers": [
+      "Walmart (largest customer, about 15-20% of revenue)",
+      "Target",
+      "Amazon",
+      "Hobby game stores (Magic)",
+      "Scopely (Monopoly Go! licensee)"
+    ],
+    "key_risks": [
+      "Magic set-release concentration and the risk of over-printing or fatigue after record USD 616M Q3 Magic revenue",
+      "US tariffs on China- and Asia-sourced toys (Q3 profit included about USD 55M of one-off tariff refunds)",
+      "Retailer concentration (Walmart, Target, Amazon)",
+      "Monopoly Go! royalty decay",
+      "Pokemon competition in the TCG market"
+    ],
+    "sources": [
+      {
+        "label": "Hasbro Q3 2026 8-K",
+        "url": "https://last10k.com/sec-filings/has/0000046080-26-000058.htm"
+      },
+      {
+        "label": "Merca2.0: Hasbro Q3 2026 detail",
+        "url": "https://www.merca20.com/hasbro-earns-395-million-in-3-months-and-raises-its-2026-forecasts-driven-by-magic-marvel-and-transformers/"
+      },
+      {
+        "label": "Wikipedia Hasbro",
+        "url": "https://en.wikipedia.org/wiki/Hasbro"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "BSY": {
+    "ticker": "BSY",
+    "company": "Bentley Systems, Incorporated",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Bentley sells engineering software for designing, building and operating infrastructure: roads, bridges, rail, water networks, utilities, mines and plants. Products include MicroStation, OpenRoads, STAAD, SYNCHRO, Seequent geoscience software, the iTwin digital-twin platform and the Cesium 3D geospatial platform. More than 90% of revenue is subscriptions, mostly E365 consumption-based enterprise agreements with engineering firms, owner-operators and governments. The Bentley family controls the company via Class A shares.",
+    "revenue_mix": [
+      {
+        "segment": "Subscriptions (Q3 2026)",
+        "share_pct": 92,
+        "trend": "growing"
+      },
+      {
+        "segment": "Professional services (approx)",
+        "share_pct": 5,
+        "trend": "stable"
+      },
+      {
+        "segment": "Perpetual licenses (approx)",
+        "share_pct": 3,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 51
+      },
+      {
+        "region": "EMEA (approx)",
+        "share_pct": 31
+      },
+      {
+        "region": "Asia Pacific (approx)",
+        "share_pct": 18
+      }
+    ],
+    "end_markets": [
+      "Civil infrastructure: roads, bridges and rail",
+      "Water and wastewater networks",
+      "Electric and gas utilities",
+      "Mining and geoscience (Seequent)",
+      "Industrial plants and digital twins"
+    ],
+    "top_competitors": [
+      "Autodesk (Civil 3D, Revit)",
+      "Hexagon",
+      "Trimble",
+      "Dassault Systemes",
+      "Nemetschek"
+    ],
+    "moat": {
+      "type": "Workflow lock-in + infrastructure-specific engineering IP",
+      "narrative": "Infrastructure engineers have decades of project files and standards built on MicroStation/OpenRoads and certified analysis engines (STAAD, PLAXIS), and transport departments often specify Bentley formats, giving very high switching costs (net retention 110%). Autodesk is strong in buildings but less so in heavy civil and geotechnical work."
+    },
+    "key_customers": [
+      "Large engineering firms (AECOM, Jacobs, WSP, Arcadis, Stantec)",
+      "State departments of transportation and national highway agencies",
+      "Utilities and water owner-operators",
+      "Mining companies (Seequent)"
+    ],
+    "key_risks": [
+      "US infrastructure spending after the IIJA expires in FY2026",
+      "China revenue decline and geopolitics (Bentley has de-emphasized China)",
+      "Autodesk push into infrastructure and AI-native design entrants",
+      "Dual-class control by the Bentley family",
+      "Valuation after a 44% pre-report rally"
+    ],
+    "sources": [
+      {
+        "label": "Bentley Q3 2026 8-K exhibit 99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001031308/000103130826000032/a26q3exhibit991.htm"
+      },
+      {
+        "label": "Bentley Q3 2026 press release",
+        "url": "https://www.bentley.com/en/news/bentley-systems-announces-third-quarter-2026-results/"
+      },
+      {
+        "label": "Wikipedia Bentley Systems",
+        "url": "https://en.wikipedia.org/wiki/Bentley_Systems"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "LONN.SW": {
+    "ticker": "LONN.SW",
+    "company": "Lonza Group AG",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Lonza is a Swiss contract development and manufacturing organization (CDMO) that makes drugs for pharma and biotech customers under long-term supply agreements: mammalian biologics (monoclonal antibodies), antibody-drug conjugates and small molecules, cell and gene therapies, and microbial products. Sites include Visp, Portsmouth NH, Singapore and the Vacaville CA plant bought from Roche in 2024. It agreed to sell Capsules & Health Ingredients to Lone Star for CHF 2.3B, making it a pure-play CDMO.",
+    "revenue_mix": [
+      {
+        "segment": "Integrated Biologics (mammalian, drug product) (approx, continuing)",
+        "share_pct": 55,
+        "trend": "growing"
+      },
+      {
+        "segment": "Advanced Synthesis (small molecules, bioconjugates/ADCs) (approx)",
+        "share_pct": 22,
+        "trend": "growing"
+      },
+      {
+        "segment": "Specialized Modalities (cell and gene, microbial, bioscience) (approx)",
+        "share_pct": 23,
+        "trend": "growing"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "North America (approx)",
+        "share_pct": 48
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 40
+      },
+      {
+        "region": "Asia and rest of world (approx)",
+        "share_pct": 12
+      }
+    ],
+    "end_markets": [
+      "Monoclonal antibodies and biologics",
+      "Antibody-drug conjugates (ADCs)",
+      "Small-molecule APIs",
+      "Cell and gene therapy",
+      "GLP-1 / peptides and microbial biologics"
+    ],
+    "top_competitors": [
+      "Samsung Biologics",
+      "WuXi Biologics",
+      "Fujifilm Diosynth",
+      "Thermo Fisher (Patheon)",
+      "Boehringer Ingelheim BioXcellence"
+    ],
+    "moat": {
+      "type": "Scale capacity + regulatory track record + long-term take-or-pay contracts",
+      "narrative": "Commercial-scale biologics capacity takes 4-6 years and billions of CHF to build and qualify, and once a drug is filed with regulators on a Lonza site, switching manufacturers requires costly re-validation. That locks in multi-year revenue. Lonza is one of only a few CDMOs (with Samsung and Fujifilm) with large mammalian scale in both the US and Europe, an advantage amplified by US BIOSECURE restrictions on WuXi."
+    },
+    "key_customers": [
+      "Large pharma (Roche at Vacaville and others, generally not named)",
+      "Vertex (Casgevy cell therapy partner)",
+      "A leading US biopharma under an expanded long-term US mammalian collaboration (unnamed)",
+      "Mid-size and emerging biotech"
+    ],
+    "key_risks": [
+      "Vacaville ramp: Integrated Biologics sales guided flat in 2026 there, with transfer and readiness costs",
+      "CHF strength (2-3% FX headwind on 2026 sales)",
+      "Samsung Biologics and Fujifilm adding large mammalian capacity",
+      "High CapEx (mid-to-high teens percent of sales) weighs on FCF",
+      "Biotech funding cycles and program cancellations in cell and gene"
+    ],
+    "sources": [
+      {
+        "label": "Lonza CMD and Q3 2026 update",
+        "url": "https://live.deutsche-boerse.com/nachrichten/Lonza-Upgrades-Organic-Growth-Model-and-Mid-term-Financial-Ambitions-at-Capital-Markets-Day-Q3-2026-In-Line-with-Expectations-a0f26432-ccc4-47b0-b1db-94f9c178ea53"
+      },
+      {
+        "label": "Lonza H1 2026 results",
+        "url": "https://manufacturingchemist.com/lonza-delivered-strong-h1-2026-performance-across-all"
+      },
+      {
+        "label": "Lonza H1 2026 ad hoc release",
+        "url": "https://www.lonza.com/news/2026-07-22-06-30"
+      },
+      {
+        "label": "Wikipedia Lonza",
+        "url": "https://en.wikipedia.org/wiki/Lonza_Group"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "MTD": {
+    "ticker": "MTD",
+    "company": "Mettler-Toledo International Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Mettler-Toledo makes precision instruments: laboratory balances, pipettes (Rainin), titrators, pH meters and analytical tools. It also makes industrial weighing, product inspection (metal detection, X-ray, checkweighers) and food retail scales. About a third of sales comes from service and consumables on a large installed base. Its Spinnaker sales and marketing system and its pricing discipline support operating margins of about 30%.",
+    "revenue_mix": [
+      {
+        "segment": "Laboratory instruments (approx)",
+        "share_pct": 56,
+        "trend": "growing"
+      },
+      {
+        "segment": "Industrial instruments, incl. product inspection (approx)",
+        "share_pct": 36,
+        "trend": "stable"
+      },
+      {
+        "segment": "Food retail weighing (approx)",
+        "share_pct": 8,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Americas (approx)",
+        "share_pct": 40
+      },
+      {
+        "region": "Europe (approx)",
+        "share_pct": 29
+      },
+      {
+        "region": "China (approx)",
+        "share_pct": 14
+      },
+      {
+        "region": "Rest of Asia and world (approx)",
+        "share_pct": 17
+      }
+    ],
+    "end_markets": [
+      "Pharma and biopharma labs",
+      "Chemicals and materials QA/QC",
+      "Food and beverage manufacturing and inspection",
+      "Logistics and industrial weighing",
+      "Food retail"
+    ],
+    "top_competitors": [
+      "Sartorius (lab balances)",
+      "Thermo Fisher Scientific",
+      "Waters / Agilent (analytical)",
+      "Shimadzu",
+      "Ishida (product inspection)"
+    ],
+    "moat": {
+      "type": "Precision weighing leadership + installed base service + pricing discipline",
+      "narrative": "Mettler is number 1 globally in lab balances and industrial weighing, with balances validated into regulated pharma GMP workflows. That gives switching costs and lets it take about 2-3% annual price. Its service network on the installed base and its data-driven Spinnaker sales engine are hard for fragmented rivals to replicate."
+    },
+    "key_customers": [
+      "Global pharma and biopharma (not individually named)",
+      "Food and beverage manufacturers",
+      "Chemical companies",
+      "Logistics and industrial OEMs"
+    ],
+    "key_risks": [
+      "China (about 14% of sales) demand and local competition",
+      "US tariffs on Swiss and Chinese-made products (one-off IEEPA refunds are distorting 2026 results)",
+      "Biopharma capex and US academic and government funding cuts",
+      "CHF and EUR currency swings",
+      "Premium valuation versus 5% local-currency growth"
+    ],
+    "sources": [
+      {
+        "label": "Mettler-Toledo Q3 2026 8-K exhibit 99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001037646/000103764626000072/ex-991mtd8xkq32026.htm"
+      },
+      {
+        "label": "Zacks: MTD Q3 2026",
+        "url": "https://zacks.com/stock/news/3025359/mettler-toledo-stock-up-on-q3-earnings-revenue-beat-26-view-up"
+      },
+      {
+        "label": "Wikipedia Mettler-Toledo",
+        "url": "https://en.wikipedia.org/wiki/Mettler_Toledo"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "EXEL": {
+    "ticker": "EXEL",
+    "company": "Exelixis, Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Exelixis is an oncology biotech whose revenue comes almost entirely from cabozantinib, sold in the US as CABOMETYX for kidney, liver, thyroid and neuroendocrine cancers. Ipsen (ex-US) and Takeda (Japan) pay it royalties and milestones. It is using that cash flow to develop zanzalintinib, a next-generation multi-kinase inhibitor with an FDA decision date of 3 March 2027 in colorectal cancer, and to fund large buybacks.",
+    "revenue_mix": [
+      {
+        "segment": "CABOMETYX US net product revenue (Q3 2026)",
+        "share_pct": 92,
+        "trend": "growing"
+      },
+      {
+        "segment": "Collaboration revenue: Ipsen and Takeda royalties and milestones (approx)",
+        "share_pct": 8,
+        "trend": "stable"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "United States",
+        "share_pct": 92
+      },
+      {
+        "region": "Ex-US via partner royalties (approx)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Renal cell carcinoma (first and second line, with nivolumab)",
+      "Hepatocellular carcinoma",
+      "Neuroendocrine tumors",
+      "Differentiated thyroid cancer",
+      "Colorectal cancer (zanzalintinib, pending)"
+    ],
+    "top_competitors": [
+      "Merck (Keytruda + Lenvima combinations)",
+      "Bristol Myers Squibb (Opdivo combinations)",
+      "Eisai (lenvatinib)",
+      "Pfizer (axitinib)",
+      "AVEO / LG Chem (tivozanib)"
+    ],
+    "moat": {
+      "type": "Patent-protected franchise drug + franchise extension",
+      "narrative": "CABOMETYX is the leading TKI in renal cell cancer, and the Federal Circuit upheld its patents against MSN, so generic entry is not expected before 15 January 2030. The moat is time-limited. Durability depends on zanzalintinib extending the franchise into colorectal and other tumors before 2030."
+    },
+    "key_customers": [
+      "US specialty pharmacies and distributors (McKesson, Cardinal, AmerisourceBergen)",
+      "Ipsen (ex-US partner)",
+      "Takeda (Japan partner)"
+    ],
+    "key_risks": [
+      "Single-product concentration with a cabozantinib patent cliff in 2030",
+      "Zanzalintinib regulatory risk (PDUFA 3 March 2027) and a modest survival benefit in colorectal cancer",
+      "IRA Medicare price negotiation exposure for CABOMETYX",
+      "Competition from immunotherapy combinations in RCC",
+      "Pipeline and business development execution risk"
+    ],
+    "sources": [
+      {
+        "label": "Exelixis Q3 2026 8-K",
+        "url": "https://last10k.com/sec-filings/exel/0000939767-26-000114.htm"
+      },
+      {
+        "label": "24/7 Wall St: Exelixis Q3 2026",
+        "url": "https://247wallst.com/cards/exelixis-q3-2026-earnings-exel-01m64mstn4gaqssp9vc7qwwkxt"
+      },
+      {
+        "label": "Wikipedia Exelixis",
+        "url": "https://en.wikipedia.org/wiki/Exelixis"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
+  },
+  "VTRS": {
+    "ticker": "VTRS",
+    "company": "Viatris Inc.",
+    "as_of": "2026-11-28",
+    "last_refreshed_reason": "Initial backfill",
+    "company_overview": "Viatris, formed in 2020 from Mylan and Pfizer's Upjohn, sells off-patent branded drugs (Lipitor, Norvasc, Viagra, Lyrica, EpiPen, Creon), generics including complex injectables and inhalers, and new specialty launches (RYZUMVI for presbyopia, WAKIX in Japan) in about 165 countries. Brands are about two-thirds of revenue. Greater China is a growing cash-pay brand market. It is acquiring Pacira BioSciences (non-opioid pain) for about USD 1.65B.",
+    "revenue_mix": [
+      {
+        "segment": "Brands (Q3 2026)",
+        "share_pct": 66,
+        "trend": "stable"
+      },
+      {
+        "segment": "Generics (Q3 2026)",
+        "share_pct": 34,
+        "trend": "declining"
+      }
+    ],
+    "geo_mix": [
+      {
+        "region": "Developed Markets: North America and Europe (Q3 2026)",
+        "share_pct": 59
+      },
+      {
+        "region": "Greater China (Q3 2026)",
+        "share_pct": 19
+      },
+      {
+        "region": "Emerging Markets (Q3 2026)",
+        "share_pct": 14
+      },
+      {
+        "region": "JANZ: Japan, Australia, New Zealand (Q3 2026)",
+        "share_pct": 8
+      }
+    ],
+    "end_markets": [
+      "Cardiovascular (Lipitor, Norvasc)",
+      "Central nervous system and pain (Lyrica)",
+      "Allergy and anaphylaxis (EpiPen)",
+      "Generics and complex injectables",
+      "Eye care and specialty (RYZUMVI)"
+    ],
+    "top_competitors": [
+      "Teva",
+      "Sandoz",
+      "Sun Pharma",
+      "Dr. Reddy's",
+      "Organon"
+    ],
+    "moat": {
+      "type": "Scale and global distribution of off-patent brands, not structural",
+      "narrative": "Viatris has a mature, cash-generative portfolio of off-patent brands with residual brand loyalty in China and emerging markets and a broad global manufacturing and regulatory footprint. Generic pricing is commodity-like and erodes every year, so the defensibility is distribution scale and cash flow rather than IP. Any moat must come from the new specialty pipeline and Pacira."
+    },
+    "key_customers": [
+      "US wholesalers (McKesson, Cencora, Cardinal Health)",
+      "European national tender systems",
+      "Chinese hospitals and retail pharmacies",
+      "Japanese hospitals"
+    ],
+    "key_risks": [
+      "Nashik (India) plant rated OAI by the FDA, with production suspended until Q1 2027 and about USD 100M of revenue lost per quarter",
+      "Generic price erosion and tender losses in Europe and Japan (JANZ -5% operational)",
+      "Pacira integration and acquisition-driven leverage (gross leverage 2.9x)",
+      "China volume-based procurement policy",
+      "Pipeline execution: meloxicam, selatogrel, cenerimod"
+    ],
+    "sources": [
+      {
+        "label": "Viatris Q3 2026 8-K exhibit 99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001792044/000179204426000053/exhibit991-3q26earningsrel.htm"
+      },
+      {
+        "label": "Viatris Q3 2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001792044/000179204426000057/vtrs-20260930.htm"
+      },
+      {
+        "label": "Wikipedia Viatris",
+        "url": "https://en.wikipedia.org/wiki/Viatris"
+      }
+    ],
+    "last_refreshed": "2026-11-28"
   }
 }

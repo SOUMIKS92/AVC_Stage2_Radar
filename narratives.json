@@ -3045,13 +3045,13 @@
     "New-product (governance/PAM) bookings mix"
    ],
    "statement": "Okta is breaking out after a Q1 FY2027 beat (revenue $765M, EPS $0.91 vs $0.85 est) with net retention inflecting back up to 107% and a raised FY27 revenue guide.",
-   "conviction": "Medium",
+   "conviction": "Low",
    "target": {
-    "bear": 106.78,
-    "base": 161.46,
-    "bull": 221.31,
-    "base_upside_pct": -22.47,
-    "bull_upside_pct": 6.27
+    "bear": 105.08,
+    "base": 146.82,
+    "bull": 186.06,
+    "base_upside_pct": -29.23,
+    "bull_upside_pct": -10.32
    },
    "falsifier": "Microsoft Entra ID bundled into E5/M365 pressures Workforce pricing"
   }
@@ -3183,11 +3183,11 @@
    "statement": "SN posted its 13th straight quarter of double-digit growth — Q2 net sales +22.2% to $1.77B, adjusted EPS +29.9% to $1.26 — and sharply raised full-year guidance on Ninja Luxe Cafe, skincare and international momentum, plus $247M of accepted US tariff-refund claims.",
    "conviction": "Medium",
    "target": {
-    "bear": 172.49,
-    "base": 196.73,
-    "bull": 225.94,
-    "base_upside_pct": 2.88,
-    "bull_upside_pct": 18.15
+    "bear": 157.67,
+    "base": 181.58,
+    "bull": 210.3,
+    "base_upside_pct": -23.38,
+    "bull_upside_pct": -11.26
    },
    "falsifier": "Growth hinges on continuous hit products; a cold cycle re-rates it down"
   }
@@ -3521,13 +3521,13 @@
     "NHP supply-chain and regulatory developments"
    ],
    "statement": "CRL is breaking out on a demand-recovery beat: Q2 (5 Aug) topped estimates (EPS $3.02 vs ~$2.74, rev ~$1.0B) with its Discovery & Safety Assessment segment booking its highest net book-to-bill in nearly four years, and FY26 EPS guidance raised ~$0.25 at the midpoint.",
-   "conviction": "Medium",
+   "conviction": "Low",
    "target": {
-    "bear": 212.84,
-    "base": 311.17,
-    "bull": 396.4,
-    "base_upside_pct": -13.42,
-    "bull_upside_pct": 10.29
+    "bear": 193.0,
+    "base": 289.65,
+    "bull": 360.79,
+    "base_upside_pct": -14.15,
+    "bull_upside_pct": 6.94
    },
    "falsifier": "Recovery bookings-led; FY26 organic revenue still only flat to +1%"
   }
@@ -4105,11 +4105,11 @@
    "statement": "Momentum stems from a Q1 FY27 beat (May 28: comps +2%, adjusted EPS +11%) that management deliberately did not flow through to guidance — the implied Q2 deceleration is Switch 2 and Windows-10 lap math, not demand rollover, with May comps running high-single-digit.",
    "conviction": "Medium",
    "target": {
-    "bear": 95.33,
-    "base": 142.39,
-    "bull": 207.5,
-    "base_upside_pct": 68.51,
-    "bull_upside_pct": 145.56
+    "bear": 97.06,
+    "base": 114.83,
+    "bull": 147.7,
+    "base_upside_pct": 10.23,
+    "bull_upside_pct": 41.77
    },
    "falsifier": "Tariffs plus memory-cost inflation risk demand destruction from price hikes"
   }
@@ -4923,10 +4923,10 @@
    "conviction": "High",
    "target": {
     "bear": 45.0,
-    "base": 138.37,
-    "bull": 251.0,
-    "base_upside_pct": -37.59,
-    "bull_upside_pct": 13.21
+    "base": 163.74,
+    "bull": 305.0,
+    "base_upside_pct": -28.39,
+    "bull_upside_pct": 33.4
    },
    "falsifier": "Q2 2026 net loss of $782m on just $145m of revenue"
   }
@@ -5280,13 +5280,13 @@
     "Christmas trading update in January 2027 - the make-or-break UK LFL print"
    ],
    "statement": "The shares are 246.8p, 76% above the 140p 52-week low, 16% above the 50-day moving average of 213.64p and 35% above the 200-day at 183.28p - a textbook Stage 2 base breakout off a distress low, though still short of the 269.3p 52-week high.",
-   "conviction": "Medium",
+   "conviction": "High",
    "target": {
-    "bear": 205.86,
-    "base": 263.58,
-    "bull": 323.7,
-    "base_upside_pct": -4.29,
-    "bull_upside_pct": 17.54
+    "bear": 266.7,
+    "base": 336.86,
+    "bull": 399.66,
+    "base_upside_pct": -3.03,
+    "bull_upside_pct": 15.04
    },
    "falsifier": "UK LFL still -2.3% in Q1 FY27; the turnaround has not turned"
   }
@@ -5424,11 +5424,11 @@
    "statement": "The stock gapped roughly 17% on the 26-Aug Q2 FY26 print: $4.17 EPS on the back of a ~$100m IEEPA tariff refund, with FY26 EPS guidance raised about 30% from $10.20-11.00 to $13.10-13.60 and operating margin from 12.0-12.5% to 14.5-15.0%.",
    "conviction": "Medium",
    "target": {
-    "bear": 138.04,
-    "base": 164.85,
-    "bull": 187.88,
-    "base_upside_pct": 0.25,
-    "bull_upside_pct": 14.25
+    "bear": 170.73,
+    "base": 199.16,
+    "bull": 253.03,
+    "base_upside_pct": 7.98,
+    "bull_upside_pct": 37.2
    },
    "falsifier": "~790bps of the ~990bps margin beat was a one-time tariff refund"
   }
@@ -6083,13 +6083,13 @@
     "Further fleet optimization (newbuild deliveries, older-vessel divestitures)"
    ],
    "statement": "Hafnia posted its strongest quarter since Q3 2022 (net profit $277.8M) as Persian Gulf/Red Sea disruptions and Panama Canal tightening pushed product-tanker rates well above trend, with Q3 already 80%",
-   "conviction": "High",
+   "conviction": "Medium",
    "target": {
-    "bear": 84.52,
-    "base": 101.58,
-    "bull": 115.76,
-    "base_upside_pct": 1.38,
-    "bull_upside_pct": 15.53
+    "bear": 117.41,
+    "base": 148.83,
+    "bull": 185.18,
+    "base_upside_pct": 69.03,
+    "bull_upside_pct": 110.31
    },
    "falsifier": "Management has not called the rate spike structural — contingent on geopolitical instability persisting"
   }
@@ -6155,11 +6155,11 @@
    "statement": "SailPoint's new Agentic Fabric platform is pulling forward a new growth vector on top of a strong core identity-security business, with ARR up 26% to $1.163B and nonhuman identities now 14% of managed",
    "conviction": "Medium",
    "target": {
-    "bear": 8.94,
-    "base": 16.39,
-    "bull": 24.55,
-    "base_upside_pct": -21.07,
-    "bull_upside_pct": 18.18
+    "bear": 17.0,
+    "base": 22.76,
+    "bull": 30.0,
+    "base_upside_pct": -3.23,
+    "bull_upside_pct": 27.55
    },
    "falsifier": "Guidance bakes in minimal Agentic Fabric contribution — upside is unpriced but unproven at scale"
   }
@@ -6295,11 +6295,11 @@
    "statement": "H1 2026 (26 weeks to 31 May) group revenue was about £1.0bn, up 1% excluding Kroger/Sobeys closure fees, and adjusted EBITDA was £81m, down £11m.",
    "conviction": "High",
    "target": {
-    "bear": 193.62,
-    "base": 294.91,
-    "bull": 411.82,
-    "base_upside_pct": -8.47,
-    "bull_upside_pct": 27.82
+    "bear": 185.48,
+    "base": 286.39,
+    "bull": 400.8,
+    "base_upside_pct": -5.92,
+    "bull_upside_pct": 31.67
    },
    "falsifier": "Underlying H1 cash flow was -£147m, with the reported positive figure driven by £260m of closure receipts."
   }
@@ -6538,13 +6538,13 @@
     "Net new ARR trend and any update to the FY27 ARR guide of $4.396-4.426B at each quarterly print."
    ],
    "statement": "Zscaler is rebounding after a sharp reset.",
-   "conviction": "Medium",
+   "conviction": "Low",
    "target": {
-    "bear": 137.89,
-    "base": 188.63,
-    "bull": 273.57,
-    "base_upside_pct": -20.69,
-    "bull_upside_pct": 15.03
+    "bear": 124.91,
+    "base": 178.39,
+    "bull": 248.48,
+    "base_upside_pct": -25.51,
+    "bull_upside_pct": 3.76
    },
    "falsifier": "FY27 guide of about 17% revenue growth is down from 25% in FY26, and reported growth flatters organic growth by about 5 points via Red Canary."
   }
@@ -6645,11 +6645,11 @@
    "statement": "PTC is shrinking its share count faster than it is growing.",
    "conviction": "Medium",
    "target": {
-    "bear": 183.74,
-    "base": 272.74,
-    "bull": 627.84,
-    "base_upside_pct": 39.48,
-    "bull_upside_pct": 221.08
+    "bear": 149.83,
+    "base": 220.55,
+    "bull": 383.24,
+    "base_upside_pct": 12.04,
+    "bull_upside_pct": 94.69
    },
    "falsifier": "Q3 revenue fell 7% and non-GAAP EPS fell 4% to $1.58 year over year."
   }
@@ -6680,11 +6680,11 @@
    "statement": "Accenture ended FY26 stronger than guided but heads into FY27 with modest growth.",
    "conviction": "Medium",
    "target": {
-    "bear": 250.0,
-    "base": 332.3,
-    "bull": 522.84,
-    "base_upside_pct": 28.68,
-    "bull_upside_pct": 102.46
+    "bear": 205.45,
+    "base": 277.74,
+    "bull": 395.17,
+    "base_upside_pct": 14.85,
+    "bull_upside_pct": 63.4
    },
    "falsifier": "FY26 Consulting growth was just 3% in local currency, with Consulting bookings at 1.0 book-to-bill."
   }
@@ -6715,11 +6715,11 @@
    "statement": "Bridgepoint posted record H1 2026 results (Jul 17).",
    "conviction": "Medium",
    "target": {
-    "bear": 341.02,
-    "base": 426.49,
-    "bull": 513.6,
-    "base_upside_pct": 3.57,
-    "bull_upside_pct": 24.72
+    "bear": 373.93,
+    "base": 431.52,
+    "bull": 509.41,
+    "base_upside_pct": 6.13,
+    "bull_upside_pct": 25.29
    },
    "falsifier": "Reported profit before tax fell 29.2% to GBP42.9m and basic EPS dropped to 2.6p from 4.4p."
   }
@@ -6785,11 +6785,11 @@
    "statement": "Sonova is growing faster than its market with rising margins.",
    "conviction": "Medium",
    "target": {
-    "bear": 206.79,
-    "base": 273.32,
-    "bull": 360.9,
-    "base_upside_pct": -3.69,
-    "bull_upside_pct": 27.17
+    "bear": 204.96,
+    "base": 255.36,
+    "bull": 328.26,
+    "base_upside_pct": -11.09,
+    "bull_upside_pct": 14.3
    },
    "falsifier": "Reported CHF numbers lag (sales -0.2%, EBITA +3.7%) because of currency."
   }
@@ -6820,11 +6820,11 @@
    "statement": "Option Care is a steady compounder with slowing growth.",
    "conviction": "Medium",
    "target": {
-    "bear": 33.05,
-    "base": 42.08,
-    "bull": 52.79,
-    "base_upside_pct": 32.21,
-    "bull_upside_pct": 65.84
+    "bear": 29.33,
+    "base": 36.64,
+    "bull": 46.18,
+    "base_upside_pct": 15.65,
+    "bull_upside_pct": 45.78
    },
    "falsifier": "Revenue growth of 1.9% is slow and gross margin fell to 18.5% from 19.0%."
   }
@@ -6855,11 +6855,11 @@
    "statement": "DocuSign is a slow-growth cash generator trying to re-rate on AI.",
    "conviction": "Medium",
    "target": {
-    "bear": 66.59,
-    "base": 98.1,
-    "bull": 202.08,
-    "base_upside_pct": 19.39,
-    "bull_upside_pct": 145.93
+    "bear": 58.29,
+    "base": 83.17,
+    "bull": 141.44,
+    "base_upside_pct": 3.04,
+    "bull_upside_pct": 75.24
    },
    "falsifier": "Revenue growth near 9% and ARR growth of only 8.5-9%."
   }
@@ -6890,11 +6890,11 @@
    "statement": "Greggs is recovering after a soft first half.",
    "conviction": "Medium",
    "target": {
-    "bear": 1795.69,
-    "base": 2199.91,
-    "bull": 2711.11,
-    "base_upside_pct": -4.43,
-    "bull_upside_pct": 17.77
+    "bear": 1842.46,
+    "base": 2267.43,
+    "bull": 3123.71,
+    "base_upside_pct": 2.04,
+    "bull_upside_pct": 40.58
    },
    "falsifier": "Upgrade is unquantified; profit is still guided near last year's GBP 172m."
   }
@@ -6925,11 +6925,11 @@
    "statement": "Wolters Kluwer is compounding steadily.",
    "conviction": "Medium",
    "target": {
-    "bear": 68.56,
-    "base": 88.57,
-    "bull": 106.03,
-    "base_upside_pct": 1.8,
-    "bull_upside_pct": 21.88
+    "bear": 92.05,
+    "base": 128.27,
+    "bull": 162.73,
+    "base_upside_pct": 44.68,
+    "bull_upside_pct": 83.55
    },
    "falsifier": "Reported revenue fell 1% as the dollar weakened; 64% of sales are North American."
   }
@@ -6960,11 +6960,11 @@
    "statement": "Eurofins is accelerating but short of its target.",
    "conviction": "Medium",
    "target": {
-    "bear": 88.75,
-    "base": 113.3,
-    "bull": 145.51,
-    "base_upside_pct": 29.17,
-    "bull_upside_pct": 65.88
+    "bear": 78.15,
+    "base": 97.0,
+    "bull": 129.14,
+    "base_upside_pct": 12.85,
+    "bull_upside_pct": 50.24
    },
    "falsifier": "2026 organic growth guide cut below the single-digit target."
   }
@@ -6995,11 +6995,11 @@
    "statement": "Qiagen is now a takeover story.",
    "conviction": "Medium",
    "target": {
-    "bear": 43.53,
-    "base": 55.72,
-    "bull": 69.4,
-    "base_upside_pct": 23.57,
-    "bull_upside_pct": 53.92
+    "bear": 39.01,
+    "base": 48.55,
+    "bull": 60.15,
+    "base_upside_pct": 7.58,
+    "bull_upside_pct": 33.27
    },
    "falsifier": "Upside is capped near the offer price; shareholder acceptance of 50% plus one is not assured."
   }
@@ -7107,6 +7107,1021 @@
     "bull_upside_pct": 1.23
    },
    "falsifier": "Stock fell after the print because FY27 non-GAAP EPS guidance was cut about 11% to USD 0.31 at the midpoint."
+  }
+ },
+ "VFC": {
+  "business": "VF owns The North Face, Vans and Timberland. It designs outdoor and lifestyle apparel and footwear, has it made by Asian contract factories, and sells through wholesale and its own stores and websites.",
+  "happening": "The VF turnaround is showing up in margins, though not yet in sales. Q2 FY27 (September quarter) revenue was USD 2.70B, down 4% reported but up 1% excluding Dickies. Adjusted EPS was USD 0.70 versus 0.49, and adjusted operating income of USD 364M beat the roughly USD 315M guide. The North Face grew 4% and Timberland 4%, while Vans fell 10%.",
+  "why": "Adjusted gross margin rose 290bp to 55.4% (about 180bp from structural initiatives and 110bp from FX). In the Americas, The North Face grew 8% and Timberland 15%. Vans global DTC grew for the first time in nearly five years. The Q3 guide is about +3% cc revenue and adjusted operating income of USD 390M or more. FY27 is reaffirmed at 2% or better cc growth and about 8% operating margin, with at least 10% targeted by FY29.",
+  "risk": "Watch: Vans wholesale (FY Vans down mid-single digits), APAC -7% (Timberland -21%), inventory +7% YoY, leverage target of 2.6-2.9x at year-end, and first-half FCF of USD -323M.",
+  "thesis": {
+   "bull": [
+    "Margin-led recovery: adjusted gross margin up 290bp and adjusted EPS up 43%.",
+    "The North Face and Timberland are growing mid-single digits or better in the Americas.",
+    "Vans DTC has turned positive, an early sign that the brand reset is working.",
+    "Clear targets (operating margin of 10% or more by FY29, leverage of 2.5x or less by FY28) give room for a re-rating."
+   ],
+   "bear": [
+    "Group revenue is still down on a reported basis, and Vans fell 10% with wholesale weak.",
+    "APAC and China are deteriorating (APAC -7%).",
+    "Balance-sheet leverage remains high after years of disposals.",
+    "Part of the margin gain came from FX and tariff refunds that may not recur."
+   ],
+   "catalysts": [
+    "Q3 FY27 results (late January 2027) against the USD 390M or more operating income guide.",
+    "Vans wholesale orders for Spring 2027 and the reaction to new product.",
+    "Progress on deleveraging and any further portfolio disposals."
+   ],
+   "statement": "The VF turnaround is showing up in margins, though not yet in sales.",
+   "conviction": "High",
+   "target": {
+    "bear": 15.71,
+    "base": 18.88,
+    "bull": 28.11,
+    "base_upside_pct": -15.14,
+    "bull_upside_pct": 26.36
+   },
+   "falsifier": "Group revenue is still down on a reported basis, and Vans fell 10% with wholesale weak."
+  }
+ },
+ "ABBV": {
+  "business": "AbbVie is a biopharma company led by its immunology drugs Skyrizi and Rinvoq, with neuroscience (Vraylar, Botox Therapeutic, migraine drugs), oncology and Allergan aesthetics behind it.",
+  "happening": "AbbVie is compounding at about 10% after the Humira cliff. Q3 2026 revenue was USD 17.40B (+10.3%, +10.5% operational) and adjusted EPS was USD 3.82 versus 1.86 a year ago. Skyrizi reached USD 5.78B (+22.7%), Rinvoq USD 2.71B (+23.9%) and neuroscience USD 3.39B (+19.4%). FY26 adjusted EPS guidance was raised to USD 13.95-13.99.",
+  "why": "Immunology grew 16.3% to USD 9.17B even as Humira fell 31%. In neuroscience, Qulipta grew 38%, Ubrelvy 27% and Vyalev more than doubled to USD 286M. Pipeline news: Juvmo (tavapadon) was approved by the FDA for Parkinson's; lutikizumab met its Phase 3 endpoint in HS; the etentamig BLA was filed; and the Apogee deal closed (IL-13/TSLP). The dividend was raised 5.2% to USD 1.82 per quarter.",
+  "risk": "Watch: aesthetics down 1.4% (Juvederm -12%), Imbruvica -26%, oncology growth of only 0.8%, IRA price negotiation, and recurring IPR&D charges (USD 0.69/share YTD).",
+  "thesis": {
+   "bull": [
+    "Skyrizi and Rinvoq are both growing more than 20% and are protected into the 2030s.",
+    "Neuroscience is a second growth engine (+19%) with new launches (Vyalev, Juvmo).",
+    "Business development keeps refilling the pipeline (Apogee, etentamig, Temab-A breakthrough designations).",
+    "Adjusted EPS roughly doubled YoY, with a dividend growth record."
+   ],
+   "bear": [
+    "Aesthetics remains soft as the consumer weakens.",
+    "Oncology is flat because Imbruvica erosion offsets Venclexta and Elahere.",
+    "IRA and Medicare negotiation pressure on future immunology pricing.",
+    "Frequent large acquisitions bring execution and IPR&D charge risk."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guidance (early February 2027).",
+    "Regulatory decisions: etentamig BLA and the Skyrizi Crohn's SC induction in the EU.",
+    "Lutikizumab HS and ABBV-295 obesity Phase 2 updates."
+   ],
+   "statement": "AbbVie is compounding at about 10% after the Humira cliff.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 236.44,
+    "base": 298.45,
+    "bull": 373.38,
+    "base_upside_pct": 2.25,
+    "bull_upside_pct": 27.92
+   },
+   "falsifier": "Aesthetics remains soft as the consumer weakens."
+  }
+ },
+ "EPAM": {
+  "business": "EPAM is a digital engineering services firm that builds software products, platforms and data/AI systems for enterprises, using about 57,000 engineers across CEE, India and Latin America.",
+  "happening": "EPAM is at an AI inflection, but headline growth is stalling. Q3 2026 revenue was USD 1.426B (+2.3%, +2.5% organic cc), with non-GAAP operating margin of 16.7% and non-GAAP EPS of USD 3.51 (+14%). The Q4 guide is USD 1.405-1.420B (0.5-1.6% organic cc). It signed three multi-year AI deals and authorised a new USD 1.8B buyback including a USD 500M ASR. The stock jumped about 20% on the print.",
+  "why": "AI-native revenue was about USD 185M (13% of revenue), and the FY target was raised to at least USD 650M. Financial services grew 13.7% and life sciences 9.9%. Software/hi-tech fell 6.1%, media 5.5% and consumer/retail/travel 2.5%. Non-AI revenue is shrinking about 6% YoY. Utilisation was 76.5%. FY26 non-GAAP EPS is guided to USD 13.23-13.31, and the 2027 non-GAAP margin guide is 15-16%.",
+  "risk": "Watch: Q4 deceleration, flat 2027 margins as the Poland R&D benefit halves, the CEO ruling out double-digit 2027 growth, and cash down to USD 970M with ASR funding partly from borrowing.",
+  "thesis": {
+   "bull": [
+    "AI-native revenue is already 13% of the total, and three large AI contracts start ramping in 1H27.",
+    "Pledge to return at least 50% of FCF from 2027-29 plus the USD 1.8B buyback supports EPS.",
+    "Financial services and life sciences are growing double digits.",
+    "The valuation was depressed before the rally, so a re-rating is possible if growth returns."
+   ],
+   "bear": [
+    "Organic growth slows to about 1% in Q4, and legacy revenue falls about 6%.",
+    "2027 margins are flat, so EPS growth relies on buybacks.",
+    "GenAI coding tools threaten hours-based engineering demand.",
+    "The stock rallied about 57% since August, so expectations are high."
+   ],
+   "catalysts": [
+    "Q4 2026 results and 2027 guidance (mid-February 2027).",
+    "Ramp of the three AI mega-deals in 1H27.",
+    "Execution of the USD 500M ASR and its share-count effect."
+   ],
+   "statement": "EPAM is at an AI inflection, but headline growth is stalling.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 180.86,
+    "base": 231.78,
+    "bull": 330.21,
+    "base_upside_pct": 41.47,
+    "bull_upside_pct": 101.56
+   },
+   "falsifier": "Organic growth slows to about 1% in Q4, and legacy revenue falls about 6%."
+  }
+ },
+ "VNT": {
+  "business": "Vontier makes fuel dispensers and tank monitoring (Gilbarco Veeder-Root), convenience-store and car-wash software (DRB, Invenco), and franchised mechanics' tools (Matco).",
+  "happening": "Vontier is beating and raising on cost cuts and a fueling upcycle. Q3 2026 sales were USD 736.9M (-2.1% reported after the Teletrac Navman divestiture, +5.7% core). Adjusted operating margin was 24.3% (+300bp) and adjusted EPS USD 0.92 versus 0.78. FY26 adjusted EPS was raised to USD 3.60-3.64.",
+  "why": "Environmental & Fueling grew 13.1% core, with margin of 31.6% (+240bp). Mobility Technologies grew 2.2% core, and its margin rose 740bp to 25.9%. Repair Solutions fell 1.0% core, and its margin dropped 180bp to 19.1%. Adjusted FCF was USD 133M (107% conversion). It bought back USD 280M YTD (8.8M shares), and net leverage is 2.3x. The Q4 guide is USD 0.99-1.03 EPS on about USD 785M sales and about 3% core growth.",
+  "risk": "Watch: Matco/Repair weakness, whether the fueling surge is sustainable, modest underlying growth (FY core about 3%), the EV long-term threat, and the USD 86M loss on business sales.",
+  "thesis": {
+   "bull": [
+    "Margin expansion of about 180bp in FY26 shows the simplified portfolio is working.",
+    "The fueling cycle (EMV and replacement) is driving double-digit EFS growth.",
+    "Strong FCF conversion funds aggressive buybacks (about 6% of shares YTD).",
+    "Teletrac exit sharpens the focus on the higher-quality c-store/car-wash software ecosystem."
+   ],
+   "bear": [
+    "Core growth is only about 3% for FY26 and depends heavily on fueling hardware.",
+    "Repair Solutions is in decline as technician credit tightens.",
+    "Long-run EV adoption limits the fuel dispenser total addressable market.",
+    "Leverage of 2.3x while buying back stock."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guide (February 2027).",
+    "Further portfolio pruning or bolt-on software M&A.",
+    "Matco Tools stabilisation data."
+   ],
+   "statement": "Vontier is beating and raising on cost cuts and a fueling upcycle.",
+   "conviction": "High",
+   "target": {
+    "bear": 51.51,
+    "base": 63.06,
+    "bull": 87.32,
+    "base_upside_pct": 37.32,
+    "bull_upside_pct": 90.16
+   },
+   "falsifier": "Core growth is only about 3% for FY26 and depends heavily on fueling hardware."
+  }
+ },
+ "COLM": {
+  "business": "Columbia Sportswear designs outdoor apparel and footwear under the Columbia, SOREL, prAna and Mountain Hardwear brands, selling through wholesale and DTC, with a net-cash balance sheet.",
+  "happening": "Columbia is a modest beat-and-raise helped by tariff refunds. Q3 2026 net sales were USD 962.6M (+2%) and diluted EPS USD 1.66 versus 0.95. Operating margin was 11.4% versus 7.1% (the prior year had USD 29M of impairments). The FY26 guide is USD 3.46-3.50B sales (+2-3%) and EPS of USD 4.65-4.90, with the low end raised.",
+  "why": "International drove growth: LAAP +11% and EMEA +7%, while the US fell 1% and Canada 2%. DTC grew 5% and wholesale was flat. By brand, Columbia rose 3%, SOREL 2%, prAna fell 1% and Mountain Hardwear 17%. Gross margin was 49.8% (-20bp). IEEPA tariff refunds added about 230bp to nine-month gross margin and USD 0.85 to nine-month EPS. It bought back USD 200M YTD and has no debt.",
+  "risk": "Watch: US wholesale, inventory +11%, the cut to the FY26 operating cash flow guide (USD 230-250M from 290-310M), the non-recurring tariff benefit, and the weather-dependent Q4 (USD 1.108-1.145B sales guide).",
+  "thesis": {
+   "bull": [
+    "Net-cash balance sheet funds steady buybacks and the dividend.",
+    "International momentum (LAAP +11%, EMEA +7%).",
+    "The ACCELERATE brand reset is showing early US DTC e-commerce traction.",
+    "The stock trades on a low multiple, so a recovery could re-rate it."
+   ],
+   "bear": [
+    "The US (about 60% of sales) is still declining.",
+    "The margin improvement is largely from one-off tariff refunds.",
+    "Inventory build and lower cash-flow guidance.",
+    "Small brands (Mountain Hardwear, prAna) are shrinking."
+   ],
+   "catalysts": [
+    "Holiday and winter weather sell-through and Q4 results (early February 2027).",
+    "Spring 2027 wholesale order book commentary.",
+    "Further IEEPA refund or tariff-policy changes."
+   ],
+   "statement": "Columbia is a modest beat-and-raise helped by tariff refunds.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 53.27,
+    "base": 67.19,
+    "bull": 86.67,
+    "base_upside_pct": -17.05,
+    "bull_upside_pct": 7.0
+   },
+   "falsifier": "The US (about 60% of sales) is still declining."
+  }
+ },
+ "GME": {
+  "business": "GameStop is a video game and collectibles retailer in the US, Australia and Europe that has become a cash-rich holding vehicle with about USD 5B of cash and a stake of about 9.8% in eBay.",
+  "happening": "GameStop is shifting toward collectibles and capital allocation. Its latest report is Q2 FY26 (quarter ended August 1, 2026; Q3 is due in early December). Net sales were USD 790.2M versus 972.2M, collectibles rose 57% to USD 356M (45% of sales), and gross margin was 43.7% versus 29.1%. Operating income was USD 160M, a record for a second quarter. The FY26 adjusted EBITDA guide was raised to more than USD 650M.",
+  "why": "Net income of USD 299M included a USD 166M derivative gain and a USD 72M unrealised equity gain. Cash and securities were USD 5.1B. The eBay stake of about 43.4M shares is worth about USD 4.9B. The unsolicited ~USD 56B eBay bid (May 2026) was rejected, and Reuters reported in August that GameStop is exploring a partnership or JV instead. About USD 1.4B of 0% converts were retired in September, leaving about USD 2.8B of long-term debt.",
+  "risk": "Watch: what happens with eBay (hostile bid, proxy fight or JV), declining core gaming sales (-19%), earnings driven by mark-to-market gains, convert and ATM dilution, and the Q3 FY26 print in early December.",
+  "thesis": {
+   "bull": [
+    "The collectibles pivot is lifting gross margin by more than 14 points to 43.7%.",
+    "A cash and investment pile (about USD 5B cash plus USD 4.9B eBay stake) offers downside support and optionality.",
+    "Record operating income and a raised EBITDA guide show cost discipline under Cohen.",
+    "An eBay partnership could give GameStop's stores a collectibles and trading-card distribution role."
+   ],
+   "bear": [
+    "Core video game retail is in secular decline as games go digital.",
+    "Pursuing a much larger eBay could destroy value or require heavy dilution.",
+    "Reported earnings are dominated by volatile investment and derivative gains.",
+    "Trading-card demand may be near a cyclical peak."
+   ],
+   "catalysts": [
+    "Q3 FY26 results (early December 2026).",
+    "Any eBay partnership, board-seat or bid update.",
+    "Further convertible retirements or capital deployment."
+   ],
+   "statement": "GameStop is shifting toward collectibles and capital allocation.",
+   "conviction": "Low",
+   "target": {
+    "bear": 19.92,
+    "base": 21.54,
+    "bull": 24.39,
+    "base_upside_pct": -18.22,
+    "bull_upside_pct": -7.4
+   },
+   "falsifier": "Core video game retail is in secular decline as games go digital."
+  }
+ },
+ "CROX": {
+  "business": "Crocs sells molded Croslite clogs, sandals and Jibbitz charms (Crocs brand, about 83%) and HEYDUDE slip-on shoes (about 17%). Production is outsourced, and margins are among the highest in footwear.",
+  "happening": "Crocs beat and raised again (its third FY26 raise) as HEYDUDE returned to growth. Q3 2026 revenue was USD 1.043B (+4.6%), adjusted operating margin 22.3% and adjusted EPS USD 3.69 (+26%). FY26 adjusted EPS was raised to USD 14.45-14.65 from 13.70-14.00, and revenue to about +3%.",
+  "why": "The Crocs brand grew 4.4% to USD 873M: international +11.8% and North America -2.1%. HEYDUDE grew 6.1% to USD 170M, with wholesale +14%. Adjusted gross margin was 60.3% (+180bp). GAAP results included USD 64M of IEEPA tariff refunds, excluded from adjusted figures. It bought back USD 250M (2.0M shares at USD 123). The Q4 guide is +7-9% revenue (HEYDUDE +10-12%) and EPS of USD 3.25-3.45.",
+  "risk": "Watch: the North America Crocs decline, HEYDUDE DTC flat at +0.1%, gross debt of USD 1.29B, tariff exposure on Vietnam sourcing, and clog fashion-cycle fatigue.",
+  "thesis": {
+   "bull": [
+    "International Crocs brand growth of nearly 12% gives a long runway (China, India, Europe).",
+    "HEYDUDE is back to growth, and the Q4 guide calls for +10-12%.",
+    "60% adjusted gross margin and about 22% operating margin fund large buybacks (USD 1.7B authorisation).",
+    "Low P/E for a brand with this level of profitability."
+   ],
+   "bear": [
+    "North American Crocs sales are declining, a sign the core clog may be maturing.",
+    "HEYDUDE growth is wholesale-led, with DTC flat.",
+    "Fashion-trend risk on a single-silhouette brand.",
+    "Tariff refunds flatter GAAP results; policy could reverse."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 outlook (mid-February 2027).",
+    "HEYDUDE holiday sell-through.",
+    "Buyback pace and debt paydown."
+   ],
+   "statement": "Crocs beat and raised again (its third FY26 raise) as HEYDUDE returned to growth.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 169.17,
+    "base": 202.32,
+    "bull": 253.23,
+    "base_upside_pct": 24.87,
+    "bull_upside_pct": 56.29
+   },
+   "falsifier": "North American Crocs sales are declining, a sign the core clog may be maturing."
+  }
+ },
+ "EXPO": {
+  "business": "Exponent is a PhD-led science and engineering consulting firm doing failure analysis, expert-witness and regulatory and user-research work, billed hourly, with no debt.",
+  "happening": "Exponent's growth has re-accelerated to double digits. Q3 2026 revenues before reimbursements were USD 153.1M (+12%), total revenues USD 173.7M (+18%) and EPS USD 0.64 versus 0.55. EBITDA margin was 29.4% (+110bp) on 77% utilisation. FY26 guidance was raised to +10-11% growth with 28.0-28.3% EBITDA margin.",
+  "why": "Engineering & Scientific (85% of revenue) grew 13%, driven by user research in health applications and sensory perception, plus dispute work on chemical facilities, consumer products and advanced transportation. Environmental & Health grew 3%. YTD revenues before reimbursements were USD 453.7M (+11%). It bought back USD 146M YTD and paid USD 46M in dividends.",
+  "risk": "Watch: the Q4 guide slows to +8-10% with a 26.3-26.8% margin, hiring needed to sustain 77% utilisation, consumer electronics client concentration, and tort reform affecting reactive work.",
+  "thesis": {
+   "bull": [
+    "Double-digit organic growth from both proactive (user research) and reactive (disputes) work.",
+    "Margin expansion with high utilisation.",
+    "No debt, steady buybacks and a dividend.",
+    "Regulation of AI, autonomous vehicles, batteries and chemicals is structurally increasing demand for expert work."
+   ],
+   "bear": [
+    "Premium valuation for roughly 10% growth.",
+    "Q4 growth and margin are guided lower.",
+    "Headcount constraint limits upside.",
+    "Exposure to large tech clients' discretionary budgets."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guidance (early February 2027).",
+    "Billable FTE growth and utilisation trend.",
+    "Major product-failure or litigation events driving reactive demand."
+   ],
+   "statement": "Exponent's growth has re-accelerated to double digits.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 57.51,
+    "base": 71.9,
+    "bull": 87.48,
+    "base_upside_pct": -21.99,
+    "bull_upside_pct": -5.09
+   },
+   "falsifier": "Premium valuation for roughly 10% growth."
+  }
+ },
+ "PCOR": {
+  "business": "Procore sells cloud construction-management software (project management, quality and safety, financials), priced on annual construction volume, to general contractors, owners and specialty contractors.",
+  "happening": "Procore's organic growth is accelerating and margins are expanding. Q3 2026 revenue was USD 402.3M (+19%; organic about 17.1%, up from 15.8% in Q2), non-GAAP operating margin 23% and FCF USD 73M. FY26 revenue was raised to USD 1.557-1.559B (+17.7-17.9%), and the FY27 25% non-GAAP margin target was reiterated. The stock rose about 20% on the print.",
+  "why": "RPO was USD 1.81B (+28%) and current RPO USD 1.17B (+29%; organic about 22.6%). Customers above USD 100K ARR rose 14% to 2,968, and gross revenue retention was 95%. DroneDeploy was acquired for about USD 845M cash, alongside a USD 950M 0% convertible due 2031. Procore AI digital coworkers reached general availability. FedRAMP Moderate certification won a US government agency. It bought back USD 175M in Q3, and a new USD 300M program was authorised.",
+  "risk": "Watch: the Q4 margin guide of 15.5-16% (DroneDeploy dilution), FCF margin cut to 18% from 19.5%, convertible dilution, AI monetisation, and sensitivity to construction starts and rates.",
+  "thesis": {
+   "bull": [
+    "Organic growth accelerated for three straight quarters, and cRPO is growing 29%.",
+    "Visible margin path: 19-19.5% in FY26 to a 25% target in FY27.",
+    "Network-effect platform with 95% gross revenue retention.",
+    "AI agents plus DroneDeploy reality capture expand the addressable market and price points."
+   ],
+   "bear": [
+    "The debt-funded DroneDeploy deal and USD 950M convertible add leverage and dilution.",
+    "GAAP losses persist (Q3 GAAP operating margin -2%).",
+    "Exposure to a construction downturn if rates rise.",
+    "Autodesk competition and bundling."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guidance (mid-February 2027).",
+    "AI agent pricing and adoption disclosures.",
+    "DroneDeploy integration and cross-sell metrics."
+   ],
+   "statement": "Procore's organic growth is accelerating and margins are expanding.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 52.0,
+    "base": 66.46,
+    "bull": 89.1,
+    "base_upside_pct": -11.95,
+    "bull_upside_pct": 18.05
+   },
+   "falsifier": "The debt-funded DroneDeploy deal and USD 950M convertible add leverage and dilution."
+  }
+ },
+ "IDXX": {
+  "business": "IDEXX sells companion-animal diagnostics: in-clinic analyzers with recurring consumables, reference labs, rapid tests and practice software. Water and livestock testing are small additions.",
+  "happening": "IDEXX is gaining share despite falling vet visits. Q3 2026 revenue was USD 1.214B (+10% reported and organic), and CAG Diagnostics recurring revenue grew about 10% in the US and 14% internationally. EPS was USD 4.01 (+18%; +22% comparable). FY26 guidance was raised a third time to USD 4.741-4.767B revenue and USD 14.96-15.16 EPS. The stock rose about 22% on the print.",
+  "why": "US same-store clinical visits fell 1.8%, yet US recurring diagnostics outgrew visits by about 1,100bp. It placed 1,904 inVue Dx units, bringing the base to nearly 11,000 and beating the 5,500 annual target pace. The premium instrument base grew 11%. Gross margin was 62.9% (+110bp) and operating margin 33.1% (+100bp). It bought back USD 805M YTD. CoVet (AI clinical assistant, about USD 20M ARR) was acquired.",
+  "risk": "Watch: worsening vet visits (-1.8% from -1.3%), comparable margin expansion slowing to 60bp, the FY26 operating margin guide cut to 32.1-32.3% (CoVet), softer Water (+8%) and LPD (+3%), and a 70bp FX headwind in Q4.",
+  "thesis": {
+   "bull": [
+    "Diagnostics utilisation and pricing drive about 10% growth even with falling visits.",
+    "The inVue Dx installed base is ramping ahead of plan, which builds future consumable revenue.",
+    "International recurring revenue is growing 14%.",
+    "Buybacks reduce the share count about 2% a year."
+   ],
+   "bear": [
+    "Vet visits keep falling as pet adoption slows.",
+    "Margin expansion is slowing, and CoVet dilutes margins.",
+    "Premium valuation.",
+    "Corporate vet groups (Mars/Antech) gaining bargaining power."
+   ],
+   "catalysts": [
+    "VMX event in January 2027 (MultiCue Dx details).",
+    "Q4 2026 results and FY27 guidance (early February 2027).",
+    "North American launch of the hemangiosarcoma test in Q1 2027."
+   ],
+   "statement": "IDEXX is gaining share despite falling vet visits.",
+   "conviction": "Low",
+   "target": {
+    "bear": 334.61,
+    "base": 454.0,
+    "bull": 554.94,
+    "base_upside_pct": -36.88,
+    "bull_upside_pct": -22.84
+   },
+   "falsifier": "Vet visits keep falling as pet adoption slows."
+  }
+ },
+ "RRC": {
+  "business": "Range Resources is a Marcellus Shale gas and NGL producer in southwest Pennsylvania (about 2.5 Bcfe/d, 68% gas) that sells gas, NGLs and condensate at market prices.",
+  "happening": "Range has agreed to be acquired by EQT in an all-stock deal at 0.987 EQT shares per Range share; Range holders will own about 27% and the deal is expected to close in Q1 2027. Q3 2026 production was 2.50 Bcfe/d (up about 12%) with record liquids of 133 kbbl/d, realized price was USD 3.43/mcfe after hedges, revenue was USD 843M and adjusted EPS was USD 0.81.",
+  "why": "Q3 operating cash flow was USD 308M against USD 170M of capex (about 25% of the 2026 budget), leaving about USD 138M of free cash flow. Net debt was USD 794M. Product sales split about 50% gas, 44% NGL and 6% oil. EQT targets USD 325M of annual synergies within two years and more than USD 600M longer term, in a combined company producing over 9 Bcfe/d.",
+  "risk": "Watch: EQT deal approvals and timing, since RRC now trades on EQT's price at the fixed ratio. Also Henry Hub and NGL prices, Appalachian basis, and no buybacks while the deal is pending (USD 1.4B authorization unused).",
+  "thesis": {
+   "bull": [
+    "The fixed exchange ratio gives upside exposure to EQT as the largest US gas producer, with USD 325M-600M+ of synergies.",
+    "Record liquids output and a 12% production increase show the asset base is still improving.",
+    "Low-decline core Marcellus inventory and modest net debt (USD 794M) carry into the combined company.",
+    "US LNG export buildout supports structural gas demand growth into 2027-28."
+   ],
+   "bear": [
+    "Upside is now capped by EQT's share price; Range standalone catalysts are gone.",
+    "Commodity price taker exposed to Henry Hub and NGL swings.",
+    "Deal break risk would leave the stock without its takeover support.",
+    "NGL exports are exposed to US-China trade friction."
+   ],
+   "catalysts": [
+    "Range and EQT shareholder votes and regulatory clearance (closing targeted Q1 2027).",
+    "Winter 2026-27 Henry Hub pricing and storage draws.",
+    "EQT Q4 2026 results and synergy updates (early 2027)."
+   ],
+   "statement": "Range has agreed to be acquired by EQT in an all-stock deal at 0.987 EQT shares per Range share; Range holders will own about 27% and the deal is expected to close in Q1 2027.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 43.9,
+    "base": 52.25,
+    "bull": 61.23,
+    "base_upside_pct": 2.26,
+    "bull_upside_pct": 19.83
+   },
+   "falsifier": "Upside is now capped by EQT's share price; Range standalone catalysts are gone."
+  }
+ },
+ "BILL": {
+  "business": "BILL provides AP/AR automation, spend and expense cards and embedded payments software for US small and midsize businesses. It earns subscription fees, transaction fees and float income on about USD 102B of quarterly payment volume.",
+  "happening": "Q1 FY27 (September quarter, reported November 5) revenue was USD 353.8M, up 13%, under a new presentation that nets card rewards against revenue. Core revenue rose 14% to USD 316.4M and transaction fees 16%. Non-GAAP operating income doubled to USD 136.9M (about 39% margin) and non-GAAP EPS was USD 1.18 against about USD 0.98 consensus. FY27 non-GAAP EPS guidance was raised to USD 3.99-4.15, and Starboard disclosed about a 10% stake.",
+  "why": "TPV was USD 102B (+14%) on 38M transactions (+14%). FY27 core revenue is guided to USD 1.284-1.314B (+11-14%) and non-GAAP operating income to USD 466-486M. The company bought back about USD 305M of stock (about 7M shares) in the quarter. Free cash flow was USD 83M and cash and investments about USD 1.59B. Q2 FY27 is guided to revenue of USD 353-363M and non-GAAP EPS of USD 0.97-1.01.",
+  "risk": "Watch: total customers fell to 475,300 from 498,500 (Embedded/Other), float revenue is exposed to rate cuts (USD 37.4M), competition from Ramp, Brex and Intuit, USD 24.4M of restructuring charges, and how Starboard's campaign plays out.",
+  "thesis": {
+   "bull": [
+    "Margin inflection: non-GAAP operating income doubled and the FY27 EPS guide was raised.",
+    "Starboard's about 10% stake raises the odds of more cost cuts, buybacks or a sale.",
+    "Aggressive buybacks (USD 305M in one quarter) at a discounted valuation.",
+    "Integrated Platform customers growing (233,400) with transaction fees up 16%."
+   ],
+   "bear": [
+    "Core growth of only 11-14% is a big slowdown for a former 50%+ grower.",
+    "Total customer count is declining.",
+    "Rate cuts erode high-margin float revenue.",
+    "Ramp and Intuit bundling free AP into cards and accounting software."
+   ],
+   "catalysts": [
+    "Q2 FY27 results (early February 2027) against USD 353-363M revenue guidance.",
+    "Starboard engagement: board seats, settlement or a strategic review.",
+    "Any formal sale process or take-private interest."
+   ],
+   "statement": "Q1 FY27 (September quarter, reported November 5) revenue was USD 353.8M, up 13%, under a new presentation that nets card rewards against revenue.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 52.77,
+    "base": 72.46,
+    "bull": 121.41,
+    "base_upside_pct": 17.39,
+    "bull_upside_pct": 96.67
+   },
+   "falsifier": "Core growth of only 11-14% is a big slowdown for a former 50%+ grower."
+  }
+ },
+ "ZAL.DE": {
+  "business": "Zalando runs Europe's largest online fashion platform (Zalando, Lounge, ABOUT YOU) in B2C. It also sells logistics and software services to other brands through its B2B arm (ZEOS, SCAYLE, Tradebyte).",
+  "happening": "Zalando's Q3 2026 profit rose despite slower top-line growth. GMV was EUR 4.54B (+7.5% reported, +6.1% pro forma) and revenue EUR 3.17B (+5.1%, +3.3% pro forma). Adjusted EBIT rose 10.6% to EUR 106.5M, a 3.4% margin versus 3.2%. Reported EBIT fell to EUR 13.1M on one-off charges, giving a net loss of EUR 18M. FY26 guidance was reaffirmed at EUR 680-720M adjusted EBIT, with management pointing to the midpoint.",
+  "why": "B2B revenue grew almost 28%, and ABOUT YOU integration synergies reached the mid-teens of millions of euros in the quarter. Gross margin fell 0.9 points to 38.7% on customer-offer investments, with Q4 improvement guided. 9M adjusted EBIT was EUR 376M (+14.5%). FY26 GMV is guided to EUR 19.7-20.6B and revenue to EUR 13.8-14.4B, in the lower half of the 12-17% growth range.",
+  "risk": "Watch: pro forma B2C growth in the lower half of 5-10%, gross margin pressure, competition from Shein and Temu, EUR 197M of year-to-date restructuring (including the Erfurt closure) and Middle East conflict effects, which guidance excludes.",
+  "thesis": {
+   "bull": [
+    "Adjusted EBIT growing faster than revenue on fulfilment savings and ABOUT YOU synergies.",
+    "B2B (ZEOS, SCAYLE) growing about 28% with higher margins, which diversifies the platform.",
+    "FY26 adjusted EBIT of EUR 680-720M reaffirmed, with the midpoint implying about a 5% margin.",
+    "Sports push (DFB partnership through 2030) and partner and retail-media growth at double digits."
+   ],
+   "bear": [
+    "Pro forma revenue growth of only 3.3% shows weak European fashion demand.",
+    "Gross margin down 0.9 points; promotional intensity is rising.",
+    "Reported net losses from restructuring charges.",
+    "Ultra-low-price competition from Shein and Temu."
+   ],
+   "catalysts": [
+    "Q4 and FY26 results (early March 2027) and the FY27 outlook.",
+    "Black Friday and Cyber Week trading read-through.",
+    "EU de minimis customs reform hitting Shein and Temu."
+   ],
+   "statement": "Zalando's Q3 2026 profit rose despite slower top-line growth.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 25.4,
+    "base": 31.7,
+    "bull": 43.58,
+    "base_upside_pct": 6.26,
+    "bull_upside_pct": 46.11
+   },
+   "falsifier": "Pro forma revenue growth of only 3.3% shows weak European fashion demand."
+  }
+ },
+ "HHH": {
+  "business": "Howard Hughes is a Pershing Square-chaired holding company. It owns Vantage (specialty insurance and reinsurance, acquired June 2026 for about USD 2.1B) and Sunbelt master-planned communities (Summerlin, The Woodlands, Bridgeland, Teravalis), plus operating real estate and Ward Village condos.",
+  "happening": "Q3 2026 adjusted EPS was USD 1.55 versus about USD 1.03 consensus, but GAAP EPS was a USD 0.39 loss. That loss reflects a USD 105M loss on selling MUD receivables and a USD 19M Floreo consolidation loss. Vantage earned USD 316M of net premiums at a 94.9% underlying combined ratio (101.8% reported), with USD 77M of pre-tax income. MPC pre-tax earnings fell to USD 89.5M from USD 205M, against a large 2025 Summerlin bulk sale.",
+  "why": "Operating Assets NOI rose 8% to USD 73M (same-store up 9%), and residential land averaged about USD 1.2M per acre year to date, with pricing up about 18%. Cash was USD 2.87B after USD 178M of MUD receivable sales. The plan is to move real estate to an asset-light model through JVs and asset sales, redeploy proceeds into Vantage, and target ROE above 20%.",
+  "risk": "Watch: Vantage gross written premium growth slowed to 4% from 29% and reinsurance premiums fell 9% in a softening market. The ex-cat accident-year combined ratio worsened to 96.2%. Also Bridgeland net new sales (-9%), debt of USD 5.7B, G&A plus interest of USD 51.6M, and a monetization timeline running past 2027.",
+  "thesis": {
+   "bull": [
+    "Berkshire-style compounding: insurance float plus land cash flows redeployed by Pershing Square.",
+    "Scarce, entitled Sunbelt land with pricing up about 18%.",
+    "Vantage underlying combined ratio of 94.9% with ILS fee income of USD 13M.",
+    "USD 2.87B of cash for redeployment and buybacks."
+   ],
+   "bear": [
+    "The reinsurance pricing cycle is turning down just as HHH pivots into insurance.",
+    "GAAP losses and complex accounting obscure value.",
+    "Housing slowdown reduces land sale velocity.",
+    "Governance and fee dependence on Pershing Square."
+   ],
+   "catalysts": [
+    "Q4 2026 results and 2027 MPC and Vantage guidance (February 2027).",
+    "Asset-light JV and asset sale announcements.",
+    "AM Best rating upgrade for Vantage and January 2027 reinsurance renewals."
+   ],
+   "statement": "Q3 2026 adjusted EPS was USD 1.55 versus about USD 1.03 consensus, but GAAP EPS was a USD 0.39 loss.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 71.08,
+    "base": 80.95,
+    "bull": 91.11,
+    "base_upside_pct": 1.64,
+    "bull_upside_pct": 14.41
+   },
+   "falsifier": "The reinsurance pricing cycle is turning down just as HHH pivots into insurance."
+  }
+ },
+ "REGN": {
+  "business": "Regeneron is an antibody drug developer. It sells EYLEA HD, Libtayo and Praluent directly, and earns a 50/50 global profit share with Sanofi on Dupixent and newer antibodies.",
+  "happening": "Q3 2026 revenue rose 36% to USD 5.12B, and non-GAAP EPS rose 70% to USD 20.07, the third straight double-digit quarter. Sanofi collaboration revenue jumped 68% to USD 2.72B because the development balance was fully repaid and Dupixent sales grew 35% to USD 6.5B. EYLEA HD grew 63% to USD 1.08B, and Libtayo grew 51% to USD 550M. In October Regeneron expanded the Sanofi alliance, with USD 1B upfront (booked in Q4) and up to USD 7B in milestones.",
+  "why": "The Regeneron share of Sanofi antibody profits rose to USD 2.58B from USD 1.46B. Net product sales grew 14% to USD 1.81B, and Kevzara grew 66%. Guidance was raised for non-GAAP gross margin (to about 86%) and R&D (USD 6.05-6.15B). The company bought back USD 2.3B of stock in 9M 2026 and pays a USD 0.94 quarterly dividend.",
+  "risk": "Watch: legacy EYLEA fell 49% to USD 658M, and the combined EYLEA franchise is down 11% on biosimilars and Vabysmo. Bayer collaboration revenue fell 23%. Also US drug-pricing policy (IRA, most-favored-nation) and pipeline binaries such as the cemdisiran gMG decision and the odronextamab PDUFA in February 2027.",
+  "thesis": {
+   "bull": [
+    "Dupixent profit share is now unencumbered after the development balance was repaid, with Dupixent growing 35%.",
+    "EYLEA HD (+63%) and Libtayo (+51%) are offsetting the legacy EYLEA decline.",
+    "The Sanofi expansion (USD 1B upfront, up to USD 7B in milestones) validates the platform.",
+    "Strong capital return: USD 2.3B of buybacks year to date plus a dividend."
+   ],
+   "bear": [
+    "Legacy EYLEA erosion (-49%) continues as biosimilars scale.",
+    "Dupixent concentration, with a patent cliff around 2031.",
+    "US drug-pricing policy risk.",
+    "R&D spend of about USD 6B+ needs pipeline hits (obesity, Factor XI, allergy)."
+   ],
+   "catalysts": [
+    "Cemdisiran gMG FDA decision (November 2026) and AASLD and AAS data readouts.",
+    "Odronextamab DLBCL PDUFA (February 2027) and Libtayo adjuvant CSCC sBLA (March 2027).",
+    "Q4 2026 results including the USD 1B Sanofi upfront (late January 2027)."
+   ],
+   "statement": "Q3 2026 revenue rose 36% to USD 5.12B, and non-GAAP EPS rose 70% to USD 20.07, the third straight double-digit quarter.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 929.9,
+    "base": 1140.21,
+    "bull": 1471.99,
+    "base_upside_pct": 14.92,
+    "bull_upside_pct": 48.37
+   },
+   "falsifier": "Legacy EYLEA erosion (-49%) continues as biosimilars scale."
+  }
+ },
+ "PVH": {
+  "business": "PVH owns Tommy Hilfiger and Calvin Klein and sells them globally through its own stores and e-commerce, wholesale partners and licensees. Europe is about 47% of sales.",
+  "happening": "The latest reported quarter is Q2 FY26 (ended August 2, 2026); Q3 is due December 3, 2026. Q2 revenue was USD 2.10B (-3%). Adjusted EPS was USD 3.70 versus USD 3.08 consensus, but about USD 1.80 of that came from USD 107M of tariff refunds. Gross margin was 63.0% (+530 bp, about 510 bp from refunds) and adjusted operating margin 11.1%. The company reaffirmed FY26 adjusted EPS of USD 11.80-12.10, and Q3 is guided to USD 2.50-2.65 with revenue down low single digits.",
+  "why": "By region, EMEA was -6% (wholesale, Middle East effects), Americas -1%, APAC +3% and Licensing -13% (North America license transitions). By brand, Tommy Hilfiger was flat and Calvin Klein -7%. Digital rose 4% and wholesale fell 6%. Inventory was down 3% and cash USD 966M. The company plans at least USD 300M of buybacks in FY26 and FY26 adjusted operating margin of about 8.8%.",
+  "risk": "Watch: the Q3 print on December 3 against USD 2.50-2.65 EPS guidance, European wholesale, tariff costs net of refunds, China unreliable-entity-list exposure, Calvin Klein's trajectory, and the Americas licensing transitions.",
+  "thesis": {
+   "bull": [
+    "Low valuation on about USD 12 EPS, with cash building to fund USD 300M+ of buybacks.",
+    "The PVH+ plan is shifting mix toward DTC and digital (+4%), supporting gross margin.",
+    "Bringing licensed categories in-house adds roughly 3% to Tommy Hilfiger growth over time.",
+    "Inventory is clean (-3%)."
+   ],
+   "bear": [
+    "Q2 EPS beat was driven by one-off tariff refunds; the underlying trend is weak.",
+    "Revenue is shrinking in EMEA and Calvin Klein.",
+    "China regulatory overhang from the unreliable entity list.",
+    "Guidance for a Q3 EPS decline year on year."
+   ],
+   "catalysts": [
+    "Q3 FY26 results on December 3, 2026.",
+    "FY27 guidance and the tariff outlook at the Q4 print (around March 2027).",
+    "Progress on buyback execution."
+   ],
+   "statement": "The latest reported quarter is Q2 FY26 (ended August 2, 2026); Q3 is due December 3, 2026.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 117.74,
+    "base": 141.35,
+    "bull": 181.37,
+    "base_upside_pct": 43.14,
+    "bull_upside_pct": 83.66
+   },
+   "falsifier": "Q2 EPS beat was driven by one-off tariff refunds; the underlying trend is weak."
+  }
+ },
+ "KVYO": {
+  "business": "Klaviyo sells a B2C CRM (customer data platform plus email, SMS, AI marketing and service agents) to more than 211,000 consumer brands, priced by contacts and messages.",
+  "happening": "Q3 2026 revenue rose 25% to USD 387.2M, with non-GAAP operating margin of 14.7% (USD 56.9M). FY26 revenue guidance was raised to USD 1.537-1.541B (+25%). The Q4 guide of USD 421-425M implies about 21% growth, NRR slipped to 108%, and no 2027 outlook was given, so the deceleration debate dominates.",
+  "why": "Customers with over USD 50K ARR grew 33% to 4,725, those over USD 250K grew 49% to 390, and those over USD 500K grew 57% to 105, showing the move upmarket is working. Revenue outside the Americas grew 32%, and 22% of ARR comes from customers using 3+ products. Adjusted FCF margin was 10.4%. The company completed a USD 500M buyback (USD 484M year to date) and authorized a new USD 300M program, with USD 705M of cash.",
+  "risk": "Watch: Q4 growth decel to about 21%, NRR at 108%, Shopify dependency, GAAP operating loss (-1% margin), and AI and platform-native tools commoditizing email and SMS.",
+  "thesis": {
+   "bull": [
+    "Enterprise traction: customers over USD 500K ARR +57%, over USD 250K +49%.",
+    "International growth of 32% and multi-product adoption (22% of ARR) extend the runway.",
+    "Margin expansion, with FY26 non-GAAP operating income of USD 233-236M.",
+    "Aggressive buybacks (USD 500M completed, USD 300M new)."
+   ],
+   "bear": [
+    "Growth is decelerating from 25% to about 21% in the Q4 guide, and NRR is slipping.",
+    "Heavy reliance on the Shopify ecosystem.",
+    "AI agents could commoditize campaign tools.",
+    "Still GAAP loss-making, with meaningful stock-based compensation."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guidance (February 2027).",
+    "Black Friday and Cyber Monday message volumes (a read-through for Q4 usage revenue).",
+    "Adoption metrics for AI marketing and service agents."
+   ],
+   "statement": "Q3 2026 revenue rose 25% to USD 387.2M, with non-GAAP operating margin of 14.7% (USD 56.9M).",
+   "conviction": "Medium",
+   "target": {
+    "bear": 19.34,
+    "base": 24.11,
+    "bull": 35.19,
+    "base_upside_pct": 1.78,
+    "bull_upside_pct": 48.54
+   },
+   "falsifier": "Growth is decelerating from 25% to about 21% in the Q4 guide, and NRR is slipping."
+  }
+ },
+ "GIVN.SW": {
+  "business": "Givaudan is the world's largest flavour and fragrance company. It sells bespoke formulations to food, beverage, beauty and household-product makers through two divisions, Taste & Wellbeing and Fragrance & Beauty.",
+  "happening": "Organic growth accelerated sharply in Q3 2026 to 8.6% like-for-like, versus 3.6% in H1 and 4.7% expected. Fragrance & Beauty grew 13.5% and Taste & Wellbeing 3.5%. 9M sales were CHF 5.89B, +5.2% LFL but only +2.6% in CHF. Medium-term targets of 4-6% LFL growth and adjusted FCF above 12% were reaffirmed.",
+  "why": "In 9M, Fragrance & Beauty sales were CHF 3.15B (+8.8% LFL), with fine fragrance +15.3% and consumer products +9.3%; fragrance ingredients were -2.5%. Taste & Wellbeing was CHF 2.74B (+1.5% LFL, improving sequentially). Asia-Pacific rebounded 7.1%, while North America fell 3.3% on Health & Functional weakness and US tariff refunds to customers. Price increases fully offset input-cost inflation.",
+  "risk": "Watch: the Swiss franc (about a 4-point currency drag in each division), North America Taste & Wellbeing, normalization of fine-fragrance growth, the ongoing fragrance antitrust investigation, and fragrance-ingredient volumes.",
+  "thesis": {
+   "bull": [
+    "The Q3 acceleration to 8.6% LFL beat expectations by almost 4 points.",
+    "Fine fragrance (+15%) and consumer-product fragrance (+9%) give a structural premium-beauty tailwind.",
+    "Pricing power: price increases fully offset input costs.",
+    "Taste & Wellbeing is recovering sequentially (+3.5% in Q3 versus +0.5% in H1)."
+   ],
+   "bear": [
+    "CHF strength takes 3-4 points off reported growth.",
+    "Fine fragrance faces tough comparisons after years of 15%+ growth.",
+    "Antitrust investigation could lead to fines or pricing scrutiny.",
+    "North America flavours remain weak (-3.3%)."
+   ],
+   "catalysts": [
+    "FY2026 results (late January 2027) with margin and FCF delivery.",
+    "Progress or resolution of the fragrance antitrust investigation.",
+    "Q1 2027 sales update (April 2027)."
+   ],
+   "statement": "Organic growth accelerated sharply in Q3 2026 to 8.6% like-for-like, versus 3.6% in H1 and 4.7% expected.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 3321.05,
+    "base": 4005.04,
+    "bull": 4655.55,
+    "base_upside_pct": -1.57,
+    "bull_upside_pct": 14.41
+   },
+   "falsifier": "CHF strength takes 3-4 points off reported growth."
+  }
+ },
+ "KGF.L": {
+  "business": "Kingfisher runs B&Q and Screwfix (UK and Ireland), Castorama and Brico Depot (France) and Castorama (Poland) home-improvement retail. It is growing marketplace, trade and own-brand sales.",
+  "happening": "In Q3 FY26/27 (to October 31, 2026, reported November 24), group sales were GBP 3.26B (+1.5% constant currency) and LFL +0.9%. Screwfix grew 6.9% LFL, Iberia 6.6% and Poland 2.1%, while B&Q fell 1.0%, Castorama France 0.5% and Brico Depot 5.3%. FY26/27 adjusted PBT guidance was raised to about GBP 610-640M (from GBP 595-635M), but shares fell about 3% as investors wanted more.",
+  "why": "Total sales including marketplace rose 2.4%, and marketplace GMV rose 36% to GBP 170M. E-commerce penetration was 22% (+2 points) and trade sales outside Screwfix +8%. Kingfisher gained share in declining UK and French markets (both down low single digits). FCF guidance is about GBP 490-520M, and GBP 167M of the GBP 300M buyback has been completed.",
+  "risk": "Watch: the French market decline (Brico Depot -5.3%), B&Q LFL negative, UK labour-cost inflation, and high expectations after a strong share-price run since summer.",
+  "thesis": {
+   "bull": [
+    "Profit guidance raised again, to GBP 610-640M adjusted PBT.",
+    "Screwfix (+6.9% LFL) and marketplace (+36%) are taking share in a down market.",
+    "FCF of about GBP 500M funds an ongoing GBP 300M buyback.",
+    "A recovery in UK and French housing activity would give operating leverage."
+   ],
+   "bear": [
+    "Core B&Q and French banners have negative LFL.",
+    "Home-improvement markets in the UK and France are still declining.",
+    "UK cost inflation (NI, wages) pressures margins.",
+    "Shares fell despite the upgrade, suggesting the good news is priced in."
+   ],
+   "catalysts": [
+    "Q4 and full-year FY26/27 results (March 2027) and FY27/28 guidance.",
+    "Announcement of a new buyback once the GBP 300M programme completes.",
+    "UK housing transactions and interest-rate cuts."
+   ],
+   "statement": "In Q3 FY26/27 (to October 31, 2026, reported November 24), group sales were GBP 3.26B (+1.5% constant currency) and LFL +0.9%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 376.05,
+    "base": 446.68,
+    "bull": 599.29,
+    "base_upside_pct": 19.02,
+    "bull_upside_pct": 59.68
+   },
+   "falsifier": "Core B&Q and French banners have negative LFL."
+  }
+ },
+ "ALLE": {
+  "business": "Allegion makes specification-driven door security hardware and electronic access products (Schlage, Von Duprin, LCN, Steelcraft), mostly for US institutional and commercial buildings.",
+  "happening": "Allegion beat and raised again in Q3 2026. Revenue was USD 1.17B (+9.6%, +7.2% organic), adjusted operating margin 24.7% (+60 bp) and adjusted EPS USD 2.60 (+13%). FY26 guidance was raised to 5-6% organic growth, 9.5-10.5% reported growth and adjusted EPS of USD 9.05-9.10.",
+  "why": "Americas revenue rose 9.1% organically to USD 942M, with non-residential up low double digits and residential up mid single digits. International was -0.2% organic as volume fell. Year-to-date available cash flow was USD 539M (+USD 54M). The company repurchased about USD 120M of stock in Q3 (USD 280M year to date), and acquisitions added 2.6% to revenue.",
+  "risk": "Watch: growth is narrowing to the Americas non-residential business; International volume is declining; steel and zinc input costs and tariffs; the residential housing cycle; and how durable institutional spending is.",
+  "thesis": {
+   "bull": [
+    "Americas non-residential growing low double digits on institutional demand (education, healthcare, data centers).",
+    "Margin expansion to 24.7% and EPS growth of 13%.",
+    "Specification lock-in and aftermarket give recurring-like replacement demand.",
+    "Bolt-on M&A plus about USD 280M of year-to-date buybacks."
+   ],
+   "bear": [
+    "Growth depends on one region and segment (Americas non-residential).",
+    "International organic revenue is flat to down.",
+    "Premium valuation for a mid-single-digit organic grower.",
+    "Tariffs and commodity input cost exposure."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY27 guidance (mid-February 2027).",
+    "US non-residential construction and ABI data.",
+    "Additional electronic-access acquisitions."
+   ],
+   "statement": "Allegion beat and raised again in Q3 2026.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 171.67,
+    "base": 218.0,
+    "bull": 267.35,
+    "base_upside_pct": 13.68,
+    "bull_upside_pct": 39.41
+   },
+   "falsifier": "Growth depends on one region and segment (Americas non-residential)."
+  }
+ },
+ "HOG": {
+  "business": "Harley-Davidson sells heavyweight motorcycles, parts, accessories and apparel through independent dealers, and finances riders and dealers via HDFS. It also controls the listed EV unit LiveWire.",
+  "happening": "New CEO Artie Starrs's Back to the Bricks reset is cutting shipments below retail to clean up the dealer channel. In Q3 2026 HDMC revenue fell 10% to USD 964M on shipments down 8% to 33,616 units, while global retail rose 5% (North America +9%, a fourth straight quarter of growth). Diluted EPS was USD 0.40 versus USD 3.10, because the prior year included a gain on the HDFS receivables sale. Harley raised FY2026 guidance for the second time.",
+  "why": "HDMC gross margin rose 173bp to 28.1% and adjusted EBITDA margin rose to 9.7% from 8.7%. Global dealer inventory fell 26% year on year, and 91% of North America stock is model-year 2026. FY2026 guidance is HDMC retail and shipments of 135.5-139k units, HDMC operating income of USD 25-55M and HDFS operating income of USD 60-70M. Cash was USD 2.1B, and Harley returned USD 110M in Q3 (USD 91M of buybacks).",
+  "risk": "Watch: HDMC operating margin of only 4.6%, EMEA retail down 5%, tariff exposure, LiveWire going-concern doubt and guidance withdrawal, structurally smaller HDFS profits, and whether retail growth holds once dealer restocking ends.",
+  "thesis": {
+   "bull": [
+    "Retail is rising (global +5%, North America +9%) while shipments are cut, so the dealer channel is now clean with inventory down 26%.",
+    "Gross margin up 173bp to 28.1%, so operating leverage as shipments move back up toward retail.",
+    "USD 2.1B cash and an asset-light HDFS fund buybacks (USD 91M in Q3).",
+    "Guidance raised twice in 2026 under the new CEO's reset."
+   ],
+   "bear": [
+    "HDMC operating income guide of only USD 25-55M on about USD 4B of revenue.",
+    "The core buyer is aging, with no proven entry-level or EV answer, and LiveWire is in going-concern doubt.",
+    "HDFS no longer provides a large earnings cushion after the receivables sale.",
+    "Tariff retaliation in the EU and Asia threatens international volumes."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY2027 guidance (early February 2027).",
+    "Spring 2027 riding-season retail and the Sportster reintroduction.",
+    "LiveWire strategic outcome (funding, restructuring or wind-down)."
+   ],
+   "statement": "New CEO Artie Starrs's Back to the Bricks reset is cutting shipments below retail to clean up the dealer channel.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 25.64,
+    "base": 32.59,
+    "bull": 37.91,
+    "base_upside_pct": -7.02,
+    "bull_upside_pct": 8.16
+   },
+   "falsifier": "HDMC operating income guide of only USD 25-55M on about USD 4B of revenue."
+  }
+ },
+ "VLTO": {
+  "business": "Veralto sells water analytics, treatment and chemicals (Hach, Trojan, ChemTreat) and marking, coding and packaging/color tools (Videojet, Esko, Pantone). About 60% of sales are recurring consumables and service.",
+  "happening": "Veralto beat and raised for a third straight quarter. Q3 2026 sales were USD 1.509B (+7.5%; core +5.1%), with Water Quality core +6.4% and PQI core +3.2%. Adjusted operating margin rose 170bp to 25.6% and adjusted EPS rose 19% to USD 1.18. It raised FY2026 adjusted EPS guidance to USD 4.49-4.52.",
+  "why": "Free cash flow was USD 304M (+18%), and FY FCF conversion guidance rose to more than 105% of net earnings. Management cited North American industrial demand from digital infrastructure (data centers) and water reuse. Year to date it spent USD 1.1B on four acquisitions and USD 550M on buybacks (2.4% of shares). Q4 guidance is core growth of 5.5-6.5% and adjusted EPS of USD 1.13-1.16.",
+  "risk": "Watch: Q4 margin flattening to about 24.5% as acquisitions dilute, PQI core growth of only about 3%, municipal funding, and integration of four deals in a single year.",
+  "thesis": {
+   "bull": [
+    "Core growth is accelerating (5.1% in Q3, Q4 guided 5.5-6.5%) with high-recurring consumables mix.",
+    "Margin expansion of 170bp in Q3, with FY margin guided up about 50bp.",
+    "FCF conversion above 105% funds bolt-on M&A plus buybacks at the same time.",
+    "Data center cooling water and water-reuse demand gives a secular tailwind to Water Quality."
+   ],
+   "bear": [
+    "Acquisition dilution flattens Q4 margins and adds integration risk.",
+    "PQI is tied to sluggish CPG volumes.",
+    "The premium multiple of a Danaher-style compounder leaves little room for a miss.",
+    "Municipal spending is exposed to US federal budget cuts."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY2027 guidance (late January / early February 2027).",
+    "Further bolt-on deals in water reuse and UV.",
+    "Data center and industrial water wins at ChemTreat and Hach."
+   ],
+   "statement": "Veralto beat and raised for a third straight quarter.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 84.7,
+    "base": 111.73,
+    "bull": 136.33,
+    "base_upside_pct": -6.93,
+    "bull_upside_pct": 13.55
+   },
+   "falsifier": "Acquisition dilution flattens Q4 margins and adds integration risk."
+  }
+ },
+ "EXLS": {
+  "business": "EXL provides data analytics, AI and digital operations services, mainly to insurers, health plans and banks. Delivery is offshore and contracts are multi-year.",
+  "happening": "Growth accelerated on data and AI. Q3 2026 revenue was USD 634.0M (+19.7%; +6.6% quarter on quarter) and adjusted EPS was USD 0.62 (+28.5%). Data and AI-led revenue (nearly two-thirds of the total) grew 36% (31% organic). FY2026 guidance rose to USD 2.430-2.440B revenue (15% organic constant currency) and adjusted EPS of USD 2.34-2.36.",
+  "why": "Every segment grew double digits: Banking/Capital Markets/Diversified +27%, International Growth Markets +20%, Healthcare & Life Sciences +19%, Insurance +16%. EXL won 14 new clients. The iMerit acquisition closed in Q3, adding a Model Training Solutions practice. Adjusted operating income was USD 122.5M.",
+  "risk": "Watch: adjusted operating margin of 19.3% (down from 19.7% in Q2 and 19.4% a year ago), AI deflation of FTE-based work, iMerit dilution, and the INR.",
+  "thesis": {
+   "bull": [
+    "Revenue growth near 20% with data and AI-led revenue growing 36% puts EXL among the AI winners in IT services.",
+    "Guidance raised to 15% organic constant-currency growth and 20-21% EPS growth.",
+    "iMerit adds exposure to AI model training demand.",
+    "Buybacks and a net cash balance sheet support EPS growth ahead of revenue."
+   ],
+   "bear": [
+    "Margins are not keeping pace with growth (adjusted operating margin 19.3%).",
+    "Agentic AI could compress operations headcount-linked revenue.",
+    "Inorganic contribution flatters growth (36% reported versus 31% organic in data and AI).",
+    "Concentration in US insurance and health plan clients."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY2027 guidance (February 2027).",
+    "Large deal wins for agentic AI (EXLerate.AI).",
+    "iMerit integration and model-training revenue disclosure."
+   ],
+   "statement": "Growth accelerated on data and AI.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 41.19,
+    "base": 58.82,
+    "bull": 104.45,
+    "base_upside_pct": 28.54,
+    "bull_upside_pct": 128.26
+   },
+   "falsifier": "Margins are not keeping pace with growth (adjusted operating margin 19.3%)."
+  }
+ },
+ "HAS": {
+  "business": "Hasbro owns toy and game IP (Nerf, Monopoly, Transformers, Peppa Pig) and Wizards of the Coast (Magic: The Gathering, D&D). Wizards now drives most of the profit.",
+  "happening": "Hasbro reported its fourth straight quarter of double-digit growth. Q3 2026 revenue was USD 1.595B (+15%) and adjusted operating profit USD 541M (+52%, margin 33.9% versus 25.6%), including about USD 55M of tariff refunds. Adjusted EPS was USD 2.90. Wizards revenue rose 31% to USD 747M, with Magic at a record USD 616M (+34%). Hasbro raised FY2026 revenue growth guidance to 7-9% constant currency and adjusted operating margin guidance to 27-28%.",
+  "why": "Wizards operating profit rose 46% to USD 367M on The Hobbit and Reality Fracture sets. Consumer Products revenue grew 4% to USD 828M, with operating profit about doubling to USD 178M (USD 48M of that from tariff refunds). Marvel products grew more than 35%. FY adjusted EBITDA guidance rose to USD 1.575-1.625B, the buyback target doubled, and Hasbro returned USD 206M in Q3.",
+  "risk": "Watch: dependence on Magic set cadence and Universes Beyond crossovers, one-off tariff refunds flattering Q3, holiday toy sell-through, and Monopoly Go! decay.",
+  "thesis": {
+   "bull": [
+    "Magic is a compounding, high-margin franchise (USD 616M quarter, +34%).",
+    "Margin mix shift toward Wizards lifts FY adjusted operating margin to 27-28%.",
+    "Guidance raised on revenue, margin and EBITDA, and the buyback doubled.",
+    "Licensing (USD 417M year to date) and cost savings (USD 105M) add operating leverage."
+   ],
+   "bear": [
+    "Q3 profit was flattered by about USD 55M of one-off tariff refunds.",
+    "Magic sales are lumpy and dependent on set releases, with risk of player fatigue or over-printing.",
+    "The toy segment grew only 4% and remains exposed to tariffs and retailer destocking.",
+    "Tough comps in 2027 after record crossover sets."
+   ],
+   "catalysts": [
+    "Holiday 2026 sell-through and Q4 results (February 2027).",
+    "2027 Magic release slate (Universes Beyond crossovers).",
+    "Capital allocation updates (buyback pace, deleveraging)."
+   ],
+   "statement": "Hasbro reported its fourth straight quarter of double-digit growth.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 95.12,
+    "base": 111.54,
+    "bull": 141.08,
+    "base_upside_pct": 2.25,
+    "bull_upside_pct": 29.32
+   },
+   "falsifier": "Q3 profit was flattered by about USD 55M of one-off tariff refunds."
+  }
+ },
+ "BSY": {
+  "business": "Bentley sells subscription engineering software (MicroStation, OpenRoads, Seequent, iTwin, Cesium) for designing and operating infrastructure.",
+  "happening": "ARR growth accelerated for a second straight quarter. Q3 2026 revenue was USD 421.5M (+12.2%) and subscriptions USD 386.8M (+12.4%). ARR reached USD 1.583B (+13% constant currency) and net retention rose to 110%. Bentley raised FY2026 constant-currency ARR growth guidance (ex-Cohesive) to 12.5-13.5%.",
+  "why": "Margin (AOI less operating SBC) jumped to 32.1% from 28.1%, and GAAP operating margin to 29.1% from 22.5%. Adjusted EPS was USD 0.36 versus USD 0.27. Free cash flow was USD 101M (versus USD 111M). Buybacks were USD 135M over nine months, versus USD 65M a year earlier. Bentley completed the Cohesive divestiture and the programmatic Eliis acquisition.",
+  "risk": "Watch: the stock rallied 44% before the report, which raises the bar. Also watch US infrastructure funding beyond IIJA, slightly lower Q3 FCF, and Autodesk competition.",
+  "thesis": {
+   "bull": [
+    "ARR growth accelerating to 13% with net retention of 110%.",
+    "Margin up 400bp year on year to 32.1%, showing operating leverage.",
+    "Infrastructure and data center/grid build-outs plus engineering labor shortages favor consumption-based software.",
+    "Rising buybacks (USD 135M year to date)."
+   ],
+   "bear": [
+    "A 44% pre-report rally leaves the valuation stretched.",
+    "US funding cliff when the IIJA expires after FY2026.",
+    "FCF dipped year on year in Q3.",
+    "Family dual-class control limits governance influence."
+   ],
+   "catalysts": [
+    "Q4 2026 results and FY2027 ARR guidance (February 2027).",
+    "US surface transportation reauthorization bill.",
+    "AI and iTwin/Cesium monetization updates."
+   ],
+   "statement": "ARR growth accelerated for a second straight quarter.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 27.96,
+    "base": 41.37,
+    "bull": 70.31,
+    "base_upside_pct": -4.61,
+    "bull_upside_pct": 62.11
+   },
+   "falsifier": "A 44% pre-report rally leaves the valuation stretched."
+  }
+ },
+ "LONN.SW": {
+  "business": "Lonza is a Swiss pure-play CDMO manufacturing biologics, ADCs, small molecules and cell and gene therapies for pharma under long-term contracts. It is selling Capsules & Health Ingredients.",
+  "happening": "At its 14 October 2026 Capital Markets Day (Vacaville), Lonza said Q3 was in line with expectations across all platforms. It reiterated FY2026 guidance of 11-12% CER sales growth and a 33-34% CORE EBITDA margin. It upgraded mid-term ambitions to low-teens (10-13%) organic CER growth, a high-30s CORE EBITDA margin and ROIC of 2-3x WACC. The shares rose 1.9% to CHF 577.",
+  "why": "H1 2026 continuing sales were CHF 3.4B (+16.0% CER) and CORE EBITDA CHF 1.2B (+27%), a 34.8% margin (+4.4pp). By platform: Advanced Synthesis +27.7% (margin 48.1%), Specialized Modalities +22.6% (margin 28.0%, +10.7pp) and Integrated Biologics +10.0% (margin 36.0%). The CHF 2.3B sale of CHI to Lone Star is due to close by year-end and funds a CHF 500M expedited buyback. Lonza also signed an expanded long-term US mammalian collaboration and a new Stein ADC fill line.",
+  "risk": "Watch: H2 moderation in Advanced Synthesis growth and margin, flat Vacaville sales in 2026, the CHF FX headwind (-2% to -3%), CapEx intensity, and Samsung Biologics capacity additions.",
+  "thesis": {
+   "bull": [
+    "The mid-term model was upgraded to 10-13% organic growth and a high-30s margin.",
+    "Margin is expanding fast (H1 CORE EBITDA margin up 4.4pp to 34.8%).",
+    "BIOSECURE and onshoring favor Lonza's US capacity (Vacaville, Portsmouth).",
+    "CHI sale proceeds fund a CHF 500M buyback."
+   ],
+   "bear": [
+    "H1 benefited from favorable phasing, and Advanced Synthesis is guided to moderate in H2.",
+    "Vacaville is not yet growing (flat 2026 sales).",
+    "A strong CHF erodes reported growth.",
+    "Heavy CapEx and capacity build-out by Samsung and Fujifilm could pressure pricing."
+   ],
+   "catalysts": [
+    "CHI sale closing and CHF 500M buyback launch (by year-end 2026).",
+    "FY2026 results and 2027 guidance (late January 2027).",
+    "New Vacaville and ADC customer contract announcements."
+   ],
+   "statement": "At its 14 October 2026 Capital Markets Day (Vacaville), Lonza said Q3 was in line with expectations across all platforms.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 442.55,
+    "base": 563.28,
+    "bull": 715.51,
+    "base_upside_pct": -16.13,
+    "bull_upside_pct": 6.54
+   },
+   "falsifier": "H1 benefited from favorable phasing, and Advanced Synthesis is guided to moderate in H2."
+  }
+ },
+ "MTD": {
+  "business": "Mettler-Toledo makes lab balances and analytical instruments, industrial weighing, product inspection and retail scales, with large service and consumables revenue.",
+  "happening": "Q3 2026 sales were USD 1.094B (+6% reported and in local currency), with Asia/Rest of World +14% local currency, Americas +3% and Europe +2%. Adjusted EPS was USD 12.57 (+13%) and adjusted operating margin 30.5% (+40bp). FY2026 adjusted EPS guidance was raised to USD 47.70-47.90 (about +12%), and the initial 2027 outlook is about 5% local-currency growth and USD 52.50-53.50 EPS.",
+  "why": "Gross margin rose to 59.8% from 59.2% and adjusted FCF was USD 285M. Buybacks were USD 226M in Q3 (USD 639M year to date). Q4 guidance is about 5% local-currency growth and USD 14.84-15.04 EPS (+11-13%). Q2 included a USD 52M one-off IEEPA tariff refund that is excluded from adjusted results.",
+  "risk": "Watch: Americas growth of only 3% and flat reported Europe, China sustainability within Asia, tariff noise, and lab capex sensitivity to pharma and academic funding.",
+  "thesis": {
+   "bull": [
+    "Steady double-digit EPS growth (FY2026 about +12%, 2027 guided +10-12%) from roughly 5% sales growth.",
+    "Margin expansion with gross margin of 59.8%.",
+    "Heavy buybacks (about USD 850M per year).",
+    "Asia/RoW recovery at +14% local currency."
+   ],
+   "bear": [
+    "Only about 5% top-line growth for a premium multiple.",
+    "Americas and Europe are soft (+3% and +2%).",
+    "Tariff refunds and one-offs muddy earnings quality.",
+    "Lab exposure to US academic and government budget cuts."
+   ],
+   "catalysts": [
+    "Q4 2026 results (early February 2027) against the USD 14.84-15.04 EPS guide.",
+    "Pharma and biopharma lab capex recovery.",
+    "US tariff and IEEPA legal developments."
+   ],
+   "statement": "Q3 2026 sales were USD 1.094B (+6% reported and in local currency), with Asia/Rest of World +14% local currency, Americas +3% and Europe +2%.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 937.98,
+    "base": 1233.24,
+    "bull": 1513.35,
+    "base_upside_pct": -26.61,
+    "bull_upside_pct": -9.95
+   },
+   "falsifier": "Only about 5% top-line growth for a premium multiple."
+  }
+ },
+ "EXEL": {
+  "business": "Exelixis is an oncology biotech monetizing CABOMETYX (cabozantinib) in the US plus Ipsen and Takeda royalties, and developing zanzalintinib as its successor.",
+  "happening": "Exelixis posted its fifth straight EPS beat. Q3 2026 total revenue was USD 659M (consensus USD 649M) and CABOMETYX US net revenue USD 603M, up on volume and net price. Non-GAAP EPS was USD 0.94 versus USD 0.90 expected. FY2026 revenue guidance of USD 2.50-2.55B was held, and the tax-rate guide was cut to 16-18%.",
+  "why": "Buybacks were USD 402M. The Federal Circuit affirmed the cabozantinib patents, so MSN generic entry is not expected before 15 January 2030. The zanzalintinib PDUFA date is 3 March 2027 in previously treated colorectal cancer, and STELLAR-304 (non-clear cell RCC) topline data are due Q1 2027. Guidance excludes any zanzalintinib revenue.",
+  "risk": "Watch: the zanzalintinib FDA decision and label, STELLAR-304 data, IRA price negotiation for CABOMETYX, and single-asset dependence ahead of the 2030 cliff.",
+  "thesis": {
+   "bull": [
+    "CABOMETYX keeps growing on volume and price, with patents secure to 2030.",
+    "Zanzalintinib approval in colorectal cancer (PDUFA 3 March 2027) would open a new franchise.",
+    "Aggressive buybacks (USD 402M in the quarter) and a lower tax rate support EPS.",
+    "Multiple STELLAR readouts in 2027 could widen zanzalintinib's label."
+   ],
+   "bear": [
+    "Single-product dependence with a 2030 generic cliff.",
+    "Zanzalintinib's colorectal benefit is modest and commercial uptake is uncertain.",
+    "FY revenue guidance was held rather than raised despite the beat.",
+    "IRA Medicare negotiation could cut net price."
+   ],
+   "catalysts": [
+    "Zanzalintinib PDUFA on 3 March 2027 (colorectal cancer).",
+    "STELLAR-304 topline data in Q1 2027.",
+    "FY2027 guidance in February 2027."
+   ],
+   "statement": "Exelixis posted its fifth straight EPS beat.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 57.07,
+    "base": 73.5,
+    "bull": 95.94,
+    "base_upside_pct": 8.71,
+    "bull_upside_pct": 41.9
+   },
+   "falsifier": "Single-product dependence with a 2030 generic cliff."
+  }
+ },
+ "VTRS": {
+  "business": "Viatris sells off-patent brands, generics and new specialty drugs globally, with Greater China a key brand market. It is acquiring Pacira BioSciences.",
+  "happening": "Q3 2026 revenue was flat at USD 3.75B, with the Nashik plant shutdown costing about USD 100M. Adjusted EPS rose 6% to USD 0.71 (fifth straight beat) and adjusted EBITDA rose 4% to USD 1.20B. The GAAP net loss was USD 325M on taxes. FY2026 guidance midpoints rose: revenue USD 14.8B, adjusted EPS USD 2.60 and FCF ex-costs USD 2.3B. The Pacira deal (USD 36.50 per share, about USD 1.65B) is set to close by end-November 2026.",
+  "why": "Greater China grew 14% (+10% operational) to USD 703M, while Developed Markets fell 2%, Emerging Markets 7% and JANZ 6%. New product revenue was about USD 115M in Q3, and the FY target was raised to about USD 450M on approvals including RYZUMVI (presbyopia) and WAKIX (Japan). Q3 FCF was USD 814M (USD 895M ex-costs), with USD 717M returned year to date and gross leverage at 2.9x.",
+  "risk": "Watch: Nashik remediation (FDA OAI, restart in Q1 2027, about USD 100M hit again in Q4), generic erosion in Developed Markets and JANZ, Pacira integration, and China procurement policy.",
+  "thesis": {
+   "bull": [
+    "Strong FCF of about USD 2.3B per year against a low equity value supports buybacks and the dividend.",
+    "New product launches (about USD 450M in 2026) and Pacira shift the mix toward specialty growth.",
+    "Greater China growth of 14% offsets erosion elsewhere.",
+    "Guidance midpoints raised despite the Nashik hit."
+   ],
+   "bear": [
+    "Top line is flat to declining outside China.",
+    "An FDA OAI at Nashik signals quality-system risk across the Indian manufacturing network.",
+    "The Pacira deal adds integration risk and US pain-market exposure.",
+    "Generic pricing pressure is structural."
+   ],
+   "catalysts": [
+    "Pacira close and synergy plan (late November / December 2026).",
+    "Nashik reinspection and production restart (Q1 2027).",
+    "Fast-acting meloxicam approval and the FY2027 outlook (February 2027)."
+   ],
+   "statement": "Q3 2026 revenue was flat at USD 3.75B, with the Nashik plant shutdown costing about USD 100M.",
+   "conviction": "Medium",
+   "target": {
+    "bear": 25.34,
+    "base": 34.01,
+    "bull": 41.5,
+    "base_upside_pct": 68.39,
+    "bull_upside_pct": 105.44
+   },
+   "falsifier": "Top line is flat to declining outside China."
   }
  }
 }
